@@ -58,7 +58,7 @@ During this project, we will address several research questions regarding impact
 
 - Is the main axis (before/after Onymous) interesting enough ? Or should we choose something else ?\
 - Is our subject focused enough or should we refocus the study ?
-
+- Is it possible to make the dataset available on the cluster ? (51GB compressed)
 # References
 - 'Dark Net Market archives, 2011-2015'
         - Gwern Branwen and al.,
