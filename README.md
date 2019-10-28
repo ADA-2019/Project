@@ -1,4 +1,4 @@
-# A Deep Analysis of the DeepWeb Evolution
+# A Deep Analysis of the law enforcement impact on the DarkMarkets
 
 # Abstract
 Since its first appearance in 2009, the term "Deep Web" has designated the non-indexed parts of the _World Wide Web_, that is by standard search engine. Using the development of a _FOSS_ anonymity network software called _TOR_ , a whole digital world was born and has been growing ever since. Making the best out of the anonymity that is provided to them, _TOR_ users have, over the time, developed complex infrastructure in this _Deep Web_ to make the discussion, the advertisement and the purchase of any service or item that would be deemed illegal by local authorities, accessible to all.
@@ -29,17 +29,30 @@ During this project, we will address several research questions regarding impact
 
 # A list of internal milestones up until project milestone 2
   - #### Nov 10th
-  Choose the data archives that fits the subject. Clean the dataset. Produce a restricted dataset adapted for the project topic
+  Choose the data archives that fits the subject. Produce a restricted dataset adapted for the project topic
   - #### Nov 17th
-  Create DatFrames, ParseHTML, Exploit data.
+  Create DatFrames, ParseHTML, Clean the dataset.
   - #### Nov 23th
-  Create plots.
-  - ### Nov 25th DEADLINE
+  Exploit data, Analyse and create plots.
+
+  ***
+  - #### Nov 25th DEADLINE
   Finalize Notebook for submission.
+  ***
+
+  - #### Dec 2th
+  Depht analysis of the data.
+  Answer research questions.
+  - #### Dec 9th
+  Create meaningful vizualisation for the results.
+  Put all together in a beautiful data story.
   - #### Dec 17th
-  Finish producing content for the report.
-  - ### Dec 20th DEADLINE
-  Finalize report for submission.
+  Finish producing content for the data story.
+
+  ***
+  - #### Dec 20th DEADLINE
+  Finalize the data story for submission.
+  ***
 
 # Questions for TAa
 
