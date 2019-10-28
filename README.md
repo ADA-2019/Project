@@ -18,7 +18,14 @@ A list of research questions you would like to address during the project.
 
 
 # A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
+  - #### Nov 10th
+  - #### Nov 17th
+  - #### Nov 25th
+  Finalize Notebook for submission.
+  - #### Dec 17th
+  Finish producing content for the report.
+  - #### Dec 20th
+  Finalize report for submission.
 
 # Questions for TAa
 Add here some questions you have for us, in general or project-specific.
