@@ -56,6 +56,7 @@ During this project, we will address several research questions regarding impact
 
 # Questions for TAa
 
+- Is the main axis (before/after Onymous) interesting enough ? Or should we choose something else ?\
 - Is our subject focused enough or should we refocus the study ?
 
 # References
