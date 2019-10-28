@@ -19,6 +19,7 @@ A list of research questions you would like to address during the project.
 
 # A list of internal milestones up until project milestone 2
   - #### Nov 10th
+  Clean the dataset and extract a restricted dataset adapted for the project topic
   - #### Nov 17th
   - ### Nov 25th DEADLINE
   Finalize Notebook for submission.
