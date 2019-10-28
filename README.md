@@ -20,11 +20,11 @@ A list of research questions you would like to address during the project.
 # A list of internal milestones up until project milestone 2
   - #### Nov 10th
   - #### Nov 17th
-  - #### Nov 25th
+  - ### Nov 25th DEADLINE
   Finalize Notebook for submission.
   - #### Dec 17th
   Finish producing content for the report.
-  - #### Dec 20th
+  - ### Dec 20th DEADLINE
   Finalize report for submission.
 
 # Questions for TAa
