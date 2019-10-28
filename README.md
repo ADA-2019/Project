@@ -13,9 +13,11 @@ A list of research questions you would like to address during the project.
 
   - ##### Description
   The archive contains mostly scrapped _html_ pages from the many marketplaces, forums and other services (e.g. _Grams_ search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of _html_ pages). All the directories are compressed using `tar.gz` compression. The whole archive is about `60 GiB` when compressed and estimated to be about `1TiB` completely uncompressed.
-  - ##### Data Management and Processing
-  Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data
-
+  - ##### Data Management and Parsing
+  Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data. Extracted data will most likely be placed into several `Pandas DataFrame` before being processed.
+  - ##### Data Enrichment and Processing
+  Using online resources
+List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
 
 # A list of internal milestones up until project milestone 2
   - #### Nov 10th
@@ -33,3 +35,21 @@ A list of research questions you would like to address during the project.
 
 # Questions for TAa
 Add here some questions you have for us, in general or project-specific.
+
+
+
+# References
+- 'Dark Net Market archives, 2011-2015'
+        - Gwern Branwen and al.,
+        - 2015,
+        - https://www.gwern.net/DNM-archives
+
+- 'The Dark Net: De-Anonymization, Classification and Analysis'
+        - Rebecca Portnoff
+        - 2018
+        - http://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2018-5.pdf
+
+- 'Tools for Automated Analysis of Cybercriminal Markets'
+                - Rebecca Portnoff and al.
+                - 2017
+                - http://damonmccoy.com/papers/cyberforum-analysis-www17.pdf
