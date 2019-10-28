@@ -6,7 +6,11 @@ Since its first appearance in 2009, the term "Deep Web" has designated the non-i
 However, if the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. - the archive explored in the scope of this Project is as vast as the web is Deep. This Project will try to get an overview of its content and extract some meaning from it, understand what this data says about the people behind such services, and those using it.
 
 # Research questions
-A list of research questions you would like to address during the project.
+ - impact of Operation Onymous ?
+    - Did the market spread ?
+    - Did the traffic volume went down ?
+    - What about the number of connections ?
+    - .....
 
 # Dataset
 ###  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
@@ -35,7 +39,7 @@ List the dataset(s) you want to use, and some ideas on how do you expect to get,
 
 # Questions for TAa
 Add here some questions you have for us, in general or project-specific.
-
+- Is our subject focused enough or should we refocus the study ?
 
 
 # References
