@@ -5,17 +5,17 @@ Since its first appearance in 2009, the term "Deep Web" has designated the non-i
 
 With this new kind of distribution,  law enforcement had to adapt in order to regulate these illicit markets. On 5 and 6 November 2014 an international law enforcement operation targeting darknet markets and other hidden services operating on the Tor network was launch, **Operation Onymous**, the operation involved the police forces of 17 countries, more than 400 site were closed and 17 arrests were made.
 
-If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as **Operation Onymous** on the darknet uses. 
+If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as **Operation Onymous** on the darknet uses.
 
 # Research questions
-During this project, we will address several research questions regarding impact of **Operation Onymous** on the darknet: 
+During this project, we will address several research questions regarding impact of **Operation Onymous** on the darknet:
 * Did the market spread ?
 * Did the traffic volume went down ?
 * What about the number of connections ?
 * Does vendors change their selling habits ?
-* Does customers stop buying ? 
-* Is there any trends in the forum during this kind of intervention ? 
-* Does prices increase ? 
+* Does customers stop buying ?
+* Is there any trends in the forum during this kind of intervention ?
+* Does prices increase ?
 
 # Dataset
 ###  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
@@ -57,3 +57,19 @@ During this project, we will address several research questions regarding impact
 # Questions for TAa
 
 - Is our subject focused enough or should we refocus the study ?
+
+# References
+- 'Dark Net Market archives, 2011-2015'
+        - Gwern Branwen and al.,
+        - 2015,
+        - https://www.gwern.net/DNM-archives
+
+- 'The Dark Net: De-Anonymization, Classification and Analysis'
+        - Rebecca Portnoff
+        - 2018
+        - http://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2018-5.pdf
+
+- 'Tools for Automated Analysis of Cybercriminal Markets'
+                - Rebecca Portnoff and al.
+                - 2017
+                - http://damonmccoy.com/papers/cyberforum-analysis-www17.pdf
