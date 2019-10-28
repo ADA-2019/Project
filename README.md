@@ -8,21 +8,24 @@ With this new kind of distribution,  law enforcement had to adapt in order to re
 If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as **Operation Onymous** on the darknet uses. 
 
 # Research questions
-During this project, we will address several research questions regarding the police interventions on the darknet: 
+During this project, we will address several research questions regarding impact of **Operation Onymous** on the darknet: 
+* Did the market spread ?
+* Did the traffic volume went down ?
+* What about the number of connections ?
 * Does vendors change their selling habits ?
 * Does customers stop buying ? 
 * Is there any trends in the forum during this kind of intervention ? 
 * Does prices increase ? 
-* New sites emergence ? 
 
 # Dataset
 ###  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
 
   - ##### Description
   The archive contains mostly scrapped _html_ pages from the many marketplaces, forums and other services (e.g. _Grams_ search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of _html_ pages). All the directories are compressed using `tar.gz` compression. The whole archive is about `60 GiB` when compressed and estimated to be about `1TiB` completely uncompressed.
-  - ##### Data Management and Processing
-  Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data
-
+  - ##### Data Management and Parsing
+  Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data. Extracted data will most likely be placed into several `Pandas DataFrame` before being processed.
+  - ##### Data Enrichment and Processing
+  Using online resources
 
 # A list of internal milestones up until project milestone 2
   - #### Nov 10th
@@ -39,4 +42,5 @@ During this project, we will address several research questions regarding the po
   Finalize report for submission.
 
 # Questions for TAa
-Add here some questions you have for us, in general or project-specific.
+
+- Is our subject focused enough or should we refocus the study ?
