@@ -9,12 +9,13 @@ However, if the anonymity factor remains intact, tools have been developed to sc
 A list of research questions you would like to address during the project.
 
 # Dataset
-### _DN Archives (2013-2015)_
+###  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
+
   - ##### Description
   The archive contains mostly scrapped _html_ pages from the many marketplaces, forums and other services (e.g. _Grams_ search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of _html_ pages). All the directories are compressed using `tar.gz` compression. The whole archive is about `60 GiB` when compressed and estimated to be about `1TiB` completely uncompressed.
   - ##### Data Management and Processing
-  Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data 
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
+  Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data
+
 
 # A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.
