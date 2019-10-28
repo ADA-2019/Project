@@ -12,10 +12,10 @@ During this project, we will address several research questions regarding impact
 * Did the market spread ?
 * Did the traffic volume went down ?
 * What about the number of connections ?
-* Does vendors change their selling habits ?
-* Does customers stop buying ?
-* Is there any trends in the forum during this kind of intervention ?
-* Does prices increase ?
+* Did vendors change their selling habits ?
+* Did customers stop buying ?
+* Were there any trends in the forums during this kind of intervention ?
+* Did prices increase ?
 
 # Dataset
 ###  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
@@ -73,4 +73,9 @@ During this project, we will address several research questions regarding impact
 - 'Tools for Automated Analysis of Cybercriminal Markets'
                 - Rebecca Portnoff and al.
                 - 2017
+                - http://damonmccoy.com/papers/cyberforum-analysis-www17.pdf
+
+- 'Do police crackdowns disrupt drug cryptomarkets? A longitudinal analysis of the effects of Operation Onymous'
+                - Décary-Hétu and Giommoni
+                - 2016
                 - http://damonmccoy.com/papers/cyberforum-analysis-www17.pdf
