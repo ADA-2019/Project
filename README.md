@@ -19,8 +19,11 @@ A list of research questions you would like to address during the project.
 
 # A list of internal milestones up until project milestone 2
   - #### Nov 10th
-  Clean the dataset and extract a restricted dataset adapted for the project topic
+  Choose the data archives that fits the subject. Clean the dataset. Produce a restricted dataset adapted for the project topic
   - #### Nov 17th
+  Create DatFrames, ParseHTML, Exploit data.
+  - #### Nov 23th
+  Create plots.
   - ### Nov 25th DEADLINE
   Finalize Notebook for submission.
   - #### Dec 17th
