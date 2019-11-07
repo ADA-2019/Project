@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>DrugsDirect</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.50 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>DrugsDirect</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            --==[DRUGSDIRECT]==--<br/><br/>1. Based in EU, ships worldwide. <br/><br/>2. Supplier of Ephedrine, stimulant/ weight loss agent. <br/><br/>3. Fast shipping! <br/><br/><br/>1st Apr 2014: <br/>We have started selling (Great day to start selling eh?). Currently offering 20% off for our new customers.<br/><br/><br/><br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.19 (Darwin)<br/>Comment: GPGTools - http://gpgtools.org<br/><br/>mQENBFM6r0UBCADO4s+72PYgU01qmSQTZmayzaRQRqJuAJGjAPddQ6oGcKfdX9fo<br/>HGSPy4LQX8uoHBLdfcCEWk2wexBmvNB5v8FeKigXeSE/d77IsuMidHGwQem87RQQ<br/>a91QXOC/lWYsvT8J6kqWL2nD9/q3PtY9eYVfG79AZa9kAV2EAhI7frVj19xFdPeR<br/>9Jn31huXfzNpusfVJU/3O7gc6DbifjyjnZivvKvtDfsdOYG/EW/Tk+NYT21YtUMO<br/>LucB+396j3fYcLvsf5ojIraq8q3Xv6F3TzAp3XmMuWEacnEaXZty4eqomsIKW9Q2<br/>agdXoISnyCFhcNKPExyR4DLJ2/e6Qrotk2WPABEBAAG0E0REaXJlY3QgPGRkQGRk<br/>LmNvbT6JAT0EEwEKACcFAlM6r0UCGy8FCQeGH4AFCwkIBwMFFQoJCAsFFgIDAQAC<br/>HgECF4AACgkQAevnlNQ8F0Fy9Af+ObKR5OgvHbVsKzQgGez1R6OEgujOtYKwD1RI<br/>irY3ioo+4fRP8wnw+f+Y9MXnR7MdC3Bgof05+5B8l7wJOmlu5WBdmX2KKHJRzWpW<br/>5Ho5NCA2MZzXt7vFMqCFmmmJkdKLV0xF5Yfsw3/ya/GhcEM694U0t5YNK2AlHEyo<br/>KAJpqrPBzEXUU7AmH6+A+YKxitKGS7Q44X/CtNaVaXME1TT8wZ5yEEDa8T+9bfxi<br/>7QbSHqLZxCfxUU5AX7V2hj/n4p47z9SIYkp4pvJE5TfBX4ZbGw7wMpXmaqOGDWda<br/>PE7AFC7tDpkUDaXkhSb9lZqS9g69w1CI2f2GUHRn6fgOZVXMELkBDQRTOq9FAQgA<br/>2elE8IDOU94scKtl31z4JIGWlHTOF6cdeRxjeviIukIDTWz73HJb2XUz9pX+yAGy<br/>yPLIBKa+r0v2/6zGghAVgaSY9aW337aEfnvjFZf9kw82vjyrKFgXIpNqBYt/5shq<br/>0g5SDCHeesIlb6ifI5j5fm9706JWhCyjkH2VQxNyoWK3Q8dComXj2Eafwm1mkKBJ<br/>zOPcpAyoAXYQg4vRFUbUSvQ1qD3lsz/BWX2hl+3nvgZhYeJgEZqQ8VPJILtHMwFQ<br/>Cz7oXl/ZCpaSvLB/OGR1f4QOzlONcLgAbCZ/WYcCrDWNW2IbrFbqcLZBUlFyzh7n<br/>uM1wYwhXNXvPcW/1wPeUsQARAQABiQJEBBgBCgAPBQJTOq9FAhsuBQkHhh+AASkJ<br/>EAHr55TUPBdBwF0gBBkBCgAGBQJTOq9FAAoJEI/5Ob+o+tmHHfsIAIkQ7VKk43z/<br/>2kku0iyI4I4T6BC27qsJb7OKBZ/4xTgTKKcLchyN0ECrf+/uQAHPXdbAuVL8FWTF<br/>0HzuaqWGJiDQPt6V+UKLVbiZACSpDzAA70GK6tU3NUxbHfWsrOiefkeL/62AlTPf<br/>Jyj7TR9Hnp5gkMb6quWp67MHqATxuoBqx359hFPNKI3dGEaIq8McXXnLyp4A8qUJ<br/>nZD4KXFhfb2BNoS9n5bka9poVHUDXQfj9yW0Mx/etIVyBkJkbDhSElDUNp0pbNtT<br/>PMwacDJo8OaBOTp0Ihi0+Zwo516vvpH0osO5N3jG4hOX82tq+K19Hx7kgXM31I7I<br/>2sAbjRioj09AOQf/bOs4La+rqeNbE223Y75hWLYoRUejEayWJxvkDu5KWJCUMU/X<br/>x9OErT4ALWloJEHP9chTwXZmM9NmHdePKGrb9M24fFVsgxF0I74GGoT5gZY1vq1W<br/>0gDaj635LNT/kj0lqMZQatBLVFiSs7R5QgEd7wQ/hztFFjXBnkmVXkrOIcYycKDm<br/>65iDwoWg8emb/P4YnAIfOTtIgU8y1xbStsyEM0J/5Spgv1TVNabuxsh0pTPP6Z3i<br/>xEGfWwqXe1I+EKeoXEgQIH3q1I2O3wiE4ZA+mVVPUtt9lvQSUKwyYX4Psy9Nzmx6<br/>H6HSWWybvJGHwpPKpyL/gRLxSUmziYzvTjgRoQ==<br/>=QOYC<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of DrugsDirect:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pgfU60RWxl.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pgfU60RWxl">Ephedrine - 100 * 30mg [20% DISCOUNT PRICE!]</a><br/>
+                    <span class="description-preview">Ephedrine - 100 * 30mg Pills
+
+Great for weight loss!
+
+Ephedrine is a stimulant that gives a rush of energy, suppresses appetite and can be used as a fat burner. 
+
+Please check other listings fo ...</span>
+                </td>
+                <td>0.12074643 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nc6M9Fidys.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nc6M9Fidys">Ephedrine - 500 * 30mg [20% DISCOUNT PRICE!]</a><br/>
+                    <span class="description-preview">Ephedrine - 500 * 30mg Pills
+
+Great for weight loss!
+
+Ephedrine is a stimulant that gives a rush of energy, suppresses appetite and can be used as a fat burner. 
+
+Please check other listings fo ...</span>
+                </td>
+                <td>0.43688254 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RUXR8oFvUt.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RUXR8oFvUt">Ephedrine - 100 * 30mg [20% DISCOUNT PRICE!]</a><br/>
+                    <span class="description-preview">Ephedrine - 100 * 30mg Pills
+
+Great for weight loss!
+
+Ephedrine is a stimulant that gives a rush of energy, suppresses appetite and can be used as a fat burner. 
+
+Please check other listings fo ...</span>
+                </td>
+                <td>0.12074643 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lLbDPvAn6x.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lLbDPvAn6x">Ephedrine - 1000 * 30mg [20% DISCOUNT PRICE!]</a><br/>
+                    <span class="description-preview">Ephedrine - 1000 * 30mg Pills
+
+Great for weight loss!
+
+Ephedrine is a stimulant that gives a rush of energy, suppresses appetite and can be used as a fat burner. 
+
+Please check other listings f ...</span>
+                </td>
+                <td>0.76619099 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lRhTkYt9fR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lRhTkYt9fR">Ephedrine - 1000 * 30mg [20% DISCOUNT PRICE!]</a><br/>
+                    <span class="description-preview">Ephedrine - 1000 * 30mg Pills
+
+Great for weight loss!
+
+Ephedrine is a stimulant that gives a rush of energy, suppresses appetite and can be used as a fat burner. 
+
+Please check other listings f ...</span>
+                </td>
+                <td>0.76619099 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/v4gaLAahBf.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/v4gaLAahBf">Ephedrine - 500 * 30mg [20% DISCOUNT PRICE!]</a><br/>
+                    <span class="description-preview">Ephedrine - 500 * 30mg Pills
+
+Great for weight loss!
+
+Ephedrine is a stimulant that gives a rush of energy, suppresses appetite and can be used as a fat burner. 
+
+Please check other listings fo ...</span>
+                </td>
+                <td>0.43688254 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="DrugsDirect" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to DrugsDirect</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'DrugsDirect'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

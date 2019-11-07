@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Prescription</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/vheN9d2mMr">Drugs</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/AwtLFhnFK8">Prescription</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/TWNyxXZkBs">Barbiturates<span class="extra-caption"> (9)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/Pz5LeFySK1">Benzos<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VS5XwFcJBY">Cannabis<span class="extra-caption"> (2100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/ozqqY2Y2Ty">Dissociatives<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PNxGgs0s1p">Ecstasy<span class="extra-caption"> (1000+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/k0KFljwdDe">Opioids<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PTixSEoFoF">Other<span class="extra-caption"> (200+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/AwtLFhnFK8">Prescription<span class="extra-caption"> (600+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/xgBPEmdDdF">Psychedelics<span class="extra-caption"> (900+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/Knh0WBDhKp">RCs<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/LWREMrNk1U">Steroids<span class="extra-caption"> (300+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/ZukwGLuEcu">Stimulants<span class="extra-caption"> (1000+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VbYkVyY0R9">Weight loss<span class="extra-caption"> (40+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/AwtLFhnFK8/5" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/3"> 3 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/4"> 4 </a>
+        
+            <a class="page-link current-page" href="/cat/AwtLFhnFK8/5"> 5 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/6"> 6 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/7"> 7 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/8"> 8 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/9"> 9 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/10"> 10 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/11"> 11 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/12"> 12 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/13"> 13 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/14"> 14 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/15"> 15 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/16"> 16 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/17"> 17 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/18"> 18 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/19"> 19 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/20"> 20 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/21"> 21 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/22"> 22 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/23"> 23 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/V06h8tFTX5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/V06h8tFTX5">(50) Norco 10/325 Hydrocodone - Watson Brand</a><br/>
+                    <span class="description-preview">* * * * PLEASE READ MY ENTIRE PROFILE PAGE BEFORE ORDERING OR MESSAGING ME! * * * *
+
+This listing is for FIFTY (50) Norco 10/325 Hydrocodone Pill. Norco contains a combination of acetaminophen and  ...</span>
+                </td>
+                <td>0.89560439 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/PureFireMeds#"/>PureFireMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.871/5, 500~1000 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Wo2XgmGji4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Wo2XgmGji4">10mg FRESH NOVARTIS RITALIN</a><br/>
+                    <span class="description-preview">New Agora Vendor Special
+Stay in escrow FE not required.
+Ships from: Outside of USA
+Ships to: Worldwide
+Tracking: Not Available
+Inventory: 100%
+Shipping time: 3-8 weeks depending on location
+D ...</span>
+                </td>
+                <td>0.01096703 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/tonymontana#"/>tonymontana</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rNWtSbReUT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rNWtSbReUT">Rivotril 2 MG (100 Pills)</a><br/>
+                    <span class="description-preview">Rivotril belongs to a class of drugs known as benzodiazepines. Rivotril is used alone or along with other medications to treat convulsive disorders such as epilepsy. Clonazepam is metabolized by the  ...</span>
+                </td>
+                <td>0.24175824 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/M42xi35dCg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/M42xi35dCg">Valium (Roche) 10 MG (1000 Pills)</a><br/>
+                    <span class="description-preview">Valium (diazepam) is a benzodiazepine (ben-zoe-dye-AZE-eh-peens). Diazepam affects chemicals in the brain that may become unbalanced and cause anxiety.
+Valium is used to treat anxiety disorders, alc ...</span>
+                </td>
+                <td>2.19780219 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FrJeVshEWY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FrJeVshEWY">Warfarin (Golden State) 5mg x 5</a><br/>
+                    <span class="description-preview">If you need it...we got it!</span>
+                </td>
+                <td>0.01098901 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/ritex#"/>ritex</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.44/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/KCYfugg40B.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/KCYfugg40B">30 Inderall (Propanolol) 80mg</a><br/>
+                    <span class="description-preview">This listing is for 30 high dose Inderall (Propanolol)
+
+each dose is 80mg
+
+Inderal (propranolol) is a beta-blocker. Beta-blockers affect the heart and circulation (blood flow through arteries and ...</span>
+                </td>
+                <td>0.17582417 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Althea#"/>Althea</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ngAwVnZq6Y.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ngAwVnZq6Y">Genuine Aspen 5mg Endone (Oxycodone) Tablet</a><br/>
+                    <span class="description-preview">Hey Guys
+
+We are ADC formally known as Aus Drugs Connect on SMP and TMP before those site went down, we were also a seller on the original SR but under a different name, been on a small hiatus due  ...</span>
+                </td>
+                <td>0.01978021 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/TheADC#"/>TheADC</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nR6WT7fotR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nR6WT7fotR">Oxycodone 30MG   &quot;V 48/12&quot; FAST SHIPPING!!!!! Roxy blues</a><br/>
+                    <span class="description-preview">The next day I ship will always be on my main profile page!
+
+This listing is for One blue Oxycodone 30MG &quot;V 48/12&quot; manufactured by Qualitest Pharmaceuticals Inc.
+
+
+
+Please purchase 5 or more!!! ...</span>
+                </td>
+                <td>0.07032967 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/OxyWave#"/>OxyWave</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Kz6mTWtafY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Kz6mTWtafY">Kamagra Oral Jelly 100MG sachet PINEAPPLE flavour</a><br/>
+                    <span class="description-preview">ALL OF OUR MEDICATIONS ARE 100% AS ADVERTISED WE ONLY EVER SELL GENUINE MEDICATIONS WE KNOW HOW IMPORTANT IT IS TO OUR CUSTOMER BASE TO KNOW EXACTLY WHAT THEY ARE TAKING .WE SOURCE ALL OF OUR PRODUCT ...</span>
+                </td>
+                <td>0.00989010 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Thefairtrader#"/>Thefairtrader</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.69/5, 70~100 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mG9F54J4Yt.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mG9F54J4Yt">Beta-blocker Propranolol (Inderal) 10 mg x 25 (free shipping)</a><br/>
+                    <span class="description-preview">Top quality generic of Inderal, the classic and still most widely used beta-blocker. It is usually prescribed for heart conditions but there are other well documented uses-
+
+- Performance anxiety a ...</span>
+                </td>
+                <td>0.06813186 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: undeclared<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/3dames#"/>3dames</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.98/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/d5go3bBzc0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/d5go3bBzc0">Tizanidine (Zana&#102;lex) 4mg tabs- BUY 15 GET 20</a><br/>
+                    <span class="description-preview">This listing is for tizanidine (generic Zana&#102;lex) 4mg tablets filled at a large US chain pharmacy within the past 4-6 months (max).  
+
+These are, in my opinion, a superior drug than Robaxin (methoc ...</span>
+                </td>
+                <td>0.01096703 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/ImportDirect#"/>ImportDirect</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/dRRaUDUoZJ">Hydromorphone 8mg USA</a><br/>
+                    <span class="description-preview">March 27 - description to be added shortly.
+
+Exclusively for my USA customers. Ships from USA to USA.
+Please message me for a price and quantity, listing price may not be accurate. Make an offer i ...</span>
+                </td>
+                <td>0.01758241 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/canadasunshine#"/>canadasunshine</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xnNJeCcJ3A.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xnNJeCcJ3A">Ambien (Generic) 10 MG (500 Pills)</a><br/>
+                    <span class="description-preview">Ambien (zolpidem) is a sedative, also called a hypnotic. It affects chemicals in your brain that may become unbalanced and cause sleep problems (insomnia).
+Ambien is used to treat insomnia. The imme ...</span>
+                </td>
+                <td>1.42857142 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/J3wfPnaWw3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/J3wfPnaWw3">Fluoxetine 20mg. (Prozac)</a><br/>
+                    <span class="description-preview">This is for 1 Prozac 20mg
+
+Generic Name: fluoxetine (floo OX e teen)
+Brand names: PROzac, PROzac Weekly
+What is fluoxetine?
+Fluoxetine is a selective serotonin reuptake inhibitors (SSRI) antidep ...</span>
+                </td>
+                <td>0.00483516 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Pharmacare#"/>Pharmacare</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 150~200 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PutbZY40av.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PutbZY40av">Ambien (Generic) 10 MG (1000 Pills)</a><br/>
+                    <span class="description-preview">Ambien (zolpidem) is a sedative, also called a hypnotic. It affects chemicals in your brain that may become unbalanced and cause sleep problems (insomnia).
+Ambien is used to treat insomnia. The imme ...</span>
+                </td>
+                <td>2.41758241 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vRZZ97jE8r.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vRZZ97jE8r">50x 2mg Xanax Bar</a><br/>
+                    <span class="description-preview">Our xanax is packed with 2.5mg of alprazolam powder and made with a pill press. These are BETTER than the pfizer bars and are much higher quality.
+
+This listing is for USA customers only as we only ...</span>
+                </td>
+                <td>0.32964835 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/WalmartSuperCenter#"/>WalmartSuperCenter</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.89/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VwmzFd96GZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VwmzFd96GZ">Hydrocodone (Watson) 10/325 MG (50 Pills)</a><br/>
+                    <span class="description-preview">Watson (Hydrocodone) is an opioid torment medicine. An opioid is in some cases called a narcotic. Watson might likewise be utilized for purposes not recorded within this drug guide. Watson can modera ...</span>
+                </td>
+                <td>0.49450549 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MmidfqulpG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MmidfqulpG">100 X 10MG DIAZEPAM</a><br/>
+                    <span class="description-preview">100 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested qual ...</span>
+                </td>
+                <td>0.26373626 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/ukmeds#"/>ukmeds</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mJBie8zSal.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mJBie8zSal">Valium (Roche) 10 MG (100 Pills)</a><br/>
+                    <span class="description-preview">Valium (diazepam) is a benzodiazepine (ben-zoe-dye-AZE-eh-peens). Diazepam affects chemicals in the brain that may become unbalanced and cause anxiety.
+Valium is used to treat anxiety disorders, alc ...</span>
+                </td>
+                <td>0.21978021 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RhMJyVoo0C.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RhMJyVoo0C">Rivotril 2 MG (1000 Pills)</a><br/>
+                    <span class="description-preview">Rivotril belongs to a class of drugs known as benzodiazepines. Rivotril is used alone or along with other medications to treat convulsive disorders such as epilepsy. Clonazepam is metabolized by the  ...</span>
+                </td>
+                <td>1.12087912 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sn1J4MR7kY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sn1J4MR7kY">Xanax 1 MG (200 Pills)</a><br/>
+                    <span class="description-preview">Xanax (alprazolam) belongs to a group of drugs called benzodiazepines. It works by slowing down the movement of chemicals in the brain that may become unbalanced. This results in a reduction in nervo ...</span>
+                </td>
+                <td>0.39560439 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mSP0mDphKw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mSP0mDphKw">Gabapentin (Neurontin) 300 mg x 30 Withdrawal Aid (free shipping)</a><br/>
+                    <span class="description-preview">Top-quality generic of Neurontin, gabapentin is widely used for benzo and opiate withdrawal.
+
+More info added later. Please do your own research for dosage schedule.
+
+Gabapentin is not controlled ...</span>
+                </td>
+                <td>0.07692307 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: undeclared<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/3dames#"/>3dames</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.98/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UKaV0Yez18.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UKaV0Yez18">Valium (Roche) 10 MG (500 Pills)</a><br/>
+                    <span class="description-preview">Valium (diazepam) is a benzodiazepine (ben-zoe-dye-AZE-eh-peens). Diazepam affects chemicals in the brain that may become unbalanced and cause anxiety.
+Valium is used to treat anxiety disorders, alc ...</span>
+                </td>
+                <td>0.70329670 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sYsNdXMyel.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sYsNdXMyel">Xanax 1 MG (1000 Pills)</a><br/>
+                    <span class="description-preview">Xanax (alprazolam) belongs to a group of drugs called benzodiazepines. It works by slowing down the movement of chemicals in the brain that may become unbalanced. This results in a reduction in nervo ...</span>
+                </td>
+                <td>1.09890109 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WUSUVr2Avu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WUSUVr2Avu">Klonopin 2mg USA</a><br/>
+                    <span class="description-preview">March 27 - description to be added shortly.
+
+Exclusively for my USA customers. Ships from USA to USA.
+Please message me for a price and quantity, listing price may not be accurate. Make an offer i ...</span>
+                </td>
+                <td>0.00439560 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/canadasunshine#"/>canadasunshine</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SnwDh0c33M.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SnwDh0c33M">10x 10/325 mg NORCO HYDROCODONE</a><br/>
+                    <span class="description-preview">-PLEASE READ MY PROFILE &amp; TERMS PAGE BEFORE ORDERING-
+
+This listing is for 10x 10/325 mg Norcos (Hydrocodone/Acetaminophen). Please use my PGP key when sending sensitive information. If you&#39;d like  ...</span>
+                </td>
+                <td>0.17582417 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/DOPECARTEL#"/>DOPECARTEL</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wnD7upeGvg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wnD7upeGvg">Oxycontin 20mg OP X 10</a><br/>
+                    <span class="description-preview">This listing is for ten (10) authentic Purdue Oxycontin 20mg OP pills. These pills are US Pharmacy fresh manufactured in the U.S. by Purdue Pharmaceuticals, they are not expired stock or diluted pote ...</span>
+                </td>
+                <td>0.38461538 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/mrfields#"/>mrfields</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CACv16tkyu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CACv16tkyu">Ambien (Generic) 10 MG (100 Pills)</a><br/>
+                    <span class="description-preview">Ambien (zolpidem) is a sedative, also called a hypnotic. It affects chemicals in your brain that may become unbalanced and cause sleep problems (insomnia).
+Ambien is used to treat insomnia. The imme ...</span>
+                </td>
+                <td>0.32967032 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/f9PNgCvDJr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/f9PNgCvDJr">Ritalin (Generic) 10 MG (500Pills)</a><br/>
+                    <span class="description-preview">Ritalin (methylphenidate) is a central nervous system stimulant. It affects chemicals in the brain and nerves that contribute to hyperactivity and impulse control.
+Ritalin is used to treat attention ...</span>
+                </td>
+                <td>1.42857142 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/IdealPills#"/>IdealPills</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/K9SeMUuXPu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/K9SeMUuXPu">1x Subutex 8MG  Buprenorphine</a><br/>
+                    <span class="description-preview">***MINIMUM ORDER OF TWO (2)***
+
+This listing is for one (1x) Subutex 8MG SL (sub lingual)
+
+Brand: Roxane
+Round / white
+No Naloxone - 100% buprenorphine.
+
+2-4 Priority Shipping - $5.00
+2-4 Pr ...</span>
+                </td>
+                <td>0.04395604 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/subs4daze#"/>subs4daze</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/3"> 3 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/4"> 4 </a>
+            
+                <a class="page-link current-page" href="/cat/AwtLFhnFK8/5"> 5 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/6"> 6 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/7"> 7 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/8"> 8 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/9"> 9 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/10"> 10 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/11"> 11 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/12"> 12 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/13"> 13 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/14"> 14 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/15"> 15 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/16"> 16 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/17"> 17 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/18"> 18 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/19"> 19 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/20"> 20 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/21"> 21 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/22"> 22 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/23"> 23 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ModernLove</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.89 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>ModernLove</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 6 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            ********************************************************************************<br/><br/> ******** G R E E T I N G S <br/>Greetings and welcome. We are pleased to offer personal-use amounts of marijuana and hashish, packed carefully and shipped quickly. All orders ship from the Southeastern United States, far from the &ldquo;drug source states&rdquo; of California, Oregon, and Colorado.<br/><br/>We are the same ModernLove team active on Silk Road since it (re)opened in November of 2013, and we have many pages of 5/5 feedbacks viewable on our SR profile page. Our PGP public key is below; please feel free to send us an encrypted message to verify our identity. We look forward to serving our old customers, and getting to know many new ones.<br/><br/> ******** S H I P P I N G<br/>Orders received by 12:00 noon (eastern) will ship the same day; orders received after 12:00 noon will ship no later than the following day (excluding Sundays and holidays). All orders ship via USPS Priority Mail with tracking, though tracking numbers are generally not provided to buyers unless a shipment is reported missing.<br/><br/>It is very important that you provide a VALID AND ACCURATE SHIPPING ADDRESS. Please check, and check again, to make sure your address is correct. We only ship to addresses within the United States; we do not ship to APO/FPO addresses or to correctional institutions.<br/><br/> ******** R E F U N D S<br/>Full or partial refunds are offered on a situation-specific basis. If tracking shows that your item was delivered, no refund will be offered. If tracking shows your item is undeliverable because of an &#101;rror in the shipping address you provided, no refund will be offered.<br/><br/> ******** F I N A L I Z A T I O N<br/>It is not our policy to ever request or require early finalization. At the same time, we do have some justifiable apprehension about the volatility of bitcoin and the stability of darkweb markets. PLEASE FINALIZE PROMPTLY once you receive your order. Thank you.<br/><br/>********************************************************************************<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQINBFJ4cZMBEADs/IVKgL9S8fBDqbwpIRFQu2HwsJPC5OhrptG2yRaUGxK0c/DV<br/>VHCT4XDyzHKjwgh+MJhFuyUh9HDhv7LbNN0O614U8qc6lxniNrpuzFKN2NA/KVzs<br/>P7j36LyIa/yBAiKpBjAVyvvMC0783tn4951MbmidKiJ6vSHyG4UaVd6s71AAcYjT<br/>oGs1ySfH4nzVIbFh2EX3Rcl++z5uMQ6jOpNeDdje5XBeEoI9Yfez33MjOZf9p5M2<br/>jm1Dhm+4gkaL7ECbMMtU5pC2OA7j7mBoHGTFcUCZJCckjHIyyeIsWcqUgLtfqn5u<br/>vJQENEVQ2Da+9vnDSBBYEciIpQsDVr2amMH2JY55aR5dmVAZIdTKyYqu4zWsmIpU<br/>AAXFk5r858QjVmASTIRoXJIoW2M8GITpMhnQEW3KeniCCi8oXv2Wvd6Zq+eOIukP<br/>dr9le6bU1f9foiGke8vdSaoyLDGFC0R2BaRfhOna2JKmOl9Ky7hlWr9zPyd5qTqs<br/>POTNUJ+OEhAR7B3u2CzXQy2OTPx+CTjTviucpD29X/lqILZAicLbjaodJvSMwTMY<br/>d6K1sd/eU9ZEZIO9bxtU4FeXUOzA0jF+poSC7Kjehyd6YqhBAzpMtGHdn0XN1xyR<br/>ys3NO27xqlcDxT1bYBbL1y/WkwWZj5C6auzfJH67AehxHB5NEfgRzDqj6QARAQAB<br/>tCpOYW5jeSBCb3R3aW4gPG5hbmN5Ym90d2luQGxpdHRsZWJveGVzLmNvbT6JAjgE<br/>EwECACIFAlJ4cZMCGwMGCwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJELHE36/W<br/>+JXEMD0QAJtTLJxr0BA5F6dQMxDH9h/UMQqQAzjZ8CTmXXAdWduwGVK4lOo3FLZQ<br/>cFFSN5eTf5G1pBJZDRxF/o77AMHKrrW52/D5RGtoZTl74JcTlwKvp0aMRQkiRreJ<br/>GpK09Td/cy77yHerYBBwPiTDjSbPUitMOXcehTuou+NmPqBiuXKdeC6HQXUdBr9L<br/>MK5WS7SFrLdNrnkLffzZSfaHX8JYnGpIba7U1BOx1mRuG4DdU6UYVf3fs7v266Y2<br/>yuDpDu1LziYxmD/wyYq0gxGbajNKecg3o/USbT7TDhRIZ8mhIre6etgSN9VEJDSw<br/>A82A1YNnoIU6xqMrWszdVrukhVi1KpcwAImbrQMZLx7ZO0PXpCLFedhmjdeKahMu<br/>/u+DQHy0PzuzLkl/65+kYB9BDaeJFwwmMyjIT6H6oUlSsg85GXFIWiH1IG5CTGuO<br/>t7uFJvUL4FRKiokoyawXYJbmSfFGze9CKVAs1cgnR2HU+Z+rOLn/7T2KBHvc/icN<br/>7FuDr8bfTYcAxLlHY9c4BHbhTWXl9QdGM0VbDsvvRjKxLjU/u0tyNnA7omS9VPXh<br/>uJC/vrvHDcr2kdGTVQhsFVvzB7DIxODBiRLA5Z2aw7O5a9YY0O6D8bYC/Ti6bvzW<br/>kn3aSdg3rLKvxfw2C6Ub/9PzIy1n4aWZinvE00hUU58oeQVA2QMquQINBFJ4cZMB<br/>EACUAe0ufPMmZTtSShsTzDidOSBPyCUrJiCPqF+8lqMOMM8w9UAEip76CZzMzmx+<br/>5bAAOIdXYUhYdb2iKDU6A0T/x50OO46ZXDRkXG7HlaJKtdVgo/88DoyTtvl8TGag<br/>UQrM9xldXGMWEaBKtb6Z14aTfcDNVCF8B56nMX2SrVfq9na/WzkNnl2zKNmNEum5<br/>dkm+7CZ4NLdjddlY4bs2PHfFXzfO0zbu+ZU45jVFDJvbPHJCy6bpHOdmzugllp7i<br/>RDj1NU2YjZueZfFflclsHRw+SLAlT7aXeAU128ckGILdBbADeDGfQQGjQyZ0DSzQ<br/>VIXGfDF58AE3ZZ4BcBZCs2ri478qg20iuB3/tx+Wvyo0B2umPgV03fzxNJBxvw5p<br/>4OfodncZKCzvm9QYzp72YcwPn+XbEQeerTXfrbwIZJM89vqL+dsHc1slP123TmG8<br/>/pQqR8Gl8yByB1MIVaLkk3ZYV+TyGIy4pheoV/LPZXSuQiL+HKZILs7qaac3IuRB<br/>NtX6+Jc46AvH+CkCByd1uOL05S25GPEd0dhzpsxFuPw/d73O716/kyuUOKQQgJ9E<br/>u4sIVSsiuU6VwxOFD8n4lIuFBYUKlUYZFS40Z25pwsHsylwmfaWfTS7FVMI5HwG/<br/>/4uMEqqne4khfYLlIahrhiqRTdvf968FEQ9d0E0JyZrKQwARAQABiQIfBBgBAgAJ<br/>BQJSeHGTAhsMAAoJELHE36/W+JXEDTcQAI2djG6IFeGW+pByIrh+CTfpombYLH75<br/>Uyi7B+doe/Mr7uzsboO2ZKLxllYr+2fJpE+s9AExnB/GBsl8NsaSYDibitiuVqyA<br/>s+BJ46ptpQicjS8s6PuQMrfqIZTQ8Z+PT+FJBbkcgA3ohpOUkNr7DuEv1SuOl7DS<br/>EbD8iOQ6+vDnM/Q/F08Ddv2w&#74;DKbjiDMP2Jjjj/lm2FrfgVdCkOpl+wd1YWQGpNz<br/>c+ZQg1oItNGuWWSlOjnrXXPUgCEjoA/6CIg4Jz4bJKmCWhOaUK37ReI636WfbI6e<br/>YdH4iZNWj67w5brVBLpmqb45C2F3bWDm+gSAU917RqBHlBL6/W2gA4E03DqmJPhU<br/>Poo+ViWoM6WNfEnuR5M+oPRwshJUR17FljLX8htixda1sp1qNota8IbYJz21rP8d<br/>PLjPN/9vUFzKlYjrV8npvXWqdLg/g1rsJfub9x+zQbxusPlWx3ubO9pV70W8JVcw<br/>oAy3y3LTQdvz5QzjgZSjOHFrAl6SmxlLp5JU6AHdDdF31U9MiDMKjIvtKLqyLKC7<br/>Cr6XndC5X7mpvxQJkR2KYlDDCDQ+4PHimnjo4GKT6leDlJH45IFhfro5qyhDusas<br/>UrM9s+Idl9oYQkVWnisneEKRlyYwj6+u8tzc4kf7BvVTdw2uRtt+fMNiQmG4Hj3v<br/>EMExR4D4h3V2<br/>=YsPL<br/><br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Pure dank</td>
+                    
+                        <td>
+                            <a href="/p/wL0t2UdouX">
+                                ***3.5 GRAMS INDOOR BUD***
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 High quality greenhouse bud. Arrived fast. Top vendor.</td>
+                    
+                        <td>
+                            <a href="/p/e3o7lSbinu">
+                                ***3.5 GRAMS GREENHOUSE BUD***
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, good product, and excellent stealth. THanks modernlove.</td>
+                    
+                        <td>
+                            <a href="/p/wL0t2UdouX">
+                                ***3.5 GRAMS INDOOR BUD***
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast delivery! Great communication!  Highly recommended!  Happy customer!</td>
+                    
+                        <td>
+                            <a href="/p/ulXumwNXM3">
+                                ***FOUR GRAM PARTY PACK*** Weed/Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>solid vendor, amazing product, force for good. I would tell my mother to FE with ModernLove!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Voluntary FE for my 2nd order. i love this bud/hash!</td>
+                    
+                        <td>
+                            <a href="/p/ulXumwNXM3">
+                                ***FOUR GRAM PARTY PACK*** Weed/Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quality herb. Good price. Fast shipping with a little extra. 100% confident this is ML from SR2.</td>
+                    
+                        <td>
+                            <a href="/p/e3o7lSbinu">
+                                ***3.5 GRAMS GREENHOUSE BUD***
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Truly Dank bud! Intense smell/taste/high.Hash is perfect also.2 Days Shipping.</td>
+                    
+                        <td>
+                            <a href="/p/ulXumwNXM3">
+                                ***FOUR GRAM PARTY PACK*** Weed/Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of ModernLove:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ulXumwNXM3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ulXumwNXM3">***FOUR GRAM PARTY PACK*** Weed/Hash</a><br/>
+                    <span class="description-preview">This four-gram pack consists of three grams greenhouse bud (Current Strain: Cheese) and one gram hashish.
+
+Please Note: While descriptions are always accurate and up-to-date, images are representat ...</span>
+                </td>
+                <td>0.10309278 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/e3o7lSbinu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/e3o7lSbinu">***3.5 GRAMS GREENHOUSE BUD***</a><br/>
+                    <span class="description-preview">Greenhouse bud from California: 3.5 grams. Current Strain: Cheese, with that distinctive cheesy stank.
+
+Please Note: While descriptions are always accurate and up-to-date, images are representative ...</span>
+                </td>
+                <td>0.08554507 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Y5vEf912qG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Y5vEf912qG">***SEVEN GRAMS INDOOR BUD***</a><br/>
+                    <span class="description-preview">Very nice organically-grown indoor bud: 7 grams. Cultivated with love and care by righteous California women. Current Strain: Pineapple Express.
+
+Please Note: While descriptions are always accurate ...</span>
+                </td>
+                <td>0.18425093 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wL0t2UdouX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wL0t2UdouX">***3.5 GRAMS INDOOR BUD***</a><br/>
+                    <span class="description-preview">Very nice organically-grown indoor bud: 3.5 grams. Cultivated with love and care by righteous California women. Current Strain: Pineapple Express.
+
+Please Note: While descriptions are always accura ...</span>
+                </td>
+                <td>0.09212546 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="ModernLove" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to ModernLove</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'ModernLove'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

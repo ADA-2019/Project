@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>SukeySR</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 447.50 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>SukeySR</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.79/5, 55~70 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">202 successfull &#116;ransactions since 2013-10.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 19 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            [ Proper address ]<br/>Please be careful with writing the right address in the right order, here&#39;s an example:<br/><br/>Line 1 = Name (No &#101;xceptions. The name that belongs to the address. If you think you can outsmart the post office and customs, you&#39;re doing it wrong. )<br/>Line 2 = Line of address<br/>Line 3 = City<br/>Line 4 = Postcode, or State &amp; postcode if US<br/>Line 5 = Country (Include it at all times!)<br/><br/>Any orders with addresses longer than 6 lines will be cancelled.<br/>Less than 6 lines is okay as well, but it should contain all the information necessary.<br/><br/>*IMPORTANT* Do *NOT* use any external pastebin services instead of PGP if you&#39;re concerned that someone else might read it. External pastebin services, even if they promise to encrypt it and throw away after viewing, should not be trusted that they will do so. If I still receive an address like that, your order will be immediately cancelled.<br/><br/>[ Shipping information ]<br/>We ship worldwide, with the &#101;xception of the following countries/continents unless the listing allows for it:<br/>Australia, Italy, South America, Russia, Middle-East and Africa.<br/><br/>If you decide to order from these mentioned countries, you will be restricted to 25% refund and no reship, even if you are a recurring customer.<br/><br/>The average shipping time is between 3-14 days, and 14+ days for Asia.<br/><br/>Packages will be shipped nearly on a daily basis, including weekends. All orders get sent out as Priority mail with free shipping and stealthy packaging.<br/><br/>[ Shipping information / Australia &amp; Co. ]<br/>We will not send to Australia.<br/><br/>[ I didn&#39;t like it ]<br/>&quot;Your gear is shit and you sent me crap! I demand a 250% refund or I&#39;ll tell the forums!&quot; or &quot;Your gear is so shit that I flushed it down the toilet and I want 5 grams more or else I&#39;ll tell the forums!&quot;<br/>No. If you ordered any more than 1 gram and claim that and being rude, you can sure as hell forget any negotiation. And don&#39;t even bring up your buyer stats, I cannot see them until you are in the resolution center after I have confirmed an order.<br/>If I get any private messages that are derogatory/insulting and involves a &quot;toilet&quot; or &quot;friends&quot; in the story and nothing to back up your subjective claim with something as minor as an EZ testkit, and no prior communication, I will be treating you as a scammer by default.<br/><br/>[ Lost/Confiscated Parcels ]<br/>Customers must wait a minimum of 14 days before inquiring about lost deliveries. Reships are done on a case by case basis. If you&#39;re a returning customers then you are pretty much guaranteed a reship. However, all purchases are made on the assumption that you assume all responsibility for lost deliveries. Unless you can show a seizure letter and the envelope it came in, the reship is completely up to me.<br/><br/>[ Refunds ]<br/>No &#84;ransaction ID = No chance on a refund<br/><br/>[ Haggling ]<br/>Nope.<br/><br/>[ Other information ]<br/>I reserve the right to cancel any order I wish. I will not tolerate abuse for anything that has gone wrong, and your order will be cancelled immediately.<br/><br/>[ PGP Verification ]<br/>Due to popular demand, copy this into your PGP utility and verify it and compare it to the public key.<br/><br/>-----BEGIN PGP SIGNED MESSAGE-----<br/>Hash: SHA512<br/><br/>Verification February 2014, we are only active on Silkroad 2.0 and Agora and do not vend on any other markets at this moment.<br/>-----BEGIN PGP SIGNATURE-----<br/>&#86;ersion: GnuPG v2.0.21-beta20 (MingW32)<br/><br/>iQIcBAEBCgAGBQJTBHqRAAoJEOVPUPGChlQBMv0P/iKqlUeQG5zYH6OM0XiAK29p<br/>cdIpLcMoyuwX8PXCQ4gniqScX3zuVxQjYmOlfDzYoMM8/kM+P1lt+eO6O2QZEanO<br/>BYJfp+9kfJA3vFmD2dQQB15pLTEvbTDU9+EQ21QTc1qdM4Jve9CNGOHXGg26S/8v<br/>6YVC9i3vc9JxSKuXJ402rKijIN81xb0sJ9BAxY6qePEnb7zYu+QUyCz3dr/NIi7V<br/>bfnkliDnIHX32aJ8HfJIBpiKGvqEEF5BIkHgMfffmB+ladSJTEqplD2bB0bzA3ec<br/>0+hGeN0flBpPy9z51xmXC0u5+FahbHRmrxFm5xyTBaiMRyVqklS8CiJ0RPF6vpPp<br/>V18WZ+0MtwEEMjeEIqnXU/Q/lFNIr4n4DVZwC0mzVbwUHxcyeN/njzCm8B1LfRYU<br/>M9J8WCch+q8NyT8nE/DKz144dGybl+76GwwWDyDKUvNU2aofAFLRoQIjSZodGu+C<br/>XMQ7PThXmyDcF+1oBL66tMNN7zqgIA4A5gxQX7uJwOr+71Q+n5OBMg1OwaQM937Q<br/>/w2K80JyR354SKLllAaN5nM+wsznJVRmMxjVmVwYHG6q+mngOlwktXc6lvLkLEGh<br/>DfYprxQ448R8ZV86GVwOost60Ra+nQxwn9km/UxTn52KpU2P5W57R0NHj0Ro+K3s<br/>F8dOhmGIAcbSYgg1KQ56<br/>=waL7<br/>-----END PGP SIGNATURE-----<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.21-beta20 (MingW32)<br/><br/>mQINBFA+SLoBEAC+G2vhd2BHu01iYFNBQo0CWiLr3PyweHLbe2Rjey6xJFGnyky5<br/>Ibp2AgQe5xm4HwIGnEEpn6asV0Kx2BcbNTkfffwuRF0J5l5HZEKHjQ6xN6VYH4F1<br/>zOZmgVRK7BxuHwJxjaJ3HNBxT3oF2s+YlG1O+QUcgzTjIujRC5KphK7hbxbz+NjJ<br/>sjvJUlQihycbNedhQENEgYooAG9buCYtSJEatRJe9V2i/YSz9nJ9qCkV3g8QtE2W<br/>vg2WykJblL8ornnh15lem1kTBBhmIOoHX/HQvvJ0dBbTozDvcQBIlLeL311H3Q5/<br/>lHNOCwvZrczBzceF6L+YCnwfaQrOFe2XHjIONjlKqXGb5x8WVb7HSRSLS+D4agls<br/>zMLWxz34cwc5ETjD3e/Swk6XbkfvEH6aZdGtNUiivyM/IVsPuXEV+LULLqukAtZW<br/>Uk0MZaiPMGtDQpQ8FAcb36RyVaxFmpnFhYFWkktg75g1iNnrXU/xkC9wbNRWdO5O<br/>MD2sd2OYvOjoSkKoeEzseB7Vrzd5K4+9aVQ4eU9VXA7/YN9GDK8D3n/vBtAwDCs8<br/>0nkfHsxN2/tf1MwV3zoGoGAHgs9yPDMBWY1zBl47cS4+j8SeNb0K9qQf9NhX+wdR<br/>Kt3DOqroEQC+RylST/6QsArxolHLDoxpyqtDfdXAKbsKmnze56Ymviq+ewARAQAB<br/>tBlTdWtleSA8c3VrZXlAdG9ybWFpbC5vcmc+iQI4BBMBAgAiBQJQPki6AhsDBgsJ<br/>CAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRDlT1DxgoZUAQInD/9UMbyy7I2dl7tb<br/>Yj+F4mybAi6P3haoMB6QiDEgbMaByYFyKB4Od034muDqCH5WZ5s70BZXnNqVpc4E<br/>g60qISRtsOwm9RHXbkbNmkr8lsz2+0ItWwfHsXS5PU/HsMnzOPNj8pY5OEH4tpYu<br/>KcRp9c5hIoCOl7B9MxSC+K2XbACsyHlaJy4V0GwDMfNIR8ou85pj/fCoDcXsx26R<br/>T9Du8Z79Mz74vStzcHRWaqDv0fc7g4sqvaPVuBc2kButfQns5ql+/LeH/XUcgp2V<br/>fhxUUWvt6mZK0hzq7AJx3cpqUCopGEOELmNiwoBYHyJotR3Jkd/55/29xPUnJkB0<br/>K+y5RKn+IwV6z0F6AWLyVZjkam3znHtyJCgRllrFNCTNXwF+j2eeCynZlvjKIdvO<br/>9grJMUoPQ71XA46J2CK5SYpN4m2bUVvBFSbpbs47/aqsVedNbIAURLj1S501cENP<br/>DVtDJ0vrQgn2cXOlSKvDeyPAEy8SjejF+rrWEVThZLNAvaBV7caLYzfpWOHPceuj<br/>25lfJQ9DDYEt/Sfk8s8xZk5xKGUPm6NQwrJZiby7baJzs+yQX8SiC3hiRrRhA85B<br/>WANsgjpV1X3tPRs02XAIamaqAykssl+TwSWoQbraKJI8VY82frpxJjZXZcdXHt82<br/>Hqqv5B0fU37unqnHGqb1m+DRS8YDUbkCDQRQPki6ARAA5bAPF+PuSwuMKeYWrQgk<br/>1DkrJqDsZpBY9VCVLA6wQdCzTnuGnS0NGm/BLJsIPtoq8bScEfPojWdaUOMq4GCR<br/>uRlQflwDv5bTb17egT+i8eQE/t76+o4xi0TwoTBVnjCG3Wri3rcIbnNUihZJB5fz<br/>xIOnBiJLPx5DWDgIyREGalH6qtEiGus6cRJm+v7AAOQ4Y98oy01RKNvLFbtAVumQ<br/>Ug3xFD07Ws9KzYAL6yMdIoynkHNh6rIGTGbJnGvL3Gq1gMXEL+lOoxERzKJaqZt0<br/>ysRKXma9Wnu1kAsOY5O1DScfr9gUciMEF4HMxJ4VdOBeq0bbuWihyTWemR97A78V<br/>FaamqKWJrR4Zryob1umqvNpMz6pqmMgQ5nsGsHsd02E+eMlWkH/OXHZ60JzLS5/9<br/>9kgFFJ+T7N0ToobAP/soT3dvLdZM8pdK8xX18GiunUF2Esn12DDFi0Wm/9Dxpogi<br/>xNfmhfRD7hUs9Gxokfh7uI0gJQv5z9fuSRUBLuU4dPsFHel72ACdQzeYt4n/bInc<br/>AVDKlCeX9ZmSVsusn8iWXDzos2TIMonbMgMp8VeA19vXZOUjZTxGWuLo+a2yt6OX<br/>rnNUsHa/dP4n59/BNi7eWs/E4WyHqfTFRTrIYJ8lriLGplphk4knLs5j1akt2ZVk<br/>8rH+17uKVFwbfqPnogYADeUAEQEAAYkCHwQYAQIACQUCUD5IugIbDAAKCRDlT1Dx<br/>goZUATxhEAC2YPdgIKInHCzqC8/aEJxb4sFOTauiCwT5BIUNa+JRDVNYdTh9dN4n<br/>+Kof5oJFC7vZ0A/ISuSXNYy0cfqAMUb1RMml7fGKmODrNB2areDP8DYqjP5+rLVM<br/>rsDWhDwvc4luv+au3DEAHev/sLEEpCH7CA9omVyGXsHt2TvWu96v6i4z9vciYWme<br/>qb4vqCbiMvVGXg4PwPVWqCbFxqhwXVL9Drj0bECdSfuv8Rr4sMzNikoS7wq01+jJ<br/>Wz5w89nHnI4dLDHYLQ22/8O3+u0fJ6SkZgqV8KdGVQtju02CifFLHY7xKCUzuR6R<br/>yEma7tpMhqoTVgwdMOuTO4tW1yU/t1EkMBX68aSeG5Kz76iHoWXs0K6DL0FrgKSd<br/>6/vQfJYep8u4lPOOkxQhqelXY3b+XigEL+9xMjL7ytkkjHBPqQ2qSMu+FzjNZQ+D<br/>/kiatL9JV4vR36xS2CWCohvMLMYbbn+0ATlulAhBX2YhZHOQcFR+6l70t/QflMAD<br/>/wzT+eKdvW4UIxbzxAp4XYQFcT7fNiiybPziJ+aR8QMgOvVBclGDhKGUQ2xlbpL+<br/>mKPC+7UuoM/ou8pg/fgayqQEYeCaLFvTiLBG5FJvk/75ekONqwhORjBIdgANge89<br/>VsNhbHhcudrtUJuOszWoBIwi35oTBraDrSVgaXeJxjnO/zdzXynmdg==<br/>=LxwJ<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Wow, 5 days to EC US. Will update upon testing, but I have no doubts.. Amazing vendor.</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Perfect as always - very fast, good stealth, quality is outstanding. Best vendor I know !!!</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>this is SPAAARTAAAAAA</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>superb. thank you very much.</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good product. satisfied customer. I really hope he reaches his &quot;old&quot; perfect again soon :)</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Follow this vendor from market to market!</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5 in each category as always.</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>i love it :)</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>i love it :)</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>i&#39;ve been buying sukey&#39;s UCC since SR1 and its still the cleanest and best cocaine around. i love you, sukey!</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great as always.</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very clean nice turn without brainfuck</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, good stealth,product to be tested yet</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>super schnell! gut verpackt!
+gute Qualit&auml;t!
+
+wieder gerne</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Stealth was good and product is impressive 5/5</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top Seller!!</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top! Three workingdays within EU. Took a little sample and the product seems legit. Cheers!</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Sukey at it&#39;s best. 1 day domestic; great packaging; great product. Safe bet for everyone!</td>
+                    
+                        <td>
+                            <a href="/p/UEWy7h8tMh">
+                                1 gram of Ultra-Clean Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of SukeySR:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/kUmFFyToT8">1 gram of high-quality Crack</a><br/>
+                    <span class="description-preview">No description.</span>
+                </td>
+                <td>0.45810055 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/g4egDEcl0V">1 gram of High Quality MDMA</a><br/>
+                    <span class="description-preview">No description</span>
+                </td>
+                <td>0.13407821 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/NeNza6rm97">1 gram of High Quality Cocaine</a><br/>
+                    <span class="description-preview">Published on: February 14 2013
+Tested by: PineappleLove
+Vendor: Sukey
+Listed as: &quot;High quality Cocaine&quot;
+Purchasing method: Anonymous
+Platform: SilkRoad 1
+Results:
+66% Cocaine
+12% Levamisole</span>
+                </td>
+                <td>0.22346368 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/BxDUYGME2p">10 grams of high quality MDMA</a><br/>
+                    <span class="description-preview">No description</span>
+                </td>
+                <td>0.62569832 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/UEWy7h8tMh">1 gram of Ultra-Clean Cocaine</a><br/>
+                    <span class="description-preview">Published on: February 22 2014
+Tested by: PineappleLove
+Vendor: Sukey
+Listed as: &quot;Ultra-Clean Cocaine&quot;
+Purchasing method: Anonymous
+Platform: SR2
+Results:
+80% Cocaine
+No active cuts
+
+Publis ...</span>
+                </td>
+                <td>0.33519553 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/Fn0naJqgep">10 grams of Ultra-Clean Cocaine</a><br/>
+                    <span class="description-preview">This listing requires FE.
+
+Published on: February 22 2014
+Tested by: PineappleLove
+Vendor: Sukey
+Listed as: &quot;Ultra-Clean Cocaine&quot;
+Purchasing method: Anonymous
+Platform: SR2
+Results:
+80% Coca ...</span>
+                </td>
+                <td>2.74058100 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/nlU00zcj9c">25 grams of High Quality MDMA</a><br/>
+                    <span class="description-preview">This listing requires FE.</span>
+                </td>
+                <td>1.73184357 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="SukeySR" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to SukeySR</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'SukeySR'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

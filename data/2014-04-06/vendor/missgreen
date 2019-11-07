@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>missgreen</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.12 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>missgreen</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 8 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQENBFK/TYABCACcc63r/zbnTQO+KkAZ3qWA7WIi8rA1pLpZMixcrO7rLCT6dfsW<br/>Fgx51IAVmIf9Usugy60eMieiG+XUM0EZeZ93nq5YVTvr7LXTKKwYZzsesAt6N3wZ<br/>EY23iZCqHfkd8b+VAp7PzYE2VmVFg1a0bwavDwotV0s2UPKUoVfbmuQXWqOOSV+g<br/>yeUmNhQROGgdjQckBJ/JF3UjiM7H9PMdI/eXm3+Y+PDtkTm8Rvx2NpQXqKDAbUtb<br/>9XgmJv5Hw399ms1oet3S+B/1NRmqt9kjylbVyjzKEgLLuyE/rq8vH5tugmMh+Lgd<br/>yWOOHL8rVayik1ybB/mD/X6RUgv40LY+FRw5ABEBAAG0H01pc3MgR3JlZW4gPG1p<br/>c3NncmVlbkBtYWlsLmkycD6JATgEEwECACIFAlK/TYACGwMGCwkIBwMCBhUIAgkK<br/>CwQWAgMBAh4BAheAAAoJENWQTIue4oYazo8H/2H774FUkEvxLvuCGo1LnKUQ1qur<br/>J9f8yu7JJEtpB9Fw7fAp3V72mxo565OdRzEVXuNVjsQYGdwHro61uRCXKstsDF6B<br/>3/Z+vi9sB1gaPybK4vQZe8PJ3zcGRcgLpC8Awf8ecQZwmKxyvKwUkiC8yoaoxkyt<br/>FhfkppfPzzocPI9cJiBPGG0As4sLlaZt00QxM/Yl/ihENou3CHlpllIUWG0Kw6H9<br/>3MNpT7yYncogfNUzl10DRVRTd1C6M+IdA/KDSKYJkPVWkPVzh0fcX0Dj1pys/AvK<br/>uuIkqmEFCTuyjeziojWY58WcqolwZAB82cqYhSsz3ttk1YKK1Lm9orbNBUq5AQ0E<br/>Ur9NgAEIALnC9rGzIIyesG6E3gxatidGClM3OJXnWLpwPDz9tTPTP/5C8qM+nz4t<br/>rJd1JEDXg+uD/Z61gqQBMm/0p36LNjOfSPIrCXU0fAp6vYBF89dS2kKi1alfgXUd<br/>HVWFa1zdyZB/gxXSsQqzcFCo+NS6LP2SHGHRTgzkTvIwce8dHv3Dtn8ibZwJrbYZ<br/>8PsPCVNM/srUKjHPLyd4EZ9gxj7EjSl8qsSFdsiSUFZrP4kaDAXL0CtYcMCD42UB<br/>DTtwGUscLpQ36wxklSTnFQmJTmIoTNdmuwa6D/+LLQotdHzflj6RZN/ZlznARkxe<br/>oILzKgejPK9J0fT2oiabDkj1tM7kje8AEQEAAYkBHwQYAQIACQUCUr9NgAIbDAAK<br/>CRDVkEyLnuKGGklTB/9YWgCkCwu179PMdIS5YWXml7II0b2zK9LzVYInIvBBn1Ul<br/>XCDROBKgmbdepNxgZ5Rd9qns+bKia2BTwwE4MW49bwARQEvghe/HoWg6uqHPxKgT<br/>3EPVRWrryJgE9Mlsy3ArJsWkf+JIAvqWHeNqYVln/VzYRFSDHjVSlKfqCbU0YXy8<br/>QdHbTobqOWNqKKREmd+0p9Dqa6ZZt3h++zMCIiV9F+rId6dG7N+TRDJr0nQCpDgC<br/>w8NsrHdufuWTBoYNehY3mNeREWqdebH/pn46QdkoIy2hykqDletCwZE6HXlnN61s<br/>eYb05fOpMJSUGR2/aqn1Z+7H2KkAqY8k3TC1TwOM<br/>=fiUq<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast delivery, great weed and excellent value for money. Used before on SR. Buy with confidence.</td>
+                    
+                        <td>
+                            <a href="/p/NperSTSvgM">
+                                Miss Green&#39;s Quality dutch weed 5 gram + 0.5 gr. with every order! Free Shipping
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I would definitely recommend. Reliable and communicative vendor. Product, stealth and delivery time (2days) are near perfect.</td>
+                    
+                        <td>
+                            <a href="/p/NperSTSvgM">
+                                Miss Green&#39;s Quality dutch weed 5 gram + 0.5 gr. with every order! Free Shipping
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived quick, smells awesome and looks awesome it. AAAAA++++++ ! THANKS !</td>
+                    
+                        <td>
+                            <a href="/p/xKvv42VN5l">
+                                Quality dutch weed 10 gram + 1 gr. extra with every order FREE SHIPPING
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.76/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>As usual, ultra fast delivery, very nice weed and I got an extra !</td>
+                    
+                        <td>
+                            <a href="/p/NperSTSvgM">
+                                Miss Green&#39;s Quality dutch weed 5 gram + 0.5 gr. with every order! Free Shipping
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>As usual, reliable and trustworthy vendor.</td>
+                    
+                        <td>
+                            <a href="/p/LioZMDYtNj">
+                                Quality dutch haze 5 gram FREE SHIPPING
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Really nice smoke, fast delivery, will be back for more :)</td>
+                    
+                        <td>
+                            <a href="/p/fabmG5Nmqy">
+                                Really nice dutch Skuff or hash 5 grams FREE SHIPPING
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Thank you very much for fast delivery and no problems. Good quality dutch weed.</td>
+                    
+                        <td>
+                            <a href="/p/NperSTSvgM">
+                                Miss Green&#39;s Quality dutch weed 5 gram + 0.5 gr. with every order! Free Shipping
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very nice weed. 2 working days delivery EU west.</td>
+                    
+                        <td>
+                            <a href="/p/NperSTSvgM">
+                                Miss Green&#39;s Quality dutch weed 5 gram + 0.5 gr. with every order! Free Shipping
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Overweight, 7 Days to non-NL. Absolutely perfect. Will smoke, and leave info, if product is bad.</td>
+                    
+                        <td>
+                            <a href="/p/Kt4gl1UvMT">
+                                3 Gram Afghan Hash free shipping
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very nice weed. Good delivery time, good stealth.
+Vendor is really nice and communicative.</td>
+                    
+                        <td>
+                            <a href="/p/xKvv42VN5l">
+                                Quality dutch weed 10 gram + 1 gr. extra with every order FREE SHIPPING
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor. Top stealth, shipping time and product. Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/fabmG5Nmqy">
+                                Really nice dutch Skuff or hash 5 grams FREE SHIPPING
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent as always, 5 days to UK from The Dam. Favourite seller.</td>
+                    
+                        <td>
+                            <a href="/p/NperSTSvgM">
+                                Miss Green&#39;s Quality dutch weed 5 gram + 0.5 gr. with every order! Free Shipping
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came within 5 days to uk, product as described by vendor legit as fuck.</td>
+                    
+                        <td>
+                            <a href="/p/xKvv42VN5l">
+                                Quality dutch weed 10 gram + 1 gr. extra with every order FREE SHIPPING
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of missgreen:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NperSTSvgM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NperSTSvgM">Miss Green&#39;s Quality dutch weed 5 gram + 0.5 gr. with every order! Free Shipping</a><br/>
+                    <span class="description-preview">5 Grams of Quality dutch weed. Now with every order 0.5 gr. extra.
+
+It&#39;s nice quality but very ugly one to see, it has a lot of leaves. But for this one it is true: don&#39;t judge a book by it&#39;s cover ...</span>
+                </td>
+                <td>0.12991874 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xKvv42VN5l.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xKvv42VN5l">Quality dutch weed 10 gram + 1 gr. extra with every order FREE SHIPPING</a><br/>
+                    <span class="description-preview">10 Grams of Quality dutch weed. Now with every order 1 gr. extra.
+
+It&#39;s nice quality but very ugly one to see, it has a lot of leaves. But for this one it is true: don&#39;t judge a book by it&#39;s cover! ...</span>
+                </td>
+                <td>0.25323145 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xBoavV3sq6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xBoavV3sq6">International Dummy letter</a><br/>
+                    <span class="description-preview">If you want a dummy letter just add in the comment box if you can organic materials in it or just a letter/b-day card etc.
+
+
+Easy to see if you mail will be opened or if you address is flagged.</span>
+                </td>
+                <td>0.02202012 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="missgreen" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to missgreen</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'missgreen'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CokeDirectUK</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 436.89 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>CokeDirectUK</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 7 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hi Guys <br/><br/>Sale on the Coke starting 20/3/14<br/><br/>Thanks<br/><br/>CDUK <br/><br/><br/><br/>Hi <br/><br/>We R CokeDirectUK<br/><br/>We sell always Cocaine and sometimes other products.<br/><br/>Full Escrow if not stated.<br/><br/>We reserve right to cancel any order we want not to take.<br/><br/>Remember guys please leave feedback our business depends on it.<br/><br/>Thanks for looking.<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQENBFLZQsEBCACspmiMXAXZn9RjWY421C3vVSv5quZ8rVo8hLrVr+R5Cj8pwoIa<br/>zFn5s9mWms3S7eUOVgopS4wIPXxpeU4U/OKczLdZUME/OKwRzxN2uz/JhnO8QPV4<br/>0eaPjhgcfg93jsWzPf0/gMbnjlCwtPZRFZobx6hfPrVmB90oGIwylLp1RWZf+CXB<br/>rrj9M00o7skqlZXsAd8RxWYgpazZyw222Tydg93GExmKOC4TFRROWKaM8TxQ6Ei7<br/>cM7G/V+0APQcEAQDMqrZm9YcL2YL2/xzvAA1kvj+H0MWyvkiz5gV56aDATurqsSU<br/>CcxXbkRjbUBxwmSBaM1AJh4jQ+ojD4CEmDm/ABEBAAG0IkNva2VEaXJlY3QgPFBN<br/>ZXJzb25Ac2FmZS1tYWlsLm5ldD6JAT4EEwECACgFAlLZQsECGwMFCQlmgr8GCwkI<br/>BwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEAPAV6rvhtG8BdcH/AnXdK9mmpswvZym<br/>028ixU1hvV4TEmlDnWDX8v39dOcqf82PcvnUfU/AGmHtZr0olERn+guAjM1bkxlY<br/>+4DXX4nrA+7CSurI6UID56ByhmDKLBBTaBwvLo91Qvrle2A0kgC7gonuzFVKRLzT<br/>61c8BRfPnqXoeygiN84cQR/MdO2cSmVUmdbcvwLX8tyH+Feysd7QeHPrZw6Zy9E+<br/>IzWSeHHraiF3BWqKK/i6agONkjCHrECYqQSfRQDJTNcxpB3bkSp99JutOQmlkVrB<br/>1ctQSaQ0B+xF7LZlpdKPIABO9gPIBJ6DGxD24kNUIDa7jPO4CilwMOgDh+m8DTLP<br/>SP4PHqC5AQ0EUtlCwQEIALPMP4YX8usmP86pDmHHLiSx8Lsf+Mi5Xf6LRz0l0uB/<br/>lJpRVYU7uSM9h5G5bcdO23bxHX58fJ6Q2mEYB1XW0YdvJytY+A2rc4AMxEYTD1A3<br/>4z8Rnkv8wwifySKM3O06NG/thy9hk69YnSr2tTJhdbG2YyDhcKmORtaIV7GsgtUM<br/>c9zK54y/tSAP4vM5YnsXPz0G9fl/2Hm9IcVsmp8Y9vBAollOikS3zM6+Zx4oHwVk<br/>Aaoy3m1ZwuDlC8ZylcONNyMTK393Jr7oFCROT76PL4iZazMGMFN01dJnE74ZK18R<br/>3Iq9dnU09TWDNIC3ZX23g/iveMwDtMPaTJzdZ7cZ19cAEQEAAYkBJQQYAQIADwUC<br/>UtlCwQIbDAUJCWaCvwAKCRADwFeq74bRvCnZB/sH1eER3f2UabWFx57IsaYuWLkY<br/>fMbeKBB5SeZ5mB5b3vghPoEekj1bzEN4sVn5p75ZqqCHM8XfmAWxybd2amKjc0ob<br/>zGjD9M8NeLMsS7UJY7P036NHY7zn/rRS7nlO680qcVu3DsidFU/SO6aZinWYBwbo<br/>JTsnyNN2+S0+ADxveF69RDZDC6gslVQDojZK3e1q/AU6QYWcIrqeYD+WKsl5Vu5b<br/>jZBO4E6I1DDtvZHeE5mEjw51FCLr0WHh5k32nfDw9+I+kJIyQMD5vRdCWz+Wsw9L<br/>y28vxAP0JWznQnHMUufGWHJmwahkJojpALkstxddkagQKlQxIzAAkuOfU5pX<br/>=5qPy<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>First class. my world was awesome last Monday. But seriously it is pure, clean and leaves you feeling like you could be an air </td>
+                    
+                        <td>
+                            <a href="/p/M8CMv3FRkU">
+                                OFFER Cocaine 0.5g-- FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Next day delivery, great service. Nice smoke. Will order again.</td>
+                    
+                        <td>
+                            <a href="/p/flYZZ0SVxT">
+                                Hash/Pollen--FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Next day delivery, great service. Nice smoke. Will order again.</td>
+                    
+                        <td>
+                            <a href="/p/PWmrozRCyK">
+                                Hash/Pollen 7.0g --FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fantastic and fast!</td>
+                    
+                        <td>
+                            <a href="/p/PWmrozRCyK">
+                                Hash/Pollen 7.0g --FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Ordered later over the weekend. On the door map Tuesday morning. Nice One.</td>
+                    
+                        <td>
+                            <a href="/p/PWmrozRCyK">
+                                Hash/Pollen 7.0g --FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/PWmrozRCyK">
+                                Hash/Pollen 7.0g --FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good hash for price. Smooth &#116;ransaction. Would use again</td>
+                    
+                        <td>
+                            <a href="/p/flYZZ0SVxT">
+                                Hash/Pollen--FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came next day and was as good as could be expected. I would buy again</td>
+                    
+                        <td>
+                            <a href="/p/flYZZ0SVxT">
+                                Hash/Pollen--FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great comms, good stealth, prompt postage and the circumstances, and really nice looking pollen. Cheers dude</td>
+                    
+                        <td>
+                            <a href="/p/PWmrozRCyK">
+                                Hash/Pollen 7.0g --FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good Moroccan pollen , good taste , good potency. Excellent stuff</td>
+                    
+                        <td>
+                            <a href="/p/PWmrozRCyK">
+                                Hash/Pollen 7.0g --FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Next day delivery. Trusted Vendor. I will order again</td>
+                    
+                        <td>
+                            <a href="/p/flYZZ0SVxT">
+                                Hash/Pollen--FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>magnificent service. top product.</td>
+                    
+                        <td>
+                            <a href="/p/flYZZ0SVxT">
+                                Hash/Pollen--FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Clean hash &amp; fast delivery, good stealth.</td>
+                    
+                        <td>
+                            <a href="/p/PWmrozRCyK">
+                                Hash/Pollen 7.0g --FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Next day delivery! Did it all at once and while not amazingly strong i got a decent kick out of it, legit seller, thanks!</td>
+                    
+                        <td>
+                            <a href="/p/yrVMq0W3JS">
+                                OFFER Cocaine 0.2g-- FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fantastic. Many thanks. Exactly as described and got  the next day.</td>
+                    
+                        <td>
+                            <a href="/p/Sj12vEsLRk">
+                                Cocaine 1.0g  FE ONLY
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/M8CMv3FRkU">
+                                OFFER Cocaine 0.5g-- FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Overweight medium grade pollen as advertised, fast delivery and some decent stealth. 5/5.</td>
+                    
+                        <td>
+                            <a href="/p/flYZZ0SVxT">
+                                Hash/Pollen--FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Exceeded all expectations.  Next day, good packaging, lovely gear.  Def be back!!</td>
+                    
+                        <td>
+                            <a href="/p/M8CMv3FRkU">
+                                OFFER Cocaine 0.5g-- FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great gear, next day. Thanks</td>
+                    
+                        <td>
+                            <a href="/p/M8CMv3FRkU">
+                                OFFER Cocaine 0.5g-- FULL ESCROW--
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of CokeDirectUK:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Sj12vEsLRk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Sj12vEsLRk">Cocaine 1.0g  FE ONLY</a><br/>
+                    <span class="description-preview">-----PRICE DROP-----
+
+1.0g Very high quality Cocaine.
+
+----------F E ONLY----------
+Finalize B4 dispatch thank you.
+
+UK to UK
+
+Same day dispatch order B4 2pm Mon-Fri.
+
+Heat sealed Xtra ste ...</span>
+                </td>
+                <td>0.35477225 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PWmrozRCyK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PWmrozRCyK">Hash/Pollen 7.0g --FULL ESCROW--</a><br/>
+                    <span class="description-preview">--FULL ESCROW--
+
+--NEW BATCH--
+
+7.0g Nice medium grade.
+
+Good quality, strong, nice high.
+
+UK to UK only.
+
+Order B4 2pm for same day dispatch.</span>
+                </td>
+                <td>0.10299839 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/flYZZ0SVxT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/flYZZ0SVxT">Hash/Pollen--FULL ESCROW--</a><br/>
+                    <span class="description-preview">--FULL ESCROW--
+
+--NEW BATCH--
+
+3.5g Nice medium grade.
+
+Good quality, strong, nice high.
+
+UK to UK only.
+
+Order B4 2pm for same day dispatch.</span>
+                </td>
+                <td>0.05493247 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/M8CMv3FRkU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/M8CMv3FRkU">OFFER Cocaine 0.5g-- FULL ESCROW--</a><br/>
+                    <span class="description-preview">Excellent quality Cocaine 0.5g. 
+
+Opening offer. One per customer. 
+
+UK to UK only.
+
+Order B4 2pm for same day dispatch Mon-Fri.
+
+Product heat sealed extra stealth for your safety.
+
+Coke Di ...</span>
+                </td>
+                <td>0.17166399 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GV0rF8usLj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GV0rF8usLj">Cocaine 0.5g--FULL ESCROW---</a><br/>
+                    <span class="description-preview">-----PRICE DROP-----
+
+0.5g Very high quality Cocaine.
+
+FULL ESCROW
+
+UK to UK
+
+Same day dispatch order B4 2pm Mon-Fri.
+
+Heat sealed Xtra stealth for your saftey
+
+New customer see our speci ...</span>
+                </td>
+                <td>0.17738612 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="CokeDirectUK" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to CokeDirectUK</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'CokeDirectUK'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

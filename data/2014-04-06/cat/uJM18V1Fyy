@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Forgeries</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 445.06 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/uJM18V1Fyy">Forgeries</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iJdiSjltR7">Other<span class="extra-caption"> (8)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/cM5k9R62Ni">Physical documents<span class="extra-caption"> (50+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/RtZ1o4di6V">Scans/Photos<span class="extra-caption"> (90+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7400+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+
+
+<div id="product-index" class="nofirstmargin">
+
+
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/BEUtSxVbaG"><img style="display: block; margin: auto;" src="/liabilities/preview/BEUtSxVbaG.jpg" alt="PHOTOSHOP EDITTING SERVICE"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/BEUtSxVbaG">
+                PHOTOSHOP EDITTING SERVICE
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.07863931 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/KWh8GVjPAy"><img style="display: block; margin: auto;" src="/liabilities/preview/KWh8GVjPAy.jpg" alt="Finland HQ Passport Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/KWh8GVjPAy">
+                Finland HQ Passport Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.04493675 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/vt5MWpdiDw"><img style="display: block; margin: auto;" src="/liabilities/preview/vt5MWpdiDw.jpg" alt="Custom HQ EU Util Bill"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/vt5MWpdiDw">
+                Custom HQ EU Util Bill
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.08115577 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/JvMmKkgzbv"><img style="display: block; margin: auto;" src="/liabilities/preview/JvMmKkgzbv.jpg" alt="Fake Lithuanian Passport"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/JvMmKkgzbv">
+                Fake Lithuanian Passport
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">1.85364100 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/yBib2aDrFj"><img style="display: block; margin: auto;" src="/liabilities/preview/yBib2aDrFj.jpg" alt="Israel Drivers Licence"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/yBib2aDrFj">
+                Israel Drivers Licence
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.56170939 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/c4WlWvcbeC"><img style="display: block; margin: auto;" src="/liabilities/preview/c4WlWvcbeC.jpg" alt="EU Passport 1:1 Superb quality"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/c4WlWvcbeC">
+                EU Passport 1:1 Superb quality
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">5.39241018 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/GFi3YrW1jw"><img style="display: block; margin: auto;" src="/liabilities/preview/GFi3YrW1jw.jpg" alt="PHOTOSHOP JOB , ANY DOCS"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/GFi3YrW1jw">
+                PHOTOSHOP JOB , ANY DOCS
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.17974700 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/LMx6j2FY0o"><img style="display: block; margin: auto;" src="/liabilities/preview/LMx6j2FY0o.jpg" alt="Australia HQ Passport Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/LMx6j2FY0o">
+                Australia HQ Passport Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.04493675 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/T6Ni3Ek9eU"><img style="display: block; margin: auto;" src="/liabilities/preview/noimage.jpg" alt="custom order"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/T6Ni3Ek9eU">
+                custom order
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.33702563 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/AomW27y7G4"><img style="display: block; margin: auto;" src="/liabilities/preview/noimage.jpg" alt="The PurpleLotus .onion Coupon Generator! Coolest thing ever to hit the darknet! 10credits+1Free"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/AomW27y7G4">
+                The PurpleLotus .onion Coupon Generator! Coolest thing ever to hit the darknet! 10credits+1Free
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.22468375 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/xYdbau0Xru"><img style="display: block; margin: auto;" src="/liabilities/preview/xYdbau0Xru.jpg" alt="Hungary HQ Passport Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/xYdbau0Xru">
+                Hungary HQ Passport Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.05617093 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/NwsBgY0hTb"><img style="display: block; margin: auto;" src="/liabilities/preview/NwsBgY0hTb.jpg" alt="British Passport Custom Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/NwsBgY0hTb">
+                British Passport Custom Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.11234187 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/eTLs87bK90"><img style="display: block; margin: auto;" src="/liabilities/preview/eTLs87bK90.jpg" alt="Espa&amp;ntilde;ol HQ Passport Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/eTLs87bK90">
+                Espa&amp;ntilde;ol HQ Passport Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.04493675 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/zXfZluohCy"><img style="display: block; margin: auto;" src="/liabilities/preview/zXfZluohCy.jpg" alt="Credit card Debit Card Bin List Bank identification number"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/zXfZluohCy">
+                Credit card Debit Card Bin List Bank identification number
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.00224683 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/hDi8pM3oBb"><img style="display: block; margin: auto;" src="/liabilities/preview/hDi8pM3oBb.jpg" alt="Illinois ID Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/hDi8pM3oBb">
+                Illinois ID Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.03370256 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/xPobznnSjz"><img style="display: block; margin: auto;" src="/liabilities/preview/xPobznnSjz.jpg" alt="Ireland HQ Passport Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/xPobznnSjz">
+                Ireland HQ Passport Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.05617093 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/wq8sTLdufg"><img style="display: block; margin: auto;" src="/liabilities/preview/wq8sTLdufg.jpg" alt="British HQ Passport and Utillity Custom Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/wq8sTLdufg">
+                British HQ Passport and Utillity Custom Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.13481025 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/jad8aEgmAw"><img style="display: block; margin: auto;" src="/liabilities/preview/jad8aEgmAw.jpg" alt="German Passport Custom Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/jad8aEgmAw">
+                German Passport Custom Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.11234187 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/WG7DRFX5JC"><img style="display: block; margin: auto;" src="/liabilities/preview/WG7DRFX5JC.jpg" alt="Fake Italian Drivers Licence - 1:1 Bank Quality"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/WG7DRFX5JC">
+                Fake Italian Drivers Licence - 1:1 Bank Quality
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.86503246 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/o1snwBD2Br"><img style="display: block; margin: auto;" src="/liabilities/preview/o1snwBD2Br.jpg" alt="FAKE ID - WHERE TO GET IT"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/o1snwBD2Br">
+                FAKE ID - WHERE TO GET IT
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.04493675 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/r6Uvh9A3wp"><img style="display: block; margin: auto;" src="/liabilities/preview/r6Uvh9A3wp.jpg" alt="EU Lithuanian driving license SuperB quality"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/r6Uvh9A3wp">
+                EU Lithuanian driving license SuperB quality
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">2.02215381 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/gVa2bbch3v"><img style="display: block; margin: auto;" src="/liabilities/preview/gVa2bbch3v.jpg" alt="Embossed Mastercard Physical Card"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/gVa2bbch3v">
+                Embossed Mastercard Physical Card
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.13481025 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/BkCpWPgvEN"><img style="display: block; margin: auto;" src="/liabilities/preview/BkCpWPgvEN.jpg" alt="Custom HQ Passport Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/BkCpWPgvEN">
+                Custom HQ Passport Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.19772170 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/bmnXjEVbZF"><img style="display: block; margin: auto;" src="/liabilities/preview/bmnXjEVbZF.jpg" alt="Ceska Republika ID Scan (OBCANSKY PRUKAZ)"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/bmnXjEVbZF">
+                Ceska Republika ID Scan (OBCANSKY PRUKAZ)
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.07863931 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/EBCmyhgevA"><img style="display: block; margin: auto;" src="/liabilities/preview/EBCmyhgevA.jpg" alt="Lithuanian ID card SuperB quality"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/EBCmyhgevA">
+                Lithuanian ID card SuperB quality
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">2.24683757 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/JdiLLb8m0G"><img style="display: block; margin: auto;" src="/liabilities/preview/JdiLLb8m0G.jpg" alt="EU Passport 1:1 Good quality"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/JdiLLb8m0G">
+                EU Passport 1:1 Good quality
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">3.37025636 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/dEXJZWZjDg"><img style="display: block; margin: auto;" src="/liabilities/preview/dEXJZWZjDg.jpg" alt="10 Passport Scan Italy"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/dEXJZWZjDg">
+                10 Passport Scan Italy
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.10110769 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/r5atKhTz7F"><img style="display: block; margin: auto;" src="/liabilities/preview/r5atKhTz7F.jpg" alt="AUS HQ Replica ID&amp;#39;s - Holograms - Included"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/r5atKhTz7F">
+                AUS HQ Replica ID&amp;#39;s - Holograms - Included
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.89873503 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/CbjLBG3gk1"><img style="display: block; margin: auto;" src="/liabilities/preview/noimage.jpg" alt="The Whole Foods Coupon Collection!"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/CbjLBG3gk1">
+                The Whole Foods Coupon Collection!
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.22468375 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/qfN9B7yxFG"><img style="display: block; margin: auto;" src="/liabilities/preview/qfN9B7yxFG.jpg" alt="Austria HQ Passport Scan"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/qfN9B7yxFG">
+                Austria HQ Passport Scan
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.04493675 BTC</span></div>
+
+    </div>
+
+
+
+    
+
+    <div style="clear: both;"></div>
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

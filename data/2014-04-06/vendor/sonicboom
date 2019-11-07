@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>sonicboom</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 458.50 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>sonicboom</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~0/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 months 25 days ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (GNU/&#76;inux)<br/><br/>mQINBFKwBL8BEADNIGh8S+Sc2KYzHpn8vxWwb2tD/jJQd2R54jKNAij7ZX41wfqR<br/>PytUjQ2KtHXkHdz1yOc1P2IYWq8HKnZOtqjMkUGDXMZH+L2d89+o16gByY/rhQRb<br/>8RF9NF1RkPtoAg49P2ujd8XLpwmuusW2wm7YbhEh8fjxbCr2bqcPLTrnC4ufQY3P<br/>+Gfob6RxCTAzUc7R0G7PHkx6bkCmYJVkqBIXmj7U8wuJqimVy/mLfnHWrZwpOWav<br/>4feqrwHfoDVsl9qH+TEWMBC3VaOHYGM3kqsVGDvuP3gYdFfwjFK5XIi9CKY8dh7Z<br/>g2MOCrp4XGyy4WPF8zKdy1eyRaDrH1Ej4o7X4B2rCJ6vVNhkGyC4kRk/wTmD1rhC<br/>0u6eXVXL0NqvnxStRAGIt4lSGCt6W6T4kKQhVX54NXv3kP/juP8AFRu1rKCmfMdo<br/>31pL8yy6vgb4sH9RIte+Q9wLuN5W5sARDAUvjcX9xQGgf120Zm9/lUHZYCYQ4vBq<br/>dY5q2ifnioc+A8lrBkOp3/G9YzH0OJ1rtPWOp9AbGk8nuermrlylb5o2BJtmixRv<br/>nx4dHqgqktkm5Al1/7eXlxyCqsq8KF3ChbgMYXfkDVUwc0J8iowBDTKVT+x2TXlA<br/>BS4zHB5DwmHotwI6T9TAOIvK4kRHNJIClNJQ1LcMu8CKeC7OBJEfboThvQARAQAB<br/>tB9zb25pY2Jvb20gPHNib29tQHNhZmUtbWFpbC5uZXQ+iQI3BBMBAgAhBQJSsAS/<br/>AhsDBgsJCAcDAgYVCAIJCgsDFgIBAh4BAheAAAoJEF42no9uA5CgJxMQAL7k6zuR<br/>lz2vCvdJ8TTb0LHLgpFUnBAqwjD8Pgh1tQIU45cuHtwQPbxZn5CKWpBrZc6Paj10<br/>IQNAiKedKHL9E4l9xHEZnU+VSWKUM13ERrsJ7f6DraBMSUQv0TR0PAz43ZGtxB0h<br/>0koL1y1+chI1AaLh/3qDjMOP52FrMbYREBA2PbFlgDR8YMSPM9p8mo+sViPU7P6L<br/>Igs5PiRpx8SdjFdHqM8yr903Jab95ZGZTJd6fDtTQxbEjXOnlzD0SYwjQn7CGPbu<br/>ThQGRf7xuzl4nufl/yXeJ+Ddkv7bvzgoAp8EH01jqvzcZZjZ/zQXkt3Ge8q1sJF+<br/>ju5JGb9x8ZEWswsc9mz8e3INM54kUly1JGZyJG6h3Q9pfYJygsM6aMRXdbhULUjP<br/>lv26lR5/wAQgS6WBrYvGR0Wc8AxIBw6SdjfDiTHHUdDawogbOqmbtqtUEVVG68eN<br/>su3sWNbWo8ku7uRHgu//UVX06FcOmjydyyKDgLez7b2TAhnQ14aH5XXk0aDkvlwZ<br/>ocRqumxoSyCY/mJHTlzQTRqgoayzYtiCj5O61J9Fck7Bapcxc7+A6wrX0D3MCYtX<br/>SMPmLdJrfLELOzvpaecVFbpUNiKiz+Mj4OQ3mz2PE+OrOyTvAmB5UIgNR3QjD2iV<br/>javxygEeF2tUbAzH/HxeRK2r3gZE1QZfSg72uQINBFKwBL8BEADMseme8Swwk+dV<br/>fPG1SRk5fiz0mtrN/ikQsLytDsBTC0rUbpu3SZ86H3daOfnRZ2G2k4zpvPUQMkWq<br/>KsDDus97IsfFv1h++LbvRHIWKp3+futj5t8jgpYoj7TCuwgtkNFOxjOCNcKYIx6H<br/>ha0D0GYMXbZeKsSh/zc2W18jdSsVThzlOtGmkkmPgv6bwUjnC5RlJhfUsn9X6hes<br/>gQf8u2jtg3Wn/If2MGL1IMJXDaqKuFwTT244R3NmTSzPdgMrpKI1+jNXtMtamn4d<br/>WtdzdqBQvuRi4X/A87FVWzsBRF9m6BOVxq1TdyTSqViPAEV7PgWU5e1IkGXq0oYs<br/>BCCm3Zfe2KEiIawkoGpC7tVAwrw/Q/Vul5Twc+1YOj4mL1MDV7BrpndwREn3kmhk<br/>YVBNfQGYlOsq8qVL8TNTnpSZvglThz5j2u+ZMmo635D07VVwn8NtT9XzQJto1oan<br/>D07PkVyLXxAbk9lnkmiGn0X5wDgUDd5cATQmgr3KjsUMnfErQ62Rf/RQq/vkq2Oj<br/>AfriF5qfwxK/Fe/9qIwDzuhMh2cXatI13zS/HEgoCFYWir833R3T9BXCJrY1qGfC<br/>znJtEvHrNQHdNQ8kERhh0ln1vpE7GX1x1eoDowg7DgY4XwJm6JjBzmwh0MLvU8cZ<br/>HSu2ijT5+j998urCRKci+umEbE3/fwARAQABiQIfBBgBAgAJBQJSsAS/AhsMAAoJ<br/>EF42no9uA5Cg16cP/3VfaSL55a6+/cA5l2qOlQ2/d0jp6dRmgIhTpWjBwsollYyB<br/>sF77AzSHcOjpUSJDLoOXdb3wxrwi2MTUL/F6/Pr4liaT29a2kpzycnaXZ8FNE9Y8<br/>fN25nn6ImTgI9Qhoub4bFWXWwgVyrw9pnPVG88CXpA3xbkSLOlpnXkR5dZITjAgV<br/>98nqQuaWOhhOvZRiYrWp3DM3DOqhtelxVf54ZTHY8xqamrIe0Qtu2rsNqK0lGMvg<br/>Am68yNEt+CU7Bmj56Tn52HE9dJ1iKSWMX7NCBqcG73NarzDwAiq5yapZ8DNEaKWe<br/>E/iguMM+ZTC3KYb8HnGtvjjx1fsKWE0&#89;ii9PlOzEt7SX1RbAs9FQazeNM4NhI2aM<br/>dN0SvTmNX33Yih91FgydrQWv1HhDimTfReqTDpKq30xZQwSqZ3/x+8LnhPgpV7hG<br/>tpEDXBBBFj4ouI6jJoKSOmA9hGZ/svc3+u+W3kUwYid/nod6gSzI/6iP+oheVxC7<br/>KY5G9Zz4Z31ow6KWYxTwq8B5Nme0r//ykE0olaOWPeaVzviYoWo9JXGaqSJ61Ihm<br/>npwN+H21ilvwreszLAdYprhrVD28m1esFP6fRdpVfEjnHOuzqG77HwelCN+NU9Dh<br/>vv8SpwCrOWikLhmsZEMq66m1sxZuJlUqTPvfm9dU2seRQZ/gkhnoduIgsCHb<br/>=ZLux<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>yeah he scammed me, fuck me for falling for it. check his pgp against any other fake M1 methylone sale accounts and read forums</td>
+                    
+                        <td>
+                            <a href="/p/GB7tTmNmgg">
+                                1kg Big Rock Methylone (bk-MDMA / M1)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of sonicboom:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZtSjBANmn5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZtSjBANmn5">1.5kg Big Rock Methylone (bk-MDMA / M1)</a><br/>
+                    <span class="description-preview">03/JAN/2014
+NOTE: I CAN STILL EXPORT REMAINING METHYLONE *CONTINUE*
+Synthing and exporting of this is illegal, but I can still export it, I have to do WAY more than just a MBB/foil bag to do so, ea ...</span>
+                </td>
+                <td>8.28789531 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/h9ylZ2zhbk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/h9ylZ2zhbk">500g Big Rock Methylone (bk-MDMA / M1)</a><br/>
+                    <span class="description-preview">03/JAN/2014
+NOTE: I CAN STILL EXPORT REMAINING METHYLONE *CONTINUE*
+Synthing and exporting of this is illegal, but I can still export it, I have to do WAY more than just a MBB/foil bag to do so, ea ...</span>
+                </td>
+                <td>3.53326063 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GB7tTmNmgg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GB7tTmNmgg">1kg Big Rock Methylone (bk-MDMA / M1)</a><br/>
+                    <span class="description-preview">03/JAN/2014
+NOTE: I CAN STILL EXPORT REMAINING METHYLONE *CONTINUE*
+Synthing and exporting of this is illegal, but I can still export it, I have to do WAY more than just a MBB/foil bag to do so, ea ...</span>
+                </td>
+                <td>6.10687022 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="sonicboom" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to sonicboom</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'sonicboom'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

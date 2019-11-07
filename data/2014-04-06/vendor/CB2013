@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CB2013</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.95 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>CB2013</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 200~300 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 0 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQENBFDuLKABCADkZdZyz7FBtdksj94tdhAyG+9UeFX8xgGhTlLGdmpoNR+29gqN<br/>08US+da70yA0YEs5cp0Zq/fAZ3+ROsCcNFQO9yhjv3ni35lPpjUojz0+WWMAJiqs<br/>0p6dMb6pLyD5YNjB7V7aoO1PoM18QoHy9J9gzfazjsdWCBRGz9/W7ev7PvZxkpSA<br/>HhJMBrTNc9kDTQme6kBs6/Yek952I67KHJ6Ts9OosGXU6Nmdo/nXMU7lkvKG3EPk<br/>hperkUJHtQijBIEtDmGuFVbPfOp1wZcH2rWweAgiYhbDaq0gxY4rHr6bDoUnICuv<br/>HO1nuvxEvM3omuM4iC3Z6oE6DaMVNeZV3EzDABEBAAG0F0NCXzEzIDxjdHpAdG9y<br/>bWFpbC5vcmc+iQE4BBMBAgAiBQJQ7iygAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIe<br/>AQIXgAAKCRAMAd8/biNZ0eFGCACCcv645e/thbRePTCHMM9V6DMYPF8otj1ekY/e<br/>8nk6a8uhZqYQhl6UwelQ4nwZG6PAq17XN6FGW6aXZUwtWcXaFvoEF8ng5b7DMIgt<br/>M7+NHUO//MHU7fDa1dERpIfhU3HcD0uQe8ohZJJk69/L70Ul62yfcrrTLko1MPK+<br/>BRrtWCc6BsfXTnK5JlUyNsPDdZzBZEATFb6kq1D3dlGd7WPBCcqml0g/Lv2ZAOBk<br/>xZR4qlJ1dZbBqVQluv0vErhy6veRKQAhrGxUZY4RaHrNsRimMPCkNZRATbmWwoYI<br/>geMKj1XmhPIEcOQK7D0FDyzhDrEVBg+knwfbnMH+OHpDExmauQENBFDuLKABCACw<br/>OKCQcdA5d1dopAfSpXKqyAovy2W6Y+Bw+SVM91sb4UrRPFtWly5gA2jRGM8i2H5x<br/>NwraIi1aJ3M2p8el+Xw7yQsmbpcm6jWJIF2D1oYv8LXbkXdad4f4ZY2+TmAcudLZ<br/>LNa7FVhgX4HpfeIid6exnlz+yRTEcGGEdgVH5TvRdzxUQbhzIylrJ8tAGlU0Wh9i<br/>QyyIrY1rTWxfTAFCEdWhWmZ1JjNFX1j4OwfOCzRs6ntWkyuYxGwyBTLPUx6XrPCv<br/>jUNq1PhlTNKqeGgHiA33/+RyEtR1MBsBqjGw0e0aGgN//NqWMrOSKt/IZ3gWETVm<br/>z22/IRdpXu1La7iFZSHJABEBAAGJAR8EGAECAAkFAlDuLKACGwwACgkQDAHfP24j<br/>WdFo9QgAxpzrVYwdbN55K5HUNTrckNnUcuyyjBRNBnVRORRgyzAjiyf/Wn9UIK5z<br/>EWu7jjRqkd6RwCIEPDqA/GAlSXVe2g/7+koG1Xj7arnqFtQJxN0OgnoIfuEVePbX<br/>azGQ800QEodxsPHHOf/n8/GAqOThGftF91dJayA4vnc+2DAg+gvkMcDa5RmWYtzP<br/>Xp1dHcPJFs0NVsRNAharmqrQ3zHLtg2fCx/KxMGg+xE2OO55bCKBNI5p5r4IYHlo<br/>aK1gUdSU/ryBhlX1Ir6ime+rSAKciHa0KX3l03rftNCa+zI2pdsom4OCaEI6l0tt<br/>qfVz4rUado5LvCrhHH&#98;SDFXzR/r2Tw==<br/>=zSQo<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+++ great shipping, communication, and fantastic product.</td>
+                    
+                        <td>
+                            <a href="/p/ZrWpdcUMSa">
+                                3.5 grams WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Looks good,good shipping. Product is very nice for the price. FE&#39;d &amp; shipped the next day. The plastic containers would be a be</td>
+                    
+                        <td>
+                            <a href="/p/ZrWpdcUMSa">
+                                3.5 grams WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good lookin stuff...only took 2 days from shipped</td>
+                    
+                        <td>
+                            <a href="/p/ZrWpdcUMSa">
+                                3.5 grams WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d for a legitimate vendor and you bet your ass i&#39;ll update</td>
+                    
+                        <td>
+                            <a href="/p/pZh9KAb7B6">
+                                1/2oz. Outdoor ChemKush Seeded
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very nice wax.  Thanks as always!</td>
+                    
+                        <td>
+                            <a href="/p/ZrWpdcUMSa">
+                                3.5 grams WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>arrived in 3 days! DANK, PURPLE, FAT, and STONEY FUCKING BUDS. slightly overweight!</td>
+                    
+                        <td>
+                            <a href="/p/jlJTG76h2z">
+                                4oz. Chem MasterKush(Bomb Outdoor)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Always comes through</td>
+                    
+                        <td>
+                            <a href="/p/NbMGq4gKxV">
+                                1oz. Blue Dream
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>i need as much of this as i can get</td>
+                    
+                        <td>
+                            <a href="/p/jlJTG76h2z">
+                                4oz. Chem MasterKush(Bomb Outdoor)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FEW per request. Will update upon arrival.</td>
+                    
+                        <td>
+                            <a href="/p/ZrWpdcUMSa">
+                                3.5 grams WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Nice chunky nugs! Great price and fast shipping! Will return!</td>
+                    
+                        <td>
+                            <a href="/p/NbMGq4gKxV">
+                                1oz. Blue Dream
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Shit is da bomb</td>
+                    
+                        <td>
+                            <a href="/p/k5b07qxq0y">
+                                4oz. bluedream
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick shipping, product slightly underweight. Can&#39;t beat the service or price.</td>
+                    
+                        <td>
+                            <a href="/p/sFxMvyArtX">
+                                1oz. ChemKush(Quality Outdoor)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fastest, most consistent vendor I have ever dealt with. Great weed too!</td>
+                    
+                        <td>
+                            <a href="/p/NbMGq4gKxV">
+                                1oz. Blue Dream
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fastest, most consistent vendor I have ever dealt with. Great weed too!</td>
+                    
+                        <td>
+                            <a href="/p/sFxMvyArtX">
+                                1oz. ChemKush(Quality Outdoor)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very good</td>
+                    
+                        <td>
+                            <a href="/p/NbMGq4gKxV">
+                                1oz. Blue Dream
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for awesome wax at an excellent price...and my third purchase within a month probably -delta</td>
+                    
+                        <td>
+                            <a href="/p/ZrWpdcUMSa">
+                                3.5 grams WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/jlJTG76h2z">
+                                4oz. Chem MasterKush(Bomb Outdoor)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Kinda dark, but that&#39;s to be expected w/ trim runs. Well purged and great for the price, no complaints here.</td>
+                    
+                        <td>
+                            <a href="/p/m7VqNvJNZZ">
+                                1oz. WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great stuff as usual, barely any shake, all gnarly chunky buds. Awesome shit.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Finalizing errrrlllyyyy for some errrrrlllll.  Will update when it gets here!</td>
+                    
+                        <td>
+                            <a href="/p/m7VqNvJNZZ">
+                                1oz. WAX
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of CB2013:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/myVdaGXFhn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/myVdaGXFhn">14 Grams WAX</a><br/>
+                    <span class="description-preview">RE/US only..no escrow.</span>
+                </td>
+                <td>0.69542564 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/Cti19D4gEN">1oz. Purple MASTERKush</a><br/>
+                    <span class="description-preview">frosy Big nugs..Purple..OutDOOR...No escrow..oNLY 1 in stock.</span>
+                </td>
+                <td>0.41946308 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZrWpdcUMSa.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZrWpdcUMSa">3.5 grams WAX</a><br/>
+                    <span class="description-preview">Extracted from ogkush and gsc...Good  wax,BEST price..Some wax pieces might have a few microscopic leaf particles in them,do to a filter having a small rip in it..This does not effect the quality,wei ...</span>
+                </td>
+                <td>0.22077004 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/m7VqNvJNZZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/m7VqNvJNZZ">1oz. WAX</a><br/>
+                    <span class="description-preview">Extracted from ogkush and gsc...Good  wax,BEST price..Some wax pieces might have a few microscopic leaf particles in them,do to a filter having a small rip in it..This does not effect the quality,wei ...</span>
+                </td>
+                <td>1.32682797 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pZh9KAb7B6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pZh9KAb7B6">1/2oz. Outdoor ChemKush Seeded</a><br/>
+                    <span class="description-preview">Cali outs,not mex brick...Big buds..Has some seeds.For those on a budget..RE/US only   ..Buy 2 get a free .5 gram wax.</span>
+                </td>
+                <td>0.15453903 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="CB2013" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to CB2013</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'CB2013'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

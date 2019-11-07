@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>HighENDD</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.31 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>HighENDD</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.41/5, 25~40 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hello, sorry for the long vacation.I see 4 poeple did not recieve their packages. IF you are one of them please contact me. I have delivered tracking on my end, so I hoping you guys just forgot to change your review and rating. <br/><br/>Please encrypt you information with the key below. <br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.14 (GNU/&#76;inux)<br/><br/>mQGFBFM+LFIBC8DIqqPyIjGI1hwWCDR6DTpqZPFOI6RwkzFXtPAKAtRnQ3RZGX1z<br/>uUVTuntEFa7qt0cGiMRoqB7K+WxhJ9WLbmVWgFzlHY5ao9UO8vNn6UBG/0MOt3eJ<br/>cOEVbZu7ShH4PzUm0+2+sd50e/4zkx19AcJ02ZorbDm1Ex1Of8dntoNpdabDtas8<br/>zW8rmnEmvj7EIthNu6g4vdWw13DpZoJyOoIrh3n7uhbNaffHkYJvkHQe/tVjLh/Z<br/>zj3RpfVdrqHtmNG1UlRnAuU12ZXTiiK6/dWEMLHYCivdPCS10uxJu9CtMyhJkH6N<br/>YE62Lq9cWENms/SAqdVTk9LP09PUiL6y0YfekJCNkz9fgOc4GM25SnVPl7KXYc9z<br/>iD5ktPRZTchbPBRxE4m2c7HuOcdFEpIwX/JGNc+Q9kDY9hEXX4OnigPMHXg5Fs7N<br/>PD3pTPZSAvEA/JocX3YFcaJghCCIj5wH71qFHt6taoRuQE/GAwWDGF04xWday54J<br/>3TpdABEBAAG0OUhpZ2hlbmQvSGlnaEVOREQgKGNvbnRhY3QgbWUgYWJvdXQgbXkg<br/>Yml0bWVzc2FnZSBhZGRyZXNzKYkBtgQTAQIAKAUCUz4sUgIbAwUJB7mKAAYLCQgH<br/>AwIGFQgCCQoLBBYCAwECHgECF4AACgkQ36PrEZyS/CD2GAu+Jk2BOefKAIGshaSS<br/>Eou4GpcHX4Xjil0Jy2NNNVi9QkevEiHbcKy3eTUdOPpY1f0rR3bCbkch0RUXSS9Z<br/>CscjpknNRAHY4HQ6UVqIuG4q8vOqNkhuU2bmxnioKwMxEUj41d4kEi9C90t/47T+<br/>9dbF+Z75VOwYNDuxwlnm0jd0Pu5MOS5QdisfpiRLE5omx/Sgg4jSRqL9I6hC7ayZ<br/>+PJJ/k4OQdI27nMwCYRZxfRPSr1WBwiY5UwD9jZovsMBiV1px7VIZGH11uUogR5a<br/>7aTGcT4n1ubZkmOXd+Bf/+NFoo9XaWKj8g6YXFeVT7MQM7Bn1oq4Ef3DYoGf3k9A<br/>NW4D/iwiSdSPNGNApOQhvVpASJqxgf6ITtz1xC6haDrTTKEkH6z7qUNlrJhkoyZe<br/>D9oiVIjbfdgUkX8BrahU1p5ae9O2DQ3tACgC6gjpDDLJOMihJ12dd46mImNiVNdP<br/>eZC1FOqulCrL968pz2HAj1NZEAOrgUrwM14o37kBhQRTPixSAQvA2mbx7eGUNKj/<br/>stJJUGjxJE8fNTCOdBb0Va+qR6+lf2/vmWs4hK0WaVn4CVwtHHZGt79YG7HZ6N6b<br/>5l51XqwdAGD+wd7tAl2hY/Cidwfzi+NV6/BabHy524JuKejddVq2ZMtBjpNte+gR<br/>WZ2Y6R0Id7151X5mOlYvoiBQnJupyd3zFiI//uMTgFBOPH4n4ERiUJyA4Wr58E0s<br/>IW99WE8PmPDvhbtg+qR8vP74oeQ/Ug1LizKdMlJyccP/Uooc4WMIOkbNMhpq4xau<br/>0W2ywa4JRib3Jspq5L6YncIfIA1Ygj5IqS87UNo/vqOL9trMDoFCJTpKnnpQislg<br/>53aLHqgDdk4Af0Zku5JeT3PSBnw3Gbmc0cGztRzjbzGC/dfQfYhOlDsGBXuWFa1U<br/>iNH0zN5vWB2H1unuOH+KgQdylhbh3evIN7Jf5feU3qHPpYmrtqszTYVeOWjh80m7<br/>/hcQi72dXPF1tnC8tn&#109;VCt2W3tx1sLNUKwQ3GmP7wQARAQABiQGdBBgBAgAPBQJT<br/>PixSAhsMBQkHuYoAAAoJEN+j6xGckvwg7AcLwLNb8ByIplrZwD0NAz2G2bx3xxug<br/>RACeKdqxh/x37G7UtNDG1N0EVEVLEv3H2ZYUAUOWoKtNy2UaYY3hxj4a482Gxlbc<br/>nGzQyW27HBnjyGqATvUUrPzkS6wtPTPqkDB4YtSAqXWgQ9vEQbEBfNx4o24+LWSe<br/>ZJVoNaJDPbjUPv1w5UbRN+BWRzPOayCVrRLpPRNtelxYxdgozIh8IW4rCMkqQWR7<br/>yrSypRF7nMjQn0m7C3GvcZqdKrjS/QvQ5+s4b+uTiWN46eeMzT9JcUz5RpmzxX/q<br/>m2Dcce+68z7MuieFdVQ3Piv5KK6KlHmtrSqcqcAArNahIG0RGyhTHpNVHh292VU7<br/>/bDkyEjXwwq2A/V5mjlGgWer/EWwS7rk2+5XNZcuBPFqVRggUREmaftLuz36uhLu<br/>/M295CCKmG6txmHR/KCb6daGxE8NaVwZhvvlvW0vK4uZ/a53oYvW5ZPVjFzkg08E<br/>kyVMhLG7payhSZc4NJc0U/PZ1AY=<br/>=gYce<br/>-----END PGP PUBLIC KEY BLOCK-----</span><br/><br/><br/>I have new product and will be posting tomorrow. <br/><br/>I will be focusing my order on medium weight and will have the shatter you all know and love, bomb wax, and budder to die for, although im still trying to figure out a proper way to ship budder. <br/><br/><br/><br/>Hello I am U.S.2.U.S. Vendor with thousands of &#116;ransactions. 2+ year DarkNet vending experience. Here to Provide HighENDD product, proper customer service and professional discrete ease of mind shipping.<br/><br/><br/>for those of you who don&#39;t know me:<br/><br/>Why order from me?<br/>-HighEnd Products<br/>-Years of Stealth shipping experience<br/>-Years of darknet vending<br/>-Professionalism<br/>-99.9% success rate<br/>- No buyer creditability needed<br/>-Quick replies<br/>-FULL ESCROW<br/>- All products sold are chemically and personally tested before use.<br/><br/><br/>NEW RULES: <br/>- All orders are pre-wrapped <br/>- no custom orders below $2000<br/><br/>I will make batches and post the batch as a listing. The listing will have an actual picture of the batch. <br/><br/>why this is good.<br/>1. You know exactly what your a purchasing <br/>2. no more delays as I only post what I have.
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>Ordered 14G FE 25 days ago, never recieved, not returning emails. Will update if product arrives.</td>
+                    
+                        <td>
+                            <a href="/p/t87C5UdoKn">
+                                SHATTER - LAB GRADE - 14g FINALIZE EARLY
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>FE&#39;ed for price.  Still not received.  Will update when and if product arrives.  Would rather have the product than a refund.</td>
+                    
+                        <td>
+                            <a href="/p/VajVM70K5R">
+                                SHATTER - LAB GRADE - 7g  FINALZE EARLY
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>Ordered 3/5, never arrived. Was told twice it would be shipped, and then that I&#39;d be refunded but no coins in my wallet.  Somet</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>0/5 ORDERED 3/07 STILL HAVENT RECIEVED ANYTHING. VENDOR HAS NOT RESPSONDED TO MY MESSAGE. WILL CHANGE RATING IF THIS GETS RESOL</td>
+                    
+                        <td>
+                            <a href="/p/VajVM70K5R">
+                                SHATTER - LAB GRADE - 7g  FINALZE EARLY
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came through, and its dank! Thanks man, will be back soon. Count on it.</td>
+                    
+                        <td>
+                            <a href="/p/xqE7PtJgoy">
+                                HIghEnd Blonde Crumble - 14g  FINALIZZE EARLY
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Taste so clean</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Delayed, but he&#39;s legit! Ordered Mon arrived the following Thurs. Responded to all messages.</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Product was never shipped. Got my money back.</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Hooked me the fuck up! Had some delays but got 50% more free to make up for it. Customer for life here.</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/XUvnbAzaDj">
+                                V DAY SALE ONLY! SHATTER - 3.5g
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Love Love Love the Hippie Chicken. best BHO me or anyone I know has had.  so good.  Communication, Shipping and product all top</td>
+                    
+                        <td>
+                            <a href="/p/t87C5UdoKn">
+                                SHATTER - LAB GRADE - 14g FINALIZE EARLY
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Took along time to ship, vendor made up for it by making it extra heavy, appreciated, quality is nice, will be back</td>
+                    
+                        <td>
+                            <a href="/p/pNMMXbhCZd">
+                                SHATTER - LAB GRADE - 28g  FINALIZE EARLY
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good stuff!</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Product was as expected, but package was marked shipped days before it was actually shipped.</td>
+                    
+                        <td>
+                            <a href="/p/Tw3wwYjyBR">
+                                Tan MDMA 7g USA TESTED
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>ultra fast shipping good wax not hard realllyyyy sticky looks like some Jurassic  park shit</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great stuff .2 over thanks will return</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived fine</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great stealth. Good shipping. Doesnt shatter at room temp(73 F) but looks, smells and smokes great. He added a .1 for his delay</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, supreme product, and it was overweight. Great vendor!</td>
+                    
+                        <td>
+                            <a href="/p/aX4EzSXqrN">
+                                SHATTER - LAB GRADE - 4g FULL ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of HighENDD:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/WYhvj6kd56">SHATTER - LAB GRADE - 56g  FINALIZE EARLY</a><br/>
+                    <span class="description-preview">56 grams: Lab grade Shatter 
+
+Strain: will be marked on the inside of the package very discretely. I cannot guarantee or save a strain for you. Fist come first serve. 
+
+* Before ordering understa ...</span>
+                </td>
+                <td>3.63979087 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VajVM70K5R.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VajVM70K5R">SHATTER - LAB GRADE - 7g  FINALZE EARLY</a><br/>
+                    <span class="description-preview">7 grams Lab grade Shatter 
+
+Strain: will be marked on the inside of the package very discretely. I cannot guarantee or save a strain for you. Fist come first serve.
+
+* Before ordering understand  ...</span>
+                </td>
+                <td>0.66176223 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yfuzC1GsYn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yfuzC1GsYn">WAX BHO - POWER PLANT - 1g</a><br/>
+                    <span class="description-preview">For Direct Business: HighEnd@vmail.me
+
+* FULL ESCROW
+* MUST PURCHASE 2 GRAMS+ OR ORDER WILL BE DELETED
+
+Strain: Marion berry 
+
+Why order from me?
+-HighEnd products
+-Years of Stealth shipping ...</span>
+                </td>
+                <td>0.06617841 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sVndERb5BT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sVndERb5BT">SHATTER - LAB GRADE - 28g FULL ESCROW</a><br/>
+                    <span class="description-preview">28 grams: Lab grade Shatter 
+
+- Lab grade closed loop system 
+- purged for 24+ with industrial vacuum oven 
+- made with indoor high grade nugs for the highest grade shatter 
+- you can read a bib ...</span>
+                </td>
+                <td>2.31625685 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/t87C5UdoKn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/t87C5UdoKn">SHATTER - LAB GRADE - 14g FINALIZE EARLY</a><br/>
+                    <span class="description-preview">14 grams: Lab grade Shatter
+
+Strain: will be marked on the inside of the package very discretely. I cannot guarantee or save a strain for you. Fist come first serve.
+
+* Before ordering understand ...</span>
+                </td>
+                <td>1.10297141 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pNMMXbhCZd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pNMMXbhCZd">SHATTER - LAB GRADE - 28g  FINALIZE EARLY</a><br/>
+                    <span class="description-preview">28 grams: Lab grade Shatter 
+
+Strain: will be marked on the inside of the package very discretely. I cannot guarantee or save a strain for you. Fist come first serve. 
+
+* Before ordering understa ...</span>
+                </td>
+                <td>2.10447366 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/haUouljCVK">LAB GRADE - 1g FULL ESCROW</a><br/>
+                    <span class="description-preview">1 gram Lab grade Shatter 
+
+Strain: will be marked on the inside of the package very discretely. I cannot guarantee or save a strain for you. Fist come first serve.
+
+* Before ordering understand t ...</span>
+                </td>
+                <td>0.13233477 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aX4EzSXqrN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aX4EzSXqrN">SHATTER - LAB GRADE - 4g FULL ESCROW</a><br/>
+                    <span class="description-preview">4 grams Lab grade Shatter 
+
+Strain: will be marked on the inside of the package very discretely. I cannot guarantee or save a strain for you. Fist come first serve.
+
+* Before ordering understand  ...</span>
+                </td>
+                <td>0.44116812 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Tw3wwYjyBR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Tw3wwYjyBR">Tan MDMA 7g USA TESTED</a><br/>
+                    <span class="description-preview">HighEnd@vmail.me
+
+FULL ESCROW 
+* Tan MDMA will be crushed for safety.
+* Picture accurately depicts product. MARQUIS AND REAGENT TESTED STRAIGHT TO BLACK AS SEEN IN PICTURE.
+
+I am original SR U. ...</span>
+                </td>
+                <td>0.72796038 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/anMgBqPMBK">SHATTER - LAB GRADE - 14g FULL ESCROW</a><br/>
+                    <span class="description-preview">14 grams: Lab grade Shatter FULL ESCROW 
+
+Strain: will be marked on the inside of the package very discretely. I cannot guarantee or save a strain for you. Fist come first serve.
+
+* Before orderi ...</span>
+                </td>
+                <td>1.54416034 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="HighENDD" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to HighENDD</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'HighENDD'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

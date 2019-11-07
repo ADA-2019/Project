@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>TustHak78</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.80 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>TustHak78</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.85/5, 25~40 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">92 successfull &#116;ransactions since 2013-07.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 8 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG v1.47<br/><br/>mQGiBFHDRP8RBACJi7YRemZhxlQkTjBvWfOPF4kRlaUPKKCQsb4QM20DHOFGr+6x<br/>V8hKgiJGwkHNYyawnzTB1fzm/JeCwZhpIzmDRTDwv1QV0dgMWV99Jf2vWzajIBzk<br/>xwbV3HqjEk0J7Ld8jS/KhmcPMd4ZDA5UfcnPLEqNxEdocuJqKsg7GddEjwCgs8V+<br/>Nn8wbvHgrSM1o8KSUJYvmwED/0mnoEwBUhJeJ4yLtOBxhVdjlYoqnEvSb0O+TwgI<br/>GwUOycbBg/p0wj4KE7cXJy56pvD1/rNwewAM+eyzuEXh6Vl5uv64PjpHUtQlIu1d<br/>9SxVVSsOIXxgwpaHr+76FDckF7lf9vlR2MS+UpfstMa1JfCLV5r6Mfq0/neBTPAG<br/>6DyWBACHQNR+8QW81uk2bbqIj+8IoGhDrFXzB1tnHucne5EEYMfbf2P6/2jPk/ru<br/>BndC3nm8oawJ/OWSJkfRyMi3h1Fsptolq3Nzemd9mGWSMuxajs2rk0bRB6/YY7jR<br/>uw75IuQKX3+I4h15gL+rU8ihOeV1evByJsLIyJAL8zREtqLLubQhVHVzdEhhazc4<br/>IDxUdXN0SGFrNzhAdG9ybWFpbC5vcmc+iEYEExECAAYFAlHDRP8ACgkQXGHobvh9<br/>gftdNgCfcJvnii8aZDO5s950J8iu/LkqjX0AnRmmAQonCsO94rIHSw9ZsIpk2alE<br/>uMwEUcNE/xACAJSU/sCV87he4oZUKzg2/IGl3QoDSbTCOd04dE1IjPjjHbi8t9M7<br/>Qau55aM8ypFEsc7zMslL8Fc78EejrKmM3zsB/RU9XWFyrbQwRbaK6OHeEHC2E3AF<br/>aG0p09c6d0kZloHuWyEsm5a/3PpbIM1eP9IESJXWCc+bQQt6DxLKHLmkKMwB/1nv<br/>IF5yFuRPYFDaF43qnZak8ZqhaHfMMi/wgH7a+WB8tS9mFftWjWcURlptZFiMHwHI<br/>dbmgO0VwlOGizqLfIyyIRgQYEQIABgUCUcNFAAAKCRBcYehu+H2B+8tHAJ44to8l<br/>MXg43CFi5zrdzfQl0pCp5QCgqkieIFOgJhUo5rLmDLyuwGP5MUU=<br/>=M4xN<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>awesome awesome stealth. will not be testing product for quite a while though but it smells like poppy tea. yuck! hahaha</td>
+                    
+                        <td>
+                            <a href="/p/e0Z9q1L54Y">
+                                10 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>Was sent today after a long time but the guy seems honest, will update on arrival</td>
+                    
+                        <td>
+                            <a href="/p/JuuWNUnyYv">
+                                3 grams - 90% plus Pure, Uncut, Colombian Cocaine.
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for the best vendor in the OPIUM MARKET. Superior quality and great stealth</td>
+                    
+                        <td>
+                            <a href="/p/pJdpzSLKbx">
+                                25 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>3/5 because I FE and I will update this feedback if I received my good</td>
+                    
+                        <td>
+                            <a href="/p/zT4vtasKzU">
+                                90% plus Pure, Uncut, Colombian Cocaine.
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>10/5 perfect stealth, good product..did FE
+trustful vendor...will order again</td>
+                    
+                        <td>
+                            <a href="/p/c5xu8ULCgG">
+                                1 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order lost, Waiting for the promised refund.</td>
+                    
+                        <td>
+                            <a href="/p/XW4xDbS9at">
+                                5 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I was informed that this seller does not have any Supply for the Oxy any more and am Waiting for refund or Opium instead...Will</td>
+                    
+                        <td>
+                            <a href="/p/JicpZmezcW">
+                                30 Oxycodone (Generic Oxycontin) 15mg each
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Superb Vendor! Stealth was excellent! Very clever indeed! Quality is wonderful!</td>
+                    
+                        <td>
+                            <a href="/p/pJdpzSLKbx">
+                                25 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Best stealth ever. Super potent. Came fast. Will buy more. Thank you</td>
+                    
+                        <td>
+                            <a href="/p/XW4xDbS9at">
+                                5 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent communication, everything arrived as ordered, good quality. Would order again in a second.</td>
+                    
+                        <td>
+                            <a href="/p/e0Z9q1L54Y">
+                                10 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Shipping took a while however well worth the wait. A+</td>
+                    
+                        <td>
+                            <a href="/p/XW4xDbS9at">
+                                5 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 isn&#39;t enough!!! wow this is good opium!!! its strong, lasts for ages, shipping and stealth is bang on.. Wow just wow!!! get</td>
+                    
+                        <td>
+                            <a href="/p/e0Z9q1L54Y">
+                                10 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great seller and trustworthy, Thank you.</td>
+                    
+                        <td>
+                            <a href="/p/e0Z9q1L54Y">
+                                10 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good product, good comm. Thanks.</td>
+                    
+                        <td>
+                            <a href="/p/c5xu8ULCgG">
+                                1 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good product, good vendor.</td>
+                    
+                        <td>
+                            <a href="/p/c5xu8ULCgG">
+                                1 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>might as well FE</td>
+                    
+                        <td>
+                            <a href="/p/XW4xDbS9at">
+                                5 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5 Star vendor. Stealth fantastic, product is amazing especially for the price. A+++++++</td>
+                    
+                        <td>
+                            <a href="/p/CDtV8S6NFs">
+                                50 Oxycodone (Generic Oxycontin) 15mg each
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great!!Arrived...thank you very much</td>
+                    
+                        <td>
+                            <a href="/p/XW4xDbS9at">
+                                5 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Just perfect. Fast and friendly communication, very creative stealth. Good product. Thank you.</td>
+                    
+                        <td>
+                            <a href="/p/YvLizCVBwG">
+                                10 Oxycodone (Generic Oxycontin) 15mg each
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Seller, product arrived as promised. 5 of 5.</td>
+                    
+                        <td>
+                            <a href="/p/c5xu8ULCgG">
+                                1 Gram of Pure Opium Latex -  Very Strong!
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of TustHak78:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/iMkydZERLv">4 grams - 90% plus Pure, Uncut, Colombian Cocaine.</a><br/>
+                    <span class="description-preview">This Listing is for 4 grams.
+
+I just received a batch of pure cocaine straight from Colombia,tested it with 2 different methods and is 90% pure +- 5%... this is the real stuff, for real... I just h ...</span>
+                </td>
+                <td>0.71934484 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GTM.png" /> Guatemala<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XW4xDbS9at.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XW4xDbS9at">5 Gram of Pure Opium Latex -  Very Strong!</a><br/>
+                    <span class="description-preview">This is Pure opium latex, harvested from the poppy pods, doing small cuts to the pod when ready, then the raw opium is purified by a warm water bath, in wich all organic materials float and they are  ...</span>
+                </td>
+                <td>0.27667109 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pJdpzSLKbx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pJdpzSLKbx">25 Gram of Pure Opium Latex -  Very Strong!</a><br/>
+                    <span class="description-preview">This is Pure opium latex, harvested from the poppy pods, doing small cuts to the pod when ready, then the raw opium is purified by a warm water bath, in wich all organic materials float and they are  ...</span>
+                </td>
+                <td>1.06241699 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CDtV8S6NFs.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CDtV8S6NFs">50 Oxycodone (Generic Oxycontin) 15mg each</a><br/>
+                    <span class="description-preview">This was my very first star product when I started selling on BMR.
+
+These Purple pills, are a great source of Oxycontin (15mg) each, better than the good old original Oxycontin. These are manufactu ...</span>
+                </td>
+                <td>0.84108012 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/e0Z9q1L54Y.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/e0Z9q1L54Y">10 Gram of Pure Opium Latex -  Very Strong!</a><br/>
+                    <span class="description-preview">This is Pure opium latex, harvested from the poppy pods, doing small cuts to the pod when ready, then the raw opium is purified by a warm water bath, in wich all organic materials float and they are  ...</span>
+                </td>
+                <td>0.45374059 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/c5xu8ULCgG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/c5xu8ULCgG">1 Gram of Pure Opium Latex -  Very Strong!</a><br/>
+                    <span class="description-preview">This is Pure opium latex, harvested from the poppy pods, doing small cuts to the pod when ready, then the raw opium is purified by a warm water bath, in wich all organic materials float and they are  ...</span>
+                </td>
+                <td>0.08853474 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/TwLoanCfTd">5 grams - 90% plus Pure, Uncut, Colombian Cocaine.</a><br/>
+                    <span class="description-preview">This Listing is for 5 grams.
+
+I just received a batch of pure cocaine straight from Colombia,tested it with 2 different methods and is 90% pure +- 5%... this is the real stuff, for real... I just h ...</span>
+                </td>
+                <td>0.87428065 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GTM.png" /> Guatemala<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/bvKdullDeP">1 gram - 90% plus Pure, Uncut, Colombian Cocaine.</a><br/>
+                    <span class="description-preview">This Listing is for 1 grams.
+
+I just received a batch of pure cocaine straight from Colombia,tested it with 2 different methods and is 90% pure +- 5%... this is the real stuff, for real... I just h ...</span>
+                </td>
+                <td>0.21027003 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GTM.png" /> Guatemala<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/zT4vtasKzU">90% plus Pure, Uncut, Colombian Cocaine.</a><br/>
+                    <span class="description-preview">This Listing is for 0.5 grams.
+
+I just received a batch of pure cocaine straight from Colombia,tested it with 2 different methods and is 90% pure +- 5%... this is the real stuff, for real... I just ...</span>
+                </td>
+                <td>0.11066843 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GTM.png" /> Guatemala<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/JuuWNUnyYv">3 grams - 90% plus Pure, Uncut, Colombian Cocaine.</a><br/>
+                    <span class="description-preview">This Listing is for 3 grams.
+
+I just received a batch of pure cocaine straight from Colombia,tested it with 2 different methods and is 90% pure +- 5%... this is the real stuff, for real... I just h ...</span>
+                </td>
+                <td>0.52014165 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GTM.png" /> Guatemala<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JicpZmezcW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JicpZmezcW">30 Oxycodone (Generic Oxycontin) 15mg each</a><br/>
+                    <span class="description-preview">This was my very first star product when I started selling on BMR.
+
+These Purple pills, are a great source of Oxycontin (15mg) each, better than the good old original Oxycontin. These are manufactu ...</span>
+                </td>
+                <td>0.50907481 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YvLizCVBwG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YvLizCVBwG">10 Oxycodone (Generic Oxycontin) 15mg each</a><br/>
+                    <span class="description-preview">This was my very first star product when I started selling on BMR.
+
+These Purple pills, are a great source of Oxycontin (15mg) each, better than the good old original Oxycontin. These are manufactu ...</span>
+                </td>
+                <td>0.18813634 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VbbXk8LhZM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VbbXk8LhZM">15 Gram of Pure Opium Latex -  Very Strong!</a><br/>
+                    <span class="description-preview">This is Pure opium latex, harvested from the poppy pods, doing small cuts to the pod when ready, then the raw opium is purified by a warm water bath, in wich all organic materials float and they are  ...</span>
+                </td>
+                <td>0.66401062 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="TustHak78" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to TustHak78</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'TustHak78'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

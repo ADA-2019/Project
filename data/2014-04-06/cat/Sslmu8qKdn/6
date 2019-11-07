@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Prescription</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.35 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/vheN9d2mMr">Drugs</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/ZukwGLuEcu">Stimulants</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/Sslmu8qKdn">Prescription</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/ZukwGLuEcu">Stimulants</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/qNh4FhpMVd">Cocaine<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/no6kR9JRPw">Meth<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/Sslmu8qKdn">Prescription<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PDbdpyyhd6">Speed<span class="extra-caption"> (200+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/Sslmu8qKdn/6" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link " href="/cat/Sslmu8qKdn/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/Sslmu8qKdn/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/Sslmu8qKdn/3"> 3 </a>
+        
+            <a class="page-link " href="/cat/Sslmu8qKdn/4"> 4 </a>
+        
+            <a class="page-link " href="/cat/Sslmu8qKdn/5"> 5 </a>
+        
+            <a class="page-link current-page" href="/cat/Sslmu8qKdn/6"> 6 </a>
+        
+            <a class="page-link " href="/cat/Sslmu8qKdn/7"> 7 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AET8qu2tFV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AET8qu2tFV">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 160 Pills</a><br/>
+                    <span class="description-preview">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 160 Pills
+
+Tadacip is used to treat impotence (erectile dysfunction). This medication relaxes muscles in the penis and increases blood flow in ...</span>
+                </td>
+                <td>0.42095934 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RiBiquXxbu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RiBiquXxbu">ALERTEC (MODAFINIL) 100 MG TABLET</a><br/>
+                    <span class="description-preview">Modafinil is a mind and mood enhancing stimulant that is not addictive, has no side effects and does not affect sleep.
+
+Modafinil is an eugeroic, (which simply means &lsquo;good arousal&rsquo;). This unique cl ...</span>
+                </td>
+                <td>0.01107787 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: WORLWIDE
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/hadherall#"/>hadherall</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/oAWRoq0qKg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/oAWRoq0qKg">Modafinil 200mg - 500Pills</a><br/>
+                    <span class="description-preview">Brand - Modalert 200mg
+Product - Modafinil
+Manufactured by - Sun Pharma
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i) ...</span>
+                </td>
+                <td>1.04132048 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bzJn59mT8L.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bzJn59mT8L">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 4 Pills</a><br/>
+                    <span class="description-preview">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 4 Pills</span>
+                </td>
+                <td>0.01107787 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ywmvoAyWlC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ywmvoAyWlC">Armodafinil 150mg - 100Pills</a><br/>
+                    <span class="description-preview">Brand - Armod 150mg
+Product - Armodafinil
+Manufactured by - Emcure Pharma
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   ( ...</span>
+                </td>
+                <td>0.46527085 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/W8VCnvAaPP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/W8VCnvAaPP">Ritalin (Medikinet adult) 10x20mg Blisters - delayed release</a><br/>
+                    <span class="description-preview">Genuine Methylphenidate from Germany. Brand name is &quot;Medikinet adult&quot; by MEDICE. 
+Blisters contain 10x20mg delayed release pills.</span>
+                </td>
+                <td>0.14401240 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Arefi#"/>Arefi</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GhPqGR1TjU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GhPqGR1TjU">Armodafinil 150mg - 300Pills</a><br/>
+                    <span class="description-preview">Brand - Armod 150mg
+Product - Armodafinil
+Manufactured by - Emcure Pharma
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   ( ...</span>
+                </td>
+                <td>0.65359477 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/N6t2n9FemF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/N6t2n9FemF">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 80 Pills</a><br/>
+                    <span class="description-preview">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 80 Pills
+
+Tadacip is used to treat impotence (erectile dysfunction). This medication relaxes muscles in the penis and increases blood flow in  ...</span>
+                </td>
+                <td>0.21047967 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/r5JAs48T1S.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/r5JAs48T1S">Etizolam 1mg - Intas - Etilaam 1mg x 300 Pills</a><br/>
+                    <span class="description-preview">Brand Name : ETILAAM
+Generic Name : Etilaam 1mg
+Manufactured by : Intas Pharma
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Etizolam (marketed under the br ...</span>
+                </td>
+                <td>0.59155865 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nXMrGRJm5r.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nXMrGRJm5r">Provigil (Generic Modafinil) Sun Pharma Modalert 200mg x 100 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Modalert
+Generic Name : Modafinil 200mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Modafinil is a wakefulness-p ...</span>
+                </td>
+                <td>0.16062922 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pnoRTEp3JD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pnoRTEp3JD">Armodafinil 150mg - 400Pills</a><br/>
+                    <span class="description-preview">Brand - Armod 150mg
+Product - Armodafinil
+Manufactured by - Emcure Pharma
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   ( ...</span>
+                </td>
+                <td>0.85299656 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tkxLT7vTbe.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tkxLT7vTbe">Focalin XR 30mg Capsule x1</a><br/>
+                    <span class="description-preview">Today is 3/25/14
+
+Hey, I am here from the East Coast looking to flip my script.
+
+This listing is for one capsule of 30MG Extended Release Focalin.
+
+These are great for college students looking  ...</span>
+                </td>
+                <td>0.05538938 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Walter_White#"/>Walter_White</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Wn1gi9t1cr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Wn1gi9t1cr">Nuvigil 150mg (Generic Armodafinil) Sun Pharma Waklert 150mg x 100 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Waklert
+Generic Name : Armodafinil 150mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Armodafinil is a wakefulnes ...</span>
+                </td>
+                <td>0.18832391 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bg8cZdBosM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bg8cZdBosM">Etizolam 1mg - Intas - Etilaam 1mg x 100 Pills</a><br/>
+                    <span class="description-preview">Brand Name : ETILAAM
+Generic Name : Etilaam 1mg
+Manufactured by : Intas Pharma
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Etizolam (marketed under the br ...</span>
+                </td>
+                <td>0.19718621 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kFg8sSc1PB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kFg8sSc1PB">Etizolam 1mg - Intas - Etilaam 1mg x 400 Pills</a><br/>
+                    <span class="description-preview">Brand Name : ETILAAM
+Generic Name : Etilaam 1mg
+Manufactured by : Intas Pharma
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Etizolam (marketed under the br ...</span>
+                </td>
+                <td>0.79096045 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ycCq2dDDMC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ycCq2dDDMC">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 21 Sachets</a><br/>
+                    <span class="description-preview">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 21 Sachets</span>
+                </td>
+                <td>0.11299435 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Jjs2xCTMqB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Jjs2xCTMqB">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 100 Pills</a><br/>
+                    <span class="description-preview">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 100 Pills</span>
+                </td>
+                <td>0.21047967 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pbFmneteuA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pbFmneteuA">Nuvigil 150mg (Generic Armodafinil) Sun Pharma Waklert 150mg x 300 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Waklert
+Generic Name : Armodafinil 150mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Armodafinil is a wakefulnes ...</span>
+                </td>
+                <td>0.66245707 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/LeaderMeds#"/>LeaderMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jN3vZMg2E3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jN3vZMg2E3">FEEDBACK SALE! 1 x Adderall IR 30 mg</a><br/>
+                    <span class="description-preview">i see some of the other addy vendors are taking all the sales(!!) so i am trying to build some feedback and earn my good reputation so i can get some attention too! 
+
+thats why i decided to sell a  ...</span>
+                </td>
+                <td>0.03323363 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Adderall#"/>Adderall</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TxpMaRLaxh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TxpMaRLaxh">10X Adderall 30mg IR [Teva]</a><br/>
+                    <span class="description-preview">This listing is for 10X 30MG Adderall(D-Amphetamine Salts) IR 
+Pharmacy Generic brand- TEVA[BEST]
+
+********************************************* 
+      New Vendor Special
+$18.50 EA-Pricing for l ...</span>
+                </td>
+                <td>0.40988146 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: US
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Puffaddy#"/>Puffaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/p8CESpD0o9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/p8CESpD0o9">100 Ritalin x 10 mg x 230$</a><br/>
+                    <span class="description-preview">Ritalin 10 mg x 100 pills 
+Novartis</span>
+                </td>
+                <td>0.50958236 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/bionik#"/>bionik</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/R9cNfgPx6l.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/R9cNfgPx6l">20 x 20mg Methylphenidate (Ritalin)</a><br/>
+                    <span class="description-preview">.
+.
+Need to focus and concentrate, not jumping around or drifting away in your mind?
+- Need that &bdquo;thing&ldquo; done, you knew for so long, will reach it&#39;s deadline soon?
+- Want to be sharp, witty and s ...</span>
+                </td>
+                <td>0.22687493 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Germany
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Dandelion#"/>Dandelion</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tfglPMcERM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tfglPMcERM">10x 150mg Wellbutrin XL (bupropion hydrochloride extended-release)</a><br/>
+                    <span class="description-preview">Wellbutrin XL (bupropion hydrochloride extended-release)
+150mg 
+
+Quntity : 10
+
+Free shipping
+
+used to treat major depressive disorder and seasonal affective disorder. Is used to help people st ...</span>
+                </td>
+                <td>0.03766478 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/gj990#"/>gj990</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;2.45/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bUvm4kDdff.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bUvm4kDdff">Armodafinil 150mg - 500Pills</a><br/>
+                    <span class="description-preview">Brand - Armod 150mg
+Product - Armodafinil
+Manufactured by - Emcure Pharma
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   ( ...</span>
+                </td>
+                <td>1.04132048 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rv24Alzwca.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rv24Alzwca">OPENING SALE: 10 x 60mg Vyvanse Capsules</a><br/>
+                    <span class="description-preview">This listing is FE only - limited available (5 x 90 scripts on hand ; selling these for a friend).
+
+Once finalized, I will pay for the 10 x Vyvanse 60mg with my money and have them shipped within 2 ...</span>
+                </td>
+                <td>0.13293452 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/CanXpress#"/>CanXpress</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~0/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ai02wMxXTv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ai02wMxXTv">54mg Concerta (methylfenidate/ritalin) x 5 pills</a><br/>
+                    <span class="description-preview">pharmacy concerta, a time released form of methylfenidate. genuine ad(h)d medication. Same as Ritalin only long acting formula.
+
+listing is for 5 pills with 54mg each
+
+
+SHIPPING:
+
+Ground Shipp ...</span>
+                </td>
+                <td>0.07754514 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/carteldelnorte#"/>carteldelnorte</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gDFs6RpMv8.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gDFs6RpMv8">Adderall 20mg IR (amphetamine/dextroamphetamine)</a><br/>
+                    <span class="description-preview">YOU ARE BUYING
+
+10X 20MG Adderall the orange ones
+
+PLEASE FE, Shipping is via overnight express--</span>
+                </td>
+                <td>0.19940179 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/gj990#"/>gj990</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;2.45/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wroiNnsvpt.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wroiNnsvpt">Ephedrine HCL 50x Pills, 400mg Total</a><br/>
+                    <span class="description-preview">1x Ephedrine HCL 8mg (50x Tablet) 400mg Pack
+
+Q: How many packs should I get?
+A: To lose weight &amp; follow my guide, you need 11 packs.
+
+BUY 10, GET 1 FREE!!! ENOUGH FOR A FULL CYCLE :)
+
+VERY PO ...</span>
+                </td>
+                <td>0.06644510 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: World<br/>
+                    <i class="fa fa-home"></i> To: WORLDWIDE
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/hadherall#"/>hadherall</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PUjMRo027T.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PUjMRo027T">Modafinil &amp; Armodafinil Pack</a><br/>
+                    <span class="description-preview">30Pills of Modafinil 200mg
+30Pills of Armodafinil 150mg
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+a.Regular registered shipping
+(i).USA-10-14Days
+(ii).U ...</span>
+                </td>
+                <td>0.16616816 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/i5N9ClLnLM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/i5N9ClLnLM">Modafinil 200mg - 200Pills</a><br/>
+                    <span class="description-preview">Brand - Modalert 200mg
+Product - Modafinil
+Manufactured by - Sun Pharma
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i) ...</span>
+                </td>
+                <td>0.45419297 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link " href="/cat/Sslmu8qKdn/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/Sslmu8qKdn/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/Sslmu8qKdn/3"> 3 </a>
+            
+                <a class="page-link " href="/cat/Sslmu8qKdn/4"> 4 </a>
+            
+                <a class="page-link " href="/cat/Sslmu8qKdn/5"> 5 </a>
+            
+                <a class="page-link current-page" href="/cat/Sslmu8qKdn/6"> 6 </a>
+            
+                <a class="page-link " href="/cat/Sslmu8qKdn/7"> 7 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

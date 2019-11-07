@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>RedBull</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 449.22 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>RedBull</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 150~200 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 17 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            *********redbullcompany germany********<br/><br/>Listings werden in den n&auml;chsten Tagen erweitert....<br/>Lieferbar ist praktisch alles ( coca, mdma, xtc, gras, speed<br/>ketamin, all medis etc. )<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFJf1PIBCADfrvpVpqD8B7CZz+9VTTNUqRMkeK2mPG99SLjYSG+cRr8CJBGe<br/>bRRytHuY5VAO7wsXijjEzZxXqr+6cLiCS3syrGJLDbcbq2upLSBC/aVUOxDgLmwl<br/>aydx5hVnak1PeNTliRx0n4vYOpnfUSgY7RUIz8Jb5yrJSS0t5PikzfOb57YfDPHn<br/>8z8sImMJJtaguJcUxFo7rFhqgcVffGNsXmwo0QRVuIrWxjqCrOZoUuln5UoiOT2b<br/>ML9TW147Fr55p0e9wGcNUJKbDt/gKxWxttmS4a7avyekq0WQZS9yhZdHMmspUmMK<br/>C+yIHmwmE4hUPh4uvXGlQfdZXZZTUUyOqEWRABEBAAG0IXJlZCBidWxsIChub3Ro<br/>aW5nKSA8djctY2NAd2ViLmRlPokBOQQTAQIAIwUCUl/U8gIbDwcLCQgHAwIBBhUI<br/>AgkKCwQWAgMBAh4BAheAAAoJENS3ULu2l0OZUgcIAL/HPYl3mqiXxxWzLgZzQphc<br/>sTY9AYvqszvMc9v/YTfxwhkCWWRWgD58Dldu4Q4jDyY6bUYOl8GgjUjBg75xSSx9<br/>sdwc7tCIsrN4GCU1n64qewgyIP1R762AnGA/DNb/JpnWZ3x38Fh8VUxkNfCIc1pr<br/>r/3d7vQ1rnJjzHLZCqH8uc4y6lZFd8TyuV27VojLIyCFkVBMy9lwKyE2cysAT1yp<br/>vnzWulAOEAmlJBWtZZ+4ieKgxMbGlxH4QOzlyB3Sqaog4t0BcbZSTO8j8QMLhwsq<br/>d8YPSHLlKozjwvs6r0soq9yZIDiXTEPkxqKYwJuaB/6bxAVVnFL9nnlkO/KjJcw=<br/>=025n<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>arrived today, looks really good, testing today :)
+thank you very much</td>
+                    
+                        <td>
+                            <a href="/p/olLhWEtAjd">
+                                1 gram cocaine &quot;&#70;lex&quot; high quality
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast and good</td>
+                    
+                        <td>
+                            <a href="/p/cky8U9dXxR">
+                                10 Stck. Tramadol / Tramal 100mg Tabletten
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast and good</td>
+                    
+                        <td>
+                            <a href="/p/yZdDmRTUPu">
+                                0,5 gram Crystal Meth &gt;=75% High Quality
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very fast service, good package and good product.
+will surely order again - thanks!</td>
+                    
+                        <td>
+                            <a href="/p/yZdDmRTUPu">
+                                0,5 gram Crystal Meth &gt;=75% High Quality
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very fast service, good package and good product.
+will surely order again - thanks!</td>
+                    
+                        <td>
+                            <a href="/p/oWZeVw1cTF">
+                                10 St&uuml;ck Lorazepam 2,5mg org. Blister
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>super service:)</td>
+                    
+                        <td>
+                            <a href="/p/olLhWEtAjd">
+                                1 gram cocaine &quot;&#70;lex&quot; high quality
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping. Good stealth. Product looks delicious! Thanks.</td>
+                    
+                        <td>
+                            <a href="/p/Ae8blJU0U5">
+                                1 gram of pure MDMA crystal &gt;=85% high quality
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>top vendor</td>
+                    
+                        <td>
+                            <a href="/p/oWZeVw1cTF">
+                                10 St&uuml;ck Lorazepam 2,5mg org. Blister
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>No one could mess with the RedBull...;)
+Thanks again for this awesome constant and reliable service! ...: The soul can split t</td>
+                    
+                        <td>
+                            <a href="/p/MhV9dzT7gb">
+                                15 Stck. Alprazolam 1.0mg TAFIL / XANAX
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>No one could mess with the RedBull...;)
+Thanks again for this awesome constant and reliable service! 
+...: The soul can split</td>
+                    
+                        <td>
+                            <a href="/p/yZdDmRTUPu">
+                                0,5 gram Crystal Meth &gt;=75% High Quality
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>top notch service! 2 days domestic product as described</td>
+                    
+                        <td>
+                            <a href="/p/MhV9dzT7gb">
+                                15 Stck. Alprazolam 1.0mg TAFIL / XANAX
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>top notch service! 2 days domestic product as described</td>
+                    
+                        <td>
+                            <a href="/p/oWZeVw1cTF">
+                                10 St&uuml;ck Lorazepam 2,5mg org. Blister
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5!</td>
+                    
+                        <td>
+                            <a href="/p/MhV9dzT7gb">
+                                15 Stck. Alprazolam 1.0mg TAFIL / XANAX
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5!</td>
+                    
+                        <td>
+                            <a href="/p/RfqluBRrup">
+                                30 St&uuml;ck Diazepam 10mg org. Blister
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor! Fast shipping! Good stealth! Will order again! Thank you!</td>
+                    
+                        <td>
+                            <a href="/p/RfqluBRrup">
+                                30 St&uuml;ck Diazepam 10mg org. Blister
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor! Fast shipping! Good stealth! Will order again! Thank you!</td>
+                    
+                        <td>
+                            <a href="/p/MhV9dzT7gb">
+                                15 Stck. Alprazolam 1.0mg TAFIL / XANAX
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>awesome stuff... good product, nice stealth also very good communication!! 5/5</td>
+                    
+                        <td>
+                            <a href="/p/cky8U9dXxR">
+                                10 Stck. Tramadol / Tramal 100mg Tabletten
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top!</td>
+                    
+                        <td>
+                            <a href="/p/cky8U9dXxR">
+                                10 Stck. Tramadol / Tramal 100mg Tabletten
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>everything perfect</td>
+                    
+                        <td>
+                            <a href="/p/MhV9dzT7gb">
+                                15 Stck. Alprazolam 1.0mg TAFIL / XANAX
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE ... for trusted Vendors ;)
+and now waiting of the stuff !!!!</td>
+                    
+                        <td>
+                            <a href="/p/L6dg6Kn969">
+                                20 Stck. Bromazepam 6,0 mg org. Blister
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of RedBull:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yZdDmRTUPu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yZdDmRTUPu">0,5 gram Crystal Meth &gt;=75% High Quality</a><br/>
+                    <span class="description-preview">0,5 gram Crytal Meth ---high quality---
+
+Crystal Meth Class A
+
+ok to smoke, but not the best
+
+*********free shipping***********</span>
+                </td>
+                <td>0.12688660 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/L6dg6Kn969.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/L6dg6Kn969">20 Stck. Bromazepam 6,0 mg org. Blister</a><br/>
+                    <span class="description-preview">20 Tabletten Bromazepam 6,0 mg
+
+orginal europ&auml;isches Apothekenprodukt
+orginal Blister
+
+starkes Schlafmittel
+
+**********free shipping*************</span>
+                </td>
+                <td>0.06678242 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/oWZeVw1cTF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/oWZeVw1cTF">10 St&uuml;ck Lorazepam 2,5mg org. Blister</a><br/>
+                    <span class="description-preview">10 St&uuml;ck Lorazepam 2,5mg
+
+europ&auml;isches Apothekenprodukt, org. Blister
+
+***********free shipping***************</span>
+                </td>
+                <td>0.03339121 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cky8U9dXxR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cky8U9dXxR">10 Stck. Tramadol / Tramal 100mg Tabletten</a><br/>
+                    <span class="description-preview">10 St&uuml;ck Tabletten Tramadol / Tramal 100mg
+
+org. Blister - europ&auml;isches Apothekenprodukt
+
+************free shipping****************</span>
+                </td>
+                <td>0.03339121 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MhV9dzT7gb.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MhV9dzT7gb">15 Stck. Alprazolam 1.0mg TAFIL / XANAX</a><br/>
+                    <span class="description-preview">15 Tabletten Alprazolam ( Xanax ) 1.0 mg
+
+Orginal Blister, orginal europ&auml;isches Apothekenprodukt
+
+
+************free shipping***************</span>
+                </td>
+                <td>0.04452161 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RfqluBRrup.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RfqluBRrup">30 St&uuml;ck Diazepam 10mg org. Blister</a><br/>
+                    <span class="description-preview">30 St&uuml;ck Diazepam 10mg
+
+europ&auml;isches Apothekenprodukt, org. Blister
+
+verschiedene Hersteller - Abbildung symbolisch
+
+
+**************free shipping*******************</span>
+                </td>
+                <td>0.08904323 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="RedBull" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to RedBull</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'RedBull'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

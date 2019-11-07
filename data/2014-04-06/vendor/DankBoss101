@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>DankBoss101</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>DankBoss101</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 7 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Update:Waiting for more stock, listing update as soon as I get it. Thank you to all!<br/><br/>Hello, Am a SR2 transfer and looking forward to a great venue here!<br/><br/>Cheep meds at great prices!<br/>Shipping is super stealth!<br/>Orders shipped Tues-Sat morning. Orders usually &#112;rocessed within 18-24hrs. (most times sooner if &#115;ervers let login) <br/>Make sure all info is given for order, i.e. variety<br/><br/>Finalize upon receipt of goods.<br/>Shipping address must contain:<br/>Personal name (first and last name)<br/>example: John Doe<br/>physical address. (no PO Box)<br/>Check with USPS to make sure the address is correct.<br/><br/>Customers are not eligible for a refund or reship if the tracking shows &quot;Delivered&quot;, &quot;Attempted/Notice Left&quot;, &quot;Refused&quot;, &quot;Undeliverable as Addressed&quot; or anything of the likes. If there is one piece of advice I can give to ensure a successful delivery: USE YOUR REAL NAME AND ADDRESS!<br/><br/>All &#116;ransactions will be conducted with pgp/gpg.<br/>Send your public key with your order or in a PM.<br/><br/>To protect all, &#116;ransactions will only be conducted through pgp/gpg.<br/>If unsure of pgp/gpg, will be glad to test a message.<br/><br/>Orders will automatically be cancelled if not using pgp. Sorry for problems this may cause but it is a must for the safety of both of us!<br/><br/>Please note that I reserve the right to cancel your order for ANY reason.<br/><br/>Any questions, please pgp a message.<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQENBFMNfKIBCACuk4eqTPBNIad52TEBNRjCBai5wEEnpmTNMcy30dgFM9zg+1B9<br/>Fm8KfLm7O3F3Z37lMxJiZPDe3SkT+c/iJ3CQgH+VDkdowDG8Tc4ryXGsVrtLpDEN<br/>ZwLKCcwspUYMsE2lrGfBb4y1lnUVjo0Y8R8rU2RWsQMHIRFAz4Ba5M8EKIk3SE3G<br/>NsvsMBtB7hXHnum6vx/nB8xwJaPe5SIpqWue0ARCn4UTJHEZKMhsINhK2tOpitTL<br/>8HLciwmrjJBEsTBK2jvvRAPlyizwo7ZNVxxVO7RWWYgdwpVU4+G94gFfs7re4z/b<br/>8t+yEMsCT/zk5IUQb/iy1ydoKVRBso53fJ+vABEBAAG0H0RhbmtCb3NzMTAxIDxE<br/>YW5rQm9zc0BEQi5vbmlvbj6JAT4EEwECACgFAlMNfKICGwMFCQlmI94GCwkIBwMC<br/>BhUIAgkKCwQWAgMBAh4BAheAAAoJEFpXwOOyqgNGv2EH/jbBaIKJBILc+lEl0bsN<br/>hPY6cd6w251hzVTTFHwgtavTQpxwSMbjQmhfHNvH8zfQjKEH2uuFfEx98RyS7klO<br/>zEdJOwBm4KWEaLVwJxfcdCN04ZA0RZDfh/WpCodJTrQzvoTHFn6v2rKAdg2GIWsH<br/>raNRtxNNWtquTgvaEK/Mx7PQm4Pfp8wuOOQCH3fVDETyhMajNTiJ49ictAYxSqgq<br/>x5ujM7Qny7mc86apEFO4L+YR6T/OSrZU1kxt0uMz8XmaZdGesNx73A6p97LHDdt0<br/>W6AgprFsyc2SKur9NbRmgMdV4RLeWmqo8EPAd4CYy+YcYUB4tBPNp5RqxCiTEfXj<br/>IpC5AQ0EUw18ogEIANnB6JPPIqTD9A/rsf4jzkCacU8SaiK5NOREPla3fBPdH/AF<br/>9b8UsGoEjwXHaJHwrNMnGC3hcM7SdVWkWA35dnwop7eSKrmZPG1WgGOAZqxwr3jn<br/>Qxg2LhBDi7uVcHt0GCbvvu2n58ecrAFXhPzDNou0aywae+L5EW9gIAQ1zl9i7QKb<br/>11OLYWn+iHq5pg7/hO8J+Sj6AjEXLX+QId1xBBcaegiFz2eN/v6dXejw5kPjlvpk<br/>le32HK+RJKEIkzcPoRAsKlaXG45vzYPcnLiKwEcRkhTEt7lauJmJe/FLtmMGfKsP<br/>5+fX9PJaOuX2g47vtoNLEeb4v7l3icwdOEHlVa0AEQEAAYkBJQQYAQIADwUCUw18<br/>ogIbDAUJCWYj3gAKCRBaV8DjsqoDRjYCB/sHOp/t+xb0Jmg19ZGF57yFQIlStX/T<br/>RI7RS6q8oevcWWK+n/CBXjEirC3d+KlcsiMHkiwVBZcJz6PwHKWfyMx/RzrMAlkm<br/>nMQQWGIDAbaBtlbZLr0&#109;Vcm14WxBUsBKNvQk282XuX5YAT93OPGoo68M50rYW2Rc<br/>57cx5FdCqMkQMOt9KMFj4LK8DpeoaKNWhPzxRSJjFC1mTeGDjtzPyeueABVEdRvR<br/>+2dhEJpf18pKlgiIq5Id12CFJjVsrwy1J6Ajz+z4FWJ4NgCcaI3NogvXt6eOvyNa<br/>2BKKY3SzotdG3TpiSB4/CSRcnI2YCMffFT5eI9xBGZsquxRaoIXOQ+3m<br/>=cNPJ<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good ship fast ship..good stealth..great buds..</td>
+                    
+                        <td>
+                            <a href="/p/dLMDv6kj5U">
+                                1/4 oz Medical Grade Organic Indoor Bud - Blue Dream
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very satisfied</td>
+                    
+                        <td>
+                            <a href="/p/dLMDv6kj5U">
+                                1/4 oz Medical Grade Organic Indoor Bud - Blue Dream
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great  vendor shipping amazingly fast 3days buds amazing didnt even have to fe now i will always f.e. thanks Boss.</td>
+                    
+                        <td>
+                            <a href="/p/rVekjyPvBG">
+                                1 oz Medical Grade Top Quality Organic Bud- Bubba Kush
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great stealth, over weight, great product! will order again soon.</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Another perfect order from DankBoss101! Buy with confidence.</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very nice. On point weight. Fast shipping. Good deal.</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 Communication, 1111111/5 Stealth, 5/5 Shipping speed.  Great trim, on point, DankBOSS is the best :D</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Dankboss always comes through with top shelf nuggs! jaw dropping buds! And super fast shipping! Only vendor I trust for weed</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, secure packaging. EXCELLENT VALUE!!!  
+
+This trim is quite potent and gives an outstanding buzz.
+
+DankBoss10</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Amazing quality for price, fast shipping, perfect seller.</td>
+                    
+                        <td>
+                            <a href="/p/DXEPsMSlCj">
+                                1/2 oz Medical Grade Indoor Organic Bud -Bubba Kush
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, overweight, responsive vendor</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>amazing bud amazing vendor, hands down best on agora</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Holy shit the gsc is absolutely beautiful!!!! amazing product keep it coming!!!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FLAWLESS VICTORY FATALITY</td>
+                    
+                        <td>
+                            <a href="/p/DXEPsMSlCj">
+                                1/2 oz Medical Grade Indoor Organic Bud -Bubba Kush
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>The best vendor on agora 100/5</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Simply great buds quick service, absolutely coming back for more</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good stealth, good speed, good quality, good shit.</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This vendor is awesome. Bought from them on SR2 and glad they are here. Got package in 2 business days! The trim rocks!</td>
+                    
+                        <td>
+                            <a href="/p/h4n5DBpdrY">
+                                1 oz Indoor Organic Trim
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>amazing bud amazing price amazinglt fst shippin n an amazing vendor</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>AWESOME 5/5. This vendor shipped out my order like 3 hours after I placed it on Monday and I received it today on Saturday. Pro</td>
+                    
+                        <td>
+                            <a href="/p/W9Mutk4G3l">
+                                1/2 oz Medical Grade H2Hash untrimmed popcorn bud
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of DankBoss101:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rVekjyPvBG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rVekjyPvBG">1 oz Medical Grade Top Quality Organic Bud- Bubba Kush</a><br/>
+                    <span class="description-preview">1 oz Organic Indoor Grown Bud!
+
+Bubba Kush
+
+*Please send all messages and orders via pgp*
+This protects both of us!!
+
+Will cancel order if you do not pgp your address. Period!!
+
+Smaller quan ...</span>
+                </td>
+                <td>0.41850220 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/h4n5DBpdrY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/h4n5DBpdrY">1 oz Indoor Organic Trim</a><br/>
+                    <span class="description-preview">1 oz (28g) Trim
+Indoor grown and organic. Great for cheep meds.
+Lots of tricomes!
+
+Varieties:
+Blue Cheesal
+U2
+UK cheese
+Purple Afghan Goo
+
+PLEASE STATE WHICH VARIETY YOU PREFER with your ad ...</span>
+                </td>
+                <td>0.17621145 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="DankBoss101" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to DankBoss101</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'DankBoss101'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

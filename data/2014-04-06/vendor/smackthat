@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>smackthat</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 448.64 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>smackthat</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.50/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 months 1 days ago.
+        </div>
+        <div class="vendorbio-description">
+            *Listings are currently down. PM if you are interested in making a purchase.<br/><br/>No free samples, no custom listings. What&#39;s listed is what we sell, and we sell only the best. First time buyers required to FE NO &#69;XCEPTIONS. You are welcome to pm with any questions.<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFL/+oYBCADXQr4bDaLmAXkYNM0f4x3nTMWY/QGuEN01B6a+es35GzKOzQmg<br/>rbIxG7VVQLNQd7Y7BT2oRY8I1Kq26ao3NI6ChxKyQqFAGJ6omYJV2p318km5Z/EP<br/>xc8jb10Mr/HtCozXxi1xB2X4bkly5Ov1Ak//9pwEN5a8G0mJsIZuddm9NGocHS1F<br/>u1MFPJhrcuPzTXCG700KHQ/R3Dw4lPK33lyKMQwFi06yS1JSXXM6VTf3udfZl6pf<br/>CbFtGgOqxfLDjB9XxkB7xtmLnaEegjTdErs5m7Ud3pQ7BKdTgStIRopvRwge7LtO<br/>kS5YMKOWK+s141p6vbn3MaqF61VjtlZ5W34nABEBAAG0G2FzY2FzY2EgPGFzY3hh<br/>c2NAYWRjZnMuY29tPokBOQQTAQIAIwUCUv/6hgIbDwcLCQgHAwIBBhUIAgkKCwQW<br/>AgMBAh4BAheAAAoJEOZXoLnjHoXBfogH/3wl0/I1mao/jjuk8c63RrMTN12v3FUc<br/>x+vtxezgjrXsF7YRzUi4VCZAenjQ3IeUWWbKpdXJrhyQh05kWtQT58SAeRXE+rdI<br/>5hRJzHNGEt6yFPQOxR0hcajxyIgGaAaEHAi8Xev0hi0yIWJ7oFNVwgoadiRX2R8l<br/>wpzZYeIzEXkZLsqpVZc2rv8hz32zEd38WdwE9MZavuf4LnFJVaSgj/Sftk8/HAMC<br/>JnZdKet585EMNH/XK7/F/ymWGKUcqpr8xTFqNz6P4AcyJ46Jt0wlIKLCBrDEIzlB<br/>fN5jTXgvHS0RyjZImQ8s21D223oC/MG1Tt9YLYGVMrt2aM0mvuTwyF0=<br/>=cERR<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>DON&#39;T ORDER. HE&#39;S GONE.</td>
+                    
+                        <td>
+                            <a href="/p/UJqAuRU084">
+                                1g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/W29uMvPrZw">
+                                5g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/UJqAuRU084">
+                                1g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Great</td>
+                    
+                        <td>
+                            <a href="/p/UJqAuRU084">
+                                1g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fantastic product. shows up pure. decent stealth/post.</td>
+                    
+                        <td>
+                            <a href="/p/RB6v4Yhgh5">
+                                14g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5</td>
+                    
+                        <td>
+                            <a href="/p/UJqAuRU084">
+                                1g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/UJqAuRU084">
+                                1g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very friendly bloke, even threw in an extra 20%.</td>
+                    
+                        <td>
+                            <a href="/p/W29uMvPrZw">
+                                5g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All good, quick delivery and &#112;rocessing. Cheers</td>
+                    
+                        <td>
+                            <a href="/p/UJqAuRU084">
+                                1g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>First time from smackthat - think we may have finally found a reliable aussie h vendor. Outstanding in all regards</td>
+                    
+                        <td>
+                            <a href="/p/UJqAuRU084">
+                                1g #4 Afghan Heroin
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of smackthat:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/bBpYfNinK7">28g #4 Afghan Heroin</a><br/>
+                    <span class="description-preview">&nbsp;</span>
+                </td>
+                <td>14.48790816 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/UJqAuRU084">1g #4 Afghan Heroin</a><br/>
+                    <span class="description-preview">&nbsp;</span>
+                </td>
+                <td>1.06987629 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/RB6v4Yhgh5">14g #4 Afghan Heroin</a><br/>
+                    <span class="description-preview">&nbsp;</span>
+                </td>
+                <td>8.91563579 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/W29uMvPrZw">5g #4 Afghan Heroin</a><br/>
+                    <span class="description-preview">&nbsp;</span>
+                </td>
+                <td>4.01203610 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="smackthat" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to smackthat</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'smackthat'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

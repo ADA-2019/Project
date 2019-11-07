@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>SpiceGirl</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 458.50 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>SpiceGirl</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 4 days ago.
+        </div>
+        <div class="vendorbio-description">
+            Im back in biz!! Looking forward to providing second to none quality and service.<br/><br/>I am an expeienced seller from SR1 and BMR.  You can order from me with confidence.  <br/><br/>I might not be the fastest turn around but I will get your product there safely with good honest communication the whole way through.<br/><br/>PLEASE READ BEFORE ORDERING<br/><br/>Unfortunatley I require FE for every order until i create a good customer base.  That means if you have a good history with me you wont have to FE.<br/><br/>I do not ship every day.<br/><br/>do not expect it to be shipped the same day as ordering. Shipping will happen within 48 hrs.  <br/><br/>Get your order in early if you want it for the weekend.<br/><br/>I do not provide express shipping.<br/><br/>Please be sensible, look after yourself and your friends<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQINBFLRHpkBEADHSBsKT1NTbgJILa/jD2ABcV23wirgHfqEw6Kexh0I+S9v40+y<br/>R8tLtZvXwZKg+OdsV6qhZUwXRf8F27aXBj7L9eEuehRHvvfUzudClhKpiL1gm74Q<br/>fwmYDLTiLswRK0KdwuvlQn7qAJnH0ee/DF3l3/WDsQKvcEJ/YZPhKi0aNq0O3CMw<br/>JyIaWVp0+iug+r7AigpM1jKEWniKEPNUIwZznrMHBjXy58b4w0Enu+xV7Bt4Ak2H<br/>6l9QJGfMOq/9NKsqfzFrqGJYF783bBBeKeLW+gsd3f/KKOBqaLksDU+eom+I+pT+<br/>Ry2iMpxaVCrLON+hu2A0ie9wRczIp5w/Qcp20/J4uBcm4q1BK8Pxf9C791A9x8B3<br/>FcxT/jXbc69t21q3xUVg7H4E/ayota0zCMszr4oM4VLHCWzvO8MzmwaPV+YGDg55<br/>Xn7QYTUAk7unuc/egrpCwapgYmu1NVKqtd+msw+wCrqY5+D32O3zn0akO6MDofJ3<br/>J3U2lPiLRnNP+PXIXpqbpRW7tVOku283+pJutqdGQH9aNQAEONG4nDw5d8TbTC52<br/>B4dZhgk16Am30Y4/Xi+sOT7EQRKzuyBO2NcKZTXegZzCEPMH3h5C6pugAYC1s7ts<br/>6Aszk8oggJjAt3yk2VgnRwJd3X7ug4euGRVZbFhhcV0PG55rGNc2NOmBUQARAQAB<br/>tAlTcGljZUdpcmyJAjcEEwEKACEFAlLRHpkCGwMFCwkIBwMFFQoJCAsFFgIDAQAC<br/>HgECF4AACgkQk2i+HVcdRf+Dsg//TZE+3ELz3yWF+a95yD3DwQZ8eRdV1lcgJmz6<br/>CTzBO2UFoYJKIaH0p7f3cWaKUzHx6YgwSL8pmitYSaCKycE78c/hPyKqLExvvhxt<br/>xjlDCtG5rKt4NkmyqJkNPjZyGnWs8vrEsYqQ/ijThMzOUPTT1anKU8GhZdMZ5xfk<br/>GH4MeXuLz3xSTwvllaZ6ST6XdbUve27kANy1E50KEr&#74;dK27GaID9hquzj1EqBiW8<br/>9jTTlzqMExzNvO3RZOrvK2PEXLPK3kD8PuY6g1Xt96CCvrBsrIibEG6sSPg1leci<br/>bkrvS9LxTC/2XpsiVsR+kljhjedKnTnyuMoq/2O+ovs6YfKdD8BkjPZFNFwK1Jkh<br/>yLo3KZ03/UbQ41w1QBvZchmHWjHJ71acVAEVAFFiEpl3HaST1G0+B3mxfRCRLSCO<br/>ZrMsGRu+EkWFZPLuwku/ldXiRXDz+pPAPYSaYYwVBAIVm2jrsbJg+yIo5TL/VIdz<br/>0oLs4ghJQTQDHEZJiqWxHmdFEUjtVfIpE2Zj6eNDCcfaP8zxfY+JrJAbCT0t6NK4<br/>F7uRtOs4kEiiCPRB8QFVszkrCAx4v1ViJkRSEqNhz94n+542eCmv3a9cGwtZ16er<br/>DSQGZyMu/gZw8nGlQFtm8qmc2dUf0MnjwA1VeUgOnBMcNwDzqzOKDGMcXFrhqHge<br/>Y4hiULS5Ag0EUtEemQEQAKZRkohIzIqBHBmyPDRy11PQb5Bi9c7YmF0ogvUc8XBI<br/>g0gfw97D1ZKG6YrVPXUVAFgBBtL1uXAniNO7HBiJf2oSe2a1iV+lQH3+mN2AhVFB<br/>sRj9MrxdQgs1pZGqAmDkb0paOGZ58dd4hnkrQln0WfdxG7oUDginmafZqw3e9Qwk<br/>KSG+mBxe52xb4Pnv88PdfOUsZs3XjhpJNQ0I2FXPUA4LtqoSmTFiAa0qRnumLAvW<br/>USlmp4x/5nLHddE3DBu0UUAyow6H9HImYOWLRqq1lB84eH+8hfhSsisnIQmVIgFt<br/>UbsmpLrg4G1pX/L8/YcQ443l9F2b8/lBAoGXD2nbrPui0wnIe7MFLXHY5hlDoi1r<br/>kceay2jVir4/wWzIQJqSll2CTRT84zWH5s3gS1exvcZSN8XNrmxARxA+tHB7d18Z<br/>CyNuPfSeK7AjcGM9RjhJCnK2Rfak3xqmy1VG7kz/eblmMwZXl1fkAIL7y8SF1rXq<br/>5x9nmlcXMuvnzBWPZtvJwlM1NsNrNRCm0JDSwbkrrsso1O8h0pGSmLikMbwtjBQh<br/>79ViVb6zqQug1vaWiHfOdTPUm5ABi7ddDFGYQAaE+h+xiKf3TOiNiy5wXGxxxtzV<br/>kJM7At5cD3EuAF2nrJSNkrxship2idwDVc2+7jw7hhI7AUwQcb1gdWdQL4t0Z1Ch<br/>ABEBAAGJAh8EGAEKAAkFAlLRHpkCGwwACgkQk2i+HVcdRf9wHQ/+J/ZR6N78QQZL<br/>ziPVv7UFgjg3GQz0G4EC9PvtyYpe1U1sPBFPr4UPnjszIZBjq49XWvlVAGerNFuu<br/>iZYW887Zb6gpsvr38U9p9eHvNLiJ2kVSvKrX/sRk7CZcvuj4Yoh/OqizIdslNYAV<br/>fBKo1ESecRS1KHltUw9vwOiNrMrv3bkVqhjxBWccM6/8ptIsuzZa79cuq1GT69Or<br/>BrDiqS/RgDyor7xnkU8/+wke9WWBwO1QCD0P34dnhHEppabwRbrVSUFJUnNY6x8e<br/>fyTEcmzidv867+OE+kLIfIMqXNSCoVKuE+F0vmAKUmGIifFLGlVmq+TxkAsz6Gre<br/>g1qJ/aWNGOaqKnvSK3j5glKTR3KxDOlI3LbiI91M5WjIW5Q0+uZuo+vdCcsIGf1J<br/>UYfVgETRYIrhH5Wi46aXr9kE2vhjIEUiRSPGoWlO7AcnyHGCN08jAH+C/bV7Y8SA<br/>aeV9+Bdg1oaGjxKuTUiGiqbP2MYdH26xQF3NdtS/Ee4zsP6GvU7lyb+cqCir81a8<br/>FS/xBzIjJLm+aVKJDnOregMPf1PLLOOT+N6ogBLg1LBXZgNnct4L/aAMeLMDlwQc<br/>bANNotcndNoYboNU9nisMRUDdtAA57hC6i+4qg6NURRbDi+mK+X9BK0XANAhsu8w<br/>y2YV0sQ6nJYekWWY9jk/ZjPoCda2CAg=<br/>=iC79<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping. Good product.</td>
+                    
+                        <td>
+                            <a href="/p/b93wFMfJhn">
+                                10 tab 120ug LSD
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>awesome stuff came with extra&#39;s. would reccommend and i&#39;ll be back</td>
+                    
+                        <td>
+                            <a href="/p/df7xyn8XuU">
+                                Promotion 1 tab 120ug LSD
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came here in a little over a week, very nice tab. ;)</td>
+                    
+                        <td>
+                            <a href="/p/df7xyn8XuU">
+                                Promotion 1 tab 120ug LSD
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>See how the test goes FE&#39;d early.</td>
+                    
+                        <td>
+                            <a href="/p/df7xyn8XuU">
+                                Promotion 1 tab 120ug LSD
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of SpiceGirl:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/knk8XAMezA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/knk8XAMezA">1 gm BK-MDMA Moon Rock</a><br/>
+                    <span class="description-preview">Lovely big moon rock crystals. This is the closest thing you can get to MDMA. Highest quality freshly synthesised.</span>
+                </td>
+                <td>0.54525627 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: AUSTRALIA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YeATF8YaRR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YeATF8YaRR">50 tab 120ug LSD</a><br/>
+                    <span class="description-preview">Yummy clean LSD. Blotter art differs from picture.</span>
+                </td>
+                <td>1.41766630 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BlphybyleA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BlphybyleA">100 tab 120ug LSD</a><br/>
+                    <span class="description-preview">Yummy clean LSD. Blotter art differs from picture.</span>
+                </td>
+                <td>2.18102508 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/b93wFMfJhn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/b93wFMfJhn">10 tab 120ug LSD</a><br/>
+                    <span class="description-preview">Yummy clean LSD. Blotter art differs from picture.</span>
+                </td>
+                <td>0.32715376 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/C4W5XAvSym.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/C4W5XAvSym">5 tab 120ug LSD</a><br/>
+                    <span class="description-preview">Yummy clean LSD. Blotter art differs from picture.</span>
+                </td>
+                <td>0.18538713 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="SpiceGirl" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to SpiceGirl</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'SpiceGirl'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

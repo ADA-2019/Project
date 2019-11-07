@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>rxman</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 450.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>rxman</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">120 successfull &#116;ransactions since 2013-10.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 0 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            *****************************************************<br/>03/11/2014 - GRAND SALE HAS ENDED, I WILL BE HAVING ANOTHER SALE IN A COUPLE DAYS ONCE AGORA IS MORE STABLE.<br/>*****************************************************<br/><br/>USA to USA Prescriptions, as fast as your local pharmacy. We are as professional as it comes, we are new to Agora not vending.<br/><br/>ORDERING<br/>******************************************************<br/>PGP, privnote and plain text accepted. please note if you choose to use PGP and your PGP is corrupt, I take no responsibility for the delay, but i recommend PGP for your safety.<br/><br/>MINIMUM $50 USD per shipment.<br/><br/>You may order as many different items you like from my shop. Please select and pay for a shipment option, then select ADD TO OTHER SHIPMENT on the rest.<br/>******************************************************<br/><br/>SHIPPING<br/>******************************************************<br/>I have been shipping for many years and never had a package seized. I ship daily and 99% of the time you order will go out the same day if you order before 3pm.<br/><br/>The package itself is stealth, but the contents inside are not. I do not and will not hide your items in anything. Sorry if you send me a message asking me to hide it in a xbox game, so your wife doesn&#39;t find it, i will not do it. I will assume you are a teenager and cancel your order.<br/>******************************************************<br/><br/>TRACKING<br/>******************************************************<br/>You will receive a message with your tracking number via an unencrypted message.Once you receive this tracking number it is yours to do what you want with, but i recommend deleting it when your package arrives.<br/><br/>If you decide you do not want the tracking number please include in the order address line a message indicating this.The only way i will send an encrypted tracking number is if you requested to not receive a tracking number and it has been more then 3 days.<br/>******************************************************<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFDX/2MBCACf+4COVPJVirBNvcSsCJ0QQarYtkV7MvV5VZQyiL22n9OHHWed<br/>cLJ45AanouUxAEOzLecQNkz6jEP6muP6yQMm5CPjjjAAUiDvzcJjdaIow7jiASl7<br/>rtm29m9wq6N3Ljn3zHIZx21ZavhyccoNAAuVFsAyF+6vajh81MhftMA2jIIKUSNi<br/>Yx/mfeAFUIR929F8YgysyJmhNJo2Cd5ghJi/YPaa/sYFgBLmWO9/IfDxfngR60N1<br/>MGBKu32sM9PKPAVkJ6Ng/3Of8Vz+lwe89dvt4ECyzjLdBg&#77;vCYW2nZEsBnt4rbqx<br/>Za9J/O4PlhdFBHUZVT9k3ZDsdRjTc5AZHmdtABEBAAG0GVJYTWFuIDxyeG1hbkB0<br/>b3JtYWlsLm9yZz6JATgEEwECACIFAlDX/2MCGwMGCwkIBwMCBhUIAgkKCwQWAgMB<br/>Ah4BAheAAAoJEGIBsGu6iEoBijEH/iqsc4XKwj7LHT3uQJ5TrjNGs+ilgrvsQ6Xg<br/>KUOvaiHnRhsUR20++2lNBjOR1316qk7xCms97CB9/imn29oY8ql6sHrLDQYWr6aI<br/>QeaUhyDJFuf7AF83l5xgwUSdgWgwMe9GCpwPIxkiJqv5yZL3jin9wYfhJFyS9ugU<br/>S8FT1jetYqhqnmZ+oOkTn01PDokHwuIHKOY0T6AXawhpPYjzRnsuWW3evHWPbcxw<br/>SfrHLrhI6mhj7iuhHyCii9krbBT6DjXZ4biWlYr8GHNeIpIPInDkHaT37thAmuBZ<br/>Hjv4kY1I0vVtRCV2g+41z+34Ozo4OX8ufjFE8lLeghUfRQ32Dhe5AQ0EUNf/YwEI<br/>AKLMeOAZNTQDGpYBRHXNJNghEQoXXRE+laXfbKJDp1Vm0Yg1hLVoPqjoaRjGPxst<br/>OnnG+3E3a8Id29ucnAX7Nhx+EE9sQeEj/tDqkwVhKREvcFFsKr/gCGFB7NH2EQ+G<br/>YJzqzryIMHLemwmDEjpjhkP+tIY4pFZO8kfT7Andhz54bWW3ADh49yDDFoT3onbE<br/>egaafLQT5I6b9ZFBRBEF/D/RHAAc8VS/yb0bIfaYAA5c2KY7DjuTx2Il6F9J0cGs<br/>w3+R6WzD9cMBgy7Cri+TFEm0Q7nWkLt0LlG4hPbs2I6OovzezTE9vuRGeybrCiGl<br/>ei+DpiZnFJCkI8QO2k3BUEkAEQEAAYkBHwQYAQIACQUCUNf/YwIbDAAKCRBiAbBr<br/>uohKAcOIB/9qWT8IPj0a3QrUtqdGFCx1DX2kTVU2DEWcHsESvwgnTL5Bf1oaWfIU<br/>+L4Y37UtnI06Kf5aakasp6U15pMzXczBEdNWidU6bEzpkpKOr5hfIAK8P9RPG6vH<br/>QrvDex1uGJSX5zZtV9VyhR26/i0TEfb7WktAUl5lKUt2orTtOQPZ/3QbfbmuVaGw<br/>q6xLqmSnSD3RTKRsNUzCva52O6bfuudJKgQoBMk2bR9HTUzBEMlLS2ueMqd/FgwP<br/>+uaW6pmeE4rZq+TEGUmSLzGIViGSOUcskw31ApX3QMkp1J3waZDsAyXn8Jc9c64r<br/>O7yJYwDG9EXEWBSk+5Jk85uZUJT0SXov<br/>=BeFf<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome! Will be back for sure!</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Flawless &#116;ransaction. Quick shipping too!</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome vendor..always fast shipping, bad ass stealth, and great comms. Thanks, rxman!</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>ordered wednesday nite, shipped thursday, arrived friday.  product was perfect.  you can&#39;t get much better than this guy.</td>
+                    
+                        <td>
+                            <a href="/p/S12slWz23b">
+                                1 x SUBUTEX (Buprenorphine) 8MG - ROXANE
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>As always, as good as it gets....</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent service and speed</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A++++++++++++++++</td>
+                    
+                        <td>
+                            <a href="/p/FuE3hhfhT0">
+                                1 x METHADONE (Methadone Hydrochloride) 10MG - MALLINCKRODT
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>excellent &#116;ransaction, as expected, 5/5 stealth, speed and contact. RXMan has always been legit, regardless of market</td>
+                    
+                        <td>
+                            <a href="/p/FuE3hhfhT0">
+                                1 x METHADONE (Methadone Hydrochloride) 10MG - MALLINCKRODT
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.71/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesomeness</td>
+                    
+                        <td>
+                            <a href="/p/FuE3hhfhT0">
+                                1 x METHADONE (Methadone Hydrochloride) 10MG - MALLINCKRODT
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awsome shipping, product and stealth!!</td>
+                    
+                        <td>
+                            <a href="/p/FuE3hhfhT0">
+                                1 x METHADONE (Methadone Hydrochloride) 10MG - MALLINCKRODT
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 Great vendor,  quick shipping, good communication, good stealth, advertised product despite agora difficulties .  Thanks Rx</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great communication while site was down.</td>
+                    
+                        <td>
+                            <a href="/p/S12slWz23b">
+                                1 x SUBUTEX (Buprenorphine) 8MG - ROXANE
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent service and professionalism.</td>
+                    
+                        <td>
+                            <a href="/p/S12slWz23b">
+                                1 x SUBUTEX (Buprenorphine) 8MG - ROXANE
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>RXMan is one of the  most legit sellers around :D</td>
+                    
+                        <td>
+                            <a href="/p/xFWS7FajgP">
+                                1 x DILAUDID (Hydromorphone HCL) 4MG - PURDUE
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>product is pharmacy fresh!</td>
+                    
+                        <td>
+                            <a href="/p/JxlutNaWD5">
+                                1 x LORTAB (Hydrocodone/APAP) 10-500MG - WATSON
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Super fast shipping. Overnight (Express) is for real!</td>
+                    
+                        <td>
+                            <a href="/p/WuXuj8DmCd">
+                                1 x NORCO (Hydrocodone/APAP) 10-325MG - Vintage
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>&#101;xceptionally fast and reliable</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top 10</td>
+                    
+                        <td>
+                            <a href="/p/FuE3hhfhT0">
+                                1 x METHADONE (Methadone Hydrochloride) 10MG - MALLINCKRODT
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Never had a bad &#116;ransaction with the man. Order with confidence.</td>
+                    
+                        <td>
+                            <a href="/p/gdhR4Yk14y">
+                                1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This man is awesome. Overnight delivery. Ordered about 2 PM Thursday and got it about noon Friday. I have been ordering from hi</td>
+                    
+                        <td>
+                            <a href="/p/cg1JvnAPld">
+                                1 x DILAUDID (Hydromorphone HCL) 4MG - LANNETT
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of rxman:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JxlutNaWD5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JxlutNaWD5">1 x LORTAB (Hydrocodone/APAP) 10-500MG - WATSON</a><br/>
+                    <span class="description-preview">1 tablet of 10-500MG LORTAB (Hydrocodone/Acetaminophen) manufactured by Watson Pharmaceuticals.
+
+****PLEASE NOTE THEY ARE WHITE NOW INSTEAD OF BLUE***
+
+
+Minimum $50 USD per shipment, you may ord ...</span>
+                </td>
+                <td>0.02222222 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gdhR4Yk14y.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gdhR4Yk14y">1 x OPANA ER (Oxymorphone HCL) 40MG - GLOBAL</a><br/>
+                    <span class="description-preview">1 tablet of 40MG OPANA ER (Oxymorphone HCL ER) manufactured by Global Pharmaceuticals.
+
+These are the crushable ones, just like the old stop signs.
+
+Minimum $50 USD per shipment, you may order as ...</span>
+                </td>
+                <td>0.16666666 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/S12slWz23b.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/S12slWz23b">1 x SUBUTEX (Buprenorphine) 8MG - ROXANE</a><br/>
+                    <span class="description-preview">1 tablet of 8MG SUBUTEX (Buprenorphine) manufactured by Roxane Laboratories INC.
+
+Minimum $50 USD per shipment, you may order as many different items you like from my shop. Please select and pay fo ...</span>
+                </td>
+                <td>0.06222222 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cg1JvnAPld.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cg1JvnAPld">1 x DILAUDID (Hydromorphone HCL) 4MG - LANNETT</a><br/>
+                    <span class="description-preview">1 tablet of 4MG DILAUDID (Hydromorphone HCL) manufactured by Lannett Company, Inc.
+
+Minimum $50 USD per shipment, you may order as many different items you like from my shop. Please select and pay  ...</span>
+                </td>
+                <td>0.04444444 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WuXuj8DmCd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WuXuj8DmCd">1 x NORCO (Hydrocodone/APAP) 10-325MG - Vintage</a><br/>
+                    <span class="description-preview">1 tablet of 10-325MG NORCO (Hydrocodone/Acetaminophen) manufactured by Vintage Pharmaceuticals Inc.
+
+Minimum $50 USD per shipment, you may order as many different items you like from my shop. Pleas ...</span>
+                </td>
+                <td>0.02444444 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="rxman" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to rxman</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'rxman'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Shiny-Flakes</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 464.80 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Shiny-Flakes</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 6 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            WE SPEAK ENGLISH AND GERMAN<br/><br/>★★★Shiny-Flakes★★★<br/>Wohlbekannt im Clearnet - nun auch hier auf Agora zu finden.<br/>Auf Agora werden wir nur einen Teil unseres Sortiments anbieten, um neue Kunden zu gewinnen.<br/><br/>Wir handeln Klein- und Gro&szlig;mengen Kokain, Meth, MDMA, Speed, XTC, LSD und Weed<br/><br/>★Stealth★<br/>Da wir nur innerhalb Europas liefern, ist unsere Abpackung simpel und effizient gestaltet. Speed und Weed werden sanft vakuumiert.<br/><br/>★Versand★<br/>Alle Sendungen werden als Einwurf-Einschreiben (Hausadresse, ohne Unterschrift) oder DHL Paket (Packstation) versendet. Wir bieten keinen Expressversand an.<br/>Internationale Sendungen werden als per Priority Mail (no signing required), oder auf Wunsch per DHL International Package versendet.<br/>Bei einer Bestellung &uuml;ber Agora erhaltet ihr beim Bestellen den Link zu unseren F.A.Q.<br/><br/>★Refunds★<br/>Keine Refunds, da alle Bestellungen mit Tracking versendet werden. Alle Sendungen werden so klein wie m&ouml;glich verpackt, notfalls geteilt versendet, sodass eine Einlieferung in den Briefkasten/Packstation idR immer m&ouml;glich ist. Solltet ihr die Sendung nicht abholen k&ouml;nnen, aus welchem Grund auch immer, ist die Sendung verloren.<br/><br/>★Emergency Email★<br/>service@shiny-flakes.cc - English/Deutsch<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG v1.47<br/><br/>mQGiBFMsiRwRBACC1idhOwqjym2JzYOjG02YF87qeusK3Nux3JQDZRHYK6uqWWC5<br/>5gbNuCZ8yy1kvD1q/0N/jHk5ZN52rmoWabv9ZJNPiFQIlOTH5eS4SFMTLNg/+TkS<br/>U2V+OS+8miPyE6YCtwIdz0T+k123su+miwlHIB9y/0npA1e3gZ3oMTkidwCgqV0d<br/>ZraKpc5ENMaWhTZG+gHHxmED/2eocIrSKzDjsu9bWm7uEzr6zxRlJnn3AzvTK9D8<br/>TDLTpR7tPzeasKGKkyeGvcMRfR+it1wvqw2lYROUDHBy2p5txH5Hgshir8zfGibu<br/>mSEcZkEgHpqn6CBRraFd+3mcVY2nUfGEjJ9/zEeVxKgq5B1aXrkKfQaoB3Wb2w74<br/>W9uYA/sEiFQHnyzUp1u25NBCiAbeWxsJfqJ81FtPXILnT/g7KXLAYgOIzpNX+H/m<br/>LxWuh5eRf4r6hCyBUTD1mHXqis/u/zOX1rH49J/TzrHDus6Es41oRFgFqkCLS6qo<br/>BP09AZmCKRzUxkZoMGxhNyN/i6AXzWyJ9JCqZXfM28ArQW958bQmU2hpbnktRmxh<br/>a2VzIDxzZXJ2aWNlQHNoaW55LWZsYWtlcy5jYz6IRgQTEQIABgUCUyyJHAAKCRCP<br/>bz/ZR6M99rCqAJ45/cy2on9G43PZLjEqI3XSbZMoLwCfYJ5grl2dqYf638sPBH8g<br/>QJulNde5AYwEUyyJHBAEAPpb1eMRD9nxbN+H5+9cnwwIBqpOCbYo/9kFbm3FODOL<br/>BwnIYCeOkpiHl6xJN7goC15JYF29EXAvRwtRW+0y9LnyY3uyMAxAflNk+sGZqSky<br/>Eq7kpRwTMP+NN4M1RaDVR0gdxPNREu2160LX+4shN8lrNw9MOwVGu0bzIsOdwT3X<br/>BAD5oXjqlq7SNKuErRrWRSV7NyAykYbQSdKY4+jN6hkyJICqoZ62jdPdk/i5/bg1<br/>dq8o7BSv0pOfi1/tvHgWYriwRBnucZPd6bTvEPNEQzEO+kP1V4TgnBnLrBAzejH/<br/>pGwuSAKfq+7TDG5ymRIaRc2TxihIk4HxrWP/omOUhy88uAP/WPnueWSRMQgXpDad<br/>UgoHtETOcRtavWF5YWCxTEmamTJ5qW4ld00GyPG&#83;QLXbKEH2ZSHQYWeHO7T9OmHL<br/>TxyHYYD4lcnUpb8c+Gbjro8/DQLFXKvqOOLxSeaCccW6XLMmNHa4jd2tFz80sA2Q<br/>yRiKjUC6us38+xLM25zQZQl+Rj6IRgQYEQIABgUCUyyJHAAKCRCPbz/ZR6M99qmy<br/>AJwPwWEzASjWqZ5C66URKZ7lixMkugCeMaglcktJzQfxrJz3AYjxyqa2dgo=<br/>=0toq<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Got it within 2 Days domestic and never hab a better pressed pill...
+Kam innerhalb 2 tage domestic sieht fein aus
+werde sie a</td>
+                    
+                        <td>
+                            <a href="/p/PFeg1lyqM6">
+                                1x XTC Bitcoin 200mg [Sonderangebot]
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE</td>
+                    
+                        <td>
+                            <a href="/p/tcdPyL2Aqy">
+                                1g Speed Paste - 72% purity [Sonderangebot]
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Shiny-Flakes:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PFeg1lyqM6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PFeg1lyqM6">1x XTC Bitcoin 200mg [Sonderangebot]</a><br/>
+                    <span class="description-preview">Dieses Listing gilt nur bei Abnahme von EINEM XTC! - This offer is only available for the purchase of ONE PILL!
+
+Normale Preisstaffelung:
+
+ab 1 Stk. = 9.00&euro;
+
+ab 5 Stk. = 6.50&euro;
+
+ab 10 Stk. = 5 ...</span>
+                </td>
+                <td>0.01290877 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NPwthMwS2c.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NPwthMwS2c">1x XTC USB 130mg [Sonderangebot]</a><br/>
+                    <span class="description-preview">Dieses Listing gilt nur bei Abnahme von EINEM XTC! - This offer is only available for the purchase of ONE PILL!
+
+Normale Preisstaffelung:
+
+ab 1 Stk. = 8.00&euro;
+
+ab 5 Stk. = 4.95&euro;
+
+ab 10 Stk. = 4 ...</span>
+                </td>
+                <td>0.01075731 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tcdPyL2Aqy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tcdPyL2Aqy">1g Speed Paste - 72% purity [Sonderangebot]</a><br/>
+                    <span class="description-preview">Der Versand erfolgt vakuumiert.
+
+ab 1g = 9&euro;
+
+ab 3g = 8&euro;
+
+ab 5g = 7&euro;
+
+ab 10g = 5.50&euro;
+
+ab 25g = 4.95&euro;
+
+ab 50g = 3.95&euro;
+
+ab 100g = 2.95&euro;
+
+ab 500g = 2.45&euro;
+
+ab 1000g = 1.89&euro;
+
+Bei gr&ouml;&szlig;er ...</span>
+                </td>
+                <td>0.02129948 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qMN6DDMwRL.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qMN6DDMwRL">1g MDMA crystals 84% purity [Sonderangebot]</a><br/>
+                    <span class="description-preview">Dieses Listing gilt nur bei Abnahme von EINEM GRAMM! - This offer is only available for the purchase of ONE GRAMM!
+
+Normale Preisstaffelung:
+
+ab 1g = 25&euro;
+
+ab 5g = 23&euro;
+
+ab 10g = 20&euro;
+
+ab 25g  ...</span>
+                </td>
+                <td>0.05163511 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Shiny-Flakes" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Shiny-Flakes</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Shiny-Flakes'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Mushrooms</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 445.80 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/vheN9d2mMr">Drugs</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/xgBPEmdDdF">Psychedelics</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/LvrRKUaRyJ">Mushrooms</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/xgBPEmdDdF">Psychedelics</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/txoqJPieUB">2C<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iJeoNVx82a">5-MeO<span class="extra-caption"> (10+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/ht9G1zzoVK">DMT<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/S0SZTZKVhx">LSD<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/BUn0Jfz1r0">Mescaline<span class="extra-caption"> (20+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/LvrRKUaRyJ">Mushrooms<span class="extra-caption"> (60+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/cncgx1fb8i">NB<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sM9FbFelvg">Others<span class="extra-caption"> (50+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tgJ2A5Pz45">Salvia<span class="extra-caption"> (9)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/WhvYT1MElT">Spores<span class="extra-caption"> (10+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/LvrRKUaRyJ/1" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link current-page" href="/cat/LvrRKUaRyJ/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/LvrRKUaRyJ/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/LvrRKUaRyJ/3"> 3 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ffALFANzmu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ffALFANzmu">Whole Magic Mushrooms by the Gram</a><br/>
+                    <span class="description-preview">Crisp dried beautiful whole magic mushrooms. These are cultivated cubensis mushrooms. Potent, they provide a sustained euphoric high. Most with caps attached. Minimum order of 5 grams please.</span>
+                </td>
+                <td>0.01121579 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/beachcomber#"/>beachcomber</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RbiZ9SF7jz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RbiZ9SF7jz">1oz - 28g Magic Mushroom Psilocybe Cubensis (capsules)</a><br/>
+                    <span class="description-preview">Free Shipping!
+PLEASE ENCRYPT YOUR ADDRESS
+
+-Product Info:	
+-----------------------------
+The product is grown in a clean loving environment and care is taken at each stage to retain a high leve ...</span>
+                </td>
+                <td>0.42620008 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/donaldo#"/>donaldo</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SRlVFeKD7t.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SRlVFeKD7t">1/4 oz Ground Shrooms</a><br/>
+                    <span class="description-preview">*** Available in Canada &amp; US ***
+
+We grow our P. Cubensis Amazonia mushrooms on organic rye. Our years of growing experience results in a consistently high potency product.
+
+We use multiple layer ...</span>
+                </td>
+                <td>0.08972633 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Canada &amp; US
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/rabbithole#"/>rabbithole</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CupJlMp5Ng.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CupJlMp5Ng">3.5g Psilocybe ovoideocystidiata</a><br/>
+                    <span class="description-preview">these P.ovoids are a wood loving magic mushroom. they are very potent. about 2x as potent as cubensis. these mushrooms are wild picked in the woods and are not grown.</span>
+                </td>
+                <td>0.06729475 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: usa
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/tickle#"/>tickle</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CbRctnRzSG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CbRctnRzSG">Whole Magic Mushrooms - 1 oz (28 g)</a><br/>
+                    <span class="description-preview">Crisp dried beautiful whole magic mushrooms. These are cultivated cubensis mushrooms. Potent, they provide a sustained euphoric high. Most with caps attached. Minimum order of 5 grams please.</span>
+                </td>
+                <td>0.29161058 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/beachcomber#"/>beachcomber</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/V4PCjijMVP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/V4PCjijMVP">1/2 oz dried Psilocybe cubensis shrooms</a><br/>
+                    <span class="description-preview">This is a listing for 1/2 ounces (14.18 grams) of dried Psilocybe cubensis variety Ecuador mushrooms.
+
+They are vacuum sealed and ship for free via Priority Mail within the US. Most are whole but t ...</span>
+                </td>
+                <td>0.13683266 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Mindful-Shaman#"/>Mindful-Shaman</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Fr7N2nRfyD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Fr7N2nRfyD">Psilocybin subaeruginosa - 14 grams dried - High Quality Magic Mushies</a><br/>
+                    <span class="description-preview">Psilocybin subaeruginosa - 14 grams dried - High quality Magic Mushies
+
+Hello humans! Mushroom elves are here and on standby to take your psychedelic orders! We are pleased to arrive here at Agora  ...</span>
+                </td>
+                <td>0.58322117 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia only
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/mushroomelves#"/>mushroomelves</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wVeElnXNwR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wVeElnXNwR">Golden Teachers 1/8 (3.5g) one eigth</a><br/>
+                    <span class="description-preview">This listing is for 3.5 grams of Golden Teacher shrooms.
+
+
+
+*Yes the famous golden teacher mushroom!
+
+*if youve orderd from me on SR before, you know how I roll, cheapest prices around.
+
+*Mos ...</span>
+                </td>
+                <td>0.04934948 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    <i class="fa fa-home"></i> To: USA only
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/the_g0dfather#"/>the_g0dfather</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ctCSfeuiln.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ctCSfeuiln">Magic Maple Candy 1 dozen</a><br/>
+                    <span class="description-preview">*** Available in Canada only ***
+
+Pure maple syrup blended with powdered magic mushrooms, a touch of coconut oil and nothing else. Each magic maple candy contains 1g of P. Cubensis Amazonia home gr ...</span>
+                </td>
+                <td>0.14580529 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Canada
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/rabbithole#"/>rabbithole</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YnE0MUhMZ5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YnE0MUhMZ5">5 OZ MAGIC MUSHROOMS OVERSTUFFED NEW SELLER SPECIAL!!!</a><br/>
+                    <span class="description-preview">**** PLEASE SEE MY FEEDBACK FROM BMR HERE ****
+
+http://loow5bjd6qjbwi5z.onion/index.&#112;hp?p=user&amp;id=195925
+
+(You can check that it&#39;s me by comparing PGP keys)
+
+====
+
+Hey there friend, welcome a ...</span>
+                </td>
+                <td>1.11933602 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/SuperStealthSam#"/>SuperStealthSam</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WlX49D0eAT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WlX49D0eAT">2.5g Amazonian XTC Magic Mushrooms psylocin/psilocybin</a><br/>
+                    <span class="description-preview">*+*NEW PRODUCT IN STORE*+*
+
+These Magic Mushrooms differ much from the widespread and most commonly consumed shrooms, like the Cubensis Mexicana, Golden Teacher, or Thai&#39;s.
+Similar to the famous H ...</span>
+                </td>
+                <td>0.12337371 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Godspeed#"/>Godspeed</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.83/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PqEm2fi7pc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PqEm2fi7pc">80g Tampanensis Truffles</a><br/>
+                    <span class="description-preview">Our latest addition to the family: The Food of the Gods themselves! Tampanensis truffles were first discovered in Florida where they are to this day one of the rarest psychedelic sclerotia on earth. ...</span>
+                </td>
+                <td>0.14550583 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/NordicShrooms#"/>NordicShrooms</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/D91eTSVzeW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/D91eTSVzeW">Golden Teacher 10ml Spore Syringe</a><br/>
+                    <span class="description-preview">A sterile, cleanly made spore syringe from one of my very popular spore prints. This particular familial line of Golden Teachers have been with me for a little over a year now. It&#39;s an easy to cultiv ...</span>
+                </td>
+                <td>0.03140421 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SrUljyX8L3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SrUljyX8L3">28 grams of very potent Cambodian Mushrooms **Promotional Sale**</a><br/>
+                    <span class="description-preview">28 grams of Cambodian Mushrooms 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+************************
+
+If you want escrow select the escrow shipping option. 
+
+If no ...</span>
+                </td>
+                <td>0.28263795 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/The_Lynx#"/>The_Lynx</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.65/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zVnbUd8n7U.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zVnbUd8n7U">H.P. of Golden Teacher Shrooms (226g) Psilocybe Cubensis</a><br/>
+                    <span class="description-preview">* * * * PLEASE READ MY ENTIRE PROFILE PAGE BEFORE ORDERING OR MESSAGING ME! * * * *
+
+These STRONG PureFire mushrooms are grown indoors in California with all the love and tender care that they dese ...</span>
+                </td>
+                <td>2.15343203 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/PureFireMeds#"/>PureFireMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.871/5, 500~1000 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zzjZhxoDEP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zzjZhxoDEP">1/8oz - 3.5g Magic Mushroom Psilocybe Cubensis (powder)</a><br/>
+                    <span class="description-preview">Free Shipping!
+PLEASE ENCRYPT YOUR ADDRESS
+
+-Product Info:	
+-----------------------------
+The product is grown in a clean loving environment and care is taken at each stage to retain a high leve ...</span>
+                </td>
+                <td>0.06729475 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/donaldo#"/>donaldo</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SnPFfT5vZA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SnPFfT5vZA">Cambodian shrooms 1/8 (3.5g) one eigth</a><br/>
+                    <span class="description-preview">*This listing is for 3.5g of Cambodian mushrooms.
+
+
+*Please dont forget to leave a review!
+
+*This mushroom gives a energytic high and tends to last quite awhile.
+
+*This strain gives a VERY DEE ...</span>
+                </td>
+                <td>0.04934948 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    <i class="fa fa-home"></i> To: USA only
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/the_g0dfather#"/>the_g0dfather</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GPrNjkgWoa.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GPrNjkgWoa">7g of Golden Teacher Shrooms (1/4 Oz) Psilocybe Cubensis</a><br/>
+                    <span class="description-preview">* * * * PLEASE READ MY ENTIRE PROFILE PAGE BEFORE ORDERING OR MESSAGING ME! * * * *
+
+These STRONG PureFire mushrooms are grown indoors in California with all the love and tender care that they dese ...</span>
+                </td>
+                <td>0.10767160 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/PureFireMeds#"/>PureFireMeds</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.871/5, 500~1000 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nwUqSmRbN2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nwUqSmRbN2">Golden Teachers 1/2 oz (14g) fourteen grams</a><br/>
+                    <span class="description-preview">This listing is for a half bag &quot;14 grams&quot; of golden teacher shrooms.
+
+
+
+*Yes the famous golden teacher mushroom!
+
+*if youve orderd from me on SR before, you know how I roll, cheapest prices aro ...</span>
+                </td>
+                <td>0.15702108 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/the_g0dfather#"/>the_g0dfather</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sjVsqaPBPg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sjVsqaPBPg">2oz - 56g Magic Mushroom Psilocybe Cubensis (powder)</a><br/>
+                    <span class="description-preview">Free Shipping!
+PLEASE ENCRYPT YOUR ADDRESS
+
+-Product Info:	
+-----------------------------
+The product is grown in a clean loving environment and care is taken at each stage to retain a high leve ...</span>
+                </td>
+                <td>0.71781067 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/donaldo#"/>donaldo</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vt3JkLXiRJ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vt3JkLXiRJ">1oz - 28g Magic Mushroom Psilocybe Cubensis (powder)</a><br/>
+                    <span class="description-preview">Free Shipping!
+PLEASE ENCRYPT YOUR ADDRESS
+
+-Product Info:	
+-----------------------------
+The product is grown in a clean loving environment and care is taken at each stage to retain a high leve ...</span>
+                </td>
+                <td>0.38133692 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/donaldo#"/>donaldo</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/S59lrlloho.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/S59lrlloho">10 grams of very potent Cambodian Mushrooms **Promotional Sale**</a><br/>
+                    <span class="description-preview">10 grams of Cambodian Mushrooms 
+                                              
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
+************************
+
+If you want escro ...</span>
+                </td>
+                <td>0.10094212 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/The_Lynx#"/>The_Lynx</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.65/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/X1DDbill0o.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/X1DDbill0o">3.5g B+ Magic Mushroom Capsules</a><br/>
+                    <span class="description-preview">3.5g ground B+ Mushrooms filled in capsules</span>
+                </td>
+                <td>0.06729475 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/zable#"/>zable</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.98/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NEyGaGYW50.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NEyGaGYW50">1/2oz - 14g Magic Mushroom Psilocybe Cubensis (powder)</a><br/>
+                    <span class="description-preview">Free Shipping!
+PLEASE ENCRYPT YOUR ADDRESS
+
+-Product Info:	
+-----------------------------
+The product is grown in a clean loving environment and care is taken at each stage to retain a high leve ...</span>
+                </td>
+                <td>0.20188425 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/donaldo#"/>donaldo</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MgfSyEGjAv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MgfSyEGjAv">30g Tampanensis Truffles</a><br/>
+                    <span class="description-preview">Our latest addition to the family: The Food of the Gods themselves! Tampanensis truffles were first discovered in Florida where they are to this day one of the rarest psychedelic sclerotia on earth. ...</span>
+                </td>
+                <td>0.06558008 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/NordicShrooms#"/>NordicShrooms</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ff3zs6zgJB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ff3zs6zgJB">(10)Gram -GROUND- Penis Envy Cubensis Mush Shroom Powder - by MUSHBUD -</a><br/>
+                    <span class="description-preview">Before you order now, or in the future: Please be certain that you have reviewed my &quot;Customer Policy&quot; available on my Vendor Profile Page.  This is where i leave my announcements.
+
+What I am offeri ...</span>
+                </td>
+                <td>0.06718259 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: World Wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/MUSHBUD#"/>MUSHBUD</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fnNetKgF4W.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fnNetKgF4W">Spore Print - P. Cubensis Golden Teacher</a><br/>
+                    <span class="description-preview">Quality spore prints set on foil. This particular familial line of Golden Teachers have been with me for a little over a year now. It&#39;s an easy to cultivate strain that prefers bulk substrates over b ...</span>
+                </td>
+                <td>0.03589053 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jCoj7oLyXW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jCoj7oLyXW">1/8oz - 3.5g Magic Mushroom Psilocybe Cubensis (capsules)</a><br/>
+                    <span class="description-preview">Free Shipping!
+PLEASE ENCRYPT YOUR ADDRESS
+
+-Product Info:	
+-----------------------------
+The product is grown in a clean loving environment and care is taken at each stage to retain a high leve ...</span>
+                </td>
+                <td>0.07851054 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/donaldo#"/>donaldo</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pWtji1v7y0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pWtji1v7y0">Psilocybin subaeruginosa - 7 grams dried - High Quality Magic Mushies</a><br/>
+                    <span class="description-preview">Psilocybin subaeruginosa - 7 grams dried - High quality magic mushies
+
+Hello humans! Mushroom elves are here and on standby to take your psychedelic orders! We are pleased to arrive here at Agora f ...</span>
+                </td>
+                <td>0.31404217 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia only
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/mushroomelves#"/>mushroomelves</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mr9DVTNGLb.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mr9DVTNGLb">Penis Envys 1/8 (3.5g) one eigth</a><br/>
+                    <span class="description-preview">This listing is for 3.5 grams of Penis Envy shrooms.
+
+*POTENTCEY SCALE: 10/10
+
+*PLEASE dont forget to leave feedback, thanks!
+
+*Penis Envys&#39;s are one of the most potent cubensis mushrooms. It m ...</span>
+                </td>
+                <td>0.05720053 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/the_g0dfather#"/>the_g0dfather</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link current-page" href="/cat/LvrRKUaRyJ/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/LvrRKUaRyJ/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/LvrRKUaRyJ/3"> 3 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

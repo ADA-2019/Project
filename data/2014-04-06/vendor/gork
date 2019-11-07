@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>gork</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>gork</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 2 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hello, we are selling passports, ID&#39;s, stamps. In future we are planing to have a bigger selection of passports.<br/>We allso sell Lithuanian university diplomas. However there is a restriction, maximum finishing year has to be 2004 so its ony viable for people who are born 1983 or older.<br/><br/>We made some business on BMR under the name of Gork. Hope to continue it successfully here.<br/><br/>On this website feedback from BMR market can be seen before it closed:<br/>http://loow5bjd6qjbwi5z.onion/index.&#112;hp?p=user&amp;id=216511<br/><br/>------------------------------------------------------------------------------------------<br/>Shipping and Making<br/>------------------------------------------------------------------------------------------<br/>We use registered priority mail with a tracking code. Shipments whitin EU take 1 to 2 weeks. Outside EU 2 to 4 weeks.<br/>It takes around 1 week, to make and ship the documents.<br/><br/>------------------------------------------------------------------------------------------<br/>Escrow<br/>------------------------------------------------------------------------------------------<br/>My deal is 50% price upfront 50% stays in escrow until document is received. (50% FE, 50% Escrow)<br/>------------------------------------------------------------------------------------------<br/>Details<br/>------------------------------------------------------------------------------------------<br/>Info we need:<br/><br/>Passport like picture.<br/>scanned signature, or good quality picture of signature.<br/>Name. Last name<br/>Date of birth.<br/>Place of birth.<br/>For Drivers licence additionaly:<br/>blood type<br/>categories (car, truck, motocycle etc.)<br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFIw77EBCADZFfwhtmgvjdF5OVIL4mfe18X+A8QfTp7LhljwNXo4ea3PUx6m<br/>Sa0vOyJu6d2KPEOeagZElM8P6q1ZwF6SlgzETPYdb2/iqbyf84ddeb+U1G+tcZ61<br/>cLy3gycYUttjXO7R2JwSrasZQmvKXUxB9emV2MamhhVtKeRe6ti44GDgzidHQEUI<br/>D5xYctpcEUDLP0h048m47fpV8QsBGpAZd5EJSPLRW2N7I33UeRMny42V0EvxKae4<br/>fhyYAfn3y1jDm32U+JcolgQ8HFKpT1xNcUL0kX9vKzzuLqMPXiz3c8YM50SJOL65<br/>4LUIgeYJxfyn1l57tMtAsBW+/z7Lba9r+zYPABEBAAG0GWdvcmtkb2NzIDxnb3Jr<br/>Ym1AYW9sLmNvbT6JATkEEwECACMFAlIw77ECGwMHCwkIBwMCAQYVCAIJCgsEFgID<br/>AQIeAQIXgAAKCRD/S8tkegUYqiW5B/93st1HF5ZPWDRv2pgfUBCD8vGggwyJOD5t<br/>wiDvFfaM/q6sgre2kjzdtJoYiU1+k+YhDtlrM1ehAT0bU1dCf30bqQFkFDI9U6N1<br/>HTSbeGEgCFpJhBfgpH/4O/XRsFe2LZRQWMgPCQ9BrOZSllzeB/mJ800Oxwkqx2e7<br/>Iv5oCIrEYa/z8rHySRpeUjD2Ne7CN1CYJsrPwVZAi3uEeUmTVFZDcorfRx1FsL5S<br/>9a1VW9Av4IhW124+0sCxbLtTYVmyNQC4CD2K9sAWOGBnS0It3gIQyV3BnF7W+Nhr<br/>4Nk/yWFJAZiBmed05dS/fj9P4zZNCduV6ov/dPuC+RHvbdxdi5qVuQENBFIw77EB<br/>CAC3SjWozUaclxuq9wCFnbc7XalEV/I+sPYxNxACNm5/bkG8YSK2/ZSonj9yhNIR<br/>sOKIgnpF7k42t7VndsqYBpvXzVXi/53/g3PBYucldX8TqZcUWY6k3ShHtCtHbIaW<br/>O900QuTS41Nd73GzGydOENi6zqZqaqLaXxhvrIIjy3YhCjNSjHcTuNA0Gm67z9FZ<br/>R5WjYLNnkgOxTZSZRMEgHPNoW1U2Y4gcaHacHAeYz0TQe90Wrif1ehPeraPk6iwM<br/>rEnqC3RWCB6GGKYDL+RV4svS/H/tWp8Lj46sYm892QQ/hoJcivOYL1MmF4HhArgr<br/>Ldsi5SX3sh/VdHMaGEOuAu6DABEBAAGJAR8EGAECAAkFAlIw77ECGwwACgkQ/0vL<br/>ZHoFGKoNyAgAqKesYG0Q5mgRTiSXrzKC0hBLMtAQCtCVkvWugFjIVrWaAT+adBVP<br/>gBe3XewAWf+FOQsuZNvQ/CfR+m7cXBosxT68lzWoPSRAIHKrN34gaGYM56b4DVp/<br/>XM77ZZZCxSkHMYtpQAwf1o5WbafPIoCOEqZ36ZOT4whwn/Z7M/5cJqo12FPxECrJ<br/>tByB9lqHKu7KjSOd9CLX743MxA4Pu6sxKfoZVK6zgRtVvC6gkM1xYywjK1j/SryX<br/>S72b7k3icQzFx7J4e6BTa+yilkaGAcuKSz2lqaalK2R84eoNGlgtjdpZWDunCp7j<br/>UXPoNLTsPizVmETsyPejZOvxgqx3wEkE7A==<br/>=sXX7<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>finalized for vendor as he does have a track record on other markets.  excited to see the product.</td>
+                    
+                        <td>
+                            <a href="/p/KWs5GJStZE">
+                                Fake Lithuanian Drivers License
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of gork:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TSZaC1WdVb.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TSZaC1WdVb">KAUNAS UNIVERSITY OF TECHNOLOGY DIPLOMA</a><br/>
+                    <span class="description-preview">Full price 1990 $
+Shipping 5 $
+
+Made from original paper with original signatures and watermarks. 7 Pages in English and Lithuanian languages.
+Valid and accepted in EU and most of the other count ...</span>
+                </td>
+                <td>4.39293598 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/DhJStTzEtu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/DhJStTzEtu">Fake Danish Passport</a><br/>
+                    <span class="description-preview">Full price 2400 $
+Shipping 5 $
+
+Fake Danish passport. Made from a real Danish government passport (real passport is taken from another parson, data and picture is changed) so quality is 1:1 to a r ...</span>
+                </td>
+                <td>2.64900662 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lexfNL60wB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lexfNL60wB">Fake Lithuanian Passport (old &#118;ersion)</a><br/>
+                    <span class="description-preview">Full price: 1650$
+Shipping: 5$
+
+Fake Lithuanian passport. Made from a real Lithuanian government passport template, so quality is 1:1 to a real thing, has all the security features and original pa ...</span>
+                </td>
+                <td>1.82119205 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JvMmKkgzbv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JvMmKkgzbv">Fake Lithuanian Passport</a><br/>
+                    <span class="description-preview">Full price 1650 $
+Shipping 5 $
+
+Fake Lithuanian passport. Made from a real Lithuanian government passport template, so quality is 1:1 to a real thing, has all the security features and original pa ...</span>
+                </td>
+                <td>1.82119205 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wqhuvMJqX1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wqhuvMJqX1">Fake UK drivers licence</a><br/>
+                    <span class="description-preview">Full price 410 $
+Shipping 5 $
+High quality Fake UK drivers license 2007 &#118;ersion. Any category. (motorcycles, vehicles, trucks, buses)
+
+We will need.
+Pictures ( passport like face picture + scane ...</span>
+                </td>
+                <td>0.90507726 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PdidU4f1JP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PdidU4f1JP">Fake Lithuanian ID Card</a><br/>
+                    <span class="description-preview">Full price 410 $
+Shipping 5 $
+
+High quality fake Lithuanian ID card.
+
+With your provided data and name, or we make up our own with picture.
+
+We will need.
+
+Pictures ( passport like face pict ...</span>
+                </td>
+                <td>0.45253863 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Do3N0BU84q.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Do3N0BU84q">Custom made stamp</a><br/>
+                    <span class="description-preview">Full price around 160$
+Shipping 5$
+
+Custom made stamp (company, pharmacist, doctor, visa stamp, etc..)
+We can copy a stamp from picture and make it.
+Or make it with provided text.
+Price varies. ...</span>
+                </td>
+                <td>0.17660044 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/KWs5GJStZE.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/KWs5GJStZE">Fake Lithuanian Drivers License</a><br/>
+                    <span class="description-preview">Full price 410$
+Shipping 5$
+High quality Lithuanian Fake Driver&#39;s Licence. Can be used in Europe, Russia. Not sure about other Countries. If stopped, data for validity can only be checked in Lithua ...</span>
+                </td>
+                <td>0.45253863 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SYoLk9vsS4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SYoLk9vsS4">Fake Lithuanian ID 2012 &#86;ersion.</a><br/>
+                    <span class="description-preview">Full price 530 $
+Shipping 5 $
+
+High quality fake Lithuanian ID card. 2012 &#86;ersion.
+
+With your provided data and name, or we make up our own with picture.
+
+Difference between older and newer ca ...</span>
+                </td>
+                <td>1.16997792 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="gork" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to gork</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'gork'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

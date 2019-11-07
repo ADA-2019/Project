@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Premiumgear</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 448.12 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Premiumgear</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 13 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) We provide all things Anabolic and Pharmaceutical APIs.  My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If you have any questions, feel free to email. I&rsquo;m happy to answer any questions you have.  We try to ship all products same or next day we receive them. Average time to your door is about 4-5 days on average.<br/><br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.20 (Darwin)<br/>Comment: GPGTools - http://gpgtools.org<br/><br/>mQENBFFVI+YBCACfFEggzPmIXtoD8Rm0Yf2L/OZScDWZHRlGCafAECpncwB2zxNO<br/>aYQJjrKCXI9DNlKOzqmtJqC7OLw5iDF1mAadtsrUfGcFdz7GsO7fmLi7kCybyWf9<br/>yBaIluMPIVbeDJ0r2K4qD+Jq1tKLQv6GWb6NOVjoiD5uI4UnJOHrFHITBUWJGRVO<br/>MHq7mlsLgSbR+5Mfg01Qsw4b8shaMbe2faJGS/ASSlYzP8N6GiaPaZ3agUbGGHOB<br/>1mzGaOi866aAIQrDW0RjoCcezp2SXssETiWmNIx4xyet2Mn9DigJw0AmMpyP16c0<br/>bUyyJKKszskvHsK2iUn0H0Q+CvY3BgEVmb4FABEBAAG0JXByZW1pdW1nZWFyIDxw<br/>cmVtaXVtZ2VhckB0b3JtYWlsLm9yZz6JAT8EEwECACkFAlFVI+YCGy8FCQeGH4AH<br/>CwkIBwMCAQYVCAIJCgsEFgIDAQIeAQIXgAAKCRBPc8AC4czD3vxeB/9TIzuczkj6<br/>egZEIraQVZSD9AVeJXfIw2Sxj4Smv604aChqWSs6yQDyEakFIf341cQa8Xm0chnc<br/>wD33IpDnFSEJzRiOSYJSkJ6NSQryXfniWROoTcvxaohTSt3oohimouJnmpLOvMyK<br/>BHrHclR52JTwRL0rctngr7BzNXc0xsQyjRmgnZ3u4SQRoGe45t9iDpDxWeH/dpJq<br/>XZc37fG3Qz3tExjjeiHcZmd4euU1yK84hVLj391FFpsuZlHTKJDicEqvmaw1XcgN<br/>5emUauS/bECN1rC4ZpjGpnqcqyTZeKcV6kvPCsV3tloI1j4oWQ1PNJG3EScoDY5a<br/>yhoZB8Sx7bPTuQENBFFVI+YBCADX2yVwz/d4Msmjunca1U4sVycnfpZocI/SEacW<br/>UWmfcuUL7z4HK5rqM0MtFoX812O3I/lAc/4QhS9j2Jm7oRcvV2XObAAEYiluuf2w<br/>s7B2sxPha+Rd0ZlY4gnTxkqCsW8Htzu4RD8ckdqdS2/t88/4zUD7hRAXVqjux43U<br/>3+ZZKiMf/m/+oI4T4e9HToQ71IOB68IU/tjuh8XE8Ubbf8rvzSOpqJfmaur1aGcI<br/>khP5cY0kbLgD/f3Raywpf02qNXd0odBYpfBOtLeVCV2WvVeUHM3rOHwn16U1pOsv<br/>l8S1EtAzSEcn099UhM6drUgB3KO0/id2R6wJ5xgb7oHg/DFnABEBAAGJAkQEGAEC<br/>AA8FAlFVI+YCGy4FCQeGH4ABKQkQT3PAAuHMw97AXSAEGQECAAYFAlFVI+YACgkQ<br/>1EV81oRzcq8SRAf/QYP+JHhS4CeO/Ci6HN7beXw5CAzRha/RevSp9fWFvszkJTQk<br/>VCzySrCw/zqwlpvSb6nGL4lMDcJZv/FFurHH5G6JPwt3iJuTs114X5+9EbmcntOg<br/>iAujtgHvjh21LzioK+LKiXYuUhZqet6WJJffCDQURwveYvwN8rRblmujY1AXYXkz<br/>E1EXg82wgKPvss4lsVrRfEXHMZbvFYOI7isBQG6/ncWHdmeLdWSyP4e2txBUnS2z<br/>kFgdoB3lWwyqAbTei7riDxU5hquBFLbvBjlB4Zs8Hzn+GWU/OSPQZOvg57/hpkIr<br/>a8gDwYjerehP9xtM/pUGkL7Px7ufPefuAheqh1raB/45n2/yyB28ldCZnBheoNtt<br/>yK7QQwUeax5gwUSJlyhyGXJKNGA9GJ5MeW1UAjm+R1cYXafa6Fx9g7IR3lrLJvV2<br/>P4iuTK4UUEtQupGTR0BreCnE5QfwEC/z6kTZ+z5gs06JM/mz+EAGFf/aaudIFx9m<br/>4rDaA49pqmsRXj6jSjbuvXXOPtlcQFuXIjleO7cMNLspm0VpCKoDR5U9LfnB6Pum<br/>dES0qmlUWX5wJzWbqxLIbEB27wYtYVUPv/7WB7vjJRRoUC3Mfdue29gWOZEQS9zD<br/>HOmnwlbWOt18CIRXIMitE17v3I2XT/SdMvPbIgoKN92KEFbjCVazPL6yIkFvLgFy<br/>=vXZK<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I&#39;m a return customer from pandora and PG Is the best Roid Vendor hands down, Legit product, Fast shipping, cant ask for more</td>
+                    
+                        <td>
+                            <a href="/p/VqyL9krCq3">
+                                RA Testosterone Propionate 100mg/ml 10ml
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Premiumgear:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Labe4k3aDJ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Labe4k3aDJ">1 Gram Pure Pharmaceutical Diazepam Raw Powder Valium</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.17851962 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qADfKF9KsK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qADfKF9KsK">Sarcoplex Masteron (Drostanolone Enanthate) 200mg/ml 10ml/vial</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.24546448 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xTA4tcNeRc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xTA4tcNeRc">10 Gram Pure Pharmaceutical Diazepam Raw Powder Valium</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>1.33889719 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/z3bx7Gqor0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/z3bx7Gqor0">Sarcoplex Testosterone Propionate 100mg/ml 10ml</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.15174168 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ueS8a9g65Z.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ueS8a9g65Z">Sarcoplex Anastrozole 1mg/tab 25tabs/pck</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.07810233 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AKYhLayEij.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AKYhLayEij">RA Clomid (Clomiphene Citrate) 50mg/tab 25tabs/pack</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.07140785 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XgvzAvichz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XgvzAvichz">Etilaam MD (Etizolam) Mouth Disolving 1mg/10tabs</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.03124093 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aSxznACzeC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aSxznACzeC">Promo Item, 1 Per Customer 10/10mg tabs Diazepam</a><br/>
+                    <span class="description-preview">This is promotional new item.  While supplies last only.  One per customer. 
+You&#39;ll receive 10 tabs of Diazepam (Valium) dosed at 10mg/tab.
+
+Same Premiumgear from Sheep and The Original SR (Check  ...</span>
+                </td>
+                <td>0.00892598 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/T0FGtmKq5p.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/T0FGtmKq5p">Sarcoplex Letroplex (Letrozole) 2.5mg/tab 25tabs/pack</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.08479682 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tA530v1lbU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tA530v1lbU">Promo Item, 1 Per Customer 10/2mg tabs Clonazepam</a><br/>
+                    <span class="description-preview">This is promotional new item.  While supplies last only.  One per customer. 
+You&#39;ll receive 10 tabs of Clonazepam (Valium) dosed at 2mg/tab.
+
+Same Premiumgear from Sheep and The Original SR (Check ...</span>
+                </td>
+                <td>0.00892598 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jboEWAMniY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jboEWAMniY">Sarcoplex Boldenone (Equipoise) 250mg/ml 10ml/vial</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.19190859 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RLNNXxZsWx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RLNNXxZsWx">Cipla Nolvadex 20mg Tamoxifen 10 tabs</a><br/>
+                    <span class="description-preview">Evolution
+Agora
+
+Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly wh ...</span>
+                </td>
+                <td>0.03570392 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GYlFPBN2pR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GYlFPBN2pR">Sarcoplex Testosterone Enanthate 250mg/ml 10ml</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.18967710 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FXhXUlZJDa.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FXhXUlZJDa">Sarcoplex Turanabol (Tbol) 10mg/tab 100tabs/pack</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.16513065 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fxkCz6wClE.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fxkCz6wClE">Sarcoplex Tenbolone Blend 150mg/ml 10ml/vial</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.26777943 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qkhkdU2PSk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qkhkdU2PSk">Sarcoplex Methanoplex (Dbol, Dianbol) 10mg/tab 100tabs/pack</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.15620467 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wTu109mYK5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wTu109mYK5">Sarcoplex Nandrolone Phenylpropionate (NPP) 100mg/ml 10ml/vial</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.16066766 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VqyL9krCq3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VqyL9krCq3">RA Testosterone Propionate 100mg/ml 10ml</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.13388971 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZEaCt4GMwF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZEaCt4GMwF">1000mg Pure Pharmaceutical Alprazolam Raw Xanax Powder</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.89259813 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/A9uJJZZvjC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/A9uJJZZvjC">100mg Pure Pharmaceutical Alprazolam Raw Xanax Powder</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.10041728 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/phm59yhEjY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/phm59yhEjY">100mg Pure Pharmaceutical Clonazepam Raw Powder Rivotril</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.14504719 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Xk2puiErtR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Xk2puiErtR">Sarcoplex Anavar (Oxandrolone) 10mg/tab 100tabs</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.24546448 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pFZdVxfeVE.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pFZdVxfeVE">Endurexx Anadrol (Oxymetholone) 50mg/tab 20tabs/pack</a><br/>
+                    <span class="description-preview">Same Premiumgear from Pandora and many other marketplaces (Check my Public Key) My Feedback has always been 100%, there&rsquo;s never a question that Premiumgear will deliver exactly what you paid for. If  ...</span>
+                </td>
+                <td>0.05578738 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Premiumgear" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Premiumgear</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Premiumgear'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

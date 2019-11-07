@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>PrimeDeals!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 456.72 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>PrimeDeals!</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.97/5, 25~40 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 0 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Prime Deal incoming.<br/><br/>We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of stealth to ensure guaranteed customer satisfaction and most of all, we only have QUALITY products at GREAT PRICES.<br/><br/>########################<br/>######  UPDATES  #######<br/>########################<br/><br/>DOMESTIC PACKAGE DELAY is occurring recently due to dispatch problems. No packages have been intercepted, or lost.<br/><br/>Pleased to announce an promotional offer, in order to put our name out in the open!<br/><br/>PROMOTIONAL SALE AVAILABLE AS OF 26TH MARCH 2014:<br/><br/>EXTENDED TO THE 7TH APRIL 2014!<br/><br/><br/>     ********************************************<br/><br/>     4 FOR 3 ON ALL LISTINGS FOR 5 CUSTOMERS ONLY<br/><br/>     ONLY 2 LUCKY CUSTOMERS LEFT<br/><br/>     ********************************************<br/><br/><br/>#############################<br/>######  SPECIALIZING  #######<br/>#############################<br/> - potent cannabis weed<br/> - uncut columbian cocaine<br/> - crystal meth<br/><br/>Looking forward to making long lasting business relationships around the world.<br/><br/>WE&#39;VE BEEN SCREWED ON OTHER MARKETS, NOW WE ARE HERE TO MAKE AN IMAGE.<br/>Unfortunatly this means we will require all orders to be finalized early for obvious reasons.<br/><br/>/****************  CONTENT  *****************/<br/><br/>LOCATION: CENTRAL USA<br/><br/>SHIPPING TO: WORLDWIDE EXCEPT AUSTRALIA<br/><br/>STEALTH: MYLAR MOISTURE BARRIER, PADDING<br/><br/>/********************************************/<br/><br/>Refund policy:<br/>Incase of non-arrival, we are willing to settle on a default of 50% refund as we share equal risk. PLEASE LEAVE 20 DAYS BEFORE REQUESTING RESHIPMENT.<br/><br/>Prime Deal, out.<br/><br/>########################<br/>########  PGP  #########<br/>########################<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.22 (Darwin)<br/>Comment: GPGTools - http://gpgtools.org<br/><br/>mQENBFMwxhEBCADDdZKnA+d5uTb/OIJQADbKDE0ZRqrDbbkex0jTGROumXTn/aRD<br/>EeW8y8bXR5kUBqfNwHUJ9EKdwjzsHQBF/QI+BX8oc4dpMGkQxkZuqsJ5GhK/2obI<br/>hDw4E7zOgp4cArQyz1Lbljb1LZYDAvfzTful3WXcfDjNtNKjkvwIvHt4g86PKvUd<br/>AfFP1ihd2l4gRhinxq702kacJoL2jfaEjM+AfRnyiwDguZIpmneAExubCVP5wJjI<br/>C09ipazstXYjF64BpCWnnvZ7k2OGB3kV0eTn58XqVmKd64XvDckFH0IpI9kev9MP<br/>Ihe8QrFI3m7RCYo+3kqKS3rLmU+4WBkoWBoRABEBAAG0PnByaW1lZGVhbHMgPDI5<br/>MWhiZjMydEc1NHEzdTVqNHdIejVRRkVxdHFRUWZxZXJxQGJpdG1lc3NhZ2UuY2g+<br/>iQE3BBMBCgAhBQJTMMYRAhsDBQsJCAcDBRUKCQgLBRYCAwEAAh4BAheAAAoJEM8x<br/>KYvSSKX11hYH/jkvyPePGDo0ULcTLVi95iwWmw047O1u5WmWMh3QMXJnpUDuo105<br/>VcUy0lP6eare0GvVOw1WmCVcHB3woceS+l8Djkpt/hvvCNrVfbHNdk9iSylzTDJU<br/>Skx8OL8r/f3MGWyg9Y/hY3TXjQNGHB6bRtGs9bYXRj6tpDghc+j27HMf/mUhooRn<br/>11aCc88jQtkeAugK6gzwRD49YSBRDducZewb36WQ/R6dN0vbOzYrty08VYwMkYMS<br/>2QwgAsZPPFqAZTMhl5G+7ub55431VpVEQ9KRfXtagLVFjgUEfwwPjc+Rl/H9OUo3<br/>5k3pIgoH8+OZWCdpjLJOUMWfkjrVPYoyW8a5AQ0EUzDGEQEIALbQFx3ITl8p+D0r<br/>vKy5uklSBFQpS33Jkq8thMQG+Lh85ApeL0OPiHfkKrIA2ilAGV2/RdVU0Dh7z7Mc<br/>otjxU0RIbXsoBoknJmnkSIgNyBeJmJROdjFhryD9E2FrHPXPgYAvvqyt3mKjVVkr<br/>iCo1TkB1zkpomHgBKJenc49CjCE9qDeY/Jb76Br4As4dn23lpIbaVjvVFf87+KYd<br/>kgiHOHzyZzVV/3Lv+8BgVtnxNvJmKdXJFlLTDQU8w2rToTeMqSGrSku0uSVcem79<br/>C4Ez77fW7Log0txL2zSi1+TT8OAtS+C29AGNTrjYzOwkre8e4dbuW2mUT/QvYH5C<br/>QYSxZaUAEQEAAYkBHwQYAQoACQUCUzDGEQIbDAAKCRDPMSmL0kil9SFaB/sGSmjY<br/>9Qlhe6+bVj4k4Z95R6eODT5PgZn9dZYXTgSWSYQXpLGqQeIZAaDoQwEtoP4eV4PO<br/>HeLfZ8BFGRVqBflSUTHLRTkjqvL1lBvlSdSD8vTyUoGpJr22KCw7YP5zrna1Mvop<br/>3+Z2UATSTNHedLC5sJnzMJ/FJm0BH3tMOXpRIhFh/+ASwaKfzWJTR4+uLNUr7wcD<br/>cSmqqtpnRRpeOuMQtaAgffJ0wWPpfF3N/TqzQZYB1hist15f3zH7gHgs+G1w+bGm<br/>cCGM8gxDSY2SMrVmGq6LESvwx9mqh2wGq6Rnc7hno2efjFGIiOZNC4fuxfr1j3ZZ<br/>M3PJvpv8nbKneU7v<br/>=lOKl<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>My man PrimeDeals always delivers, arrived this morning. Never disappointed.</td>
+                    
+                        <td>
+                            <a href="/p/skSK9kgg6S">
+                                5G | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Nice Amnesia, you can tell this is well looked after. 3g overweight also!</td>
+                    
+                        <td>
+                            <a href="/p/NSRt03JYuw">
+                                QP | Highgrade Cannabis | Amnesia Haze
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5. The coke came in great stealthy packaging. With a little bit extra too. On there with all the other good vendors.</td>
+                    
+                        <td>
+                            <a href="/p/eSSyVlbNAm">
+                                1g | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top rated vendor. Domestic in 4 days. High quality coke. Will be back.</td>
+                    
+                        <td>
+                            <a href="/p/eSSyVlbNAm">
+                                1g | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived yesterday, took a bit of time domestic but worth the wait!</td>
+                    
+                        <td>
+                            <a href="/p/eSSyVlbNAm">
+                                1g | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>only the best</td>
+                    
+                        <td>
+                            <a href="/p/hBwqcNaSYx">
+                                1g | HQ Crystal Meth
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor- fingers crossed these guys are the real deal as i will be back everytime if successful :)</td>
+                    
+                        <td>
+                            <a href="/p/mtrqBYgJWG">
+                                1 Ounce | High Grade Cannabis | Amnesia Haze
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came in mylar in 5 days to UK. Buds are tight with lots of nice orange hairs :).</td>
+                    
+                        <td>
+                            <a href="/p/NSRt03JYuw">
+                                QP | Highgrade Cannabis | Amnesia Haze
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Best coke on Agora. Hands down. Amazing stealth too.</td>
+                    
+                        <td>
+                            <a href="/p/FKi8sF00ij">
+                                10G | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>2nd order, great comms as expected with this vendor.</td>
+                    
+                        <td>
+                            <a href="/p/skSK9kgg6S">
+                                5G | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for Awesome customer service! will update on arrival</td>
+                    
+                        <td>
+                            <a href="/p/NSRt03JYuw">
+                                QP | Highgrade Cannabis | Amnesia Haze
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d will update</td>
+                    
+                        <td>
+                            <a href="/p/NSRt03JYuw">
+                                QP | Highgrade Cannabis | Amnesia Haze
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Actually look like the picture, 5 days to europe.</td>
+                    
+                        <td>
+                            <a href="/p/eSSyVlbNAm">
+                                1g | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>this is really good coke. very fast delivery too thanks.</td>
+                    
+                        <td>
+                            <a href="/p/eSSyVlbNAm">
+                                1g | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>thought the letter was spam and nearly through it out. Turns out the stealth is brilliant.</td>
+                    
+                        <td>
+                            <a href="/p/eSSyVlbNAm">
+                                1g | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good coke, shame I finished it this weekend. I&#39;ll be back.</td>
+                    
+                        <td>
+                            <a href="/p/eSSyVlbNAm">
+                                1g | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE will update when object of my desire arrives</td>
+                    
+                        <td>
+                            <a href="/p/hBwqcNaSYx">
+                                1g | HQ Crystal Meth
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very good stealth, the kind you&#39;d expect for a package like this. Top stuff too. Cheers</td>
+                    
+                        <td>
+                            <a href="/p/FKi8sF00ij">
+                                10G | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>5 days to reach UK. Speedy.</td>
+                    
+                        <td>
+                            <a href="/p/FKi8sF00ij">
+                                10G | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>2nd order I made. Always comes in a nice rock from this guy.</td>
+                    
+                        <td>
+                            <a href="/p/skSK9kgg6S">
+                                5G | Pure Columbian Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of PrimeDeals!:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/skSK9kgg6S.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/skSK9kgg6S">5G | Pure Columbian Cocaine</a><br/>
+                    <span class="description-preview">Prime Deal incoming.
+
+We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of  ...</span>
+                </td>
+                <td>0.98528638 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mtrqBYgJWG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mtrqBYgJWG">1 Ounce | High Grade Cannabis | Amnesia Haze</a><br/>
+                    <span class="description-preview">Prime Deal incoming.
+
+We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of  ...</span>
+                </td>
+                <td>0.44885268 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mk7X5Y2lsC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mk7X5Y2lsC">5g | HQ Crystal Meth</a><br/>
+                    <span class="description-preview">Prime Deal incoming.
+
+We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of  ...</span>
+                </td>
+                <td>0.87581012 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FKi8sF00ij.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FKi8sF00ij">10G | Pure Columbian Cocaine</a><br/>
+                    <span class="description-preview">Prime Deal incoming.
+
+We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of  ...</span>
+                </td>
+                <td>1.53266771 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NSRt03JYuw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NSRt03JYuw">QP | Highgrade Cannabis | Amnesia Haze</a><br/>
+                    <span class="description-preview">Prime Deal incoming.
+
+We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of  ...</span>
+                </td>
+                <td>1.09476265 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hBwqcNaSYx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hBwqcNaSYx">1g | HQ Crystal Meth</a><br/>
+                    <span class="description-preview">Prime Deal incoming.
+
+We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of  ...</span>
+                </td>
+                <td>0.19705727 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eSSyVlbNAm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eSSyVlbNAm">1g | Pure Columbian Cocaine</a><br/>
+                    <span class="description-preview">Prime Deal incoming.
+
+We are a professional team of skilled suppliers now selling a variety of drugs over the darknet. We have experience shipping overseas with great success, we employ methods of  ...</span>
+                </td>
+                <td>0.21895253 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="PrimeDeals!" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to PrimeDeals!</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'PrimeDeals!'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>soni_mathers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 459.91 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>soni_mathers</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 18 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQENBFMgY3MBCAC1UUI3wMrqs847/idF+nwiK90FXeePVyQnEOnRjhhGLwtifPxt<br/>yboMxuEYHZdrgvago4ipFF3P4Hoe74oHh5lepRMqG1WB0kC1rHbaB1Uj8uKCa9TH<br/>zgHu7DizXbl5/8c90LDNZqY+hYD1174oNQF5NlqpdQ2Vio4yV/B4/4vC5W4BB8AE<br/>OjLcpOkRcD2FAZVRyRtQh6gEiz2Mss4798IP4JqgzQQF4kWyMoAk5DWaKoPmTc5k<br/>zTbChpfBiJJuXVVPKMa5pnhik2eYph/Fmw0Fd2u4wovL0s2Hu7CD5nobfykOiLiN<br/>TZRADLx6GUGR23iE9oQqvdaETAluiJaIDTDhABEBAAG0H3NvbmkgPHNvbmltYXRo<br/>ZXJzQGZ1Y2ttYWlsLm9yZz6JATgEEwECACIFAlMgY3MCGwMGCwkIBwMCBhUIAgkK<br/>CwQWAgMBAh4BAheAAAoJECF6qEBMfck89xQH/3/BUtOH43VYcMc+2fxdQ4x9T0Q0<br/>hFUsDmVwEQgubvbY17w85K1J6yq5WKhaqaKdSr47weIqcXlCHLlK9tvG8RjSJvOW<br/>JiLcSzOTujlMx3bh2t8Egx3Tj8nKl7xI/ysp9g4uwqnp2HCeQ+Mml+g0J3A00SG+<br/>PsYSTCC7vh0i4Rkr7GF/NLA2tbe/iPa5ilV7BHnGkrSddvbxfmXZYahajI+ncYbf<br/>t66wyvFHGfWET/WswZs+YVf1uqED7VrHGQtKl94hSrF753qwIPs6+9F2r5C7gPvc<br/>d0KOuV7gcYxjt5AvWOfQzY7USFDBl9deEpTNTwk4Ky3HzgBDnKZHhtWIWHS5AQ0E<br/>UyBjcwEIANWfAugevBZN+oLPvDHwh9kB1OBLldXlkHVbs/M7LDgBMiWfDl2tejxy<br/>uwfdvTHDH+uI1dxkKL4fkvBsStGqOdyGHOZeZFIFrqKmydoCKFp/zX6siMuUhK6W<br/>dEv6fDyTLY08usuUnUvxi+eV+4C7+x4wmL1qURgC+kiGVDrkGb88q8TkqAdqDvxx<br/>xAvRIHb7wc6USfvvI8BZgemv/BdDqS10NvcLMbqghIl7QZtqzKl3jh+zDqlhRQni<br/>XxNPIhfqO2MnhpN3BY5dOLIYd2ILoWwZzHlpk1WwyZBGIvtXO+8haFn2GROuMIXT<br/>h2mpt/9ImVAEdsIjw6fpaW4wPLDHNu8AEQEAAYkBHwQYAQIACQUCUyBjcwIbDAAK<br/>CRAheqhATH3JPNqjB/9YeugxO1vQpiK6fvK8Z4m732hCn06wuCBvG2jW9a1XUNOr<br/>y2LycssoZN+CFOCVzOMA54VJUJV8Ze6WYhdpJiS67rffp0Vu6BCLXnVhQet4WQ9f<br/>wFR/P4La3kFa9Sr7b59OZmO8YfUecRvaAXx2sryaAt7Kbxi/qn0AalsIAaHS3aEf<br/>jzCMYn8Vi0/vEtTCX26DGOFYvSB4kUu38gNNt6xjY885QeLkCxZI+gqYxd7A+acg<br/>PBKhR2PnPzVe2skTudW/bepiAHQHcbgHCnzp+hdGZc1XGhrW08199TuTvn8aR1T5<br/>Unr/g5rq4lvqEUgoc/gvlpVhEBLdlUl85jQFM8rt<br/>=6ShJ<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>didnt get my five back but the shit was Bomb!</td>
+                    
+                        <td>
+                            <a href="/p/qJtNptTGPo">
+                                Copy of 200 ug pure lsd free sample new vendor
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived VERY fast :) Awesome vendor thanks :)</td>
+                    
+                        <td>
+                            <a href="/p/qJtNptTGPo">
+                                Copy of 200 ug pure lsd free sample new vendor
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>1/5</strong></td>
+                    <td>took half a tab, felt funny for a but, didn&#39;t trip, tab was tasteless. need to improve packaging!</td>
+                    
+                        <td>
+                            <a href="/p/qJtNptTGPo">
+                                Copy of 200 ug pure lsd free sample new vendor
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Haven&#39;t tried yet. Shipped very quickly. Looking forward to it and I&#39;ll post my experience.</td>
+                    
+                        <td>
+                            <a href="/p/qJtNptTGPo">
+                                Copy of 200 ug pure lsd free sample new vendor
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of soni_mathers:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Fk3T3hpWKs.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Fk3T3hpWKs">10x 200ug lsd blotters</a><br/>
+                    <span class="description-preview">listing is for 10x 200 ug lsd blotters very flame , usa only fe only</span>
+                </td>
+                <td>0.17394707 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/i3nqq0z2J9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/i3nqq0z2J9">0.1g of pure MDA</a><br/>
+                    <span class="description-preview">100 mg of pure MDA very strong and clean FE only</span>
+                </td>
+                <td>0.02609206 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sG5GZi98AK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sG5GZi98AK">200 ug lsd 1 blotter (:</a><br/>
+                    <span class="description-preview">all free samples are out so im putting up a real listing i dont expect anyone to buy untill the new feedback is in and im perfectly fine with that.
+
+
+update 3/29- new and improved packaging</span>
+                </td>
+                <td>0.02826639 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/qJtNptTGPo">Copy of 200 ug pure lsd free sample new vendor</a><br/>
+                    <span class="description-preview">no more free samples left</span>
+                </td>
+                <td>0.04348676 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="soni_mathers" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to soni_mathers</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'soni_mathers'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

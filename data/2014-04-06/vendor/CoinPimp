@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CoinPimp</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.68 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>CoinPimp</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 9 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            CoinPimp<br/><br/>***********************************************************************<br/>We have some coins now, but can only accept REloadit pins<br/> at the moment.  <br/><br/>We should be able to accept Vanilla pins next week.  <br/>***********************************************************************<br/><br/>We are usually around from 2pm to 2am Eastern time.<br/><br/>CoinPimp sells Bitcoins for reload pins.  We charge a flat 5% fee.  We have a $300 minimum purchase and currently only accept Vanilla Reload and REloadit pins.  We also only accept reload pins that you have purchased yourself.  Please don&#39;t send us a pin that has been sent to anyone else...ever.  If you do, we will blacklist you and spread the word.<br/><br/>You are buying coins directly from us...they are in our wallet.  We&#39;re not a broker matching you up with someone trying to sell coins.  Once we verify your pin is valid, we will send your coins immediately.  We have a stated time period of 24 hours for you to get your coins, but you will likely get them within 60-90 minutes.<br/><br/>Should Agora be down, you can reach us at coinpimp@Safe-mail.net.<br/>Please always encrypt email and messages.<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.11 (GNU/&#76;inux)<br/><br/>mQINBFMxIkkBEAC8ZPMZ4yiXSaJE0u12Yvz6qHkzBgUIcxTwBgO8gETBNqAsSa6y<br/>mRE5V5MVh4jkm5sINV4f68p+RQcv7HWJ+n7bY+Rukrlq1LpSUm8lH4nlzL4CvzRV<br/>rZ794hQJRqIo8mPthMEqcTSrLkggF28nhFOnLXz/ELaeJ0qVrkRLjJkecaoWy3Xk<br/>IWxqdPH/giesSTcXYHCDP9LLr2iaR/85zNXDalf2/BWY0iOdzRRHGvALfZkly08i<br/>NIvQL1TaDR1RheQsob3XGUw2P2WElx/TJS9jPe0bYm2U7uK4pUKKakN+aNcv2COm<br/>ouFs79PFnzjbsNu8xO4b+k2ewaUPrp6jupISOjsjT+s3ShFLa6NG/HU6Ye8YzsNF<br/>MDIwd1p/y3e5PzZTAQQ/ZGt/caNnQ5yo/0NyA/GCWl2Z39PNeKUZPXNBrAhUpkds<br/>5NTchIuQrEGwLSPnvswJ3l2AjZBPDLIaPNfkTL2LI1pVnvBtrDdE+CvBxzznrt/J<br/>ZEawHrmg76wYc/wHOa6h/EWEO1+dM04EQNhqH9gnUsz3lwRrOhBPXbCUwXXu3T1Q<br/>6wGGqkYZA0w0HRC8WLKv9WUPXUQMIvtz9vzz9ixj687VmYlauAOjn9vfAcHpOaW/<br/>U322T1lZ0UPWXr23jy627EetbU4SmGPsOnNy6l1m3NgK2Up/JsZUK61KIwARAQAB<br/>tC5Db2luIFBpbXAgKENvaW4gUGltcCkgPGNvaW5waW1wQFNhZmUtbWFpbC5uZXQ+<br/>iQI4BBMBAgAiBQJTMSJJAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRD/<br/>M/xdoV8kRjZVD/oDjbJAnjU9M7LbccrYn9a+gSjNaz99UE2jtEFkKnN98ZYEMkfL<br/>AHlgwDsfeUz8LFpUtiipiCq7b3NIqBuK6U8z7cgy5JdihfVguiJXHkP6Ue2lWTDp<br/>67ZM6oJtI5D5ANKjPZvyeaJZLTQxks0KUm1OnPNgRbi8mO4oVt7+cM9c3gttKizb<br/>03KTQEcSGuWeakyAqGcE34j3w28Cz8iJcA5TeLT3F5eSZzYpfapIFUn0R227P9EN<br/>nF3YjW8XGc1Yu/AzisSlQ+gKl+FB3UMEeBXJZ/JZ3/U1xsoMVXbQCx5PvEVDhQqh<br/>fl5QBxsRzGFWZZx31xA1Jn+wQbJpbV/ptM+hWEgpMiIdkfyElMBhLi+jiaSTETSp<br/>tKFe8SE6sO9GrTi7ReSiRdIp//H71qp1qGExiTRk7mXvRpAiDtBv7wdXGSPigGK2<br/>+UceN2wo+CI3CW4QfMiutqCVLZWI1iLqJEqovOtXzYV9p5paE0rtk1vpNFhjv34T<br/>ps7mirsiTVcZLCKfBLZ1rGjk0xI1ePhfY67fICtQOVVoNwHCfXENlNkLDR+rqPLy<br/>MLZMiJjH3cFvyhsM7OqWLDwb+xo1WWTbLhMqqNi/KpXdfK1KXQ1OiFgO9mCiNakU<br/>fRnH9pOmh7Ui4187/8j+1mkUVxshKrtrEkAXm3ZRxwsttby0LM7SGZO+67kCDQRT<br/>MSJJARAAq4JuhxmKdX53KQ+jdJbrhAAN7kdyxFV4V9YFwFovEZavVFgaDhhaiZVA<br/>VUeEKaPFoNrWBqbr27qJvHwXTXAFC0mWEQrWipDX/EqA0a5Bldn4P6uXfYMET/is<br/>XBS0IuphH6S0MdLyqXHlZh2vc8zSBRZTGv3XWwHe9NNRF2aAPNTzaNxvdPh4fz6Z<br/>7nN3DYrwlKdS7MRby7iro2OKRDY5tYeb2wU4grH2NUnQ6o/zrdKx/5URSEO/54RB<br/>joqNfmyepa4B7WvxPXuCHgpCwpm0kH/AM5St94K2CUmgvWRzNgVBjaFlk8aV0lKl<br/>0SMzPJ2R0ysSRUodJl400i3ZKzKF/TGaC+thmPALTKRNaBWnoXAS4Y8Vc3xXrkhK<br/>dssymqudEQKsXJ62G84MwzZGYlnIgmr/G+Mx4bh/YioVSs00XNIqIOzhIINVR6zj<br/>L6VFOUKX4N5IA3r6CuqiF+pFM6ffM8th3QtEqjV1RZcI2dTNLEvsiNXhxEpYrDTW<br/>DMUDenLVS68PbJpO/Rs8+6uq4qp8+p+uqau3rUIhyWwqbzi8mj05u8elgRyBvcqI<br/>GPWNtxc9xgPb3Jg6uwtOKwk7K6svRb0X/msQmGdAnPNxclavdmVHpvMa23cmhAzc<br/>bR+wytuKYTlXFnHntxwFwKpylDBbpeXi3//TeUV2uxLDz+lu8PkAEQEAAYkCHwQY<br/>AQIACQUCUzEiSQIbDAAKCRD/M/xdoV8kRjnKD/9x3QFVH1ovryf7pwp7Gt/lpqvW<br/>Dt1BPHYEzoXr542y8AlIb90xfxVqVGZQzP3PPV9abP1Zz4ETlwe8vJbp1gqe56Zw<br/>D6FFoYbwnkjeZgmrt8+NRHYjdozbR74+TthClFXhkanqS8QbmAgp1oqa9lV5lYdn<br/>EbSJrvY7xqkq7a+3JbejTbr8nwxc41CuIFomlex5r0mbKNC4OTqZe70F3KzW+B/y<br/>5Mqvsqf72HfzhZsQzfXqG1/JqE2H+5XoVkQZ6B2/hmN8sqhyfRi2xykDOubtjgXP<br/>7xd74IGqcWoPkmQ87hGJBOuOusueWFugwLHvQ89MfAm+w7QykjJ/Pn6Nib48nEdx<br/>av+fsyhBhk5dof+CIiQd17aSdt+yVQXfhetVNbZqak1qfFMlq1aT3QY8yHoOnEXz<br/>+/LShHZeVEk47xutYezv94RDBswyYJ3/2vBKT2XnpvQVD9HphERa+2p5ToiFqW8f<br/>WMa+Du6NWDUOwTDiQ9aSFI1ei8WnYmEcTurdcUebT0j6lXPOKWKqSqRoKLoQmjYV<br/>cVyX0h07EfSORuOvwUtSnEXnKXbw+Dfu+IcRGG9zLMdzdhVczaj1VMshFrtlZPbB<br/>LYDIgtqjf4UUeEzo+AHdVCb+C5Yd9fm13uDwwUWhRplcIa0h1/ffFQs46JRI5bFS<br/>xvhr8YU2TFG+vssO+g==<br/>=7p91<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast service, amazing vendor. Really all you could ask for in &#116;ransactions like this, thanks again for everything! Highly </td>
+                    
+                        <td>
+                            <a href="/p/jukrlARgBq">
+                                Buy Bitcoins with Vanilla Reload - No Fee - $200 Minimum
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>CoinPimp is a Pimp no doubt. Amazing! Much respect bro. I&#39;ll be back for sure. Thank&#39;s for doing that for me</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I love this guy! A++</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A++</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>SECOND PERFECT ORDER FOR THE NITE AND I KIDD YOU NOT, I GOT BOTH COINS IN MY WALLET UNDER 15MIN! IM HUMBLED!</td>
+                    
+                        <td>
+                            <a href="/p/jukrlARgBq">
+                                Buy Bitcoins with Vanilla Reload - No Fee - $200 Minimum
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>absolutely AMAZING this vendor is fast honest great comm.  THANK YOU WILL SEE YOU AGAIN SOON!</td>
+                    
+                        <td>
+                            <a href="/p/jukrlARgBq">
+                                Buy Bitcoins with Vanilla Reload - No Fee - $200 Minimum
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>35min from start to finish. This has to be a record time for me. I found my new usd-btc crew.
+
+
+A+</td>
+                    
+                        <td>
+                            <a href="/p/jukrlARgBq">
+                                Buy Bitcoins with Vanilla Reload - No Fee - $200 Minimum
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great service, extremely fast. 5/5-- Satisfied in every aspect.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Amazing deal, fast service. 5/5 everything!!!</td>
+                    
+                        <td>
+                            <a href="/p/jukrlARgBq">
+                                Buy Bitcoins with Vanilla Reload - No Fee - $200 Minimum
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Nobody fucks on Mr Chow! Brilliant. Perfect. Amazing. Class. This is just perfect.</td>
+                    
+                        <td>
+                            <a href="/p/jukrlARgBq">
+                                Buy Bitcoins with Vanilla Reload - No Fee - $200 Minimum
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Absolutely unreal. Too good to be true? Messaged the guy... REAL F&#39;N DEAL! Coins in minutes. Order with confidence cause this i</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>AWESOME. Placed my order, took a shower and BAM, coins were in my wallet A fucking ++++++ man!!!</td>
+                    
+                        <td>
+                            <a href="/p/jukrlARgBq">
+                                Buy Bitcoins with Vanilla Reload - No Fee - $200 Minimum
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of CoinPimp:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/whb8kFFagX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/whb8kFFagX">Buy Bitcoins with REloadit - No Fee - $300 Minimum</a><br/>
+                    <span class="description-preview">Buy Bitcoins using a REloadit card!  ** Flat 5% Fee **
+https://www.reloadit.com/
+
+*** There are newer cards besides the one shown in this ad.  You can see the new logo at the reloadit.com website. ...</span>
+                </td>
+                <td>0.00022090 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="CoinPimp" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to CoinPimp</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'CoinPimp'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

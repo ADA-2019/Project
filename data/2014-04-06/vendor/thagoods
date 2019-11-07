@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>thagoods</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 448.64 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>thagoods</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 10 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG C# v1.6.1.0<br/><br/>mQENBFH8p5QBCACotPfMnQoyCiShiz9tmoMrswJ1Lc0lmbbqHiw1WuKnqHaU/ypI<br/>5kKz+wj5Zs5mQSONEXQaeoVUijkiqzmwyU4z15FNkHjWIsPyeRxblGYVFgpMnbGg<br/>uXFzWdTZHRdtDe3j/hXc&#112;eRlXYJQZdhXj7XmaHjEdUnsmgK4RJPWDJxc0UrZwA6V<br/>utQImGMTAAU58eXbZLfgu7BMGUdHJo8zlMjPXIq04toA2BBIh4KLyOPJbb6ghQmd<br/>x2HtEvizm27k8uwgYV2ceGjSk2cwpyyiqSkSoXXoQvBY0bXU3zFmk2HyGEehvF3v<br/>tpggD257D0OTKpThQcbSxxDrMxnUU8FflEpNABEBAAG0EXRoYWdvb2RzMkBsaXZl<br/>LmNhiQEcBBABAgAGBQJR/KeUAAoJEC0GqxO5tPbm0QgH/2kBTyC/V6hB0AnVYmwU<br/>GprCdJj0QsGjY1i9XB5yYy8cccvaaH18d80X4BZ2eBCHHUiP9YR2rslYntw4n5LJ<br/>tqHUK+wuj4VUhJual7v7zVHbPJzZ0zDjJzAcy/uQzBiRYyJxSdZCA4g1B1w0wTde<br/>3rT8udfW/iuef8biw4jfaNbR+dB1eJ5keBph7qPYRhghALKvJc4iGxS4rk0fvr0Y<br/>q+yEcguJuiWstbBIH0YGn93vgekrT/lEJBNtuLAlFotEAFfnHc0uE1jn6lEkKB0h<br/>f/YuXE3CRuI/32BYozV4ICm3ML2wEq04UKZsplKO/GzUutdwuy3yGICD+HXlRKAz<br/>huw=<br/>=QeY/<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>UNBELIEVABLE!! Great vendor, great products!!!</td>
+                    
+                        <td>
+                            <a href="/p/v55lsMi6F3">
+                                ** 8mg Hydromorphone **
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great product, quick shipping</td>
+                    
+                        <td>
+                            <a href="/p/eNxPiGs2oz">
+                                ** DMT (500mg) very good quality made from MHRB **
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Received it in blazing fast time! Mdma looks nice, on point. Smell a bit. Will weight it, and hopefully test it if i receive my</td>
+                    
+                        <td>
+                            <a href="/p/eucbtKBkh2">
+                                ** 1g Tan MDMA **
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Professional service. Quick shipping. A++</td>
+                    
+                        <td>
+                            <a href="/p/eucbtKBkh2">
+                                ** 1g Tan MDMA **
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very quick shipping.</td>
+                    
+                        <td>
+                            <a href="/p/eNxPiGs2oz">
+                                ** DMT (500mg) very good quality made from MHRB **
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great stealth, fast delivery,all around perfect &#116;ransaction 5+/5</td>
+                    
+                        <td>
+                            <a href="/p/rCZ8LFx9eu">
+                                ** 100 mcg fentanyl matrix patch (sandoz) **
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of thagoods:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bjB3c5nrya.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bjB3c5nrya">** DMT (500mg) very good quality made from MHRB **</a><br/>
+                    <span class="description-preview">Im sure if you landed here on SR and found this ad you have already completed one of the steps toward the journey to find this AMAZING substance and im sure you googled till you were blue in the face ...</span>
+                </td>
+                <td>0.11144544 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eNxPiGs2oz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eNxPiGs2oz">** DMT (500mg) very good quality made from MHRB **</a><br/>
+                    <span class="description-preview">Im sure if you landed here on SR and found this ad you have already completed one of the steps toward the journey to find this AMAZING substance and im sure you googled till you were blue in the face ...</span>
+                </td>
+                <td>0.11144544 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xB3dpcyUvD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xB3dpcyUvD">** OXY ** Oxycodone 20mg CRUSHABLE</a><br/>
+                    <span class="description-preview">These are Canadian made pharmacy generics, so always the best quality. Crush-able footballs.
+
+ABOUT ME:
+
+I was a trusted member of SR 1.0 with a 5.0 rating, 98 vendor score on Sheep Market under  ...</span>
+                </td>
+                <td>0.04903599 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mZ1myeU4sX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mZ1myeU4sX">** DMT (200mg) very good quality made from MHRB **</a><br/>
+                    <span class="description-preview">Im sure if you landed here on SR and found this ad you have already completed one of the steps toward the journey to find this AMAZING substance and im sure you googled till you were blue in the face ...</span>
+                </td>
+                <td>0.06686726 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eucbtKBkh2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eucbtKBkh2">** 1g Tan MDMA **</a><br/>
+                    <span class="description-preview">ABOUT ME:
+
+NEW VENDOR TO AGORA
+
+I was a trusted member of Silk Road 1.0 with a 5.0 rating, 98 vendor score on Sheep Market under the same name THAGOODS and still have the same PGP. After a few mo ...</span>
+                </td>
+                <td>0.07801181 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rCZ8LFx9eu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rCZ8LFx9eu">** 100 mcg fentanyl matrix patch (sandoz) **</a><br/>
+                    <span class="description-preview">These can be cut in strips. BE CAREFUL WITH THESE!
+
+SANDOZ BRAND
+
+ABOUT ME:
+
+I was a trusted member of SR 1.0 with a 5.0 rating, 98 vendor score on Sheep Market under the same name THAGOODS and ...</span>
+                </td>
+                <td>0.16716817 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: USA &amp; Canada
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/v55lsMi6F3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/v55lsMi6F3">** 8mg Hydromorphone **</a><br/>
+                    <span class="description-preview">ABOUT ME:
+
+I was a trusted member of SR 1.0 with a 5.0 rating, 98 vendor score on Sheep Market under the same name THAGOODS and still have the same PGP. After a few months of recoup from the huge l ...</span>
+                </td>
+                <td>0.04123481 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Canada &amp; USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="thagoods" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to thagoods</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'thagoods'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

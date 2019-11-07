@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>stojkovic</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 448.11 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>stojkovic</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            We are a small group of people dedicated to bring you highest quality EU-made medicine for an affordable price. Customer-satisfaction is the highest priority for us, so you can expect fast shipping, lowest prices and superb quality. We only ship from EU countries to minimize troubles with customs, the country the medicine ships from may vary though from (mainly) Germany, Belgium, Austria, seldom Czech Republic. We ship priority to all countries in EU. <br/><br/>Meds are shipped out on a daily basis, for a premium price of 2 EUR. We send our medicines unblistered for security reasons, unless mentioned otherwise.<br/><br/>You do not have to FE with us, but please release escrow as soon as it&#39;s possible to you. Please always use PGP when communicating sensitive information. <br/><br/>Feel free to PM us if you have any questions or need a custom listing!<br/><br/>Best Regards,<br/>stojkovic<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.20<br/><br/>mQENBFM1ltwBCACiOInGvPaPywd8WX+k4eIdW/2vgxpRwSRyzFeeNmXBXja+JJNr<br/>DIQEyWhb5Fw3vCG9LTKTEvnWqPaOUXyJ6DRLC6jsnHb+NJ9lQOpcz9C3jEqJXICo<br/>qJuB3Jk1qF0Gce/NaQMFoXaUgoPlIWrJq8vJAKQDVANBMMWBCn4/ZZ0BO79hDnIZ<br/>i4SiUY1qB5e519usDyBBI/wb+L9hJOnEKVaMG8RTMzGXKRkbsl+UxBMKfqNxuQhg<br/>0kL0Do8EP/YY/jxLMb8FaD/B2vwMNuubpd3t8gwLwt0chS9W5C4/LSkmpUF4+knY<br/>DS0nNvVgpqQEeBdtv8/PD6O1fJonr35YwwXDABEBAAG0CXN0b2prb3ZpY4kBHAQT<br/>AQIABgUCUzWW7QAKCRClxUmdL1+kejxEB/wLlg0pIyDClNHzP/4ZpfayehDrpNqM<br/>uIPJEsdzM5Rbtfbhn2L8sZgIh/cUL+sK+e2lCUQSiwegHH5npSfn0IQ0DmB9OlgO<br/>rqmbdvu/yglVmaR9K6LpYbcrH7tV7ZAGC/Bx4VwE/LqDn/R4YSa/3E+1YDuR1TeO<br/>4mLQDpD1dVQOby/Gl2Z0khKsuFHZmqU80RIknABRz1NuY4DshvikEWm2jXdn627y<br/>VjlFIrKxgH5uORvS99DJ95RP0RFAtVjx3Resyr5nLS0O8noEbWgYF7ONo0wstMhs<br/>NOaWp5MMRh5YDkGke16Wu8S0fQ5HSfnMgiU3sSlciEMnOPRDNDOhpit8iQE2BBMB<br/>AgAgBQJTNZbtApsPBosJCAcDAgSVAggDBJYCAwEFCQAAAAAACgkQpcVJnS9fpHqw<br/>uwf+PFxMgngQdWjEnMZRgOQWmtj3DfohSiAPLPKrDgooDZQd7fgCROEfrjytNVFg<br/>/8GlQrasMel3M57+dlSX+9otZtIiEm9eSeEsTmX/XopLjmRtiPjbPVk3SR1RWmPI<br/>sEM9clgxHQ/GIvBdfMYmKOSXR+v9bflL2ZUIUpZQeKPJILDIG33rx7HXlc//xh0Q<br/>etm1exvxbIMs+F5ozv8JLoH2nEn6PAn03XRTsGQqrO+tuRXu7ElsX2c+j82M2s8G<br/>5Xa4g7T80JRsL6nSjHlR1Y+kF/hUh4IYsKVZDCH0X4H8zhxPLgrHu+mKeouhhBqa<br/>SHsoro7/Xk6q9/ZtPvTECR9uVA==<br/>=Kji6<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of stojkovic:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JmRYxxTCXl.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JmRYxxTCXl">25 tabs Rivotril by Roche / Clonazepam 2mg</a><br/>
+                    <span class="description-preview">This listing is for tabs of 2.0mg Rivotril (Clonazepam) manufactured by Roche in Serbia. They are of excellent quality and come without bottle in a standard zip-lock bag for safety/security reasons.</span>
+                </td>
+                <td>0.06694784 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Europe
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/wPDuW07V0J">Benzo Sample Pack / 10 tabs Alprazolam / 10 tabs Clonazepam / 10 tabs Lorazepam</a><br/>
+                    <span class="description-preview">If you have doubts regarding the quality of our products, we suggest you order this sample pack first to convince yourself. It contains:
+10 tabs Ksalol Alprazolam 1mg by Galenika (aka Xanax, Xanor.. ...</span>
+                </td>
+                <td>0.06694784 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pxgh1rZtkZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pxgh1rZtkZ">Ksalol by Galenika 80 tabs/ Alprazolam 1mg</a><br/>
+                    <span class="description-preview">One of the best known European brands for Alprazolam (aka Xanax, Xanor): Ksalol 1mg manufactured by Galenika, Serbia. Excellent quality tabs that are said to be better than the Pfizer Footballs.</span>
+                </td>
+                <td>0.17852759 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Europe
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GEzczXVXJP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GEzczXVXJP">50 tabs Rivotril by Roche / Clonazepam 2mg</a><br/>
+                    <span class="description-preview">This listing is for tabs of 2.0mg Rivotril (Clonazepam) manufactured by Roche in Serbia. They are of excellent quality and come without bottle in a standard zip-lock bag for safety/security reasons.</span>
+                </td>
+                <td>0.13389569 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/a8WJgKsJ8i.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/a8WJgKsJ8i">50 tabs Lorazepam by Hemofarm / Lorazepam 2.5mg</a><br/>
+                    <span class="description-preview">Very good quality tabs of 2.5mg Lorazepam (aka Ativan) made by Hemofarm Serbia.</span>
+                </td>
+                <td>0.13389569 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/emEGLgBF19.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/emEGLgBF19">Jubilee Hofmanns 5strip / REAL 200ug / opening offer</a><br/>
+                    <span class="description-preview">Those tabs originate from Germany and have real 200ug of the finest LSD-25 crystal on them. They have been lab tested several times and the average dosage turned out at 200ug. These blotters are pure ...</span>
+                </td>
+                <td>0.11157974 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lJGozP2UVh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lJGozP2UVh">30 tabs Modalert, Modvigil by Hab or Sun Pharmaceuticals / Modafinil 200mg</a><br/>
+                    <span class="description-preview">This listing is for 200mg Modafinil tabs by Hab/Signature or Sun Pharmaceuticals.
+If you prefer either Hab or Sun please let us know in the address field, we will try our best to fulfill your wishes ...</span>
+                </td>
+                <td>0.10042177 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Europe
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MkLet85V1P.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MkLet85V1P">Ksalol by Galenika 40 tabs / Alprazolam 1mg</a><br/>
+                    <span class="description-preview">One of the best known European brands for Alprazolam (aka Xanax, Xanor): Ksalol 1mg manufactured by Galenika, Serbia. Excellent quality tabs that are said to be better than the Pfizer Footballs.</span>
+                </td>
+                <td>0.11157974 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nU0wyzhRCd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nU0wyzhRCd">25 tabs Lorazepam by Hemofarm / Lorazepam 2.5mg</a><br/>
+                    <span class="description-preview">Very good quality tabs of 2.5mg Lorazepam (aka Ativan) made by Hemofarm Serbia.</span>
+                </td>
+                <td>0.07810582 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Europe
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UrCwbEh8KR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UrCwbEh8KR">Jubilee Hofmanns 10strip / REAL 200ug / opening offer</a><br/>
+                    <span class="description-preview">Those tabs originate from Germany and have real 200ug of the finest LSD-25 crystal on them. They have been lab tested several times and the average dosage turned out at 200ug. These blotters are pure ...</span>
+                </td>
+                <td>0.22315949 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="stojkovic" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to stojkovic</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'stojkovic'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

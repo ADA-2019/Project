@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>moominman</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 464.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>moominman</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 16 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQENBFKDc/gBCADKudfRG/btkdbiPWFF9L7wNJpF+Bo9oZ4fMfUxwJ/KmSBJmVJA<br/>vLbRsXuTJp8OnB8LP3FLvJUdlfIbld3VDgW5Q1UqX/1NNSvha9Qb23nUrFHLlDem<br/>NN8FoxuylHhMZarZ8xo0Wszth5SmMuDAUwbp5G3xdT8/+4Lk7fTyGfCn7JxyE00L<br/>UGVFqf+t3/dZKva6l6i8ubJQoojS52CeBP8JmvUhu7sPwyDiWt7wbLjNQ/kqswuG<br/>Dv+QZ+HT9CR6yM8S4QzgyuLafpTrNg452E8DOiDWZx4Ph9geHTln7NMkc/V3xL5Y<br/>J0xp78nPI+3Q4MJsZN9iENImwZy/UOImcd4VABEBAAG0IU1vb21pbk1hbiA8bW9v<br/>bWlubWFuQHRvcm1haWwub3JnPokBOAQTAQIAIgUCUoNz+AIbAwYLCQgHAwIGFQgC<br/>CQoLBBYCAwECHgECF4AACgkQbdvTVb7Bxpc8IQf+IBWt3odXY3vncyFAp2u1cK2F<br/>z+XleVgH62xYy/B5uzpR9vD/ocMn3sLIHzIK7XsDWYt6a5t/Qjj43RW8&#83;qlthmVL<br/>HzpoA7nSHpbEPvT/SMLGj3Pz89ePvsThHpuOBXGsgsYS2GtjX0CqAx4l2HiXkxmD<br/>Iru70ZWs5VmdtrqtJZmMsKwzNIJ5GehhGGXZq6Om1DuPiThDb+JNXKjpCkYuPRiY<br/>l+2CsCl+yLWWrg/KLu2nQS3svp3QjjXUxAK3+9An35b+2WX9bvjEGcr8zpkamuUK<br/>XlpVIMwYGpHttDW3syfvfn/ZctezRpzMwUc3D7HNXo0tQJq34kf+XXVeIR464LkB<br/>DQRSg3P4AQgA7LW0OaSqzPtAFQg+lsVqvJVz7v6md5CEihh05hFrNnt3F0Jb55pz<br/>cJLcjiBFiCNyeFsqr+4lu/y4gz7djvr4emH8BS0/KaG7VhpKIgv17QFpM+tEiV2n<br/>nlt5cLv6uZh1BvPwo6gM2N91fBAUxr8nysI57RiCS8zuleCAKVEkTDs4i3AOzKoA<br/>6tP0ihD33TFtgxmO5/q3p0CtOHuKVbQH8/JreYGBsUrLwJenNuGXsTm0m1BlaoIW<br/>OwM6peNeThcnIzu/3ufYz8EHkFX6Kbb13YVQfJYRPiR5nmam3hJPvlZRbqA98TxX<br/>vY+eR2Pn4qf8qVnUtxbQTvoGNudrGazx4QARAQABiQEfBBgBAgAJBQJSg3P4AhsM<br/>AAoJEG3b01W+wcaXDlwH/Rns0F2pHv3kcB0rP8kCcu0rbA4qML0WRiY8Mj88w9s2<br/>Ilb9t6FvXjyp79+uRlAYpgcxyr1yYF/u0ujcQuSllGyQHSfDjr5DBzD6rHGglwXu<br/>S6ozm+3OG0JfnK0lqI5ljPKnx9++wrcTJJaMpOgg65/Mh/8ZGCl7IuJDCSAqoolI<br/>r7yTZ2ijJRm9t2j8bYe3U555uTUqPCH7cgUkXeOBwlnIz85nYvgJ8U5puXqzfIQK<br/>Td+z0pKuHc3CuOxqT8F4J+WM4ENnv6S9QaRh9cHoH4qlaN3sN2+HbFFa3XsYJMd2<br/>rPTLw+MYS+VGAT2MsGcZnyWMBdbpNhpPTg5YjCuSgfE=<br/>=0mxY<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of moominman:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rV2JAtetqN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rV2JAtetqN">250mg - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.10775629 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FjVcfFM10B.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FjVcfFM10B">4g for price of 3g - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.93101441 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tAls6G5zS7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tAls6G5zS7">0.5g - 100% Authentic Changa - 50% Ultra Clean DMT</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+Changa is a combination of traditional herbs, including a MAOI (Mono-amine oxidase inhibitor) covered in DMT, at a ratio of 1:1  ...</span>
+                </td>
+                <td>0.11637680 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JthG5k3CtD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JthG5k3CtD">500mg - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.19396133 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Njl8apXFG6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Njl8apXFG6">100mg - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.05042994 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZvunAkCls3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZvunAkCls3">1g - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.31033813 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LjCJ1W7PKD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LjCJ1W7PKD">1g - 100% Authentic Changa - 50% Ultra Clean DMT</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+Changa is a combination of traditional herbs, including a MAOI (Mono-amine oxidase inhibitor) covered in DMT, at a ratio of 1:1  ...</span>
+                </td>
+                <td>0.19396133 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/c7izTqgT4i.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/c7izTqgT4i">4g for price of 3g - 100% Authentic Changa - 50% Ultra Clean DMT</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+Changa is a combination of traditional herbs, including a MAOI (Mono-amine oxidase inhibitor) covered in DMT, at a ratio of 1:1  ...</span>
+                </td>
+                <td>0.58188401 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="moominman" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to moominman</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'moominman'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>TheWhiteShadow</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 463.99 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>TheWhiteShadow</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 22 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQINBFLFeY8BEADOAXFWL2BPe/05LTVmoLaNxgihkq8ttOHpVrFspbjj7SDO1euY<br/>rSwyE/lO+bAjBbXk6bF/W92vHRHAI5cPWCKoBmVvQ9I6jOtXJNOOGdyznK0SaYXy<br/>PILNPdiFh1jK4peA2x2QoBl8tpelxOluzGkLRHBymcVS5KReol0BnxcI1ZP2zdhd<br/>ig1zfpZ3jWNhxWO4XaM+i13HtNogfck1+qpW4IjLhztrF8l5q9PvExJIgUEdhHQC<br/>+huRTSMXnB/0Dygz+591crldVAKZw1eeRxvkfvjD9sdEO2Qv9APOLVPxTRYANuCt<br/>JbvUivJujud31gA0YtXZjb1p3U8FvWWE1rfATz5sARBpspgft4HopJ132OWloatG<br/>NxELmJ76Faviacs7MNa76lJOb1uny5rcZ2X7GXeftK8EY+5GEEgaOeC2ezsevUHm<br/>Fo0x+JTfR4celOnhyJubLK+XypLdV5NgwGARsHQkceWkMtUr3UEeE5WPErwcSbtO<br/>YZweGqMvBstf617g+j9R1UppKVkQL/3EmnkUVJkM5rvd+GC+OV6hVq25KiMqliaW<br/>3nFMiLGGkHAEiNAetVIuTo3In0R0HtmpcKVz3fuGpYjbmlCYO0ty94WPMhaZQAe8<br/>oXDncUsFB6RRSOyND0utRZyQo6n0lhDZLszUQyRx28JqKZZLUyxffTmNsQARAQAB<br/>tC5UaGVXaGl0ZVNoYWRvdyA8VGhlV2hpdGVTaGFkb3dAZmFrZWFkcmVzcy5jb20+<br/>iQI4BBMBAgAiBQJSxXmPAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRD+<br/>ovX8lYvQjgPvD/93rHFO8HPu3jncvfaV+XRjOboXuN2B+O4dfYse/CMA/sxfp6dA<br/>tCGgfrWLguamhyjHPRu9sLMgY0clnXAHAnp4hekX1cc+QM7zv3QRlzuBKvBejPPN<br/>22Gh0gSZbolnav3be8S5i4VAvlRNats9hpWFBbe0uKiDGWC/L+TJbFBbMN9/bsVi<br/>lQt2M2724zBwWbRhYwTLteM1hvqQtfz6XsBzrtKsoM/4t8Yh+RL1qPAtfAN4BA+h<br/>ibUIRLT3JUw3/ExwXojhwIb1YjPee904zeZ63vSz4ni/zZwz8V/e5JWEkJIQVvAq<br/>OxvdMLPtOGTFdu+Ow6NGlKmt0VGVDDaE1WvXyXX61OZ5m3JMC81/5MYU6vsNm7rq<br/>bguqimHLPWOUq17kMD3tnGaiuhasyn2n5gBEp+QMmWOO73xBsMkk1CtvdpBaCJoo<br/>ZO0AiUZZYD0w1LKmxry+3C8YWcjGH0Nr8em2RZ8+Ovi/lekkUg1Pm0S7bhKhvB4r<br/>pKq5VupjfcztvwhtZvv6bhjKXolc9+4DCPIVWbDTT4X6aPPLxk9g8sd8Z/3vrpNE<br/>Kh3KAOwuq4CJMWtY5BLEEMnDbXFKCn3dpKr51PTB3IvCBcVVR/r1kc7mQChsh7Zb<br/>B47St/KF4tbhxd2mY80ETmvTG06H2s7LeLs1+bsRjBXLkLCwliGZFMNHkLkCDQRS<br/>xXmPARAAn+XbJmDIPRSGTIcVi+nqgY7z9OEJoQFy6q1hlqbXAHDhw/OqjAb3IsXS<br/>vdmkm3LAYVmKvTQqRdaKLB/l8EwdjFWgycgAodEt/8rJZ3x9KbhZw1FKzA52Lu8q<br/>T/jRAoxjMOX/u4/JDnHT6SpFAv0bOdA1p6qSLq7BeUXrBInSb2Vx7n2vBdUEGRY2<br/>dzpfDaosO1TV6v4gBIgFA+/wWpXPVbcBYJ6kOyEhUSRN8a54lq4+6R/F0p60NT6k<br/>+ScR0pebu6CFGIvrL8y82z4H0VbZA6wrQrVD+OWsJLGBiKqTNToAqvw14g6xlwLl<br/>bXEzcHJr7hwrn5+G1YIGU/rta+vNmf/zDec/UotQdDqk5d7Qz8QX2CLnawrFdvdE<br/>WuJykFZIoVN1B6MjbbsGdaV3pdvHQibTq2+3ZQv8wiLP2vNfG4Ksjkdn9WbkNNyA<br/>PFowuVlYaQ/3zjU7uwQnPQizYenc4EFluND5gOuQ7d23rVgFSXZf3Vufvw/ELk5z<br/>KjvONIVGBBf2CriXe8p+yAJ1+nEYPrf+o6bJLceNu5hrgY2cW5aIhMgqeqVaYqy6<br/>13RPUzDbu9hdEve+PobDKMbnzwF4QC0C+mylEIquE7DfJQsKe0uyl5GCdJH676qU<br/>d6rb2NObPH14aCMlYqkrOD6ohm3ZNreZQ/CZd9sTRdXn+YnaY7cAEQEAAYkCHwQY<br/>AQIACQUCUsV5jwIbDAAKCRD+ovX8lYvQjhWoEAC/9OBcz3GCK06jPB08cKKQ3sQ4<br/>Vq1izMg/0Lby8PvYjb+ns8m//BB3PaBn/n03sDBrBjYic34GBZZ83iDmDtZyOLFW<br/>vfOTPpDVh1u6JbQJw+dLbZ/VlEQa4L/Dz/ehajMR2vEN0DamFH/933inh4U4LBX0<br/>nvE4mZVc2tALe0duEly+o0k8PVcSe6hIRjnPOYaDCy1bAeUmzkhmKr9A4ITjON7y<br/>NQqcdvP7vX/mCy8BegBZmim9cR514UXTz+2tFeQXv96PTUr7J9ypgebOURYFhM6x<br/>7PFQemZPL+Xnd+f2px1MDKG2FXxkTD3K1T+xhS91Dmp13hzSLHOts9HTTJrj1kaq<br/>9ESJdfH6EQIyD/7IHXd7pdfl64csOigSD4S1YxA4B9petVajpQCkZfBMynFEUP9q<br/>YPz5sg5o5h2pUkuaxu0M9mj0vGWG4w3ngvQqethH/24+OgOLia0MSIiupfohoS0q<br/>V9AqPbuoo4p90AvVTynA0GNoiXq5lA/D9gMz6wwOzRGdTiwtAD/u8c7mMcsXiJG8<br/>lEnzRsbAVkD7OHKpzQYVlgAJzvct2KI0WklWw4HNNH/rSNHDMSI+eLqJnxAa2j87<br/>LxUnvP/hXNLu1WTmb+TikzWCEdGKkpcuYXKELXScrzhnciaGAvJMe6kv76MfiXwv<br/>xNfy9owj/daA3Dc8sw==<br/>=rElx<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5</td>
+                    
+                        <td>
+                            <a href="/p/JaKThNv1W1">
+                                2 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great packaging, will test and update soon.</td>
+                    
+                        <td>
+                            <a href="/p/ZvJZFZJYTV">
+                                20 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>top vendor, highly recommended!!</td>
+                    
+                        <td>
+                            <a href="/p/JaKThNv1W1">
+                                2 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Cheers for the cherry on top! A+ Vendor</td>
+                    
+                        <td>
+                            <a href="/p/JaKThNv1W1">
+                                2 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5</td>
+                    
+                        <td>
+                            <a href="/p/JaKThNv1W1">
+                                2 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived expected time for standard postage. Stealth was really creative and made me smile. &#84;ransaction was extremely smooth. No</td>
+                    
+                        <td>
+                            <a href="/p/JaKThNv1W1">
+                                2 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast service, good packaging</td>
+                    
+                        <td>
+                            <a href="/p/ZvJZFZJYTV">
+                                20 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Tabs arrived nice and quickly, great stealth good looking product, Can&#39;t wait to try!</td>
+                    
+                        <td>
+                            <a href="/p/JaKThNv1W1">
+                                2 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent service.
+Received in 3 business days.
+Very happy.</td>
+                    
+                        <td>
+                            <a href="/p/jWUB6Acats">
+                                10 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~2/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, excellent packaging. Will try tabs soon and update.</td>
+                    
+                        <td>
+                            <a href="/p/ZvJZFZJYTV">
+                                20 x 25i-NBOME 1200ug Blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of TheWhiteShadow:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Bk0p5ya1BW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Bk0p5ya1BW">50 x 25i-NBOME 1200ug Blotters</a><br/>
+                    <span class="description-preview">************************************************************************************** DO YOU LIKE ACID? WE DELIVER STRAIGHT TO YOUR DOOR :) ********************************************************** ...</span>
+                </td>
+                <td>0.48492424 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZvJZFZJYTV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZvJZFZJYTV">20 x 25i-NBOME 1200ug Blotters</a><br/>
+                    <span class="description-preview">************************************************************************************** DO YOU LIKE ACID? WE DELIVER STRAIGHT TO YOUR DOOR :) ********************************************************** ...</span>
+                </td>
+                <td>0.25862626 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jWUB6Acats.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jWUB6Acats">10 x 25i-NBOME 1200ug Blotters</a><br/>
+                    <span class="description-preview">************************************************************************************** DO YOU LIKE ACID? WE DELIVER STRAIGHT TO YOUR DOOR :) ********************************************************** ...</span>
+                </td>
+                <td>0.15086532 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JaKThNv1W1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JaKThNv1W1">2 x 25i-NBOME 1200ug Blotters</a><br/>
+                    <span class="description-preview">************************************************************************************** DO YOU LIKE ACID? WE DELIVER STRAIGHT TO YOUR DOOR :) ********************************************************** ...</span>
+                </td>
+                <td>0.03448350 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="TheWhiteShadow" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to TheWhiteShadow</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'TheWhiteShadow'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

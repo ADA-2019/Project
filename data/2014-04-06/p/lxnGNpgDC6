@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>GET Bitcoins Today: Vanilla Reload to BTC</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.88 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/sYqAB5BE46">Services</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/b7lj6Lvla2">Money</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/GmzjCvb8sp">Hacking<span class="extra-caption"> (40+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/b7lj6Lvla2">Money<span class="extra-caption"> (200+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/K68V21fmvZ">Other<span class="extra-caption"> (60+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (200+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (200+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+<div id="single-product" class="nofirstmargin">
+
+
+    
+
+    
+
+
+    <h1>GET Bitcoins Today: Vanilla Reload to BTC</h1>
+    <div style="text-align: left;">0.01104020 BTC</div>
+    <div style="clear: both;"></div>
+    
+        <img style="display: block; float: right; padding: 0 0 20px 20px; max-width: 400px;" src="/liabilities/p/lxnGNpgDC6.jpg" alt=""/>
+    
+    Thanks to a neg feedback giving shill. Product listing prices have been raised. If you can&#39;t afford it feel free to order by PM. <br/><br/><br/>Minimum $300.<br/><br/>Rates(Bitstamp):<br/><br/>$301-$499: 25% <br/>$500+: 18%<br/><br/>Instructions:<br/><br/>1. Purchase 1 listing per Reload.<br/>2. Put wallet address in address field.<br/>3. Place Reload Pin and Value in address field.<br/>4. Upload Receipt if you want a discount.<br/><br/>Failure to follow instructions will result in a latency fee.<br/><br/><br/>______<br/>FAQ:<br/>______<br/><br/><br/>1. Why buy from you over other vendors?<br/>    ********************************<br/>I have the best rates, and times guaranteed. The bitcoins I sell are my own, and are always in stock. You aren&#39;t paying me to peddle your funds off to a third party like you would be most other vendors.<br/><br/><br/>2. Why shouldn&#39;t I just buy from the clear net?<br/>    ***********************************<br/>For the extra layer of security of keeping all your dark net &#116;ransactions on the dark net. Additionally, most clear net vendors charge a ridiculous fee and are strongly opposed to dark net &#116;ransactions. They offer no promise of confidentiality and if something goes wrong, they&#39;ll have 0 issues throwing you under the bus.<br/> <br/><br/>3. So, what security can you provide?<br/>    ****************************<br/>Before you send your payment I&#39;ll mark your order as shipped (10+ deal users only). That way if anything goes wrong you have the ability to have your opinion reflected in my feedback. Abuse of this ability i.e (any attempts to blackmail/extort) will result in you being blacklisted from my services for life and added to my public list of customer scammers (coming soon to a SR forum near you).<br/>      This also means that it is your responsibility to complete and forward the payment information once I&#39;ve mark your order &quot;shipped&quot; within 6 hours or I will charge an additional fee of  5%. So be sure to check back frequently after placing an order. &#69;xceptions will be made in the case of site downtime.<br/><br/>4. I sent another vendor my Moneypak/Vanilla Reload code and they haven&#39;t gotten back to me, can I send it to you?<br/>****************************************<br/><br/><br/><br/>NO. If a third party has had access to your code do not send it to me. I&#39;m sorry but this rule has no &#102;lex. If you send me a code that has been &quot;redeemed&quot; or &quot;refunded&quot;, I will blacklist you for life. Check the balances and confirm everything BEFORE sending.<br/><br/>5. How long until I receive my bitcoins after I send payment?<br/>  ***********************************************<br/>I&#39;ll only mark your order shipped once I am ready to carry out your &#116;ransaction. So as soon as you send payment the only waiting left to do is for me to see it, and for the bitcoins nodes to confirm my &#116;ransaction into your wallet. Overall, if you follow all instructions there is no reason you should not have your bitcoins that same day if not within a few hours max.<br/><br/>6.  I&#39;m too lazy to read through these FAQs and will instead PM you a question that you&#39;ve already<br/>    ****************************************************************************<br/>covered here is that okay?<br/>*********************<br/>Sure, but I&#39;m charging you an extra 2%.<br/><br/>7. What payment methods do you accept?<br/>     *******************************<br/>        <br/>         - Vanilla Reload<br/>        <br/><br/>Each comes with their own limits and restrictions, check the listings for more details.<br/><br/>8. I don&#39;t have a receipt for my Moneypak/Vanilla Reload!<br/>    ********************************************<br/>That&#39;s okay, place an order as you usually would. You will be charged a slightly inflated fee of 3-10% dependent on the value of the card.<br/><br/><br/>9. What are your Minimums/Maximums?<br/>    *******************************<br/>Currently the lowest minimums are for Moneypak (no longer accept) and Vanilla Reload. <br/><br/><br/>10. Do you also buy bitcoins?<br/>     ********************<br/>Yes, contact me.
+    <br/>
+    Brought to you by:<br/><a class="gen-user-link" href="/vendor/Milk#"/>Milk</a><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+    <div class="product-page-ships">
+    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+    
+    </div>
+    <div class="product-page-price">0.01104020 BTC</div>
+    <div style="clear: both;"></div>
+    <div style="text-align: right;">
+        
+            <div class="button-red"><a href="/p/lxnGNpgDC6/buy">
+                <i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Buy (7 left)...</a></div>
+        
+
+    </div>
+
+    
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great &#116;ransaction. Much appreciated.</td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Out of all the marketplaces, this is the ONLY guy I trust with Vanilla, Reloadit to BTC transfers. Almost instant transfer! Tha</td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Milk is the man. Communication is commendable, completely trustworthy, great rates and did I mention the BTC were in my account</td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Second order done. My new go to for BTC.</td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent service, fast turnaround. Will deal again.</td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+</div>
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

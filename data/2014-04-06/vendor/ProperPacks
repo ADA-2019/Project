@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ProperPacks</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 456.66 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>ProperPacks</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.97/5, 25~40 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 0 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Welcome to ProperPacks!<br/>Rest assured, you&#39;re gonna get your pack and it&#39;s gonna be proper!<br/><br/>________________SERVICE &amp; QUALITY________________<br/><br/>We make every effort to keep your &#116;ransactions safe and anonymous, providing you fast reliable service as well as top quality products.<br/><br/>-Accurate picture of the product &quot;What you see is what you get&quot;<br/><br/>-Thoroughly prepared in a clean environment<br/><br/>-Professionally sealed and packed in Moisture Barrier Bags<br/><br/>-Disguised to blend in with legitimate mail<br/><br/>-Your information will be handled confidentially and discreetly<br/><br/>NEVER reveal any details of the packaging you receive, nor matters discussed in private !<br/><br/><br/>____________________ORDERING_____________________<br/><br/>Use a correct name and address format:<br/><br/>Name<br/>Street Number<br/>City, State Zip Code +4<br/><br/>Currently all orders larger than 1 gram are required to FE!<br/><br/>For your own safety it is mandatory to encrypt your address details using PGP.<br/>NO Privenote or similar services accepted.<br/><br/>MAKE SURE YOUR PGP KEY HAS THE SAME NAME AS YOUR USER NAME!<br/>DO NOT USE YOUR REAL EMAIL ADDRESS!<br/><br/>We are not accountable for incorrectly provided names/addresses and reserve the right to cancel your order if not pro&#112;erly submitted.<br/><br/><br/>____________________SHIPPING_____________________<br/><br/>We ship from the USA, to USA addresses only. <br/><br/>Signature is NOT required upon delivery.<br/><br/>Your order will be &#112;rocessed on the very same day.<br/>Shipments are made Monday to Saturday, excluding holidays.<br/><br/>All packs are sent via USPS Priority and will usually take 2-3 business days to arrive however sometimes the postal service does go outside this timeframe. Please allow 1 week from being marked as shipped before contacting us about a missing package.<br/><br/><br/>____________________REFUNDS______________________<br/><br/>All orders come with tracking in order to verify delivery.<br/><br/>Due to safety concerns, tracking numbers will only be given to Agora admins in case of an issue.<br/><br/>At our discretion, we will offer you a RESHIP or REFUND up to 50%, depending on the tracking information.<br/><br/><br/>_______________TERMS &amp; CONDITIONS________________<br/><br/>We only accepts Bitcoin within the Agora system.<br/>There is no other currency or method of &#116;ransaction to do business with us.<br/><br/>The prices of the products are clearly listed and are not negotiable.<br/><br/>NEVER reveal any details of the packaging you receive, nor matters discussed in private.<br/><br/>If you are NOT satisfied with us, NO matter what the reason is:<br/><br/>NEVER give negative feedback right away!<br/><br/>Always contact us first so we can work to resolve any issue you may have.<br/><br/>By ordering, you agree to all Terms &amp; Conditions listed above.<br/><br/>We will no longer conduct business with you if you violate the conditions in any way.<br/><br/><br/>____________________CONTACT______________________<br/><br/>Write all messages in English.<br/><br/>Clearly state the subject.<br/><br/>Use PGP for sensitive information.<br/><br/>Read this page before asking a question.<br/><br/>Sorry we do NOT offer any samples outside the listings, nor can we help with your BTC shortage.<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQINBFMfBVABEADS21d++yMJnHUGQO0Y2zT86Ah8UwRjl+KVOEvp3H2o9VyTLVFR<br/>6h5TEDZgm2NMtCCbUB89vWrMPt4Z5vR00zZwagSXQoHS9sXSDf+I875MHG/shoTN<br/>Ztk+coL/qg7E1aQ31Ad+BfwrQMCtqqPRDRf2Z5AV5aM3g+ukClGBD097JBAohb7O<br/>CyChkENbcEI8TVTMD+Cj1lKWNtQp7XSnqJl0XYJqt9nGEL7gKuiSSnvpNAIMnm2G<br/>7F5s1u6peKjBKoFgbIcSZc6a8F0CduuRPcqSb3zrn32b+T3fD1yqsRhyfuWsVxAT<br/>c9no+d2u38gq9efP+WJgZLUqWuzgMxNh4MGrCK7TJme/jqPV2eJm8IY8wwOZbKBq<br/>9PG4AG9r5pIDIZPYENy13RgHEeyI213J1uAmT8CSRIacuZNuiOJPA04BlNbdj2I1<br/>UpjUQI39o2CwdHyXG0m0PraPYKiP7NUnnIJwjv6fS1GQkXb1pzxkd1pwvvrTQPtV<br/>lSIfVFT/uYm35ezjb1ph3wNSgjSZ7lmrpTYs7W0IF4ejfi9c8M3l51xdhkJulxT5<br/>rOeCCGGBZeXbVZZzc5YpHoajQzr6i3d8TXobFgALf8X2EaDbA7vyAwigLqp08ORm<br/>NSQp58c08QXFauBzF60nafIKSPB5y9SZMNoFJDB5KDQvLj6e004x3+zoCQARAQAB<br/>tCZQcm9wZXJQYWNrcyA8cHJvcGVycGFja3NAaHVzaG1haWwuY29tPokCOAQTAQIA<br/>IwUCUx8FUAIbDwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEOmPZlXb3WZx<br/>dF0P+Ih09yzuy6bEiAFHsvdh21wAJfe7pq7ffdRVSlAs5EB875T7YZVLGi7QoDpx<br/>CCkxldNNeZ1KkIGmPi0PB0F7bhv41qT88InEYeZ7LWzv7xX3aP6kS31jRARNdvOn<br/>fMzpi7jUvZVnYrovKbMdRSmDaqyXyLItt1caEQ0fV3L6T4+2h1g43nTp20UrymoM<br/>lfrpsGy2zdx9pGLd8/gV/qgM0R2HcNBoxxkRwj4B9MmR7317y9/gzojDGbxGJtOj<br/>iH4bGarWQN+MSg14Tu2pw7b0o6xgDaTs8yyNeR7Xs5NZCQTm0lDZ1MXvQVQ0egro<br/>3eiJ4aZRyi/ngVrNRrG/GgtGALlnSVRnQec/NcGRwrRU2EvfyWSu70GGW8s+CMzA<br/>7wW4LMD2znuC5tdF9J8cbtZEk/5zB6s6IckFhN9txu12e5ww1c8SooFYkI1KYWUq<br/>F9CXZJJb1NDVrtz160tkmJ6Wig3osys1NwcaZnCKxS5oud9NcW4K4JG9+rgIgLjB<br/>RC497IMSwgC5U6Rs/UdiA0jHyKy1HJhK3pRKCYYRSEDZG2U52EjW/xF/iaoqLPvA<br/>wDelbyEFGH+K4WuMwNqg5wKovUEizY5nOZj1JbtM6paJIGhGiQjYxmLe99PCLGo2<br/>B6rkF5bo38Xgy9WTSIzLW902z1Qfn74EbvPf2Gbbrmh5+Po=<br/>=0lUu<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Super fast and excellent product, thank you!!</td>
+                    
+                        <td>
+                            <a href="/p/s4ZokjaAmC">
+                                1g Extremely Pure White Fluffy DMT Crystals
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Hey hey hey smoke dmt every day - the coolest man alive is this man Mr. Proper P. &lt;3</td>
+                    
+                        <td>
+                            <a href="/p/s4ZokjaAmC">
+                                1g Extremely Pure White Fluffy DMT Crystals
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Pleasure to do business with. The box should have been sealed better but the product had proper packaging, odor proof for sure.</td>
+                    
+                        <td>
+                            <a href="/p/AaoV5wUy4d">
+                                1g Pure White Crystal MoonRock MDMA (Highest Possible Purity, 100% Rock)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Vendor. Great communication. Great looking product. A+</td>
+                    
+                        <td>
+                            <a href="/p/AaoV5wUy4d">
+                                1g Pure White Crystal MoonRock MDMA (Highest Possible Purity, 100% Rock)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order got here today! Vendor was communicative and shipped quick. Haven&#39;t had a chance to try it yet though. Will update when I</td>
+                    
+                        <td>
+                            <a href="/p/AaoV5wUy4d">
+                                1g Pure White Crystal MoonRock MDMA (Highest Possible Purity, 100% Rock)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast shipping, great customer service, and the product is very high quality</td>
+                    
+                        <td>
+                            <a href="/p/AaoV5wUy4d">
+                                1g Pure White Crystal MoonRock MDMA (Highest Possible Purity, 100% Rock)
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>GREAT VENDOR A+++.. Great communication, product as described - awesome stealth - powerful stuff - better than other popular ve</td>
+                    
+                        <td>
+                            <a href="/p/AaoV5wUy4d">
+                                1g Pure White Crystal MoonRock MDMA (Highest Possible Purity, 100% Rock)
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>RECEIVED IN 3 DAYS A++++ VENDOR</td>
+                    
+                        <td>
+                            <a href="/p/niu77d84Jn">
+                                10 Xanax (Alprazolam) 2 mg bars *special one time only offer*
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent fluffy product, fast shipping and nice enough stealth. Will order from vendor again!</td>
+                    
+                        <td>
+                            <a href="/p/s4ZokjaAmC">
+                                1g Extremely Pure White Fluffy DMT Crystals
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Everything looks great! Shipping was quick. Will be doing repeat business!</td>
+                    
+                        <td>
+                            <a href="/p/AaoV5wUy4d">
+                                1g Pure White Crystal MoonRock MDMA (Highest Possible Purity, 100% Rock)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Definitely powerful, but I did not feel comfortable using again after due to numb mouth/tongue, and subsequent research. Possib</td>
+                    
+                        <td>
+                            <a href="/p/wYX02kk089">
+                                .2g Extremely Pure White Fluffy DMT Crystals
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Ill update it when I try it</td>
+                    
+                        <td>
+                            <a href="/p/wYX02kk089">
+                                .2g Extremely Pure White Fluffy DMT Crystals
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Received as described.  Perfect :)</td>
+                    
+                        <td>
+                            <a href="/p/bM4334dJdX">
+                                1g Fantastic Quality Purp Dream *All Nugs, No Shake!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>came in a quick and discreet fashion. 5/5</td>
+                    
+                        <td>
+                            <a href="/p/wYX02kk089">
+                                .2g Extremely Pure White Fluffy DMT Crystals
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Super Product AAA+ &#84;ransaction.  No better way to go.</td>
+                    
+                        <td>
+                            <a href="/p/gzd9U3Z9iX">
+                                .2g Pure White Crystal MoonRock MDMA
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome product delivered rapidly, a man of his word!</td>
+                    
+                        <td>
+                            <a href="/p/bM4334dJdX">
+                                1g Fantastic Quality Purp Dream *All Nugs, No Shake!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Honorable Vendor! Awesome Product</td>
+                    
+                        <td>
+                            <a href="/p/wYX02kk089">
+                                .2g Extremely Pure White Fluffy DMT Crystals
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>10/10/10: Great bud received in 2 business days with good stealth. Weighed 1.02g and was a bit on the dry side, but well cured/</td>
+                    
+                        <td>
+                            <a href="/p/bM4334dJdX">
+                                1g Fantastic Quality Purp Dream *All Nugs, No Shake!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>the pack was proper potent grape smell perfect stealth thanks ill try it soon im already high lol 11 out of 5</td>
+                    
+                        <td>
+                            <a href="/p/bM4334dJdX">
+                                1g Fantastic Quality Purp Dream *All Nugs, No Shake!
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor. Fast shipping. Product as advertised. Highly recommend.</td>
+                    
+                        <td>
+                            <a href="/p/bM4334dJdX">
+                                1g Fantastic Quality Purp Dream *All Nugs, No Shake!
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of ProperPacks:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zGvq8AXmD4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zGvq8AXmD4">28g Fantastic Quality Jolly Rancher *All Nugs, No Shake!</a><br/>
+                    <span class="description-preview">Our weed is professionally grown in a controlled greenhouse environment to bring you some of the best value pot in the country. You will receive nice size nugs that are compressed as little as possib ...</span>
+                </td>
+                <td>0.47080979 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/atdL2PvJif.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/atdL2PvJif">14g Fantastic Quality Jolly Rancher *All Nugs, No Shake!</a><br/>
+                    <span class="description-preview">Our weed is professionally grown in a controlled greenhouse environment to bring you some of the best value pot in the country. You will receive nice size nugs that are compressed as little as possib ...</span>
+                </td>
+                <td>0.26277755 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="ProperPacks" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to ProperPacks</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'ProperPacks'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

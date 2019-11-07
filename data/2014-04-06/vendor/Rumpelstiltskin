@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Rumpelstiltskin</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 447.68 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Rumpelstiltskin</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">51 successfull &#116;ransactions since 2012-10.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 7 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Please use PGP as much as you can.<br/><br/>&iquest;Do you really want to see witches and flying dragons?<br/>If the answer is yes, you must to know that I&#39;ve got the best HPBCD COMPLEXED tabs of 25i-NB&#39;s Assured. I do not sell HCL&#39;s Sulfate&#39;s or Acetate&#39;s due nbomes in salt form lacks effectiveness in a short time. So the quality and viability are very different.<br/><br/>If you have any doubt about my product, ask it to my costumers or check out the forum thread.<br/><br/>If you want cheaper blotters &gt;&gt;&gt; BUY THEM FROM ANOTHER VENDOR i&#39;m here to satisfy only trusted costumers ABLE TO APPRECIATE MY QUALITY.<br/><br/>Thanks for your understanding<br/>brl <br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG C# v1.6.1.0<br/><br/>mQENBFLJnNIBCACkqEp+gq2Rm440Rz6/oeUhNw0us9pKVvchLouoFvsXzHDW5eXF<br/>IdjYXkpEkyln+rNn/uj1Awju2zGkTCptiqshskQSTBBX88+aex6TMwcEtvimShYC<br/>eG9g80O2FCE1sBW9MDfaI1qTwgQ9Cd8bffA3UQswLnbLMXFGrtqGAsf8iV+BdkGH<br/>eajTZFYay3q0tDOIdWkQZOwHEae9KLNgRpjajevhO1CrMWrIgKvqX0/fN5uG7BL5<br/>4gKeX8a5X5jWWwvYuYKaQ7GLhGwCFtE/GPkaG7p7FVPKsoqhEd3rviozqw/VI8vl<br/>5r+LYue+uLNH1HrGI7DxH6ZoxbFWNNRs0D1VABEBAAG0GXJ1bXBlbHRpbHRza2lu<br/>QHJpc2V1cC5uZXSJARwEEAECAAYFAlLJnNIACgkQmxGlNFosDDmnhAf/dJAIoCwW<br/>HcKtk3g0jWHXfs9K2xq2lOmuX5yO68MXWyl6HOTpKXhW9QzZrOfqufOnnDTfbfgX<br/>B6WrcD4K257yj2Xs7RWbMs8Gib4RYhlzAZgaS5mssdkLrcWzMQTYBvoszOHDb//D<br/>E6QI2fVk8pZJ5jlYy5xBDReQ01vbBIg0nLI32tuJSpvhDYEd1e2B1KGYi/OqBZXc<br/>1eEWFXUQ/GTqBV6j9yzNEcoGVbFy6d/MIJIv5OgRCIXWkqD2Pux10oFTZdeiP4GX<br/>uI/tCnmjJcKZOQXjXteEWwhe6o5iD0RyOwSbKpJSFJzYpXZ2x/cOq2gwdfxOYGIu<br/>bBtrtXoja3JvfQ==<br/>=tbEi<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor hope it arrives soon</td>
+                    
+                        <td>
+                            <a href="/p/uEhNgifBlc">
+                                50 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Coolness</td>
+                    
+                        <td>
+                            <a href="/p/RznnsVgxaz">
+                                2 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE will update on arrival, Super Excited :)!</td>
+                    
+                        <td>
+                            <a href="/p/uEhNgifBlc">
+                                50 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE</td>
+                    
+                        <td>
+                            <a href="/p/jCfX5zT0Zj">
+                                20 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came on time and there was an extra hit in there for free!</td>
+                    
+                        <td>
+                            <a href="/p/FT6ASLSfgV">
+                                10 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome Vender, amazing Product. It got to the west coast in a little over a week. Super Professional. This is my new 25i vende</td>
+                    
+                        <td>
+                            <a href="/p/eJtYu77EFK">
+                                4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/RznnsVgxaz">
+                                2 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived safely. Very professional.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>received only 7days! good stealth and best seller in the darkweb! recommended highly</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Comms- very friendly very informative
+Stealth- excellent
+Speed- very impressive
+Product- threw in two extra.... haven&#39;t used</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>haven&#39;t had a chance to try yet, but delivery was fast and looks good.</td>
+                    
+                        <td>
+                            <a href="/p/F5bGlVzTZF">
+                                4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters BETTER &amp; CHEAPER THAN LSD
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Looks good will do business again</td>
+                    
+                        <td>
+                            <a href="/p/eJtYu77EFK">
+                                4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>hey rumple! just wanted to let u know that the order i FEd on arrived safely! thank u for ur professionalism!</td>
+                    
+                        <td>
+                            <a href="/p/uEhNgifBlc">
+                                50 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great quality, first buy had a great experience :)</td>
+                    
+                        <td>
+                            <a href="/p/FT6ASLSfgV">
+                                10 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>i love this seller more and more. thanks for good work.</td>
+                    
+                        <td>
+                            <a href="/p/jCfX5zT0Zj">
+                                20 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Nice product, 3 order with him</td>
+                    
+                        <td>
+                            <a href="/p/LyljWUYD9a">
+                                100 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Nice product, 3 order with him</td>
+                    
+                        <td>
+                            <a href="/p/jCfX5zT0Zj">
+                                20 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>forgot to add feedback . received a while ago, looks good</td>
+                    
+                        <td>
+                            <a href="/p/VpnkXA0Ua9">
+                                12 Sida rhombifolia seeds @ Arrowleaf sida
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good stealth</td>
+                    
+                        <td>
+                            <a href="/p/VZqg6clR72">
+                                250 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/F5bGlVzTZF">
+                                4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters BETTER &amp; CHEAPER THAN LSD
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Rumpelstiltskin:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/uEhNgifBlc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/uEhNgifBlc">50 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+50 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING
+
+NOTE: I was offering full escrow in small orders ...</span>
+                </td>
+                <td>0.15189081 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VpnkXA0Ua9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VpnkXA0Ua9">12 Sida rhombifolia seeds @ Arrowleaf sida</a><br/>
+                    <span class="description-preview">I DO NOT SHIP THIS PRODUCT TO AUSTRALIA &amp; NEW ZELAND!!! Sorry 
+
+Sida rhombifolia is a perennial or sometimes annual plant in the Family Malvaceae, native to the New World tropics and subtropics. Ot ...</span>
+                </td>
+                <td>0.01116844 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/x92ypi3jCj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/x92ypi3jCj">10 Peyote seeds - Lophophora Williamsii - Anhalonium Lewinii</a><br/>
+                    <span class="description-preview">I DO NOT SHIP THIS PRODUCT TO AUSTRALIA &amp; NEW ZELAND!!! Sorry
+
+Here a listing of 10 Peyote seeds
+
+aka1: Lophophora Williamsii 
+aka2: Anhalonium Lewinii
+
+Peyote seeds are very fragile and requi ...</span>
+                </td>
+                <td>0.02233688 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eJtYu77EFK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eJtYu77EFK">4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING / FULL ESCROW! if you FE the order you will receive  ...</span>
+                </td>
+                <td>0.04467376 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/dd3deGWlFg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/dd3deGWlFg">500 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">500 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING
+
+NOTE: I was offering full escrow in small orders till get a decent feedback, now I got it,  ...</span>
+                </td>
+                <td>0.89347539 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aTYXZYNfeW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aTYXZYNfeW">10 grs of OUTDOOR - EXTERIOR - Weed Mix</a><br/>
+                    <span class="description-preview">10gr of CHEAP Weed. Down branches and unfinished buds OUTDOOR MIX you will find some seeds in the mixture.
+
+This is a listing of cutting rests to enjoy; It&#39;s a low quality weed but is still perfect ...</span>
+                </td>
+                <td>0.11168442 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RznnsVgxaz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RznnsVgxaz">2 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+2 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING / FULL ESCROW! if you FE the order you will receive  ...</span>
+                </td>
+                <td>0.02903795 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jCfX5zT0Zj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jCfX5zT0Zj">20 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+20 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING
+
+NOTE: I was offering full escrow in small orders ...</span>
+                </td>
+                <td>0.07594540 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/s8EB8Xfht4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/s8EB8Xfht4">Psychotria Viridis FRESH seeds - 4 berries</a><br/>
+                    <span class="description-preview">This is a listing of Psychotria Viridis Var. Alba seeds
+
+4 berries contains 12 seeds (Each berry contains 3 seeds of average) 
+
+This is the main Ayahuasca DMT source!!!!!
+
+FREE SHIPPING / FULL  ...</span>
+                </td>
+                <td>0.01563581 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/F5bGlVzTZF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/F5bGlVzTZF">4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters BETTER &amp; CHEAPER THAN LSD</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+4 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING / FULL ESCROW! if you FE the order you will receive  ...</span>
+                </td>
+                <td>0.04467376 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LyljWUYD9a.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LyljWUYD9a">100 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+100 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING
+
+NOTE: I was offering full escrow in small order ...</span>
+                </td>
+                <td>0.22336884 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VZqg6clR72.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VZqg6clR72">250 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+250 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING
+
+NOTE: I was offering full escrow in small order ...</span>
+                </td>
+                <td>0.49141146 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FT6ASLSfgV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FT6ASLSfgV">10 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+10 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING
+
+NOTE: I was offering full escrow in small orders ...</span>
+                </td>
+                <td>0.04020639 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Rumpelstiltskin" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Rumpelstiltskin</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Rumpelstiltskin'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

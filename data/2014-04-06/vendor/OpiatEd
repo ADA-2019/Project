@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>OpiatEd</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 448.64 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>OpiatEd</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 20 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Welcome All To OpiatEd&#39;s Agora Shop!  We are new to deepweb vending but not to the deepweb or to vending! :)<br/><br/>We will be specializing Opiates &amp; Opioids.  To start we will be offering small amounts on full escrow.  No FE will be required as of now, though we reserve the option to implement FE-only orders in the future.  If this is to become the case, we will give fair warning.<br/><br/>Rules n Stuff:<br/>We will ask that all communications containing sensitive info be encrypted with the PGP key provided below.  We will be canceling any orders placed that do not adhere to the encryption policy AS WELL AS the following guidelines:<br/>-Ship to an address with a real name listed as a recipient at said address.<br/>-Do NOT ship to vacants or the neighbor&#39;s while they are on vacation.<br/>-In other words, if the tracking says it&#39;s delivered, I&#39;ve done my job.  <br/><br/>Shipping:<br/>We will be doing domestic Priority shipping only to start.  Express and/or international inquiries are welcome but please know that there&#39;s a good chance it may be politely turned down for the time being.<br/><br/>Shipping cut-off time is 6am PST. Anything after this may go out the following day.<br/><br/>Satisfaction:<br/>We will be aiming to please our customers and to build a customer base that feels confident in knowing that when you order with OpiatEd, you&#39;re ordering with an opiophile who cares about you getting (and staying) well! We will always do our best to get your order out to you within 24-36hrs.<br/>*****************************************************************<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFM8qIcBCADDnIxl5MXf+e/5GLTR97+H0lEfP/7ndjDh4JP+ib8SJa9kN55E<br/>XT07PL4Q+QXhkAaKkNXMJcZfXf8VyBBMxwNqbEzGlJkSlVqfSkEqIQiH+3b9G+4G<br/>rv+nZdOrlLPdkK0i13G5i1jqnvJ1tYAoXrFRq6WPxB1e1DA8jzV+nW+7hyUocNbN<br/>/NACZ66QGs4kDl+e3QiWHi1N634USb74iW4/t9DYUW4+EIjbgluf3psB0ilnqsqr<br/>9FdqIbtZx1cHbWgXdZiSK3veF4HjNQe9oR5XfvX6wJIBEsq6L2lgR1qFqIE0XH8N<br/>FY2PejVPkvuDf5potwc/3nAFtMpVfr8VOEnjABEBAAG0GE9waWF0ZUVkIDxPcGlh<br/>dGVARUQuY29tPokBOQQTAQIAIwUCUzyohwIbAwcLCQgHAwIBBhUIAgkKCwQWAgMB<br/>Ah4BAheAAAoJEAjIxVfn90fWKHcIAKWMew1X+uJSzQTdz4LduYaHxzQmVkE3+p5T<br/>wXALHFZyb7S8wmKWMT/1a6TdGbHbCdEeZ2YHaG/3j+XqDCiNpFdysw2pRTnzb5m/<br/>AutPxWAp/5sUEftiI6DHmZiSxehf58eYczjV/IPMn9YhcIwo9CMx4NGcLNHugd0h<br/>L47hreyk1qZfpHv8AWyzysdf7EgbbN42pii62ryirh060ligO0LMK/ZXrM+qqBjM<br/>igT9XfHHHknDU1db05dUeC6SVeZxhWSaawdKydbhq4j6B3By9lf4UbosP3eA+7AC<br/>7DSgCSDkPgwvG+OVvzOftR2Wkl6dqqpO7hO1Pukpd7Lc6WU1XUS5AQ0EUzyohwEI<br/>AMN4VGe0gk7wZvTTbl+kpwWZn16LFPqJhKLLGUmDqpSbszKlaG5+ODGpFsucg/eS<br/>pRN6kDnlUQqSQCDMuqpc/wNvGz/eIlig6qZM5O7q4zkAkHG8TF+YGj7rVZPjRnuP<br/>Y7hDpzkwzmgElofchoCmRX1BDOs1CsHKO1HFhl0xbWFTCVBOGGdpWoZfpHty4Uls<br/>kEG3kmBD006PhJHCAEjsNtaC7v++9L0IlAwlxWeDOtNKfoWtpXHx3+llmgsOE0oM<br/>6lsOza+R2anUXe+xX6fCSWPItGXiOC7H8Ct4Z0aLGfTTK4xjSmM75qs7uQtW30ur<br/>FnB44i0EERFfsCToOnO6+g8AEQEAAYkBHwQYAQIACQUCUzyohwIbDAAKCRAIyMVX<br/>5/dH1pexCACa8OlIunU/BCGqD1K7JZLjn28a0PAWKoRHPIEQkvlzXOdEJWsaahb3<br/>E6C+HW7yEdmBTgncb2WK1B488mQCBFG4f1OoWqYkKxfxFJ/3tR6oJY7uxM/vI8nb<br/>/gFCATXs/JpeWbZX2wRBs2wHA3ZiouX2kjkCYUk4OQBkSxu6gUb6AZBJLSJ43Kpz<br/>e/+zQ351TOyqn/IrT/KM3qehKacieSvKWXgZzOtod3l2Wy9sP4pXyr9Dl3bOGf0H<br/>Apb7SyqXY8cqN2mFQKBR1OeObYB5iWN0L5A1NCyFcJl/+OWayew0hJwnfkWPd2GY<br/>iYR8YtlfguNjkqKxAx1wjjU5QhwQLOZ+<br/>=jRlO<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of OpiatEd:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Na7ZeqARl6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Na7ZeqARl6">alpha-methylfentanyl 25mg</a><br/>
+                    <span class="description-preview">**Currently On Hold, We&#39;ll be Re-Stocked Very Soon!!**
+
+While not quite as potent as its cousin-Fentanyl HCL, due to lower binding affinity to the receptor sites, alpha-methylfentanyl still packs a ...</span>
+                </td>
+                <td>22.28686058 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="OpiatEd" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to OpiatEd</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'OpiatEd'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

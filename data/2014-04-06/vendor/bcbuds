@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>bcbuds</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>bcbuds</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 40~55 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 21 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQINBFKf5bIBEADW6QUIHCYZhyeqhCFAd1OE5NltAKa9fxniIPf7s1wLZ3FLhk8S<br/>BA3mrDOq/0+qjgCCIvxo5VUAR7zfahSWYffQbOGDAkoeazwSVLThRKjuBq0olpwB<br/>gVzwzkX4QRy/LMxMsh1/WCNiJqFvs80aRmAm7GDdiIjz5itjyOZptzc/+dVwjVZ5<br/>zxCKE0tyylnH9Q063YQHCGphWqNbZOBBFXaw1h47aMa1hTBlj/THN7Xu4HQQlk02<br/>XaMRqMXAEIira/fqxW8bh5IVq2Xju0EGNcai5DBTx0NyVxySfsPUQPp42Z13YtEz<br/>gt5HVbBQ/uaL+9W0f/+NMXYt6mrrLFl9KB8gdI2ivgwR3tLAcdrO0Voc8NIEtrNr<br/>c8yZuehgX7eDt7M3LxNgLiqCISiM/zY4WKbruwf3Jm27LLnC0iyvibcWvCBvER63<br/>Q8VDOr8jAkucjryKnBdwlbx0tIiHso1hdA59mUdJF10MxxzbdaBb+MqynPqlaDsL<br/>jf6TOI5I71zBNgTSBrNrrpHxjE4ivL49BE6Ctzl694nhcKIm9XBaT0wntSnxHqJl<br/>uk0gnlUIMi9NR59u9tivisDqufEPihcaOaktuec/ad6HTzByJDD2wJFA63WAPRzN<br/>j8irXTQqsXy+ET69IuC8CceFIK3mbXnA5GHOfzbkb8Y+dYGn0kOHtxSxZwARAQAB<br/>tAVsZXBld4kCOAQTAQIAIgUCUp/lsgIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgEC<br/>F4AACgkQNGtNL1DF8v+NbxAAx0sjoL8nrV6JbG6VFnCP3XE+thdzFz28TSg+umHj<br/>O2h9qQGuRxeJCcI/+pAVaGOiZXZ1il92JXEGIUqO+wdt5CEpMOV7oQ4HMy1VNzOL<br/>vbjDZvKgerrJS1zhqDVZeW7HQdK9IOC+ygs/E0tRdS2sBS6m6hxl6lpcVEhyPY0Y<br/>MCilNiAmKRul8v2bhdGHIXLKlXaf+PKUXiUJ/ftzIlBGhMrkvBPmHyd1pwr9tZuL<br/>92pLMgtA7e1venzkepfcg/SJkR/D+8FARnu18NHrXocA/K9b1/ejwvH56RdjHsSo<br/>zduazrC/pu5Fo1XY5gXYA8xFBOV3BMc1Ks2aHZ4kIlio8U3I47I9U5eqHbGZwWVg<br/>J/+3u5mm3aDugbWKGltFA2pC6qlYDEDjCDThKE1zAhoFua4xVpqNLhgeQwar8Ubn<br/>okDuhHfst6EVWTfCBpYyboh1FxWoIHrqu8AtENMd60DaPobq4Uxbub/dHtlnjCn4<br/>8CzyTl8zUvy3nJmOACQpaaLbDslx3PsUwixrzAScTZkjPWJBYpB3q3pd52IXTOrx<br/>rp/JG7BzPbgOM24cfGJBM1hEg71sAJGmfRYmUKtM0TFBGSCLj1WJhai2faXya82+<br/>8UPFqxYm7h501MoSZEUCCbf39hSlxNOvk/j3jU4NpU9wreOxSib8LVR26LjXB+ND<br/>04W5Ag0EUp/lsgEQAKZnWUtjQ76ukJXjsxfyeixxOAqIkYthl03xDL/Diidkska0<br/>lF+fV1WJp7RfCopsa6DazTB7HSqU/DjvdFH+brVDdbEXUGZe7ZRjbJQu2xAAR9D+<br/>oDVDee34Etz36BPEa/kjcbUJXElN+UHRjz/hHrxECT1DULSpQc7dWxeEsg9svJM6<br/>a3PfNNBOEJI9tva2q/jhOrzNwRKCnAAp3DnHoeBPGZLTfumDHG1LWPpJz9yPPT5F<br/>KMkKMBPUNhG6eE2t5DDkoQSxdFceZmotLqTTe2AaPmchw+oqLWku/9oaQPq7gq0f<br/>2bWI8ESk9HOptYEVwqHa5QI+hS502KuTIBLM9hM2&#83;QLhmcyQTs7b51QIB37HPPpb<br/>wKhcRaateT+EJjYYQtD/T8LMnQEKtKCqlCRDuzHERBiTZlOGVrEUrfboICJU2mrM<br/>S5m7P7EB4VdNvzJMynSshjUJ8ujvdEPDtjrPAQCi84QFGdWfuekiRdxbDmeRxCPG<br/>Qfiyqhog6bBMK/IZV//WKPPz7iyFgKj75myHbVDZZ7ZE6WxSFBOT2jpcpSWdVFL9<br/>8ddrJF6LrHjnxHWlA5TzTAOulN7ecyZj2wV9uo75PDeTs5/LLCI2rpqpFzZQXVAz<br/>tR0fW0mCzRqWZjbNVgJfRy/P4dn8ZGIYo72dRbplakgI8fmvbbtHVRKLyHGtABEB<br/>AAGJAh8EGAECAAkFAlKf5bICGwwACgkQNGtNL1DF8v9oUhAAxzX9X5OtOVIfeA2o<br/>pJQSiS3T5ZDJ9Ap4o4pITc+3k88mLgtvl264kcnr3q3Vvok94feztdz+yVH9hG2Y<br/>4zmdG03Ay1xFT+QyYMMyzjUMaRKFOgKpXl7nRJFfVGw4bfot93LmZmauWbD3Rv42<br/>inKthJ4z5nJmRREEhYHxewkM2r1/bVhKqatG2Ojb8iXvY26Wh6vkGCx0avBND3/o<br/>G9spSXEpGRmRAW6oj5kghdIfN7j5F7bsyRJDOIw7+PV/lM+p32ggdIcRqMYx/Yt/<br/>Y6uNKTBGW1reAuK1hf6SUpAWdJARq7rr1a4W6D9HAx2AzZPfW9qrEarJPtamUpgg<br/>8RmCtM4IHbu92MQaiQxoE9MWkDupYSvwXpnG8dHT9Y1VgSiE3GNgCOqYPh7CkGjC<br/>8Cu9UeMKlO1l229BDMf0hmdS2VIjvzWqFma+gHFAEOoLlvsukmJGSUHak7JcNNWx<br/>eDzjd1U72RtKU0U1vnLFT9H2h8ieCregtDPAbIYJlX8OFn9LbDeio75xhDrcalqd<br/>cZocRrmYG+TqAvm+sLUhDjkqln1WePH7e/uQkaU/o8UzWur7sNh+LdCbJBBtscTv<br/>CTRwi5s+lD5n+Ex3o5V3k5V1Lrh+8i6/Lu8G7m0HMZL1NSuQ37TgxF1911pOlY6H<br/>2VQbiV6Q2JJdof4V9HPnJ+1yDvg=<br/>=HfdU<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE, will update.</td>
+                    
+                        <td>
+                            <a href="/p/nF37JJF3Kk">
+                                1/2 lb Medical-Grade Kush (Bubba or Critical) Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE. Update later.</td>
+                    
+                        <td>
+                            <a href="/p/Cbu7LA7xqA">
+                                28g (1oz) Medical-Grade Purple Kush Indoor SURPLUS SALE
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5* service from an outstanding vendor, awesome stealth and shipping time (5days to UK). Product is topshelf uncompressed stinky</td>
+                    
+                        <td>
+                            <a href="/p/Up2ALenkeg">
+                                1/2lb Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Guess I was just being impatient, lol sorry BC, top vendor. FE with confidence - stealth/communication/weed 10/10</td>
+                    
+                        <td>
+                            <a href="/p/Up2ALenkeg">
+                                1/2lb Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>top stealth, top weed, top vendor 11 days including 2 weekends to uk order with confidence</td>
+                    
+                        <td>
+                            <a href="/p/GuXBz8wCf5">
+                                112g (QP) Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Another utterly mind blowing package arrived from this total pro! 
+Can&#39;t give BCbuds enough credit for the speed he manages to</td>
+                    
+                        <td>
+                            <a href="/p/RbgFvp7LmF">
+                                28g (1oz) Medical-Grade Bubba Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5* package arrived already :-) 
+would recommend this vendor</td>
+                    
+                        <td>
+                            <a href="/p/hvifsLDicf">
+                                28g (1oz) Commercial-Grade Bubba Kush Indoor LIMITED AMOUNT
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>BC made everything right by reshipping a seized 500G. Great guy. Great Service, quality and stealth</td>
+                    
+                        <td>
+                            <a href="/p/JlWkZL4sAW">
+                                1 kg (2.2lb) Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Nice weed, timely delivery. Cheers!</td>
+                    
+                        <td>
+                            <a href="/p/GuXBz8wCf5">
+                                112g (QP) Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived in a week, 5/5 stealth, speed and the product is amazingly uplifting.</td>
+                    
+                        <td>
+                            <a href="/p/GuXBz8wCf5">
+                                112g (QP) Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>BC rocks! Awesome shipping time &amp; even better killer smoke at a killer price!!</td>
+                    
+                        <td>
+                            <a href="/p/GuXBz8wCf5">
+                                112g (QP) Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE , will update when recieved.</td>
+                    
+                        <td>
+                            <a href="/p/MapeGrzTax">
+                                112g (1/4lb) Medical-Grade Bubba Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>BEST SELLER ON SR</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order has been placed. FE&#39;d for a reputable vendor. Will update upon more info.</td>
+                    
+                        <td>
+                            <a href="/p/LKFWuZfAMG">
+                                14g (1/2oz) Medical-Grade Purple Kush Indoor SURPLUS SALE
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE, I&#39;ll update on arrival. First order from bcbuds but I&#39;m optimistic.</td>
+                    
+                        <td>
+                            <a href="/p/jx2t8fyESS">
+                                1lb Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>delivered record timing, nice bud as always, A*** Vendor</td>
+                    
+                        <td>
+                            <a href="/p/GuXBz8wCf5">
+                                112g (QP) Medical-Grade Purple Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great communication, ridiculously fast shipping, and fucking killer bud.</td>
+                    
+                        <td>
+                            <a href="/p/bUjBLEiCiS">
+                                112g (QP) Medical-Grade Critical Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome smoke, incredible stealth/packaged, took only 3(!) work days (over the weekend) to Sweden! Will definitely return! AAA+</td>
+                    
+                        <td>
+                            <a href="/p/bUjBLEiCiS">
+                                112g (QP) Medical-Grade Critical Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>this vendor is TOP, trust seller, fast shipping,the stealth perfect as always and the product is delicious and overweight. Than</td>
+                    
+                        <td>
+                            <a href="/p/RbgFvp7LmF">
+                                28g (1oz) Medical-Grade Bubba Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent seller. A wonderful product. 10/10</td>
+                    
+                        <td>
+                            <a href="/p/RbgFvp7LmF">
+                                28g (1oz) Medical-Grade Bubba Kush Indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of bcbuds:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SNn1N0tFbB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SNn1N0tFbB">1 lb Medical-Grade Critical Kush Indoor (Free Shipping)</a><br/>
+                    <span class="description-preview">1 lb Critical Kush (Cross: Critical Mass x OG Kush) BC Bud
+
+This is medical-grade marijuana that will not disappoint. It is a very popular Indica dominant cross.
+
+About the Strain:
+
+This is a p ...</span>
+                </td>
+                <td>5.49450549 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bUjBLEiCiS.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bUjBLEiCiS">112g (QP) Medical-Grade Critical Kush Indoor</a><br/>
+                    <span class="description-preview">112 grams (1/4lb) Critical Kush (Cross: Critical Mass x OG Kush) BC Bud
+
+This is medical-grade marijuana that will not disappoint. It is a very popular Indica dominant cross.
+
+About the Strain:
+ ...</span>
+                </td>
+                <td>1.64835164 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gE3w7Y60b5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gE3w7Y60b5">14g (1/2oz) Medical-Grade Bubba Kush Indoor</a><br/>
+                    <span class="description-preview">14 grams (1/2oz) Bubba Kush (Cross: Bubble Gum x Kush) BC Bud
+
+
+FE REQUIRED (WE HAVE SEEN TOO MANY MARKETS CLOSED AND WE HAVE LOST TOO MUCH MONEY, WE WILL NOT SHIP YOUR PRODUCT UNTIL YOU FINALIZE  ...</span>
+                </td>
+                <td>0.32967032 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Cbu7LA7xqA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Cbu7LA7xqA">28g (1oz) Medical-Grade Purple Kush Indoor SURPLUS SALE</a><br/>
+                    <span class="description-preview">28 grams (1oz) Purple Kush (Cross: Hindu Kush x Purple Afghani) BC Bud
+
+FE REQUIRED (WE HAVE SEEN TOO MANY MARKETS CLOSED AND WE HAVE LOST TOO MUCH MONEY, WE WILL NOT SHIP YOUR PRODUCT UNTIL YOU FI ...</span>
+                </td>
+                <td>0.45934065 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eDA8gfgPvL.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eDA8gfgPvL">28g (1oz) Medical-Grade Critical Kush Indoor</a><br/>
+                    <span class="description-preview">28 grams (1oz) Critical Kush (Cross: Critical Mass x OG Kush) BC Bud
+
+This is medical-grade marijuana that will not disappoint. It is a very popular Indica dominant cross.
+
+About the Strain:
+
+T ...</span>
+                </td>
+                <td>0.67032967 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RZib7SZWXm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RZib7SZWXm">28g (1oz) Medical-Grade Nuken Sativa/Indica Hybrid Bud</a><br/>
+                    <span class="description-preview">OUT OF STOCK
+
+OUR CRITICAL KUSH IS A SUPERIOR ALTERNATIVE</span>
+                </td>
+                <td>2196.09890109 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MapeGrzTax.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MapeGrzTax">112g (1/4lb) Medical-Grade Bubba Kush Indoor</a><br/>
+                    <span class="description-preview">112 grams (1/4lb) Bubba Kush (Cross: Bubble Gum x Kush) BC Bud
+
+FE REQUIRED (WE HAVE SEEN TOO MANY MARKETS CLOSED AND WE HAVE LOST TOO MUCH MONEY. WE WILL NOT SHIP YOUR PRODUCT UNTIL YOU FINALIZE T ...</span>
+                </td>
+                <td>1.64835164 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hvifsLDicf.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hvifsLDicf">28g (1oz) Commercial-Grade Bubba Kush Indoor LIMITED AMOUNT</a><br/>
+                    <span class="description-preview">28 grams (1/2oz) Bubba Kush (Cross: Bubble Gum x Kush) BC Bud
+
+WE DON&#39;T DO THIS OFTEN BUT WE JUST RECEIVED A SMALL BATCH OF COMMERCIAL GRADE BUBBA KUSH. IT IS NOT THE SAME QUALITY AS OUR MEDICAL GR ...</span>
+                </td>
+                <td>0.38461538 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/icPg7uo5vM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/icPg7uo5vM">14g (1/2oz) Medical-Grade Critical Kush Indoor</a><br/>
+                    <span class="description-preview">14 grams (1/2oz) Critical Kush (Cross: Critical Mass x OG Kush) BC Bud
+
+This is medical-grade marijuana that will not disappoint. It is a very popular Indica dominant cross.
+
+About the Strain:
+ ...</span>
+                </td>
+                <td>0.37362637 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: world
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RbgFvp7LmF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RbgFvp7LmF">28g (1oz) Medical-Grade Bubba Kush Indoor</a><br/>
+                    <span class="description-preview">28 grams (1/2oz) Bubba Kush (Cross: Bubble Gum x Kush) BC Bud
+
+FE REQUIRED (WE HAVE SEEN TOO MANY MARKETS CLOSED AND WE HAVE LOST TOO MUCH MONEY, WE WILL NOT SHIP YOUR PRODUCT UNTIL YOU FINALIZE TH ...</span>
+                </td>
+                <td>0.49450549 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/nF37JJF3Kk">1/2 lb Medical-Grade Kush (Bubba or Critical) Indoor</a><br/>
+                    <span class="description-preview">1/2 lb listing for either of our 2 strains of Kush.
+
+You will receive either Bubba Kush or Critical Kush. 
+
+Both strains are medical-grade marijuana that will not disappoint.
+
+----Will ship Wor ...</span>
+                </td>
+                <td>2.80219780 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="bcbuds" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to bcbuds</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'bcbuds'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

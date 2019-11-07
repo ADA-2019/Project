@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Mindful-Shaman</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 458.50 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Mindful-Shaman</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 4 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQINBFKodBcBEACpfZYVFfk/r7RS2uhvLERlVeKpLLzURuAF2Qan1ymS54wGpam5<br/>Wc6prZRXD+dpx6tczzHEl3n6TJy+LOYYTu39p1huNu8QUreB4qT5J/LNA102KFRJ<br/>a5C2hAUnYSeY/q+vuyhiTVjwvNdE/uDcOZVCFTPyxhqfW4O6ZUcAuCiu35P3ZEqZ<br/>lumKeRkut25H65faaIbfJzIDYLk/F/069ZaEGg4D8IN8lOjDD6g7GuyCCuRUxzxh<br/>1EHNtTLZPlv+ERkBPJf0RuuL7fMlc0Ny1gxWFO2tzqJXZF/cJfufu7bOn7ts9rM5<br/>N3ll5Z5BgiSvFCn6H/DO29qJIqfLWiywvDjk9e9oVLN8ABeZzAsnLTyMfQJUzwwk<br/>z4JTi7EKIOeB/BTucNUc83je0guNpZw8z+huc7U4Nva9EBCZ14olF5m5zCZNkIIT<br/>0D69YGiRwaVd6cFCoHJBhxs2Iqnh4HVYE9b5ukSZ9VOK3JOhVY1xqv4s86l5UHJA<br/>T6pzUOYomIB9S3K6elYAf6aNIBxJgZ0iypZMOcDx/bZ1HfJIF/G2kJpHYvT9kgBQ<br/>rblz8LxqHlbFHDFA+Oo2rPF9mJTFbWTejWDr9DmhGrfMlTWe+FgvBRpct2R/w8CF<br/>LhfTh9N/fIMhSxmNi/UD5/3AZjrDZF7ZSwHgXFsKA0qZ2vQf9U2HM+V0DwARAQAB<br/>tA5NaW5kZnVsLVNoYW1hbokCLQQQAQIAFwUCUqh0FwcLCQgHAwIKAhkBBRsDAAAA<br/>AAoJEKIVb5vU5U3FA3YP/iifdMsldPioY4TiSpdLtmPRt9ec6vie2kN6BMfoAft6<br/>qq+dvwfSQ9cg/l6npk50BQdqVsk5/kd9L9OlsAPqlyLYZtQnTVcRbRRlugCCcYmu<br/>e92s58wVgox+0Ruh3qGCMBr70pk439vPnKafBXxWjhpBUWUrMiBXHNQ3eaes3Zd8<br/>MQWPHlaJqR1QPcB99+KWTMTW7bUbupzRtjs53daPxSYyJiNakvc8tbHlY28vZlRS<br/>xBBhMaZA5254wsmlODWTOFzRJwSWjbx8D5qw/EOkvU/vbAOtvBAiEHXmzqiXDW0R<br/>yE3SN5Z32snMHmz0qW9ykR7yxx23ftnw1hn5l+7h4lWcegKFHMPCo+bopxPVeE9t<br/>aQaJXeFl4MkAhojfOXGhP2vUvB8Yc2N7m899bjFV1Qy7oRe6JhE7nB7KNPArTLux<br/>1o5atJJ9L3F4jTHHxv513b01aEALqgCuKiiz9T2ILQfsqFbWragG7Xp/WxeEuyLx<br/>nSfqyDE/EPEnV3+GAfRjyKxDUAHfvB5BqQE4pi80m36xtYhdAdTupgycFcONfHaY<br/>P/XXdwbYAtFC7ZTdxoukC73WCvfGFi7waws5DQAIGcHdSc3zqsVf9UVgIL5fIWLy<br/>ocFjrQYqVqr6RMJRL4Uh14b3j6BgqoLK7H82fJPBG0/aNbI6LfWwwrJZgyiuHsOq<br/>uQINBFKodCsBEADJ6HZtSWZwNXaLZbfZCgNHgBFk0pe70+GAb3Gb22hQLFQ3QvqZ<br/>G9JZ5ubRFOenR9u1qDLHMmj2jEpiRH4mcorwygs8x+lpVLBmWKL8TgrI5V94XSW8<br/>GotBy+O0jbEh9srXsXqPOG1H4pnjMlkOIp0yb5qQKV9EeABvrmgAmurju5Ougsp2<br/>/m2Hc+RzxcjAxmN8tUMqUj3lOmbimmm&#122;endtzL+qDvJUGMPH0buMSY6k8zm4gVCn<br/>X0LY0Pe79SH6GA3g+aZ0NVqLHlmiYay+KIEcNrK0SWmZxkUQrFtmcwDTQqW0A65j<br/>zb/6rIKJF0zfr5WREMuOBcseO9SGSlk1BWHnsEI3iPkzVqOEj+Z6CTxcoWbjG92X<br/>vn4d+oVrNyYS3RpTDspklgupMuLT1L6vAKx78uskBIWOSLqrewhLpDqHoadgKimk<br/>AtxENxKZQfEBVAlve70MlBDawUpr9qH5cp0Mp8jMhH79SVwURdgOru2GGS+EI7mU<br/>pEKYrFr8zVMUIRdJVwIF3kgXjSCO7zpXeCwMRrTDcdWqDRcDm2WA4WWKnis5uV6Q<br/>kazdGEimiJmpTCYTsS9O3dS7Bkt+hw8D96v5uHDnpry1R9Sj3TKDbOnS86oHeQpe<br/>4raEImf/BTZIPp/14FTwVczWoUM9NX/S1yhTjHRUqHMQTBpFzs5Zyay0KwARAQAB<br/>iQIiBBgBAgAMBQJSqHQrBRsMAAAAAAoJEKIVb5vU5U3F5I8P/3K3GYW+TLWouM1T<br/>PuVFFVGvXrzBd+88iXalu5eDyPG3Ezih7HvUtBF3E+Z0nBvqtFuAb8Mv0eOgbI5J<br/>KuL4/2qMYIZVGOGTl1jpgHyRqXMzbem62aAmQaCAmlBsE3PbF2EYCEpnabzL55r3<br/>Ubd1Ee+7Eds7SUn7C7IwXi3EH2rJPaxbyx5JhGXpdsFVcSdfbUeYYJDqHzbhLB2c<br/>CZcGTdsDy5U1IrI3ItJQm/B1zKaIqv6ng6kolCIauckz9L36c6VDTVuY3wh2cDOw<br/>p/OcUzuLe8YymCLsTiT4Lq2h6Xzn0Br+HUneyvH9eyGxQY6xaSmg+i5hSzX/KOjs<br/>ppOy3SFzTa0rCbT2TXICaA+5tgh84jpaq82XMPboltqlX921Lsdh389ARJOfEdoq<br/>X2U0hrnXatIgVXkhkJtspulvUutUp93ICjKrpR17nvNo2jFRQtFLiB4IX7xP4wt0<br/>tF01+OPrnBImPdtyD0vzhIk81wSeOcnfeLg8hTPcLI9e3Vth2W7uYfV/Skptmfui<br/>ke62W+GVi0bFCgrBeM74u4/StKJZhCJG/wfUu9fW+4N2GKmklo8W9E7HL+wO1qdV<br/>zsKpGJjrivF4bTt6m4lIVbDvW5FNgB4L4XmEUytsK+UxGSV1qOFo7WMDrpSOx5lF<br/>d3C+0i9RWByi1ySOzwXuOU9Xh0Yv<br/>=HgWI<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>crazy fast shipping, 1/8oz was a strong trip great visuals</td>
+                    
+                        <td>
+                            <a href="/p/EyjWWtuJCR">
+                                1/4 oz dried Psilocybe cubensis shrooms
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Damn fast shipping, cool dude who actually responds to my messages and mushies that blew me and my friend away. For a amazing p</td>
+                    
+                        <td>
+                            <a href="/p/EyjWWtuJCR">
+                                1/4 oz dried Psilocybe cubensis shrooms
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very good vendor</td>
+                    
+                        <td>
+                            <a href="/p/CYJdoMmexb">
+                                7/10 oz dried Psilocybe cubensis shrooms
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>The shrooms were vacuum sealed and well packed. Order was pretty quick.</td>
+                    
+                        <td>
+                            <a href="/p/V4PCjijMVP">
+                                1/2 oz dried Psilocybe cubensis shrooms
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This vendor had good communication, grade A product, and it took 2 days to get here. I will shop here again.</td>
+                    
+                        <td>
+                            <a href="/p/CYJdoMmexb">
+                                7/10 oz dried Psilocybe cubensis shrooms
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great guy, very fast shipping some serious stealth, I was expecting it and didnt even know what it was till i opened it lol. go</td>
+                    
+                        <td>
+                            <a href="/p/V4PCjijMVP">
+                                1/2 oz dried Psilocybe cubensis shrooms
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Mindful-Shaman:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/l90uRV1fDk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/l90uRV1fDk">180 grams Methylone bk-MDMA crystal w/FREE shipping anywhere in the world!</a><br/>
+                    <span class="description-preview">Methylone
+ / bk-MDMA / 3,4-methylenedioxy-N-methylcathinone white/beige crystal.
+
+I&#39;m not going to be accepting orders on this listing, I&#39;m only accepting and fulfilling for the time being the 90  ...</span>
+                </td>
+                <td>2.73282442 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eBspG2XRNy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eBspG2XRNy">90 grams Methylone bk-MDMA crystal w/FREE shipping anywhere in the world!</a><br/>
+                    <span class="description-preview">Methylone
+ / bk-MDMA / 3,4-methylenedioxy-N-methylcathinone white/beige crystal.
+
+If you FE, you will receive 10% extra for the same price.
+
+This is the only listing I am going to accept and ful ...</span>
+                </td>
+                <td>2.06106870 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Mindful-Shaman" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Mindful-Shaman</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Mindful-Shaman'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Magic_Man</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.81 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Magic_Man</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 17 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hello all! I am currently in the &#112;rocess of opening up all my silk road listings here, please bear with me at this time, thanks.<br/><br/>I can be contacted at magicman@safe-mail.net<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQENBFB60P8BCACv0V1rzfDQs14Wlb3Ad+T0PLrnLcVKC9WadiEYxJWwfyzoiWu/<br/>sc47yTHc/7ggajPcZH04VlAl+0zuTaXRrSaWs9pF/mXVXnMx22FwIxmT8sWtbGYn<br/>yAFMHEu6NjDDTSRuF6t7BYZnS35zvoEPAYQOeB7GlFU/XddhrO5+6C+ZIjomgJ+G<br/>otVoZNU52xtl3+7ZEC68nCNPJJk/FXN694OwMyq6EuIT5DH5kUxpb8saIqiM8Gt6<br/>3QrBiL6jM7W8LJA6t1Y7JPtxtUesfvU82MBzux13EFTFDlC05u+WZQFksLnB1zbh<br/>cn9hpVjYYo088pWEWlCrejn5fzYekmVgPcMdABEBAAG0HU1hZ2ljIE1hbiA8d2hp<br/>dGUuYm1AbGl2ZS5jb20+iQE4BBMBAgAiBQJQetD/AhsDBgsJCAcDAgYVCAIJCgsE<br/>FgIDAQIeAQIXgAAKCRBHycXe2e9nwSWcB/9Nir8cJJKEjlImQuXvEUwkDllzT9si<br/>6EhTF8PbT/DM5i2vTIHZs/4Uk73XjBFqH7nGbZIL42kH9SO/5A86kx68xTkk37mY<br/>oqtCFDHBJmbQYVvJlGXAGXbaZ3B14q5MoNovNG6rWuNpeO2UyPTnsoGXC439yWId<br/>qv68ywzvh87R3WrCYHrSAP453IGUDQVFQn5JTzhscJBHfj98S9QCyW7fRgWWCyCG<br/>iARCqMRDK9N3hx/Ww8KUoSYKzZjvb1DlH8b998Z3fgJqKxBaERLmC2JNmDN3CZXJ<br/>fw4sz5/Pj4dWRYDluz3W4efbMC6IeKoO7+U9mfaFXBjYik3vajN5j235uQENBFB6<br/>0P8BCADFQ+XphmWWVqIqEHA7kF6XOKDRlEjZciUohz7rNKp4SmUbeKrTQuB6rukX<br/>y2fQFg4fZ7r7ptp7TKXqB/crZxUksCk43IwsjnWKwGzDsus68/c1MGBTCNNfiOI9<br/>TKt77+UsRAchkk42Vk0Gkwwrrq+WHa5IbhZFbJrIsJ4XMFmRXwtzDGywS+u349CM<br/>2lyMj+0rrQCyX4eYkMcwaIld3PCrkuLsgLWt9wGgEuuebQsw9Zhl//AvA5wxeBAK<br/>xRVhRTDIadGiUPCNP40THV95ZJyVLw3sBI05CFM9FLQXEYnczCkNmhi8dG+fGUkA<br/>5Ie3fCe/FXP7zmSwGKULnzsh21cRABEBAAGJAR8EGAECAAkFAlB60P8CGwwACgkQ<br/>R8nF3tnvZ8EzUwgAodj4LTrLu89DKK0yKAqnqfHz9QvxQ20xJUEMZ29iyVv4kxcH<br/>P3qbrGjWHbrQw50gTe/OVMGPRXVbOeg8njFn+RJqtHztnH3FR0nMbvkpsNkTBOd/<br/>ShbpfV5gTN59Joc+BuJAxPwcOBhDGXyAgd51F1E8q9MtAdgTunZMZpN9rjRsJcLE<br/>UZ+Lk3impjgdoKWSl0Evk6liF9HhI5xujHtpncDguEsgO0qnLiwDk00H7Mpuud39<br/>AkZiT+Ymb6nEMjYRG5xT/PGBYweDZCsV6/N+abJBG4UMDDzTnYghD0EAVe2FrqJQ<br/>4BqcjSfCB7+gK/gxqa6eKasH6325/tI8OO2+Eg==<br/>=B8Im<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of Magic_Man:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Y0445qoe0h.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Y0445qoe0h">Xanax mini bars 2mg  x100</a><br/>
+                    <span class="description-preview">100x Pressed Xanax Mini bars
+
+Don&#39;t let the size of these small bars fool you, they pack a punch and have just as much Alprazolam as the Pfizer 2mg bars and sometimes even a tad more due to tablet  ...</span>
+                </td>
+                <td>0.44266395 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aUEm40p96W.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aUEm40p96W">Xanax mini bars 2mg  x50</a><br/>
+                    <span class="description-preview">50x Pressed Xanax Mini bars
+
+Don&#39;t let the size of these small bars fool you, they pack a punch and have just as much Alprazolam as the Pfizer 2mg bars and sometimes even a tad more due to tablet w ...</span>
+                </td>
+                <td>0.27666496 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hya25vwaJ2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hya25vwaJ2">Xanax mini bars 2mg  x500</a><br/>
+                    <span class="description-preview">500x Pressed Xanax Mini bars
+
+Don&#39;t let the size of these small bars fool you, they pack a punch and have just as much Alprazolam as the Pfizer 2mg bars and sometimes even a tad more due to tablet  ...</span>
+                </td>
+                <td>1.65998981 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/Nj9PS4oCAp">50g Lidocaine HCl safe cutting agent</a><br/>
+                    <span class="description-preview">This listing is for 50g of Lidocaine HCl powder 99.8% pure.
+Brings on a nice slow numbing and doesn&#39;t have an extremely bitter taste.
+Stretch out those bricks inconspicuously and give it that signa ...</span>
+                </td>
+                <td>0.14386578 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cyYhdSB49l.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cyYhdSB49l">10mL 200mg/mL Trenbolone Enanthate</a><br/>
+                    <span class="description-preview">10mL vial of Trenbolone Enanthate from Atlantic Laboratories dosage is 200mg/mL.
+
+Very smooth, painless and clean gear, made with grapeseed oil. This is the best stuff around and has lots of happy  ...</span>
+                </td>
+                <td>0.22133197 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wMR1KVMuzP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wMR1KVMuzP">10mL 200mg/mL Testosterone Cypionate</a><br/>
+                    <span class="description-preview">10mL vial of Testosterone Cypionate from Atlantic Laboratories dosage is 200mg/mL.
+
+Very smooth, painless and clean gear, made with grapeseed oil. This is the best stuff around and has lots of happ ...</span>
+                </td>
+                <td>0.11066598 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/x1n83nXfyj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/x1n83nXfyj">10mL 250mg/mL Testosterone Enanthate</a><br/>
+                    <span class="description-preview">10mL vial of Testosterone Enanthate from Atlantic Laboratories dosage is 250mg/mL.
+
+Very smooth, painless and clean gear, made with grapeseed oil. This is the best stuff around and has lots of happ ...</span>
+                </td>
+                <td>0.11066598 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Magic_Man" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Magic_Man</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Magic_Man'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

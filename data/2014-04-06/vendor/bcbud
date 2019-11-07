@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>bcbud</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>bcbud</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQENBFL/kBEBCADZ6LOe+aNXHaFklvAiL08ViEI9yQpvEidCqD/+t9WeUyMV2orJ<br/>MUVoyczFSW22ZGcyd9kG2qetg6RAhhs+6OWyE3E8h4W+KOEHr0NN6prllFgm/fyl<br/>XzgssEHxuvGNybNamvbgw9qj3LoBDIUhDfoaPeAc3p+Ml3swaB5MWNAHdAnCs4WK<br/>MO+nrngVHgX8uXsP4UIHqSVZpKsJzazwWSf6sd77ZjZVNCl3WAC9sC7BPYZVaC7R<br/>w5K45NoG6XUliLn78z76BF/yfW1YfAVDdaqnmOzTdaRVIhrnjMMWE4wphDDuUSZE<br/>ZTngonY9jgIB7Zp6gmCFSC3d7PNS7RHHc3J7ABEBAAG0FmJjYnVkIDxiY2J1ZEBi<br/>Y2J1ZC5jYT6JATcEEwEKACEFAlL/kBECGwMFCwkIBwMFFQoJCAsFFgIDAQACHgEC<br/>F4AACgkQPKtydFmeTF5g8gf/fFyVzXuUZO8DRfxz9CO9MUgPY+2NGOFaaC5HeD98<br/>LTD+&#73;iSM/O+JF/Ke2rLP3MOp/jbozE6iJcqziYhvRNLylZ4vX8QPuXyoqv69TNb8<br/>coHi4AYu0rHGKi1uBLfRzCDb1kl7cKBOsH7yDhlu+j27JMnS+VC7skxjC5lickvD<br/>2GcD/Urreb8MLPEEiEjFAVjq6kldARyggE6PZ1XgjygrcDzqtziD6/fac/Gmsk+G<br/>yBOnmzVRTNia2NbzQWmRgaSDUMScz/DRUi8OF803wHhdI8s+2QKTNDdEa84Dbdq6<br/>aKXa1puNwkUrDYoAB55LyRX9KAryIxPkKdttvD7bKx3ovrkBDQRS/5ARAQgAuVX3<br/>gwoap659ed6zUi0vCNZ0BsWjpSNIevj3VGz0RX2tZVzK4+ygE9EXxv8LvCst5cke<br/>xHi8Pez5jeuQHUYgIAc095g6dFfoD9S30DKUPNw16anvGSo4EkJ3GFMsx3Ex0S9A<br/>mAb29al9gmmNgqsij6xLoT6Vr75sKn/5CryyZcyUR9ohBkc3WCUZtHLuTkfgdQ98<br/>H/0zMD+qovYR/WtW35qIrTZTUza9SDHiobUEC+WppS9gR2jPo+488e3syZOMR4nx<br/>6PAtqAig85/gLeF3gmb9lT63XeEVvSAorVujSurPf3EAwtGyrXvgiirwfsrdOV8E<br/>HaWkrovXtGZrZPdU8wARAQABiQEfBBgBCgAJBQJS/5ARAhsMAAoJEDyrcnRZnkxe<br/>gvwH/jK4a+NzAmO4V66m+E+WJpKKaEEHCp4zWPipldaZr78GU4zj/WK9Dg9yfxpa<br/>GdHhQ0KIO7c1ajcdLviH1bZruHAk0+Rkst5dMW2VqzARhLDFz9eUjatkFdM5nysV<br/>Kyk8XqPOqymLqGGTUka2sDSBjonw3VGjfRNqVbKX/BFdMRXnYN13KsQDsqm7YQWi<br/>Camcn0eJcXzoy+NJwSZTgZ1Dg/oup6PPrSaly6P+LQmGZieDv4SRNjgas9fHW4tQ<br/>lEqeHvS5H1agpMi7SmoOTuyBM4cg8BDg0LWI7zk38XHpiEindpSj6O80fuMGg4qk<br/>dEclb2YLvIAw2xmYhzzoCVqO6ns=<br/>=FYOL<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>same as late time ... great product, stealthy delivery, good customer service ... definately use this vendor!</td>
+                    
+                        <td>
+                            <a href="/p/XzNyqddYBe">
+                                1oz CriticalPlus 29grams Greenhouse BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>I would have given 5/5 but I was dissatisfied with how compressed the buds had got,other than that the stealth was good,order w</td>
+                    
+                        <td>
+                            <a href="/p/oybV1soi3q">
+                                1oz Master Kush AAA Indoor 29grams BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>stealth 10/10
+shipping 10/10
+communication 10/10
+product 12/10 (yes I love your jack so much!)
+
+overall USE THIS VENDOR/10</td>
+                    
+                        <td>
+                            <a href="/p/zkrEiMpNFB">
+                                1oz Jack Haze AAA Indoor 29grams BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>8 days to U.K. Product 10/10 Weight 10/10 Communication 10/10 Delivery 8/10 ;) (but it did come from Canada!!) USE THIS VENDOR.</td>
+                    
+                        <td>
+                            <a href="/p/zkrEiMpNFB">
+                                1oz Jack Haze AAA Indoor 29grams BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great shipping , smell and taste. the quality is top quality greenhouse grown. The high is a nice clear indica high. great prod</td>
+                    
+                        <td>
+                            <a href="/p/XzNyqddYBe">
+                                1oz CriticalPlus 29grams Greenhouse BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Was happy .. smooth/efficient .. and incredibly stealthy... had no idea what it was until I opened it!</td>
+                    
+                        <td>
+                            <a href="/p/DoKrq962o6">
+                                1oz Purple Kush AAA Indoor 29grams BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Everything top notch! Can&#39;t believe how stealthy your packaging is! Happy with the product too, think I&#39;ll re-order when I burn</td>
+                    
+                        <td>
+                            <a href="/p/zkrEiMpNFB">
+                                1oz Jack Haze AAA Indoor 29grams BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast, stealthy, and great product at a good price... everything I look for in a vendor! Pretty easy to talk to as well! Would d</td>
+                    
+                        <td>
+                            <a href="/p/XzNyqddYBe">
+                                1oz CriticalPlus 29grams Greenhouse BCBUD
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of bcbud:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/a29FSuSDug.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/a29FSuSDug">1.8oz Master Kush AAA Indoor 50grams BCBUD</a><br/>
+                    <span class="description-preview">Master Kush 
+
+Master Kush is a cross between Hindu Kush and Skunk. Heavily frosted it has a smooth smoke that mellows and relaxes the body. Potent, sweet, citrusy and earthy with subtle hints of pi ...</span>
+                </td>
+                <td>0.90308370 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide - Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/iBbu32diu5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/iBbu32diu5">1.8oz  Vintage2006 50grams Greenhouse BCBUD</a><br/>
+                    <span class="description-preview">Vintage 2006
+Lots of  flavor and  with a strong long lasting high.  An indica dominant, Indica/sativa hybrid with pronounced sativa elements. Popular medicinal strain.  It has a sweet citrusy smell  ...</span>
+                </td>
+                <td>0.81497797 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide - Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/DhaiDkwSEU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/DhaiDkwSEU">1.8oz Purple Kush AAA Indoor 50grams BCBUD</a><br/>
+                    <span class="description-preview">Purple Kush AAA Indoor
+
+This 100% indica from BC is a cross between Hindu Kush and Purple Afghani.  It has dark green dense buds with hints of  purple. This all indica strain has a spicy /  berry f ...</span>
+                </td>
+                <td>0.90308370 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/D1sy88613C.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/D1sy88613C">1oz Vintage2006 29grams Greenhouse BCBUD</a><br/>
+                    <span class="description-preview">Vintage 2006
+Lots of  flavor and  with a strong long lasting high.  An indica dominant, Indica/sativa hybrid with pronounced sativa elements. Popular medicinal strain.  It has a sweet citrusy smell  ...</span>
+                </td>
+                <td>0.44052863 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide - Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/oybV1soi3q.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/oybV1soi3q">1oz Master Kush AAA Indoor 29grams BCBUD</a><br/>
+                    <span class="description-preview">Master Kush 
+
+Master Kush is a cross between Hindu Kush and Skunk. Heavily frosted it has a smooth smoke that mellows and relaxes the body. Potent, sweet, citrusy and earthy with subtle hints of pi ...</span>
+                </td>
+                <td>0.49559471 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide - Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zkrEiMpNFB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zkrEiMpNFB">1oz Jack Haze AAA Indoor 29grams BCBUD</a><br/>
+                    <span class="description-preview">A cross between Jack Herer and Super Silver Haze, this is a sativa-dominant hybrid. Energizing and uplifting, racy and euphoric - great for daytime use, the strain is like drinking a strong cup of co ...</span>
+                </td>
+                <td>0.41850220 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide - Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/DoKrq962o6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/DoKrq962o6">1oz Purple Kush AAA Indoor 29grams BCBUD</a><br/>
+                    <span class="description-preview">Purple Kush AAA Indoor
+
+This 100% indica from BC is a cross between Hindu Kush and Purple Afghani.  It has dark green dense buds with hints of  purple. This all indica strain has a spicy /  berry f ...</span>
+                </td>
+                <td>0.49559471 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gESt9lUdkJ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gESt9lUdkJ">1.8oz Jack Haze AAA Indoor 50grams BCBUD</a><br/>
+                    <span class="description-preview">A cross between Jack Herer and Super Silver Haze, this is a sativa-dominant hybrid. Energizing and uplifting, racy and euphoric - great for daytime use, the strain is like drinking a strong cup of co ...</span>
+                </td>
+                <td>0.74889867 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide - Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mAfKRwEa69.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mAfKRwEa69">1.8oz Bubba Kush AAA Indoor 50grams BCBUD</a><br/>
+                    <span class="description-preview">Bubba Kush
+A sweet, earthy strain that is an indica dominant hybrid, Bubba Kush is a cross between Bubble Gum and Kush. It has an intense and relaxing high that starts in your head and moves down in ...</span>
+                </td>
+                <td>0.90308370 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide - Excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XzNyqddYBe.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XzNyqddYBe">1oz CriticalPlus 29grams Greenhouse BCBUD</a><br/>
+                    <span class="description-preview">Critical+
+
+One of Dinafem flagship varieties, which won the 1 st High Life Cup in Barcelona.  Intense fruity and skunky aroma, with great aftertaste. This indica dominant looks like a sativa with f ...</span>
+                </td>
+                <td>0.38546255 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/clkeZfGcVC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/clkeZfGcVC">1.8oz CriticalPlus 50grams Greenhouse BCBUD</a><br/>
+                    <span class="description-preview">Critical+
+
+Critical+ is an one of Dinafem flagship varieties, which won the 1 st High Life Cup in Barcelona.  Intense fruity and skunky aroma, with great aftertaste. This indica dominant looks like ...</span>
+                </td>
+                <td>0.70484581 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide excluding USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/P88Ea6rhZE.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/P88Ea6rhZE">1oz Bubba Kush AAA Indoor 29grams BCBUD</a><br/>
+                    <span class="description-preview">Bubba Kush
+A sweet, earthy strain that is an indica dominant hybrid, Bubba Kush is a cross between Bubble Gum and Kush. It has an intense and relaxing high that starts in your head and moves down in ...</span>
+                </td>
+                <td>0.49559471 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="bcbud" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to bcbud</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'bcbud'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

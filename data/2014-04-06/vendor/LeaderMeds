@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>LeaderMeds</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.83 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>LeaderMeds</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 14 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            ♚LeaderMeds here, consistently offering:<br/><br/>✔ Professional and reliable service<br/>✔ Prompt and friendly communication<br/>✔ 100% Re-Ship policy<br/>✔ High quality product. Always.<br/><br/>I have extreme attention for detail and an obsessive dedication for my work.<br/>Top that off with service and product that never disappoint and you&#39;ll have soon found your new favourite vendor :)<br/><br/>1. ✐ DEAR CUSTOMERS<br/>▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀<br/>✐ I post orders and answer questions within 48 hours Max.<br/>✐ My products are high quality stuff with long expire date.<br/>✐ My shipping method is safe and stealth, every package always reach their final destination.<br/><br/>2. ✉ MESSAGE<br/>▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀<br/>★ Please keep it short and only message us if it&#39;s really important.<br/>★ Questions about cryptocoins &amp; how to use the market etc. belong to the forums.<br/>★ We answer within 24 hours except for the weekends.<br/><br/>- Please use PGP to encrypt your address. This is not compulsory, though I do highly recommend it for your safety.<br/>- My PGP key can be found at the bottom of this page.<br/><br/>3. ✈ SHIPPING<br/>▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀<br/><br/>★ Via Uk re-shipping almost 100% to EU<br/>Sweden, Finland, Denmark, Austria, Czech, Poland, Switzerland, Ireland, Canada please use a UK based remailer service<br/>www.myukmailbox.com<br/><br/>MyUKmailbox.com will give you a UK mailbox address and then forward it from UK to your country...This increases delivery success rates as UK mailed packs enjoy very high success rates.<br/><br/>★ FOR ALL ORDERS SEND FROM INDIA.<br/>★ ALL orders are send from INDIA but sometimes we send from EU (Thank you to keep this information for you and not the revealed elsewhere).<br/>★ We offer delivery guarantee - one reshipment, if order is lost or seized by customs.<br/><br/>Its very important to give us correct mailing address. Include Apartment/Unit number and postal codes for faster delivery.<br/><br/>EMS requires sign on delivery so if you miss delivery you will have to collect your pack from local post office and ID may be needed. So its advisable to use real name or slightly mis-spelled name. <br/><br/>★ Tracking<br/><br/>use this url and copy the tracking code : http://www.indiapost.gov.in/tracking.aspx<br/><br/>4. ☑ REFUND<br/>▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀<br/>- In the extremely unlikely event your order were to not arrive, the below refund conditions apply:<br/>★ We send 100% reships. We do never give refunds. <br/>► 100% re-ship if the tracking states your order has not been delivered.<br/>► 0% refund if the tracking states &#39;Delivered&#39;<br/>► 0% refund if incorrect addressee info is used for order<br/><br/>Rest assured though, my customers ALWAYS receive their orders.<br/><br/>5. ☑ PRODUCTS / LISTINGS<br/>▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀<br/><br/>☆ BENZOS☆ <br/>☑ DIAZEPAM	VALIUM 10MG	CIPLA<br/>☑ ETIZOLAM	ETILAAM 1MG	INTAS<br/>☑ ZALEPLON-10MG	SONATA-10MG	TORRENT<br/>☑ ALPRAZOLAM 1MG	XANAX-1MG	CIPLA<br/>☑ ALPRAZOLAM 1.5MG	XANAX -1.5MG	INTAS<br/>☑ ALPRAZOLAM 1MG	XANAX-1MG 	LUPIN<br/>☑ CHLORDIAZEPEXIDE-25	LIBRIUM/MITRAX	MERIND<br/>☑ DIAZEPAM 5MG	VALIUM-5MG	CIPLA<br/>☑ ZOLPIDEM 10MG	AMBIAN-10MG	CIPLA<br/>☑ ZOPICON 7.5MG	IMOVANE-7.5MG	INTAS<br/>☑ TRAMADOL 50	ULTRAM-50	CIPLA<br/>☑ NELBUPHINE AMPULE	NUBIAN 	DR.REDDY<br/>☑ TRAMADOL 100	ULTRAM-100	CIPLA/INTAS<br/>☑ CARIOSOPRODOL	SOMA-350	SIGNATURE<br/>☑ LORAZEPAM 1MG	ATIWAN-1MG	CIPLA<br/>☑ LORAZEPAM 2MG	ATIWAN-2MG	CIPLA<br/>☑ CLONAZEPAM 2MG	RIVOTRIL 2MG	ABBOTT (BRAND<br/>☑ CLONAZEPAM 1MG	RIVOTRIL 1MG	ABBOTT/INTAS<br/>☑ MODAFINIL 200MG	PROVIGIL-200	SUN/SIGNATURE<br/>☑ ARMODAFINIL-150	NUVIGIL-200	EMCURE/SUN<br/>☑ PHENOBARBITONE	GARDENAL-60MG	ABBOTT<br/>☑ EPHEDRINE 48MG	EPHEDRINE	PFIZER<br/>☑ PSEUDOEPHEDRINE-60MG	+PARA+CETRIZINE	CIPLA<br/>☑ NITRAZEPAM-10MG	GENERIC MOGADONE... 10MG	BIOMED<br/>☑ NITRAZEPAM 5MG	MOGADONE... 5MG	SUN<br/>☑ ESZOPICLONE -2MG	LUNESTA-2MG	SUN<br/>☑ PROMETHAZINE TABLETS	PHENARGAN-25	CIPLA<br/>☑ AMITRIPTYLINE 25	ENDEP/TRYPTOMER	MERIND<br/>☑ AMITRIPTYLINE +CHLORDIAZEPEXIDE	LIMBITROL	MERIND<br/>☑ DEXTROPROPOXYPHENE-65MG	DERVOCET-N/DARVON	CIPLA<br/>☑ CLOBAZAM 20MG	FRISIUM/URBANOL	PFIZER/INTAS<br/><br/>☆ Erectyle Dysfunction ☆<br/>☑ Kamagra Effervescent &reg; (7x1) 	Sildenafil Effervescent 100mg				100mg<br/>☑ Kamagra POLO (1x7 Polo)	Sildenafil 100mg ( IN POLO SHAPE)				100mg<br/>☑ Kamagra&reg; 100mg Tablet	Sildenafil 100mg 				100mg<br/>☑ Kamagra&reg; Oral Jelly	Sildenafil Oral Jelly				100mg<br/>☑ Kamagra&reg; Soft Tablet	Sildenafil Soft Tablet				100mg<br/>☑ Suhagra&reg; 100mg ( 1 x 4 tablet)	Sildenafil 100mg			<br/>☑ Suhagra&reg; 50mg ( 1 x 4 Tablet )	Sildenafil 100mg			<br/>☑ Super P Force Sildenafil 100mg + Dapoxetine 60mg			<br/><br/>☑ Levitra 20mg	Vardenafil 20mg			<br/>☑ Levitra 20mg + Priligy 60mg 	Vardanafil  20mg + Dapoxetine 60mg			<br/>☑ Levitra 40mg	Vardenafil 40mg			<br/>☑ Levitra Professional 20mg	Vardenafil Professional 20mg			<br/><br/>☆ Biological Hormones ☆		<br/>☑ Ovidac/hucog	Hcg-2000	2000iu	Cadila<br/>☑ Ovidac/hucog	Hcg-5000	5000iu	Cadila<br/>☑ Ovidac/hucog	Hcg-10000	10000 Iu	Cadila<br/>☑ Menodac/hmg	Menotrophin	150 Iu	Cadila<br/>☑ Vitagon	Hcg	5000iu	Alpha Pharma<br/><br/>☆ Other ☆<br/>☑ Alphagra	Sildenafil Citrate	100mg	Alpha Pharma<br/>☑ Kamagra-100	Sildenafil Citrate	100mg	Ajanta Pharma<br/>☑ Vigora-100	Sildenafil Citrate	100mg	German<br/>☑ Silagra-100	Sildenafil Citrate	100mg	Cipla<br/>☑ Vega-100	Sildenafil Citrate	100mg	Siganture<br/>☑ Penegra-100	Sildenafil Citrate	100mg	Cadila<br/>☑ Caverta-100mg	Sildenafil Citrate	100mg	Ranbaxy<br/>☑ Cobra-120	Sildenafil Citrate	120mg	Siganture<br/>☑ Cenforce-100	Sildenafil Citrate	100mg	Centurion<br/>☑ Cenforce-150	Sildenafil Citrate	150mg	Centurion<br/>☑ Tadacip-20	Tadalfil-20	20mg	Cipla<br/>☑ Tadalfil-5	Tadalfil-5	5mg	Centurion<br/>☑ Tadalfil-10	Tadalfil-10	10mg	Centurion<br/>☑ Tadalfil-20	Tadalfil-20	20mg	Centurion<br/>☑ Tadalfil-40<br/>☑ Tadalfil-40	40mg	Centurion<br/>☑ Tadalfil-60	Tadalfil-60	60mg	Centurion<br/>☑ Vardenafil-10	Vardenafil-10	10mg	Centurion<br/>☑ Vardenafil-20	Vardenafil-20	20mg	Centurion<br/>☑ Altamofen	Tamoxifen Citrate	20mg	Alpha Pharma<br/>☑ Tamofen	Tamoxifen Citrate	20mg	Khandelwal<br/>☑ Tamoxifen	Tamoxifen Citrate	20mg	Dabur<br/>☑ Anazole	Anastrozole	1mg	Alpha Pharma<br/>☑ Anabrez	Anastrozole	1mg	Sun Pharma<br/>☑ Anaboln	Anastrozole	1mg	Zeventus<br/>☑ Astralean	Clenbuterol Hcl	40mcg	Alpha Pharma<br/>☑ Clenbuterol	Clenbuterol Hcl	40mg	Asia Pharma<br/>☑ Clenbuterol	Clenbuterol Hcl	60mg	Tiger  Pharma<br/>☑ Letromina	Letrozole Citrate	2.5mg	Alpha Pharma<br/>☑ Letrozole	Letrozole Citrate	2.5mg	Natco<br/>☑ Modafin	Modafinil	200mg	Alpha Pharma<br/>☑ Modvigil-200	Modafinil	200mg	Siganture<br/>☑ Modalert-200	Modafinil	200mg	Sun  Pharma<br/>☑ Modalert-100	Modafinil	100mg	Sun  Pharma<br/>☑ Promifen	Clomiphene Citrate	50mg	Alpha Pharma<br/>☑ Clomi-50	Clomiphene Citrate	50mg	Sunrise<br/>☑ Clomi-100	Clomiphene Citrate	100mg	Sunrise<br/>☑ Ovamide-50	Clomiphene Citrate	50mg	Centurion<br/>☑ Ovamide-100	Clomiphene Citrate	100mg	Centurion<br/>☑ Thyro3	Thyroid Liothyronine (t3)	25mcg	Alpha Pharma<br/>☑ Eltroxin	Thyroid Liothyroxine (t3)	25mcg	Glaxo<br/>☑ Eltroxin	Thyroid Liothyroxine (t3)	50mcg	Glaxo<br/>☑ Eltroxin	Thyroid Liothyroxine (t3)	100mcg	Glaxo<br/>☑ Danazol-25	Danazol	25mg	Cipla<br/>☑ Danazol-50	Danazol	50mg	Cipla<br/>☑ Danazol-100	Danazol	100mg	Cipla<br/>☑ Ephidrine	Ephedrine 48mg+theophylin	48+198mg	Pfizer<br/>☑ Asthalin 8mg	Salbutamol	8mg	Cipla<br/>☑ Sibutramine	Sibutramine	15mg	Biochem<br/>☑ Orlistat	Orlistat-60mg	60mg	German<br/>☑ Orlistat	Orlistat-120mg	120mg	German<br/>☑ Somatropin Injection	Somatropine	4 Iu	Ranbaxy<br/>☑ Cabergolin-0.25mg	Cabergolin	0.25mg	Sun  Pharma<br/>☑ Cabergolin-0.5mg	Cabergolin	0.5mg	Sun  Pharma<br/>☑ Cabergolin-1mg	Cabergolin	1mg	Sun  Pharma<br/>☑ Bromocriptine	Bromocriptine	1.25mg	Glaxo<br/>☑ Bromocriptine	Bromocriptine	2.5mg	Glaxo<br/>☑ Somatropin Injection	Somatropine	18 Iu	Eli-lily<br/>☑ Somatropin Injection	Somatropine	36 Iu	Eli-lily<br/>☑ Somatropin Injection	Somatropine	12 Iu	Pharmacia-upjohn<br/>☑ Somatropin Injection	Somatropine	16 Iu	Pharmacia-upjohn<br/>☑ Somatropin Injection	Somatropine	36 Iu	Pharmacia-upjohn<br/><br/>6. ✍ CONTACT<br/>▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀<br/>If you have any further questions, please don&#39;t hesitate to message me.<br/>I&#39;ll be more than happy to help, plus I love getting to know my customers :)<br/><br/>Should this market suddenly become unavailable, you will be able to reach me at Leadermeds@bitmessage.ch<br/><br/>I look forward to doing business with you all :)<br/><br/>LeaderMeds ✌ <br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1<br/><br/>mQINBFLQYnABEACpmbW6ifrlrO22ihCn+heRphLGJA+phJIa4wY0gGCBaZNjP48o<br/>qDpdhsbJo07SLTe8916fOcfQDV5N0xmtVnoe44ScrauvsKTkJJ6lR9y5NBfF1FTD<br/>w8gzpEbD/n6QXPfkXgX3r6Q7I5Q8IjfmUbsvdY0bPVHdeEcAg6wiu+La8K+6SM4N<br/>RMaOqImZ/wrxQQDPUh5ijiP9BCuY2cTfOum7Y3WE2bWjWx97FBCpsSAUZ62ohNPD<br/>WfKPbo8fHDFn8RrrNWXblqruBDDaa9aEqsAkFt3Wt32uikwhqXZqorkEgmWng9Rv<br/>vtCVzYLSxHPEvfSN+bW8ORF+qyuoYlUQSS91EzORZ0WVfUG0ny12xiNDX+Jz8mhz<br/>J4EbU90WN0v9PS6gQxwiEGKtmReTvM95blf5vIVsD8aypNYFEykRPGx7UBCnyNZO<br/>R/CN+uZR16jbqK/Az++xCminVcxMkU5LetC3AzBrPWhDHgTny6qn3MOz6JRdh0Ef<br/>Irh123sbmBS29CmAPJoTMUxGIZ4vHOV8TDmSdybDkfYzSvwDX8Jaf2P37iFXG8u3<br/>CUYukkESHLV4C7DKyL/HiflI6kEbIdNVb3Nl5WxLNHYDVBqwCBmeZxuzOs7nLGpw<br/>7DCrReanduEI6pwvc+KdOjPZ/e28Pm4eU6E+f6CFvZa1ntp2Wjjh4GeIcwARAQAB<br/>tCVMZWFkZXJNZWRzIDxMZWFkZXJNZWRzQGJpdG1lc3NhZ2UuY2g+iQI2BBMBCgAg<br/>BQJS0GJwAhsDBQsJCAcDBRUKCQgLBBYCAQACHgECF4AACgkQJEStT8lAVFxgDw//<br/>X8C&#73;IsBVP9AGDu3CYEI0QPwI7qwktfdV6HvxuCyyLq6AGmv56TG3nIkPYi4andnt<br/>kIX/DtB1vsy68mJIJ/gWmsEiorH0PAtEeNZHoM8p613crXNbcxDSxl589DoL+H4W<br/>SPyMdsoIrzh0X0LT16mC5E7C6m+FQROBK0KYJQqbzVN8wNCzMnocamMbTBVw+K5h<br/>2rpxvgDvghBw/cWElzcIbDjvT0YPdBETAAf4Zn73RkvDdcz4Dl3J+jhFhe72qPJs<br/>0ef4U43pOcgV0OlyVJwBn99MQOoA8bRbcBH3VVf1yHrIFdlIjipIV1PJBudak1qG<br/>EqrvzmjK64WVpZVPYMgvpbilXIgDuzqDUE26qyTozQJa8ZjQLAWIFYVqFbrbEPav<br/>JsqImlKfT+tSqObebqExobwp5ZkMr0MLMeJkFB20709meqI/YGLYLKxpHOk6SsiW<br/>1PyfWRGw2lpHUMTQ/pmARIOOM16M8klQMvaZbHT1pVCsIXFhVzFUedAJlmnUfEX1<br/>w0w19a+FyC8pxMbtKYfLahPeCc3Vl0ImQUQ2xuj8Uw0BT9&#115;QlY3JCyoiV3iD8jWl<br/>ZVN13lldDBuL7Xc9WnzNHDA2sOuL5hnxI83x5KPfnX3MySoMcxe9Bx4kOua/ias1<br/>vxbWH3pHASy4oX+nSRty0O5j55Jg3wMRrz/ylmz4CQW5Ag0EUtBicAEQANZ/dQ+d<br/>7u4QG+LtJVw0Q2TO+xXfeDbDDKCRhuxx9gOXRvFFxqPodAeS3rTRwfkZHYg0ZWtf<br/>i1uujwYIlHXxRBFDyJjgaS+0MxK/xXU55s3bNgVaZhQdh2iakJnfZ+334H721w5Q<br/>YZvHWGlhdHjGxdarK2Eauw9CtJ2W56a37+zns/uMPQvuVZvREJNSy64zmdYTXW4q<br/>WwepgvQP9kOwsrbAGlQoRDD9hcMJSPavpjhtqcXp2CeNCaGW47psDh6jJqzdsIKV<br/>&#77;vCSzWZaDXAljSGc/VHkDMlqG3K+oGdTt8kGYZOI7hyqwblb0FsbYJ71n3pv+Lw2<br/>zkm7nkwVvetYA/+YXO3X03W6wft2TiDKCQV1HanIrwqOhNkjNXDwQQy31TrOzOZQ<br/>g1zbftusYf7ahtZaoZ08gH5A30m3DjWGKnObys5Ocm0o5uzS8vA4RWa4/H5FOj5n<br/>FBS59rMDvBidoejHySjxz3PRBRGEL1dfV6eZPsk2IOcymlbZig00TKLa1KEUM1p5<br/>mzxjGVIrIGFt3qnFSQHvJT6ZUTBjo3OblEGrJkO2q4M1aC1mXPmlVIepl3wG59OQ<br/>KksaQIaC3B6BHF4+0G+/EvtxcjUcWrVOc7jHxrSPXAVpv3pRrQNMnI7ghWN9wmw1<br/>VBSzg9qyGzRlC4XMX4nU4j4T0NoyB7vOYMQrABEBAAGJAh8EGAEKAAkFAlLQYnAC<br/>GwwACgkQJEStT8lAVFycdQ//c2kIzn0IJ2J1k1dGo7ufPLklTcbMBR8TJ/FEpwQW<br/>j7nDQBBzMMJmgfeJOixx1SEWknZcmsDEW0U9esOg64V2AFZc5GnxSX6lZFteb16b<br/>igMgS3nLau4oWiTAF9Q2vF+cy0i2muNQwwI3beEMQFWXQ8pVAFo+KonosaSfRxrV<br/>R0WbSwCFzgXowG6ftFWyhTsKUTJL3hFyrMxqAEpKS0W78IIhUC4PF7Js2FdXGVuH<br/>U3q6JlYW/x2wu2PZ5Ay6tBm0XYm0y4+P5epvnfhW5haCGW3iPTz17MNmVEVxj6Ub<br/>Y3j/0uYgxtb+AkejL19fThrCqiCuTmDZ2JqcDqqLhOPeKNa5QVahhJjad2DXIgLk<br/>uBG4DCqWL3foCQRyvey7OCIM/wl1cGYsIPLR42DRWqRF3Fnnhj7FcYTabNgEDpsZ<br/>YkZMAT8OU9IB5t2HOa7xEB0iNA5MSnRaiLX2r2h4GXYGx4IjbhfNl08t1KB0n15A<br/>XKdCSoKn6GYC4s8amps2hMK/HHONrEGb2ZoMBDskIowBns4jArC0jdD95hYpERJ8<br/>3W1MY3BY/0OKrEAKtmdHsUKJYxttk5dB8QeV+zuvT85A4JiaGNWb8BdM/fPfWwfX<br/>cd1rHxX1rBwKhLvNbYdlgMKZlhPTzSfjzhsP86YZfzxjL5GVaIG1nxLOqGZq/Fpz<br/>ca8=<br/>=7cIM<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good communication, fast delivery, no FE asked. Will order again.</td>
+                    
+                        <td>
+                            <a href="/p/bzJn59mT8L">
+                                Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 4 Pills
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of LeaderMeds:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CNgWJCfSch.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CNgWJCfSch">Valium 10mg (Generic Diazepam) Zepose 10mg x 10 Pills</a><br/>
+                    <span class="description-preview">VALIUM--DIAZEPAM 10 mg (Zepose brand made by Cipla)
+
+Brand Name : ZEPOSE/ VALIUM
+Generic Name : Diazepam 10mg
+Manufactured by : Cipla
+
+Valium is commonly used to treat anxiety, panic attacks, i ...</span>
+                </td>
+                <td>0.04426345 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/oljaCqt9Pk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/oljaCqt9Pk">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 84 Sachets</a><br/>
+                    <span class="description-preview">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 84 Sachets</span>
+                </td>
+                <td>0.44706090 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lsrkxDvblD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lsrkxDvblD">Etizolam 1mg - Intas - Etilaam 1mg x 200 Pills</a><br/>
+                    <span class="description-preview">Brand Name : ETILAAM
+Generic Name : Etilaam 1mg
+Manufactured by : Intas Pharma
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Etizolam (marketed under the br ...</span>
+                </td>
+                <td>0.39394475 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/J8nFuK9dbd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/J8nFuK9dbd">Provigil (Generic Modafinil) Sun Pharma Modalert 200mg x 400 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Modalert
+Generic Name : Modafinil 200mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Modafinil is a wakefulness-p ...</span>
+                </td>
+                <td>0.88305594 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/keXhSgvodx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/keXhSgvodx">Valium 10mg (Generic Diazepam) Zepose 10mg x 200 Pills</a><br/>
+                    <span class="description-preview">VALIUM--DIAZEPAM 10 mg (Zepose brand made by Cipla)
+
+Brand Name : ZEPOSE/ VALIUM
+Generic Name : Diazepam 10mg
+Manufactured by : Cipla
+
+Valium is commonly used to treat anxiety, panic attacks, i ...</span>
+                </td>
+                <td>0.37181303 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ard0NAZ6Fn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ard0NAZ6Fn">Provigil (Generic Modafinil) Sun Pharma Modalert 200mg x 200 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Modalert
+Generic Name : Modafinil 200mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Modafinil is a wakefulness-p ...</span>
+                </td>
+                <td>0.44042138 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/r5JAs48T1S.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/r5JAs48T1S">Etizolam 1mg - Intas - Etilaam 1mg x 300 Pills</a><br/>
+                    <span class="description-preview">Brand Name : ETILAAM
+Generic Name : Etilaam 1mg
+Manufactured by : Intas Pharma
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Etizolam (marketed under the br ...</span>
+                </td>
+                <td>0.59091713 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/J3MFCtMJuK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/J3MFCtMJuK">10mg Pure Alprazolam Powder (Xanax) SAMPLE - From EU</a><br/>
+                    <span class="description-preview">Welcome !
+
+This stuff is for check my Pure Alprazolam Powder Quality !
+
+10mg of Alprazolam = 5 Xanax 2mg bars.
+
+Thank&#39;s</span>
+                </td>
+                <td>0.00221317 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nXMrGRJm5r.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nXMrGRJm5r">Provigil (Generic Modafinil) Sun Pharma Modalert 200mg x 100 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Modalert
+Generic Name : Modafinil 200mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Modafinil is a wakefulness-p ...</span>
+                </td>
+                <td>0.16045502 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Bwzm3TBUMG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Bwzm3TBUMG">1 gram Pure Alprazolam Powder (Xanax) - From EU</a><br/>
+                    <span class="description-preview">Welcome !
+
+Our Alprazolam powder shipped safely to you from EU,
+
+1000mg of Alprazolam = 500 Xanax 2mg bars.
+
+Thank&#39;s</span>
+                </td>
+                <td>0.17705382 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zkeSzVsPJC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zkeSzVsPJC">Xanax 1mg (Generic Alprazolam) Cipla Tranax 1mg x 10 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Trika or Tranax
+Generic Name : Alprazolam 1mg
+Manufactured by : Cipla
+
+Alprazolam is used to treat anxiety disorders and panic disorder (sudden, unexpected attacks of extreme fear an ...</span>
+                </td>
+                <td>0.02213172 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/N6t2n9FemF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/N6t2n9FemF">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 80 Pills</a><br/>
+                    <span class="description-preview">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 80 Pills
+
+Tadacip is used to treat impotence (erectile dysfunction). This medication relaxes muscles in the penis and increases blood flow in  ...</span>
+                </td>
+                <td>0.21025141 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pbFmneteuA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pbFmneteuA">Nuvigil 150mg (Generic Armodafinil) Sun Pharma Waklert 150mg x 300 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Waklert
+Generic Name : Armodafinil 150mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Armodafinil is a wakefulnes ...</span>
+                </td>
+                <td>0.66173866 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ycCq2dDDMC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ycCq2dDDMC">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 21 Sachets</a><br/>
+                    <span class="description-preview">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 21 Sachets</span>
+                </td>
+                <td>0.11287181 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BmFkz8MDBi.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BmFkz8MDBi">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 40 Pills</a><br/>
+                    <span class="description-preview">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 40 Pills
+
+Tadacip is used to treat impotence (erectile dysfunction). This medication relaxes muscles in the penis and increases blood flow in  ...</span>
+                </td>
+                <td>0.10401912 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bxNyxfVuRx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bxNyxfVuRx">Valium 10mg (Generic Diazepam) Zepose 10mg x 100 Pills</a><br/>
+                    <span class="description-preview">VALIUM--DIAZEPAM 10 mg (Zepose brand made by Cipla)
+
+Brand Name : ZEPOSE/ VALIUM
+Generic Name : Diazepam 10mg
+Manufactured by : Cipla
+
+Valium is commonly used to treat anxiety, panic attacks, i ...</span>
+                </td>
+                <td>0.18590651 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jjhiuSquea.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jjhiuSquea">Valium 10mg (Generic Diazepam) Zepose 10mg x 300 Pills</a><br/>
+                    <span class="description-preview">VALIUM--DIAZEPAM 10 mg (Zepose brand made by Cipla)
+
+Brand Name : ZEPOSE/ VALIUM
+Generic Name : Diazepam 10mg
+Manufactured by : Cipla
+
+Valium is commonly used to treat anxiety, panic attacks, i ...</span>
+                </td>
+                <td>0.55771954 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AET8qu2tFV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AET8qu2tFV">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 160 Pills</a><br/>
+                    <span class="description-preview">Tadacip / Cialis 20mg (Generic Tadalafil) Cipla 20mg x 160 Pills
+
+Tadacip is used to treat impotence (erectile dysfunction). This medication relaxes muscles in the penis and increases blood flow in ...</span>
+                </td>
+                <td>0.42050283 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bzJn59mT8L.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bzJn59mT8L">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 4 Pills</a><br/>
+                    <span class="description-preview">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 4 Pills</span>
+                </td>
+                <td>0.01106586 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/berAZuh3n7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/berAZuh3n7">Provigil (Generic Modafinil) Sun Pharma Modalert 200mg x 300 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Modalert
+Generic Name : Modafinil 200mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Modafinil is a wakefulness-p ...</span>
+                </td>
+                <td>0.66173866 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/K4yqk8ziDA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/K4yqk8ziDA">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 168 Sachets</a><br/>
+                    <span class="description-preview">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 168 Sachets</span>
+                </td>
+                <td>0.89633498 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Mf2nk6haJu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Mf2nk6haJu">Valium 10mg (Generic Diazepam) Zepose 10mg x 60 Pills</a><br/>
+                    <span class="description-preview">VALIUM--DIAZEPAM 10 mg (Zepose brand made by Cipla)
+
+Brand Name : ZEPOSE/ VALIUM
+Generic Name : Diazepam 10mg
+Manufactured by : Cipla
+
+Valium is commonly used to treat anxiety, panic attacks, i ...</span>
+                </td>
+                <td>0.12172450 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zTxlvL3ST7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zTxlvL3ST7">Nuvigil 150mg (Generic Armodafinil) Sun Pharma Waklert 150mg x 200 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Waklert
+Generic Name : Armodafinil 150mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Armodafinil is a wakefulnes ...</span>
+                </td>
+                <td>0.44042138 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bg8cZdBosM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bg8cZdBosM">Etizolam 1mg - Intas - Etilaam 1mg x 100 Pills</a><br/>
+                    <span class="description-preview">Brand Name : ETILAAM
+Generic Name : Etilaam 1mg
+Manufactured by : Intas Pharma
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Etizolam (marketed under the br ...</span>
+                </td>
+                <td>0.19697237 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yhDJ4XZhB8.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yhDJ4XZhB8">1/2 Gram Pure Alprazolam Powder (Xanax) - From EU</a><br/>
+                    <span class="description-preview">Welcome !
+
+Our Alprazolam powder shipped safely to you from EU,
+
+500mg of Alprazolam = 250 Xanax 2mg bars.
+
+Thank&#39;s</span>
+                </td>
+                <td>0.11065864 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Wn1gi9t1cr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Wn1gi9t1cr">Nuvigil 150mg (Generic Armodafinil) Sun Pharma Waklert 150mg x 100 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Waklert
+Generic Name : Armodafinil 150mg
+Manufactured by : SUN PHARMA
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Armodafinil is a wakefulnes ...</span>
+                </td>
+                <td>0.18811968 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CWsVJyu7Gu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CWsVJyu7Gu">Xanax 1mg (Generic Alprazolam) Cipla Tranax 1mg x 200 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Tranax
+Generic Name : Alprazolam 1mg
+Manufactured by : Cipla
+
+Alprazolam is used to treat anxiety disorders and panic disorder (sudden, unexpected attacks of extreme fear and worry a ...</span>
+                </td>
+                <td>0.36959985 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mZ5VvPzUpW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mZ5VvPzUpW">Xanax 1mg (Generic Alprazolam) Cipla Tranax 1mg x 100 Pills</a><br/>
+                    <span class="description-preview">Brand Name : Tranax
+Generic Name : Alprazolam 1mg
+Manufactured by : Cipla
+
+Alprazolam is used to treat anxiety disorders and panic disorder (sudden, unexpected attacks of extreme fear and worry a ...</span>
+                </td>
+                <td>0.18811968 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/u4ztBYfv3a.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/u4ztBYfv3a">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 42 Sachets</a><br/>
+                    <span class="description-preview">Kamagra Oral Jelly (Generic Sildenafil Citrate) Viagra Ajanta 100mg x 42 Sachets</span>
+                </td>
+                <td>0.22353045 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Jjs2xCTMqB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Jjs2xCTMqB">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 100 Pills</a><br/>
+                    <span class="description-preview">Kamagra / Viagra (Generic Sildenafil Citrate) Ajanta 100mg x 100 Pills</span>
+                </td>
+                <td>0.21025141 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kFg8sSc1PB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kFg8sSc1PB">Etizolam 1mg - Intas - Etilaam 1mg x 400 Pills</a><br/>
+                    <span class="description-preview">Brand Name : ETILAAM
+Generic Name : Etilaam 1mg
+Manufactured by : Intas Pharma
+
+Discreet Packing and tracking number provided. Shipped by EMS Express trackable.
+
+Etizolam (marketed under the br ...</span>
+                </td>
+                <td>0.79010269 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="LeaderMeds" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to LeaderMeds</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'LeaderMeds'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

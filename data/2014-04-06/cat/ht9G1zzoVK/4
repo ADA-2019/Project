@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>DMT</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 446.82 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/vheN9d2mMr">Drugs</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/xgBPEmdDdF">Psychedelics</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/ht9G1zzoVK">DMT</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/xgBPEmdDdF">Psychedelics</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/txoqJPieUB">2C<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iJeoNVx82a">5-MeO<span class="extra-caption"> (10+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/ht9G1zzoVK">DMT<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/S0SZTZKVhx">LSD<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/BUn0Jfz1r0">Mescaline<span class="extra-caption"> (20+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/LvrRKUaRyJ">Mushrooms<span class="extra-caption"> (60+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/cncgx1fb8i">NB<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sM9FbFelvg">Others<span class="extra-caption"> (50+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tgJ2A5Pz45">Salvia<span class="extra-caption"> (9)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/WhvYT1MElT">Spores<span class="extra-caption"> (10+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/ht9G1zzoVK/4" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link " href="/cat/ht9G1zzoVK/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/ht9G1zzoVK/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/ht9G1zzoVK/3"> 3 </a>
+        
+            <a class="page-link current-page" href="/cat/ht9G1zzoVK/4"> 4 </a>
+        
+            <a class="page-link " href="/cat/ht9G1zzoVK/5"> 5 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Mt1i2sioD4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Mt1i2sioD4">500g - Mimosa Hostilis (Powdered, High Yield, Mexico)</a><br/>
+                    <span class="description-preview">500g - Mimosa Hostilis rootbark, powdered, Mexico.
+
+High yield Mimosa Hostilis, the same as is used to make Moominman&#39;s legendary &quot;Ultra Clean DMT&quot;. Super clean, no defatting required for extractio ...</span>
+                </td>
+                <td>0.48340532 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/POL.png" /> Poland<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/b1g1mpact#"/>b1g1mpact</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/T2rfW8cUcN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/T2rfW8cUcN">1gr Changa Heaven (custom made)</a><br/>
+                    <span class="description-preview">For those who would like to personalize their Changa to their own taste and mood I have set up this listing. Here you can choose your favorite herbs and i will convert them into your personal Changa. ...</span>
+                </td>
+                <td>0.15980400 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Lucid_Gentleman#"/>Lucid_Gentleman</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SX3Mod2mFM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SX3Mod2mFM">4g for price of 3g - Changa - 100% Authentic Recipe</a><br/>
+                    <span class="description-preview">Full product description to follow, when I can get back in to SR.
+
+-----------------------------------------------------
+
+*** SPECIAL AGORA LAUNCH OFFER *** 4g of Changa for price of 3g ***
+
+Th ...</span>
+                </td>
+                <td>0.60425665 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/POL.png" /> Poland<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/b1g1mpact#"/>b1g1mpact</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nDAxWJL3TA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nDAxWJL3TA">1gr Extremely potent Changa (lucid journey)</a><br/>
+                    <span class="description-preview">When infused with particular herbs DMT evolves into an almost completely different experience. Electrically charged depth, colour and feeling ooze through you like a hot knife through butter, the her ...</span>
+                </td>
+                <td>0.13754900 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Lucid_Gentleman#"/>Lucid_Gentleman</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VLu24t5ugf.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VLu24t5ugf">0.5 gr of Changa &#39;The Salad&#39;</a><br/>
+                    <span class="description-preview">This blend contains:
+
+25% Morocooan Mint
+15% Jasmine Flowers
+15% Blue Lotus
+10% Damiana Leaves
+5% Lavender + 3 drops Lavender Tincture
+5% White Sage
+25% Full Spetrum harmalas extracted from S ...</span>
+                </td>
+                <td>0.07944855 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/gonz324#"/>gonz324</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ivogype65c.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ivogype65c">Changa Pack (large)</a><br/>
+                    <span class="description-preview">When infused with particular herbs DMT evolves into an almost completely different experience. Electrically charged depth, colour and feeling ooze through you like a hot knife through butter, the her ...</span>
+                </td>
+                <td>0.54972700 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Lucid_Gentleman#"/>Lucid_Gentleman</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Y6y8BdSoFe.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Y6y8BdSoFe">100g / ~4oz - Mimosa Hostilis (Powdered, High Yield, Mexico)</a><br/>
+                    <span class="description-preview">100g / ~4oz - Mimosa Hostilis rootbark, powdered, Mexico.
+
+High yield Mimosa Hostilis, the same as is used to make Moominman&#39;s legendary &quot;Ultra Clean DMT&quot;. Super clean, no defatting required for ex ...</span>
+                </td>
+                <td>0.14300740 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/POL.png" /> Poland<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/b1g1mpact#"/>b1g1mpact</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Rz561q0Emk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Rz561q0Emk">100mg super potent DMT</a><br/>
+                    <span class="description-preview">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ 
+100mg nn-DMT
+★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ 
+
+► Very pure and clean. Nice fluffy/sparkling crysta ...</span>
+                </td>
+                <td>0.04699773 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/p5CY0AVuzV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/p5CY0AVuzV">1 gr of Changa &#39;The Salad&#39;</a><br/>
+                    <span class="description-preview">This blend contains:
+
+25% Morocooan Mint
+15% Jasmine Flowers
+15% Blue Lotus
+10% Damiana Leaves
+5% Lavender + 3 drops Lavender Tincture
+5% White Sage
+25% Full Spetrum harmalas extracted from S ...</span>
+                </td>
+                <td>0.15442114 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: WW
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/gonz324#"/>gonz324</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/q88vNepCD0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/q88vNepCD0">250mg DMT-Fumarate</a><br/>
+                    <span class="description-preview">Very clean and potent DMT Fumarate ideal for oral use (Pharmahuasca), Sniffing and even iv.
+
+in combination with MAOI harmalas it will last much longer than a usual DMT-Freebase trip.
+just swallow ...</span>
+                </td>
+                <td>0.07161560 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: WW
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/gonz324#"/>gonz324</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CYj3j1mpuz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CYj3j1mpuz">1gr W-Anga (weed enhanced with dmt)</a><br/>
+                    <span class="description-preview">When infused with particular herbs DMT evolves into an almost completely different experience. Electrically charged depth, colour and feeling ooze through you like a hot knife through butter, the her ...</span>
+                </td>
+                <td>0.09000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Lucid_Gentleman#"/>Lucid_Gentleman</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/weeGvTNVcr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/weeGvTNVcr">250mg Authentic Dmt</a><br/>
+                    <span class="description-preview">...&quot;I think DMT is a forceable reminder that there&#39;s a lot more about reality, the universe, the biosphere and most of all our consiousness...there&#39;s a lot more to it than we can ever imagine. It see ...</span>
+                </td>
+                <td>0.06392200 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Lucid_Gentleman#"/>Lucid_Gentleman</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Njl8apXFG6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Njl8apXFG6">100mg - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.05236890 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/moominman#"/>moominman</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YE0U2Tt1q0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YE0U2Tt1q0">200mg High Quality nn-dmt (FE listing)</a><br/>
+                    <span class="description-preview">High quality nn-dmt especially formulated for open minds.  Check my profile for more info :)</span>
+                </td>
+                <td>0.04028377 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/RingoDeathstarr#"/>RingoDeathstarr</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Azh5k0CPVB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Azh5k0CPVB">1g - Changa - 100% Authentic Recipe</a><br/>
+                    <span class="description-preview">Full product description to follow, when I can get back in to SR.
+
+-----------------------------------------------------
+
+This is the best changa on the Darkweb. Most seems to look like brown gun ...</span>
+                </td>
+                <td>0.18127699 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/POL.png" /> Poland<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/b1g1mpact#"/>b1g1mpact</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cL55a6C0N1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cL55a6C0N1">100mg DMT Freebase</a><br/>
+                    <span class="description-preview">This is to offer my product for you if you wanna rather try before you buy a bigger amount
+You&#39;ll get 2 breakthrough doses of DMT for sampling my product
+
+Please only 1 order per customer
+
+Prduc ...</span>
+                </td>
+                <td>0.04475975 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/gonz324#"/>gonz324</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/uKZbPJjPJr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/uKZbPJjPJr">1g Changa blend #3 ❀ Tranquility ❀ (25% super potent DMT)</a><br/>
+                    <span class="description-preview">Changa blend #3 ❀ Tranquility ❀
+
+A blissful and relaxing changa blend made up of carefully selected ethnobotanical herbs for a soothing experience.
+
+✔ 25% DMT
+✔ 25% Calea Zacatechichi (Dream her ...</span>
+                </td>
+                <td>0.10518541 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UNAxgmGXC5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UNAxgmGXC5">0.5g Changa blend #1 ❂ Visualisation ❂ (25% super potent DMT)</a><br/>
+                    <span class="description-preview">Changa blend #1  ❂ Visualisation ❂
+
+We have found this changa blend to be very colourful and immersive. The most amazing spectrum of colours on kaleidoscope and visuals coming at 1,000mph on breakt ...</span>
+                </td>
+                <td>0.05594969 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/CzhG9EDUF0">4-AcO-DMT fumarate 500mg USA domestic, only USA</a><br/>
+                    <span class="description-preview">4-AcO-DMT fumarate 500mg purity 99.4% shipped from within USA - no customs, no problem and fast delivery.
+
+Tracking number provided.
+
+I&#39;m the same vendor as on SR2, please check my feedback there ...</span>
+                </td>
+                <td>0.17903900 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/swisshound78#"/>swisshound78</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hn2kqY4kKX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hn2kqY4kKX">1g Changa blend #2 ✮ Exploration ✮ (25% super potent DMT)</a><br/>
+                    <span class="description-preview">Changa blend #2 ✮ Exploration ✮
+
+This blend is recommended for the more experienced hyper-space enthusiast and definitely not for first timers! With this mix you will find a unique experience... ve ...</span>
+                </td>
+                <td>0.10518541 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lP5Gf3jnMK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lP5Gf3jnMK">50mg super potent DMT</a><br/>
+                    <span class="description-preview">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ 
+50mg nn-DMT
+★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ 
+
+► Very pure and clean. Nice fluffy/sparkling crystal ...</span>
+                </td>
+                <td>0.02797484 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LjCJ1W7PKD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LjCJ1W7PKD">1g - 100% Authentic Changa - 50% Ultra Clean DMT</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+Changa is a combination of traditional herbs, including a MAOI (Mono-amine oxidase inhibitor) covered in DMT, at a ratio of 1:1  ...</span>
+                </td>
+                <td>0.20141888 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/moominman#"/>moominman</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/GZfnhftTzq">4-AcO-DMT fumarate 1000mg USA domestic, only USA</a><br/>
+                    <span class="description-preview">4-AcO-DMT fumarate 1000mg purity 99.4% shipped from within USA - no customs, no problem and fast delivery.
+
+Tracking number provided.
+
+I&#39;m the same vendor as on SR2, please check my feedback ther ...</span>
+                </td>
+                <td>0.33569814 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA&amp;Canada
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/swisshound78#"/>swisshound78</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZvunAkCls3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZvunAkCls3">1g - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.32227021 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/moominman#"/>moominman</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aRJicwzz11.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aRJicwzz11">1g super potent DMT</a><br/>
+                    <span class="description-preview">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆
+1g nn-DMT
+★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆
+
+► Very pure and clean. Nice fluffy/sparkling crystals.
+ ...</span>
+                </td>
+                <td>0.29541436 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JxMJSwKYSi.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JxMJSwKYSi">1g Changa blend #1 ❂ Visualisation ❂ (25% super potent DMT)</a><br/>
+                    <span class="description-preview">Changa blend #1  ❂ Visualisation ❂
+
+We have found this changa blend to be very colourful and immersive. The most amazing spectrum of colours on kaleidoscope and visuals coming at 1,000mph on breakt ...</span>
+                </td>
+                <td>0.10518541 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rV2JAtetqN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rV2JAtetqN">250mg - Ultra Clean DMT - 100% Pure</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+My legendary ultra-clean DMT is made using ABR acid/base/rinse and freeze precipitation, rather than straight to base/evap. This ...</span>
+                </td>
+                <td>0.11189938 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/moominman#"/>moominman</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qRDWjgaS6M.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qRDWjgaS6M">0.5g super potent DMT</a><br/>
+                    <span class="description-preview">★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆
+0.5g nn-DMT
+★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆
+
+► Very pure and clean. Nice fluffy/sparkling crystals. ...</span>
+                </td>
+                <td>0.16784907 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KeithLemon#"/>KeithLemon</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Ygb2izPu9b.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Ygb2izPu9b">125mg PURE DMT</a><br/>
+                    <span class="description-preview">*SOLD OUT*-1x200mg listing available until re-stock
+
+
+Very pure and potent DMT is now available again.
+
+Extracted from very high quality Mimosa.
+
+This is very special spice at a great price.
+ ...</span>
+                </td>
+                <td>0.05594969 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tranzcentral#"/>Tranzcentral</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tAls6G5zS7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tAls6G5zS7">0.5g - 100% Authentic Changa - 50% Ultra Clean DMT</a><br/>
+                    <span class="description-preview">*** SPECIAL OFFER - BUY 3 GET 1 FREE - ULTRA CLEAN DMT &amp; CHANGA ***
+
+Changa is a combination of traditional herbs, including a MAOI (Mono-amine oxidase inhibitor) covered in DMT, at a ratio of 1:1  ...</span>
+                </td>
+                <td>0.12085133 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/moominman#"/>moominman</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link " href="/cat/ht9G1zzoVK/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/ht9G1zzoVK/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/ht9G1zzoVK/3"> 3 </a>
+            
+                <a class="page-link current-page" href="/cat/ht9G1zzoVK/4"> 4 </a>
+            
+                <a class="page-link " href="/cat/ht9G1zzoVK/5"> 5 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

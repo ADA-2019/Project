@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>FantasyPharmacy</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 449.99 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>FantasyPharmacy</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 2 days 14 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Please communicate with me through encrypted messages only.<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQINBFL9QaIBEACvUtlmXU3tOOTyOoepRT/ZE24UUNxixkhiDdqq/nfifs9ZkMZv<br/>fH6927tIrAlOoY+scZEdFupqRQDNt4KGuhl84Qvyf7zCapWlAcCiDgLMqF7wMNE0<br/>MGGn/F686OJ5KafdlFmloKtX11k8ixjmNUHhQOiLYWfhK5F0KLW0gh7+SMwKYZ8o<br/>CCR2Ty2VUwd0FFma8ovFk9zmZliOKFr5rcz953AEMNLhG+m1ae3hYZ2rN2Utj/3Z<br/>hY8jWZqEJg/V1xMkXkwHeNhe4+BuOrDgVZzmaNSTUNiPQVt5CPUQdqwtUeoGkYH+<br/>BBKZPXJ4RjVIHzKg6waXXSXJUsywbuOOQvfxUZuwigLa4zQELIJC/AI9CngLhYKO<br/>iT1shbyyIylFTwNoAdfxcnsC9SvAwz5Xl0Q3xbgozM9E961oARdnhwY/9nr0nXVB<br/>wIUNntyuKDDsIut+fgUfU8bd/MYQvmAgKIf0iQ7GGFE/gA0x6KMUBRvTf3MYPxyn<br/>5s5D93jWB895sLuHfGRf5jBf1LDfsg0S6ukBXKOqxDR3jQqkqGYDqbkZvoby9KDu<br/>8HbRF6EcbK4Wc6tVJmLVnKaWGSu2Z8ZPobtNIFaE2PQDYeEelCfPVkH8A6qyiexv<br/>oq03jttRQ2V11H4lLsaSzXAJlrw5PT0+X2U5jg6NPBnu4fjxoZWVLpG1MQARAQAB<br/>tA9GYW50YXN5UGhhcm1hY3mJAjcEEwEKACEFAlL9QaICGwMFCwkIBwMFFQoJCAsF<br/>FgIDAQACHgECF4AACgkQIolvlVbXz4PVFBAAi6A+szhO2tR7gUWmTbT0jz9uPTNe<br/>xcqHWL0AHiz8HtXCdxwnxJdByyGk7Ua7AKqDn/vp+9lur1+7L8asnma1BcI2EGLT<br/>cXnyT002A3NtYJYRtspMSZDeirnxFKOjaKRhxJi6LjtXv8QPzPDnxVpLOiuq3uNy<br/>PTSQMa58GU1CJA0NTVCePMrOCnt0byrMd4I5+EF7TpUHpkusUjuX4YrwC+6eBlQo<br/>7gdiXBG5Hou8OQziyO7UB9eTatGXxn+obd89pwRA8cXmBMS2N02FEMecpEK2sS87<br/>W4A78wl0jhdPRdTKWwVDMxuY2iqdM+vKLboaWw6+aqsWGvUTpS6XYL/FAMGiosVR<br/>nmCYnBHdinpUdBtfmPtVCvKbmw0xAFzojootwhgefLfAYyqoy0nifL/WAORtql95<br/>2Z/8wqs2QcOBx3vmpV/d1j9HsgYEpBKDG8F8t7ulF/UECN35Xsa5dKFLLb0oPaG1<br/>HxSx+5Pyk97Yo1vCjqRqUaRbzMKc2sXOCZozn081YOhwk15N8+0fhvg5Y3pFMUzW<br/>DmKElclcP84yPc6HYUxHQJqzXpl5J2SX1zmdWy8GlNZq2LQIG0XU076zuyoq5XrX<br/>RBQxrSLIp6ZiDCDFLq/9lT3GGNZIx7sLAyn853s/BSk8yjE8tB/+HKzlq3nFYgKd<br/>VOQdOOOc0/iiWHu5Ag0EUv1BogEQAKzwgRKtL21GgnkZ/uwZ7GucBWmCeK4PxxFe<br/>Xs7tO6s/BS8SjFTUYh5OOOoK5sgZPAjKf6TjcTkKimJPT6W8Y8s9IwlXSJZ5GQYe<br/>fBBQ/jmbYRExazCLXH4elQShJYV/2qgB/dyAy8YbaZ3C5UP1XiUxx/afAgsURLdn<br/>QGy5eH1j/+Qlef+CGAtf1JBocoiu5aj/qdlWe1mEWkbLV0PmovPZAGbIl0gFnP/W<br/>IHouVu8sGI7/PNi6cJDQJ85h023KkpIkXPVMnn1XD8JopIUJprL/HHrWaMn7TU8E<br/>BSo1PEETieU4OPHukg+X1Nlfv6x153SxJqk3bY1yb1eMmCODp2fg/B8ScuzhYxO4<br/>2+8CErCte/fQNng8X3Y8M0OnXHMLWIvzhgSfUPy+EL9NmFu2/eQPNJFLqYoFFi0+<br/>AyEbyqB2E4KVum02JbjsTS3EPxgX61tkft0FhCCVp4Y8T8MTuluraWsznuH8Zm40<br/>dnOoBam11zjE/73HOQLqKMU/HZzDfvNxXcYp9ZqwMx1AV2Ijpu3KnPd2nWEGc6cu<br/>y91N3CLGAA7aNszNP5QUK2OoMzUJOtyQVXcbEtWfQESRmcvNHTyZS2Xd+Ykn1Ob8<br/>mTD2LLiRjr/YxckT5fJfBN0QInLGXUVADVv5Na/YJl6Gqa17o8gEMzw2Gxt6DKUG<br/>3oosJv+VABEBAAGJAh8EGAEKAAkFAlL9QaICGwwACgkQIolvlVbXz4PxuxAAopiL<br/>wYlN/zO78Z1xArsQQWVBD971R+Fzp6TB0GcKSnVyFlTF5JxNcmHHqXndXpwfi2Zi<br/>ONxKJptCJHKXJbkrjayHoaA0APvPJTrAbejjeWRbXzzbPAOy+qox3Wghhsx+/nBs<br/>T8/eahQsTldRpLqOH3ve4T7gWp42WcCohANaGHZmZjlq2Z6evXfC6ldimDu1dJg0<br/>hNbRDPpr3gjvcz4a9+hcUM8oYIkJcxaqbwEDPyh3v3KzMqZx5JX7SBmfbYIzKiwI<br/>W3ppmswCShoiAfqaUCWGC+oUJGaT08NUM7nzFj6x0rosQ+MNdT395QIrEVTvROSO<br/>9a6bHvQ/wbQes2rDTgPxHOUyst4xqPgdIjSupbaFPj2crqud8kee260Ugihc6uO0<br/>HTtEs1s6QF/6T2Io2AEnuM0bdTdibaRQil21LwDdGXm++jAmGCLCjF+zn+wXqtQl<br/>9SrvY8H5Na1GLpfsRO8cBWq2LQ45kUTJw5BCp27toaWSLSZ9jSGKNEznC97ze7DM<br/>fyGeWSeMqwL4AJMNBzhugfHkDIqNrdo97jVgilxY+TLSbpDYidQ3b7K41FVGqz+e<br/>sAMlm76C5ZZkrXyjmndSzkOSrZ0cPYQnKO12wkApz6Gir51voi3BLRXj5C5rOByd<br/>vPSa8j1scJV/6DJj9RaSOLr36aJLAvlHWpsT3mU=<br/>=tVKO<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>ordered Tuesday, marked shipped Friday, actually shipped monday, received thursday. Subs not in wrappers. Otherwise all good. G</td>
+                    
+                        <td>
+                            <a href="/p/ViRRccdDWJ">
+                                10.25 Pieces: Suboxone 8/2 mg Strips
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>AWESOME VENNDOR!!</td>
+                    
+                        <td>
+                            <a href="/p/ViRRccdDWJ">
+                                10.25 Pieces: Suboxone 8/2 mg Strips
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All good, thank you.</td>
+                    
+                        <td>
+                            <a href="/p/ViRRccdDWJ">
+                                10.25 Pieces: Suboxone 8/2 mg Strips
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of FantasyPharmacy:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ViRRccdDWJ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ViRRccdDWJ">10.25 Pieces: Suboxone 8/2 mg Strips</a><br/>
+                    <span class="description-preview">This listing is for 10 Suboxone 8/2mg Strips, and comes with an EXTRA quarter strip as a free bonus!!
+
+&gt; No FE required, EVER (we do business pro&#112;erly, and don&#39;t need to ask our customers for their ...</span>
+                </td>
+                <td>0.33334074 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="FantasyPharmacy" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to FantasyPharmacy</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'FantasyPharmacy'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

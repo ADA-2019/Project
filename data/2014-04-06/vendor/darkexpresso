@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>darkexpresso</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>darkexpresso</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 18 days ago.
+        </div>
+        <div class="vendorbio-description">
+            sr1: darkexpresso <br/>TOP 1% of all vendors 100% positive feedback<br/><br/>sr2: darkexpresso <br/>Extremely lengthy site issues. Deactivated listings until support replies to pin reset request. 30+ days as of 2/11/14 without a single reply. Others claim longer waits sadly. Hope they sort out these issues. Until then I am here to stay.<br/><br/>pandora: darkweed (testing this site out, as well as agora) <br/><br/>I will do my best to supply and support, as both are equal in my opinion. -DE<br/><br/>Vendor as of 2/11/2014<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG C# v1.6.1.0<br/><br/>mQENBFLKrDABCACKzfinJpz0eo5nFNqGMCJ8xnMjMfKAgP7SNsjYFkhbcOI2bn0s<br/>Cm5Dp9z51Bur4I5c9kYVrA+jO5DmM1s5YnsnI/bWmehJeDbUf4MXYsLr+Z8BBw2Q<br/>DoPzSrwlo6ysZIcXwg24QmFQzYEeW3gPy6hvQjATmWSMCwep7zG0J0oWAF41YV+c<br/>IlBNwR4vISoJ9cru67gioqcx764icfGBMHoDpszPT6Zbl76b7f8JBbBkzDnMYkhq<br/>NyIDEqfgUkMOr/UdGytQgIPEq2N4aZFI6FOD1Ai2SxeCPWTkRtyavPTYKVOdH8kk<br/>FF1HUNb3+xuIEasw6bcPy9PnBqqJO6ZxYdUDABEBAAG0GnN0aWxsd2FpdGluZ0Bz<br/>YWZlLW1haWwubmV0iQEcBBABAgAGBQJSyqwwAAoJEGbT4ShaPT/7JgEH/Ak2zeKR<br/>+1uxfhHhZxL03g3gik9uQCOrRtZS/2CRVHA5F+Wp87Rfv04HUpfNgJRoCCjFyo4+<br/>5Sq4yLxiaP3+q+hJnDv47PDPDn0km/dan3ECUuG+ysvxybBcajtoWfiu&#89;iIKsGbv<br/>ZebvykybwyVWmsCZFAQZuyovXu+1JVeXmqSDcNjN3sk19VwWVzY+6cVQllKTENNq<br/>WY14jvZsdMII76t7UDjAROh327ULK6yjSpk8U7xB2A7p7GNOBgxsLbHSuP6UrCt2<br/>OT+63ePHAyh4tCLg4TmUc0RiBsf0108qRgcVOCuW+R8tMy8d7+T6wipcEpIQg5fI<br/>4fmmgX1JiyyEjbU=<br/>=cJ5e<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d for trusted vendor.  I will update with quality update.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>Received follow-up from DE. I am very confident we will easily come to a resolution.  He seems very professional!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>quick shipping and pretty decent smoke for the price</td>
+                    
+                        <td>
+                            <a href="/p/tRrinoY5kj">
+                                1 LB BLUE DREAM - Outdoor - STEALTH SHIPPING - No FE required
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great product, awesome stealth, prompt communication, and an overall perfect &#116;ransaction. Thanks!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This is the #1 BEST VENDOR. I ordered 1 gram, he sent me an eighball. Who does that!?! DA, you are the best and I will continue</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.06/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE early for long trusted vendor from SR. This Vendor can be trusted to the highest degree. Enough said.</td>
+                    
+                        <td>
+                            <a href="/p/PycWwB3DsE">
+                                20 x NORCO 10/325mg Hydrocodone 3601/V Insignia (yellow)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of darkexpresso:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/C63MaKgqZc">3.5 Grams COCAINE - EXCELLENT QUALITY - STEALTH SHIPPING -</a><br/>
+                    <span class="description-preview">3.5 Grams COCAINE - EXCELLENT QUALITY - STEALTH SHIPPING -</span>
+                </td>
+                <td>0.65934065 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/ugbaYew7KE">meds4less custom</a><br/>
+                    <span class="description-preview">custom</span>
+                </td>
+                <td>5.27472527 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/h3g5skvfhA">HP  Sour Diesel - Green House -Stealth Immediate Shipping</a><br/>
+                    <span class="description-preview">No FE required *Intro Pricing
+
+BEAUTIFUL - INDOOR EYE APPEAL!</span>
+                </td>
+                <td>3.07692307 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="darkexpresso" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to darkexpresso</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'darkexpresso'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

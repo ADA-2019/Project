@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>mollyjohnson</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.80 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>mollyjohnson</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.90/5, 40~55 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 6 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            **All orders should be shipped saturday and arrive monday/tuesday, there is a chance i have to wait until monday which would push almost all deliveries to wednesday, check back here for updates, if your package is marked as shipped it means it is physically been shipped, all your patience has been amazing, all you FE people should expect huge bonuses!**<br/><br/>also, now offering glassine wax paper bags, the powder won&#39;t stick to these bags so it makes weighing your product easier, however they are a little big so some orders will still come in small plastic bags, if you have a specific preference feel free to specify paper or plastic!<br/>______<br/>Mollyjohnson here, your source for PURE Fentanyl HCL at unbeatable prices with unbeatable service.  Comes from a legit lab, it&#39;s always pure <br/><br/>You simply can not get more opiate per dollar anywhere else, a few mg of this is equivalent to hundreds of mg of oxycodone (use http://www.globalrph.com/narcotic.cgi to check equivalent doses)<br/><br/>I ship as soon as i possibly can, and shipped means it is physically in the mail<br/><br/>If you&#39;re ever a couple bucks short of a certain shipping option or are looking for a different amount feel free to message me.  I need about a week notice but message me to negotiate bigger sales, amounts of 500mg or more can start getting huge discounts above my cheap prices<br/><br/>FE is never absolutely required but i really helps me out and i appreciate it enough to add perks to your order.  Regular customers, big orders and FE are ways to get nice bonuses (free sample oxy pills, overweight bags)<br/><br/>love<br/>molly <br/>----------------<br/><br/>some people have trouble putting my key into whatever program they use, you should only have to use pgp for sensitive info like an address<br/><br/>if you have trouble please use  http://www.igolder.com/pgp/encryption/<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG C# v1.6.1.0<br/><br/>mQENBFL9528BCACwa80MLM8OA28O7Ygaz&#105;iSGpvHEU6rvuWva2HWlhYU7EM53ABS<br/>6NNhngSbnSXA41LrsPgciv6lob0DDh9NUHrOYA7YnObRUB34CiRovW6AyFPAmVot<br/>xcMPeyUDrO0cOVxhGUUleYFzdWvl6KLmbl2llnXIRViWUVGHG88TQ5Wk4f5QptZO<br/>co4wvPpi+sL3+gL3e1G3p5ZTuRQHTy10+GmCq649M6Unv5pnUn1oaKvuBjnIt5YZ<br/>ZPSq/Th8cwAJVOp2UJ+jUWYpWcmWhAQTaUC+7wqV3LS5Di5Tu75T3ZJov0ALVISi<br/>1NW4TMSuO/begs6Xq2cAE1EWqKKo0dquuI5LABEBAAG0AIkBHAQQAQIABgUCUv3n<br/>bwAKCRBSgXU89eSsh4++B/4nnBISed4Bgg1QzrdoxiDxRyP75rxuRGcMW2LB1g1m<br/>Dr2xG35lDHUqUcNxvxzMT9nXBVJ3RcnKTvJsfhRf6TPCTOvJC41fDzIUjoJG7LcW<br/>AKCnny5PlHfC9YFjt+C4jaZmi7qoCMEfODz1nL0RytrsCOKLrwFsLKdKCi9tckDx<br/>1p203x+tGec25HrBBA47OcUWzzhTqY90pHM3UB+0NF3hkw4+3qEdLYmTK3Dywjpv<br/>pupEBeYLonGistcMUWrKZQHoU902L3Lk5CdTgL8Syx9Zqc0znHHe2Sl7fr59LXpg<br/>AmZhNeAent8R5qn2HXPIe3cdTdnWQr7FeTfzatg4/V77<br/>=RIOY<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>i FE so we shall see</td>
+                    
+                        <td>
+                            <a href="/p/bemojKeu9k">
+                                Fentanyl HCL 10 mg
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for Molly, I will update when I get it.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping.</td>
+                    
+                        <td>
+                            <a href="/p/t6F3zT6ozl">
+                                Fentanyl HCL 25mg
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE to help a bro/dudette lol</td>
+                    
+                        <td>
+                            <a href="/p/t6F3zT6ozl">
+                                Fentanyl HCL 25mg
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Wow, this Fentanyl is SERIOUSLY strong - I used a teeny-tiny amount; less than a pinhead in size, and was flying. This is the r</td>
+                    
+                        <td>
+                            <a href="/p/bemojKeu9k">
+                                Fentanyl HCL 10 mg
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FEing so molly gets the money sooner. Will be back with an update!</td>
+                    
+                        <td>
+                            <a href="/p/bemojKeu9k">
+                                Fentanyl HCL 10 mg
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Update: arrived very quickly, haven&#39;t tried yet, but looks good. Have no fear with this vendor :-)</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great seller</td>
+                    
+                        <td>
+                            <a href="/p/bemojKeu9k">
+                                Fentanyl HCL 10 mg
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE to help out an honest girl.  Will update tomorrow...</td>
+                    
+                        <td>
+                            <a href="/p/t6F3zT6ozl">
+                                Fentanyl HCL 25mg
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fent preorder arrived 3 days total, was FAST &amp; FAT like always. Don&#39;t be afraid to FE MollyJ ALWAYS THE BEST, 3rd PERFECT order</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Wow, that got here quick!  Thank you so much!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>WOW this vendor is my new go to guy for fet! My new favorite vendor on the web!! everything went perfect :)</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great service, fast and stealthy shipping.  Putting in another now.  5/5</td>
+                    
+                        <td>
+                            <a href="/p/wRdlxMB1gm">
+                                Adderall 10mg xr
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order was delivered fast, exactly when seller said to expect it, and 10% overweight! Seller was very responsive, polite, and ho</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE 13 days ago, arrived today. A dub size ziplock of residue w not enough to dump anything visible and a sevond 25-40mg bag of </td>
+                    
+                        <td>
+                            <a href="/p/bemojKeu9k">
+                                Fentanyl HCL 10 mg
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>First time order from MollyJohnson and I F.E&#39;d. It came within 3 days. Will definitely be ordering again.</td>
+                    
+                        <td>
+                            <a href="/p/wRdlxMB1gm">
+                                Adderall 10mg xr
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Perfect order, everything is great, fast shipping, highly recommended seller!</td>
+                    
+                        <td>
+                            <a href="/p/wRdlxMB1gm">
+                                Adderall 10mg xr
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All good!</td>
+                    
+                        <td>
+                            <a href="/p/wRdlxMB1gm">
+                                Adderall 10mg xr
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Smooth smoke. not sure what strand this was but it was on point</td>
+                    
+                        <td>
+                            <a href="/p/WDJnxGV0F9">
+                                3.5 grams of top shelf weed
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Highly recommend Molly J. Honest,quick,and great prices!</td>
+                    
+                        <td>
+                            <a href="/p/wRdlxMB1gm">
+                                Adderall 10mg xr
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of mollyjohnson:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BbNSFDPmgL.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BbNSFDPmgL">1 Gram Fentanyl HCL</a><br/>
+                    <span class="description-preview">This gram will have to be delivered special when i reup, it should be delivered to you in less than a week
+
+you will also get a tracking number in a matter of days and you will be led through the w ...</span>
+                </td>
+                <td>3.32005312 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/t6F3zT6ozl.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/t6F3zT6ozl">Fentanyl HCL 25mg</a><br/>
+                    <span class="description-preview">NEW ORDERS MAY NOT SHIP UNTIL THE SUPPLY IS REFILLED, THIS SHOULD BE AROUND FRIDAY GIVE OR TAKE TWO DAYS) (orders made before monday are still fie
+
+You don&#39;t have to buy in early to guarantee a pla ...</span>
+                </td>
+                <td>0.13280212 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: ask me, i just might
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bemojKeu9k.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bemojKeu9k">Fentanyl HCL 10 mg</a><br/>
+                    <span class="description-preview">****BE AWARE, I&#39;M WAITING TO STOCK UP, IT WILL BE BETWEEN FRIDAY AND MONDAY THAT I WILL BE ABLE TO SHIP, IF YOU FE YOU WILL RECEIVE EXTRAS, THE LONGER YOU HAVE TO WAIT THE MORE EXTRAS YOU GET****
+
+ ...</span>
+                </td>
+                <td>0.06640106 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: united states
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="mollyjohnson" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to mollyjohnson</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'mollyjohnson'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

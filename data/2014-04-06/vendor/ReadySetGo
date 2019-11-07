@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ReadySetGo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 445.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>ReadySetGo</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 18 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            !!! Aussie Vendor !!!<br/><br/>Hello all, new Aussie vendor here hoping to please many with my quality goods,Im happy to see alot of you asking questions and starting to make purchases with me so check out my feedback as the good comments roll in.If anyone ever has a problem with my product or service please let me know and i will do everything i can to fix the situation. Im still in the &#112;rocess of listing and aquiring more items for you so stay tuned !!<br/><br/>FOR THOSE OF YOU WHO HAVE ALEADY PLACED ORDERS THANKYOU, YOUR ITEMS HAVE BEEN SHIPPED AND YOU WILL RECIEVE SHORTLY !!<br/><br/>##SHIPPING##<br/>I will be mostly shipping regular postal and you will not need to sign, and when stealth is required i will split items and post SEPERATELY in STEALTH packaging. If you would like express post i can off this but may cost extra.<br/><br/>##BULK PURCHASE DISCOUNTS##<br/>Im am happy to offer rather large discounts to bulk purchases so feel free to tell me your requirements and well work something out.<br/><br/>#NEW ITEMS COMING SOON#<br/>-Marijuana<br/>-Marijuana products<br/>-more digital warez<br/><br/><br/><br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: OpenPGP.js v.1.20130420<br/>Comment: http://openpgpjs.org<br/><br/>xsBNBFM7na0BCAC8lJhpEBfNHyjaBFEaSMYNlgz2Egv/1mnglEF762/iM0O1<br/>3WPwUBwI1YCHkqJ0sSXShKFEbGUK6PWQjlHx4Q/i+Y/Aaqofxq+j7jgoWrhb<br/>IzCDyF8A/VQ0kQJE7KaAXQcSAVcHT/0wRDoxq10QNLgqIHrTYzARUL9DSEVR<br/>xI9CnviCPyyzIHWaUSI3NzdaaxAF0hJMIR5tzcbydwyvjc+CoML7Pwm5ZF0b<br/>5MP7hIrgJYNUXgclxykqBApvSqSV5NLCQtN9mi8xmOkP9H+TkJj+D/JXO758<br/>ztvzjghNxB/YSA4PJbyWKWQGQbjT4gqJAppve/QZNfaDKHM0ED8zcVFjABEB<br/>AAHNIXJhZ25hciA8cmxvZGJyb2t2aWtpbmdAZ21haWwuY29tPsLAXAQQAQgA<br/>EAUCUzudrwkQ+yrS0k/tRzYAAM4WB/kBk79GYzLZue97BmqYHw6dvBFAchva<br/>kTgcHP/1WMJ5gne0t74E1cA9+p/RgvD++KWCAHde5PlwKagmS/Rk+/Bclr1/<br/>daRWJcLOR73PGlkItK9o4a8jrho4BaiUaXRkt5v0Snwkm9nljiv7qRyTaXbC<br/>lyzzJh9cU2q2zroDT/qj1lviDscVGB0bK34dMSx8jm4U1xLg4idMM6EkUw2V<br/>MC3YfqRa3UL9I78RqX5KUDlTc1nnbTF1lShPb0XRY0SDhnIN5rFhbip+GZ7N<br/>Pa3My39rvUDpxwkJXrZmvXbh+yZOq9uEyMIWn1wpvv7P/mInElZFTyxexPJH<br/>pIgpjOg0TGA9<br/>=V8Bs<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>legit!!</td>
+                    
+                        <td>
+                            <a href="/p/RmzJdwKetd">
+                                AUSTRALIAN CUSTOM PAYSLIP TEMPLATE
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor, 10/10 communication</td>
+                    
+                        <td>
+                            <a href="/p/ui4eUSbdb6">
+                                KNUCKLE DUSTERS (black)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.88/5, 25~40 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of ReadySetGo:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fnWo8WTzoY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fnWo8WTzoY">DEXAMPHETAMINE 5MG X 10 TABLETS</a><br/>
+                    <span class="description-preview">Dexamphetamine tablets ! 5 pack,10 pack,15 pack. genuine d-amph from aspen pharmaceuticals.</span>
+                </td>
+                <td>0.20224264 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LpDccnqBU7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LpDccnqBU7">CUSTOMER LISTING   X10 OPTUS ANON SIM CARDS</a><br/>
+                    <span class="description-preview">Hello customer, here is your custom listing for x10 optus anon sim cards.
+Thankyou ! enjoy !</span>
+                </td>
+                <td>0.44942810 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hjRLLXPqsU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hjRLLXPqsU">KNUCKLE DUSTERS X2 (black)</a><br/>
+                    <span class="description-preview">###LIGHTWEIGHT ERGONOMIC STEALTH KNUCKLE DUSTERS ###
+
+LISTING IS FOR 2X KNUCKLE DUSTERS
+
+Hello.
+In this listing i am selling lightweight stealth knuckle dusters, these are made %100 out of VERY  ...</span>
+                </td>
+                <td>0.09437990 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nBpdMxe9wM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nBpdMxe9wM">4 X NUCKLE DUSTERS (black)</a><br/>
+                    <span class="description-preview">###4 X LIGHTWEIGHT ERGONOMIC STEALTH KNUCKLE DUSTERS X 4 ###
+
+LISTING IS FOR 4X KNUCKLE DUSTERS
+
+Hello.
+In this listing i am selling lightweight stealth knuckle dusters, these are made %100 out  ...</span>
+                </td>
+                <td>0.17977124 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/s65FVUyP9M.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/s65FVUyP9M">TELSTRA ACTIVATED SIM CARDS</a><br/>
+                    <span class="description-preview">##AUSSIE SELLER##
+
+I PROMISE TO SHIP ALL ITEMS WITHIN 24HRS OF PURCHASE AND HOPE TO RECIEVE GOOD FEEDBACK FROM YOU ALL AS I STRIVE TO PROVIDE A GREAT SERVICE !!! STAY TUNED !!!!!
+
+Hello all !
+
+ ...</span>
+                </td>
+                <td>0.06741421 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Ce5rdhx1V3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Ce5rdhx1V3">OPTUS ACTIVATED/AUTHENTICATED PRE PAID SIM CARDS</a><br/>
+                    <span class="description-preview">##AUSSIE SELLER##
+
+I PROMISE TO SHIP ALL ITEMS WITHIN 24HRS OF PURCHASE AND HOPE TO RECIEVE GOOD FEEDBACK FROM YOU ALL AS I STRIVE TO PROVIDE A GREAT SERVICE !!! STAY TUNED !!!!!
+
+Hello all !
+
+ ...</span>
+                </td>
+                <td>0.06741421 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WGZYZlGsaj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WGZYZlGsaj">CUSTOMER LIStING x2 LIBERATOR 9mm</a><br/>
+                    <span class="description-preview">Here is your custom listing for liberators. 9mm. I have also included the extras that we spoke about.</span>
+                </td>
+                <td>1.01121323 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RmzJdwKetd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RmzJdwKetd">AUSTRALIAN CUSTOM PAYSLIP TEMPLATE</a><br/>
+                    <span class="description-preview">I PROMISE TO SHIP ALL ITEMS WITHIN 24HRS OF PURCHASE AND HOPE TO RECIEVE GOOD FEEDBACK FROM YOU ALL AS I STRIVE TO PROVIDE A GREAT SERVICE !!! STAY TUNED !!!!!
+
+Hello all !
+
+This listing is for A ...</span>
+                </td>
+                <td>0.05617851 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ui4eUSbdb6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ui4eUSbdb6">KNUCKLE DUSTERS (black)</a><br/>
+                    <span class="description-preview">###LIGHTWEIGHT ERGONOMIC STEALTH KNUCKLE DUSTERS ###
+
+##AUSSIE SELLER##
+
+
+Hello.
+In this listing i am selling lightweight stealth knuckle dusters, these are made %100 out of VERY strong and HAR ...</span>
+                </td>
+                <td>0.04943709 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/czzgoi47Gd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/czzgoi47Gd">LIBERATOR COMPACT STEALTH PISTOL</a><br/>
+                    <span class="description-preview">## COMPACT LIBERATOR PISTOL ##
+
+##Aussie Seller##
+
+Hi
+
+In this listing we have 1x COMPACT Liberator pistol, these are designed by an american arms group called defense distributed and are prove ...</span>
+                </td>
+                <td>0.56178512 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/h8X0kf38v1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/h8X0kf38v1">DEXAMPHETAMINE 5MG X 15 TABLETS</a><br/>
+                    <span class="description-preview">Dexamphetamine tablets, 5 packs, 15 packs, 15 packs, genuine d-amph from aspen pharmaceuticals.
+
+Will be shipped within 24 hours as i do with all my items !!
+
+Dont be suprised if you get an extra ...</span>
+                </td>
+                <td>0.30336396 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UpdyWbmjmv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UpdyWbmjmv">DEXAMPHETAMINE 5MG X 5</a><br/>
+                    <span class="description-preview">Dexamphetamine tablets ! 5 pack,10 pack,15 pack. genuine d-amph from aspen pharmaceuticals.</span>
+                </td>
+                <td>0.10112132 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="ReadySetGo" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to ReadySetGo</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'ReadySetGo'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

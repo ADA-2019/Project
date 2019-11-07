@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>modsnsods</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.83 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>modsnsods</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 70~100 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 9 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hi,<br/> <br/>I&#39;m Modsnsods. Previously a vendor of prescription meds on BMR, you can see my (flawless) feedback here:<br/> <br/>http://loow5bjd6qjbwi5z.onion/index.&#112;hp?p=user&amp;id=75501<br/><br/>Agora verification MS420042<br/><br/>If ordering before 1pm (UK time) your order will go out that day. UK customers will, more often than not, receive their order next day. EU orders are sent regular airmail so times vary. <br/>Any questions- just ask.<br/>   <br/>modsnsods@safe-mail.net<br/><br/>UPDATE 25/03/2014: I now require FE on all orders.<br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.20 (MingW32)<br/><br/>mQENBFHVmTUBCADaWXJ9FKD3IRi5FQq9eHjbOPTTy5/8wlCHmg8nBf4QeZ6H0jpJ<br/>uNrMB9DeUA4FhLxqFbAUmWMAHhzrLaE1rwo0BHPGi6333Zs7j6qIfWNUi/vhvQ3J<br/>lEPf1zgJ1zSj9h3Gc3YyZm6IWZvaT0Xg5NEAyn7T1wWrwoBTZmq1Tk1I8EWRy3VX<br/>Fq3x7DvO6QMThsOUSmqwKKbX29E+mxqtbAJZRfDtBwOx5BJAkLlaz62iP835qJRE<br/>bWTEfyXCgNN6c09tQfNQlTFLcfn1Qg5POk3+W+SkYo1wliV1YJaIQPhGZJ380r7U<br/>UBS5P6IzN027iue/KYeu+r4ZjXEjCD0Z/sWlABEBAAG0I21vZHNuc29kcyA8bW9k<br/>c25zb2RzQHNhZmUtbWFpbC5uZXQ+iQE5BBMBAgAjBQJR1Zk1AhsPBwsJCAcDAgEG<br/>FQgCCQoLBBYCAwECHgECF4AACgkQSbc3Ui1VEXsX+gf9EmycRSvXBi+guY8I9ZZY<br/>NKIZiYUn/4Xcx6ooTLT6SJTHnyNWMwRGaCBivIpP+RErhOi+tdOJ9PK0rODPhOHJ<br/>sIxWcwGV56r5mwfpr79cSfaN+2wyPRCL7dS8HlVZkH/fckn5OiUnr7l1E2PqPYn0<br/>DEPn/AGIg8PFXhyhhnMFkftyuqJFswICxgKLpmH/oEO9wFPVtv4RS9MGv2qdxMQT<br/>JTEDtJCEims/GsJm/tYwNMbFY79+SQMwdzPAkAZ1ZL8h9lhdYwAd/NSqZ8Bky8U+<br/>neyc0/CZDODlj+iA8fXsTjMN8QaikPAQ95NnLqgwUtTHQmEVsC72n1hhLeT9Pn8g<br/>Rw==<br/>=30Be<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d will update on delivery</td>
+                    
+                        <td>
+                            <a href="/p/PArrindYBN">
+                                Modafinil (Modalert) 200mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor, amazing customer service. Next day delivery to UK. Legit benzos. Thank you!</td>
+                    
+                        <td>
+                            <a href="/p/kLSxW8AabC">
+                                10 x  Zepose Diazepam 10mg
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>unbelievable</td>
+                    
+                        <td>
+                            <a href="/p/i3PusoR4mK">
+                                Alprazolam (generic Xanax) 1mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE, will update soon.</td>
+                    
+                        <td>
+                            <a href="/p/PArrindYBN">
+                                Modafinil (Modalert) 200mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I highly recommend modsnods - always answers messages, friendly guy. Great products; fast shipment. A+</td>
+                    
+                        <td>
+                            <a href="/p/Bx7EbSbJef">
+                                Super P-Force x 8
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great communications, next day to UK. Great pills too. Top notch!</td>
+                    
+                        <td>
+                            <a href="/p/KZThL5Uskk">
+                                30 x Diazepam 10mg
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>like clockwork i cannot wait to do business again A++++</td>
+                    
+                        <td>
+                            <a href="/p/KftzmnSSUR">
+                                Tramadol 100mg x 20
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+++ Great vender, highly recommended</td>
+                    
+                        <td>
+                            <a href="/p/PArrindYBN">
+                                Modafinil (Modalert) 200mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>next day delivery, couldnt be better</td>
+                    
+                        <td>
+                            <a href="/p/PArrindYBN">
+                                Modafinil (Modalert) 200mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/i3PusoR4mK">
+                                Alprazolam (generic Xanax) 1mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>AS ALWAYS, THE BEST VENDOR ON HERE. 6TH TIME DOING BUSINESS A+++++</td>
+                    
+                        <td>
+                            <a href="/p/KftzmnSSUR">
+                                Tramadol 100mg x 20
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>perfect thanks</td>
+                    
+                        <td>
+                            <a href="/p/i3PusoR4mK">
+                                Alprazolam (generic Xanax) 1mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quality, well packaged product and friendly service. NDD.</td>
+                    
+                        <td>
+                            <a href="/p/PArrindYBN">
+                                Modafinil (Modalert) 200mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order was dispatched before RoyalMail pick up and was delivered next day so really happy about that.  I took 5 of these tranax </td>
+                    
+                        <td>
+                            <a href="/p/i3PusoR4mK">
+                                Alprazolam (generic Xanax) 1mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, good product.</td>
+                    
+                        <td>
+                            <a href="/p/i3PusoR4mK">
+                                Alprazolam (generic Xanax) 1mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE on trusted vendor.</td>
+                    
+                        <td>
+                            <a href="/p/PArrindYBN">
+                                Modafinil (Modalert) 200mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/PArrindYBN">
+                                Modafinil (Modalert) 200mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/Bx7EbSbJef">
+                                Super P-Force x 8
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for hopefully trusted vendor</td>
+                    
+                        <td>
+                            <a href="/p/Bx7EbSbJef">
+                                Super P-Force x 8
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived next day. Perfect.</td>
+                    
+                        <td>
+                            <a href="/p/i3PusoR4mK">
+                                Alprazolam (generic Xanax) 1mg x 10
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of modsnsods:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Bx7EbSbJef.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Bx7EbSbJef">Super P-Force x 8</a><br/>
+                    <span class="description-preview">Each Super P-Force tablet contains 100mg Sildenafil (Viagra) and 60mg of Dapoxetine (prevents premature ejaculation)- 8 tabs in original blister packs.</span>
+                </td>
+                <td>0.06639518 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK/ EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PArrindYBN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PArrindYBN">Modafinil (Modalert) 200mg x 10</a><br/>
+                    <span class="description-preview">Sun Pharma Modalert modafinil 200mg in foil strip of 10 tabs.</span>
+                </td>
+                <td>0.06639518 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK/ EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SBrSurxjAf.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SBrSurxjAf">Finasteride 5mg x 30</a><br/>
+                    <span class="description-preview">Fincar Finasteride 5mg x 30 tabs in blister packs.</span>
+                </td>
+                <td>0.06639518 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK/ EU
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="modsnsods" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to modsnsods</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'modsnsods'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

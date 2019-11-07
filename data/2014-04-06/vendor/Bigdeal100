@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Bigdeal100</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 445.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Bigdeal100</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Silk Road v1 (pre-Oct 2013)<br/><span class="extra-info">47 successfull &#116;ransactions since 2012-10.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 10 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQENBFFe8RUBCAD8AEqB823Iinvh3942wjp4H14Kf2gl/EgwGPmr0dijOMriStVs<br/>+h5EaHl9py7rKOCniwx4Pg7UZ/DAHnQDvM5eQLcuF1OcVjj81SeZgmKFbHuVIb9f<br/>QI8fQMpNhngTGqfVQ/ZgKLW5l0WtDEmNd460T4FqVzyo2LRPk4IgxtmZUQC09nN2<br/>lawDYKWlbt2yCGgKfcV50aBg2h/+uVQqtv9qmr9tO/qtYS/JiyqZAJwpdNbI06A+<br/>NqXxs7FQgKUi7OTUKxQhToOqiieH777Oao/2art4T1Q6etp39XnP9U18+q//FlZE<br/>BVcpqnhL9A+D0S++Kz0EBuXBsV+nqe6b6WY1ABEBAAG0I0JpZ2RlYWwxMDAgPEJp<br/>Z2RlYWwxMDBAdG9ybWFpbC5vcmc+iQE4BBMBAgAiBQJRXvEVAhsPBgsJCAcDAgYV<br/>CAIJCgsEFgIDAQIeAQIXgAAKCRDPOI4J4auEwwT+B/4lb4Pb6y4gc+Zik8HFnZoY<br/>c8RvWz6anuCqgtRC/nG1zYAfvaxzUWpF0oRCuyL+6nq8M06JILEizlUFDJyXbCGU<br/>sKIEn9Zy9ytpKE2bIr9hXG5A7hW8auclHOPywKOl9HoNCC/1w8Ps3EdPiNL+WLGv<br/>KoWthejft44/3CFO6UPT/OhDA9NmQKjchhnSqXsMzN3cyYHzuoZYng1BqODmGtFQ<br/>weXevRGBcC6xZ6Z0GNr1yu8dtCBXD78p+hBVlsu7WUJIO7cJlpHnUOL/BUvtRaAu<br/>mFoSF5fqOeqWptH6LnJNR7g1Wrjg28/0s+Nn/qpU/a8KM/5Q1nbZ4z3RHima9JMy<br/>=oYx6<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>pretty much jams wifi signal and 3g i&#39;m cool with that cause i be on 3g. A++++</td>
+                    
+                        <td>
+                            <a href="/p/RG0gZBB7rv">
+                                GSM $ GPS Jammer (Much buy more preferential)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>arrived safe and fast</td>
+                    
+                        <td>
+                            <a href="/p/pT8U8ghGna">
+                                Mini Car rechangeble Jammer (Much buy more preferential)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Got my jammer, very stealth packaged,
+the only man from China who i trust</td>
+                    
+                        <td>
+                            <a href="/p/pDRrKoDtvx">
+                                3 Jammers for My Special friend !
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Bigdeal100:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RG0gZBB7rv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RG0gZBB7rv">GSM $ GPS Jammer (Much buy more preferential)</a><br/>
+                    <span class="description-preview">This product carry convenience, built-in lithium electricity, imitation full a electric can work for two hours or so, with car charger and straight imitation, used for shielding mobile phone signal a ...</span>
+                </td>
+                <td>0.26965686 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xfVNTex1K9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xfVNTex1K9">Faux Bvlgari B.Zero1 4-Band Ring with Ceramic</a><br/>
+                    <span class="description-preview">Product Name: Faux Bvlgari B.Zero1 4-Band Ring with 18K Ceramic
+
+Product Details:
+
+Material: High quality 361L titanium steel
+
+The classic style of Bvlgari jewelry B.ZERO1 series, the 4-band ma ...</span>
+                </td>
+                <td>0.12359272 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/P5LuBd6oL1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/P5LuBd6oL1">CDMA/GSM,DCS/PCS,3G,WIFI2.4G,GPS jammer  Up to 20m</a><br/>
+                    <span class="description-preview">&bull;	Specifications: 
+o	Cover interface standards: 
+	  
+o	Style JAX-121A-5
+	(1)    CDMA/GSM : 850 ---- 960MHz 
+	(2)    DCS: 1805 -- 1880MHz or DCS/PCS:1805 ---1990MHz  
+	(3)    3G:  2110 --2,1 ...</span>
+                </td>
+                <td>1.12357025 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Vsn74vqx4M.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Vsn74vqx4M">10X Gridseed Infinity Dualminer 300 kh/s ASIC Scrypt Miner</a><br/>
+                    <span class="description-preview">This is not a pre-order, all units are in hand and are shipped straight away. I provide everything you need to setup the miner straight away. It comes with software and instructions on how to use. 
+ ...</span>
+                </td>
+                <td>5.61785128 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pT8U8ghGna.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pT8U8ghGna">Mini Car rechangeble Jammer (Much buy more preferential)</a><br/>
+                    <span class="description-preview">Detailed Product Description
+Features:
+Prevent car from being tracked.
+Prevent people from being tracked.
+Prevent rented-car and lended-car from being tracked.
+Prevent car of government, intelli ...</span>
+                </td>
+                <td>0.15729983 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fg60cukvl7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fg60cukvl7">Replica Rolex Oyster Perpetual 116000</a><br/>
+                    <span class="description-preview">Brand Name:Rolex
+	Series:Rolex Oyster Perpetual
+	Movement:Automatic
+	Style Number:116000
+	Gender:Men
+	Case Material:Stainless Steel
+	Dial Color:white
+	Band Material:Stainless Steel
+	Water Res ...</span>
+                </td>
+                <td>0.38650816 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Jbt2D2hXMW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Jbt2D2hXMW">Replica ROLEX OYSTER PERPETUAL DATE 115200(Silver Roman Numeral)</a><br/>
+                    <span class="description-preview">Product Attributes:
+Condition : Brand New. 
+Model : 115200. 
+Gender : Gents. 
+Manufacturer : Rolex. 
+Bracelet : Steel (Oyster). 
+Movement : Automatic. 
+Range : Oyster Perpetual Date. 
+Case :  ...</span>
+                </td>
+                <td>0.43594525 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VvJzxq5rnD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VvJzxq5rnD">Imitation Bvlgari double combination wedding ring rose gold replica</a><br/>
+                    <span class="description-preview">Product Name: Imitation Bvlgari double combination wedding ring rose gold
+
+Product Details:
+
+Material: High quality 361L titanium steel
+Don&#39;t fade or allergic
+
+Color: rose gold
+
+Size: diamon ...</span>
+                </td>
+                <td>0.10112132 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/U9yC6Nbvx1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/U9yC6Nbvx1">Bvlgari B.ZERO1 pendant necklace in 18kt rose gold Replica</a><br/>
+                    <span class="description-preview">Product Details:
+
+Material: High quality 361L titanium steel,Alloy thick plating 24 k platinum
+
+Style: Don&#39;t fade or allergic
+
+Color: 18kt rose gold
+
+Size: 40cm long, pendant 10*1.4cm
+
+Qual ...</span>
+                </td>
+                <td>0.19325408 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/P61tCKEBak.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/P61tCKEBak">Cartier bangle love-Leve Lovers Bangles Pink Gold Replica</a><br/>
+                    <span class="description-preview">About Cartier bangle love bracelet-Cartier love Leve Lovers Bangles Pink Gold:The original provocative bracelet -created in the 1977s- which could only be opened with a tiny screwdriver. Cartier bang ...</span>
+                </td>
+                <td>0.12359272 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WBwdwTu1VY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WBwdwTu1VY">Rechargeable Cell Phone Jammer Completely Portable</a><br/>
+                    <span class="description-preview">Perfect of dealing with assholes using cellphone on a bus, at the movies, at work, or nearby. They will not see this jammer or wonder why their cellphone signal is cutting out.
+This is Portable cell ...</span>
+                </td>
+                <td>0.26965686 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/pDRrKoDtvx">3 Jammers for My Special friend !</a><br/>
+                    <span class="description-preview">This is list for my special friends ,wish we have the long business relationship !!
+Best regards</span>
+                </td>
+                <td>0.60672793 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bkbKFwn11A.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bkbKFwn11A">Faux Bvlgari B.ZERO1 3-band ring Replica</a><br/>
+                    <span class="description-preview">Product Name: Faux Bvlgari B.ZERO1 3-band ring in 18kt 
+
+Product Details:
+
+Material: High quality 361L titanium steel
+
+         Don&#39;t fade or allergic
+
+Color: 18kt white /rose gold
+
+More pi ...</span>
+                </td>
+                <td>0.11235702 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WxNSbtD2KX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WxNSbtD2KX">Rolex Replica Watch Air King Silver Concentric Arabic 114200</a><br/>
+                    <span class="description-preview">Brand : Rolex
+Series : Rolex Air King
+Gender : Mens
+Case Material : Steel
+Dial Color : Silver Quarter Arabic
+Movement : Japanese Automatic
+Bezel : Fixed
+Bracelet : Steel (Oyster)
+Clasp : Depl ...</span>
+                </td>
+                <td>0.38201388 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YradhVcpgU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YradhVcpgU">Replica Bvlgari row diamonds rose gold ring</a><br/>
+                    <span class="description-preview">Product Name: Replica Bvlgari row diamonds rose gold ring
+
+Product Details:
+
+Material: High quality 361L titanium steel
+
+Style: Don&#39;t fade or allergic
+
+Color: 18kt rose gold
+
+Size: ring siz ...</span>
+                </td>
+                <td>0.11235702 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Bigdeal100" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Bigdeal100</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Bigdeal100'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

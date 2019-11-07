@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>PhunnyPharm</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 450.18 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>PhunnyPharm</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Welcome and thank you for visiting the Phunny Pharm.<br/>Our products are 100% authentic medical grade prescriptions straight from the pharmacy.<br/>We believe in escrow for all men and women, we also believe in finalizing on time, fair is fair!<br/><br/>//Shipping//<br/>Is to the USA ONLY (Adderall in gel capsules are eligible for Canada. Gel caps will be broken and contents will be mailed letter mail for Canada orders). Orders are sent out every day Monday-Friday. All orders are mailed via priority with tracking, tracking is not shared with customers, we take your safety just as seriously as we take our own. Once your order is marked as shipped all buyer information is irreversibly destroyed and we will not be able to retrieve it.<br/>When ordering use your FULL FIRST AND LAST NAME and your real address!<br/>Use the same name that you see on your other mail that you receive.<br/>DO NOT USE ABBREVIATIONS: B. Clinton, or Bill C., or B. C.<br/>We will not send if incomplete name or wrong address!<br/><br/>Your address should look like this:<br/>Abraham Lincoln<br/>555 Cherrypoppers Ln<br/>Beverly Hills, CA 90210<br/><br/>Agora&#39;s bitcoin escrow system in the ONLY form of payment we accept.<br/>USE PGP<br/>USE PGP - SERIOUSLY<br/>http://www.hanewin.net/encrypt/PGcrypt.htm<br/>It doesn&#39;t get much easier then this.<br/><br/>IF there is a certain medication you are looking for please PM me and I will do my best to aquire and list it for you! (Don&#39;t PM me for OXY, they will be listed whenever they are available)<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFMP3AgBCADFFz07K+ezz3KdJNZJe6uSkD2ZMp3O6Q7P4tHG6cFWJwv6nmeP<br/>9L2daKlrRigNnwwwnyFxMrx6o3OWihCTL+q67tdbwkTgsOs8YCDnPH+O9Zzhjz/u<br/>ZYpwYESCg8n1SU8nljzD5ibxkGllZHkkhnj2hQVmHMzRaGeuYpFCmbe35VgSs7nA<br/>Wiywy3lPUZd6uvPGfjQg4+7PG2pg07VCss3XjLL118juRrGC8topDBxBMYvMtaCD<br/>yYP3vvfxKWkMhoHl2pakQsxcq87FayNKuFLzSApSGiOfvZi5LnRyrwwVKZfhD71g<br/>hgPJJ4iennwTNtM2xRmf4JUjSdtoze0OQ15xABEBAAG0BlBQSEFSTYkBOQQTAQIA<br/>IwUCUw/cCAIbAwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEM7UWxJ+R2bt<br/>o9EIAIib02cn1W+rqW4y1MtjvKOnyT1IAv3qTVfHorgi7a9JjhqrGkOy+LUFTcEY<br/>MkVcXEjb/uH2cmzkrzmmTFZJ9KrOZ78cjNldQlEvayQYp9oJ/nVufhGlIclq6Axg<br/>HgwP2A6OgwuozUCc8TMV4Vuw3k1YhNoUzzrVIEaBlJJy3sAhsmjYnIFnZx0xbMrw<br/>tI0MArfpdbsUe4ftPwl0bVPpuTSLd3qf6xMzfOHNEC/hUMLJUimBLwN9fS4b042E<br/>p/PEZva1WAPwXlU7buHI6hRnwgW904SDONxy0IfzLyhtKQPe9vUA6Vcowucvbg7F<br/>blZWvG8bMvYCXi3sCfmL+tDmDW25AQ0EUw/cCAEIAJz3v6ZNlSnYfb8QTpr3EWki<br/>IVNhg/LT8Zwog4/zfsIMW+jjB6vq25nIhHCJhFmrEEk8lQw6bR0vbrxM+wAhsau7<br/>mM9qjOCN/e9GEDymzuOuAoDxDVt9MdWZYHvwx3ta10zLMQ/XFo79/ckYu7mOqMjJ<br/>YNmjTSiU8g5tvHY82T0K/I/F36onTD2FCG1QRbLUSSBAu/zoUjUbQmiNpgMILfWI<br/>iNnhTrZOCAMSDG86vVNONyax+bxVbGu8czdgyYLCAmHLvzmn5Yc6I/h4HSt+ltfR<br/>Q3WRkjPV/6dQlSNflabxa1OXi2G4JIVhkUz96mXhftM/3O2rd0i8M6XOs1TK0wEA<br/>EQEAAYkBHwQYAQIACQUCUw/cCAIbDAAKCRDO1FsSfkdm7aoKCACOqB6IPQ3qv0Fy<br/>rUy9gPNV9AqACFqY05chx8dKXvIUQ57aBj5zz7O/iGthimUqsJA6d/uPtFZIxbgY<br/>gVNJv6BrG2romSBdaewi5OPfaa/4+Qy/lTfLzn2P+I2AKiEc29ONP33xpCkXyh5+<br/>2ObJNKyGDdvaq/SCoeZzHfmAAOaVJUXzpYCOu4gHLDPCss8Xf70mZPQyPBK7Tm1x<br/>G70MZH1y2PXFTQm8FX+tTzpobk62vqWfeg/LX5W0H8voCAFQMad0ova8UMxX8VGT<br/>3xLqdUMhvlHO2TWjCUenuENKEmdhuDq4dNoFrFsEqsr2ShBvFlQjuw666ZPl2EaO<br/>BBwIdc+P<br/>=ATdp<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Received and as described. However I had to pay postage due of only .20 cents. Idk whats up there</td>
+                    
+                        <td>
+                            <a href="/p/UWkJphsiet">
+                                ORANGE ADDERALL 20mg XR&#39;s
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+ great stealth</td>
+                    
+                        <td>
+                            <a href="/p/UWkJphsiet">
+                                ORANGE ADDERALL 20mg XR&#39;s
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Threw in freebies!!! Thank you Phunny!</td>
+                    
+                        <td>
+                            <a href="/p/UWkJphsiet">
+                                ORANGE ADDERALL 20mg XR&#39;s
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+ Vendor! Great communication, excellent stealth and legit product! Thank you!</td>
+                    
+                        <td>
+                            <a href="/p/UWkJphsiet">
+                                ORANGE ADDERALL 20mg XR&#39;s
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick delivery , product as described- A++++</td>
+                    
+                        <td>
+                            <a href="/p/UWkJphsiet">
+                                ORANGE ADDERALL 20mg XR&#39;s
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of PhunnyPharm:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WYvgaEzV8p.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WYvgaEzV8p">Adderall 15mg IR crushable Instant release</a><br/>
+                    <span class="description-preview">--Straight from the Phun Pharm-- RESTOCKED!
+
+**$12 EACH WHILE SUPPLIES LAST**
+
+Please read my profile before ordering!!!
+
+USA ONLY
+
+STAY SAFE USE PGP</span>
+                </td>
+                <td>0.02665600 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ChzJDtBZkp.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ChzJDtBZkp">Crisp $20 cashout btc</a><br/>
+                    <span class="description-preview">FREE DOMESTIC SHIPPING
+Brand new $20 bill sent directly to your house.
+Cash out your bitcoins anonymously and for crisp cash.
+
+FE only - sorry but with btc price fluctuations it&#39;s a gamble if I e ...</span>
+                </td>
+                <td>0.06330801 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: ANYWHERE
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lFSGY1C5ry.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lFSGY1C5ry">Crisp $100 Bill - Btc cashout</a><br/>
+                    <span class="description-preview">Brand new $100 bill sent directly to your house.
+Cash out your bitcoins anonymously and for crisp cash.
+
+FE and I will send $5 in bitcoin back to you on Agora via &quot;issue refund to buyer&quot; on my ord ...</span>
+                </td>
+                <td>0.27766671 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: GLOBAL
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="PhunnyPharm" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to PhunnyPharm</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'PhunnyPharm'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

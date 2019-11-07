@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>chemicalprincess13</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 463.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>chemicalprincess13</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 9 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFL4/ssBCAC+wsFjzUkNgQcPYpRLMbCc8czHYZzl7F/xa3T752KPTSncUvj8<br/>mu16rD0Z3jVFgKKeGMi4q+lZdliHJO/X+v3&#98;SDA31pXLxDSPXvLwf2UtOu9xNp13<br/>iMwpswNtDuMsV/2Nls9Zg15hVQ0IiCm1za1UIzWscxXe5DGqwP6rHOyscdWxJGq8<br/>Tx9H+YE3fQoRufJ79ssGxWR4KvOHSFXHkOALVYTCtIohnGTg6c68oYQzqL9yTmLl<br/>fVI9xsaP3OZJKtvR+uV/0m9Fi2l/6rGGytWmFiYfWIE19pnzrS1IJAiZLMOsyICI<br/>X9NG9G8A+XIMDs6E/i1g+qbpG55xczYmEoDnABEBAAG0N2NoZW1pY2FscHJpbmNl<br/>c3M3ODggPGNoZW1pY2FscHJpbmNlc3M3ODhAc2FmZS1tYWlsLm5ldD6JATkEEwEC<br/>ACMFAlL4/ssCGwMHCwkIBwMCAQYVCAIJCgsEFgIDAQIeAQIXgAAKCRAqP4pMBMOQ<br/>+qvICACPEzyJmhmyvJVlEUvkY/p8MUMgFurcHfARgKnx5p0kqGjbTLmsDgM84ZPf<br/>eLgB/SLOXo2j6/HyFe42wOjiDBUS946N3q3whCbQbNWt7ggPOFWAuWm17QoXDjD9<br/>ebY8HOxf0JOBNOINay74+UEULFldZGeiqTS0jVEMrZa0exoq0gwjYqwd2mmejXBa<br/>zqruNYB8LnvFA6FnAju+ynUZvd2EAUFSMHKlgZVmcpQX4f1sARtVEUjbLit+L3a3<br/>arqPutjGxZQXKozuwq9n/wOs6hTOSSqj9WV9+BvtPm72kivvsLs9lz6CwyK+52O8<br/>GZGGA1iZl3JEj1E/UnYnIPDE6V3luQENBFL4/ssBCADVOGdrZG9lkItGkaAmGrDm<br/>8Ol+ASGG6q+Dy2e46xuMBUaza48k9kS3yflhBCHK01N9o9d+uvLtaOYBeiI7n2cU<br/>qYDF2lETzw1D2b/XFEiYaVVwvmJ1npsNClm+37+x2c1D4JNqkBD7PgVLkegzsq3W<br/>nMgnyxtZjGAGaH6ir6gxj24obo8jQWlFqqhC113DhtHiYnjfTErHk0KYubjPOxif<br/>+9QNfCXiD8S+2FWADguSp6wejvQqgD9w9W9hKPTlKBQSu8B7Zs93ntDSLJmVSLGd<br/>tn+tiX85nYdEA5spJJCZ85Fa4NGJ5Y+cga1HcyXaPN28hXl3LVEhphJYzer25QKr<br/>ABEBAAGJAR8EGAECAAkFAlL4/ssCGwwACgkQKj+KTATDkPp8CAgAlDmNmE7vCkTZ<br/>3i2T94p4gqXkz44AHuplnIU38mIgus8NsqfqPHNMf0U4LDnAYCPufqwBvziUUmmP<br/>ChLis0RP95D1+fU+0XM6OUFAa1P3J8JdXFwmzTkIYpdBGkmcqBr2aVx8PDOKZ6fa<br/>kFSzcs+qwPuuqy52R5OELWLjfro76o6tvI2PSmPCaoEqp4DqjmyCBv+RDzAZPBNe<br/>Yq69FrMODZ6015Zahe0KTMj+C68YGfncYCcvPIbdGRBZawy0M2rwj5tMdKPSBPw2<br/>NOjKvXSBevD7/rWhQaCg1j8v4C0nbmhR2VI2tb70WJy+WhfCR4YLUW6UgeOQYHVk<br/>a6KIBBphWw==<br/>=rQVV<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Chemicalprincess13 MARRY ME!!!!! jokes mate Product arrived extremely fast weight is good Passes Marquis Mandelin &amp; Mecke so fa</td>
+                    
+                        <td>
+                            <a href="/p/a552u7xFs0">
+                                loszetas custom lising
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very Happy. Great Vendor excellent communication 10/10 all round.</td>
+                    
+                        <td>
+                            <a href="/p/u0mPxlBudm">
+                                Half Bag .5 sample for bulk buyers only please CP&#39;S finest -MDMA 80+% PURe
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good stuff</td>
+                    
+                        <td>
+                            <a href="/p/u0mPxlBudm">
+                                Half Bag .5 sample for bulk buyers only please CP&#39;S finest -MDMA 80+% PURe
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very quick delivery, very good communication, very good stealth, Mdma looks really good.I would definitely recommend this guy i</td>
+                    
+                        <td>
+                            <a href="/p/EVjfNo7LCE">
+                                badabada66
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Zing bang the Princess is back from SR1 and still has the same pure shit honest vendor and easy to work with order with confide</td>
+                    
+                        <td>
+                            <a href="/p/n1UyjM88xe">
+                                WINDFIELD CUSTOM MDMAZING
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of chemicalprincess13:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/iFM5A59Zo0">28g MDMA -ZING- 80+% pure</a><br/>
+                    <span class="description-preview">?????????????? WELCOME TO THE chemicalprincess13 VENDOR PAGE! ?????????
+
+???????????????????????????????????? UPDATES ???????????????????????????
+
+We are back!
+
+After our unanticipated extended ...</span>
+                </td>
+                <td>9.31533477 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/a552u7xFs0">loszetas custom lising</a><br/>
+                    <span class="description-preview">mdmazing a buffet tasting platter..</span>
+                </td>
+                <td>0.64794816 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/u0mPxlBudm">Half Bag .5 sample for bulk buyers only please CP&#39;S finest -MDMA 80+% PURe</a><br/>
+                    <span class="description-preview">Dont believe the princess&#39;s speel hey? well here&#39;s our proof we dont muck around..
+
+listings a half bag of our finest 80+%PURE MDMA..
+a taste it can be chem tested a few times or take .12 and give ...</span>
+                </td>
+                <td>0.15118790 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/EVjfNo7LCE">badabada66</a><br/>
+                    <span class="description-preview">mdmazing a taste</span>
+                </td>
+                <td>19.43844492 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/n1UyjM88xe">WINDFIELD CUSTOM MDMAZING</a><br/>
+                    <span class="description-preview">MDMA JUST  HOW IT WAS SUPPOSED TO BE EXPERIENCED!!</span>
+                </td>
+                <td>45.35637149 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="chemicalprincess13" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to chemicalprincess13</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'chemicalprincess13'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

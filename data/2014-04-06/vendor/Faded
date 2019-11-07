@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Faded</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Faded</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.21-beta20 (MingW32)<br/><br/>mQENBFKEdicBCADqD3B+KQGsXsGUx/lqJAzApSDW2fdAiZJTrBNbGVzN/Gh+wCXc<br/>D/nyeeQTunopXRsjturKPyioOekb4sZonN+Y56fjE36spIb2UZqlj7/yT5Y+BX7r<br/>v+XB4RgTufdfOWbaDUVYYG5/f9+RkVAQP3eT8fHmpTEPBxRZtHP3LUxekADIgdmR<br/>KHyJx/Y981woZfEgplOMzNmydZYf5GYrEYyGvetVcRa79WU56juultckHOqRNKSr<br/>+Y8UbBuzSAb5vPNW6s+3bWyIwc+/0Nexe27wnElUcVFeD63TrI4BRy4afq3wgswA<br/>MO8UbziBSXFKq6tLhLJoKVQC0ea/hrkiLfFRABEBAAG0IkFiYWduYWxlNjkgPGFi<br/>YWduYWxlNjlAcmlzZXVwLm5ldD6JATkEEwECACMFAlKEdicCGwMHCwkIBwMCAQYV<br/>CAIJCgsEFgIDAQIeAQIXgAAKCRCMpY941EYxxPpXCADCWm8kiUIRw5DbeoIk6Wfk<br/>0mRXIcbpbWXK6WFE4ZkHnEYpUdakDuxrRLanMqmmfjWiolNKftEvVtI2MVIuUXRD<br/>wuRpHl4gaXH9zax1z+1GA4zj6f7jihkI0yXmnmxKTDPUsSkbhyJNq/4oXD/XD26Q<br/>UxF/D4YpJWi/6Tz1CJTl07+P+e18z9mxbPFuL2oclLIMADZw7JVeXHusES1N8KDY<br/>1Fa4xRaJ6f1snKy6AB7zozxel810l8f72D6f4JEVySAAigJePKbnvVe2E2mKXbt+<br/>bUt6HVeEyu5r1AuQgr9MIBP2IxG/RGlQtZg8w759pGgKBtNUW17q9e/bxOYF9vNX<br/>uQENBFKEdicBCACshW0ub/sTBOdVs21nJ5xmImpigTif6KN0wdkmf0KMtIkuJ0LT<br/>bLIBXmLfI2hAeTGFV6t8BBM4sHB7veGXG5TTT/rr7vHXxxHOzt2YBsE1R6LlrX7g<br/>Oj0Z14o76XDZSLXHq2Z6Hwo++RWgNlf3mHFt1SRp77Yn02F1+hSwgX/sBS8dujJx<br/>8JqagY5IrNKeXkzgcj2m3OHVgPU8l0SbeXG4Ere0vgDAd4gZnwaD+8VCzZFVhYAD<br/>K+vIPHVJsEkFdYSsefX5cSQdTGxcczIUNs3yXxwejh5zrZXGHFmogxWkLovuWGti<br/>cgmJ64wI7PwBeiD8psuh9E5c+rhkWPdGnL6HABEBAAGJAR8EGAECAAkFAlKEdicC<br/>GwwACgkQjKWPeNRGMcS86wf8DS99ZGLA1DTe5tr6FJ6/utImDBaJIJiIFA3dHVDj<br/>ElnGW1AqWVutiBe22EwGqSEalLiTAvOPLAwuVXY+Spa5ABy3AKLlaSRodiL9GcEH<br/>sx5vCFG1oOQp20hlUzl2fEagmodVo/TEKxW/MOlZkPjEEwwDqq+W9I5dJpsqH38h<br/>jaUee4NtlfXJI+lP246juDEJnGfvprIvX6jsjWUq13bZC+q4MZ2txExfc9LMXsFM<br/>XmQuCKD+s3vbwHLPmSHCIC7nezpVs8xojyfTivULrCctYFAxwHxqeu56pAyThf3P<br/>sl/fU1I1kP0PhvXVGWDzY6pFQIfbrNFTQXEzdevg2SeZmQ==<br/>=dbgl<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of Faded:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/uS8FShhWbK">California fake ID driver license. Holos UV and scannable magstripe!</a><br/>
+                    <span class="description-preview">Once you place your order, your ID will be made and a picture of the finished card will be sent to you. Once you approve of the ID, finalize your order and your card will be placed in the mail. Do NO ...</span>
+                </td>
+                <td>0.33112582 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: US Only!
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Faded" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Faded</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Faded'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

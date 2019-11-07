@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Agora</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 459.64 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/">Listings</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (200+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (200+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (80+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+
+
+<div id="product-index" class="nofirstmargin">
+
+
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/s9b34dZFvx"><img style="display: block; margin: auto;" src="/liabilities/preview/s9b34dZFvx.jpg" alt="50 Counterfeit $20"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/s9b34dZFvx">
+                50 Counterfeit $20
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.60913738 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/LZXY8tSh4G"><img style="display: block; margin: auto;" src="/liabilities/preview/LZXY8tSh4G.jpg" alt="GHB Powder 400g"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/LZXY8tSh4G">
+                GHB Powder 400g
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">1.09866202 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/xintwXUeYE"><img style="display: block; margin: auto;" src="/liabilities/preview/xintwXUeYE.jpg" alt="*7g+  &amp;#39;Thunder Mountain&amp;#39; amphetamine molecules"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/xintwXUeYE">
+                *7g+  &amp;#39;Thunder Mountain&amp;#39; amphetamine molecules
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">10.87784183 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/A1pRYEwh67"><img style="display: block; margin: auto;" src="/liabilities/preview/A1pRYEwh67.jpg" alt="28g master kush"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/A1pRYEwh67">
+                28g master kush
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.42423583 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/X0C1fXdjfG"><img style="display: block; margin: auto;" src="/liabilities/preview/X0C1fXdjfG.jpg" alt="Dextropropoxyphene 65 mg (Darvocet by Cipla) 200 pills"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/X0C1fXdjfG">
+                Dextropropoxyphene 65 mg (Darvocet by Cipla) 200 pills
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.35244207 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/AoDV22Ug7L"><img style="display: block; margin: auto;" src="/liabilities/preview/AoDV22Ug7L.jpg" alt="1000 Grams Good Kush Shake"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/AoDV22Ug7L">
+                1000 Grams Good Kush Shake
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">2.06678994 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/VWCc80Do0k"><img style="display: block; margin: auto;" src="/liabilities/preview/VWCc80Do0k.jpg" alt="7 grams Imported Medical Grade Weed"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/VWCc80Do0k">
+                7 grams Imported Medical Grade Weed
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.43293810 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/XMWjLJclcC"><img style="display: block; margin: auto;" src="/liabilities/preview/XMWjLJclcC.jpg" alt="10gr MAROCCAN Pollen A+ Grade"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/XMWjLJclcC">
+                10gr MAROCCAN Pollen A+ Grade
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.22604155 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/XnEPsqExz2"><img style="display: block; margin: auto;" src="/liabilities/preview/XnEPsqExz2.jpg" alt="A MAC ADDRESS CHANGER SOFTWARE FOR MAC OS"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/XnEPsqExz2">
+                A MAC ADDRESS CHANGER SOFTWARE FOR MAC OS
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.00979005 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/h0wJ2EjE1r"><img style="display: block; margin: auto;" src="/liabilities/preview/h0wJ2EjE1r.jpg" alt="10g - (MPA) Methiopropamine 99%+ purity - Most similar to Meth"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/h0wJ2EjE1r">
+                10g - (MPA) Methiopropamine 99%+ purity - Most similar to Meth
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.40248014 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/agjBCtC5WL"><img style="display: block; margin: auto;" src="/liabilities/preview/agjBCtC5WL.jpg" alt="Belgium National ID card"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/agjBCtC5WL">
+                Belgium National ID card
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.76144892 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/pG27o9ybiA"><img style="display: block; margin: auto;" src="/liabilities/preview/pG27o9ybiA.jpg" alt="3.5g MeGrimlock Cocaine 90%+ Pure"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/pG27o9ybiA">
+                3.5g MeGrimlock Cocaine 90%+ Pure
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.79408245 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/bnw9ibnPbq"><img style="display: block; margin: auto;" src="/liabilities/preview/bnw9ibnPbq.jpg" alt="14g [Utopic&amp;#39;s] TRUSTED AAA Indoor &amp;#39;Mix &amp;amp; Match&amp;#39; + FREE Priority S/H"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/bnw9ibnPbq">
+                14g [Utopic&amp;#39;s] TRUSTED AAA Indoor &amp;#39;Mix &amp;amp; Match&amp;#39; + FREE Priority S/H
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.30240400 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/FEjJn7gNAV"><img style="display: block; margin: auto;" src="/liabilities/preview/FEjJn7gNAV.jpg" alt="Insulin Syringes 1CC X 28G X 1/2&amp;quot;   **5 Pack*"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/FEjJn7gNAV">
+                Insulin Syringes 1CC X 28G X 1/2&amp;quot;   **5 Pack*
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.01033394 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/s1Ttxmdp4M"><img style="display: block; margin: auto;" src="/liabilities/preview/s1Ttxmdp4M.jpg" alt="2g Sample - White Widow x Big Bud &amp;gt;NEW&amp;lt;"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/s1Ttxmdp4M">
+                2g Sample - White Widow x Big Bud &amp;gt;NEW&amp;lt;
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.05166974 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/w4uvC665Nl"><img style="display: block; margin: auto;" src="/liabilities/preview/w4uvC665Nl.jpg" alt="ACID Pro 7 (PC)"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/w4uvC665Nl">
+                ACID Pro 7 (PC)
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.01087784 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/ZrWpdcUMSa"><img style="display: block; margin: auto;" src="/liabilities/preview/ZrWpdcUMSa.jpg" alt="3.5 grams WAX"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/ZrWpdcUMSa">
+                3.5 grams WAX
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.21755683 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/B9kM1Ewi42"><img style="display: block; margin: auto;" src="/liabilities/preview/B9kM1Ewi42.jpg" alt="3.5g [Utopic&amp;#39;s] TRUSTED Tier 2 Greenhouse &amp;#39;Mix &amp;amp; Match&amp;#39;"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/B9kM1Ewi42">
+                3.5g [Utopic&amp;#39;s] TRUSTED Tier 2 Greenhouse &amp;#39;Mix &amp;amp; Match&amp;#39;
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.07070597 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/eGr1tKoqED"><img style="display: block; margin: auto;" src="/liabilities/preview/eGr1tKoqED.jpg" alt="eBay Method - 100% Working - NEW - Make Money From eBay FAST!"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/eGr1tKoqED">
+                eBay Method - 100% Working - NEW - Make Money From eBay FAST!
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.04351136 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/gzcSa9XYiW"><img style="display: block; margin: auto;" src="/liabilities/preview/gzcSa9XYiW.jpg" alt="Custom &amp;quot;Versa-Bong&amp;quot; order for Ro*******er"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/gzcSa9XYiW">
+                Custom &amp;quot;Versa-Bong&amp;quot; order for Ro*******er
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.21755683 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/dDz4J2C6V7"><img style="display: block; margin: auto;" src="/liabilities/preview/dDz4J2C6V7.jpg" alt="Camel Cheap Cigarettes to USA and EU"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/dDz4J2C6V7">
+                Camel Cheap Cigarettes to USA and EU
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.08264984 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/dDyX51DNnV"><img style="display: block; margin: auto;" src="/liabilities/preview/dDyX51DNnV.jpg" alt="sibutramine (meridia/reduce) 15mg x 100"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/dDyX51DNnV">
+                sibutramine (meridia/reduce) 15mg x 100
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.23496138 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/oFkgrUtgom"><img style="display: block; margin: auto;" src="/liabilities/preview/oFkgrUtgom.jpg" alt="10x 10mg 2C-T-7 pills"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/oFkgrUtgom">
+                10x 10mg 2C-T-7 pills
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.08484716 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/wldhpmZXEv"><img style="display: block; margin: auto;" src="/liabilities/preview/wldhpmZXEv.jpg" alt="HOW TO PASS COUNTERFEIT MONEY"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/wldhpmZXEv">
+                HOW TO PASS COUNTERFEIT MONEY
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.01958011 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/NnyoXLYrb9"><img style="display: block; margin: auto;" src="/liabilities/preview/NnyoXLYrb9.jpg" alt="Opioid Potentiation and Tolerance Reduction Formula"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/NnyoXLYrb9">
+                Opioid Potentiation and Tolerance Reduction Formula
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.03263352 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/ykuAwzpkKE"><img style="display: block; margin: auto;" src="/liabilities/preview/ykuAwzpkKE.jpg" alt="ULTIMATE LIVER CLEANSE FLUSH"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/ykuAwzpkKE">
+                ULTIMATE LIVER CLEANSE FLUSH
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.01522897 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/ygANpmMxDT"><img style="display: block; margin: auto;" src="/liabilities/preview/ygANpmMxDT.jpg" alt="5  x LSD ...... BLOTTER ......185ug ... Morrisons"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/ygANpmMxDT">
+                5  x LSD ...... BLOTTER ......185ug ... Morrisons
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.14141194 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/cVlevq56lt"><img style="display: block; margin: auto;" src="/liabilities/preview/cVlevq56lt.jpg" alt="1G Of Stunning Dutch Tan Rola Cola MDMA"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/cVlevq56lt">
+                1G Of Stunning Dutch Tan Rola Cola MDMA
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.10660000 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/AtrPSVjV1V"><img style="display: block; margin: auto;" src="/liabilities/preview/AtrPSVjV1V.jpg" alt="500ml moonshine"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/AtrPSVjV1V">
+                500ml moonshine
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.04351136 BTC</span></div>
+
+    </div>
+
+    <div class="product-index-floater">
+        <a style="display: block; height: 105px;" href="/p/kMANy68eBl"><img style="display: block; margin: auto;" src="/liabilities/preview/kMANy68eBl.jpg" alt="1g | Hand rolled Indian Charas | UK Vendor"/></a>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-caption">
+            <a href="/p/kMANy68eBl">
+                1g | Hand rolled Indian Charas | UK Vendor
+            </a>
+        </span>
+        </div>
+        <div style="height: 15px; overflow: hidden;"><span class="product-index-floater-price">0.06961818 BTC</span></div>
+
+    </div>
+
+
+
+    
+
+    <div style="clear: both;"></div>
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

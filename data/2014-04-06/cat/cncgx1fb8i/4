@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>NB</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 446.19 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/vheN9d2mMr">Drugs</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/xgBPEmdDdF">Psychedelics</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/cncgx1fb8i">NB</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/xgBPEmdDdF">Psychedelics</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/txoqJPieUB">2C<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iJeoNVx82a">5-MeO<span class="extra-caption"> (10+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/ht9G1zzoVK">DMT<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/S0SZTZKVhx">LSD<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/BUn0Jfz1r0">Mescaline<span class="extra-caption"> (20+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/LvrRKUaRyJ">Mushrooms<span class="extra-caption"> (60+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/cncgx1fb8i">NB<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sM9FbFelvg">Others<span class="extra-caption"> (50+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tgJ2A5Pz45">Salvia<span class="extra-caption"> (9)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/WhvYT1MElT">Spores<span class="extra-caption"> (10+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/cncgx1fb8i/4" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link " href="/cat/cncgx1fb8i/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/cncgx1fb8i/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/cncgx1fb8i/3"> 3 </a>
+        
+            <a class="page-link current-page" href="/cat/cncgx1fb8i/4"> 4 </a>
+        
+            <a class="page-link " href="/cat/cncgx1fb8i/5"> 5 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/igM6lbr9St.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/igM6lbr9St">25C-NBOMe HCl (1000&micro;g) x50 blotter tabs</a><br/>
+                    <span class="description-preview">Now on Agora!
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was the number one US seller in th ...</span>
+                </td>
+                <td>0.07844016 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sa5AWkDgdM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sa5AWkDgdM">25B-NBOMe HCl (1000&micro;g) x1000 blotter tabs</a><br/>
+                    <span class="description-preview">____________
+Now on Agora!
+&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was th ...</span>
+                </td>
+                <td>0.79560735 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/q8xsziztUG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/q8xsziztUG">25C-NBOMe HCl (1000&micro;g) x1000 blotter tabs</a><br/>
+                    <span class="description-preview">Now on Agora!
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was the number one US seller in th ...</span>
+                </td>
+                <td>0.79560735 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/iY5FxR9647.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/iY5FxR9647">25C-NBOMe HCl (1000&micro;g) x200 blotter tabs</a><br/>
+                    <span class="description-preview">Now on Agora!
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was the number one US seller in th ...</span>
+                </td>
+                <td>0.21066786 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BbqqA7oqM1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BbqqA7oqM1">25C-NBOMe HCl (1000&micro;g) x25 blotter tabs</a><br/>
+                    <span class="description-preview">Now on Agora!
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was the number one US seller in th ...</span>
+                </td>
+                <td>0.05154639 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nb3vVudo7k.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nb3vVudo7k">25C-NBOMe HCl (1000&micro;g) x10 blotter tabs</a><br/>
+                    <span class="description-preview">Now on Agora!
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was the number one US seller in th ...</span>
+                </td>
+                <td>0.03361721 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/TGG6E94YkG">25C-NBMOe 10g powder  - Import - Free Ship</a><br/>
+                    <span class="description-preview">This listing is for 10g of 25C-NBOMe delivered from my source in China to your door via EMS. Shipping takes 7-16 days to the USA. 
+
+This listing requires FE. I will not place your order until funds ...</span>
+                </td>
+                <td>1.12057373 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/RC4Everyone#"/>RC4Everyone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JovrNSz52w.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JovrNSz52w">25B-NBOMe HCl (1000&micro;g) x400 blotter tabs</a><br/>
+                    <span class="description-preview">____________
+Now on Agora!
+&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was th ...</span>
+                </td>
+                <td>0.39220080 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/E4aXxoiqL4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/E4aXxoiqL4">500x [1200mcg 25i-NBOMe] blotters</a><br/>
+                    <span class="description-preview">This are our famous 25i-NBOMe blotters containing 1200mcg per hit. We were the oldest NBOMe seller on SR.
+
+How to feed your plants:
+Place one tab ( enough for a nice trip) between upper lip and gu ...</span>
+                </td>
+                <td>0.26893769 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/ESP.png" /> Spain<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Nevita#"/>Nevita</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 70~100 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LyljWUYD9a.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LyljWUYD9a">100 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters</a><br/>
+                    <span class="description-preview">NEW BATCH!!!! A+! quality. TOP VISUALS
+
+
+100 x 25i NBOMe @ 1200&micro;g HPBCD complexed blotters view my profile for more details.....
+
+FREE SHIPPING
+
+NOTE: I was offering full escrow in small order ...</span>
+                </td>
+                <td>0.22411474 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Me<br/>
+                    <i class="fa fa-home"></i> To: You - Free Shipping
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Rumpelstiltskin#"/>Rumpelstiltskin</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gcEnW2L8s0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gcEnW2L8s0">25C-NBOMe HCl (1000&micro;g) x150 blotter tabs</a><br/>
+                    <span class="description-preview">Now on Agora!
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was the number one US seller in th ...</span>
+                </td>
+                <td>0.15912147 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/njpUYjMklK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/njpUYjMklK">25B-NBOMe HCl (1000&micro;g) x5 blotter tabs</a><br/>
+                    <span class="description-preview">____________
+Now on Agora!
+&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was th ...</span>
+                </td>
+                <td>0.02241147 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Pw4JSrolBy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Pw4JSrolBy">5 NBOMe blotter 25i (1000&micro;g)</a><br/>
+                    <span class="description-preview">5 NBOMe blotters 25i (1000&micro;g)
+Put the blotter under your lip and use it as it is snuff.
+vacuumed sealed - cab be stored in room  temperature 1 year or at least 3 years in freezer
+
+
+If you place  ...</span>
+                </td>
+                <td>0.03585835 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/sweshroom#"/>sweshroom</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.83/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xueVKcDYLj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xueVKcDYLj">500x [1000mcg 25c-NBOMe] blotters</a><br/>
+                    <span class="description-preview">This are our famous 25c-NBOMe HPBCD complexed blotters containing 1000mcg per hit. We were the oldest NBOMe seller on SR.
+
+How to feed your plants:
+Place one tab ( enough for a nice trip) between  ...</span>
+                </td>
+                <td>0.28014343 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/ESP.png" /> Spain<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Nevita#"/>Nevita</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 70~100 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/X6MMNyTL7t">25x-NBMOe 1,000g powder  - Import - Free Ship</a><br/>
+                    <span class="description-preview">This listing is for 1,000g of 25(B/C/I)-NBOMe delivered from my source in China to your door via EMS. Shipping takes 7-16 days to the USA. Place a note in your encrypted message stating which chemica ...</span>
+                </td>
+                <td>20.17032720 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/RC4Everyone#"/>RC4Everyone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Z1Y5p9VRx8.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Z1Y5p9VRx8">25C-NBOMe HCl (1000&micro;g) x900 blotter tabs</a><br/>
+                    <span class="description-preview">Now on Agora!
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was the number one US seller in th ...</span>
+                </td>
+                <td>0.71716718 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/K1peCyfx8P.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/K1peCyfx8P">25B-NBOMe HCl (1000&micro;g) x100 blotter tabs</a><br/>
+                    <span class="description-preview">____________
+Now on Agora!
+&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was th ...</span>
+                </td>
+                <td>0.11205737 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/X3n5X1J29M">25C-NBOMe [500mg] shipped from inside of non-flagged country, EU, Schengen zone + tracking</a><br/>
+                    <span class="description-preview">25C-NBOMe 99%
+off-white powder
+working really nice, perfect to make blotters
+
+PLEASE NOTE : Shipping within 36h from receiving payment excluding weekends, within Europe up to 4-6 days, shipping t ...</span>
+                </td>
+                <td>0.15688032 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/swisshound78#"/>swisshound78</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/KeljKBnTnt">25B-NBOMe [5000mg] shipped from inside of non-flagged country, EU, Schengen zone + tracking</a><br/>
+                    <span class="description-preview">25B-NBOMe 99%
+off-white powder
+working really nice, perfect to make blotters
+
+PLEASE NOTE : Shipping within 36h from receiving payment excluding weekends, within Europe up to 4-6 days, shipping t ...</span>
+                </td>
+                <td>1.00851636 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/swisshound78#"/>swisshound78</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NDWBVCSKM8.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NDWBVCSKM8">25B-NBOMe HCl (1000&micro;g) x50 blotter tabs</a><br/>
+                    <span class="description-preview">____________
+Now on Agora!
+&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;&macr;
+
+born too late to explore the earth
+born to early to explore the galaxy
+born just in time to explore psychedelics ordered off of the Internet
+
+I was th ...</span>
+                </td>
+                <td>0.07844016 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Righteous#"/>Righteous</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/EvhdAsVxKq">25B-NBOMe [1000mg] shipped from inside of non-flagged country, EU, Schengen zone + tracking</a><br/>
+                    <span class="description-preview">25B-NBOMe 99%
+off-white powder
+working really nice, perfect to make blotters
+
+PLEASE NOTE : Shipping within 36h from receiving payment excluding weekends, within Europe up to 4-6 days, shipping t ...</span>
+                </td>
+                <td>0.24652622 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/swisshound78#"/>swisshound78</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/q2euPCZr8D.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/q2euPCZr8D">20 x 1mg 25iNBome tabs HPBCD complexed</a><br/>
+                    <span class="description-preview">This listing is for 20 tabs of our famous HPBCD complexed 25i.
+Please read profile before purchasing</span>
+                </td>
+                <td>0.03585835 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/DaHBome#"/>DaHBome</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.98/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nmqLvJi2ZS.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nmqLvJi2ZS">25i-NBOMe [5 geltabs]</a><br/>
+                    <span class="description-preview">25i-NBOMe [5 geltabs] 0.80mg/each
+complexed with HPBCD for optimal absorption
+
+Take sublingually: melt under the tongue for 10 min (do not swallow, otherwise it will not work)
+
+Dosage:
+
+1/2 ge ...</span>
+                </td>
+                <td>0.08964589 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Fappy#"/>Fappy</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/Lct7GXvbrZ">25C-NBOMe [1000mg] shipped from inside of non-flagged country, EU, Schengen zone + tracking</a><br/>
+                    <span class="description-preview">25C-NBOMe 99%
+off-white powder
+working really nice, perfect to make blotters
+
+PLEASE NOTE : Shipping within 36h from receiving payment excluding weekends, within Europe up to 4-6 days, shipping t ...</span>
+                </td>
+                <td>0.24652622 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/swisshound78#"/>swisshound78</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/a5tCyBD5un">25B-NBOMe 1200mcg blotters x 100 from inside of European Union</a><br/>
+                    <span class="description-preview">25B-NBOMe 1200mcg blotters x 100
+
+Shipped from inside of European Union so it never poses problem with customs unlike letters from USA/Canada
+
+I&#39;m the same vendor as on SR2, please check my feedb ...</span>
+                </td>
+                <td>0.08964589 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/swisshound78#"/>swisshound78</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/jFTVrD9X2v">25C-NBOMe x 100 @ 500ug Per</a><br/>
+                    <span class="description-preview">25C-NBOMe (NBOMe-2C-C, 2C-C-NBOMe, Cimbi-82) is a psychedelic drug and derivative of the psychedelic phenethylamine 2C-C. 25C-NBOMe appeared on online vendor sites in 2010 but was not reported in the ...</span>
+                </td>
+                <td>0.44822949 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/ChemicallyEmbalanced#"/>ChemicallyEmbalanced</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NfhUgnt7Xf.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NfhUgnt7Xf">[HQ] 5x 25c(1000ug) NBOME blotter tabs</a><br/>
+                    <span class="description-preview">How to take NBOME products:
+Taking NBOME products are not the same as taking LSD. When taking NBOME products leave it under your tongue for an hour. If you swallow it then it will not be able to
+
+ ...</span>
+                </td>
+                <td>0.02689376 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/user/Chess#"/>Chess</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zC4bATJJup.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zC4bATJJup">25i-NBOMe [10 geltabs]</a><br/>
+                    <span class="description-preview">25i-NBOMe [10 geltabs] 0.80mg/each
+complexed with HPBCD for optimal absorption
+
+Take sublingually: melt under the tongue for 10 min (do not swallow, otherwise it will not work)
+
+Dosage:
+
+1/2 g ...</span>
+                </td>
+                <td>0.15688032 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Fappy#"/>Fappy</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/D64wcLNBF2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/D64wcLNBF2">900ug HPBCD Complexed 25c NBOMe Blotter x 450 (Half Sheet)</a><br/>
+                    <span class="description-preview">.</span>
+                </td>
+                <td>1.79291797 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Bryol#"/>Bryol</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VVhUeteVFr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VVhUeteVFr">1200ug HPBCD Complexed 25i NBOMe Blotter x 450 (Half Sheet)</a><br/>
+                    <span class="description-preview">.</span>
+                </td>
+                <td>1.79291797 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Bryol#"/>Bryol</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link " href="/cat/cncgx1fb8i/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/cncgx1fb8i/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/cncgx1fb8i/3"> 3 </a>
+            
+                <a class="page-link current-page" href="/cat/cncgx1fb8i/4"> 4 </a>
+            
+                <a class="page-link " href="/cat/cncgx1fb8i/5"> 5 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Althea</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 446.82 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Althea</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 9 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Althea here!<br/><br/>My review thread:<br/>http://i4rx33ibdndtqayh.onion/index.&#112;hp/topic,322.0.html<br/><br/>I am here to provide quality products.<br/>Only listing a couple items here first to see how it goes.<br/><br/>We are a very experienced team of vendors. <br/><br/><br/>All purchases to be done with bitcoin.<br/><br/>All items shipped discreetly. <br/><br/>All addresses in PGP.<br/><br/><br/>PLEASE format addresses like so:<br/><br/>First Last <br/>123 Street Ave<br/>Anytown, State<br/>USA<br/><br/><br/>DO NOT USE A FAKE NAME OR ADDRESS.<br/><br/>MUST READ THE FOLLOWING:<br/>I do not offer tracking on my shipments for security reasons. <br/>All mail is first class. <br/>ALL addresses are copy/pasted to shipping labels.<br/>In the case that something does not show up, I can only offer 25% refund.<br/>By ordering from me you agree to these terms.<br/>If a product does not show up I have to assume either your address is flagged, you are incompetent, or you are a scammer. In which case I will no longer be doing business with you.<br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (GNU/&#76;inux)<br/><br/>mQINBFKf2K0BEADacY7BwJ75XFq7/pqtNnxJAcOwz8jqacJ1aUr6jTuqNd0MQSo8<br/>ZOkkerFw4Zi0kcUCL2991uTVXcVerDXk6KMjSH9DEratWq9dcKC2tGg0BEalVtQS<br/>8Zlordzd3KCfjdFhuOfpZcFjCp+LA0rlJcGkBYip+YIg7/dzBiYGyMYC8P3VpKw/<br/>bYtZW6HlgYqavb2k0FH2Caw6ptUmN31tXfzcL2wPUlysj3w4+9b9khzbKttIzR+r<br/>ohChN3hQmumH4tQbleevme5vCsilsotEFZv9zXxIcAQdKozApTpVkzF2SlO3veKa<br/>hYcBgd1UvhnpALF44KtnsyDtmDeL0W7hkM2brcmUBCeSnQuetSygTbN3QL8j10Mt<br/>UMl+lzXws5BobUwrZfWDN6mk/PXaMHNnYwoGDSaX5a101Lv3nENZmDa8sqDOHmOH<br/>Cm0kxLflrks6/jzVxEw6/i7z2M+I+NwmWOt+w+HEt1/kANZEK+8hnMekdjFc31ak<br/>8Zdmg3kaNOsxbBEO1kIYHGXryxN7Wj6tcY2n3t3cnClrZBPBCFa+q0+r1SutH8VD<br/>6/SVUtneRDXeeRCGCI0B2vNWtBWadKD5VZT2xO9Abfhdo768JY18+QjbwCmI63Uo<br/>Ftp9pq42mZZUmHGRf5M1QXxSPoQT664FB6uGHB4De6nIqsJvt3O+6xTnSQARAQAB<br/>tBxBbHRoZWEgPEFsdGhlYTkxQHJpc2V1cC5uZXQ+iQI4BBMBAgAiBQJSn9itAhsv<br/>BgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRDzkwjlrA1HilqpD/0dF6VVEArM<br/>URlMxW2MZwzGxc6cqSNvyZZ8ombuv7ru0dy7QwUBzLOC2vt9KE4l2TzYSV9Q/MyC<br/>xBFepTwZ8UaFDbd7N8dZtGJYgcc1CJG0mcan/0YVKanWTpKUqoQtoVa9TAPJs5Jd<br/>ZekJ2pIMYIucp1UgwfDB+5zHCiwsaRa4EeZgUcDF3t8iAiUT5qYX03uiPki/rs+p<br/>szxCm4VAIzpnV277Cb/esyOqli+KEA1kmNawGT886zXfAT1KILPSYM09tcVnwhoI<br/>nt1wTdqmd38Se1QMiMqWJmDT3sPjccXszG5WMy3mMTpkj/RR6Iy0xpEPde+oCmE4<br/>z+AXWFweHYUjEYrmJ9mX+3IzgX19csNjt336j2O93zHbPNYF+XFjkO1GSTTi7B5g<br/>O8eBUP6fShQYCVW+Juk8T7eWaHyA+JR6TcalUQQ0C/J1qbYmbcqLaE1GS6u3Honp<br/>1O53JG9vTcC6139IUL3QD9ckeoiW3qVLkXuN0SmB96PTpceO75K6uEuN+qkd2Qvu<br/>wAUSmehIVCIl7xHaPahN3o+xyKREWY1HUWU4YbWzJV3ePpxIp3u9Dxj27jjF/nZ6<br/>XDDK4tIIvlqbXRPKrSz/UPa4YfHyxkaF+wPTRVMP6jeKcGOIEDhH/bS0f0sK2/aZ<br/>Cmw9npR3eXkRg955MOjp79dubqYtMJLGsLkCDQRSn9itARAAxA7m16sFwXfn0Qxf<br/>2xWDlxl7raKF4avvqDt+I6f/hbyHCej9Tgrzd07OKKA4tHxhcepgsTUIOU65MiNo<br/>F4ay47pV25XRaKlCElqDFnZgm3/HKPcht3TCp+q9U6sqOhFYxGGS6llzdCnmqsbP<br/>LKRJ2in6CSZiVrxZraAmzCJ8yQWMidUvaxd/zj97r86RNZqplEJHUrNPIpoHWcKP<br/>MN//tI2BxLOsdAcijDFAqvLx+u3bBy+8yFqXBTqgCaqNi1ao0dqVsdhtO84IQdr/<br/>kuUS+OByB+vYG46CYeiztsHZsqT1jBSJzvvogvgrn0Lo4lL6ekt91Y2ALzx4L2aK<br/>9bI0WhjDQRjCdm7aVLsv19Bt2hrnx9fRVwfRDkNbDgxT5AvlxbBrGTSeg3+8uK4J<br/>+DMeVC/QjsIyT3SUfwFPA7d33YhYhEplHKSfuFeW+Koyc8ZwwpOCBGoCQKqVms1v<br/>VvWpjVzVY13TDuKvmYG72LpSCCnIsN5bCabgPPIgDFgn4siiXVCyUK2v1G9/FmL7<br/>SkGivmYWVbWDTO2lkv3pkssSNgGKlFRLyosdmfcEVFJY9L1QK0kL5/ruXaV07iLz<br/>/sJchd5fzV82qA1biu/gfkMZc8tgRWXnVGa5I45z5d6EukGQejbfJIayirSBlPjW<br/>eoAjSbJag7YMrybI5OUzlSaLK4MAEQEAAYkEPgQYAQIACQUCUp/YrQIbLgIpCRDz<br/>kwjlrA1HisFdIAQZAQIABgUCUp/YrQAKCRDu5Cgc5DEFEEgdD/0W3rn/5+V3p7/X<br/>RTol49WXWVaaFK0rzVg/nAM5XYbcqBKCdri7xK2Nn/FcOgQrjzL2Gi8lKXPFdXNb<br/>rR9XLEC6zA5MXbJf3ZIO2/ZyLvUkEP3gsyakZit71kfIAhzvFhf3Gw5WfZSoM1tE<br/>Jox1B26jtum5BBbn8kN4GLI78hoTOLmW8U/tjUlpYxl+bkL8sX0iqBsBk65PZVmZ<br/>c+8Qb303Lo0ZBJHIV7Yk7dzX3GlyPh5up7gNV0uRnmv1/6GbCccPYrqk02T2C1BQ<br/>XuvZuk6kQYKecHtGvqSYJ7qeoF9ulMhTywUxz/PESUnw5SF2li1p8wCrQQNG3CY5<br/>rujDzzxBu+LMbroWsXYlaUBCYl+NulpJiyQzHHl3RCSEkET4eQL5NGi5ig7hweed<br/>NvttMd2ipkFBk5lyvNEik8Z2Q4pox1QqjULB6+Vqx/4Bu9otEZACUc858smdXW61<br/>7sE3oDssvXsT8Jp7hMOYS/1sLK8cgPQ7yfe/ck7sC5dwWGCT0K9E96Q4XMMUUOI7<br/>Y63Nh0MDRcq9yDmHZIhG8bOGKBTvyE5L24pjzucijzwezeNyb9dwhpMRJHmnhvy1<br/>cfETlc7BLmbRYKCBLE7UUfZhY4ivFg9CD8TykWFkBWc84ynD6rQfpFlx7lSlMxKV<br/>CRKaaMN2/fNl4CBLDPSyGwJ0ozQYFiKcD/9CXViafZMewUrk+J50lA2h6LmkqNNX<br/>Uy1vgP5usn04dVAGoLewrUQg2lh71/njFXbzefgTNxF32CV+TR2rXh4I+LuLMQ7v<br/>knVx5CR6ABak5RvG0LN5ZZYQG5tnhABPqF+qFjQLZDn6wH1X4QwzSVV22nds2t1b<br/>AzvWGBT10bVPKrPKu7chC8x8UPMxbKcmsFf7BqFB2wZLRC2pEBLnViG7lWn+ShQ5<br/>DsV0ZSel7Xo3brea9Qn70MOvu6GLo6RVqevBmn+GWVwyHmh/mNd3lLrbLQPaCwNV<br/>DO9L8k3vuArvbSC/RrsEqBfEa+e1O3LxQuXS4YwEMwGzAw7TJWZnscHROabtEfj2<br/>qwg4j2qNG/JpN5lxIUm5ABh8Dxf+EdhIwQGGFmAfX/hOhjcKwA4rJrR/uL5nVoL4<br/>UY1mvLdvkOfG+kV3+7B/IciOVopa3RhJFZoP8+2qZiCvaah1zV+kSWGsv2XPEu4y<br/>JgTGJT+XgXAnmKUxxM8yYmW8EYmlBI/VnrScyumyHQPS7dH22ja8BocN+vIQkgRE<br/>yXj1ukJplOEWUKnGKD4V/GC/lBUN+8CjifO3nJx7K+urDQbAduodM8ygeM33mM5d<br/>+LLkkZeYdcEBhFZiXvGNB57uWH7a9sVYj5zORp8zMmG+uZZ64K4iIFQnx3k7SmVx<br/>KOwNWQLMxBhH6A==<br/>=tuF4<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Communicative &amp; creative, great vendor.</td>
+                    
+                        <td>
+                            <a href="/p/rrJBWqVjyk">
+                                5-MeO-DMT - 250mg
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor! The LSD was potent and arrived exactly as described. Wow! Mind melting! Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/sKk6cES8ME">
+                                LSD x 10 Clean Hits - Family Fluff
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast shipping,stealth is good, and excellent product</td>
+                    
+                        <td>
+                            <a href="/p/sKk6cES8ME">
+                                LSD x 10 Clean Hits - Family Fluff
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome, A++ vendor and this drug is unreal, I&#39;ve literally never tripped so hard in my entire life and this is no exaggeration</td>
+                    
+                        <td>
+                            <a href="/p/AcvLRF4D5p">
+                                Free Sample - 25mg 2C-P
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Item received, quick like a bunny, especially considering the holiday mail shitshow. Stealth was solid, ripped envelope would n</td>
+                    
+                        <td>
+                            <a href="/p/AcvLRF4D5p">
+                                Free Sample - 25mg 2C-P
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Althea:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zv3piGyGvT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zv3piGyGvT">10g - 5-Meo-MIPT</a><br/>
+                    <span class="description-preview">This listing is for 10 grams of 5-Meo-MIPT direct from the lab in china. 
+Quality is top notch. Shipping takes 1 to 3 weeks depending where you live. 
+FE required. Free Shipping and tracking number ...</span>
+                </td>
+                <td>0.67139628 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/KCYfugg40B.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/KCYfugg40B">30 Inderall (Propanolol) 80mg</a><br/>
+                    <span class="description-preview">This listing is for 30 high dose Inderall (Propanolol)
+
+each dose is 80mg
+
+Inderal (propranolol) is a beta-blocker. Beta-blockers affect the heart and circulation (blood flow through arteries and ...</span>
+                </td>
+                <td>0.17903900 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/A5qseW2SKr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/A5qseW2SKr">100g - 5-Meo-MIPT</a><br/>
+                    <span class="description-preview">This listing is for 100 grams of 5-Meo-MIPT direct from the lab in china. 
+Quality is top notch. Shipping takes 1 to 3 weeks depending where you live. 
+FE required. Free Shipping and tracking numbe ...</span>
+                </td>
+                <td>1.79039008 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jdRBZKftqN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jdRBZKftqN">50g - 5-Meo-MIPT</a><br/>
+                    <span class="description-preview">This listing is for 50 grams of 5-Meo-MIPT direct from the lab in china. 
+Quality is top notch. Shipping takes 1 to 3 weeks depending where you live. 
+FE required. Free Shipping and tracking number ...</span>
+                </td>
+                <td>1.11899380 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rrJBWqVjyk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rrJBWqVjyk">5-MeO-DMT - 250mg</a><br/>
+                    <span class="description-preview">250 mg of 5-MeO-DMT
+
+Stealth delivery
+
+fast and safe</span>
+                </td>
+                <td>0.21260882 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Althea" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Althea</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Althea'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

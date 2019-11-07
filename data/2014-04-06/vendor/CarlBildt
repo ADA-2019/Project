@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CarlBildt</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.31 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>CarlBildt</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.71/5, 15~25 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 13 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            WELCOME!<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Please save our private email in case you should need to contact us <br/>outside SR: carlbildt@torbox3uiot6wchz.onion<br/>Please note you can only send emails to this account using .onion services.<br/><br/>Note that we cannot accept privnotes as they require &#106;ava, <br/>an alternative is www.temp.pm.<br/><br/>All our products are being shipped from Sweden which is a low-priority<br/>country for customs. Shortly I will be offering a wide range of different<br/>prescription drugs and high quality coke as well. If you have requests<br/>of any product PM me and I&#39;ll see what I can do.<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/> <br/><br/>NEWS:<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>02/04: New listings added: Good quality hash and AB-FUBINACA!<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>27/03: Flunitrazepam will be delayed a couple of days, compensation will be included for delayed orders.<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>17/03: Added new quantities for AB-FUBINACA (25g/50g/100g).<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>15/03: Amphetamine back in stock! This time an even better and drier batch!!<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>12/03: Now open for new orders. (Note: amphetamine is currently out of stock)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/> <br/> <br/> <br/>CURRENT LISTINGS:<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Good quality hash (Quantities: 50g/100g) <br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Flunitrazepam (Rohypnol) 1mg (Quantities: 5x/10x/20x/100x)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>AB-FUBINACA 98%+ (Quantities: 1g/5g/10g/25g/50g/100g) (Larger quantities coming)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Pure MDMA ***96.4%*** (Quantities: 0.5g/1g/5g)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Amfetamin **Potent 70%+** (Quantities: 2g/5g/10g/20g)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>TRAMADOL HEXAL 100mg (Quantities: 30/50/100 capsules)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>1x Oxycodone - 10 mg (Quantities: 1 tab)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Legal High Quality Spice - CONTAINING 20% PB-22 <br/>(Quantities: 5g/10g/25g/50g/100g/500g/1000g)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Sm&ouml;rkola (karameller med THC) (Quantities: 1x/5x)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/> <br/> <br/> <br/>COMING SOON:<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Anti-depressants (SSRI) - Please PM me if you would like to see SSRI in my listings<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Ecstasy<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Codeine<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Lyrica<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Viagra<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Cialis<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>High quality cocaine<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>High quality heroin<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Nitrazepam<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Various synthetic cannabinoids (pre-ban)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/><br/> <br/> <br/> <br/> <br/>SAFETY FIRST (PGP-ENCRYPTION)<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>For the love of god please use PGP when ordering narcotics! <br/>You can use following site to encrypt your address:<br/>https://www.igolder.com/pgp/encryption/<br/><br/>Instructions:<br/>Simply paste my public PGP-key in the top field, your address in the <br/>middle field and press encrypt. Copy the long text that appears <br/>in the bottom field and paste it here on SR when ordering.<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/><br/> <br/><br/> <br/><br/> <br/>SHIPPING<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/>Domestic orders are usually delivered and received within 24 hours if you order <br/>before 16.00. As soon as we spot your order, the packaging &#112;rocess starts immediately <br/>and your order is marked as &quot;shipped&quot;.<br/><br/>Note: Your order will be saved offline on our encrypted disk as soon <br/>as we spot it, and will be delivered even if SR would by any unfortunate <br/>event have any downtime in the future.<br/><br/>Once your order has been &#112;rocessed, it will immediately be <br/>removed from our encrypted disk.<br/><br/>ESTIMATED DELIVERY TIME:<br/>Domestic: 1-2 business days<br/>Europe: 2-4 business days<br/>Outside EU: 4-10 business days<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/><br/><br/><br/> <br/> <br/><br/>TERMS AND CONDTIONS<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/><br/>DO NOT ORDER FROM ME IF:<br/>You can&#39;t handle a day or two of delay in worst case scenario (For instance if the product is suddenly out of stock).<br/>You are going to give me negative feedback before you receive your product without trying it. (You can&#39;t change your feedback on SR 2.0 once it is written).<br/>You have had prior problems with your shipping address. (seized packages etc).<br/>You haven&#39;t read my full profile.<br/>You are an impatient motherfucker.<br/><br/>YOU MAY ORDER FROM ME IF:<br/>You have read my full profile at least once.<br/>You always read the &quot;News&quot; section before placing an order.<br/>You contact me before leaving negative feedback.<br/>You write feedback according to the description (example: If I clearly explain on my listing that my cocaine is bad, you give feedback according the description and my trustworthiness as a vendor not of the product quality itself).<br/><br/>If you cannot fullfill my terms and conditions, I do not need you as a customer. <br/>In fact, I do not want you as a customer. Please respect this.<br/>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFMQL4oBCAC2c8qIU7rtWQgaAiTpaJIx4eop3mn+dvKtxfW5N8Wnc32rqzUs<br/>xnTxNmxlgETDoSClJaPpDwpLCe4hZab5b8vPzwW2FwgR4PtIf0aAy6fU83qd2CYN<br/>JNrvjy8FGXduH3r3PhcvpTMgfn77/nzodJZECSkLVcc40tHhea7W3su3RrkqQ8No<br/>DpbXFok6VgqonsnPHS6Ac7bm+i1PNU+rBwOdrzgwKtWgo75aoLP67qBJo9/8MxGE<br/>F1PJKLrjGbSsLbarZc8thbyf9+3vDyUTlVeYDRMwjshBH3MCuDZ16gSOMyywUFe2<br/>5c0KLgICAqfBeQyXC87W5q1ZW65Oca8gOF1fABEBAAG0LUNhcmwgQmlsZHQgPGNh<br/>cmxiaWxkdEB0b3Jib3gzdWlvdDZ3Y2h6Lm9uaW9uPokBOQQTAQIAIwUCUxAvigIb<br/>AwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEHKEqG6irs7TqUcH/Rz+BLtR<br/>o6kCG/CGggc3nBimTqsWbkMEt4Oe2g0WHMKRkpk8OedMO+v/jKgdsOKF8GuzIqZT<br/>gtjdnIs4kX0Rqf/6or0xFPjy4mVuYu+2HCBM87Q0SPR0GEbzNm0jUJAOyU1/I/Pv<br/>PRqYoEHt4ICCt3IUB36Ylp6BpU3ofRuCXFXSTLy7R4ZtQsJtjKdZPZylzfn3aU98<br/>PyTVBBjRzpB17fNz/hOMkumS1vcQTkSg4gHl0QSqBECyrdfw2qhB1yEtJSCI4W1s<br/>H+7yDzCC4kq8pqwqWRv5/iDFnyUgkO+YIME/unhJAGyMBaU9cC2aYHTmI71t8tph<br/>6aOMvhJjlkDxXOG5AQ0EUxAvigEIAKYeXWnsPBpw5p/0oRU830kOTGAcA56s3w5D<br/>B3vwMIO9eW3aqvilY8BELoaYnoo2N0aWvoqzS9S77X8200sWuiSVCqWpSBITVJXj<br/>NF0+yNcDuL1v99FLmi9ENC3+7986/Ss5e/DyAKTL47IL5glwr6O8xEedtLhh4lvR<br/>mJeJD142mHEGntgBEUFxrn7mnaYyLMpxfRJKrd4MpeP59EDS2a9F+O0KfSw6o5Fq<br/>BD5rFetHbvET1T5NfqBnrYqysgGpphbcsNF/aEPfxfB3Z64y+zuDCIDd6YtFwT8v<br/>F8+c9jO+PbY2FL+dN4ju843M4Dp+KAFaqPTX7YvAlu9MQsLWF50AEQEAAYkBHwQY<br/>AQIACQUCUxAvigIbDAAKCRByhKhuoq7O07irCACxTC54Dv5Qo6M1sXDW6uKK/EgI<br/>8KhZcUVUOjbwOKlASUaJHTpenS8TI0hvPTvkIiwVqfl2PIxM4KTdEV+YHUHQaPQr<br/>NkyA5uuNCuA+2EYCJRHNJUu4OzfLFyqIWL/Yc1u4ybZ6BWBT2oMYh5msz63+ayTB<br/>/opnEs01pbKUD6t8E/W2kc/Sj5nw41DZWSneQ+H4/rM6J7vduZhPMDXq+Aa8BEuw<br/>rismM3PFVHpdPYlB+cI9k9MuJDLKMB8TbV1baQ4LGhBV9cTqD6W+KYnyFjzz4xnA<br/>mCHFsLoFfux6PLPRFxeL1HF6FF2z++G/EFwKzzNsPIcz2EFheaI9/KIQ/0AI<br/>=LmWf<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Bra grejer!</td>
+                    
+                        <td>
+                            <a href="/p/vpR0Tmbx0f">
+                                2g Amfetamin **70%+** (Dagen efter leverans)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>G&aring;tt &ouml;ver en m&aring;nad nu och fortfarande inga varor.</td>
+                    
+                        <td>
+                            <a href="/p/AJYRSTueLC">
+                                0.5g Pure MDMA 90%+ (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent communication 5/5</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great!</td>
+                    
+                        <td>
+                            <a href="/p/vpR0Tmbx0f">
+                                2g Amfetamin **70%+** (Dagen efter leverans)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived after a few days. Pills in top condition, but unfortunately not in blister. TOP, Would buy again!</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>The real deal with very fast shipping. Lovely stuff!</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE</td>
+                    
+                        <td>
+                            <a href="/p/JzX28UFGAh">
+                                5g Amfetamin **70%+** (Dagen efter leverans)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>honest vendor</td>
+                    
+                        <td>
+                            <a href="/p/GzLUEzGBPD">
+                                5x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~0/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Tackar! Bra grejer!</td>
+                    
+                        <td>
+                            <a href="/p/vpR0Tmbx0f">
+                                2g Amfetamin **70%+** (Dagen efter leverans)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 Snabb leverans och bra produkt. Tack.</td>
+                    
+                        <td>
+                            <a href="/p/GzLUEzGBPD">
+                                5x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Bra paketerat, kom fram som det skulle.</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fick som utlovat. V&auml;ldigt bra tryck i dessa underbara FM1or. Mycket n&ouml;jd!</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/GzLUEzGBPD">
+                                5x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Exakt som det ska vara...</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Tog n&aring;gon dag extra. Men annars som utlovat. Ny best&auml;llning direkt...</td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>B&Auml;&Auml;&Auml;&Auml;&Auml;SSTA har best&auml;llt f&ouml;rut och g&ouml;r det igen. tackar!!</td>
+                    
+                        <td>
+                            <a href="/p/JzX28UFGAh">
+                                5g Amfetamin **70%+** (Dagen efter leverans)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/mN8KSSbG5t">
+                                10x Flunitrazepam (Rohypnol) 1mg - (Shipped from Sweden)
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of CarlBildt:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/z4YZbzPTpq.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/z4YZbzPTpq">1g Pure MDMA 90%+ (Shipped from Sweden)</a><br/>
+                    <span class="description-preview">Yes, you read correctly 90%+ pure MDMA. This is the purest safrole based MDMA you will ever find.
+
+Weight: 1.0g
+
+I will let the product speak for itself.
+
+FE Required due to recent SR theft.</span>
+                </td>
+                <td>0.33089208 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MVliveZGd8.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MVliveZGd8">100g AB-FUBINACA - Shipped from Sweden</a><br/>
+                    <span class="description-preview">100g AB-FUBINACA 98%+ Purity
+
+Shipped from Sweden (Low priority country for customs)
+
+*** SUPER STEALTH (100% SUCCESS RATE) INCLUDED FOR 100G+ AND INTERNATIONAL ORDERS ***</span>
+                </td>
+                <td>2.39345274 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CnKF6oN2To.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CnKF6oN2To">5g AB-FUBINACA - Shipped from Sweden</a><br/>
+                    <span class="description-preview">5g AB-FUBINACA  98%+ Purity
+
+Shipped from Sweden (Low priority country for customs)
+
+FE required</span>
+                </td>
+                <td>0.18750551 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sFBLldL4rG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sFBLldL4rG">10g AB-FUBINACA - Shipped from Sweden</a><br/>
+                    <span class="description-preview">10g AB-FUBINACA  98%+ Purity
+
+Shipped from Sweden (Low priority country for customs)
+
+FE required</span>
+                </td>
+                <td>0.33089208 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tXqMikhJRa.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tXqMikhJRa">20g Amfetamin **70%+** (Dagen efter leverans)</a><br/>
+                    <span class="description-preview">20g Amfetamin pasta f&ouml;r gatupriser! Best&auml;llningar lagda innan 17.00 skickas ut samma dag.
+
+FE obligatoriskt eftersom att vi blev av med stora summor pengar p.g.a SR st&ouml;lden.</span>
+                </td>
+                <td>1.30150886 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YfMZ4wywjw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YfMZ4wywjw">50g Good quality hash - (Shipped from Sweden)</a><br/>
+                    <span class="description-preview">50g of good quality hash, the quality is approximately 7-8 in a scale of 1-10.
+
+Shipped from Sweden which is a low priority country for customs.
+
+FE required.</span>
+                </td>
+                <td>0.83825994 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AJYRSTueLC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AJYRSTueLC">0.5g Pure MDMA 90%+ (Shipped from Sweden)</a><br/>
+                    <span class="description-preview">Yes, you read correctly 90%+ pure MDMA. This is the purest safrole based MDMA you will ever find.
+
+Weight: 0.5g
+
+I will let the product speak for itself.
+
+FE Required due to recent SR theft.</span>
+                </td>
+                <td>0.16544604 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AgGxEyavnZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AgGxEyavnZ">1g AB-FUBINACA - Shipped from Sweden</a><br/>
+                    <span class="description-preview">1g AB-FUBINACA  98%+ Purity
+
+Shipped from Sweden (Low priority country for customs)
+
+FE required</span>
+                </td>
+                <td>0.05514868 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/R3UubPoMdB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/R3UubPoMdB">50g AB-FUBINACA - Shipped from Sweden</a><br/>
+                    <span class="description-preview">50g AB-FUBINACA 98%+ Purity
+
+Shipped from Sweden (Low priority country for customs)
+
+FE required</span>
+                </td>
+                <td>1.35665754 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qRj8cFwmjw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qRj8cFwmjw">10g Amfetamin **70%+** (Dagen efter leverans)</a><br/>
+                    <span class="description-preview">10g Amfetamin pasta f&ouml;r gatupriser! Best&auml;llningar lagda innan 17.00 skickas ut samma dag.
+
+FE obligatoriskt eftersom att vi blev av med stora summor pengar p.g.a SR st&ouml;lden.</span>
+                </td>
+                <td>0.68384364 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XFnDEMdluz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XFnDEMdluz">25g AB-FUBINACA - Shipped from Sweden</a><br/>
+                    <span class="description-preview">25g AB-FUBINACA  98%+ Purity
+
+Shipped from Sweden (Low priority country for customs)
+
+FE Required</span>
+                </td>
+                <td>0.72796258 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JzX28UFGAh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JzX28UFGAh">5g Amfetamin **70%+** (Dagen efter leverans)</a><br/>
+                    <span class="description-preview">5g Amfetamin pasta f&ouml;r gatupriser! Best&auml;llningar lagda innan 17.00 skickas ut samma dag.
+
+FE obligatoriskt eftersom att vi blev av med stora summor pengar p.g.a SR st&ouml;lden.</span>
+                </td>
+                <td>0.35295155 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vpR0Tmbx0f.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vpR0Tmbx0f">2g Amfetamin **70%+** (Dagen efter leverans)</a><br/>
+                    <span class="description-preview">2g Amfetamin pasta f&ouml;r gatupriser! Best&auml;llningar lagda innan 17.00 skickas ut samma dag.
+
+FE obligatoriskt eftersom att vi blev av med stora summor pengar p.g.a SR st&ouml;lden.</span>
+                </td>
+                <td>0.14338657 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Z0Dp4UgJqn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Z0Dp4UgJqn">100g Good quality hash - (Shipped from Sweden)</a><br/>
+                    <span class="description-preview">100g of good quality hash, the quality is approximately 7-8 in a scale of 1-10.
+
+Shipped from Sweden which is a low priority country for customs.
+
+FE required.</span>
+                </td>
+                <td>1.43386570 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="CarlBildt" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to CarlBildt</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'CarlBildt'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

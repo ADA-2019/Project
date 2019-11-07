@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Alexandrus</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.31 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Alexandrus</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 40~55 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 17 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Current status: Business open.<br/><br/>News:<br/><br/>2014-02-28 -<br/>With our new shipping schedule, orders will sometimes take longer to reach its destination.<br/><br/>Please be patient and don&#39;t contact us about orders that hasn&#39;t arrived until you have at least waited 5 days.<br/><br/>2014-02-14-<br/>-----BEGIN PGP SIGNED MESSAGE-----<br/>Hash: SHA1<br/><br/>After what happen to SR2 we have decided to open up shop here.<br/>-----BEGIN PGP SIGNATURE-----<br/><br/>iQIcBAEBAgAGBQJS/gclAAoJEPTtyQQ7QzQSkVMQAIYX4PyDKV9IgEGzSWOCoWtx<br/>Pmtl5pJzfZ976AITaqtcgf7CtZU/ZnLk8kFcclciGjLNpMr1wUS/fD2yjvi0xaaT<br/>5xksTJ5i2VNXsNR8QkhI+r73Y+ZoUVz1+uBUiYayMg1UdFCGS0jwcpBv63vjnjfG<br/>v/0Wt5y7MQmhsjbqTcxZyi4864BZsy1f4T4sXvHMGH/oacpkGaXDtBX/aU03HA/H<br/>d4W+DVjXku2eveASBw26N5cUc4rbUo/l5Hwb9FRG86ZEd8hX9zVyR+fVQBGi8MV3<br/>U/9ZcZY7jv+GutZkPMaYW8AlsgpG4sDgvxWfwj4F1ernT/zRblXvbMYQL24kYvRD<br/>1zlsYiwu7Fa4weCGzDfPqQibEeJzo/++vpEu86d0+8DpVzKjwb/nLFW+InF5awca<br/>PUcKVDlgcDbQVUjsKlD2iqK+kOcyBT2uVa1hUboYUcrKc8N4vBHlrUmTGQMfX+E3<br/>QF3STisKkuOypPjcQ2fylfxnAHMsC+G+sMzsy91kzvdojpMfn1MKtF7O01DNP9HP<br/>c4rMvXV4iqYy4f8/4cvgB9kLldJzIJ1ZDORlH4y8Ovl23FFsgfsaTi6v5E5gHi3B<br/>BpNZ4kXGOWk/aZS99JReOYgYBd8ABV3UpdtHrTPg1tt+UQt7qQF5EnIGr1paUgxG<br/>fspVpUucDiU59d2I8aSk<br/>=1iZX<br/>-----END PGP SIGNATURE-----<br/><br/>2014-02-09 -<br/>We have changed our shipping schedule.<br/>We will now ship 3 times/week on undisclosed days instead of 4 times/week.<br/><br/>---------------------------------<br/>Address<br/>---------------------------------<br/>Write the address exactly as it is written on your normal mail.<br/><br/>I recommend using PGP encryption for your safety.<br/>Addresses sent using third-party web-pages (e.g Privnote) will be cancelled.<br/><br/>---------------------------------<br/>Shipping<br/>---------------------------------<br/>If you don&#39;t find a shipping option accurate for your location, <br/>then I unfortunately don&#39;t ship that specific item to your country.<br/><br/>Usual shipping times:<br/>Sweden: 1-2 Days<br/>Western/Central Europe: 2-5 Days<br/>Eastern Europe: 4-10 Days<br/>Australia: 6-7 Days<br/>Russia: 7-12 Days<br/>Worldwide: 4-14 Days<br/><br/>Keep in mind that these are only usual shipping times, it can take longer.<br/><br/>Shipments are sent out 3 times a week on undisclosed days.<br/><br/>I don&#39;t ship to Poste Restante outside of Sweden.<br/>Products are sent double-vacuum-sealed in a discreet envelope.<br/>For all non-domestic orders I have an additional layer with a Mylar bag.<br/><br/><br/>99+% success rate with over 300 &#116;ransactions domestic.<br/><br/>100% success rate to most EU countries, overall average for EU is around 96%.<br/><br/>100% success rate for Worldwide orders until now.<br/><br/><br/>---------------------------------<br/>Refund policy:<br/>---------------------------------<br/>In the rare occurrence of a shipment being lost/seized;<br/>Customers with less than 10 &#116;ransactions or more than 10% refund rate;<br/>25% refund if anything happens to the package.<br/><br/>Customers with more than 10 &#116;ransactions and less than 10% refund rate;<br/>50% refund if anything happens to the package.<br/><br/>If you can provide a document that will prove that your shipment were seized the refund percentage will be doubled.<br/><br/>---------------------------------<br/>Security<br/>---------------------------------<br/>All my data is encrypted.<br/>Your address will be deleted once your order has been shipped.<br/>No customer records are kept for everyone&#39;s safety.<br/><br/>---------------------------------<br/>Contact:<br/>---------------------------------<br/>Feel free to send me a message if you got any questions that isn&#39;t already answered here, both Swedish and English are fine.<br/>If you use encryption when sending me a message, please be sure to include your public PGP key so I can answer you encrypted. <br/><br/>If Agora would ever be shut down you can contact me at Alexandrus@Lelantos.org.<br/>Make sure all communication with this email is encrypted and with your Public-PGP-key included.<br/><br/>---------------------------------<br/>FAQ:<br/>---------------------------------<br/><br/>Q: Do you ship with Track and Trace?<br/>A: No. I don&#39;t for security reasons.<br/><br/>Q: Do you meet live and do deals?<br/>A: No, I only send out orders through mail.<br/><br/>Q: Can I pay you through other means than BTC?<br/>A: No, I only accept payments in BTC through Silk Road&#39;s escrow system.<br/><br/>Q: Do you sell bigger amounts than listed on X product?<br/>A: No, I list what I am willing to sell.<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQINBFK4pFMBEAD7zAOEcw3pvG0TcBeLKGq+E34HmrBsTF/OdAkRR0ovCbrnFGL1<br/>/nCfT++G4XwwpJy1oYQKtkUERUUG4BoTpsZsPXJs/ERfHdUnGy9Dsptf8gEQR0SB<br/>Ahw/2C4Qz+gGEBGwx1TKLPZgsocDx3VZpytvfIl6A9TaL9zTvKXNG61XTc7iXqcH<br/>NCYJdR4sAz87SKB9cG5cYhgtjUpL17Qq9+JEcZnE+HrRmPETgnP48TwQVucfLk+a<br/>F0IO72e2MF2PCLZw5c6gsx2B82q8yR9szO8t6hwzSrpCmCgmCCNdHHWg668SUrGv<br/>S2npp+29WVmF4UkSmj9fEzh650LgGiRBGNmCEqp0KNgWQ44t8zji3KVoOOcNHPav<br/>rA9TjQx2Wm9XIHkWfQOVGF+ryns8mJlsFWrUMcnHLnFwv584PXiJ6SbHSQ8Dtmep<br/>R41tRnUnocGl13JazcjJkIFjb4XniGLCDMsgZNoREAZ8NbUkgbdGkkAcOvsifnjd<br/>vYUUlM6NnwnX6Kgp6b/kGz661W5AHxaUqlXFUFC55rvbcN/P6tXPiaJO+rUvusTZ<br/>EtHK09OGiNRWBY5xOMwV7q9DE9RunLA68yZtfQRpeIKmIxMd/QhAQ0aqumiO4BZ7<br/>nhA4blNV+a0kz9a2BOYxQauYx994L+u9jO07G6RXNpK3Vp1z8N68f5+FgwARAQAB<br/>tCRBbGV4YW5kcnVzIDxBbGV4YW5kcnVzQExlbGFudG9zLm9yZz6JAjgEEwECACIF<br/>AlK4pFMCGwMGCwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEPTtyQQ7QzQSyMMQ<br/>AKK0VaZxrCufq/Gq8Hzbxf8gLDHmIZPSg6eP+g2ZCzVnrVCd9cdTrGvWENOQaiXV<br/>v4PV7fNXJtQnnJjTj9xyrYtsekByQ3gTkRFiIZZKvRnOyRe55NjQB1b2dcZp/JfR<br/>zDXXshEs4tWhOH2795hV4CaLCD9ixvGAEm3RstBn0+ftHZwFd2PqTJa5nDH80ncy<br/>WTRkyV68bSfWbql0dZ9zyUN3yRsk420c2gpuyvG6tFbLRtm3Kg3ZZUWcRwJPSft+<br/>9NCFwAX6/D3pw8uqHCqqwSyI3oUEw9No7ApnYs7sAMW0hujSbS8zwjD3U6G+lRRA<br/>LVooJfhvqvrpUGcydgC28e1cImwnf8RfnNqSC0+jbm45B7qGzyjtJTLsI3tIQVDW<br/>QXJyt/08hyePidbuubv2cc0bOwNvL48+bvNSkSP3BRRmbVPIo7r+qQ5jA16uCuqP<br/>K5JYnwFvN1GhPSTuksVy4j1AD9yoUu6YJkZ/ZFH0OXjttIa2TfWA/UHHilahLRxo<br/>Q9hHjjTGKuEfgBtizqjqI6OPdcndfpar7Z8T3Jvnhr3CfhhYR29dPl0LsbhG7X+Q<br/>20TxeMh5HNU80wiwLM3jh2akobfqCKs2Mp4HWVaQ3Ju0dRtHulZPQK7mLvWeRBha<br/>jXLgNGC9GA3Xg9olItN1B6TFvvxJ8wh7y5QYIvbqK3zduQINBFK4pFMBEADb8TbV<br/>zzFSAjsWaCY4gvuvmcBmA+j6ZsAUHLYRWHpCqd40h1M4xfIxallYiuSl8UOQPEaF<br/>uCX0a97tlaIHwbchdNakNDayNlIfqwPJwfoONQwutQIQCSAbVr0UW2QVilyq8NUa<br/>0gIvF7+3wh5gGRrOz4uZFVhxHuH5gz5HPxN04UMmVAHto9k77VnTtJjLL4VKIrv7<br/>xpp/4aR399U6sNfhFNNYMdx4HeS9r7WgGzBJgM/qaS/dkw7CAHLYNPUAsOKjPURi<br/>DH2WqXPC7rvUCZDdLgIWnziwPF605NrD6WCP7//PKuw+dkIr+buoruMZeOFs+z3f<br/>9NK1L/748V6mZDQo1EHYdu9+GwaVbuPhm2n+pOcdao4y66X+7x8txr9esSef0BYp<br/>QUQhoGRLTqOduCsJtYTJxqhp40a2LpzxgBARO5wdyzQARtQnZOnexrZo0bJeMosC<br/>OCMb4XA2z+WBu1T3gHC6JnTvRqW93QlXNYvIahnGGL6kN7ucpfE1bYSq/WZOIeaY<br/>vB6gQS39siF1PrK71i/UfSWs/R9d7mQiJXUizh+layXsBnTINX1jhSAMbUi0zkpS<br/>YR+Tnnpe0Q7osfCLhmbZc7YixdmhO1R6frCIPXlBeMRti3De59iPxkEDa/quOlQz<br/>pCjyD0IHbC6wvfPCeD2MpPl7+C5+dOlfUNKNAQARAQABiQIfBBgBAgAJBQJSuKRT<br/>AhsMAAoJEPTtyQQ7QzQSlZUP/3+CT+uWlApLO8dg3oKb6aHYlrkap8IfK4WDFfFp<br/>ZunA3F8C30XQZ7fbF6QUvu1cVviuK55GfgWSuxgUoTI24eV5kYCdWg9qUWXmcErK<br/>0SYOMWn8ohaD2xjD2kS4928mFDOHCJbrwjFtN5exxWd9NlGamGUN7nN/mPqsLGzv<br/>uE27wE7e+zja95aruCarAceLQnF/eVMVzh1ats5SMjKfy8o0wGAEftPBi27zchaU<br/>G2lb5so+qWwbEu4pD0Jd2ze2kYhXF/L4RuR6PxDSqz6slavkSjMSrN+OOu/O0fdb<br/>Ik7UtadqsttbWJj23TOR/kzplSMw+pZi3IaWY6k37gpS5ghfWD2jXiihZ9Jfv7YU<br/>c6QQMTPpiUufNfbIBDTe+MlkWD86M2RtUDPsL5yE71I1cad2j3NWT4U2JYPu4/aG<br/>X6KmHpMdGEW8D+Oh5+BIN6vMRSRF8YAfWHmWaEy4wDOUWj37r9lwcv/RZAgJSvZu<br/>BV/YPIpGfBd48gjDpGlYu7o8gjqAt6uqTGKOSK31oPyxFQSvgfYVaqytiUFrqxXB<br/>4hzz36TpfoHGWkPzMML/ovUkeW85TFsleH82NRIh/O1xoZfEZWRc4h7jmKT4l+Sm<br/>IiM+iE848ixe2GpaENI4DXuTEFfcEms3nHrJALNPRfYuiAQ/GJIOTx6rjy5wFeUv<br/>pS3F<br/>=dMRa<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 som vanligt. Alexandrus leverar alltid!</td>
+                    
+                        <td>
+                            <a href="/p/wzmd2ytiNh">
+                                5x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick delivery, 2 days (Sweden) stealth was OK, product looks good</td>
+                    
+                        <td>
+                            <a href="/p/wzmd2ytiNh">
+                                5x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good vendor. Trustfull</td>
+                    
+                        <td>
+                            <a href="/p/G7VC74uf7T">
+                                100x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Kunde inte vara mer n&ouml;jd med k&ouml;pet! 
+Rekommenderas verkligen</td>
+                    
+                        <td>
+                            <a href="/p/wzmd2ytiNh">
+                                5x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Snabb lev.mkt bra packat.Toppen r&ouml;ka :)Kommer Tillbka.</td>
+                    
+                        <td>
+                            <a href="/p/EeZKvBklnJ">
+                                5g HQ Pollen Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Kom fram snabbt och s&auml;kert. Har inte testat det &auml;n, l&auml;gger en uppdatering d&aring;.</td>
+                    
+                        <td>
+                            <a href="/p/wzmd2ytiNh">
+                                5x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/BCoxRse45N">
+                                2.5g HQ Pollen Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Snabb lev. bra packat. mjuk och helt ok r&ouml;ka :)Kommer &aring;terkomma :)</td>
+                    
+                        <td>
+                            <a href="/p/qTzew7aA2g">
+                                5g Dark Afghan Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/wzmd2ytiNh">
+                                5x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Mycket v&auml;l paketerat och en dags leverans, Alexandrus levererar lika v&auml;l h&auml;r som p&aring; tidigare markets.</td>
+                    
+                        <td>
+                            <a href="/p/EeZKvBklnJ">
+                                5g HQ Pollen Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Bra stealth och bra k&ouml;p!</td>
+                    
+                        <td>
+                            <a href="/p/EeZKvBklnJ">
+                                5g HQ Pollen Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>V&auml;ldigt bra f&ouml;rpackat och fungerade fint!</td>
+                    
+                        <td>
+                            <a href="/p/wzmd2ytiNh">
+                                5x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great product and stealth as always! Very serious vendor with great prices! Alexandrus is my go to guy for hash here on Agora (</td>
+                    
+                        <td>
+                            <a href="/p/JpMS1ksAGc">
+                                100g Dark Afghan Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good hash. Was expecting higher quality, but it works (daily high tolerance smoker). Best stealthvendor around</td>
+                    
+                        <td>
+                            <a href="/p/CSmK4g9eTZ">
+                                10g HQ Pollen Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Shipping speedy as usual. packaging fantastic, product as descried. top vendor will be back for more!</td>
+                    
+                        <td>
+                            <a href="/p/JpMS1ksAGc">
+                                100g Dark Afghan Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Tog dessa lappar f&ouml;rra veckan och de funkade kanon. Vi var tre personer som delade p&aring; fem lappar och det blev en bra resa. Alex</td>
+                    
+                        <td>
+                            <a href="/p/wzmd2ytiNh">
+                                5x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Ordered yesterday, arrived today. Great stealth 5/5</td>
+                    
+                        <td>
+                            <a href="/p/U6jYeyYqMS">
+                                25x LSD Blotters 110&micro;g
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>2 days to arrive. As always great stealth and packaging, and the product looks good! Weight 4 g according to my kitchen scale b</td>
+                    
+                        <td>
+                            <a href="/p/gC9qnZr5uS">
+                                5g Polm Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/R73JmVwxrT">
+                                20g Dark Afghan Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/R73JmVwxrT">
+                                20g Dark Afghan Hash
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Alexandrus:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/t7bbh0AyYi.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/t7bbh0AyYi">20g HQ Pollen Hash</a><br/>
+                    <span class="description-preview">Pollen Hash of high quality.
+Very sticky and hard consistency.
+It gets soft with very little heat.
+
+Price pegged on 360.5USD (18USD/g)
+2300 SEK (115SEK/g)
+
+Please read my profile before placin ...</span>
+                </td>
+                <td>0.79524397 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU (Except Finland)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/U6jYeyYqMS">25x LSD Blotters 110&micro;g</a><br/>
+                    <span class="description-preview">This listing is for 25x LSD blotters of 110&micro;g strength.
+
+If you have no previous experience with LSD, 
+please read this page for some general information before using:
+www.erowid.org/chemicals/ls ...</span>
+                </td>
+                <td>0.59946616 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Worldwide (Except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BCoxRse45N.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BCoxRse45N">2.5g HQ Pollen Hash</a><br/>
+                    <span class="description-preview">Pollen Hash of high quality.
+Very sticky and hard consistency.
+It gets soft with very little heat.
+
+Price pegged on 55USD (22USD/g)
+350 SEK (140SEK/g)
+
+Please read my profile before placing an ...</span>
+                </td>
+                <td>0.12132709 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Worldwide (Except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CSmK4g9eTZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CSmK4g9eTZ">10g HQ Pollen Hash</a><br/>
+                    <span class="description-preview">Pollen Hash of high quality.
+Very sticky and hard consistency.
+It gets soft with very little heat.
+
+Price pegged on 196USD (19.6USD/g)
+1250 SEK (125SEK/g)
+
+Please read my profile before placin ...</span>
+                </td>
+                <td>0.43015971 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU (Except Finland)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/R73JmVwxrT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/R73JmVwxrT">20g Dark Afghan Hash</a><br/>
+                    <span class="description-preview">Hash of standard quality.
+
+It is very soft and malleable, the smoke is smooth.
+
+Price pegged on 217.4USD (10.87USD/g)
+1400 SEK (70SEK/g)
+
+Please read our profile before placing any orders.</span>
+                </td>
+                <td>0.47957292 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU (Except Finland)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/G7VC74uf7T">100x LSD Blotters 110&micro;g</a><br/>
+                    <span class="description-preview">This listing is for 100x LSD blotters of 110&micro;g strength.
+
+If you have no previous experience with LSD, 
+please read this page for some general information before using:
+www.erowid.org/chemicals/l ...</span>
+                </td>
+                <td>1.88387893 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Worldwide (Except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/wzmd2ytiNh">5x LSD Blotters 110&micro;g</a><br/>
+                    <span class="description-preview">This listing is for 5x LSD blotters of 110&micro;g strength.
+
+If you have no previous experience with LSD, 
+please read this page for some general information before using:
+www.erowid.org/chemicals/lsd ...</span>
+                </td>
+                <td>0.13676872 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Worldwide (Except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/EeZKvBklnJ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/EeZKvBklnJ">5g HQ Pollen Hash</a><br/>
+                    <span class="description-preview">Pollen Hash of high quality.
+Very sticky and hard consistency.
+It gets soft with very little heat.
+
+Price pegged on 102USD (20.4USD/g)
+650 SEK (130SEK/g)
+
+Please read my profile before placing ...</span>
+                </td>
+                <td>0.22500661 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Worldwide (Except USA)
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Alexandrus" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Alexandrus</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Alexandrus'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

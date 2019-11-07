@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>stefandl</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>stefandl</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Stefan Dutch Legend <br/><br/>I sell Dutch Quality Drugs In Germany and From Germany<br/><br/><br/><br/><br/><br/>BMR FB http://loow5bjd6qjbwi5z.onion/index.&#112;hp?p=user&amp;id=250051<br/><br/><br/>Before leaving Negative Fb you can always PM me and i think we can work it out!<br/><br/><br/>My mail: BM-2D7ZjRB2nxyxNdSumWAZpKSmtPcmU9N1Lr@bitmessage.ch<br/><br/><br/><br/>MYPGP:<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.20 (MingW32)<br/><br/>mQENBFHcM40BCACgQ2/Eo+4Rjdgybk6c3vtsl3uq0S73uMi6+IetJxLz9xsusc67<br/>WDIwbu8aG8M/ehk0QLPB2Rbzmk3ebKMQEzaqSRHDdycZ+Vh0Teo1lAaw9ZAIl7r6<br/>jhxHO9xE1R6S/Yfd8zevVhAimeBfSv3JTC60+EMk9QgDQLsPXBfTqGrfVnah5TXi<br/>7yYNi/M8R+kUvMSbgmwhGf+KLPQz+9A3rsMHuQ92pVh67gHqCHxyGtmdaG7zzwNf<br/>XPENjIzPjm5cO+BTHJ52aUkk75eoy+hK+YlnRm4oFHnQwltaXmoUxhV+dOpuUPFS<br/>0SR+PMT3fZdLDEYDARZ7XqERHMhfUSNIDUs1ABEBAAG0HGpvaGFuIDxzdGVmYW5k<br/>bEB0b3JtYWlsLm9yZz6JATkEEwECACMFAlHcM40CGw8HCwkIBwMCAQYVCAIJCgsE<br/>FgIDAQIeAQIXgAAKCRCXgEOpHkdPzGkSB/0TtnjeUcgM99CnovmdgfRha3bVELd7<br/>gyE0mLI9MEww7VTxHQrONicjAhcUbZZ1d6IBVCMFIYCTM1PVqh6NGWyhqwUiM4Kv<br/>vjWCDprX/Zs3RLJ+WeunTz09oPdr8uMt4QWAY0HY3JUKcEIAhue7QCAxwVwonjVk<br/>kvUEDED895a9dN3XvBRsxnPyv+xwGjGxU5Mq/pETQm6pHLGqd8XPH7ZCswYf3w6Y<br/>+Glrq2mDYu5u675oF+5W1pPFzqQf+WxSvvIQt4k/Z1PPnIeLQD7Dbtbzd/cU5/bM<br/>Igdynxjyl0jPvASCSnGozO3bN5B4JHq3rMqQZlk0MjUXxUnYrc+OwCZj<br/>=q5ov<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Stefandl gives u the legendary customer support! :) Perfect communication, prices and stuff! 100% trusted!</td>
+                    
+                        <td>
+                            <a href="/p/vyqcJpsxl3">
+                                Custom Kyp
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>The best stuff if you just can&#39;t get to sleep for a good price and fast delivery. Great vendor!</td>
+                    
+                        <td>
+                            <a href="/p/gS0aRFpazj">
+                                Dormicum / Midazolam 15mg 20 Tabs
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of stefandl:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/j3ZiVkNFc9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/j3ZiVkNFc9">1 G cocaine</a><br/>
+                    <span class="description-preview">Uncut Cocaine</span>
+                </td>
+                <td>0.24061810 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VoUlGbvLq4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VoUlGbvLq4">100 G Cocaine</a><br/>
+                    <span class="description-preview">Uncut Cocaine</span>
+                </td>
+                <td>17.43929359 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gS0aRFpazj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gS0aRFpazj">Dormicum / Midazolam 15mg 20 Tabs</a><br/>
+                    <span class="description-preview">You get 20 tabs 15mg each tab</span>
+                </td>
+                <td>0.19867549 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/vyqcJpsxl3">Custom Kyp</a><br/>
+                    <span class="description-preview">.......</span>
+                </td>
+                <td>1.54746136 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vPkEw0a7Vl.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vPkEw0a7Vl">25 G Cocaine</a><br/>
+                    <span class="description-preview">Uncut Cocaine</span>
+                </td>
+                <td>4.96688741 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eqSlvJFaKr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eqSlvJFaKr">5 G Cocaine</a><br/>
+                    <span class="description-preview">Uncut Cocaine</span>
+                </td>
+                <td>1.20088300 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RN1V74k1Sq.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RN1V74k1Sq">2 G Cocaine</a><br/>
+                    <span class="description-preview">Uncut Cocaine</span>
+                </td>
+                <td>0.48123620 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/h1r3sm5iNZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/h1r3sm5iNZ">10 G Cocaine</a><br/>
+                    <span class="description-preview">Uncut Cocaine</span>
+                </td>
+                <td>2.09933774 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="stefandl" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to stefandl</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'stefandl'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

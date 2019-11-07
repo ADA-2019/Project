@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>medibuds</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 447.88 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>medibuds</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.977/5, 300~500 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 11 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            If you need to contact me please click directly on my name to message me. If you message in the order it can get lost in the order messages. I will go through now to double check there. Also I had shipped some orders late due to the ordering of the orders in the list. Please no one jump to conclusions, medibuds is here for you since 2012!<br/><br/><br/>Medicinal cannabis products from flowers, edibles, topicals, and concentrates! Vendor since the original Silk Road!<br/><br/>Items shipped priority within a couple days of ordering.  <br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.19 (Darwin)<br/>Comment: GPGTools - http://gpgtools.org<br/><br/>mQENBFImU0QBCADJsbNUgRVfUyP/NnnqB1y2o4EZcBtaGub3tmrci8bYkpZkYkcN<br/>WxqydTLisAoYR+6LI3Jp580Iyy0ud9EF16HUJ+7mKTCbNvlJ3d/xLez6eRVQkB2u<br/>aYgrMsisS2g3+d89eZ2sKsILdayKdOjbVLNMX6EQpQSAebYvxWUSLH5TtNPfBaUu<br/>4B0vLr4JQ9d1wRPVKhguhcu42opXemV1O/fmfZPYyyKCJne9cB8/uxbCKuhbClKO<br/>7p3AoRbE7ZzOZwi5GN+buGOZvtjMQ8/7E2gasBgbuKP/q3F87tXx2bQ5nzm/swhs<br/>xLlPitHdSJNDd+N+ufF8Kj5PBln5TPca2qKLABEBAAG0CG1lZGlidWRziQE4BBMB<br/>AgAiBQJSJlNEAhsvBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRA3LyLtfgGd<br/>1gX5B/9VmD5KlP1kw5aA4D53JfPqpLAbwGbQR7bUu3o0MRgaeD/89zK7qMjr7BXC<br/>e1tts8LPCL9tGQmXebvP1vpOFZs7GXwxaCn3Ehjc/QoUpPAIshYd2hqpXE01R6OK<br/>tM7MMhlkeTl1q7t6T3cYeGQqenERjnRgtrErBJNevl1X9gg6ut5REPgp7iHE7/Lr<br/>ScaI/0RZMWjoaGJUmcs3/mMkbOhberfSpRihSJ+ZS/uY3vU01xiMxUIsp1rU5b1N<br/>FU65amW0Uj8JppOl2i4mvvgfB+aF9geZ7/Pvrj5WrR6MT6KS0RzLWFqlbIGt9udl<br/>QKwmYULuDulFeMobIMO1eia+QDy0uQENBFImU0QBCAC6DwRYbe/Sd/oJ1DuyIlO4<br/>dE3WnsjlYrFLDT7tcp3qD6aP2PlDLuAZunmHX30+ybZ05Sg86+0E0sFCx+KCxNyK<br/>Flqr2bMmD6079HNvP02qBa4cF3DJdM1HS4gYosJ7TVySsx9XOyZu1F1VqOiUS/tP<br/>75ciXW3FXlSG7TCGi2nAtfGMEyB9TfwLOdjfNb5ZJZfxF5SMPQEonNozBwMNGCbo<br/>yAxSuMfBIg1PiQiYBu9b/JRVAteJNeze7TppEPXHbjpQbJzAKTnFN4S3eVOt0D0S<br/>Rl2YQm7SA8v5s9BnRucdH91FiwVaB35HNWzxAjqeBX7LFLfat7n/yEx8hWCwI7Sp<br/>ABEBAAGJAj4EGAECAAkFAlImU0QCGy4BKQkQNy8i7X4BndbAXSAEGQECAAYFAlIm<br/>U0QACgkQzkZBy1HANXQUkQgArecOnRh1diK9hnsrYXn+aOS8GyOKp5OCn+ZWLowq<br/>4yDfo7lgrvz04z09lol6bMOSCSyH6Z7VgYCTAIMnz5zYz0lk8cQ9mwWpd7kiANng<br/>HicerfEGPH6ZtBB34JkHNlOWkQgucvNrLgAUOubmv/q3VSbQ6ZGaMBPL860zLXkz<br/>my0JugMOUEuL1MBoLpmTp8QUxgNKg7tEWNc5hWXkja8oyMdAJhlJK7m3WuoHu294<br/>sh+FqaQ634b3QX4fy+CZG9t2pQRrV/1BGYl9zvZftqQ8xJiCKwpjbRY+AZZjZg1T<br/>7cupT6FiQ91PQUg0fb0JXJNkvDXqkAdTxm2h3kClQngvdfPJB/9dcKVhXjd16r0l<br/>dmEWx4FweFsWwHGTY/znmCdlO6S5Flfsp2JZYQ+udDBpVUES8MjL621PJE4ucJbh<br/>412QQQraeFsJpeR1nyx6zk5wfePkD7F3fmUAqAK7+4XKKfqU+93vuLiqtbp8asxS<br/>Xuw6nga57xmBJFMp6mLu58U9A5irmDlmjLZ02gwr7OvMWQ0ttrQ7F2pUIC1IroX/<br/>NiVkJ+gRDCVKKS4pisHIMM3XrQ6yES21guhur/tRxqAW7Ctmqtw3yxljQ9BGS1s9<br/>oz3+c/3VUgvUnS0yTJbmJljWGq+kRZhekjz2rH1znsPih4NqTqwiAfjBd930icPY<br/>KGi8ENfF<br/>=HyU7<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came through fast as always! These vape pens are the BOMB!</td>
+                    
+                        <td>
+                            <a href="/p/tSmPgewEGu">
+                                Open Vape Pen Vaporizer
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came through fast as always! These vape pens are the BOMB!</td>
+                    
+                        <td>
+                            <a href="/p/MWFTppbBta">
+                                Open Vape .5 gram cartridge (hybrid) (approx 250 mg THC)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Always a 5/5 vendor!</td>
+                    
+                        <td>
+                            <a href="/p/YyCZ0onm4a">
+                                Quailty Outdoor: Blueberry (1/4 ounce)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great product, fast shipping. Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/Lp2XWddYew">
+                                Open Vape .5 gram cartridge (indica) (approx 250 mg THC)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor</td>
+                    
+                        <td>
+                            <a href="/p/jW4lTKK9rF">
+                                Bhang Bar Dark Fire Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor. Never done me wrong</td>
+                    
+                        <td>
+                            <a href="/p/YyCZ0onm4a">
+                                Quailty Outdoor: Blueberry (1/4 ounce)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+++ The goto guy A+++ awesome delivery time!!! Product as advertised:)</td>
+                    
+                        <td>
+                            <a href="/p/tSmPgewEGu">
+                                Open Vape Pen Vaporizer
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This guy came through!!! No worries with medibuds.. If you want it done right he is the goto guy!!A++ on his products!!</td>
+                    
+                        <td>
+                            <a href="/p/Lp2XWddYew">
+                                Open Vape .5 gram cartridge (indica) (approx 250 mg THC)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>AWESOME DELIVERY TIME!!! GREAT COMMUNICATION!!!PRODUCT A++ WILL BE BACK SOON!!</td>
+                    
+                        <td>
+                            <a href="/p/PWuLPbKspd">
+                                Open Vape 1 gram cartridge (sativa) (approx 500 mg THC)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Marked shipped within a few hours of placing order. Item arrived in 3 days. 10/10 Great vendor</td>
+                    
+                        <td>
+                            <a href="/p/GsTBe0DNh5">
+                                Bhang Bites Double Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/jW4lTKK9rF">
+                                Bhang Bar Dark Fire Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>awesome stealth, arrived really fast</td>
+                    
+                        <td>
+                            <a href="/p/aPq7lDBE8U">
+                                Bhang Bar Cookies and Cream Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/aPq7lDBE8U">
+                                Bhang Bar Cookies and Cream Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/jW4lTKK9rF">
+                                Bhang Bar Dark Fire Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/eMtrFjdGfu">
+                                Bhang Bar Peppermint Ice Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d for trusted vendor.</td>
+                    
+                        <td>
+                            <a href="/p/jW4lTKK9rF">
+                                Bhang Bar Dark Fire Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/rbeTbixLFm">
+                                Bhang Bar Dark Single Strength (Indica)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>The most professional in fulfillment.</td>
+                    
+                        <td>
+                            <a href="/p/MWFTppbBta">
+                                Open Vape .5 gram cartridge (hybrid) (approx 250 mg THC)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Perfect, as always.  Love the Maui Wowie! Thanks again, medibuds!  :-)</td>
+                    
+                        <td>
+                            <a href="/p/PWuLPbKspd">
+                                Open Vape 1 gram cartridge (sativa) (approx 500 mg THC)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good product, marked shipped 2 days after order, arrived 3 days later, much improved stealth</td>
+                    
+                        <td>
+                            <a href="/p/jW4lTKK9rF">
+                                Bhang Bar Dark Fire Triple Strength
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of medibuds:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/u5oM0ToGdX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/u5oM0ToGdX">Quailty Outdoor: Blueberry (1/2 ounce)</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+Quailty O ...</span>
+                </td>
+                <td>0.22326910 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Zz4nV0Tqva.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Zz4nV0Tqva">Bhang Bar Caramel CBD/THC Double Strength</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+60 mg CBD ...</span>
+                </td>
+                <td>0.05358458 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GyCCElxlmm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GyCCElxlmm">Quailty Outdoor: Blueberry (1 ounce)</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+Quailty Outdoor: Blueberry! This is a great strain at a great price and look at the photo to see how frosty it is.</span>
+                </td>
+                <td>0.36839402 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UxyVuy4U3z.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UxyVuy4U3z">Outdoor Blueberry (1 pound)</a><br/>
+                    <span class="description-preview">Outdoor Blueberry (1 pound)</span>
+                </td>
+                <td>4.29793029 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MXV3olAJU9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MXV3olAJU9">Bhang Bar Dark Double Strength</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+WARNING:  ...</span>
+                </td>
+                <td>0.05358458 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/FmKnhgjlD5">Open Vape 1 gram cartridge (hybrid) (approx 500 mg THC)</a><br/>
+                    <span class="description-preview">Open Vape 1 gram cartridge (sativa) (approx 500 mg THC)
+
+highly recommended!</span>
+                </td>
+                <td>0.20764026 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eMtrFjdGfu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eMtrFjdGfu">Bhang Bar Peppermint Ice Triple Strength</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+WARNING:  ...</span>
+                </td>
+                <td>0.06698073 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mtTvTbmD33.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mtTvTbmD33">Open Vape 1 gram cartridge (indica) (approx 500 mg THC)</a><br/>
+                    <span class="description-preview">Open Vape 1 gram cartridge (indica) (approx 500 mg THC)
+
+highly recommended!</span>
+                </td>
+                <td>0.20764026 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eulVnxYLpc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eulVnxYLpc">Bhang Bar Pretzel Peanut Butter Double Strength</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+WARNING:  ...</span>
+                </td>
+                <td>0.05358458 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YYo8Au4dlh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YYo8Au4dlh">Doc Green&#39;s Therapeutic Healing Cream Topical</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+Deliver h ...</span>
+                </td>
+                <td>0.06698073 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jW4lTKK9rF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jW4lTKK9rF">Bhang Bar Dark Fire Triple Strength</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+WARNING:  ...</span>
+                </td>
+                <td>0.06698073 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MWFTppbBta.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MWFTppbBta">Open Vape .5 gram cartridge (hybrid) (approx 250 mg THC)</a><br/>
+                    <span class="description-preview">Open Vape .5 gram cartridge (hybrid) (approx 250 mg THC)
+
+highly recommended!</span>
+                </td>
+                <td>0.11833262 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Xbxkye4hqv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Xbxkye4hqv">ENDOCANN high CBD Cannabidiol capsules 25 mg CBD / &lt; 15 mg THC each (5 capsules)</a><br/>
+                    <span class="description-preview">ENDOCANN high CBD Cannabidiol capsules 25 mg CBD / &lt; 15 mg THC each (5 capsules)</span>
+                </td>
+                <td>0.09154033 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PWuLPbKspd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PWuLPbKspd">Open Vape 1 gram cartridge (sativa) (approx 500 mg THC)</a><br/>
+                    <span class="description-preview">Open Vape 1 gram cartridge (sativa) (approx 500 mg THC)
+
+highly recommended!</span>
+                </td>
+                <td>0.20764026 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tSmPgewEGu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tSmPgewEGu">Open Vape Pen Vaporizer</a><br/>
+                    <span class="description-preview">Open Vape Pen Vaporizer
+
+for use with Open Vape Cartridges
+
+A highly recommended product!</span>
+                </td>
+                <td>0.07367880 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YyCZ0onm4a.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YyCZ0onm4a">Quailty Outdoor: Blueberry (1/4 ounce)</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+Quailty O ...</span>
+                </td>
+                <td>0.14512491 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Lp2XWddYew.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Lp2XWddYew">Open Vape .5 gram cartridge (indica) (approx 250 mg THC)</a><br/>
+                    <span class="description-preview">Open Vape .5 gram cartridge (indica) (approx 250 mg THC)
+
+highly recommended!</span>
+                </td>
+                <td>0.11833262 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wSuD39RXGC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wSuD39RXGC">Open Vape .5 gram cartridge (sativa) (approx 250 mg THC)</a><br/>
+                    <span class="description-preview">Open Vape .5 gram cartridge (sativa) (approx 250 mg THC)
+
+highly recommended!</span>
+                </td>
+                <td>0.11833262 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aPq7lDBE8U.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aPq7lDBE8U">Bhang Bar Cookies and Cream Triple Strength</a><br/>
+                    <span class="description-preview">United States only sorry I can&#39;t handle the whole world at the moment
+
+I have it set to &quot;no FE required&quot; but it&#39;s just a plus if you do! Better I have the coins than someone else :-D
+
+
+WARNING:  ...</span>
+                </td>
+                <td>0.06698073 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="medibuds" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to medibuds</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'medibuds'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

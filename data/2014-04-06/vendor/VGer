@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>VGer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 465.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>VGer</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 4 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQINBFLE1dcBEADixID1FwgHD4ZmTNU3EoKu/vIxXor1lxamHN5YfkNLv7ol51p7<br/>3ya9GDSJjiOMNWO5GBqSbG70fiK0lM1SH1H9IV0LcxERHguLtnopIaOod/iKyMz7<br/>Szm8lz6M6ZuOUIz0Hphwv3EWsP8asWuNVKHGL23WBA1pRBi0M/lrIbrByWSbnp2d<br/>4SLqqUc1yPsrVHlw58eGzCLZC7k4UCfTOHtp8OBzFmp2tqiJ184QmbfsYb73i4fC<br/>gHkF4CsPYO2RGuWYVqdEYThk9qJbvoMpQOsXqOKS0GKziF8ep+qPFIc9FIkUBCIn<br/>z4QdqkwSFklfytPdIHhC7e0BMKtvsOZNWoUfzsInNcPSlNpIapexL5UWvC3rsTUL<br/>gkNT6xKbgJOIm5lnigIWe6uvPwEwhO/rKpUX/uLRhTDnTY/RhmZOwyWOHV17Oe3/<br/>7wuYBh7Fj+I5HMkR3fVzg2AUmHtrNlh9cfcMMwfQ6qjtTHasmxFqb03sNRc3E3bh<br/>6H1lFfNF2XTVfcKU82SR3p2X1+3fBSKvyyJDCZBTj2ljSglZFlx1pcq34RlExRjD<br/>UQhpzZI6ltbp52GY3W+4hfBL0fi7P+e0sXZRXGKHMfYaoXG6QZItCPR2x/i3h1t7<br/>TVZ893d19HR+edlFXoSiZj7W3xFcLjBwZhjhfBUUCPKNKVl31TSmfYzZTQARAQAB<br/>tAVWR2VyX4kCQAQTAQIAKgUCUsTV1wIbAwsLCQoNCAwHCwIDBAgVCgkICwMCAQUW<br/>AwIBAAIeAQIXgAAKCRBX8J5/rZGFriSkEADRg2A59RsgIuHs0Agt+zSluHNW06OU<br/>q2A/K9ucyylyeHHd7bjmek7S6ca2uGwTd7a3v8U/lVhXbRIn5W3plMIKQVcJjmlS<br/>zpmy/QJ5/C7sUdbZ98LwBm2nV+ibCa3Dm8GKRijH9aq+KAstNNViXcZ7DEaTqiJk<br/>GPfZY33me0wHwHtolcRswWm5mclOBQOS2fsJLWlZfwsYGQFaOrQWmXRRkvdNHwsL<br/>Ddj8nWbqatHc/JfIM77raqo+xH/fiV+oxwiSn0ygFioa6kMhPHjNYUXnCjzOuI/p<br/>soKY94/W9VLeLxns0rCw6nIl0S3dSVYuy7+aXER8KtQfOr8fn4K92RlSQDy0xsro<br/>k8cbAQu9IMvJYmSKrr+COEajbtnBwRvTXHuYYTKipXatCyurnHYCHsdDuwaO3O2K<br/>EX7S9pHUnokU5MtIOR/qiFDsARqLpBU3BF6YuoJCOOBq+hhSERjiOBwaiYvLNzoJ<br/>+sg+WwGRfbMiOkabSlDJOPkEiQWVwEvvNEi42Dl8iVXH/uxGdyru92VSuEfw5NRi<br/>5DZAIUgvhLL7lKL9RyAxCewz+xPrzgGRsD1psEH8DqXPXz/WrFlQGEgNY9Xh3U3o<br/>ySbJotLSmP2VV5MSJ+1sle4B/S/MVyg4yB3f1d0Czzp3qC1leMzy5iaQ8ok32kHS<br/>ckRq4KbbXt517LkBDQRSxNbjAQgA3ja86Ar72LrlzyC6ORs8TN4Pvmp8thkf7Sca<br/>SqH/UlBcU0xr5Vhz0CHDMDaqtyZa1/jrZz1gGlHfAn2w1NuuZEJXFgEJgrab/cnK<br/>y8+FM6SHRIb0TobGmNEpJzUhPIfrSNh6oBt/aMtMxUEW5eAjpOQfZbCnDDmoe/Re<br/>bQB5ck8JxOPJeACPb6xOUwg8m5gaXkRceZW4bCcR0VA91ck6+EVrfRxtDHI4Jd8r<br/>jjWZkNwA6oYxeC4AukMrTB8yBvZy6UNV4QH51rNVAPFI731fyAHAnpt9thk9Id7g<br/>VCau+YDUE0fWUQ8gErpUAro7OoYWXxLjEEpWUEHuzeuRKJcqLQARAQABiQM+BBgB<br/>AgAJBQJSxNbjAhsCASkJEFfwnn+tkYWuwF0gBBkBAgAGBQJSxNbjAAoJEIdhvy+E<br/>TnNKgNsH/1DEnq2af5txRTBYjDWqdBEqCoZwK3kzMn6vts7vgXDp3suHWVRhodR4<br/>BHT0oC5KH8Y73smtSaJYuwDEdR/uxcLsnp6EWEYq1Aopkmo4vf30UuTCqX/AM8AA<br/>e4Kf+gy5k8wZXMiwoLU8spqHQ8mwaLav6dDHqGDgiM8zWdRB4611ULGBCZwi2zKO<br/>XrJFSgNbF8xoQEVGAMIHKVDYX1AEX95F4Tk8yyj5NaDxav9molb974MYhHl91Gga<br/>H8HPQ3CSCQeA7ArRTHNEwtfWdHx05S4gVQJL3yk2Sh6y/na00CG6GY8wtqYTMbG+<br/>VYtWUlGT7UqoC5W3E7Mk5UeF8JRE65n6eBAAu1NP3n+6IH1l7ZZK7jZjDtM48dDd<br/>zXIF01t4FruG9nsdnnAGJba26clxUCmT7qxr8gvRZOGQMng8vR/oaiydwTB1Lnd9<br/>+ve+mwTIo+VqQHZUojk5fiPwRkti9YDe3BWkhu6B8/MdnOv3tsJ4vdfOKqlPPNzn<br/>kOrnmJbQQkN94gItndhmTjwDSzTntn6l260ib56peoZQ3JioXjAEwDCdSRYe01Ud<br/>+n1jtg/9AjU2EnFMzoDxUgE4YFKCziqN8CIvqHwaLf3YiHLUvIoo6COlMJrnpQtq<br/>pqOkp5v5AtRQqcOvDVR3rU3avcb/G0sqGXW6VyS/g58ZyM4rE57XUmeqOqHGyvdd<br/>W4/oud8/3ZCtgrSa3qTO5m5T16TNrW/dk6xE4Zw7/1cxWfuEurJFYevlFT8gyIbY<br/>GVJztFIwskOxz1uSdM3WuiVFJR/EBDvwh8Fb/48R5KnBXSwK084FHMCZJKUEWfEp<br/>ZNyaqv0Ym3xgERmpp65d9c2QrizW+olwGE6iSi22OfTre0kzzchEpNuBPIWvclFv<br/>wmQLcqkqYAz49JlDN32f1B8ICBfS7wWRxzn6yrRYy10B2MkQH7cF5AGQa68TVAyg<br/>EOWNObg5GRaA5xjnDg6+eR1jg7uNaElGtHi9bo3ZQ9snRKztfcLEh6iof2eoN8xn<br/>8JEBS9ApmN1nW2K5BA0EUsTXJRAQAKBWG/9oOtzC5Ls0siLqoYsUndqj2JYjlkwR<br/>J+KPLSfVhHib+ZN5roLMA0PUE6jDR9IZAUwj8hyt9hfLQ8XHp6ql13fM0ZyCCyZX<br/>O+rvP0kkLlbrxrKv32LoBVEIesT2KXUa8mJLoKc7Cf4rtNczLB0K7DXAHO9RuwLo<br/>1DW2XW2lDH7WFYlahiTcoKQj+MeFeEnB7HqL08KIvruAlL00Iz0CW9sayl79MMxb<br/>p0Q3nnqoxR7jfn3nynho55/h+BmJR4WR4Ra6RC+J4iFjNLUEWnJBhstLAe6tWQkS<br/>9W8G+T+d39rrTu5N7AY00qvjos8OPxWNGGAMpnQzaMJzT6sfm2M8ajt4gtQdlgcr<br/>Sg6G53dQ/a5H0jTR62nbzHPKDs+2FHRp2xXa+jw5IdEUXdFlZREJqUiLguZfscTU<br/>6Nk62U04cKguMdE/8WhySaHt887UgvRXrXtbGXGIgVk0zQ4vFvN/YeDBdkg2zs/e<br/>c/38bz0MC4H1/fBvTmlMg/QCzp0N9ztZlD+SrfDlgPPJPqV6I1hhocc9sosth6kA<br/>qJLnik67ZDp5GOdHqNyJLZG324/imcCK4QIfKkZqNyTDASvk5rWVwygdcmRV3sKm<br/>2H0l8Nhm8DWIoro0kYgMRbjvpeHJiY9XxsjTphblU7VdfQae9n+K8AwS+C07dK3m<br/>TEn8bltvAAMFD/9bIaaHjis0NNPExtx8YLalNwuNcu/nMkaja8+JzJIngXMa04td<br/>4TeHpvDTKTzzfLxlOuPYcWn2Nn2vqLE6y6AEnaS3LUNrvhtMBZhDb1xa5vSLioF7<br/>8QM6ylYDYIP18l8I4k8DHN1urh1H831E+dTP65Tapt3qP3TQAj84AbGhcHWcTi6U<br/>AXKRU/vEYIslnuXGTZzgJDN7FsMaks+enr2pzpVWFkeOBMggAIB7z8p8KJHMIaRI<br/>zRGczDl+R3/DZpETauv3w3OM+hvAH2xOTj7Vl55lA2Cqu3JOsDh8Jg8N/lZj3MgZ<br/>CCO0baYk2NPwnj560Ph7q3KfrfcDsx6681EJTiXmP61j9LJFkmu1IV1WZ+N6Hl3y<br/>FuV010KvpT2DaTkIeyvh2xCioAXau3aOLGWwCTQSp9GgfOyUbqnsxwDn0Zeylvbr<br/>3kPSu9Awl4ecGwSEvXz3sOk9DqO4bx3WLUgoh4wC4EsH7FakK0RHC8AJS2IkJkX+<br/>qLzBLGCwXG5y+uzLmqUL0grJGldY3wU+HzbHwNwgJ+fTHJsqdGHv/OTNJzy7SzB0<br/>Fkh6iLahUl6ZMcDSQtySYdsnZ3ATHQf6U1LqA9ks77eG+O6PFv3ijrVW5pJb+Vgn<br/>NBcd1wwcIgtUqdkDtiakezer3mzaNht5a2+mwmRly87pVHjpZMvuipD9A4kCHgQY<br/>AQIACQUCUsTXJQIbDAAKCRBX8J5/rZGFrvfjD/Y4s7+fe5xL0XOJohfG9KHJ62bC<br/>p9e0yJaOYYIZR3Q1JMgpGQGTWDpqtdnyo8lJT9vvzDXQUwwCDmgmaTWWCeUl6Q80<br/>Pkp/mZfQQHYb56HzNur8skogWDm/mOMT4RLT5A3NH3vQvpKVRDYRdV7cO71M/2Vq<br/>CEq72MRcEqv4xgwWLbtTojOPYR2/NioIw/HJDeTzrKCQKdHCvarbOJrHvh6cumwm<br/>SpgbIFpg4yC6+S1jh0OyX+XEQWlQJxIvhw9yf9Z4WE+H02&#83;qLwqPDBRQzMohS+N4<br/>G5TeRHyWRdXSCxYVFd7c6cKYviSThlA9Cm/QmxnQTWsTJn/jdDHuxEcYyidSDCc6<br/>Ob7t2mC5LxKAUKT89x7H79v3HLvMlNCKsjsjikojXylAeBkrETCenQfY06sBSFkW<br/>qs1zHVTdC07ewHtLKJiJJE+49xs8XVmy9b71PFs8E7rtdbtfS7eouQUMq2PSAElu<br/>JksjeMzo8yrYuqbIqVfH9dn3MPCFIHvCu69MksOK5D5R8eHgKIQlp18MUFWrnU3X<br/>4zGR4t+PQIIot26xFHvpMI+cDYTsX2UnkX0WrukfvJNdlQHueL6CWBeOwXK86hMu<br/>U65xPTDUDTTTCsOtax5TOHqOYyoHIrS166jDx+nFgxOpfU8NzTzoTKEFjXGAGnrJ<br/>CIoVFwvcn0EZaisC<br/>=Uz9M<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great stuff. Perfect and overweight. Get your dmt from this guy</td>
+                    
+                        <td>
+                            <a href="/p/PdsCtums3J">
+                                1g DMT freebase NN-DMT
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A++++++++++++</td>
+                    
+                        <td>
+                            <a href="/p/TZGa78rw8h">
+                                1x Domino 220mg MDMA dominos
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>everything arrived ok,and the stuff weighed in FAT! and the stuff looks phenomenal</td>
+                    
+                        <td>
+                            <a href="/p/aPDFyr1z7t">
+                                500mg DMT base NN-DMT
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>got here thanks will let u know if its good</td>
+                    
+                        <td>
+                            <a href="/p/TZGa78rw8h">
+                                1x Domino 220mg MDMA dominos
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Speedy shipment, perfect stealth and very high-quality product! Vendor recommended.</td>
+                    
+                        <td>
+                            <a href="/p/TZGa78rw8h">
+                                1x Domino 220mg MDMA dominos
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Great Great. Couldn&#39;t be happier.</td>
+                    
+                        <td>
+                            <a href="/p/TZGa78rw8h">
+                                1x Domino 220mg MDMA dominos
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Instant Shipping, Great Stealth, and Great Pill. Very Clean and Intense!</td>
+                    
+                        <td>
+                            <a href="/p/TZGa78rw8h">
+                                1x Domino 220mg MDMA dominos
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of VGer:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PdsCtums3J.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PdsCtums3J">1g DMT freebase NN-DMT</a><br/>
+                    <span class="description-preview">Agora isnt stable, 
+please visit me on TorEscrow...
+torescrow7upglhe.onion/users/530305ef67b3dbfba100003a
+
+If you order here I will cancel it.</span>
+                </td>
+                <td>0.10752688 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TZGa78rw8h.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TZGa78rw8h">1x Domino 220mg MDMA dominos</a><br/>
+                    <span class="description-preview">Agora isnt stable, 
+please visit me on SR2 or TorEscrow...
+torescrow7upglhe.onion/users/530305ef67b3dbfba100003a
+
+If you order here I will cancel it.</span>
+                </td>
+                <td>0.02365591 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="VGer" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to VGer</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'VGer'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>
