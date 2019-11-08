@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>GucciBuds</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>GucciBuds</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 0 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            ▁ ▂ ▄ ▅ ▆ ▇ █✮ ĠŮCC&Iuml;♛BŮĐS✮ █ ▇ ▆ ▅ ▄ ▂ ▁<br/>SERVING YOU TO KEEP BRINGING YOU BACK!!!!!!!!!<br/>GucciAllDay@hush.com<br/><br/>USA ONLY<br/>PRIORITY SHIPPING ON EVERYTHING!<br/>2-5 DAY SHIPPING<br/>[Tracking# will not be given]<br/><br/>◤◤◤SHIPPING: KEEP IT REAL!!<br/>YOU MUST USE A *REAL NAME* AND *REAL ADDRESS*!! &lt;&lt;This is for your safety, and mine!!!<br/><br/>▁ ▂ ▄ ▅ WHY BUY FROM GUCCI? ▅ ▄ ▂ ▁<br/><br/><br/>~ TRUSTED VENDOR ON SR1, SHEEP, TORMARKET, PANDORA, WHITE RABBIT, NOW ON AGORA!<br/><br/>~Deepweb vending for over a year now!<br/><br/>~ Professionally packages your order with great stealth!<br/><br/>~ Your address and name is never saved or shared (unlike lots of careless vendors on here using Click-N-Ship). Gucci cares, and your safety is #1<br/><br/>~ Honesty/loyalty is everything! The description is 100% spot on.<br/><br/>~ Encrypt messages are not required.<br/><br/>~ Gucci makes sure you are 100% satisfied with your order!<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.21-beta20 (MingW32)<br/><br/>mQENBFJiJBABCACy7+eA/jbYN/EU8RKMqKdGoO/MumpUBjEv7SbJZwoZmVwLi2RT<br/>eg0Xcgpie6qjxpQj0OyhN+IDI4BF+aOu66AZrMQpanc5WiI9fDtCo7YjmuTvAX2M<br/>UZrUI0MWQOZ9S/7MUBTqxHtPBUo1q+gEP9hNiZnX4Sf4O76zMxEdSbZFTFeuebsT<br/>cKxRcjxmrWY08suZihEv921diVfseEJHJWdN2KlwFPOGOmj5Br7EBCG1yacVUpgZ<br/>0KHyPUC3qotIVvqjY+dGiCFVeBG6ceWulyKB2D3BWUhqgalAmzSLryzqLiAlFj43<br/>VXkoNhMJbkCl8Tu4LU5YAs+4wF/YDCU7U++bABEBAAG0JUd1Y2NpQklUQ0ggPGd1<br/>Y2NpYWxsZGF5QGh1c2htYWlsLmNvbT6JATkEEwECACMFAlJiJBACGwMHCwkIBwMC<br/>AQYVCAIJCgsEFgIDAQIeAQIXgAAKCRCoUg8/3gboEdCyB/4sKBlFIPBqMQd3IeXh<br/>16Yi8bT530O4/ko+GtvKrL8zYXUYL9G9SY9ekVkxYo1UcAbkFn/POXKqrMmfZHqN<br/>3r9j1ZdiRFSL/OftWWBvt2K93AH/4lo4AKWyWdG2DynPR0j2vlkQecYSCv9LdiTb<br/>v0iEywmiiDipRk8CGOg3alZsnvdkXU9O0RwezsX1WNNeUaARqlL4+uddhmoHGLss<br/>uZfdLxjubhZWWOt5c/zRW9lWMZYvTx8SHxwC0ZiSjd5LREhexdKDUcxzCI9ZXj2g<br/>jIsYAHFwj7JtuhUQETcwSP+EeZDLl9NpqxQyd/qOkuI5QViPmwQKaPH1qDD6gNwS<br/>ZSgGuQENBFJiJBABCADMKHKqEOycAlfeZMSyE4WX4of1hh3SRzDpJxGrJky86FrR<br/>nPyt4Y02weqkWRyMJRbYB+d5SkXacDGOX8OQMxBpK2J7jM+KKdYk9QbcPTM4E7pD<br/>Z6Ru3UAIKutNOpNUei9EGb7kzdkJZOoYgTcx2jW2k0L1kzubRtSVbiWIEZKtcwA1<br/>ZE95Kx5Km0XkQZEm4A+SMRn++xv+59dbsiufTPbtnztinDJNahgNx0AjbZhwSUKm<br/>IvAO3HhoS+Wrv8TJdlEYk6TIXAiHByuZwl9n/Av4E81RHeQGMZagLsDc9q6eTYIO<br/>lxQX19ucW4MQnhmxJTG2vcp2v62J8HlnjfqdfpDFABEBAAGJAR8EGAECAAkFAlJi<br/>JBACGwwACgkQqFIPP94G6BH2dAgArrp0GeepQ4PAUL2tbY0KC4fFcok8EL1PJTrp<br/>RLnhvdHSNGD8Amvx7ptmhcSBvLlQgy8EPObFdtC6Lr7is8MHzR0tr7FXGW80iKTl<br/>lLguSSGBWolq6xn5+juLat5Bau6oEFffy8x1VoJBlljihHFYUhRH4VQoKk0HSI0b<br/>Z7sX6vaFZw8hZZQUfL1nrMHa/ZZXbWIKjIOEWQUdibM4dv1J45YU5x/JsOlq1T+W<br/>Ly68UUC8xxkfGYer2+CzUw8xQBe7ejJOrkNGy13nHPdotx/gJqIDFtTR7YOGj+cW<br/>TmELzmkSAhKKEkRSCqlBhMXqywh0tttfKLcXNgT/ZjRYcVVz/A==<br/>=NifM<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of GucciBuds:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/C51lELlild">5 x 10 MG DEXTROAMPHETAMINE/ADDERALL PILLS</a><br/>
+                    <span class="description-preview">5 PILLS OF 10 MG DEXTROAMPHETAMINE/ADDERALL</span>
+                </td>
+                <td>0.12114537 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/qDTNc3BbFh">5 x 10 MG DEXTROAMPHETAMINE/ADDERALL PILLS</a><br/>
+                    <span class="description-preview">5 PILLS OF 10 MG DEXTROAMPHETAMINE/ADDERALL</span>
+                </td>
+                <td>0.11674008 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gcNZyBGrMZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gcNZyBGrMZ">FRUITY PEBBLES - 28G - 1OZ - ✫ ✬ ✭ ✮ ✯ MEDICAL BUD</a><br/>
+                    <span class="description-preview">28 GRAMS (1OZ) OF FRUITY PEBBLES
+
+GROWING POPULARITY AMONG THE WEST COAST! ENJOY!</span>
+                </td>
+                <td>0.62555066 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZfSVRnglPB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZfSVRnglPB">ⒸⒶⓃⒹⓎ ⓀⓊⓈⒽ 3.5G - 1/8 - PREMIUM MEDICAL GRADE</a><br/>
+                    <span class="description-preview">MUST FE EARLY LISTING
+
+3.5 GRAMS (1/8 OZ) CANDY KUSH
+
+HIGH GRADE!
+
+SMELLS LIKE CANDY!</span>
+                </td>
+                <td>0.11233480 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/ocwivPj1fr">HOTT! - ✫ ✬ ✭ ✮ ✯ 3.5G OF JACK HERER</a><br/>
+                    <span class="description-preview">3.5G (1/8 OZ) - JACK HERER - PREMIUM MEDICAL BUD!
+100% AUTHENTIC -
+
+GROWN IN GUCCI&#39;S
+HOUSE!
+
+TOP HOTTEST STRAIN IN SEATTLE RIGHT NOW!
+
+BUD DETAILS:
+
+FROSTY!
+SOME BUDS ARE 5GRAMS!
+SOME LEA ...</span>
+                </td>
+                <td>0.11013215 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/S6yowKSzRN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/S6yowKSzRN">FRUITY PEBBLES - 3.5G PREMIUM BUD</a><br/>
+                    <span class="description-preview">3.5G (1/8 OZ) OF FRUITY PEBBLES
+
+GAINING POPULARITY AMONG THE WEST COAST! ENJOY!</span>
+                </td>
+                <td>0.11013215 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yCcD6kWa8s.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yCcD6kWa8s">1G ✫ ✬ ✭ ✮ ✯ GUCCI KUSH</a><br/>
+                    <span class="description-preview">1G OF PREMIUM GUCCI KUSH
+GROWN IN GUCCIS HOUSE!
+
+
+SHIPPING WORLDWIDE!</span>
+                </td>
+                <td>0.03524229 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/PvyZq2rnca.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/PvyZq2rnca">1 QP - 112G - OF GUCCI KUSH</a><br/>
+                    <span class="description-preview">QUARTER POUND OF MY FAVORITE.
+
+GUCCI KUSH!
+JACK HERRER X APPLE OG X BLACK RUSSIAN
+
+112 GRAMS</span>
+                </td>
+                <td>1.32158590 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pAZnZjTvC5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pAZnZjTvC5">★ FRUITY PEBBLES ★ -112g - 1/4lbs - PREMIUM BUD</a><br/>
+                    <span class="description-preview">QUARTER POUND OF FRUITY PEBBLES!
+SO GOOD SURE YOU WILL BE BACK!
+
+GROWING POPULARITY AMONG THE WEST COAST! ENJOY!</span>
+                </td>
+                <td>1.87224669 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="GucciBuds" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to GucciBuds</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'GucciBuds'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

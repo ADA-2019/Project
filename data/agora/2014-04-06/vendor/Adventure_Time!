@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Adventure_Time!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.87 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Adventure_Time!</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 2 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            BITMESSAGE IS THE #1 WAY TO CONTACT ME: BM-NB2cZQZJgM4ZTDrqaaLurhKCbupWsRZz<br/><br/>&quot;Impressive. Adventure Time ships its pot fast.&quot; - Forbes<br/><br/>&quot;Ships so quick arrived faster than my amazon orders that I ordered at the same time.&quot; - Satisfied Customer<br/><br/>Welcome to the home of Adventure Time Supply. We pride ourselves on great cannabis products, fast shipping and great customer service.<br/><br/>We take our reputation very seriously and go out of our way to make sure every customer is satisfied. This is a big reason we were the #1 vendor on Atlantis and the fastest growing cannabis vendor on Silk Road.<br/><br/>We have been reviewed by Forbes, which you can read here:<br/>http://www.forbes.com/sites/andygreenberg/2013/08/14/heres-what-its-like-to-buy-drugs-on-three-anonymous-online-black-markets/<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQENBFI8q6gBCAD4eaEbKpNIuR6N8wJRAmF731sRYNa/e2ljaUtFP+qtUoMuvJjj<br/>955hZwcqoczHeI2VJOsqGFjbMAsLp7d8zNTaXZyOXwozBCpeddo6ah4Y+yesu6hE<br/>cP+Mb4EuvoNKI48B2HHBN4+LhUEs7DCftlSH3CyMD+qmY115YH4O15E9IkfSrAmC<br/>IBA2GEtZ7JUP2vSgQnH1njAbSm0WZ44+HhwYIJpVouLSHNW6YAvAAaxRla9PtqQ5<br/>sgwwXuvV9HyqNpYvohxb8HEV49VKGOiDYCSOCHi39pcc7MBcgaqwV7qQ5Az9udmB<br/>aGVQcwxTZrbtXAv8AFKrriJY+Uut8BLyWRnXABEBAAG0FUFkdmVudHVyZSBUaW1l<br/>IFN1cHBseYkBPQQTAQoAJwUCUjyrqAIbLwUJB4YfgAULCQgHAwUVCgkICwUWAgMB<br/>AAIeAQIXgAAKCRC4lSkviS05u2GICAChEpXxdfmkfhLezMbnUA/2WDcTX4Iu/HG1<br/>2vvm2P0R+duA1/RMm2YSyVIoLxf3U/XGAqJAMFA142vU0QMtH7tNbq4XAXEEbh5M<br/>srBxgewqFi2AaLCq/UjNFWHVUQ50AgO33W5gewz54PKs+kA7B8jiFOCriJG5mCol<br/>o+DjAxjHlXPFW/u3phkPqBokx+8XfPECpo3ArvWATwVevx40OYO8zs3JEywCBVNY<br/>mUnytipojSUaCNQt0smQicL+3HiS5qay2YHSZj6ANDt5Vv3gE/l3JkG8gyhg/7JA<br/>OTPmUDADPmKiVai0qniTOXFDnpBcsy3byphzOj4lSWYtKDg/xH69uQENBFI8q6gB<br/>CADUMDp5UQIBC4uRb5LUi3fMsREfY7EQ6ZOEFp22uNz1ELcwi9LbvpUQcjgMlFdX<br/>fVb4PcJIZ6vgbH8bpuuz93oEDUGu8+5ymzaypiFP6ejUap9spT+9XEJ51lpNrMTT<br/>2N8MELS7SXOvfUSqSaReZBDh7xKJQbpo9oPa/scpNzXz/1Oe+GbfMslR9Xb1uSh9<br/>55YnZklrGUtnvw1iXGAQqQkeS9lJgnks+yMH2XZiAWq8vxVqFJq95hXkCEsVYBlw<br/>i8u3tWdr3j1gkhR5QmsRq0&#109;vcrJm4gekpXoAHGHPOC4n9K7eODHpRKWoSpo/IlqG<br/>f84C5FhkFDmhZUqSWS/L8NnjABEBAAGJAkQEGAEKAA8FAlI8q6gCGy4FCQeGH4AB<br/>KQkQuJUpL4ktObvAXSAEGQEKAAYFAlI8q6gACgkQedywCgPRk734RAf/XZ/a0uj9<br/>hOxFuUsl7/IoZCxrwmgqHc6F7bmHdzN0FUyMfX7PLMJJiC2IY+DnxUnXT+gvkAf2<br/>LJufvWSN3ZPDftPs8gldqGhjut5xynW+q10lTVshRu0cWcobt6v1ne1eQV51l/6v<br/>LjluroTIDcm1Ba1VdVxif/xX8SxQDeEWhYGvjz0j0Rnx4ErjgtQED+DvH7fZ5Y6c<br/>g8iyUz7OFXHGM0FCRqK0fcfP59N0m/NZNvt8N7H6BPn3WIYBBCSGcszgyWV6goyR<br/>IrsMSZnyDfN28pfY4tUpywJLKIhrwW8kRddRk7INj7hjPx6kDSf2inWkvJst8HtM<br/>iBVPfGThCGxWb0HIB/454hAqevTJVSJ80cKiIYcxYPp/zMNRK0BvOKgbKADpG6Tc<br/>8JenIyYpgID0XsaZmIvr0t7+RZgdmyuNBtz4gXZ3Ah5dcppgfkrJTWK2CVsO2b0M<br/>37VoYqmRPirTYYuhm9YqcuAw5wiwagojl2LeuRk3Gja7jZ6+7qG7rovpQd7PKQKt<br/>+bEoSP5E/zqHqG4rKtkfjYBeHeOLS8TzziMVDQV9yJb8cjh3ewlU1O0WDaXDF7QG<br/>5h+bHqn5PF8Jcgk+89vRdfVdkmcKCl1O6FWpmybZ5oHFRVRVaYG5V2m7k/DSWBk0<br/>9ieHyQnSJ5TepG5h6p1SzW+rj8dRJzSKrMpKW8YV<br/>=3VbW<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quite a bit of seeds indeed! Still good value and quality flower. Stealth was great</td>
+                    
+                        <td>
+                            <a href="/p/VRCEVJaiTz">
+                                BUDGET BUDS - GRADE A - 1/2 OUNCE
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, good stealth, awesome oil. Stronger than the 500mg o-pen style vape pen cartrige. Worth every penny.</td>
+                    
+                        <td>
+                            <a href="/p/soJGpdEBY0">
+                                CO2 EXTRACT - VAPE PEN CARTRIDGE - 1 GRAM
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Flawless as always, expect nothing less from the good fam at AT!</td>
+                    
+                        <td>
+                            <a href="/p/soJGpdEBY0">
+                                CO2 EXTRACT - VAPE PEN CARTRIDGE - 1 GRAM
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Glad to see Adventure Time on Agora. I will update once everything goes as planned.</td>
+                    
+                        <td>
+                            <a href="/p/P9R6rDEmrY">
+                                CO2 EXTRACT - IN PLUNGER - 1 GRAM
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>AMAZING VENDOR! Very kind and courteous! Shipping was amazing fast, came in 2 days after marked shipped!! Bud is great too, a l</td>
+                    
+                        <td>
+                            <a href="/p/yoPUbqiBNa">
+                                BUDGET BUDS - GRADE B - 1 OUNCE
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Adventure_Time!:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TgzGvSW23v.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TgzGvSW23v">1/2 OUNCE - TOP STRAINS</a><br/>
+                    <span class="description-preview">This listing is for top quality AAA grade cannabis. Make sure to include what strain you&#39;re ordering with your address as I will be changing strains occasionally. To keep on top of inventory I do not ...</span>
+                </td>
+                <td>0.36193735 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lf1Buk3CdF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lf1Buk3CdF">1/4 OUNCE - TOP STRAINS</a><br/>
+                    <span class="description-preview">This listing is for top quality AAA grade cannabis. Make sure to include what strain you&#39;re ordering with your address as I will be changing strains occasionally. To keep on top of inventory I do not ...</span>
+                </td>
+                <td>0.19303325 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/uZMRL7deit.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/uZMRL7deit">1 OUNCE - TOP STRAINS</a><br/>
+                    <span class="description-preview">This listing is for top quality AAA grade cannabis. Make sure to include what strain you&#39;re ordering with your address as I will be changing strains occasionally. To keep on top of inventory I do not ...</span>
+                </td>
+                <td>0.61419671 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/soJGpdEBY0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/soJGpdEBY0">CO2 EXTRACT - VAPE PEN CARTRIDGE - 1 GRAM</a><br/>
+                    <span class="description-preview">An Adventure Time! Exclusive. This is the absolute best cannabis extract you can get on the darknet. Unlike most extracts that are done with butane (which unless extracted with lab grade equipment wi ...</span>
+                </td>
+                <td>0.13161358 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yoPUbqiBNa.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yoPUbqiBNa">BUDGET BUDS - GRADE B - 1 OUNCE</a><br/>
+                    <span class="description-preview">The Grade B are lightly trimmed small buds with a bit of crystally leaf left on them and also have seeds in them.
+
+Here is some very good quality small buds, but unfortunately it has quite a bit of ...</span>
+                </td>
+                <td>0.30709835 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/P9R6rDEmrY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/P9R6rDEmrY">CO2 EXTRACT - IN PLUNGER - 1 GRAM</a><br/>
+                    <span class="description-preview">An Adventure Time! exclusive. This is the absolute best cannabis extract you can get on the darknet. Unlike most extracts that are done with butane (which unless extracted with lab grade equipment wi ...</span>
+                </td>
+                <td>0.13161358 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VRCEVJaiTz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VRCEVJaiTz">BUDGET BUDS - GRADE A - 1/2 OUNCE</a><br/>
+                    <span class="description-preview">The Grade A Budget Buds are big, dank nugs that have a bit of seeds in them, otherwise they would be top shelf. 
+
+Here is some very good quality bud, but unfortunately it has quite a bit of seeds i ...</span>
+                </td>
+                <td>0.21496885 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UyE3s5V5rY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UyE3s5V5rY">BUDGET BUDS - GRADE B - 1/2 OUNCE</a><br/>
+                    <span class="description-preview">The Grade B are lightly trimmed small buds with a bit of crystally leaf left on them and also have seeds in them.
+
+Here is some very good quality small buds, but unfortunately it has quite a bit of ...</span>
+                </td>
+                <td>0.16890409 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nfmXr3gAdM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nfmXr3gAdM">BUDGET BUDS - GRADE A - 1 OUNCE</a><br/>
+                    <span class="description-preview">The Grade A Budget Buds are big, dank nugs that have a bit of seeds in them, otherwise they would be top shelf. 
+
+Here is some very good quality bud, but unfortunately it has quite a bit of seeds i ...</span>
+                </td>
+                <td>0.41238922 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Adventure_Time!" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Adventure_Time!</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Adventure_Time!'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Warbeast</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Warbeast</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 4 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            24/3/14<br/><br/>Ice is BACK! Larger quantities to be listed later this week.<br/><br/><br/><br/><br/>_________________________________________________________________<br/><br/><br/><br/>I&#39;m Warbeast.<br/><br/>I sell affordable drugs.<br/><br/>All items ship USPS with tracking.<br/><br/>I may refuse service to buyers with limited or negative purchasing statistics.<br/><br/>Addresses &quot;encrypted&quot; with Privnote will not be accepted.<br/><br/>More to come...<br/><br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFDvHrsBCACe6pBz/3iQUGh4CHbe1JTHgPkRMW6x5LHmaGH7IpI87cOYXgQl<br/>FXDCh/HHVsJyMoeukgVgb/ot0XjO3gZHsfIYBHx46bKCp8MLcvVciTITq6G1AO7v<br/>7y1OvK9Y+VROgI49dW8jWWaTp44LhCrdu/mzYvaqR72so/3Sz8LLB7uk1pKPfe70<br/>MTg/XvYbsB1UzP0ZE6FMSoKXa1doVMkwTkm7GoMiYjL3RdyVBBjeuMkUcuoaajC1<br/>+h0ZGGQFiKHOvsuGn3I0cH6dJYHo3V25yEKSHLNRTz/rW4YsC46R4plV1WSzNLHY<br/>4wnhGqACxgchPM39GRdz/ej3ge8MakuSOvt/ABEBAAG0H1dhcmJlYXN0IDx3YXJi<br/>ZWFzdEB0b3JtYWlsLm9yZz6JATgEEwECACIFAlDvHrsCGwMGCwkIBwMCBhUIAgkK<br/>CwQWAgMBAh4BAheAAAoJEBVPn0dDYG/nna0H/RBPqfWiZpNI0rHuU1v7eZakAPHK<br/>O0o4WKG2nYIdYlUrjHmcjh2eik28XdR7kNwDbHeePNTa+Z1KLOP+ywqi2hmDiRce<br/>WaX/2y6yTl55kO9yUWimk1odIWZlb0Wi8xQX/fk0a8wC7Fy+UyQ8Fis1yQkZ1fxp<br/>pSKNjUA5wxb7Kt9tRr0Z8sH6UcNg1y5TeU70roGlLRI4Lqxk8pMYeZcyOQvDR9iU<br/>4dO87pe3OuJ+uFjcWuxkviIChDnEkGNWN65B1riYBkbh+nW/PbRgdOL9KSniwj2Q<br/>5hFfsvlCJ8+vwPrsxKIBqc5M5dK06CIzLnKZHWEyx0qCKm2mS0RG5UaiReq5AQ0E<br/>UO8euwEIALwqbVXnBUsL9Fe68oQXPrcK68Lyj1+uX/0rrhoif26GpriTW5FGMDCL<br/>RRIuFgkN1AFhrVeqn6yWcf33spLrgwyeP1A3Yaag1wh2pcl24dV2OG24yB/DpXcC<br/>UQ59FlrxEmh0DeRrbGeCfSZS1CDeYOxnwIU7IShRz52cjF650pegfv7Uu8LpPtVg<br/>PoKlvHqRm/Qdz5vT54tKYcQpsO5lgRyDx87vbF1eWbOSdeWjf3hyss3PLBuHajmr<br/>gESkWusPQhl+AdtRvnwt/qgHOno56cm8Qc9wym9dMDPhENVol20qVii+RrNPurLU<br/>eTkJQ9WyGRUm5DA+skN0C0U0Xwe5xNUAEQEAAYkBHwQYAQIACQUCUO8euwIbDAAK<br/>CRAVT59HQ2Bv577NB/4tAoAWXGpUVzq/ze+700f68P9VXxgdLZpbrKt0SffFaQAR<br/>FcMi5zN+QnB9nIcTVCyIF+uUW5ynP7BIh3oF2YxNo8VZSHUzGC9kbkENNwEINfle<br/>uclIydkK6Ec6Ix17LJLiMoP4viD2Cm6YPvlLm7+H1dcjxV8AyXvNqA7a2ZXhggw+<br/>vNawmKm22KFEWXo9CGPYcpS2q8824jN6rTOt70UF0mzS0PPuvvfpDprp2HujBJ3m<br/>WymJY+CTgiocCvSZO5nS/1xExNG8n7zNA/ee+wcDXoEOt19w/Dd8hjumuM5uLrhx<br/>8VSQ4xNCx26d3t249mIclOVJnsCHNVsI3//MQBEW<br/>=CPjy<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good old Warbeast. Shipping is fast, stealth is good, and product is as good as always. Fantastic!!!!Thanks.</td>
+                    
+                        <td>
+                            <a href="/p/DYEWxGAej2">
+                                1 gram methamphetamine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>nice nugs and fast!</td>
+                    
+                        <td>
+                            <a href="/p/TvABJPod5A">
+                                8oz Grandaddy Purple (indoor)
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Absolute fire! fast shipping and great communication. thx!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 great communication and stealth 
+5/5 on time and everything on point and there
+thank you so much my fault for late finali</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great guy gave me a refund on shake when i wanted bud</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>sorry for late for finalize great buds</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>superb communication great product for great price will definitely be back soon</td>
+                    
+                        <td>
+                            <a href="/p/JVxUca1V9V">
+                                angelkx3o0 custom
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping and prompt communication</td>
+                    
+                        <td>
+                            <a href="/p/ijnZZJx4SU">
+                                Gridlok custom
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>excellent bud for price! will def use again.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor. Will be back.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>thanks alot legit and super fast shipping</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>War is god</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>just as described</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Warbeast:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/w0yd0hobTX">10x Northern Lights x Lemon Skunk seeds</a><br/>
+                    <span class="description-preview">Two excellent strains combined. Grow some champions for $5.00 per seed.</span>
+                </td>
+                <td>0.10989010 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/DYEWxGAej2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/DYEWxGAej2">1 gram methamphetamine</a><br/>
+                    <span class="description-preview">Get it while it lasts!</span>
+                </td>
+                <td>0.21978021 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Warbeast" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Warbeast</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Warbeast'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CornerApothecary</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 444.16 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>CornerApothecary</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 16 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            All Communication MUST be done through PGP coding, found below... for your protection, and mine.<br/>Please use YOUR address (PGP encoded when you send it to me.), not a neighbors or an empty house. The product you purchase WILL arrive to you this way. My items are unique hard to find products and I guarantee my products to be EXACTLY as advertised and you will find them to be the best available. I look forward to doing business with you!<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQINBFMLXW0BEADU9qPx5hCBeHg02FCehlIhNmdKV1fhSxD4t52rkv8O1y88K+d/<br/>Z0jJAojbq6VlbbcpVqYE3jJz2bxZDpCxN4Du2UG8N8EGRfngCkWcBqId498jtpHG<br/>6XwGa5b7jzUpf+NcC3ejHi34yr7els7YDRD8+cuRQPq/L5ZM4yhNKRk7mPFUPMce<br/>G/cQTR78CtdSsC77fT62dHLpBGbpmqq0gi1OqNPMG5MUp3gh3liAW4KPrrrlNGAg<br/>1XSXVZGaYta1zirKIwv2Kq70XtvrT+o99tPknyGjEP+pANoRkEnA+K7/Qb9BUZYL<br/>gl1VDutcL5wbJ7cMrdOu8zm4f7E6P4MxhlOZupRnrKfaFSB/VYxlbE7qVVrA566V<br/>IIFiN4pCdcwfyl1/0SzSj1F5R8LCTY9+Ssrk3f3Pax9agR1fKhVYwhSosMA6tqsh<br/>vwd6l+n9Eivyyl6PP+9LBZPxrflfM2boBrvjZTfuhhoW04RSstjmLH9YicifB7k2<br/>947VuWZP36vdKQb9fW1zDKrp8Wtb6dXo9vz/tgMv4YKyAMrjM0F3K6uxPB8JyEYC<br/>p8ObrfMauP8cgV7m2XERJM/3F2KqIpR7TV0c37PAmh6wxjdR00Zs7k7kMMQatC9k<br/>sinM0kRDIzMDiJ3XR+j5A5CJqD9YXWy0n3Q/auKPJ8jBkubx57NOY7oCjwARAQAB<br/>tBBDb3JuZXJBcG90aGVjYXJ5iQI4BBMBAgAiBQJTC11tAhsDBgsJCAcDAgYVCAIJ<br/>CgsEFgIDAQIeAQIXgAAKCRCGmSDD/Ijkji41EACptEQriQ3PU7eNqLrN702eKH5R<br/>v2BVuImbymhk+MaSD772lGFAFaNdOFllLBS3OwYEAasJR9vynrqUr8oc5UPpqRWy<br/>jKYVPMeZUXEyyt3ZSST6e/nA4DmApRfHaon4G/qJ4xP05b3cpgaH0fUDbvXZjTqb<br/>tJXr7yP4yGT6QjlPzH5MR8os3hWuxo/e308e/l5Q3h4WmNe/GZx16Rm7IjQHO5kb<br/>3cfi5guyq6kZZBeQHH/4vHzgQ493Gsrp22LxtsuxWaC3UYRCHl40meQ1BC4Bab+H<br/>EBHQL7VcA9lMALLgiOCZofzblSvmR1/q9G7lsmjuHzQPHIv9J5axmTlcEFzoPM1W<br/>m74Vt4tLVj7maApURMTPe0YicIVz/7TJxxi71ute6bC8sWnTCTWSmjWRoIjaNQsG<br/>Ydd1YXGsRNDsfQ0IQ2DpI4qhvaY9XJGnZHdnLmIugMme0BScHvQX4YXRIo4SQ/fZ<br/>8Gp7kgBNSiuw1qkoCagjD2xgJ4RLtf7+1gPsHgeNnRlNVnQ3dUHQitX7hqxTh0Pc<br/>plWhYVFJgJzQJTl0qqFNEIw7WMFP4M60b1nm/7dqZboUFqCkzygbRuZW+YAgGRC/<br/>qDNS3OwPGYf6PxvrEKaAg+QVYt21GmDE/31hgVQsa+5qQLIxqKqzfyrkZKjwhDmc<br/>KSQttFUhgEYXurYnRbkCDQRTC11tARAAsqPw43Pbsz3DsmRBESSl4ppBgY9yrgvw<br/>DOOhuZ177TvaUSPTTuKY0GriY3/MYwA/dk3Dn55s+igAfJe/kqYwtC/5Xo0OP5SG<br/>cglUudma/Svb2yBACSREkXsZar7oRSaWUTluuZRf6keHPjRA&#98;sDumh+XRUJJErhu<br/>LjMhySSx8sdgB8uQ/UPj+SklTu3CEzahZTiyIqQCLNLn3ZMzTySs8oYFwjiDiA8O<br/>N4RB+i/jebwyEF9ixEJScSUDG4fS3QIcInLfo1t7yGUOdc1WGfhrJN5jzyD0CLFO<br/>tN7lcHNaOxLKR7yhdoXFUL9/kG/qPIlRpA8Xx7Ax1wfFhWzLLg+yTEvUC/1iQfBa<br/>1qT4UQWWAq8ExiDAZQ6OWdeVwn5mLFq9RG58P7rna8ErFeQNpARjpSbfyVCZUywn<br/>IRUWnz3txvojW38jJR2dBuYrU3Prr2L2jqp4NohA+NFdi8pGNkyAvg/6snKFXvQV<br/>7lc3TRefy/BIuij227kOYBjR6/iFpRejJ1uDU1rhWQBB7xOuG0sjdavaRVB4DqN0<br/>DE9WgRrqltRPosaPVH3T15G19KLla52JWqoipWjaDuqMc5NIm3tkr50kJ3PzgaEZ<br/>Oiid3lqzV8mE9DjywLRsMJvVyulP05rcZR+5O74KMJ0vD2JnRTwhi+aYPcidTt89<br/>GSlGOwgbdD8AEQEAAYkCHwQYAQIACQUCUwtdbQIbDAAKCRCGmSDD/IjkjgeCEACK<br/>E71d1Jc3Jy1LjMP8YYFIFVdupnOiqY1ymqGrjvCCiI9s/4hf9asu92sjAKSO30BT<br/>iDjBU6s+OOoSDabT65JU1IZw2Bm4151yG+VbalIxY7VsratEk3a41NHa6Zw3j3UC<br/>Ys7UyL0pedXPsjak72NOhGChKkpdiOkANHDnqzPdXGl0NpuSI4MJVhNuWnVGlKE0<br/>hiTXE6OoRjkLC9/q20VyfyCcmbyrnkrK0lPLT+9TBtMsCGuSyzUExxLoRxiGttlE<br/>Hj/Jls5wh3sKavL+MHrjhu/puTM4bJ+pAqYc7Y4PgT7au7rGkK0N++IRM3zd3rKA<br/>kLeukPuPHJuBg/19S9GH02NjcfgUT9Q79r5XXidEIrNqkC+fbkHoH1EzzXF8rqmF<br/>8jHP0L4npWHPgMuZ9bvtxu+SSwKn7huzaSGeMUOAGcrqekS4b0X9ARwR0hzk6c77<br/>t3rBr2UE7uRIbbdZ1K5S9QzHr1/6qyHPCmA9IGbCV7Jd4rJwRTy2zmZFI0Q75+xi<br/>+Bi5SDQJJsFf+RKXkEzvTbOtN7TnXTmUiVRVAw29lqzgZuv+AjLRqeU6ocgAf8Xq<br/>5zTNps6zNtG5moZHmwy4k6Wl8M/asfIv8eNIr1Yh9Xznz6w669+LdcC3IldBYIDv<br/>CsHZaJRcw/F6SNETPQyP1Hw0a69N7AH28vl9V9NCuw==<br/>=dCG8<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This really is the real stuff. FDA approved, complete with packaging and inserts. And fantastic vendor.</td>
+                    
+                        <td>
+                            <a href="/p/fjTgiwE92G">
+                                The ONLY Pharmacutical GHB in the USA 180mL - The REAL DEAL (not GBL), Prescription Xyrem
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of CornerApothecary:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fjTgiwE92G.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fjTgiwE92G">The ONLY Pharmacutical GHB in the USA 180mL - The REAL DEAL (not GBL), Prescription Xyrem</a><br/>
+                    <span class="description-preview">I&#39;m new on here so I am offering this at a discount to get established. 
+
+Why chance what you receive, be safer with a REAL prescription... get the actual Jazzy Pharmaceutical product. Cost for the ...</span>
+                </td>
+                <td>0.45028818 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="CornerApothecary" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to CornerApothecary</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'CornerApothecary'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

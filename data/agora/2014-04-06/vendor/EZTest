@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>EZTest</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.31 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>EZTest</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 4 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hi and welcome. EZTest is providing high quality test kits because you never know what your getting anymore.  Even from trusted vendors quality can be hit or miss as their batches and suppliers change. You could be throwing your money away on bunk product or worse potentially dangerous gear. <br/><br/>We&#39;ve all seen Speed- or worse sold as Ecstasy, Poisonous Heroin, and Cocaine which may not even be even be Cocaine and if it is, its cut with God knows what. GHB so puluted it will peel paint, etc.   We will be offering a variety of test kits for nearly all the substances found on the Darknet, purification kits to clean and refine your gear and the related equipment, techniques, manuals and books to take a proactive roll in your safety.  Up your game, know your stuff and dont get taken advantage of.  Most of all- Be Smart- Be Safe- Be Happy.<br/><br/>We ship 5 days per week via USPS.  FREE Domestic Shipping Included on all items.  International available but not free. <br/><br/>PGP Address and any sensitive information.  Use your real name and address to ensure delivery.<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.21 (MingW32)<br/><br/>mQGNBFL1F+4BDAC116L/eB1zPO1Sw577WkvFWPYkycYb9Tl2w3o8QrOnHeLAv543<br/>6hmwUcRFjjC7dPlJBOH/zAk3pDGlKiXLzIXs6tCp687qiAomQ3zJTEIw3+Y9KM8O<br/>bKDizj1U5BH4x3gFX8snZGOC/Is8Sl/FQnVqZYUfxcaRjyPlTWXAiUOeSCar/zMm<br/>7YiPTDB/oDY3+8RZwOP+zohtHNYvrFuRd7qLpkpxDOO3TcL42X64rdQN32x/+fNb<br/>QNSR6QRi86qrG3l/PmZVUhe6MCOTKZ9ZlNbynjA29s2jQf1hSt3EBSUtqHi4ESt8<br/>XeuZua8pV7Km5kaw81T6UPgx01o1UwBhHCnhQqJ9Ml4qw7xuJNdqaTd6+F9BZGHH<br/>WWPoGKSNtzkmzlPoRRy5fDMzoTuQZNEhJ8KnL1Jhoxbnn1JWKMPSeT0C1yXxZqta<br/>xmkuwU3GV/3Fbhq5Wsd5G7s7Qrj/0cX+Vy99w9RVaQZypsIp6Ch1DW5VFiYNuDRQ<br/>G4P7Yy4h3IpuwKcAEQEAAbQYRVpURVNUIDxub25vam9uZXNAbm8ubWU+iQG5BBMB<br/>AgAjBQJS9RfuAhsDBwsJCAcDAgEGFQgCCQoLBBYCAwECHgECF4AACgkQ65bRZ/wV<br/>fDLQvwv/bzOn4BUlNzL4pSSQyfncncXd1SLNsaj1omyIaRcPBnd7BuSkZzJhQpif<br/>YBWapUMgd9iNIaix2D+/nNKBCmzLJa9EFDX5Rajxys/b0SerkwkIxPDPCzgex0+5<br/>imyPuUPMMgSI0q54BRP4Obh7DW8hQHOWo6S8/kHOw3+cEJ9juO/a7uLNi87S5HsB<br/>nhdV0hSMjAM7pOmO6SvpcJ65sMXdpRrwpt3c5saa9BxOmwCO8pRhyudRnTOiVkal<br/>lvQPo9l4Lvn46JfIvfNSTZ0vG790zvO/Rn7jq7lpEo2nhNFn//whV1Ie65b2mzKQ<br/>CQ8ly0NzuknkI+Knrfj6s8dzCH9Lgs5NBKm6Y2lcbv137Yy5xzxJPhV3eInWFbBb<br/>VIpZI+oFt8oSCC1dYo4SNsscVhQ/Mshm180LoxgfTCX7ue0dGTFEOCGqMDwUpyxS<br/>SOASLIKnanUOEMJ+80CPP+M16Sv8EiVRNcC0gdJdJJpPqIWMMayjIlEjJgCqy6k4<br/>yiPJnP5vuQGNBFL1F+4BDADN9He8EpvJiBgoi8N1YDsHZxjrXE2mSucGJWeCavv+<br/>vyqFomkR1A6MAs+6J07T699Ell253SkDZMwpigNx/Nz5NVYuD5pN5YiF9D0G560/<br/>flp7Q9DZ3Adjp9BmVLABqsjg2f6g/9eIlRXAWXj+xWwMRMAPxlhu/DUXKALqFxSx<br/>kpwHERuGnFZ6d+degWS32w3PptMqjrA5Cb2iqeZsiJpcvCBEg6whx5wFLDf1BKEB<br/>8Y9OX9Esg+hqiB5fV4wXHu1uQieeHtxvLtoPIBgMwPEZDD3Gg32Bm10f0/P/6LHY<br/>CHqlhdin6SfIhVI2sUV9S66zl1B8A4UV/V0SAGsEbAzBrDpc1oZaj5FKy/lCJrR7<br/>+UTBj0UuN6njYZMEzmagoiRKbu4S7EWJfjCcm95d3YhecVeQNb+Tloqj7k0NO+Bz<br/>7sg1Lqx1zAS6bPfzvt+f6Q3YddFT6t+l6wbNJa2YOl1gWAorLBhiLlZQw/1G7IV/<br/>Xa+Llumuf0di3R4Y00FOf3kAEQEAAYkBnwQYAQIACQUCUvUX7gIbDAAKCRDrltFn<br/>/BV8Mm80C/9lWwspbd+fLlZ+8RQRT+MOw4UJ8yjYV9l+lRvbHc1GjCM3J7JXt2pc<br/>J24s8WQcYqwQD1q9z6uOWyvROUJLdFnnVWsbHN5E19aFA1JkCnXXaFGrjgUohZ4C<br/>pLyK0leiBjwOx1P7qOztz65LC9CckKNQk80CXNugp3HXupkCdnRdPl8nEB3bZd+m<br/>gdcWOkUiKA+/U3ZCoyVt0GBAUjwLt7+Nz9ZxfSucZUjzS8YDHBdeLbMbNLe3bK5Z<br/>7UT+8qtVKr39remXqRkFwT662MRLmZyklbj3OngFcgnsa/FzjqQJTwUIOBj88sco<br/>D7hW6xyPsqnuTZ4/3BVTktQdswjuqQstFMDqxMXyB8yHZCCsK489cPzB4bQQU3KB<br/>Mo5ewMmfA25sPKtXQDSg6Xd33VGcJPnEGeJ4AAOlxrcYs1ZZb4jz+H7Fhrp1ark5<br/>HglotvDh3J5qOESVEED9X/acsyZVyL7ySwWywmettSYqi84lZMV63eAHm1LaiNNP<br/>QKfzIgzN8uI=<br/>=XyKk<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast shipping thanks</td>
+                    
+                        <td>
+                            <a href="/p/XVUppXt8Bo">
+                                Marquis Reagent 3ml Bottle EZ Test for MDMA 25+ tests
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Got it in 2 days!</td>
+                    
+                        <td>
+                            <a href="/p/htYU6b7PdM">
+                                EZ Test Cocaine Combo
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping</td>
+                    
+                        <td>
+                            <a href="/p/htYU6b7PdM">
+                                EZ Test Cocaine Combo
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>excellent all around. thank you.</td>
+                    
+                        <td>
+                            <a href="/p/htYU6b7PdM">
+                                EZ Test Cocaine Combo
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>quick and easy. thanx</td>
+                    
+                        <td>
+                            <a href="/p/faFDeJDNgx">
+                                EZ Test for Opiates
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived within a week and good news..My molly has mdma in it!</td>
+                    
+                        <td>
+                            <a href="/p/AggXaU40A6">
+                                EZ Test for Ecstasy
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast...exactly what I ordered.</td>
+                    
+                        <td>
+                            <a href="/p/AggXaU40A6">
+                                EZ Test for Ecstasy
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived quickly - and smart stealth! Thank you very much, your test kits are greatly appreciated. Happy to return in the future.</td>
+                    
+                        <td>
+                            <a href="/p/AggXaU40A6">
+                                EZ Test for Ecstasy
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order came cross borders what more can you ask for</td>
+                    
+                        <td>
+                            <a href="/p/XpwWWztvAF">
+                                EZ Test for Ketamine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast shipping, legit product.  A+++</td>
+                    
+                        <td>
+                            <a href="/p/htYU6b7PdM">
+                                EZ Test Cocaine Combo
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping.  Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/ZKCKYW3BfD">
+                                EZ Test for Cocaine Purity
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great seller</td>
+                    
+                        <td>
+                            <a href="/p/AggXaU40A6">
+                                EZ Test for Ecstasy
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Everything arrived super fast and worked perfectly.  Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/AggXaU40A6">
+                                EZ Test for Ecstasy
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good product and seller</td>
+                    
+                        <td>
+                            <a href="/p/AggXaU40A6">
+                                EZ Test for Ecstasy
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor! Received in 2 business days despite the bad weather (yay for usps! lol)!  Thanks EZ! 10/10/10!!</td>
+                    
+                        <td>
+                            <a href="/p/ZKCKYW3BfD">
+                                EZ Test for Cocaine Purity
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of EZTest:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vcXqhMtSWj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vcXqhMtSWj">EZ Test for Cocaine Identification</a><br/>
+                    <span class="description-preview">This test (formerly known as EZ Test Scott) can be used to test for the presence of cocaine and crack cocaine. It will show a blue color when in contact with cocaine.
+
+This is the blue test used by ...</span>
+                </td>
+                <td>0.03308920 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA and Canada
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AggXaU40A6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AggXaU40A6">EZ Test for Ecstasy</a><br/>
+                    <span class="description-preview">The classic test for Ecstasy ( MDMA ) , also known as EZ Test Marquis. Within seconds you know if you &#39;re dealing with ecstasy ( MDMA ), DXM , 2C-B/C/I, DOB, DOI, methylone , butylone , naphyrone , m ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GjVhRAPsN6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GjVhRAPsN6">EZ Test for MCPP and Phenylpiperazines</a><br/>
+                    <span class="description-preview">Finally there&rsquo;s a reagent that can detect phenylpiperazines such as mCPP and TfMPP: EZ Test mCPP.
+
+A global shortage of the major precursor that is used for the production of MDMA, PMK or MDP2P, ma ...</span>
+                </td>
+                <td>0.03088326 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/umAuyKhPxU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/umAuyKhPxU">EZ Test for Bath Salts- MDPV, Methylone etc</a><br/>
+                    <span class="description-preview">A quick and simple test for the identification of mephedrone, methylone and MDPV traded under names such as Bath Salts, Plant food, Odorizer and other terms that are primarily used to disguise their  ...</span>
+                </td>
+                <td>0.02867731 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/htYU6b7PdM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/htYU6b7PdM">EZ Test Cocaine Combo</a><br/>
+                    <span class="description-preview">This listing is for 3 Cocaine EZ Tests.  This combo kit will help you identify, gauge purity, and determine primary cut used in your sample.
+
+Included are:
+                1- EZTest Cocaine
+      ...</span>
+                </td>
+                <td>0.08823788 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vPw3lwoZR3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vPw3lwoZR3">EZ Test Cocaine Purity- 10 Test Pack</a><br/>
+                    <span class="description-preview">EZ Test Kit for Cocaine Purity : a semi-quantitative test to determine the amount/strength of cocaine (10 tests).  This is the same test as offered in our single tubes but in a ten pack making much m ...</span>
+                </td>
+                <td>0.25368393 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jzLoDMuLW1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jzLoDMuLW1">EZ Test for Cocaine Cuts</a><br/>
+                    <span class="description-preview">Finally there is a test that can detect the presence of levamisole, phenacetine and/or ephedrine in cocaine. The only confirming test for levamisole / phenacetine on the market!
+
+** Now Available i ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/umjldnY00W.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/umjldnY00W">EZ Test for Heroin Purity</a><br/>
+                    <span class="description-preview">RIP Phillip Seymour Hoffman 1967-2014
+
+The Heroin Purity Test enables you to quickly get an idea about the purity of the heroin. Just open the ampoule and add  (EXACTLY!) 20 milligrams of your samp ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bSBJMZsLLR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bSBJMZsLLR">EZ Test for Sythetic Cannaninoids- Spice, K2, Incense etc</a><br/>
+                    <span class="description-preview">A quick and simple test for the identification of synthetic cannabinoids traded under names such as Spice, K2 and Herbal Incense.
+
+With this test you can also test for the presence of these synthet ...</span>
+                </td>
+                <td>0.02647136 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/i8t5WUCtzP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/i8t5WUCtzP">EZ Test for LSD</a><br/>
+                    <span class="description-preview">EZ Test for LSD (Ehrlich reagent) is a test that can be used to test for the presence of LSD or other Indoles such as DMT, 5-MeO-DMT (a.k.a. Foxy Methoxy), 5-Meo-MiPT, 5-MeO-DiPT, Psilocybin, Psiloci ...</span>
+                </td>
+                <td>0.03308920 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vYelt0ki7p.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vYelt0ki7p">EZ Test for Cocaine Cuts- 10 Test Pack</a><br/>
+                    <span class="description-preview">This is the same as our single use tube except in a more economical 10 pack.  If you test often this is the way to go.
+
+10 tests in an economical pack 
+More reagents than any other brand 
+Minimum ...</span>
+                </td>
+                <td>0.18750551 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZKCKYW3BfD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZKCKYW3BfD">EZ Test for Cocaine Purity</a><br/>
+                    <span class="description-preview">In Stock and Ready to Ship- now also available in economical 10 pack.
+
+The Cocaine Purity Test enables you to quickly get an idea about the purity of the cocaine. Open the ampoule, insert the liqui ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wpmBc7X60D.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wpmBc7X60D">EZ Test for Benzos, Valium Rohypnol etc</a><br/>
+                    <span class="description-preview">Benzodiazepines are prescription drugs, commonly prescribed for the treatment of anxieties, insomnia, panic attacks and alcohol withdrawal. The internet has made it possible for people to illegally b ...</span>
+                </td>
+                <td>0.03308920 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XVUppXt8Bo.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XVUppXt8Bo">Marquis Reagent 3ml Bottle EZ Test for MDMA 25+ tests</a><br/>
+                    <span class="description-preview">This listing for a 3ML bottle of Marquis Reagent. Marquis is one of the most popular reagents for the testing of MDMA and is the active ingredient in our single use EZ Test Ecstasy test. This bottle  ...</span>
+                </td>
+                <td>0.07720815 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yLWeoWKTXc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yLWeoWKTXc">EZ Test for THC in Hash, Oils, and Marijuana</a><br/>
+                    <span class="description-preview">A quick and simple test for the presence of THC in Hash, Marihuana, Hash oil etc&hellip;
+
+Open the ampoule and insert the little ball that is in the cap of the ampoule breaker. Then, insert your sample an ...</span>
+                </td>
+                <td>0.03308920 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XpwWWztvAF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XpwWWztvAF">EZ Test for Ketamine</a><br/>
+                    <span class="description-preview">EZ Test for Ketamine (formerly known as EZ Test Mandelin) is a test that reacts to Ketamine. Besides this, it will show different colors for, Ecstasy (MDMA) (meth)amphetamines, 2-AminoIndane (a resea ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/faFDeJDNgx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/faFDeJDNgx">EZ Test for Opiates</a><br/>
+                    <span class="description-preview">EZ Test for Opiates (formerly known as EZ Test Mecke) can be used to test for opiates as well as for Ecstasy (MDMA, MDA, MDE).
+
+It also shows a different color when in contact with Opiates and opio ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yumRYAlguW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yumRYAlguW">EZ Test for GHB</a><br/>
+                    <span class="description-preview">The popularity of GHB has skyrocketed over the last couple of years, leading to a ban  on the sale of certain precursors that are needed to make this substance. As a result you could be buying untrea ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="EZTest" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to EZTest</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'EZTest'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Captainzo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 450.18 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Captainzo</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 6 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            CaptianZo here, possibly transfering over to Agora since the SR2 fiasco. Check out http://silkroad6ownowfk.onion/users/captainzo for my SR ratings.<br/><br/>==================================<br/>Shipping<br/>==================================<br/>Please put your real name (no need for fake names for safety, drugs can be shipped to anyone by anyone) and in the following format<br/><br/>John Doe<br/>123 N. Street<br/>APT. #<br/>City State Zip Code<br/><br/>Will be shipping same day or next via <br/><br/>USPS First Class and tracked: Once shipped within 5 days in 80% of all cases, otherwise longer<br/><br/>USPS Priority and tracked: 95% likely 2-3 days, prioritized above First Class Mail<br/><br/>==================================<br/>Refunds<br/>==================================<br/>Refunds will be &#112;rocessed on a case by case basis, but will mostly be unlikely. Will not be responsible for mistakes from you or USPS part. Please finalize upon receiving package! If there are any concerns, don&#39;t hesitate to send a message and well work something out.<br/><br/><br/><br/><br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.19 (GNU/&#76;inux)<br/><br/>mQINBFLVvCkBEADeE/L7uBq3Xutp2EJqssjqts08Ziid/a7Sada4u+OAxjL4zYSj<br/>dSsPj21Ebao60qaejuebmFhUi39b0FvPA8j85bSuaG6OyQ+TJwc3QpR/2XdxO4v5<br/>TyORybOdRGdly+W1ZVZBMm8FdT7ZmzbrjgG0r4JU3pAd4VoYrVaTlTzTmAk9boKx<br/>ukW5QOmPlVGH44fqzJsZiUbQYbW7kutHNkigKWvl88xQ3sNV6T0JN0wDRPtrBr5q<br/>jkGpw4I+ip8wOiuJtbIx6AH8Q1ZYY6BhxBCzBVUgqHN1EHkpb5gDLGas4lKRhRoZ<br/>mwk7WLeB7BhXV776AByph/xjzWE8xMOA4W+e6u517SST8cYmU+S9sxd1wyCanul8<br/>WuI0IhNCgLJ+tqY2mYEB6AbbPZbBj/cEXxyNcgUqcM88Dt2J4HPGC6ruTsvH4elK<br/>BKSobr8aSIOGbxBarazGH/lfAs0QJQL5UkCWU//8qU/rcNG/w8hOTGA9CDE+EM62<br/>xz5GHlqdtkv02YBLDLc8w2/X089RWI4f2XmteIf5JcTF5cIGHhRzK+WWZVMubpdZ<br/>G5IKDn+IPuqb/tyCF/2g9gxUqx9VPbJ1v8I8M+MmwPAWghZUaBcHvH+eKDJKwYCx<br/>MawhnxjlTQtI7bFvG+Qd0WWwhq6v56EEpZ82eJhqKZgYVJ2wgy6ZD+wn2QARAQAB<br/>tB5jYXB0YWluem8gPGNhcHRhaW56b0Bhc2RmLmNvbT6JAjgEEwECACIFAlLVvCkC<br/>Gy8GCwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJENC9O8B4RpzycwcQAKFFSeTk<br/>uzthohY26BC3w7iesDD1eaa037DEivU3GzKzlP7N4oda3lMOZKKU/oju8CzDeRcX<br/>MNgeG1/wiK645DnBNfqycVEpAScLMt5PyZXkqFP321w8QoNtZpwYGN7GukAD8ExB<br/>e80GKsXeWMpOJtPZFrjED2nhoc6HOd1F0L4neggy7QmuKlzewyAs4LjtG2EWs6DH<br/>F7QrzXCJHf2yx5CRATVgatjN9s5BWk2iR1VsqrjWArTtWQR37kLxLqjyPkJtQwD9<br/>5KnGlqFwkcgCjzLjHdMceHOWeKNb5Pp3fmwtlBu6BmxSvzsv34xGCP4BiR7ZzoFV<br/>EsBliuWtGRDrsxs88QH3ASBBEa0zWiMP9aLcMiY28tyZa7jfW0dGA4ffmQp/XtSO<br/>JZ8tN0VkLrGiQxV5W6Dmt/VMmhcnWRFtTwWffOI8ANnTebOEdQknrGVMqvp7lkar<br/>WWoCTRsGlg1HIDjachn67z8yLoQEVRJi16hk1RunDY0IukIj91eESnwqIFfZXecP<br/>F9164z8BFkvzD7EluqpOsxlrI3GlsMkYn/zlYKwajDGaBpoadrA0ML5OVm0QbQJX<br/>0BmZ3WlO0Bqze/FB+MuBwWEd2OsZnMa1KXt1HJfyLbfHl/4QDgf/ksyv3BOTeAgT<br/>1NMI0St+LbRDvY/k5ukS3ZLQIiKKydEhTSDSuQINBFLVvCkBEAC+72niJn5CrLGJ<br/>OKNU3sAuK+Po5FkR+NjJudt5CTUSJtkND7tu83mXvQcycFZbdZxfXpnHASlfkzIT<br/>pWs8/EmG2W+2zu8fyAsgZfe45BXGEr9dW9YsggBdVianYwlhNjEMseXrlmwISgbw<br/>jfTD6EP2faHlSOyIzR2m14gRx4xMyNG+LnI+Sv4ucEhQUEzBOGbpEJQLMcAGAP2U<br/>iEEbBRv1uWZxV4XfQ+RM/Yd9ugc88XUAeBOpwiSOTM2FKclYnEp6MsOIRY4susp5<br/>qpkhcxqFG5B8BAzpYAAHc6ccVGUeAIr+NwSRevTXdsoTlgZZSMEyrA4nZuVsckYi<br/>rX3igycqoTDmf/mdPtLifmgDuXcUBYipt4s76BbcLNbD+zuHJjexiG6wGVLyCpbi<br/>/kiGgqPOhnpSgVsjx41qAxG3RrAg1jy1McGDFWvwjdQujbkhZ9eFsx40TyVXwCKi<br/>Rl/2/HvlCEMesc65ydcUN+ACHNVVwiblMQuyMMs7Cabjcx/uiF1txCvfJ1GdW+jg<br/>RkJFYqt70Mul6xPanFszaJMkJlFgYHNwMZGrqiu28b49EiSMOqO7FPlw8oki1NbS<br/>vOqj/fnTc40g6gQrdEnlzTlLHEEH0AIvkFV4njDC4ETlmPa2Dh1vCjfynfw0qGY6<br/>ArbZQgLMr75PDSMH9ge5ac243BwU+QARAQABiQQ+BBgBAgAJBQJS1bwpAhsuAikJ<br/>ENC9O8B4RpzywV0gBBkBAgAGBQJS1bwpAAoJEOs9cFFndY8Mhs4QAK41YKExEH4Q<br/>h/pWGxqRxhc/cJ++p4Sn9V0y6c97AmLjHYOEudfgAV08PYEUDPYq7CAJEubxxPRp<br/>8d+PTT49Qgjg1CpvmS2+jKReAkn5Z/W0P9sh/IBm5XZi5cMYIbHDJ0yVSpWPEowV<br/>vtHjDIs93eBUKgLUcs48vi9MygnHFF9VQadyJ7WdjyRQz6Gpp5VmqxpO5q4VaheU<br/>52l8N+NDTNvsHLIsQNRHnqy23YxgzdD/u5ugOGdDs/JCuQ0qYdnubUcL7DibWbdF<br/>Ku21VD+x1DMPrkaEh7yqaVq7M7aDmyT+x+b8WJ2NCVmn1Tzsu7aN9+q+uHD88SBD<br/>Bad8EU6yAGzhLtwjfU6OYEEQzJXo1fySQtQpkAOPgALUj+NLhnJm/fo6+26YNPkR<br/>+iqgFAv2VmLEsowX98l3NJCTchvDs5EY57wh7rMhgIdMDBMFcrnD4216W5QEMa4r<br/>4xQjbmGS+0cMmaV7WiJ7eTsoxR/yy2WY788NkgESk4Pc6C6oi4LYF5LVk39lm4B6<br/>UEYC9xhfk7s4vR/QecDol08CygC64nuFezkb2gP987cix2psnUIDKeGFsfPT63W7<br/>eNMkyePgEu21bWF/u6Bl380S+mC6EiDpSA4yC3akEqjK64q/Gzp+YADLex1j0lmK<br/>lhUhjvnTENah50bfniqUj4SrKLF3XUt3/FsQAJREPd0CO7YHYMNgeaRPKTOczHCY<br/>UdCfA4FohfyNTUGA+gG8r0wbtKSAgtNNOLLabywQoOSkXl+YOyjOJN5d5YufhgT8<br/>InERupsWli64Ut33ejpEazOHVdx1ds8fdlUWyeYtXEkVK5tqnjV6VgjzEdpjqsys<br/>5X12DZV61vjERa+Jk0CNAUU+iDS/QwfbqBuRbUjvK8s09st3tW8mfbJZIPlh5CBl<br/>Jtab48Wf9yaTkW642IufsSdhAL478qwy/dzgp0yQ30eQY6jMKmjZRDZS88Eoits1<br/>e4oMZiHGlTrMW9WIbRqN1MnjRdyv+CDpJ2ftJwaBLSHGZVZ7fBKXvRDmkSOUgLEC<br/>YfFDztslgOpME2laPc2uDyZrh9dcdDCUAE1pl2UUNPpPxU1SB0jGqqI7w9eX2jAH<br/>pHCivlc12CcDM/gvXJ89uoM+42Jh8D5EmtJKr8ruXckEiJVBBnZCeWZoplp3gv9t<br/>GnaG2V4mGwkP1MBNvG97zBUdbxPmf67GdV3l9Lg8EPj24ZjAta7YAZw9+S3EpXpw<br/>3X79aE9PiT348GMU9HJVzcS91BRC2diWMTvQ2xUtTi1w1xv+3xdUaSny1oxpPCFZ<br/>3fUE1aHGLnQNB9wOJL7Uxqb5yd5XS/sLYb+B1pr/Mo70WP7UsJVDnHLnifPKOwCU<br/>q/Usm0JQ4fuWvuQe<br/>=r5Lb<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>seems real and will update if any problems/</td>
+                    
+                        <td>
+                            <a href="/p/cvG97euM7y">
+                                Armodafinil/Waklert x1 x150mg
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>arrived legit and looks decent TY!</td>
+                    
+                        <td>
+                            <a href="/p/pvfk2cMRM2">
+                                Pure Dextroamphetamine 1x 10mg IR Tablet
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>as described</td>
+                    
+                        <td>
+                            <a href="/p/pvfk2cMRM2">
+                                Pure Dextroamphetamine 1x 10mg IR Tablet
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>As described A+</td>
+                    
+                        <td>
+                            <a href="/p/pvfk2cMRM2">
+                                Pure Dextroamphetamine 1x 10mg IR Tablet
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Friendly, top-notch vendor. Received product as described with adequate stealth. Good communication from order to finalization.</td>
+                    
+                        <td>
+                            <a href="/p/cvG97euM7y">
+                                Armodafinil/Waklert x1 x150mg
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>always great vendor.  i follow this one around to the diff marketplaces</td>
+                    
+                        <td>
+                            <a href="/p/pvfk2cMRM2">
+                                Pure Dextroamphetamine 1x 10mg IR Tablet
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Item as described. High quality. Super fast shipping. Highly recommended vendor. Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/pvfk2cMRM2">
+                                Pure Dextroamphetamine 1x 10mg IR Tablet
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>10/10/10 Great stealth and speed (for 1st class especially.. it arrived in 3 business days!).  Product exactly as described, pe</td>
+                    
+                        <td>
+                            <a href="/p/pvfk2cMRM2">
+                                Pure Dextroamphetamine 1x 10mg IR Tablet
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Captainzo:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pvfk2cMRM2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pvfk2cMRM2">Pure Dextroamphetamine 1x 10mg IR Tablet</a><br/>
+                    <span class="description-preview">This is for 1x 10mg of Instant Release tablet and crushable. MIA imprint by Wilshire Pharmaceuticals. Described as a cleaner &#118;ersion of Adderall, with less of the physical side effects (less wired fe ...</span>
+                </td>
+                <td>0.02665600 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cvG97euM7y.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cvG97euM7y">Armodafinil/Waklert x1 x150mg</a><br/>
+                    <span class="description-preview">This is for 1x 150mg Armodafinil pill, about 2x the strength of Modafinil. Order however much quantity you want. Will be in blister packaging to insure quality. Take half tablet for ~8 hours of wakef ...</span>
+                </td>
+                <td>0.01110666 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Captainzo" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Captainzo</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Captainzo'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

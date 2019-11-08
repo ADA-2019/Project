@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>arctic</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.89 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>arctic</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Successful vendor with postive feedback on SR:<br/><br/>SR Profile &amp; Feedback -<br/><br/>http://silkroad6ownowfk.onion/users/arctic<br/><br/><br/>Thread - <br/><br/>http://silkroad5v7dywlc.onion/index.&#112;hp?topic=4506.0 <br/><br/><br/>*******************************<br/><br/>All orders are shipped using the latest stealth techniques (MBB), and are guaranteed to arrive safely with no signature required.<br/><br/>FREE SHIPPING.<br/><br/>Weights are measured using a professionally calibrated scale. Weight will always be to your benefit.<br/><br/>Escrow is welcome. FE is appreciated, but not necessary.<br/><br/>Shipping is currently domestic USA only, and only the lower 48.<br/><br/>If order doesn&#39;t arrive: <br/>My fault (seized): 50% refund or 100% reship<br/>Your fault (undeliverable as addressed, etc): no refund or reship.<br/><br/>*I take your security very seriously. Your address is never stored and there is no record of it after your package has been marked as shipped. I HIGHLY ENCOURAGE THE USE OF PGP. Please encrypt your address and any other sensitive information.<br/><br/>* Please remember to login and finalize your order after receiving it.<br/><br/>*If you have any issues please send a message. We guarantee a postitive resolution.<br/><br/><br/><br/><br/><br/><br/>    <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>    &#86;ersion: GnuPG v1.4.10 (GNU/&#76;inux)<br/><br/>    mQINBFKKmD8BEAD9YFobGM6L+uVj2iESxfUse5ZjENMRlhnd1DqRJzaEdsSa0GU0<br/>    OMUV88xJtYA4Me+iUvJpNpRvqbE6DP5FqiBMP3Hm5Y30DoNzhrrWuPYbhYUk5S9M<br/>    RZB27/JgLhLpZs+9W+A3uEEFkH1idN6Yk83co4JiOHUiy5Gm/eTWWo4gc3FJ10eV<br/>    OluJPh1yaHbodLtFT5tzEZPzLZdXABy6npP4LotuMuDfdBAeHmkq3XVztpg5EZWx<br/>    Ye4ORmQB9bJLNeRClGx0AnPCdQbb599k7N+GVpZg3J7/mAZfZbIVxdaE54UmFwdN<br/>    vUM+NQnwczNxcihSSoHklaywOpmo3lV6ddslpWdp53lTGfxnLxJXGySFaY/dvs4L<br/>    0nKuDcT/YFRP6WKg8L/EnF346WyUocGvmdPAN0xkUDglc2dHI4F4l/kEqNG9eozQ<br/>    IxUq6xL4iY25X3oFslYZJPpuXeZe5ahCegQqz1ZmvejBYb4sMPQ+A7EFsKoqKNEj<br/>    BYTSG/UIoN+klAx2R5BmBR7tRfzB9wYLC3S8DM7w3cot3GnxZqYtg082rhTzzBfG<br/>    UjlRBdGBLLokY10bTbnnMIr7QrH/1XKpbsMMkAF1o7D7zSe2nBrMYE5v4QjbbPJI<br/>    HRsywd7yBQYNhO0sFPJnRm5WLkWTZJRDbEHXHYTInU3+klGSZALHw0gFOwARAQAB<br/>    tBphcmN0aWMgU1IgPGFAYXJjdGljc3IuY29tPokCNwQTAQoAIQUCUoqYPwIbAwUL<br/>    CQgHAwUVCgkICwUWAgMBAAIeAQIXgAAKCRD8MIRK7FDOx8aIEACe6xTBtY8JRK7K<br/>    TV0YrwBLZ6rh66X5BmQl/UfGSEpT1y05VFJpnoNocgbpydP/pVKnvvxvu3+w5MQC<br/>    1LdFnJgpGP49apz6keX7hzDkIgKE+oBHi2AMGIuZwDJqLshjrdfxeLi+Tk2+TibJ<br/>    SzKdBiMhyAU8RgYHC1uGVkiwjqokzOS16HLgTuSNiHgWmiqgmjcSuaCCncYUIBRO<br/>    wimDaa+5hUjAifZXjAonOlghYSsVhdaQCU08A4noxOyAhN/lxnUEv2xe9qsf9e5b<br/>    xxq/TTL9f6KnsoQy/yVRzbVY2Pa4wUcDZdcwSMHtxl3oUJzAMYtW0HUBdjwKIcqI<br/>    0aI/tbRyHxRFRNMNoiF9VWrymF6WpDrbBUEoFcop/UK/b0FYSyOJfxGLlLbdhxnM<br/>    Wf9AV2UOO7UGAb8+L6qdUds8CClan3r6sNwJjDtUCFllyssEmmNngjJTS4TL+d5G<br/>    ZJwGywbI0N56t4VQqGQ+JlhIsG4FJe5y7/qTcASSEozZsgjkupo/e/l7REF6NFU4<br/>    TC8+haUR1ijaqXq2SUeE3euSp2QX4NDsaY18aUaoJu0o4Wbpf5mN3NEponRZA8I7<br/>    jYUR+nMJz7D+vlpRwxOcvmiMADiujxqsUoerfrAj+o6eYpKJtgn5tHO5hELAWU9Y<br/>    zwMUHJbFn5ugzCjJNsH+FMCXqz0/abkCDQRSipg/ARAAsNx6eN+zPA621juUg5jx<br/>    lLrskgA8isB2LqHvrmEXtIXcmwOhithp/p/4mN2a9B4Q4ofK+UjL3CQdNvln3DoK<br/>    zOj63UoGcJMEE1YyuOYbdrvWkjPIkuVy2tbz8BuH6jESDYG8JBY9MXmAmtVsG+3R<br/>    nxCrtKlfCXWji5jt/usFL/BtCcQ2L059Oy1urfrw2MGUxGkorUY762welG06ocMx<br/>    /E+OGPu04kPKa7RJbFajKQP4qa4nTlalXNojdmtL5uIv+tbMQAGe0X5Es8EWo3n8<br/>    UQzHu0OqglqMS0yHNN6Ee7TlHbxoKJmoQ7h8iI3yMYBOJZkt2AuWXDZ2CbhjuOis<br/>    s7YTMe91hhcBiKIwxFH2P437LYw18DnaB9yVNZI3ix2xAxeLtsA7iB10U9xGLYSv<br/>    edSLvLMOp2aw75GNZh4mD/pOuZInXUnBKWXDpNZVveb3idoVQ/K&#89;iimmUOwGG56z<br/>    0lxCYqHgLyAoB5l98O05FkKWT5E4iy1qZcnR37H8d1UwCTSnjcCupavUvrt1vPSG<br/>    hk8BDWnbNR0Mo98cT9jJFy4zsceImSUnt5DQ7ITZ2Kfmk9sb92Xy62nLP4191+CT<br/>    fMcgHtNr6GxqkQQ4/hrSrVU86OmxveEBRgyRDZ6BmimfMYD0P5OEOA8c2K6Z659e<br/>    pkrO4lrm1huxhw/i2FGxaBEAEQEAAYkCHwQYAQoACQUCUoqYPwIbDAAKCRD8MIRK<br/>    7FDOx4ZcD/9kpfV4kKf/l9iEFYKyrTWatu1d/0iezkShgxPROYEP1YgWqCt98A6x<br/>    kKpbVk2OuNU1k+cFrwOrdV60NePuFd/JQYbCrXyIYGgk2RrwvywKBpiHhhk6EDM0<br/>    f/mECQxuU9w5m4iFEPH+WlR1al2xHZ/yMOL/mSlSkFqFuAHnwhiCMN+oGPZsVbvI<br/>    JNjdEtjud2A02T9E1PM5XytZXO/kw5bfq0VyKXkAF6bzYCeMbes4HFF3HA+KMV4M<br/>    Jndk5MyCE9lGEFqMtWFzvn2+RGJLTMAkz2ownXSRbQic5xCVQa+h6VNqLJHWCN9c<br/>    poP5EH3xm7qaC4F3V6H8SUg8LSjm9BwEx/+yYNDRrycIF2XclhBPk093Ap7+8YSq<br/>    Hcd4reIzRkjsKMbqFTiuFQGnYmE5tbRzIjPRRjDLgJBmXV6X3IqRG26vU5qlcecP<br/>    ZqismvrWcaY5u/ncDKi8QjWfT9EctGYQ+J4V2I4evK3UUqwpNevQ388tX0cpWx1F<br/>    LvTPwlUS3Dkg6jVfaqVqxjBuE09EBM/J1fSxo4iu/A34zbA5otpdCBEYjMBCvhTE<br/>    eLXSkbMy6bIEJhx75XryUPPnvLyTh4BObZsKJ/tJc9usHBYTqDj1GYNARFURhm0G<br/>    w7boLy82/ucDmIWkJqO79735/b+EtnLyMnkMZ4vV27ygCtV3kpyBxw==<br/>    =iWCR<br/>    -----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great stuff, no complaints here 5/5</td>
+                    
+                        <td>
+                            <a href="/p/MMPFeBvkUT">
+                                Green Crack | 1 oz
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 His reputation lived up to its name. Thank you. Great! And good quality</td>
+                    
+                        <td>
+                            <a href="/p/qFiqkz1z9w">
+                                Super Skunk | 1 Oz
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>2 days coast to coast, fantastic stealth, amazing weed, super low price. It doesn&#39;t get better than this.</td>
+                    
+                        <td>
+                            <a href="/p/zT83oNq5LC">
+                                Bubba Kush | 1 oz
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>2 day shipping to east coast. Great communication, great price, and great quality buds. A+++++</td>
+                    
+                        <td>
+                            <a href="/p/MMPFeBvkUT">
+                                Green Crack | 1 oz
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome awesome vendor! Reliable since his inception. Awesome product and speed and shipping.</td>
+                    
+                        <td>
+                            <a href="/p/MMPFeBvkUT">
+                                Green Crack | 1 oz
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Ordered on late fri and received mon  That alone turned me on wow incredible shipping super pungent product and 3gs overweight </td>
+                    
+                        <td>
+                            <a href="/p/zT83oNq5LC">
+                                Bubba Kush | 1 oz
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This is my new go to guy! LOVE IT MAN!</td>
+                    
+                        <td>
+                            <a href="/p/MMPFeBvkUT">
+                                Green Crack | 1 oz
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>ALWAYS FE ALWAYS COMES... OVER 5Gs
+
+Stealth on dot package on dot bud on dot for price</td>
+                    
+                        <td>
+                            <a href="/p/hFNsBdfxtg">
+                                Headband  |  Quarter Pound
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>amazing vwndor!! sorry for the late response...been having trouble with the site. SUPER fast shipping...stealthy AAA+++++++ bud</td>
+                    
+                        <td>
+                            <a href="/p/hFNsBdfxtg">
+                                Headband  |  Quarter Pound
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Unbelievable! I ordered late Friday night and received it early Monday morning.. Coast to coast.. insane!Good for the price too!</td>
+                    
+                        <td>
+                            <a href="/p/zT83oNq5LC">
+                                Bubba Kush | 1 oz
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Perfect &#116;ransaction. I ordered this bud not knowing what to expect because of the cheap price tag but let me say this is probab</td>
+                    
+                        <td>
+                            <a href="/p/hFNsBdfxtg">
+                                Headband  |  Quarter Pound
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Prompt shipping, and good packaging. I wouldn&#39;t hesitate to purchase from arctic again.</td>
+                    
+                        <td>
+                            <a href="/p/hFNsBdfxtg">
+                                Headband  |  Quarter Pound
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of arctic:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SVZ1tStlKY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SVZ1tStlKY">Lemon Haze | Quarter Pound</a><br/>
+                    <span class="description-preview">This listing is for 1 quarter lb of Lemon Haze buds.
+
+Good sized buds. Sensimilla - no seeds. Pungent Smell.
+
+Priced @ $600 per QP w/ free shipping.
+
+**************
+* Message me with any quest ...</span>
+                </td>
+                <td>1.31607808 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="arctic" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to arctic</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'arctic'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

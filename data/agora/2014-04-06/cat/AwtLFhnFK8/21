@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Prescription</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/vheN9d2mMr">Drugs</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/AwtLFhnFK8">Prescription</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/TWNyxXZkBs">Barbiturates<span class="extra-caption"> (9)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/Pz5LeFySK1">Benzos<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VS5XwFcJBY">Cannabis<span class="extra-caption"> (2100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/ozqqY2Y2Ty">Dissociatives<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PNxGgs0s1p">Ecstasy<span class="extra-caption"> (1000+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/k0KFljwdDe">Opioids<span class="extra-caption"> (400+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PTixSEoFoF">Other<span class="extra-caption"> (200+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/AwtLFhnFK8">Prescription<span class="extra-caption"> (600+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/xgBPEmdDdF">Psychedelics<span class="extra-caption"> (900+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/Knh0WBDhKp">RCs<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/LWREMrNk1U">Steroids<span class="extra-caption"> (300+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/ZukwGLuEcu">Stimulants<span class="extra-caption"> (1000+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VbYkVyY0R9">Weight loss<span class="extra-caption"> (40+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/AwtLFhnFK8/21" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/3"> 3 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/4"> 4 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/5"> 5 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/6"> 6 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/7"> 7 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/8"> 8 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/9"> 9 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/10"> 10 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/11"> 11 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/12"> 12 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/13"> 13 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/14"> 14 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/15"> 15 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/16"> 16 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/17"> 17 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/18"> 18 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/19"> 19 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/20"> 20 </a>
+        
+            <a class="page-link current-page" href="/cat/AwtLFhnFK8/21"> 21 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/22"> 22 </a>
+        
+            <a class="page-link " href="/cat/AwtLFhnFK8/23"> 23 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/C6eyl3DzMd">modafinil-200mg-415-ems-500-tabs- Modafinil 200mg 500 pills - $415</a><br/>
+                    <span class="description-preview">modafinil-200mg-415-ems-500-tabs- Modafinil 200mg 500 pills - $415</span>
+                </td>
+                <td>0.91208791 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jw8d71XE84.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jw8d71XE84">100% Pure Fentanyl HCl Nasal Spray 10mg/10mL (Heroin-Killer)</a><br/>
+                    <span class="description-preview">Fentanyl HCl Nasal Spray (1mg/mL) - STRONG
+- Promo intro price! Better price &amp; safer than heroin! Better high too!
+- Discretely get High Anywhere!
+- Excellent for Treating Severe Pain.
+
+DETAILS: ...</span>
+                </td>
+                <td>0.21758241 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: WORLDWIDE
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/hadherall#"/>hadherall</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/WWxPjiDtxR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/WWxPjiDtxR">Tapentadol/ Tydol 100mg - 60Pills</a><br/>
+                    <span class="description-preview">Brand - Tydol 100mg
+Product - Tapentadol
+Manufactured by - Ranbaxy
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i).USA- ...</span>
+                </td>
+                <td>0.26373626 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/SbPrtPyBLp">10x 50mg Tramadol capsules</a><br/>
+                    <span class="description-preview">This listing is for a blister strip of 10 Tramadol capsules.
+50mg tramadol hydrochloride.
+
+tramadol capsules are &quot;Analgesics&quot; which act on the central nervous system(the brain and spinal cord) oft ...</span>
+                </td>
+                <td>0.01813186 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/stonednsmilin2#"/>stonednsmilin2</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bEgtKcGJaC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bEgtKcGJaC">ACTAVIS PROMETHAZINE CODEINE PINT 473ML SEALED</a><br/>
+                    <span class="description-preview">This listing is for a double sealed pint (473ml) of the rare and highly sought after Actavis Promethazine w/ Codeine. Must have decent feedback to purchase this listing with escrow due to so many peo ...</span>
+                </td>
+                <td>2.52747252 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/DOPECARTEL#"/>DOPECARTEL</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LSBAU3hJEC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LSBAU3hJEC">Propecia 1mg - 30 Pills</a><br/>
+                    <span class="description-preview">Propecia is used to treat men with male pattern hair loss to increase hair growth on the scalp and to prevent further hair loss.
+
+More than 1 million men in the US have used Propecia since the drug ...</span>
+                </td>
+                <td>0.12087912 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tbone#"/>Tbone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kGWDc0Sri5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kGWDc0Sri5">Tapentadol/ Tydol 100mg - 500Pills</a><br/>
+                    <span class="description-preview">Brand - Tydol 100mg
+Product - Tapentadol
+Manufactured by - Ranbaxy
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i).USA- ...</span>
+                </td>
+                <td>1.92307692 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bGdK7CT0Ld.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bGdK7CT0Ld">Soma/ Carisoma 350mg - 100Pills</a><br/>
+                    <span class="description-preview">Brand - Carisoma 350mg
+Product - Carisoprodol
+Manufactured by - Wallace
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i) ...</span>
+                </td>
+                <td>0.19780219 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xzz247klP4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xzz247klP4">100 geltabs Tramadol - 150mg - $110</a><br/>
+                    <span class="description-preview">100 geltabs Tramadol - 150mg - $110</span>
+                </td>
+                <td>0.24175824 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/BKua00J0mE">tapentadol-100mg-same-effect-as-one-20mg-oxycodone-or-30-mg-morphine-ir-500-pills-750-usd</a><br/>
+                    <span class="description-preview">tapentadol-100mg-same-effect-as-one-20mg-oxycodone-or-30-mg-morphine-ir-500-pills-750-usd</span>
+                </td>
+                <td>1.64835164 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/W5uU8AJxNu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/W5uU8AJxNu">100 tabs Generic Ambien 5mg $115,00 Zora 5</a><br/>
+                    <span class="description-preview">100 tabs Generic Ambien 5mg $115,00 Zora 5</span>
+                </td>
+                <td>0.25274725 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/Lj987eF5UG">proviron-bayer-25mg-500-pills-675-usd</a><br/>
+                    <span class="description-preview">proviron-bayer-25mg-500-pills-675-usd</span>
+                </td>
+                <td>1.48351648 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/qKWzYbxP17">tadacip-20mg-cialis-cipla-20mg-500-pills-600-usd</a><br/>
+                    <span class="description-preview">tadacip-20mg-cialis-cipla-20mg-500-pills-600-usd</span>
+                </td>
+                <td>1.31868131 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/oYDjBCvr7v.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/oYDjBCvr7v">Soma/ Carisoma 350mg - 60Pills</a><br/>
+                    <span class="description-preview">Brand - Carisoma 350mg
+Product - Carisoprodol
+Manufactured by - Wallace
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i) ...</span>
+                </td>
+                <td>0.20659340 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xLr10a7KrV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xLr10a7KrV">100 tabs PSEUDOEPHEDRINE-30MG +PARA+CETRIZINE CIPLA $80</a><br/>
+                    <span class="description-preview">100 tabs PSEUDOEPHEDRINE-30MG +PARA+CETRIZINE CIPLA $80</span>
+                </td>
+                <td>0.17582417 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ekCm8FDUjX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ekCm8FDUjX">100 tabs Generic Tramadol 100mg $65,00 &#90;endol SR</a><br/>
+                    <span class="description-preview">100 tabs Generic Tramadol 100mg $65,00 &#90;endol SR</span>
+                </td>
+                <td>0.14285714 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RJNCnuVAZW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RJNCnuVAZW">Celebrex 100mg - 30 Pills</a><br/>
+                    <span class="description-preview">Celebrex belongs to a group of medicines known as non-steroidal anti-inflammatory drugs (NSAIDs).
+Celebrex is indicated for:
+
+
+Osteoarthritis
+
+Rheumatoid Arthritis
+
+Juvenile Rheumatoid Arthri ...</span>
+                </td>
+                <td>0.13186813 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tbone#"/>Tbone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sMkvA87rUB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sMkvA87rUB">Viagra/ Suhagra 100mg - 200Pills</a><br/>
+                    <span class="description-preview">Brand - Suhagra 100mg
+Product - Sildenafil Citrate, Viagra
+Manufactured by - Cipla
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shippi ...</span>
+                </td>
+                <td>0.79120879 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VgUvA2oCeg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VgUvA2oCeg">Clomi-50 Clomiphene Citrate 50mg Sunrise 50 Tablets $50</a><br/>
+                    <span class="description-preview">Clomi-50 Clomiphene Citrate 50mg Sunrise 50 Tablets $50</span>
+                </td>
+                <td>0.10989010 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/onKlyCx5ur.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/onKlyCx5ur">Tapentadol/ Tydol 100mg - 300Pills</a><br/>
+                    <span class="description-preview">Brand - Tydol 100mg
+Product - Tapentadol
+Manufactured by - Ranbaxy
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i).USA- ...</span>
+                </td>
+                <td>1.20879120 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/f7XUsfWi54">custom list</a><br/>
+                    <span class="description-preview">..</span>
+                </td>
+                <td>0.13700000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tbone#"/>Tbone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bV79aB6P4M.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bV79aB6P4M">20x 2mg Zanax</a><br/>
+                    <span class="description-preview">20x 2mg Xanax bars</span>
+                </td>
+                <td>0.19780219 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tranzcentral#"/>Tranzcentral</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SJhokYUMs7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SJhokYUMs7">Amoxil&reg; 500mg - 30 Pills</a><br/>
+                    <span class="description-preview">Amoxicillin is a Broad-spectrum antibiotic in the class of drugs called penicillins. It fights bacteria in the body. Amoxicillin is used to treat many different types of infections, such as tonsillit ...</span>
+                </td>
+                <td>0.12087912 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tbone#"/>Tbone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JfPNb0e5Z7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JfPNb0e5Z7">Percocet Oxycodone 5mg - TEC</a><br/>
+                    <span class="description-preview">TEC Percocets (5mg Oxycodone), the best on the market, easy to crush and do CWE on, or just pop them in your mouth.
+
+-Listing is for 1 pill, to buy more increase quantity in cart.
+-Contain 5mg Oxy ...</span>
+                </td>
+                <td>0.01978021 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: WORLDWIDE
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/hadherall#"/>hadherall</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/W9YUk194iv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/W9YUk194iv">100 geltabs TRAMADOL 100 ULTRAM-100 CIPLA/INTAS $80</a><br/>
+                    <span class="description-preview">100 tabs TRAMADOL 100 ULTRAM-100 CIPLA/INTAS $80</span>
+                </td>
+                <td>0.17582417 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gcZ5WSNDK0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gcZ5WSNDK0">5 gram Baclofen / 200 pills</a><br/>
+                    <span class="description-preview">5 gram Baclofen, conform 200 pills with 25mg.
+I have pure agent, powder,
+certifited quality.
+
+First you go to Doc,
+than to pharmacy,
+why this all, come to me.
+
+Save your time, effort and mone ...</span>
+                </td>
+                <td>0.14505494 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/codenamefuture#"/>codenamefuture</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZsN9qmyRvy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZsN9qmyRvy">200 Brand Valium Brand 10mg $200,00 Valium (Nicholas Piramal / Abbott)</a><br/>
+                    <span class="description-preview">200 Brand Valium Brand 10mg $200,00 Valium (Nicholas Piramal / Abbott)</span>
+                </td>
+                <td>0.43956043 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Gotmilk#"/>Gotmilk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.48/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NF3gx3Pxde.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NF3gx3Pxde">Viagra&reg; 100mg - 20 Pills</a><br/>
+                    <span class="description-preview">In March of 1998, Viagra was the first oral medication prescribed for men suffering from impotence or erectile dysfunction in the United States. In the first week of Viagra&#39;s release it was reported  ...</span>
+                </td>
+                <td>0.24175824 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tbone#"/>Tbone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ziV71RuL0x.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ziV71RuL0x">Cialis&reg; 20mg - 24 Pills</a><br/>
+                    <span class="description-preview">Cialis used to treat male erectile dysfunction (ED) also referred to as impotence. know as super Viagra, because it acts faster and lasts longer. Its main advantage over Viagra treatments for erectil ...</span>
+                </td>
+                <td>0.48351648 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Tbone#"/>Tbone</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ek4z3VNW3m.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ek4z3VNW3m">Soma/ Carisoma 350mg - 500Pills</a><br/>
+                    <span class="description-preview">Brand - Carisoma 350mg
+Product - Carisoprodol
+Manufactured by - Wallace
+
+1.Discreet Packing Available
+2.Tracking No. Available
+3.Estimated Delivery Time
+ a.Regular registered shipping 
+   (i) ...</span>
+                </td>
+                <td>0.96483516 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/IND.png" /> India<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/indianpilldaddy#"/>indianpilldaddy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/3"> 3 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/4"> 4 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/5"> 5 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/6"> 6 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/7"> 7 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/8"> 8 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/9"> 9 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/10"> 10 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/11"> 11 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/12"> 12 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/13"> 13 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/14"> 14 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/15"> 15 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/16"> 16 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/17"> 17 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/18"> 18 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/19"> 19 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/20"> 20 </a>
+            
+                <a class="page-link current-page" href="/cat/AwtLFhnFK8/21"> 21 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/22"> 22 </a>
+            
+                <a class="page-link " href="/cat/AwtLFhnFK8/23"> 23 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

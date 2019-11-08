@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>daydreamer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.98 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>daydreamer</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 28 days ago.
+        </div>
+        <div class="vendorbio-description">
+            HELLO<br/><br/><br/>*****03/05/2014<br/>UPDATES&gt;&gt;&gt; we have begun shipping orders&lt;&lt;&lt;&lt;<br/>thank you for the buyers who are willing to trust a new vendor<br/>we have rewarded these buyers with a little extra in the box. something to help keep you moving while you leave some amazing feedback on our page and to agora fourms.(TELL EVERYONE ABOUT YOUR EXPERIENCE)<br/><br/> we will continue to add some xtra toys to most of the orders, when it&#39;s possible. we cant afford to double up all our orders.. but we will keep our buyers satisfied.<br/><br/><br/> this is our new listings for AGORA..<br/>we are excited to be here and doing business. This place seems to do alot to make this business easier than other markets that we have been associated with, and this is our new home.<br/><br/>Now as far as products we offer a few items now and we plan to add more as we feel our customers and us are feeling comfortable with everything. We took a few huge hits from SR1 Sheep and even SR2. Lets all look to the future and get past everything thats negative.<br/><br/>If you should have any questions or suggestions.. please feel free to contact us and we can improve together. If you have special requests definitely contact us and we will work with you as best as possible.<br/><br/>For now, just welcome and hope we can all make some money and make others happy too.<br/><br/>Thank you.<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.10 (GNU/&#76;inux)<br/><br/>mQENBFMVyr4BCADHwTRglII8dxSEFQD/+D8QXN5u5pFIoGLoj7vo7PmZ2zn0wMe3<br/>OFIRsgX+SL7GBCA8I96IrC2l2rIXQHydQ4FwBsMp7D+OcnKHniU159N8d65XWB9b<br/>oLR8awdJ9oxhV2zkBwtQsHrB+BCgdUTx5wrb2BPlX4dTuTSfYNM5+Ps4CWEfxdW/<br/>SvOb+jz4JNXg3uMY9QJC1k6sKm/nUXVUBdU7aZ+7JXFT1hqK8tG1Upc0hhS4dvLq<br/>+RIwVcgGL+cg9&#83;Qlz6C9vJ0/jZO9ya2Z729zqTKmZj+eny3F9B/LmaoK+b9UXts1<br/>CA7xH225xBSCsU7kFZdmooh8x08evKuTturHABEBAAG0JGRheWRyZWFtZXIyIChu<br/>ZXcpIDxkYXlkcmVhbWVyQGFnb3JhPokBNwQTAQoAIQUCUxXKvgIbAwULCQgHAwUV<br/>CgkICwUWAgMBAAIeAQIXgAAKCRCNOxA4Vu9bP6gkB/93vHswFxIXxD827KE9Kaha<br/>vkxRI7bspPCQO7IYCKyDEkIhwycYXcG51AEepz6wPKBkHiGK/cCbgWqIJjLBG6pg<br/>aaLRhk05rpgfseEWEM7oX6iV9d8xbTjiWpyH8SP0QjQRWnA8lkqibau4BLs3i60Q<br/>Fom1O+HA0YExHt478PQrIJiC5zWUYWxGTfhcz+uE0aLyx0OeaUqYepjVNZISw6Mu<br/>OGq7Xoyby7wbrZqoSBHqL/2GyhgC+Cd25L5MYjLQmsIlxbyFG/jjoMKKoFViOosM<br/>led2C9TdVDCdRsDPzrVKhz0UFDjUI5eKQICnGsbzo4SocHgv9lAcrbtiUyawlXiD<br/>uQENBFMVyr4BCAC8Br0jd/lgvN0xzTHwuGYNHhF2jT1qs9mlOyJdHa4LR6pX8acx<br/>UK1up7lRRRJ+25wzZltYs8ewb/b2I46XiDdl0q8AIRE+JqHgWasUrertaAQXZrQD<br/>+NW/c6f3HsCL13rFJ4ZY1TmEwhsFylBFtlJq8NS7I5K4CqYIkct2sgphHFkybV3u<br/>SEBNBdmpaqnL4e7Q+GgQ5jg58W30CaJCK2qOUolMRpikMabgVDQRfTUy0MO7j+qE<br/>PM9Ry5wOjAsBatlZ8onXQFHLXHaJrtyr2Z0TA0ji7h2ZjWCvNYVjsz04fk97TDeR<br/>FJbcxJJF/gCswobwTuRMvHRujLVO5d3CFS2/ABEBAAGJAR8EGAEKAAkFAlMVyr4C<br/>GwwACgkQjTsQOFbvWz9wwQf+L4IB1eumaJljwh1h64pFZmtgOomeiZehHhoMrM1f<br/>93McsRoUOf6snOu+UjAs7V18uJzkMAr7NQyhhLK8mFRbLoYPrSQI9L0ALrQNe2mm<br/>+aSQkrf/CUAD8uHbGf62PBqK8wWhZBZOYn4kxif4oEKqenxEWkBZYzUpRAIUnCUh<br/>RhDcPLkLT1WrXKuAUcRyqD2Q6sUrq/hBXnNGyDSfwNNPTTiWShh6eq5rC3sKu0HJ<br/>nv3MifuqlRu4BldcYI0eYTqnYFo+9xvwiatJ00ptkOc6IprlKrU8ofRfoYKEi4L4<br/>xhOcqYgVUf/Mwz/pm0bnxxfV1UDF4Znt9EJ8ikW2QzIyeQ==<br/>=W1yK<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>Took my $ and disappeared, neat trick! SCAMMER!</td>
+                    
+                        <td>
+                            <a href="/p/AWuBkvDe26">
+                                *VALIUM 10mg ~samples~
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>:( :( DO NOT DO ANY BUSINESS WITH HIM UNTIL I UPDATE  :( :( 
+
+- I FE&#39;d a week ago in good faith and he hasn&#39;t even responded </td>
+                    
+                        <td>
+                            <a href="/p/mMzuCE0RUk">
+                                HEROIN #4~STAMP BAGS  5pcs
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived with good stealth, a bit broken up, but threw in extra one. quick ship</td>
+                    
+                        <td>
+                            <a href="/p/AWuBkvDe26">
+                                *VALIUM 10mg ~samples~
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>shipping time was excellent stealth also superb and the potency was decent all in all this vendor is great i will be buying fro</td>
+                    
+                        <td>
+                            <a href="/p/mMzuCE0RUk">
+                                HEROIN #4~STAMP BAGS  5pcs
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I&#39;m updating to confirm this arrived in 2 days with one extra! (crushed but can&#39;t complain) the others were perfect! Stealth wa</td>
+                    
+                        <td>
+                            <a href="/p/AWuBkvDe26">
+                                *VALIUM 10mg ~samples~
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great all around &#116;ransaction, and some extras tossed into the mix. Will def. be back!! THANKS</td>
+                    
+                        <td>
+                            <a href="/p/cyY5ZDillb">
+                                *HEROIN #4 ~sample~ STAMP BAG
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.93/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Exactly as informed and as expected
+ 5++/5</td>
+                    
+                        <td>
+                            <a href="/p/cyY5ZDillb">
+                                *HEROIN #4 ~sample~ STAMP BAG
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Timely &#116;ransaction (including the shipping), and the packaging was air-tight. Professional. Gear was damn decent too. Thanks da</td>
+                    
+                        <td>
+                            <a href="/p/mMzuCE0RUk">
+                                HEROIN #4~STAMP BAGS  5pcs
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of daydreamer:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AWuBkvDe26.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AWuBkvDe26">*VALIUM 10mg ~samples~</a><br/>
+                    <span class="description-preview">VALIUM 10mg ~samples~
+
+3x10mg pills (30mg total)
+
+
+LATEST UPDATES:
+
+
+*****3/3/2014
+WE LOOK FORWARD TO OUR NEW LISTINGS GETTING POSITIVE REVIEWS, we understand that some buyers may hesitate t ...</span>
+                </td>
+                <td>0.01991238 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mMzuCE0RUk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mMzuCE0RUk">HEROIN #4~STAMP BAGS  5pcs</a><br/>
+                    <span class="description-preview">STAMP BAGS ~ NYC HEROIN #4
+
+5x BAGS of #4
+very high quality
+color: light tan - - very strong
+
+
+LATEST UPDATES:
+
+
+*****3/3/2014
+WE LOOK FORWARD TO OUR NEW LISTINGS GETTING POSITIVE REVIEWS, ...</span>
+                </td>
+                <td>0.14381167 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/EZFWu2B8h1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/EZFWu2B8h1">600 STAMP BAGS - glassine bags (empty)</a><br/>
+                    <span class="description-preview">600 glassine bags (stamp bags) EMPTY
+FILL THESE WITH YOUR FAVORITE POWDERS AND YOU CAN GET EVERY BIT BACK OUT&gt;&gt;
+
+
+ these are the bags you need to put things that stick to other types of bags(plas ...</span>
+                </td>
+                <td>0.06637461 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="daydreamer" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to daydreamer</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'daydreamer'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

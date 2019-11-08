@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>JRJRJR</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.35 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>JRJRJR</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 2 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG v1.47<br/><br/>mQGiBFMDQ28RBACsosR4ltzyzVx3PiOkyyLtZvdHbHehOtrIGrguEsjp7CSIwtBB<br/>YQQ5jljHQGpy1iFh4Bh2Um0Os0QgFSZ6O5JZxRUvx6YWyx52Y16dBrtIBavQBFSt<br/>B4J4TDtE5EkGNmB6KIfKVy8nja2ZR1APOtiWa/C10lkgolXd+ZmTFMAhLwCgv7M4<br/>eCvQ5LbxeLL0bQ9Khdu5Y10D/id3U5kpR/pyIVeJNKC/ri9EL1V1a4ehU2cpvH24<br/>QajZyA24sVMiyXS+yRAJURepmbSEqsd6FFceHu3vqr2fjC00JeeRj/4ysvVsR3M0<br/>/uqV4EFWPXwwDRwqwM6c0bHnbf1iqLtXkp2bthXJPvo7xSi6b3CUGnk0TQpg1F1R<br/>E+ajA/9bkipGXZ2+RXfTsTNDKCeYRKmMz15q1mVW0YzubNiJkaogeHQ3HuBK2343<br/>Afi2U+LqSAE4NTBwUQLOH5nk844GQSR068iv43teq/WHYkhTx+X83E0wG/1WEBid<br/>dkOJ8E490yMElWQFxgsVxjdQKuVPbgmKPY+xNVDjzARZ8b85jrQaSlJKUkpSIDxq<br/>YW1lc0BzY3JhbWJsZS5pbz6IRgQTEQIABgUCUwNDbwAKCRBbWNJhN3kwzQ21AJ0S<br/>w+AeSKOhn3YSZ3bEf9VjdwgKpQCgq1jMOTDnSwLKh8ZDVWOn11Ykgc+4zARTA0Nv<br/>EAIAlJT+wJXzuF7ihlQrODb8gaXdCgNJtMI53Th0TUiM+OMduLy30ztBq7nlozzK<br/>kUSxzvMyyUvwVzvwR6OsqYzfOwH9FT1dYXKttDBFtoro4d4QcLYTcAVobSnT1zp3<br/>SRmWge5bISyblr/c+lsgzV4/0gRIldYJz5tBC3oPEsocuaQozAH5ARiFztjX/+Rp<br/>CPOMBiBCJLyHingCLxkUjHZ1lcQ3IoZ37YXyArU/YVgjzDhkSzOR5LMhzVVGwS9Z<br/>+aoTrBS3C4hFBBgRAgAGBQJTA0NvAAoJEFtY0mE3eTDNFmkAn1sjEfokml15pSGM<br/>EJGMT4By/5psAJdv0hDHbHpeTdlEyrw8E7iC/NHD<br/>=w5YH<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very nice clean cola, great value for money.</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping and some very fine cola indeed, makes me feel just right ;)</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Cheers mate.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Cheers, speedy delivery, well packaged and good comms. Put a little on my gums and very numb, can&#39;t wait to try</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>ill give you a 5 coz im a nice guy but honestly i thought it was trash. felt like 10% garbage or possibly even synth. i wont be</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great service! 5/5</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Professional in all facets and a friendly operation</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast and efficient, friendly to boot, good stuff and nice price!</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Well packaged, speedy delivery, great gear! Good job JR!</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All good in the hood.  Quick delivery and overweight. Yet to try.</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>sorted out all issues in a timely manor. good product and quick shipping.</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This is a professional operation, received quickly, excellent stealth and the product A+. I compared it to a little I had left </td>
+                    
+                        <td>
+                            <a href="/p/DNmuL7hT3d">
+                                0.2g Peruvian Cocaine (Australia Domestic) - Sample size
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick delivery, great product.. thanks!</td>
+                    
+                        <td>
+                            <a href="/p/DNmuL7hT3d">
+                                0.2g Peruvian Cocaine (Australia Domestic) - Sample size
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A++ Alot better then local , Fast shipping and would order again !</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Looks Great cant wait to try, thanks JR</td>
+                    
+                        <td>
+                            <a href="/p/DNmuL7hT3d">
+                                0.2g Peruvian Cocaine (Australia Domestic) - Sample size
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very quick delivery. goog stuff. very smooth</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Pretty decent stuff, as good as dank&#39;s really, vendor communicates well and the gear is very reasonably priced. I will buy agai</td>
+                    
+                        <td>
+                            <a href="/p/N4vERUakl7">
+                                1g Peruvian Coke (Australia Domestic)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All good in the hood. Thanks mate!</td>
+                    
+                        <td>
+                            <a href="/p/DNmuL7hT3d">
+                                0.2g Peruvian Cocaine (Australia Domestic) - Sample size
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good stuff, cheers :)</td>
+                    
+                        <td>
+                            <a href="/p/DNmuL7hT3d">
+                                0.2g Peruvian Cocaine (Australia Domestic) - Sample size
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of JRJRJR:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fjf4LkLW1F.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fjf4LkLW1F">28g Peruvian Cocaine (Australia Domestic)</a><br/>
+                    <span class="description-preview">7g at US$1700 (US$242/g), April 15: 7g at US$1380 (US$197/g)
+14 at US$3200 (US$228/g), April 15: 14 at US$2700 (US$192/g)
+28 at US$6000 (US$214/g), April 15: 28 at US$5200 (US$185/g)
+**********
+ ...</span>
+                </td>
+                <td>13.29345297 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/GuaeFUo7nl">Bulk &lt;50g Peruvian Cocaine (Australia Domestic)</a><br/>
+                    <span class="description-preview">So you&#39;re a distributor, nice to meet you.
+Let&#39;s work out a deal, drop us a message.
+Do NOT purchase this item, you must talk to us first
+
+We need to know:
+1. Your target pricing at the followin ...</span>
+                </td>
+                <td>21.71263985 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/DNmuL7hT3d.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/DNmuL7hT3d">0.2g Peruvian Cocaine (Australia Domestic) - Sample size</a><br/>
+                    <span class="description-preview">**********
+Hi All.
+
+I&#39;d like to thank all of our retail customers over this past month.
+On agora you&#39;ve been uniformly pleasant to work with!
+
+Unfortunately the Headline is: We&#39;re moving up to  ...</span>
+                </td>
+                <td>0.13293452 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FNykYrCYm4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FNykYrCYm4">3.5g Peruvian Cocaine (Australia Domestic)</a><br/>
+                    <span class="description-preview">**********
+Hi All.
+
+I&#39;d like to thank all of our retail customers over this past month.
+On agora you&#39;ve been uniformly pleasant to work with!
+
+Unfortunately the Headline is: We&#39;re moving up to  ...</span>
+                </td>
+                <td>2.10479672 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/N4vERUakl7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/N4vERUakl7">1g Peruvian Coke (Australia Domestic)</a><br/>
+                    <span class="description-preview">**********
+Hi All.
+
+I&#39;d like to thank all of our retail customers over this past month.
+On agora you&#39;ve been uniformly pleasant to work with!
+
+Unfortunately the Headline is: We&#39;re moving up to  ...</span>
+                </td>
+                <td>0.61814556 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/khnLMaVpex.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/khnLMaVpex">7g Peruvian Coke (Australia Domestic)</a><br/>
+                    <span class="description-preview">7g at US$1700 (US$242/g), April 15: 7g at US$1380 (US$197/g)
+14 at US$3200 (US$228/g), April 15: 14 at US$2700 (US$192/g)
+28 at US$6000 (US$214/g), April 15: 28 at US$5200 (US$185/g)
+**********
+ ...</span>
+                </td>
+                <td>3.76647834 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Yj71lkLpp5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Yj71lkLpp5">14g Peruvian Coke (Australia Domestic)</a><br/>
+                    <span class="description-preview">7g at US$1700 (US$242/g), April 15: 7g at US$1380 (US$197/g)
+14 at US$3200 (US$228/g), April 15: 14 at US$2700 (US$192/g)
+28 at US$6000 (US$214/g), April 15: 28 at US$5200 (US$185/g)
+**********
+ ...</span>
+                </td>
+                <td>7.08984158 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="JRJRJR" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to JRJRJR</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'JRJRJR'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

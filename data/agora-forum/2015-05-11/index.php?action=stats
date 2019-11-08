@@ -1,0 +1,944 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="http://lacbzxobeprssrfx.onion/Themes/default/css/index.css?fin20" />
+	<script type="text/javascript" src="http://lacbzxobeprssrfx.onion/Themes/default/scripts/script.js?fin20"></script>
+	<script type="text/javascript" src="http://lacbzxobeprssrfx.onion/Themes/default/scripts/theme.js?fin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://lacbzxobeprssrfx.onion/Themes/default";
+		var smf_default_theme_url = "http://lacbzxobeprssrfx.onion/Themes/default";
+		var smf_images_url = "http://lacbzxobeprssrfx.onion/Themes/default/images";
+		var smf_scripturl = "http://lacbzxobeprssrfx.onion/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Agora Forums - Statistics Center" />
+	<title>Agora Forums - Statistics Center</title>
+	<link rel="help" href="http://lacbzxobeprssrfx.onion/index.php?action=help" />
+	<link rel="search" href="http://lacbzxobeprssrfx.onion/index.php?action=search" />
+	<link rel="contents" href="http://lacbzxobeprssrfx.onion/index.php" />
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header"><div class="frame">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://lacbzxobeprssrfx.onion/index.php">lacbzxobeprssrfx.onion</a>
+			</h1>
+			<img id="upshrink" src="http://lacbzxobeprssrfx.onion/Themes/default/images/upshrink.png" alt="*" title="Shrink or expand the header." style="display: none;" />
+			<img id="smflogo" src="http://lacbzxobeprssrfx.onion/Themes/default/images/smflogo.png" alt="Simple Machines Forum" title="Simple Machines Forum" />
+		</div>
+		
+		<div id="upper_section" class="middletext">
+		<img src="/Themes/default/images/agoraforum.png" style="float: left; padding-right: 25px;">
+			<div class="user">
+				<ul class="reset">
+					<li class="greeting">Hello <span>simurgh</span></li>
+					<li><a href="http://lacbzxobeprssrfx.onion/index.php?action=unread">Show unread posts since last visit.</a></li>
+					<li><a href="http://lacbzxobeprssrfx.onion/index.php?action=unreadreplies">Show new replies to your posts.</a></li>
+					<li>May 10, 2015, 08:47:32 PM</li>
+				</ul>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" action="http://lacbzxobeprssrfx.onion/index.php?action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<script type="text/javascript"><!-- // --><![CDATA[
+			var oMainHeaderToggle = new smc_Toggle({
+				bToggleEnabled: true,
+				bCurrentlyCollapsed: false,
+				aSwappableContainers: [
+					'upper_section'
+				],
+				aSwapImages: [
+					{
+						sId: 'upshrink',
+						srcExpanded: smf_images_url + '/upshrink.png',
+						altExpanded: 'Shrink or expand the header.',
+						srcCollapsed: smf_images_url + '/upshrink2.png',
+						altCollapsed: 'Shrink or expand the header.'
+					}
+				],
+				oThemeOptions: {
+					bUseThemeSettings: true,
+					sOptionName: 'collapse_header',
+					sSessionVar: 'df4a4a8',
+					sSessionId: '7d2741c74f3aecb260bf3ff468282cf7'
+				},
+				oCookieOptions: {
+					bUseCookie: false,
+					sCookieName: 'upshrink'
+				}
+			});
+		// ]]></script>
+		<div id="main_menu">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home">
+					<a class="active firstlevel" href="http://lacbzxobeprssrfx.onion/index.php">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_help">
+					<a class="firstlevel" href="http://lacbzxobeprssrfx.onion/index.php?action=help">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search">
+					<a class="firstlevel" href="http://lacbzxobeprssrfx.onion/index.php?action=search">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_profile">
+					<a class="firstlevel" href="http://lacbzxobeprssrfx.onion/index.php?action=profile">
+						<span class="firstlevel">Profile</span>
+					</a>
+					<ul>
+						<li>
+							<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile">
+								<span>Summary</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;area=account">
+								<span>Account Settings</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;area=forumprofile">
+								<span class="last">Forum Profile</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li id="button_pm">
+					<a class="firstlevel" href="http://lacbzxobeprssrfx.onion/index.php?action=pm">
+						<span class="firstlevel">My Messages</span>
+					</a>
+					<ul>
+						<li>
+							<a href="http://lacbzxobeprssrfx.onion/index.php?action=pm">
+								<span>Read your messages</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://lacbzxobeprssrfx.onion/index.php?action=pm;sa=send">
+								<span class="last">Send a message</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li id="button_mlist">
+					<a class="firstlevel" href="http://lacbzxobeprssrfx.onion/index.php?action=mlist">
+						<span class="firstlevel">Members</span>
+					</a>
+					<ul>
+						<li>
+							<a href="http://lacbzxobeprssrfx.onion/index.php?action=mlist">
+								<span>View the memberlist</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://lacbzxobeprssrfx.onion/index.php?action=mlist;sa=search">
+								<span class="last">Search For Members</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li id="button_logout">
+					<a class="firstlevel" href="http://lacbzxobeprssrfx.onion/index.php?action=logout;df4a4a8=7d2741c74f3aecb260bf3ff468282cf7">
+						<span class="last firstlevel">Logout</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<br class="clear" />
+	</div></div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="http://lacbzxobeprssrfx.onion/index.php"><span>Agora Forums</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="http://lacbzxobeprssrfx.onion/index.php?action=stats"><span>Statistics Center</span></a>
+			</li>
+		</ul>
+	</div>
+	<div id="statistics" class="main_section">
+		<div class="cat_bar">
+			<h3 class="catbg">Agora Forums - Statistics Center</h3>
+		</div>
+		<div class="title_bar">
+			<h4 class="titlebg">
+				<span class="ie6_header floatleft">
+					<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_info.gif" class="icon" alt="" /> General Statistics
+				</span>
+			</h4>
+		</div>
+		<div class="flow_hidden">
+			<div id="stats_left">
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="content top_row">
+						<dl class="stats">
+							<dt>Total Members:</dt>
+							<dd><a href="http://lacbzxobeprssrfx.onion/index.php?action=mlist">53975</a></dd>
+							<dt>Total Posts:</dt>
+							<dd>12132780</dd>
+							<dt>Total Topics:</dt>
+							<dd>37485</dd>
+							<dt>Total Categories:</dt>
+							<dd>5</dd>
+							<dt>Users Online:</dt>
+							<dd>53</dd>
+							<dt>Most Online:</dt>
+							<dd>1 - December 04, 2013, 12:47:18 AM</dd>
+							<dt>Online Today:</dt>
+							<dd>0</dd>
+						</dl>
+						<div class="clear"></div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+			</div>
+			<div id="stats_right">
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="content top_row">
+						<dl class="stats">
+							<dt>Average registrations per day:</dt>
+							<dd>0.00</dd>
+							<dt>Average posts per day:</dt>
+							<dd>0.00</dd>
+							<dt>Average topics per day:</dt>
+							<dd>0.00</dd>
+							<dt>Total Boards:</dt>
+							<dd>17</dd>
+							<dt>Latest Member:</dt>
+							<dd><a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=54746">mr9</a></dd>
+							<dt>Average online per day:</dt>
+							<dd>0.00</dd>
+							<dt>Male to Female Ratio:</dt>
+							<dd>66.2:1</dd>
+						</dl>
+						<div class="clear"></div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="flow_hidden">
+			<div id="top_posters">
+				<div class="title_bar">
+					<h4 class="titlebg">
+						<span class="ie6_header floatleft">
+							<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_posters.gif" class="icon" alt="" /> Top 10 Posters
+						</span>
+					</h4>
+				</div>
+					<div class="windowbg2">
+						<span class="topslice"><span></span></span>
+						<div class="content">
+							<dl class="stats">
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=29593">yimmy</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 104px;">
+										<div style="width: 100px;"></div>
+									</div>
+									<span class="righttext">2501421</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=29052">qwertyuiop</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 97px;">
+										<div style="width: 93px;"></div>
+									</div>
+									<span class="righttext">2317813</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30194">bigsmoke</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 50px;">
+										<div style="width: 46px;"></div>
+									</div>
+									<span class="righttext">1150420</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=49398">THE SENTINEL</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 49px;">
+										<div style="width: 45px;"></div>
+									</div>
+									<span class="righttext">1119646</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=29552">MrTEE</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 44px;">
+										<div style="width: 40px;"></div>
+									</div>
+									<span class="righttext">993023</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30706">bigsmokes</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 29px;">
+										<div style="width: 25px;"></div>
+									</div>
+									<span class="righttext">613308</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30568">yiimmy</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 26px;">
+										<div style="width: 22px;"></div>
+									</div>
+									<span class="righttext">543664</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30430">Mitoy</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 22px;">
+										<div style="width: 18px;"></div>
+									</div>
+									<span class="righttext">448380</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=52259">Elway</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 20px;">
+										<div style="width: 16px;"></div>
+									</div>
+									<span class="righttext">393225</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=23321">joovialo</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 17px;">
+										<div style="width: 13px;"></div>
+									</div>
+									<span class="righttext">315327</span>
+								</dd>
+							</dl>
+							<div class="clear"></div>
+						</div>
+						<span class="botslice"><span></span></span>
+					</div>
+			</div>
+			<div id="top_boards">
+				<div class="title_bar">
+					<h4 class="titlebg">
+						<span class="ie6_header floatleft">
+							<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_board.gif" class="icon" alt="" /> Top 10 Boards
+						</span>
+					</h4>
+				</div>
+					<div class="windowbg2">
+						<span class="topslice"><span></span></span>
+						<div class="content">
+							<dl class="stats">
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,16.0.html">Referral Links</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 104px;">
+										<div style="width: 100px;"></div>
+									</div>
+									<span class="righttext">11808597</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,15.0.html">Newbie Section </a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 5px;">
+										<div style="width: 1px;"></div>
+									</div>
+									<span class="righttext">107331</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,1.0.html">General Discussion</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 5px;">
+										<div style="width: 1px;"></div>
+									</div>
+									<span class="righttext">86263</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,8.0.html">Vendor Discussion</a>
+								</dt>
+								<dd class="statsbar">
+									<span class="righttext">55469</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,12.0.html">Product Offers</a>
+								</dt>
+								<dd class="statsbar">
+									<span class="righttext">24104</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,4.0.html">Product Categories</a>
+								</dt>
+								<dd class="statsbar">
+									<span class="righttext">15831</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,11.0.html">Security Discussion</a>
+								</dt>
+								<dd class="statsbar">
+									<span class="righttext">8071</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,5.0.html">Generic randomness</a>
+								</dt>
+								<dd class="statsbar">
+									<span class="righttext">7982</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,13.0.html">German</a>
+								</dt>
+								<dd class="statsbar">
+									<span class="righttext">6820</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/board,3.0.html">Bugs</a>
+								</dt>
+								<dd class="statsbar">
+									<span class="righttext">1743</span>
+								</dd>
+							</dl>
+							<div class="clear"></div>
+						</div>
+						<span class="botslice"><span></span></span>
+					</div>
+			</div>
+		</div>
+		<div class="flow_hidden">
+			<div id="top_topics_replies">
+				<div class="title_bar">
+					<h4 class="titlebg">
+						<span class="ie6_header floatleft">
+							<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_replies.gif" class="icon" alt="" /> Top 10 Topics (by Replies)
+						</span>
+					</h4>
+				</div>
+					<div class="windowbg2">
+						<span class="topslice"><span></span></span>
+						<div class="content">
+							<dl class="stats">
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,47098.0.html">AGORA REGISTRATION IS BY REFERRAL ONLY - USE THE REFERRAL LINK HERE TO REGISTER</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 104px;">
+										<div style="width: 100px;"></div>
+									</div>
+									<span class="righttext">2501621</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,48154.0.html">OFFICIAL AGORA REFERRAL LINK FOR NEW USERS HERE --- REGISTER TO AGORA HERE #1</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 97px;">
+										<div style="width: 93px;"></div>
+									</div>
+									<span class="righttext">2318226</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,47541.0.html">SIGNUP TO AGORA MARKETPLACE -&gt; http://agorahooawayyfoe.onion/register/iDqD6elfT5</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 50px;">
+										<div style="width: 46px;"></div>
+									</div>
+									<span class="righttext">1150679</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,60658.0.html">▬▬▬► NEWB SIGNUP ◄▬▬▬ REGISTER HERE</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 16px;">
+										<div style="width: 12px;"></div>
+									</div>
+									<span class="righttext">308900</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,46961.0.html">-|INVITE LINK FOR BUYERS &amp; VENDORS|-  agorahooawayyfoe.onion/register/B3RuMTqvzm</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 16px;">
+										<div style="width: 12px;"></div>
+									</div>
+									<span class="righttext">298517</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,48596.0.html"> -|INVITE LINK FOR BUYERS &amp; VENDORS|- agorahooawayyfoe.onion/register/B3RuMTqvzm</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 14px;">
+										<div style="width: 10px;"></div>
+									</div>
+									<span class="righttext">246565</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,48164.0.html">AGORA REGISTRATION IS BY REFERRAL ONLY - USE THE REFERRAL LINK HERE TO REGISTER</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 14px;">
+										<div style="width: 10px;"></div>
+									</div>
+									<span class="righttext">243693</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,61928.0.html">░░▒▒▓►► ▀▄▀▄ ↯ NEW USER INVITES **HERE** ! ↯ ▄▀▄▀ ◄◄▓▒▒░░ </a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 13px;">
+										<div style="width: 9px;"></div>
+									</div>
+									<span class="righttext">218089</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,39681.0.html">-|INVITE LINK FOR BUYERS &amp; VENDORS|- agorahooawayyfoe.onion/register/Pk67Mpi9wc</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 13px;">
+										<div style="width: 9px;"></div>
+									</div>
+									<span class="righttext">214285</span>
+								</dd>
+								<dt>
+									<a href="http://lacbzxobeprssrfx.onion/index.php/topic,48409.0.html">  OFFICIAL AGORA REFERRAL LINK FOR NEW USERS HERE --- REGISTER TO AGORA HERE #1</a>
+								</dt>
+								<dd class="statsbar">
+									<div class="bar" style="width: 12px;">
+										<div style="width: 8px;"></div>
+									</div>
+									<span class="righttext">209984</span>
+								</dd>
+							</dl>
+							<div class="clear"></div>
+						</div>
+						<span class="botslice"><span></span></span>
+					</div>
+			</div>
+
+			<div id="top_topics_views">
+				<div class="title_bar">
+					<h4 class="titlebg">
+						<span class="ie6_header floatleft">
+							<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_views.gif" class="icon" alt="" /> Top 10 Topics (by Views)
+						</span>
+					</h4>
+				</div>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="content">
+						<dl class="stats">
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,48154.0.html">OFFICIAL AGORA REFERRAL LINK FOR NEW USERS HERE --- REGISTER TO AGORA HERE #1</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 104px;">
+									<div style="width: 100px;"></div>
+								</div>
+								<span class="righttext">2936987</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,47098.0.html">AGORA REGISTRATION IS BY REFERRAL ONLY - USE THE REFERRAL LINK HERE TO REGISTER</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 52px;">
+									<div style="width: 48px;"></div>
+								</div>
+								<span class="righttext">1422331</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,47541.0.html">SIGNUP TO AGORA MARKETPLACE -&gt; http://agorahooawayyfoe.onion/register/iDqD6elfT5</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 31px;">
+									<div style="width: 27px;"></div>
+								</div>
+								<span class="righttext">780691</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,39361.0.html">______________SIGN UP HERE______________________________________________________</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 18px;">
+									<div style="width: 14px;"></div>
+								</div>
+								<span class="righttext">399132</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,10366.0.html">The Offical get out of Noobville Thread (Yay over 1000 pages of spam posts!)</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 16px;">
+									<div style="width: 12px;"></div>
+								</div>
+								<span class="righttext">345409</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,46961.0.html">-|INVITE LINK FOR BUYERS &amp; VENDORS|-  agorahooawayyfoe.onion/register/B3RuMTqvzm</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 15px;">
+									<div style="width: 11px;"></div>
+								</div>
+								<span class="righttext">319743</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,1322.0.html">OFFICIAL AGORA GENERAL HEROIN/OPIATE REVIEW AND DISCUSSION THREAD</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 13px;">
+									<div style="width: 9px;"></div>
+								</div>
+								<span class="righttext">273348</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,39681.0.html">-|INVITE LINK FOR BUYERS &amp; VENDORS|- agorahooawayyfoe.onion/register/Pk67Mpi9wc</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 13px;">
+									<div style="width: 9px;"></div>
+								</div>
+								<span class="righttext">259280</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,40303.0.html">OFFICIAL AGORA REFERRAL LINK FOR NEW USERS HERE --- REGISTER TO AGORA HERE </a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 12px;">
+									<div style="width: 8px;"></div>
+								</div>
+								<span class="righttext">242337</span>
+							</dd>
+							<dt><a href="http://lacbzxobeprssrfx.onion/index.php/topic,48164.0.html">AGORA REGISTRATION IS BY REFERRAL ONLY - USE THE REFERRAL LINK HERE TO REGISTER</a></dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 9px;">
+									<div style="width: 5px;"></div>
+								</div>
+								<span class="righttext">148160</span>
+							</dd>
+						</dl>
+						<div class="clear"></div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="flow_hidden">
+			<div id="top_topics_starter">
+				<div class="title_bar">
+					<h4 class="titlebg">
+						<span class="ie6_header floatleft">
+							<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_replies.gif" class="icon" alt="" /> Top Topic Starters
+						</span>
+					</h4>
+				</div>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="content">
+						<dl class="stats">
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=25588">RedUnicorn</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 104px;">
+									<div style="width: 100px;"></div>
+								</div>
+								<span class="righttext">1688</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=26138">22</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 46px;">
+									<div style="width: 42px;"></div>
+								</div>
+								<span class="righttext">702</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=625">mito</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 40px;">
+									<div style="width: 36px;"></div>
+								</div>
+								<span class="righttext">606</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=6121">Euphorian</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 30px;">
+									<div style="width: 26px;"></div>
+								</div>
+								<span class="righttext">445</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=35249">Suzuki_Magatoshi</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 27px;">
+									<div style="width: 23px;"></div>
+								</div>
+								<span class="righttext">386</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=21655">question?</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 24px;">
+									<div style="width: 20px;"></div>
+								</div>
+								<span class="righttext">343</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=2998">Guru2543</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 20px;">
+									<div style="width: 16px;"></div>
+								</div>
+								<span class="righttext">274</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=594">I_dont_know</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 19px;">
+									<div style="width: 15px;"></div>
+								</div>
+								<span class="righttext">258</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=5137">spike_rides_again2</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 16px;">
+									<div style="width: 12px;"></div>
+								</div>
+								<span class="righttext">201</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=40090">12:51</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 13px;">
+									<div style="width: 9px;"></div>
+								</div>
+								<span class="righttext">158</span>
+							</dd>
+						</dl>
+						<div class="clear"></div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+			</div>
+			<div id="most_online">
+				<div class="title_bar">
+					<h4 class="titlebg">
+						<span class="ie6_header floatleft">
+							<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_views.gif" class="icon" alt="" /> Most Time Online
+						</span>
+					</h4>
+				</div>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="content">
+						<dl class="stats">
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=29593">yimmy</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 104px;">
+									<div style="width: 100px;"></div>
+								</div>
+								<span>234d 18h 52m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=29052">qwertyuiop</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 98px;">
+									<div style="width: 94px;"></div>
+								</div>
+								<span>219d 13h 38m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=242">tes</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 79px;">
+									<div style="width: 75px;"></div>
+								</div>
+								<span>175d 23h 40m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30194">bigsmoke</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 63px;">
+									<div style="width: 59px;"></div>
+								</div>
+								<span>138d 15h 28m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=29552">MrTEE</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 48px;">
+									<div style="width: 44px;"></div>
+								</div>
+								<span>102d 6h 59m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30430">Mitoy</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 41px;">
+									<div style="width: 37px;"></div>
+								</div>
+								<span>86d 1h 1m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30568">yiimmy</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 40px;">
+									<div style="width: 36px;"></div>
+								</div>
+								<span>83d 12h 11m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=512">gwern</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 39px;">
+									<div style="width: 35px;"></div>
+								</div>
+								<span>82d 6h 59m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=625">mito</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 39px;">
+									<div style="width: 35px;"></div>
+								</div>
+								<span>81d 3h 1m</span>
+							</dd>
+							<dt>
+								<a href="http://lacbzxobeprssrfx.onion/index.php?action=profile;u=30706">bigsmokes</a>
+							</dt>
+							<dd class="statsbar">
+								<div class="bar" style="width: 34px;">
+									<div style="width: 30px;"></div>
+								</div>
+								<span>70d 8h 1m</span>
+							</dd>
+						</dl>
+						<div class="clear"></div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+			</div>
+		</div>
+		<br class="clear" />
+		<div class="flow_hidden">
+			<div class="cat_bar">
+				<h3 class="catbg">
+					<span class="ie6_header floatleft">
+						<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/stats_history.gif" class="icon" alt="" /> Forum History (using forum time offset)
+					</span>
+				</h3>
+			</div>
+		<table border="0" width="100%" cellspacing="1" cellpadding="4" class="table_grid" id="stats">
+			<thead>
+				<tr class="titlebg" valign="middle" align="center">
+					<th class="first_th lefttext" width="25%">Yearly Summary</th>
+					<th width="15%">New Topics</th>
+					<th width="15%">New Posts</th>
+					<th width="15%">New Members</th>
+					<th class="last_th" width="15%">Most Online</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="windowbg2" valign="middle" align="center" id="year_2013">
+					<th class="lefttext" width="25%">
+						<img id="year_img_2013" src="http://lacbzxobeprssrfx.onion/Themes/default/images/collapse.gif" alt="*" /> <a href="#year_2013" id="year_link_2013">2013</a>
+					</th>
+					<th width="15%">1</th>
+					<th width="15%">1</th>
+					<th width="15%">1</th>
+					<th width="15%">1</th>
+				</tr>
+				<tr class="windowbg2" valign="middle" align="center" id="tr_month_201312">
+					<th class="stats_month">
+						<img src="http://lacbzxobeprssrfx.onion/Themes/default/images/expand.gif" alt="" id="img_201312" /> <a id="m201312" href="http://lacbzxobeprssrfx.onion/index.php?action=stats;expand=201312#m201312" onclick="return doingExpandCollapse;">December 2013</a>
+					</th>
+					<th width="15%">1</th>
+					<th width="15%">1</th>
+					<th width="15%">1</th>
+					<th width="15%">1</th>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</div>
+	<script type="text/javascript" src="http://lacbzxobeprssrfx.onion/Themes/default/scripts/stats.js"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var oStatsCenter = new smf_StatsCenter({
+			sTableId: 'stats',
+
+			reYearPattern: /year_(\d+)/,
+			sYearImageCollapsed: 'expand.gif',
+			sYearImageExpanded: 'collapse.gif',
+			sYearImageIdPrefix: 'year_img_',
+			sYearLinkIdPrefix: 'year_link_',
+
+			reMonthPattern: /tr_month_(\d+)/,
+			sMonthImageCollapsed: 'expand.gif',
+			sMonthImageExpanded: 'collapse.gif',
+			sMonthImageIdPrefix: 'img_',
+			sMonthLinkIdPrefix: 'm',
+
+			reDayPattern: /tr_day_(\d+-\d+-\d+)/,
+			sDayRowClassname: 'windowbg2',
+			sDayRowIdPrefix: 'tr_day_',
+
+			aCollapsedYears: [
+				'2013'
+			],
+
+			aDataCells: [
+				'date',
+				'new_topics',
+				'new_posts',
+				'new_members',
+				'most_members_online'
+			]
+		});
+	// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://lacbzxobeprssrfx.onion/index.php?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.6</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check?uri=referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			
+			<li class="last"><a id="button_wap2" href="http://lacbzxobeprssrfx.onion/index.php?wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+	</div></div>
+</div>
+</body></html>

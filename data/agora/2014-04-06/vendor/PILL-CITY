@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>PILL-CITY</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.80 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>PILL-CITY</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Silk Road v1 (pre-Oct 2013)<br/><span class="extra-info">300+ successfull &#116;ransactions since 2012-10.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            1) SILK ROAD 1<br/>-----------------------<br/>We were a Top 6% vendor.<br/>Our listing was the best-selling in &quot;Prescription&quot; category, worldwide.<br/><br/><br/>2) SHEEP<br/>-----------------------<br/>Had a perfect 100%.<br/>With 813 &#116;ransactions.<br/><br/><br/>3) TORMARKET<br/>-----------------------<br/>Again, one of the top sellers.<br/>Lost 5-figures when they went off-line.<br/><br/><br/>4) PANDORA<br/>-----------------------<br/>Had a perfect 5/5 rating.<br/>With 146 &#116;ransactions.<br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQENBFBdIh0BCADFTTnBehQHa0oYGf8JcZl9Wi9Hp02Wsxnf0vIC1SQHTgnMUKmA<br/>JW7dt6RhrQYQ2zgDeIW/kMpIKgb+xckFtq75PNb6hr5AMvNg4krmGIv1EHhyFGsW<br/>pCAcoDhFmEatmemEKWzGtfQCGkTfaBE7HlsJPbzp8XCqxrE+1Nrb6y0oEy8+0fU1<br/>1GG6rK0Siow6HFWP7Kj/C90Kk2vO6ClpxE6PMHrcTz1ZIYyYmls8FiVnK1CqlD9c<br/>0ltQK8/Y61fSM0fys+hAf4V9PdBB2j479e/kATlqIzXxWyYcPXR3l3n6AeG2A5VK<br/>9oSOq37atwsh4SgprxZeQUXFuwr+9bWRg4YdABEBAAG0IFBJTEwgQ0lUWSA8cGls<br/>bGNpdHlAdG9ybWFpbC5vcmc+iQE/BBMBAgApBQJQXSIdAhsvBQkHhh+ABwsJCAcD<br/>AgEGFQgCCQoLBBYCAwECHgECF4AACgkQZM1Bwra4UEmS0Af6A5fnaxTsf7JCzhJT<br/>fSNJU8j9ZBn+jMwSmOnzJQMnDfdDFkx4NsspMdsZ2QyBkHYbUj5R1sIi5h5J3Sje<br/>PqlyJfjaOg6tQaSlxyROVb09rm30YlxUz1v1BW+gZl+ADDLKftQcPb3kSi503gTd<br/>FKoPWh1aNXfX8mNRvL09uQwLZnxAy2j1VUJzwmmjC6rcTtF04JJnemyzzTuwFwpB<br/>oBakYSquORFGOznVPAAYel0RjdBSvX4nzX+3GuKUl1ORoWL5aIWXd/k9xH/uS7WQ<br/>bXAK20qGQo23txiex+vSmYDxqQJIsjawkk7Bf61Z0ZnK8DTQhRlnuNfQPSb3UcA/<br/>4f9Wx7kBDQRQXSIdAQgAxH7OtJcvqSTpm4ZEsJpr7rMpRcpRrF1/QX/W2V0v/ozu<br/>ZMPFYphtUcYQqdPLlEWOg3wD4aC3eH8wA9U5gUh6Js9IkZS8ahrGvULniCE/DAyv<br/>eLIhto3ah8qs5MSlYKJgqeckm7boNlNgM94CcD41+FcTPXezs3pluvtSqvVpIpw+<br/>Xm1awcL5CvaAbeFxM7dEd1VD2LtRnUQQYOZA+Itbsossoa7VG5KBNyMJdDU7AZ9s<br/>jDams0soL+CBhRTlGABTQZCFfo85r1Gsn0Xiqggo9zliELP2dwDm7pmMe5lcjcfl<br/>hFBrhfjvrKg2u8u9aFAy89IkUt2wnbDHF/raeI+fuQARAQABiQJEBBgBAgAPBQJQ<br/>XSIdAhsuBQkHhh+AASkJEGTNQcK2uFBJwF0gBBkBAgAGBQJQXSIdAAoJEN5lNhOJ<br/>IAVT0F4IAJQPfy9tP3fqWaeLP/FeYgCsbSBZh3q4MOodeyuVFEwTVM6ZrDNQbpde<br/>BsKr1wI00vMqe61NlVbSawk0wqZyJfbXdu4PGyCaDzGw7t6Js6QgMfOW49xmGws+<br/>05m69n0wkTxWdqmCsn9kK4U0MW6mrfgr1WOJEt24Va2JM+GgftK9Z538hx52GUl4<br/>Mrm9EJQ+kr7qUtBX2P2fVcyKl7RxWhpN3pVbVJKUDhK86Y1a20TmGYIWjWaDkU2c<br/>GMXcuwk/E8EelxT8wMVKQ4lb27t6VnRcGVxGuXM0cJWPImF/kJgL/PipqMuimbQQ<br/>0jlgNJF152psiCG3j6bfwOZL9ktY5yxJNwf8CQhdoPjESS3PVPIQ8If/QS3JEwB2<br/>RaLH5vRPBeSCa6SDBFcGcTCLk2BKkpi33lJ8HkRs4tZNmY7FZP17NruiQkHyGiwv<br/>qfRCOu/38g7s0QzqBPsapPaqUx/yvcduKdXHvh/Af3k0cr0ahUNs/ThvVvTM/og0<br/>xdSz+jkE+VnjNYSNa7PoczbXUALEutfz+lpTHe0qTV9QEl&#106;Dkfxqn76RJ2prvweQ<br/>EHtKFVnn3o1J0ol5Cy69Dyf5zIYu7ItRlkpjtGIqqOYuGl8M5tuiVxZLApIRUyvP<br/>r8JnlHsr4mpIkblj8D/A0OC66DTQLTomaifvzD5GoohsCNCr2WK7nck/UQ==<br/>=J7Nn<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>PC is the best vendor period. Been buying from him/her over a year from SR days till now.. can&#39;t beat the fast &amp; stealthy shipp</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome... as usual!</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent &#116;ransaction, as always. Fast shipping, great communication, quality product. Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>One of the Best!</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Pill City is 100% the real deal! Only vendor I FE for.</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast to ship and all around great service.</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>PC is great - no reason to go to anyone else for hydrocodone. Shipping speed is the most important to me and PC gets it done.</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>As always - impeccable service. Thank you.</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>One of the BEST Vendors around! Great service! Great product! GREAT Vendor !!!!</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Perfect! Flawless from start to finish! 
+
+A++++</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+++ you tha man!</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Amazing, as always from a loyal customer</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Always my go to vendor on any market. Where he goes, I follow. Seriously the best!!! Super fast shipping. Professional, reliabl</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Pill-City is the best vendor available for Hydrocodone! Shipping is fast and efficient, product quality is superior, communicat</td>
+                    
+                        <td>
+                            <a href="/p/ZMVEpYKdxD">
+                                NORCO - Hydrocodone 10/325
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of PILL-CITY:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZMVEpYKdxD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZMVEpYKdxD">NORCO - Hydrocodone 10/325</a><br/>
+                    <span class="description-preview">----------------------------------
+  MARCH 25th, 2014
+----------------------------------
+Welcome all Pandora refugees and new customers! We have now made Agora our new home! 
+
+Our latest batch i ...</span>
+                </td>
+                <td>0.02211155 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="PILL-CITY" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to PILL-CITY</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'PILL-CITY'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

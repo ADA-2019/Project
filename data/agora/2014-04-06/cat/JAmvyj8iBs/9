@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>eBooks</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.31 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/PfjGSF75ez">Information</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/JAmvyj8iBs">eBooks</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/JAmvyj8iBs">eBooks<span class="extra-caption"> (300+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/giSyWeCyx4">Guides<span class="extra-caption"> (400+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/JAmvyj8iBs/9" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/3"> 3 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/4"> 4 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/5"> 5 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/6"> 6 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/7"> 7 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/8"> 8 </a>
+        
+            <a class="page-link current-page" href="/cat/JAmvyj8iBs/9"> 9 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/10"> 10 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/11"> 11 </a>
+        
+            <a class="page-link " href="/cat/JAmvyj8iBs/12"> 12 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/EcZmA7afP3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/EcZmA7afP3">Hallucinogenic Plants (A Golden Guide)</a><br/>
+                    <span class="description-preview">Digital Download sent via PM
+
+What are hallucinogenic plants? How do they affect mind and body? Who uses them - and why? This unique Golden Guide surveys the role of psychoactive plants in primitiv ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xoUrruRPFZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xoUrruRPFZ">CIA BOOK OF DIRTY TRICKS</a><br/>
+                    <span class="description-preview">THE CIA BOOK OF DIRTY TRICKS
+
+
+  Additives
+  Airlines
+  Animals
+  Apartments
+  Assassination
+  Auto Dealers
+  Banks
+  Bikers
+  Books
+  Campuses
+  Carbide
+  Cars
+  CB Radios
+  Charity ...</span>
+                </td>
+                <td>0.01544163 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/fake#"/>fake</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.77/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vggu4NS4eM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vggu4NS4eM">DMT &amp; Ayahuasca Book Collection</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+Contents:
+Ayahuasca Visions: The Religious Iconography of a Peruvian Shaman
+The mythologies and cosmology of Amazonian shamanism materialize in fantastic color and s ...</span>
+                </td>
+                <td>0.00882378 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MPnRkV0hmD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MPnRkV0hmD">Dr Atomic&#39;s Marijuana Multiplier (1st ed.)</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+First published in the early 1970s, Dr. Atomic&#39;s Marijuana Multiplier demonstrates the playfulness characteristic of those long gone times. Larry Todd&#39;s Dr. Atomic, a  ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Pf1k4h2keo.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Pf1k4h2keo">Essential Psychedelic Guide</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+The Essential Psychedelic Guide brings together in a single volume the &#98;asics of psychedelic history, essential information on physical and mental safety, and detailed ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yFTklnj71s.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yFTklnj71s">Hacking GMail</a><br/>
+                    <span class="description-preview">The first book to unlock the true power behind Gmail, Hacking Gmail will immediately appeal to Google and Gmail fans.
+
+This is serious, down-and-dirty, under-the-hood, code-level hacking that will  ...</span>
+                </td>
+                <td>0.00100000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Torland<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KryptykOG#"/>KryptykOG</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.96/5, 70~100 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hNiGvkY3Gh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hNiGvkY3Gh">Do It Yourself Advertising and Promotion</a><br/>
+                    <span class="description-preview">&quot;Mr. Hahn&#39;s background in an industry where the creative stretching of promotional budgets is a daily necessity serves well the reader of this book. His advice is both practical and imaginative, and  ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eoh72AnDge.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eoh72AnDge">Inviting Codes for Marketplaces</a><br/>
+                    <span class="description-preview">6 Marketplaces
+               
+                 + Outlaw Marketplace, 
+                 + Agora Marketplace,
+                 + Dream Marketplace 
+                 + Drug List
+                  ...</span>
+                </td>
+                <td>0.01102973 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Torland<br/>
+                    <i class="fa fa-home"></i> To: everywhere
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/freestylerfreak13a#"/>freestylerfreak13a</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Kgq1anFYqw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Kgq1anFYqw">Altered states of consciousness</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+Combining the best of the humanistic and scientific traditions, this book covers the effects of drugs, yoga, self-hypnosis, mutual hypnosis, meditation, brainwave feed ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VinydyuTgu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VinydyuTgu">Ecstasy : The Complete Guide : A Comprehensive Look at the Risks and Benefits of MDMA</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+
+&bull; The world&#39;s leading experts on Ecstasy assess its therapeutic potential, social implications, and the dangers of unsupervised use.
+
+&bull; Includes chapters by Andrew ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/R3t4MzC4pC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/R3t4MzC4pC">A Course In Lucid Dreaming</a><br/>
+                    <span class="description-preview">What if right now, reading these words, you suddenly realized that you were actually dreaming and that in this domain you could do anything imaginable? That is what it&#39;s like to dream lucidly, teache ...</span>
+                </td>
+                <td>0.00100000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Torland<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/KryptykOG#"/>KryptykOG</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.96/5, 70~100 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jNd9jMRzb6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jNd9jMRzb6">Occult Chemistry: Investigations by Clairvoyant Magnification into the Structure of the Atoms of the</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+Taken from Wikipedia:
+Occult Chemistry: Investigations by Clairvoyant Magnification into the Structure of the Atoms of the Periodic Table and Some Compounds is a book ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lNDZtTiYu1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lNDZtTiYu1">GET ANYTHING FOR FREE FROM AMAZON AND DOUBLE YOUR MONEY</a><br/>
+                    <span class="description-preview">GET ANYTHING FOR FREE FROM AMAZON AND DOUBLE
+YOUR MONEY
+
+100% working metod!</span>
+                </td>
+                <td>0.06176652 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/fake#"/>fake</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.77/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/KJMEidugGt.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/KJMEidugGt">Secrets of Lock Picking</a><br/>
+                    <span class="description-preview">Secrets of Lock Picking
+
+Hampton
+Introduction
+The ancient Egyptians were the first to come up with a complicated security device.
+This was the pin tumbler lock. We use the same security principl ...</span>
+                </td>
+                <td>0.01544163 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/fake#"/>fake</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.77/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gE69klUkxy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gE69klUkxy">Hacking GMail</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+The first book to unlock the true power behind Gmail, Hacking Gmail will immediately appeal to Google and Gmail fans
+This is serious, down-and-dirty, under-the-hood,  ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BhibsZvcLU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BhibsZvcLU">How Crime Scene Investigation Works</a><br/>
+                    <span class="description-preview">How Crime Scene Investigation Works</span>
+                </td>
+                <td>0.00882378 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/fake#"/>fake</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.77/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/weZXyXbFSe.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/weZXyXbFSe">Hallucinogens and Shamanism</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+Anthropologists have long been fascinated by the worldview and religious beliefs of primitive peoples. Only recently, however, with the surge of interest in hallucinog ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/z0W7EL4ekh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/z0W7EL4ekh">How I have made 100&#39;s of dollars over a week</a><br/>
+                    <span class="description-preview">How I have made 100&#39;s of dollars over a week
+
+This does NOT involve:
+
+PPD
+Refferals
+CPA
+Investments
+Phones
+SEO
+Youtube
+Blackmailing
+Adsense
+Craigslist
+BTC
+Ewhoring
+
+FAQ:
+
+Q: How mu ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Torland<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/freestylerfreak13a#"/>freestylerfreak13a</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/S35M9hjFhz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/S35M9hjFhz">Essential Underground Handbook 2003 PML Publishing</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+Easily the world&#39;s most dangerous informational resource. Recently updated! Already one politician has tried his hardest to silence this underground classic. Not avail ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/EANszWedc9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/EANszWedc9">Buy Bitcoins With Paypal, Paysafe, Credit- Debit C</a><br/>
+                    <span class="description-preview">An Easy Description with pictures how to: 
+
+You can buy complett anonymous bitcoins or change if you take an fake ID 
+
+&quot;Buy Bitcoins With Paypal, Paysafe, Skrill, Netteller, Sofort&uuml;berweisung &amp; C ...</span>
+                </td>
+                <td>0.04411894 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Torland<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/freestylerfreak13a#"/>freestylerfreak13a</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UXCTll9SSh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UXCTll9SSh">Fooling The Bladder Cops: The Complete Drug Test Guide</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+Taken from the Introduction:
+During a job interview, have you ever been asked to piss for your new employer? New applicants for many of the Fortune 500 corporations are ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/v07WLeo2wW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/v07WLeo2wW">Recreational Drugs by Professor Buzz</a><br/>
+                    <span class="description-preview">digital download sent via PM
+
+The single finest book ever written on the manufacture of recreational drugs. Profusely illustrated, it covers the equipment, techniques and reagents used in the cland ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Em3cW74Cbe.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Em3cW74Cbe">Satanic Bible Underground Edition</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+The Satanic Bible (Underground Edition 2)
+
+We&#39;re back: with &#118;ersion 2.0...
+
+Underground Edition 2 is an attempt to create the best possible electronic &#118;ersion of D ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CWl2ln9B8a.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CWl2ln9B8a">Phenomenology and Mysticism: The Verticality of Religious Experience</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+Exploring the first-person narratives of three figures from the Christian, Jewish, and Islamic mystical traditions&mdash;St. Teresa of Avila, Rabbi Dov Baer, and R&Aring;&laquo;zbih&Auml;n B ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BwptxWA1bL.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BwptxWA1bL">Ultimate Guide to Using Tor privately and anonymously</a><br/>
+                    <span class="description-preview">A digital download of The Begginer&#39;s Guide to Using the Darknet v0.1.6 written by The Black Hand(that&#39;s me) will be sent to buyer
+via PM (with the takedown of Tormail, I cannot currently send via em ...</span>
+                </td>
+                <td>0.01764757 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/exyK4E7gng.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/exyK4E7gng">Guide to a New EBay Identity</a><br/>
+                    <span class="description-preview">EBay Stealth 3.0
+A Complete Guide to a New EBay Identity</span>
+                </td>
+                <td>0.01544163 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/fake#"/>fake</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.77/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nZJ3c2ASv5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nZJ3c2ASv5">Social Engineering: The Art of Human Hacking</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+The first book to reveal and dissect the technical aspect of many social engineering maneuvers
+From elicitation, pretexting, influence and manipulation all aspects of ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/BDz86GmYls.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/BDz86GmYls">Hacking &#87;indows XP (ExtremeTech)</a><br/>
+                    <span class="description-preview">Digital download sent via PM
+
+Get ready for some down-and-dirty hackin&#39;! Over 200 serious hacks readers can use to force &#87;indows XP to do it their way, written in the ExtremeTech no-holds-barred st ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pFqcYSeNXw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pFqcYSeNXw">Counterfeit ebook</a><br/>
+                    <span class="description-preview">5 ebooks / guides on how to counterfeit money, bills, coins and how to cash them out.
+
+txt + pdfs</span>
+                </td>
+                <td>0.02205947 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Torland<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/Dipsy#"/>Dipsy</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.97/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YeiChTGSN2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YeiChTGSN2">Acid Dreams: The Complete Social History of LSD</a><br/>
+                    <span class="description-preview">Few events have had a more profound impact on the social and cultural upheavals of the Sixties than the psychedelic revolution spawned by the spread of LSD. This book for the first time tells the ful ...</span>
+                </td>
+                <td>0.00330892 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                <td>
+                    
+                    <a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/3"> 3 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/4"> 4 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/5"> 5 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/6"> 6 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/7"> 7 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/8"> 8 </a>
+            
+                <a class="page-link current-page" href="/cat/JAmvyj8iBs/9"> 9 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/10"> 10 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/11"> 11 </a>
+            
+                <a class="page-link " href="/cat/JAmvyj8iBs/12"> 12 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

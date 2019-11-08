@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ThePurpleLotus</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>ThePurpleLotus</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">111 successfull &#116;ransactions since 2013-10.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.22 (Darwin)<br/>Comment: GPGTools - http://gpgtools.org<br/><br/>mQENBFJ7yDIBCAC8CZO0u7v8aHR5WQKLpIiTx+7nGjbNuC9sN/i/pGFHlAhlp6is<br/>uRbj2/ydr8T5qbxO3Q6DYhBieVIvuqnUoe9EISz8G1NX4HlfLlugWsEoO0l3wRpr<br/>SXvnHPKZKxZvUqrocMxHUxBNdwGSOq3u7Eq2fD5BlTIuS2udDFKYSK+0c3VcfHt+<br/>78D5xCMAhpDzlJsICWm2n5SsZSH18WHltSZ074YLu3OMCowLRLlOreLlP3n59epI<br/>HkEAzkvKe+RhTq3yT4Jlxnkj8cY1AJj0TDEUBECn5mYjfkgvTy3DLAorM82ibT8a<br/>fG4OrgTCk8SkgqGleMYQ2GeRDrYwfWM8uWejABEBAAG0JFB1cnBsZUxvdHVzIDxw<br/>dXJwbGVsb3R1c0ByaXNldXAubmV0PokBOQQTAQIAIwUCUnvIMgIbAwcLCQgHAwIB<br/>BhUIAgkKCwQWAgMBAh4BAheAAAoJEOwqzZXAMFhs/dEH/RxfhNTVImsHRZK0hpEt<br/>qQ3p0UvERytBE7fjAJR87PJPeVfXeBrk+zT3lAeITpivIEmLT2vgfr7VBBKeHJQH<br/>qE2pGCYjOkiE+Ue5BO4heWd+Vs5kFe3tIoFPXeXoOgLOEW7ir1RMRkE4fgbduolO<br/>qJJHWnFcqluNT4sYLIlQus+9emqHiiv7ivN+RvDrBVJBRJncj9QmljIZJaWSmhRZ<br/>AE58ci8rZQ3kGE0Mn43kNW+VW/fTtrtoGMh1GFByK/ELYoHO4u1eyGbQlmyl+w+N<br/>vTF56cBKLcqthbvGh21ONx0lG1v4k0mRcuQ3HRcSZv/X1cM60MDwSu7N/TuLFZEy<br/>lTS5AQ0EUnvIMgEIAL7HyBBBV8as8wVAa7Wn6wAdv4ctHd+c8/TqhnrYsDDJYDAJ<br/>mo1PgTb1CluUqMUygqxUEfexmTxfxChH5BznU3uQoDAf5dqysHJp+IrnCVohYDUb<br/>cc1OkSnTzEFDWXf89mEBXYtCfHydN41S4OONqcdrv3sIW15fnpny/uKfX1g4Z+fG<br/>YH0s8fQ/f/kl8X0x4bD5uWU8AoTs73VSh+q88d2Klu6wuz3fDP002ekFDfVClNFR<br/>elAZx9jqIY1WwVYvRYkd7tgZ/OiXVWZ5D0d4PdBy+GALRgF17skda0U8PFUpQ6Ct<br/>c2fr0+JXdWp9mnPOciTQRAty5J+bPwuXhZdhqRUAEQEAAYkBHwQYAQIACQUCUnvI<br/>MgIbDAAKCRDsKs2VwDBYbNC8B/9nlRcZEpva1s+KODrBxQ2ooM3wa+Ga7VJtHor8<br/>+jOloFzRyb5qQJImpQx2ktmu1cGq2lQko2reKbdkljFxTCxWSOiVRWEmz93BM5jO<br/>DJtv3REwU0lDumdUZqGY2HkKQ/i5XrPoXO1gpMUK4ZQkc14mnHspDAS6nTD5oXcq<br/>GpskPbtHxA9kTOW1VQ9tTia4/JhwP5k0HL4UZE1p0A60CUsWwq1wcJyfSHnsJMWi<br/>oF3Q/WpjDMSfceBDkbosJHLa3N54TgPOAklOecLU9W2gMP3z0rvnra5VxzkvbG8w<br/>kMH4JQa/HNMlskU5iDIr8ctLs4aqAwgsWZa/OBMW/rITsnHD<br/>=0Uic<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent!</td>
+                    
+                        <td>
+                            <a href="/p/CbjLBG3gk1">
+                                The Whole Foods Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Delivered very fast. They are amazing! Can&#39;t wait to try some of them.</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor.</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Some of the best coupons I&#39;ve purchased. This is the real deal!</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I wish it was more of a secret, thanks again PL</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor with an awesome system. Don&#39;t hesitate to try.</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor!</td>
+                    
+                        <td>
+                            <a href="/p/X0ri1zSa9i">
+                                The Walmart Coupon Collection! SAVE $$$ FUCK WALMART
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Wow! This vendor is legit :)</td>
+                    
+                        <td>
+                            <a href="/p/qUfBotAo47">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome!!!  What a great purchase.  Highly recommend it.</td>
+                    
+                        <td>
+                            <a href="/p/X0ri1zSa9i">
+                                The Walmart Coupon Collection! SAVE $$$ FUCK WALMART
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>My first purchase on the darknet and I am very thankful it was with lotus A world class vendor.+++++++++++++</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Please FE for this vendor. His items work perfectly and will save you a ton of cash. Thanks a lot Lotus, you are amazing.</td>
+                    
+                        <td>
+                            <a href="/p/X0ri1zSa9i">
+                                The Walmart Coupon Collection! SAVE $$$ FUCK WALMART
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Professional vendor.  Great communication.  Will update after I try product.</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Best coupons available on the market. Each product coupon looks so real. Idiot not to purchase. PL is great at communication an</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very responsive vendor. Saving a ton of money now. Lotus is a beast.</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+++ Vendor</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Received very quickly, kind vendor.  I&#39;ll be back.</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Vendor. A++</td>
+                    
+                        <td>
+                            <a href="/p/X0ri1zSa9i">
+                                The Walmart Coupon Collection! SAVE $$$ FUCK WALMART
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>got the info cant wait to use it. thanks I will update on purchases to give better idea for new customers.</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d-- smacking my chops right now</td>
+                    
+                        <td>
+                            <a href="/p/X0ri1zSa9i">
+                                The Walmart Coupon Collection! SAVE $$$ FUCK WALMART
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d--can&#39;t wait to be a part of the PL army</td>
+                    
+                        <td>
+                            <a href="/p/zNxbm0zp3q">
+                                USA COUPONS - The Lotus Original Coupon Collection!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of ThePurpleLotus:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/AomW27y7G4">The PurpleLotus .onion Coupon Generator! Coolest thing ever to hit the darknet! 10credits+1Free</a><br/>
+                    <span class="description-preview">TRY THE .ONION COUPON GENERATOR FOR FREE NOW:
+
+http://purpltx7wizybwaj.onion/coupongen/
+
+This is a Coupon Generator I host on my own .onion site. It has an extremely easy interface and no informa ...</span>
+                </td>
+                <td>0.22075055 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Torland<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zNxbm0zp3q.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zNxbm0zp3q">USA COUPONS - The Lotus Original Coupon Collection!</a><br/>
+                    <span class="description-preview">A Character limit prevents me from displaying every coupon.
+
+Visit my Agora review page. Don&#39;t buy this listing without reading this:
+
+http://i4rx33ibdndtqayh.onion/index.&#112;hp/topic,911.0.html
+
+ ...</span>
+                </td>
+                <td>0.17660044 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/DaxP7lF0Br.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/DaxP7lF0Br">The PurpleLotus .onion Coupon Generator - Best offering on Agora for 5 credits!</a><br/>
+                    <span class="description-preview">TRY THE .ONION COUPON GENERATOR FOR FREE NOW:
+
+http://purpltx7wizybwaj.onion/coupongen/
+
+This is a Coupon Generator I host on my own .onion site. It has an extremely easy interface and no informa ...</span>
+                </td>
+                <td>0.11037527 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/CbjLBG3gk1">The Whole Foods Coupon Collection!</a><br/>
+                    <span class="description-preview">The Whole Foods Collection!
+
+
+
+These coupons are sent to your SR inbox via a PM form me with a special link to download your digital coupons off my personal .onion site. They can be printed out a ...</span>
+                </td>
+                <td>0.22075055 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="ThePurpleLotus" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to ThePurpleLotus</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'ThePurpleLotus'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

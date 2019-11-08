@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Ultimate Guide to Using Tor privately and anonymously</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.35 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/PfjGSF75ez">Information</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/giSyWeCyx4">Guides</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/JAmvyj8iBs">eBooks<span class="extra-caption"> (300+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/giSyWeCyx4">Guides<span class="extra-caption"> (400+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+<div id="single-product" class="nofirstmargin">
+
+
+    
+
+    
+
+
+    <h1>Ultimate Guide to Using Tor privately and anonymously</h1>
+    <div style="text-align: left;">0.01772460 BTC</div>
+    <div style="clear: both;"></div>
+    
+        <img style="display: block; float: right; padding: 0 0 20px 20px; max-width: 400px;" src="/liabilities/p/PxXGyhG65b.jpg" alt=""/>
+    
+    A digital download of The Begginer&#39;s Guide to Using the Darknet v0.1.6 written by The Black Hand(that&#39;s me) will be sent to buyer<br/>via PM (with the takedown of Tormail, I cannot currently send via email). At the moment I&#39;m posting this for a discounted rate to<br/>encourage purchases for purposes of getting reviews, get it while you can as the price will soon be raised to reflect the amount of the<br/>information buyers will receive.<br/><br/><br/><br/><br/><br/>A Begginer&#39;s Guide to Using the Darknet: Dropping off the Grid for<br/>Purposes of Destruction, Political Dissent, Hooliganism, and More!<br/><br/>A collection of articles, essays, tutorials, and rants written<br/>by yours truly on accessing the Tor network safely and maintaining ABSOLUTE privacy and anonymity. I cover the topics you see in the table<br/>of contents below, providing step-by-step tutorials in a clear and concise language that stems from direct experience working with customers<br/>on technical issues. Included is a collection of links to websites within the Tor network organized and each with a brief description, which<br/>alone makes this ebook worth a look.<br/><br/><br/><br/>The table of contents is below:<br/><br/><br/><br/>Introduction<br/><br/>Setting up<br/>Tor<br/><br/>Setting up and starting Tor<br/><br/>Setup your computer as a Tor relay<br/><br/><br/><br/>Setting &#87;indows for using<br/>Tor<br/><br/>How to change your DNS settings in &#87;indows and/or confirm the settings<br/><br/>How to disable scripts, &#74;ava, flash, addons,<br/>cookies, referrers<br/><br/>Using a secure bootable &#76;inux Live CD/USB to browse the darknet<br/><br/>Setting up a Liberte boot<br/>USB<br/><br/>Setting up and using PGP/GPG<br/><br/>How to create a new private and public key set<br/><br/>Importing another user&#39;s<br/>public key<br/><br/>Encrypting a message for another user<br/><br/>Decrypting a message you received from another user<br/><br/>Additional<br/>Resources for PGP/GPG<br/><br/><br/><br/>Communicating Over the Tor Network<br/><br/>Register for a TorMail account<br/><br/>How to Login to<br/>TorMail<br/><br/>Setting up Pidgin with Off The Record<br/><br/>TorChat setup<br/><br/><br/><br/>Protecting yourself once you&#39;re on the<br/>darknet<br/><br/>Protecting yourself while off the darknet<br/><br/>Receiving a Package Ordered from the<br/>Darknet<br/><br/><br/><br/>Obtaining Bitcoins Anonymously<br/><br/>Buy Bitcoins (more or less) anonymously<br/><br/>Buying Bitcoins via<br/>Virwox<br/><br/>Buying Litecoins (or other cryptocurrencies) anonymously<br/><br/>Getting Litecoins from Vircurex<br/><br/>Litecoin Vs<br/>Bitcoin<br/><br/>Are Bitcoins really anonymous/secure?<br/><br/>Bitcoin IS backed by something, you just didn&#39;t know<br/>it<br/><br/>Spending Bitcoins legitimately<br/><br/>How to create a (almost) 100% secure bitcoin wallet<br/><br/>Setting up your offline<br/>wallet<br/><br/>How to access your money<br/><br/><br/><br/>Multi-Factor Authentication<br/><br/>Buying a beater<br/>laptop<br/><br/><br/><br/>Computer Forensics and Anti-Forensics<br/><br/>Destroying Data: How hard drives work<br/><br/>Using DBAN to<br/>overwrite and erase data making it (probably) impossible to be recovered<br/><br/>Using Steganography to make data unreadable or (hopefully)<br/>invisible<br/><br/>Hiding a zip file in a jpg image using the &#87;indows command-line:<br/><br/>Extracting the hidden file using<br/>7-zip<br/><br/>Using OpenPuff to hide data<br/><br/>Extracting hidden data with OpenPuff<br/><br/><br/><br/>Removing<br/>Metadata<br/><br/>Removing Metadata from PDF documents<br/><br/>Removing Metadata from pictures<br/><br/><br/><br/>Becoming a Vendor on the<br/>Dark Net<br/><br/>Choosing a marketplace to sell on &ndash; ORIGINAL, OUT OF DATE ENTRY<br/><br/>Choosing a marketplace to sell on &ndash; UPDATED<br/>10-26-13<br/><br/>Business relations with other vendors<br/><br/>How to deal with threats and/or blackmail<br/><br/>Drop<br/>Shipping<br/><br/>Cashing out anonymously: The Vendor&#39;s Other job<br/><br/>Selling Bitcoins Via Localbitcoins.com using<br/>cash<br/><br/>Using Bitcoin fog<br/><br/><br/><br/>Links<br/><br/>Navigating the darknet<br/><br/>Buying, selling, and using<br/>Drugs<br/><br/>Message boards<br/><br/>Ebooks<br/><br/>Communication and Socialization tools<br/><br/>Services and<br/>Vendors<br/><br/>Informational sites<br/><br/>Personal Websites<br/><br/>Downloads<br/><br/>Other<br/><br/>File / Web Hosting
+    <br/>
+    Brought to you by:<br/><a class="gen-user-link" href="/vendor/blackhand#"/>blackhand</a><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 100~150 deals</span>
+    <div class="product-page-ships">
+    <i class="fa fa-truck"></i> From: Internet<br/>
+    
+    </div>
+    <div class="product-page-price">0.01772460 BTC</div>
+    <div style="clear: both;"></div>
+    <div style="text-align: right;">
+        
+            <div class="button-red"><a href="/p/PxXGyhG65b/buy">
+                <i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Buy...</a></div>
+        
+
+    </div>
+
+    
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Happy out! Great vendor.</td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+</div>
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

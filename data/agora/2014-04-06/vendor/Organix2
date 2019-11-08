@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Organix2</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 446.19 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Organix2</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.85/5, 25~40 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">250+ successfull &#116;ransactions since 2012-09.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 5 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            I am a long time vendor on bmr with well over 300 positive feedbacks and no negatives. I will send out the order within 2 business days max and often the same day if I get it early enough. You can also use my bmr pgp key to send me a message to verify. I have a good record and plan on keeping it good.  Check my bmr rating here. I am organix on bmr<br/><br/>fqyfryfq2iznzsob.onion <br/>oow5bjd6qjbwi5z.onion<br/>oow5bjd6qjbwi5z.onion/feedback.tar.bz2 <br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQENBFAn/k8BCAC04maeOmKuznHfL4lluYg8cuxT74n07YaBeioPR0Xe7txwXNaU<br/>e189tcZgkzIBY5&#98;SdZuGn0jikusQ5WPVF7NRJxtI4L0Wc5JQFzMVUmy7GKQMW3EF<br/>St0QCfr2mg/eLVSEZvc0E09q8cGl+FEM9hVhc2zHLHeQ6R5PS1JC3A7xULvTL/+k<br/>GVCl5c0G8GdX2LW2v31/gN8a4VFOiwWC9GpJqlE3kyJymGMQARe+z7/IbwI418Fz<br/>gxKAgD2aOx421lqu4EKnOWMb7tuNVkv/MLWPb1KBq1hHX/3j3MC2ELM8XWYU6Ge7<br/>M4XvwB7czjB35eNMMqKHNp7i55UoFw9s23+nABEBAAG0KW9yZ2FuaXggKGJsYWNr<br/>IG1rdCkgPG9yZ2FuaXhAdG9ybWFpbC5vcmc+iQE4BBMBAgAiBQJQJ/5PAhsPBgsJ<br/>CAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRDwyiRAnW523w33B/4hrYadpoUuoqO5<br/>e1E88w7uLR8p0V4K38A6zMwwzNn3URzco7B/Z965wC3EOuTn9W4zJv2dq0/r7I+J<br/>X43ucRDVHDedvhn9t0QS6S87v3XGYU9daKG0VlRYrvKQE+JiIM/zL3vX36JTAbgE<br/>i7WPiByruyjMt1+kDSrUbmPrNLdDvsUPLA/ysi3h8kusfdGKHHWTKn1c+3xvCd8a<br/>vq+fzQB18qEHgcFm5Kx2cTsQQKaI6OxULPVLzP5LM032MfG83xGty/pXDUynJs9j<br/>VntEq/aYQiLfki07VjVACv/XC89JsfDfDlzwXSz82IXaJ5NZsXUEsZ2LdMuekYQ6<br/>/HgENWqO<br/>=uLcu<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good vendor, good product</td>
+                    
+                        <td>
+                            <a href="/p/m1L6kZWRvB">
+                                Clonazepam 10 x 2mg (Rivotril) by Hoffman la Roche
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor. Will update when order is received.</td>
+                    
+                        <td>
+                            <a href="/p/pF2s90FqiY">
+                                Salvia Divinorum 6 gm Psychedelic
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Got here quick, looks as described.</td>
+                    
+                        <td>
+                            <a href="/p/pF2s90FqiY">
+                                Salvia Divinorum 6 gm Psychedelic
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Received well. Good experience. Thank you</td>
+                    
+                        <td>
+                            <a href="/p/pF2s90FqiY">
+                                Salvia Divinorum 6 gm Psychedelic
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>What a joke, received an erowid old guide.. if I wanted a bigger one he required an email. Received the letter with NO COLLECTI</td>
+                    
+                        <td>
+                            <a href="/p/zVal6ScNot">
+                                Selected Psilocybe Cubensis Spore Prints
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~0/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Didn&#39;t arrive for the first time, but i got a reship, and it arrived after that. Everything looks great.</td>
+                    
+                        <td>
+                            <a href="/p/zVal6ScNot">
+                                Selected Psilocybe Cubensis Spore Prints
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d. Order arrived lightning fast. Product looks good. ill be ordering again from this vendor</td>
+                    
+                        <td>
+                            <a href="/p/qzFPDKgh5m">
+                                Phenibut - new drug like xanax 15gm
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast postage and well packed !</td>
+                    
+                        <td>
+                            <a href="/p/UWt0PVmCJv">
+                                P Galindoi print + print of selected spore prints
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick shipping. Hard to categorize the product - will probably dose higher next time.</td>
+                    
+                        <td>
+                            <a href="/p/qzFPDKgh5m">
+                                Phenibut - new drug like xanax 15gm
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE as requested; further bulletins as events warrant.</td>
+                    
+                        <td>
+                            <a href="/p/pF2s90FqiY">
+                                Salvia Divinorum 6 gm Psychedelic
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>lighting fast arrival. Professional vendor, will order again.</td>
+                    
+                        <td>
+                            <a href="/p/zVal6ScNot">
+                                Selected Psilocybe Cubensis Spore Prints
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived quickly, as promised, looking forward to see them grow.</td>
+                    
+                        <td>
+                            <a href="/p/XTw6vPNKXR">
+                                Psilocybe subaeruginosa potent australasian shroom print
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>shipping was ok i guess.. product looks good</td>
+                    
+                        <td>
+                            <a href="/p/pF2s90FqiY">
+                                Salvia Divinorum 6 gm Psychedelic
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good spores, I love looking at these under a microscope, no shroom growing to see here, just using these for microscopic purpos</td>
+                    
+                        <td>
+                            <a href="/p/zVal6ScNot">
+                                Selected Psilocybe Cubensis Spore Prints
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>As described- good and quick vendor!</td>
+                    
+                        <td>
+                            <a href="/p/zVal6ScNot">
+                                Selected Psilocybe Cubensis Spore Prints
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>2 business days as promised, thank you :)</td>
+                    
+                        <td>
+                            <a href="/p/GVf0VR92hX">
+                                Panoleus Cyanascens - Highly potent magic mushroom spores
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/zVal6ScNot">
+                                Selected Psilocybe Cubensis Spore Prints
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast and efficient. As perfect a seller as you can get. Is it me or are there more trustworthy people here than in the real wor</td>
+                    
+                        <td>
+                            <a href="/p/oS4UDBlX0a">
+                                Ambien 10 x 10mg (Zolpidem) hypnotic
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick Shipping, communicative vendor and great product thanks a bunch man</td>
+                    
+                        <td>
+                            <a href="/p/pF2s90FqiY">
+                                Salvia Divinorum 6 gm Psychedelic
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived as ordered.</td>
+                    
+                        <td>
+                            <a href="/p/oS4UDBlX0a">
+                                Ambien 10 x 10mg (Zolpidem) hypnotic
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Organix2:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/KBvew4vzXb.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/KBvew4vzXb">P Amazonian jungle mushroom Print</a><br/>
+                    <span class="description-preview">P. amazonian is a cubensis type mushroom. This mushroom from the Amazonian rain forest is big and fleshy with golden brown nipple-shaped caps.
+
+Psilocybe cubensis Amazon produces very dense fruits. ...</span>
+                </td>
+                <td>0.05602868 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia, Finland
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qzFPDKgh5m.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qzFPDKgh5m">Phenibut - new drug like xanax 15gm</a><br/>
+                    <span class="description-preview">Phenibut is used to treat general anxiety, social anxiety, depression and to improve quality of sleep. Phenibut was discovered in the Soviet Union in the 1960s, and has since been used there to treat ...</span>
+                </td>
+                <td>0.04034065 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA only
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/inoRo4cYF7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/inoRo4cYF7">P. Allenii - newly discovered species</a><br/>
+                    <span class="description-preview">Psilocybe, P. allenii is a new species that contains the psychoactive compounds psilocin and psilocybin, and it is consumed recreationally for its hallucinogenic properties. It is closely related to  ...</span>
+                </td>
+                <td>0.05602868 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: World Wide except Australia, Finland
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fkKlrB3pfn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fkKlrB3pfn">4 Coca seeds, grow your own cocaine</a><br/>
+                    <span class="description-preview">Have you ever had coca leaf tea? They drink it in south america and it has cocaine in it instead of caffeine to give you a start in the morning. They also &#112;rocess large amounts of leaves and make coc ...</span>
+                </td>
+                <td>0.04930524 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/AlgvCwd5eq">Coca seeds, grow your own cocaine</a><br/>
+                    <span class="description-preview">Have you ever had coca leaf tea? They drink it in south america and it has cocaine in it instead of caffeine to give you a start in the morning. They also &#112;rocess large amounts of leaves and make coc ...</span>
+                </td>
+                <td>0.04930524 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UWt0PVmCJv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UWt0PVmCJv">P Galindoi print + print of selected spore prints</a><br/>
+                    <span class="description-preview">As the listing title says. FE required</span>
+                </td>
+                <td>0.10533393 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XTw6vPNKXR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XTw6vPNKXR">Psilocybe subaeruginosa potent australasian shroom print</a><br/>
+                    <span class="description-preview">Psilocybe subaeruginosa Cleland is an extremely potent psychedelic mushroom of Australasia, which has psilocybin and psilocin as its main active compounds.
+
+First described in 1927 by Australian my ...</span>
+                </td>
+                <td>0.05602868 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: World Wide except Australia, Finland
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zVal6ScNot.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zVal6ScNot">Selected Psilocybe Cubensis Spore Prints</a><br/>
+                    <span class="description-preview">FE required on all orders.
+
+Selected spore prints from my collection. The name of the species will be given for each print. One print per order, order as many as you wish.  
+
+Each will be good an ...</span>
+                </td>
+                <td>0.03809950 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except australia, finland
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/b8JAck6irZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/b8JAck6irZ">Atl #7 (P. Galindoi) Potent spore print</a><br/>
+                    <span class="description-preview">FE required on all orders.
+
+Atlantis #7 also called p galindoi is a species that many growers are looking for. It is a sclerotia producer so you can grow for those magic stones in the rye or for mu ...</span>
+                </td>
+                <td>0.06723442 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: Worldwide except Australia, Finland
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eb1yUpFymX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eb1yUpFymX">Psilocybe ovoideocystidiata print</a><br/>
+                    <span class="description-preview">Psilocybe ovoideocystidiata is a psilocybin mushroom in the section Stuntzae, having psilocybin and/or psilocin as main active compounds
+
+Will fruit on grain, loves sawdust, will grow on many subst ...</span>
+                </td>
+                <td>0.05602868 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pF2s90FqiY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pF2s90FqiY">Salvia Divinorum 6 gm Psychedelic</a><br/>
+                    <span class="description-preview">FE required on all orders.
+
+Only $12 for 6gm. This offer may end at any time so get it while you can.
+
+Most of us are familiar with salvia divinorum or have heard of it at least. It is a psychede ...</span>
+                </td>
+                <td>0.02689376 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Organix2" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Organix2</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Organix2'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

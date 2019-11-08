@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>xdoc</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 447.68 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>xdoc</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">104 successfull &#116;ransactions since 2013-02.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 5 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Pratar &auml;ven Svenska, s&aring; &auml;r det n&aring;gra fr&aring;gor skicka ett meddelande!<br/><br/>Welcome!<br/><br/>We offer Weed, Opiates, Benzo and Ammunition of what we get in.<br/>More products will come in the future as long as there is a demand for the products.<br/><br/>All non-domestic orders will be vacuum sealed for zero smell through customs.<br/>And all domestic order with weed and ammo will also be vacuum sealed for smell.<br/>Envelope sized, fits in mailboxes etc. Securely packed, no rattling etc.<br/>Not enough feedback? Send us a message and maybe we can agree on something!<br/><br/>Terms are as follows, full escrow if you have enough &quot;real&quot; feedback.<br/>If seized and customs notice provided 50% refund of product value or reship to new address.<br/>If your country have poor Postal Service and requires tracking to arrive, contact us before ordering. <br/><br/>Our goal is that business here should be handled professionally and both parts hall be happy for a good deal!<br/>If you have any questions or inquires just send us a message.<br/><br/>If there are any problems with an order, don&acute;t just leave bad feedback in anger and move on.<br/>Contact us directly if a problem arises, we guarantee to come up with a solution us both will be satisfied with!<br/><br/>Best Regards, xdoc<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQMuBFLCIiYRCACmkTZUDdeVGCQ9juULAISF3qXR62SlKLGSJOz0+kR94a8GQlVD<br/>+P+bXUJxrdYWJgjq4nismf0D6NE+Uua/Slo9k/CR8WS2/lSx/ZAMSuuZUchaR7Bw<br/>Ukkq+2vdQbl4so/uTc0V6YccVIUVnn9jRrCDQ9zbzcq5zkYeACqb+H/sR32PgCdM<br/>IGhRQpElcvgmlybbjd2Gdad42fk9W/mbIfaHuuChyVzip//ppowMtANo7V4rdx2D<br/>IdezuuL4SaYlQbOsQNQDc5CDLrGl4cmIES2yGuU/+zsStM9iZSTDBwKRMLlROnjv<br/>knqQbrh8qnltEQJGD4GRnIdgXKkHB936gWhLAQCd3ORR56sI6PjnRZ5+fYye6T33<br/>5aTT8ATnM1UHYkrLmwf/R45ViEfUGkYNfeambSTPskPnhxCEO2B/ARBdHr54kG7j<br/>v8WGDy2LEObugS3YEod6j4paTSwP8bCKpOzkmKxyt/LZk9wgUR7TP+m1IFeBaB5n<br/>uVkTUIN6PpuwAJOLlqmg59JFwyHhfOynakT03EpRXkWH1h/bnSQeU6cmucaNT0+u<br/>znHhwqw/ta+SmUBOc+zsQgghSuOUDXKutRdr23528hT+WOQCEWU1QSKTOQ1u2mDc<br/>snTWhQFQNlLC9rGTs0b77ltHkN/l/dl4JYyIYMs7qHMh8reoeQ1+z/E9JbfHt1R+<br/>mImilly4PaFRdPLIaxeilruj+STDjdrokxATm7v9OAf/Vhfo3spH5OtrzQ3sWWLZ<br/>lOPPqC8VNPxkbvL1G/LpXs3SfUSFQ3iHkZidNBeefuDMlMX+BCr7cfggcDUZ3u7N<br/>HbFwBEw2rlsf2/zTl6RA5+7do521tLQm1x1uSv5y4ZkAopzevf1HXQWerH0Km0XT<br/>PaY/L7wmdo/fw8oiFBBl9LP0IUBlVhshJ/QhbTK/h/vrcVprq1uSzayfFHu/hVGt<br/>mPFcWVl6uTRr4skdJB7jibz9t5QvSed4rQOhfkcc6bpzIkS2psPxXXuWJCqB+60z<br/>sDb6h72A4L/X5B7U2j4iWndnmxOFfHzwso8BtsD9X7wekggY2x8pHKnrSQ5CdpS2<br/>7rQZeGRvYyA8eGRvY0BzYWZlLW1haWwubmV0Poh6BBMRCAAiBQJSwiImAhsDBgsJ<br/>CAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRDhHQsul6n6jdQ6AP9HH7tBkYwtxXy8<br/>YVK+m72aCYH5FonXNc3DBCnGAASa8AEAhpvikTpVCxyRXcYs2Q8eANeaTbEfZfhu<br/>P0dcIi+RVKC5Aw0EUsIiJhAMAOiTchHhzO1e6gjSVpIPgIP39z+govI1dvAiH/hb<br/>m7iktwZz4/VR/LyYDQdlQvD5E013DpN55QXSKJix38/oA5oKhccc9nzVVM77XubH<br/>f22OYlSv5fN4wcoqIUFY4BFwlJoirPTRjyrkUVc22OORrjsok3NlpAPlFspiGOy9<br/>i/MxvxJabK3TbL7jxQyJWnMR3sddc49vTJmodwl4R2SMY0WtSD2gLPuY1abZ7ZOe<br/>q2sA4VR7O8ESlGkgP1pBwCOL7T/nAUwrEzpXDoCzH6VMYIteycq8pcb/hv/8J0bY<br/>+BbniDfAr4LDKcodiNn97guaODOb7/5iwE41oScnG45NmZdknA95brVwPd6DyrPx<br/>32ZhfC3nPHhQOEhGLZ++hGrf8MduA3bIIEQYMYWYuILArq7eUR7hCUyAhGDxmObA<br/>6u39HCi5pCKX+G4Yz0xO91QIvr0eN+QLxUgROaYhWApI/dDAyCnUzZO4pEZKb2JH<br/>iBgppjSrdzsRrVTyU66T7xvAwwADBQv+LS+SjAHkIFGGGfo4M6iOk755ogZK5/i8<br/>6QkE+69XxxbF5dDGy2Rjx+2pij4bswjxLAQ9nl0YbWL4E4hrIm9MJbuHwdhMM9Rx<br/>LjfGAhbK7w8md1TOWrJ9VfJ4/PBRiMMvdewObow/oyCMzz2+7Xn5zq66DZnINBMv<br/>76fKG/Wql2trK9j5S/bmeiYfmQXmOBOLEePURo4r3EPxfyZoJ2Y1pNog0LaCqOew<br/>l5Z2+EnpxidFjKOvrWO3yrPKPEpimBWeiz04LXBnUe6wS93YShErWTtyK7OYEqgJ<br/>RSvABSSpabwm3KmPuIymwplxE8Vls5GStKvdMpZH2EsMHNfWjiPvpmF9A07uWqHe<br/>0qd4rhI7uFy1OUSKpjmiX57iF/p9JoYQVXMqxjthcU40H4tjNC7rFlXqFgw5i+pM<br/>74PI8yYxV4ienEl1CfXjEeXoy70yLBYn8RT3M6dFUIKGdkeDmAu3lCp6JZBJsv89<br/>9W/vG3HLjuBaPE0+pJmLTJgsE4m/O7IuiGEEGBEIAAkFAlLCIiYCGwwACgkQ4R0L<br/>Lpep+o1uCgD9EQgTaGqfsQqs0w3rr0NxMIA6iLhSr+707yWy+BvSMdUBAIHEBOqH<br/>EgOVwZ5MlZL8ErqNNFPT07I4ImnaDH8Play9<br/>=QHJN<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>XDOC IS WORTH HIS WEIGHT IN GOLD!! AND AS ALWAYS, TOP RECOMMENDED!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Tog n&aring;gra dagar extra men inte xdoc&#39;s fel:)
+Annars bra gr&auml;s och bra stealth!
+xdoc &auml;r trevlig och hj&auml;lpsam med, rekommenderar </td>
+                    
+                        <td>
+                            <a href="/p/ZyM6g7mf2U">
+                                5g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>thank you for your serious / / super fast delivery / / / top seller</td>
+                    
+                        <td>
+                            <a href="/p/G08gwvxUqS">
+                                9mm Luger FMJ - 25pcs
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor! Communication 5/5 Product 5/5 Delivery 5/5, my new go to vendor!</td>
+                    
+                        <td>
+                            <a href="/p/cRlpA4qpVX">
+                                10g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Shipping faster then Light quality SNOOP DOGG quality</td>
+                    
+                        <td>
+                            <a href="/p/ZyM6g7mf2U">
+                                5g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very nice! superfastshipping.</td>
+                    
+                        <td>
+                            <a href="/p/ZyM6g7mf2U">
+                                5g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>TOP VENDOR, TOP RECOMMENDED. THIS IS THE GUY!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Snabb leverans, bra kommunikation med s&auml;ljaren och utm&auml;rkt produkt.</td>
+                    
+                        <td>
+                            <a href="/p/cRlpA4qpVX">
+                                10g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great</td>
+                    
+                        <td>
+                            <a href="/p/cRlpA4qpVX">
+                                10g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very quick delivery...top vendor!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>NICE ONE THANK YOU NEXT WEEK WE ON ALSO.</td>
+                    
+                        <td>
+                            <a href="/p/iJ67ZJ7mV1">
+                                5g Weed - Hybrid
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All good, A+ seller!</td>
+                    
+                        <td>
+                            <a href="/p/DiuqeZ8C4u">
+                                10g Weed - Hybrid
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Best vendor on agora! always top stuff! fast and super good quality! will order again</td>
+                    
+                        <td>
+                            <a href="/p/ZyM6g7mf2U">
+                                5g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>TOP VENDOR, WOULD RECOMMEND!!</td>
+                    
+                        <td>
+                            <a href="/p/gZ4XZBwhKx">
+                                9mm Luger JSP-F - 50pcs
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great packaging. Seems friendly in messages. 
+
+Strong weed but a bit harsh smoke. Gets better after a couple of days since th</td>
+                    
+                        <td>
+                            <a href="/p/ZyM6g7mf2U">
+                                5g Weed - Sativa
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast. Unbeatable for the price.</td>
+                    
+                        <td>
+                            <a href="/p/G08gwvxUqS">
+                                9mm Luger FMJ - 25pcs
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>PERFECT, PERFECT, PERFECT!!! Awesome speed and everything. Thank you very very much!!</td>
+                    
+                        <td>
+                            <a href="/p/MZ61ciLoE7">
+                                9mm Luger JSP-F - 25pcs
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Outstanding service and quick delevery.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of xdoc:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/csudn6tei6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/csudn6tei6">50mg Tradolan Tramadol - 20st</a><br/>
+                    <span class="description-preview">Tradolan 50mg 20st
+Actavis kapslar, Svenskt Apotek.
+
+Skickas utan karta.
+Begr&auml;nsat antal...</span>
+                </td>
+                <td>0.16976032 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/oU2BUePVFg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/oU2BUePVFg">.22LR RN - 100pcs</a><br/>
+                    <span class="description-preview">100pcs .22LR Remington Thunderbolt.
+Round Nose, 40gr.</span>
+                </td>
+                <td>0.21220040 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gZ4XZBwhKx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gZ4XZBwhKx">9mm Luger JSP-F - 50pcs</a><br/>
+                    <span class="description-preview">50pcs 9x19mm
+Luger/Parabellum/NATO
+
+JSP-F 95gr.</span>
+                </td>
+                <td>0.29037950 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/G08gwvxUqS.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/G08gwvxUqS">9mm Luger FMJ - 25pcs</a><br/>
+                    <span class="description-preview">25pcs 9x19mm
+Luger/Parabellum/NATO
+
+FMJ 123gr.</span>
+                </td>
+                <td>0.16752663 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MZ61ciLoE7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MZ61ciLoE7">9mm Luger JSP-F - 25pcs</a><br/>
+                    <span class="description-preview">25pcs 9x19mm
+Luger/Parabellum/NATO
+
+JSP-F 95gr.</span>
+                </td>
+                <td>0.16752663 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CpfjDrijUc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CpfjDrijUc">.22LR HP - 100pcs</a><br/>
+                    <span class="description-preview">100pcs .22LR Remington Subsonic.
+Hollow Point, 40gr.</span>
+                </td>
+                <td>0.23453729 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UuVWBW5hGg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UuVWBW5hGg">12G Slugs - 15pcs</a><br/>
+                    <span class="description-preview">Remington - Rifled Slug.
+12G, 70mm, max 1050 bar</span>
+                </td>
+                <td>0.23230360 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GgZCNtNG92.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GgZCNtNG92">5g Hash</a><br/>
+                    <span class="description-preview">Hash - 5 gram</span>
+                </td>
+                <td>0.20103196 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/KavPMu8yTi.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/KavPMu8yTi">9mm Luger FMJ - 50pcs</a><br/>
+                    <span class="description-preview">50pcs 9x19mm
+Luger/Parabellum/NATO
+
+FMJ 123gr.</span>
+                </td>
+                <td>0.27921106 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/m546ZnPDb4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/m546ZnPDb4">12G Skeet - 15pcs</a><br/>
+                    <span class="description-preview">Sport - Various brands.
+12Gauge, 70mm, 24gram, US7, steel/lead.</span>
+                </td>
+                <td>0.07371172 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="xdoc" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to xdoc</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'xdoc'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>lonelyimage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 446.36 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>lonelyimage</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 11 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG C# v1.6.1.0<br/><br/>mQENBFLZwfsBCACFgIYzfu4vQSkUwPpxUdttdib9dH9IO6Tmco9v3cquokN4xVKl<br/>fX8aqaDG9uMS0kNUxmgNTkf4Oi+QkkweKvtlQ2GhNOhMow0LJ+TxDlqxUeJD+7Rx<br/>bDx47oqv7kU+/Rf08EbxOrHuvlFd4hNrBy5thVdfYCEoxWdGpPZcEos6g/JKBxrs<br/>yOf4L6zEKy5YdSwnepKzxIsSVBFgWLFSPXeWGXWFuGT6jDel3XtNhQySlZkD/w1M<br/>RTmR0LYtLC0Gbdj3YCKDPirGB7JKgiWiP5TcBM7qHY37xMuL8/aaf1QtL9m/lp8T<br/>KIn/dLK6cabYbuKCc+P5FiMGXt3eUH1zY6/PABEBAAG0FWxvbmVseWltYWdlQGdt<br/>YWlsLmNvbYkBHAQQAQIABgUCUtnB+wAKCRCXrtkMxHhbUSEFB/9XVE4o5zLg5cdg<br/>/y7bOPUH+vowCOke3wcQ94CvBDCH6k7VbahnL4BMcpuG2h1YSlOYry4nhFuGeuXn<br/>qK1QjZi5GMXj6zIGIT8x34E9JUvZ1UPVDqaisicxRE4+P/YIKirc0RaWvWDsJ5I0<br/>rsMUIkrzAmr773sXrnp2KPdSy9PS5+4npTUevUBDltFl41VwjtOp3yi6U9YJmr9T<br/>7h8XJhZ9XOkhdQqchf0G/zR02NPISjvmx5VIieVnIwbMw34yfPl4Woqf+D2TGv9B<br/>FkP8mhB1QISBGBliEZtiMvOBOTNgiP2e1Ka+fF5yB/T6GEJXYhOlx6VxuF11Zaex<br/>ESgHLLK7<br/>=Hn+b<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great buyer, quick &#116;ransaction, 5/5</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.96/5, 70~100 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Hope all was good. A+</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great customer. A+!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.96/5, 150~200 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.989/5, 500~1000 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of lonelyimage:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/b06WT88ge4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/b06WT88ge4">Western Union Scheme to multiply your money</a><br/>
+                    <span class="description-preview">Hi guys.
+
+Im very old in this business,i have massive data of moneybookers,hacked paypal,bank logins,fullz and also working on libertyreserve payments redirection and get 70% success on it.
+I deci ...</span>
+                </td>
+                <td>0.44806882 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/ciRFSYmc4c">List of Cardable sites</a><br/>
+                    <span class="description-preview">List of cardable sites for those people who wanna try.</span>
+                </td>
+                <td>0.01120172 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/DFkxemPS9R">Custom for crazy</a><br/>
+                    <span class="description-preview">Custom for kindle listing</span>
+                </td>
+                <td>0.12000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/kLTirqt2Vz">Secrets of Hacking exposed</a><br/>
+                    <span class="description-preview">An e-book to describe and guide you through the secrets of hacking. A very good guide for &#98;asics and new hackers, experts please do not buy.</span>
+                </td>
+                <td>0.01120172 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/FLLUFDcCLc">Cashing out service - &pound;50</a><br/>
+                    <span class="description-preview">This is a temporarily sample listing.
+&pound;50 for your BTC for first time use of this service.
+So you can see yourself that i am legit.
+
+Fee:
+You pay a 10% fee for making this service available.
+Th ...</span>
+                </td>
+                <td>0.20163097 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/hXwDsUeVjT">Paypal Withdrawal Guide</a><br/>
+                    <span class="description-preview">This is a guide to teach you how to use stealth and protect your identity efficiently when withdrawing from paypal.</span>
+                </td>
+                <td>0.01120172 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/gx4GWyPB3s">*Premium* Amazon Refund Service ( Buy from Amazon for nearly nothing!)</a><br/>
+                    <span class="description-preview">I introduce to you the only PREMIUM Amazon refund service at only 30%! That&#39;s right, only 30%!.
+
+Why is my service so premium but cost is so budget? Simply put, My Social Engineering skills are SEC ...</span>
+                </td>
+                <td>0.06721032 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: Internet<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/VlaUMUF1Lg">Get unlimited Instagram followers!</a><br/>
+                    <span class="description-preview">This teaches you how to get unlimited Instagram followers.</span>
+                </td>
+                <td>0.01120172 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="lonelyimage" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to lonelyimage</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'lonelyimage'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

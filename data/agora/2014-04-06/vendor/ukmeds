@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ukmeds</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.98 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>ukmeds</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 4 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFM9t9EBCAC7gYlFd8N4lmeDBbNIKPaQOXelBl3MQpm635IdwMs2aw9X6Ly/<br/>HQZZkl+ejgMAY+00HtLesNTFrg/14F5Lqeh3qJWERMN3qIjLlQPnav4NnusCr6Eb<br/>6xFrn5ELlwYJaOW8xxnZPd2JylE4pN/NydtO49eNPiTiTHJJiOU+zAf3Pl9iyzD5<br/>5t1j2j7Ms3QvtG9t7F3Sh4z7SXD5D1ecB8yF429G+KbVCArSuChbagrYvKwtvbWl<br/>c5kiOKkwZSKU4O6vRMkVDhLAGmGS/GWhR+p6XOv+hI687Q4H+bPxQfKIjtLWRuEf<br/>Dnkg5nOGvwQwq&#109;VC69mfNKbKp4/CVVLs2y7RABEBAAG0G3VrbWVkcyA8Z29sZmVy<br/>QGhvdG1haWwuY29tPokBOQQTAQIAIwUCUz230QIbAwcLCQgHAwIBBhUIAgkKCwQW<br/>AgMBAh4BAheAAAoJEGiUIjOMUkp3kbQIAKwvOKzwLhQ5tNdJlYQCcmPBmIy6i6F8<br/>41qtmI7neupMNLgWgDTQVhhHnHYhh4nhH4fijNhpmRn/4X8LQQ+5W5pGxJXIiXiB<br/>9+cPqLntAJu2/bdff3dvMLFTFDnHnYz0MnFTX3RtIn5cC0u3Nti++2kpJGHDTQI1<br/>tk7uVVOLyTvcwrZhsIPt5itREDVL2C587P/TMhZhsuE5dbHtva9zynAJwvv4rW31<br/>MY0myMzGx0LhVf6FQkyVQrpPddhaqcbV1kYvJeKHmJOzqpXtiIjkiph7R7BsruFr<br/>4sJXHlDN5r8/ZUM7eRVv4yBAfQzxfaS/YbK/q9mLDp/Ab+LKz/x9cGm5AQ0EUz23<br/>0QEIANO02CM6bYcjRYrU&#121;iIpD0d0vek1VFbSep8rBnDHvi+kjuG2yqgn6aJR3VeH<br/>PqI7wTaIhyLJ6VhUq1zzfdgtCcu1HGMmi+xdMxTuLhuIoHZ8eNPNseLaAR/qOFak<br/>wPkGBSYBMTnnxPgaZOd9p7lGK+AuYsgCJY0q9HOTWEoqw2IKyTzg9J73cVj8gPt3<br/>bHw81PBzF6FiB5XRqF5wJpsMr+YcVIbJA9mb8octaIsUGiLPdZwmM7yKhI8o/erE<br/>8eTkPA569edLIAwYDwHqmCXFTWo05xyyGd4LXuUj0CLN4C27xJd14qhwKp0DB6rR<br/>Sa704LVbYfua3VNHTHAn3J/EaokAEQEAAYkBHwQYAQIACQUCUz230QIbDAAKCRBo<br/>lCIzjFJKd67jB/0df92Q8OLDSM6HlrCzagecjTgQDOCh2ZNrW5g9LQw8rM8v6XdN<br/>gfdlFS3XxyuGw0ZEOPj5bj+hy4lvGKkCbYvLeI8yYZkoICxYP7aR+cfGaBTp+RZv<br/>VUooP42L1ZojBND0O7OHplf3vimy7BEnYt0M9vf8ATqBzSMNYKjgmpTbKyjRjAiy<br/>iSv5uT9bnpZ5L7GiNznF/qqhIa3lEB2irhb5MhF9UV81g+NDBPE21FX78LTRkUGH<br/>XQYH4p5rqk1Cme5ybUkImadJIbJ9eJ7gXTKgvFHfmYkZzg35RpK/1Fk4mpsTN0c5<br/>4B+S+EdwNzWBKvfshKbPIjRMAHOHdbAR6mSU<br/>=gGR2<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of ukmeds:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MmidfqulpG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MmidfqulpG">100 X 10MG DIAZEPAM</a><br/>
+                    <span class="description-preview">100 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested qual ...</span>
+                </td>
+                <td>0.26549847 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Nc0usc7KsZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Nc0usc7KsZ">steroids deca</a><br/>
+                    <span class="description-preview">this is for 550mg of nandrolone decanoate deca-durabolin
+
+contains:
+ 3x 100mg vile
+4x 50mg 
+2 x 2k mg
+
+these are one shot viles 
+
+all still within use by date (2016)
+
+shipped from uk to th ...</span>
+                </td>
+                <td>0.13274923 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK only
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Csr9p73bRg.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Csr9p73bRg">5 x BRANDED VALIUM</a><br/>
+                    <span class="description-preview">5 x 10mg (blue) diazepam / vallium
+blister packed not the white valium some sell
+
+UK SELLER!!!!!!!!!!!!!!!!!!
+
+WILL BE DELIVERED 1ST ROYAL MAIL DAY AFTER ORDER
+
+SENT WITH STEALTH
+
+larger qua ...</span>
+                </td>
+                <td>0.01769989 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ygJhDucqCx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ygJhDucqCx">10 X 10 MG VALLIUM-DIAZEPAM-BRANDED</a><br/>
+                    <span class="description-preview">10 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested quali ...</span>
+                </td>
+                <td>0.03318730 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hfbGU7NNmR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hfbGU7NNmR">valium</a><br/>
+                    <span class="description-preview">20 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested quali ...</span>
+                </td>
+                <td>0.06637461 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/iSeY3Knn63.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/iSeY3Knn63">30 X 10MG VALIUM-GENERIC-DIAZEPAM</a><br/>
+                    <span class="description-preview">30 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested quali ...</span>
+                </td>
+                <td>0.09513695 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xe7Epunwyc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xe7Epunwyc">diazepam 25 x 10mg blues</a><br/>
+                    <span class="description-preview">25 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested quali ...</span>
+                </td>
+                <td>0.08849949 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JyhV1ohk2t.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JyhV1ohk2t">3 x 10mg diazepam</a><br/>
+                    <span class="description-preview">a listing for 3 x 10mg blues
+
+from a UK vendor, shipping to the UK only on this one
+
+LARGER QUANTITIES AVALIABLE TO WORLD WIDE DESTINATIONS
+(UPTO 700 TABS)
+
+WILL BE SHIPPED 1ST CLASS, SAME DAY ...</span>
+                </td>
+                <td>0.01327492 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/EBuJ98N6x3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/EBuJ98N6x3">10 X 10MG DIAZEPAM GENERIC - VALIUM</a><br/>
+                    <span class="description-preview">10 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested quali ...</span>
+                </td>
+                <td>0.03318730 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: WORLDWIDE
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/hz1PJqtr99.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/hz1PJqtr99">1 X DIAZEPAM 10mg</a><br/>
+                    <span class="description-preview">this is an ad for 1 x 10mg valium,
+
+theese are blues, in blister packs only place on agora you can find theese particular valium.
+
+sort of a sample, so you can try out my product before buying la ...</span>
+                </td>
+                <td>0.00442497 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TZ2E7J0ow5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TZ2E7J0ow5">5 x 10mg diazepam</a><br/>
+                    <span class="description-preview">a listing for 5 x 10mg blues
+
+from a UK vendor, shipping to the UK only on this one
+
+LARGER QUANTITIES AVALIABLE TO WORLD WIDE DESTINATIONS
+(UPTO 700 TABS)
+
+WILL BE SHIPPED 1ST CLASS, SAME DAY ...</span>
+                </td>
+                <td>0.01769989 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/J56mx6GaBM.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/J56mx6GaBM">valium</a><br/>
+                    <span class="description-preview">100 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested qual ...</span>
+                </td>
+                <td>0.26549847 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UAWNTw9Wal.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UAWNTw9Wal">560 X 10MG DIAZEPMA $650.00</a><br/>
+                    <span class="description-preview">560 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested qual ...</span>
+                </td>
+                <td>1.43811673 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: WORLDWIDE
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kSkeMdKa5U.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kSkeMdKa5U">100 X 10MG DIAZEPAM $15.00</a><br/>
+                    <span class="description-preview">100 x 10MG branded Diazepam/valium(blues)
+scored tablets.
+
+distributed by P.P.M laboratories (french made Diazepam)
+
+ONLY VENDOR ON AGORA SELLING THESE DIAZEPAM!!!!!!!
+
+
+tried and tested qual ...</span>
+                </td>
+                <td>0.26549847 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wAPb6qClGq.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wAPb6qClGq">5 x diazepam 10mg</a><br/>
+                    <span class="description-preview">a listing for 5 x 10mg blues
+
+from a UK vendor, shipping to the UK only on this one
+
+LARGER QUANTITIES AVALIABLE TO WORLD WIDE DESTINATIONS
+(UPTO 700 TABS)
+
+WILL BE SHIPPED 1ST CLASS, SAME DAY ...</span>
+                </td>
+                <td>0.01769989 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="ukmeds" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to ukmeds</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'ukmeds'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

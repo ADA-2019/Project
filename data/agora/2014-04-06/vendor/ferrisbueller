@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ferrisbueller</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 449.99 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>ferrisbueller</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">11 successfull &#116;ransactions since 2013-11.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 5 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQINBFKlKyEBEACxk8gHh4WFvUs0ow+FMaJJeEC12gHt4p8k5c/DZ033QjG+wUIR<br/>+VL81iKOmd4y9F+kIFEYTwlxhAJfv2J8g5bL2ppPIcslrx3XQUZ9H6AIMLIoLlYB<br/>pEzUzTwivdmvF7zxChrrchl9oobcubCZCwjOJLGv0VF8K6rqsjMytn8Gh8ReeOPj<br/>CzzX4uw/dLGruwlJTw9BEoNR2Hdv7V9Saevtv8K73XhP4GKsJEb38X64dnsyEV6v<br/>ORBD9pb5YZwTsN1Vl8qZyrnx1GzhJ2S/8ZFLBR2XXRCTpsqs2AdagXcyN8npf0ql<br/>rpe6raFISpLQVnAle1xOk2vRh0hgPwupNBWQtIhmPPL2GyRMfcxCw66NK33leSMw<br/>J7YOAfovKELI247RF1y4tWvI6M7LgvCPetmKOtBONl3qZIbTWBP0ocMAT3twHyqE<br/>rUuiNcfUDh8mhORbMNLlhGOkgSfgEjXSVilJUL7EWmNL9wNtsl/UTLxfWgE3zu1j<br/>6ZdT718M2l2jTzP8T6Vj3GygLoHkHnOb+yaNqE3p2zqwFhFaMfyuWmSn4s3yqT5q<br/>XXs6LggfnwMJD1Fv+C1Cz7ZA0iixojukc8A+jOuHQM2TsW0N8bKvm8km1WIo4gHA<br/>QDKbOQ8ZKDVFOv1xQMPbRmYi4QoEGPcMpwTz36pTziCprrlOHwcqXCtytwARAQAB<br/>tDpGZXJyaXNCdWVsbGVyc0RheW9uVE9SIDxmZXJyaXNidWVsbGVyc2RheW9uQHNh<br/>ZmUtbWFpbC5uZXQ+iQI5BBMBAgAjBQJSpSshAhsPBwsJCAcDAgEGFQgCCQoLBBYC<br/>AwECHgECF4AACgkQTCod3YqYGZWKFRAAjPN1hWbbwr4WfR82mrvyJre31pyhYWgX<br/>82bNo59Fr3x0FkdoDkDoD3EkSWkEp9BlKRjvAo1tC18wJCpgkgHckbg+2Xybu3XR<br/>1dFn9ZFLg6ojGXuU5Af1IeouM7k95R3jUNMeGiBfDcjekQGvlJmSzKr/25Rym9mU<br/>azGcTeDNR+Y+6vx79ecsWE/rKcdtSKbCeewL1481Yd4oE67CclZKInu6/DuK74Tv<br/>3oL7ij9buHanie1PbGqgU5oxrt18JLQWnE0gK+XQ799tobBeuGQfCroK6w/xyXVb<br/>xrBO04BB4vK1skatnyrmU9Zj7axUVV0Al+y9BgA5QD6lKc4HJ5tlcsO/AKjQfd0I<br/>KFYmCJXRHYuLfx4TTT4Y0Iab25KHXYgUM8SvKW9pC07/H3VChHVz+tXpZrG9+gY4<br/>Q2zeRWOwOKjLFbdKyvH7LykEJ0HowooahjxxlZngnLpdrwhEGCnQZDymU7x4UF8F<br/>+FD1+qp2GqUs5POUFnNpzS04cRTINHGa8OAZE/GL0S50Fw7TcAHYrAI69vKhXhU/<br/>ifk9bgAwIPIdFpJ8r0xI7YsdSQV2/tCdA4Ef9ncmPoZ2Kr+tcGZwsjb9z4NQCKzM<br/>tPbAtOBZ4eCsaimstZJJwvYvRq12f5pmyO5/1AAayLgPEuSI0o6CrZWu5sLf4XlD<br/>M29MvqrRTE8=<br/>=6p1h<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/w4tNjJl04E">
+                                VYVANSE 50mg (Brand Name) [Discreet Worldwide Shipping Available]
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Highly trusted vendor.</td>
+                    
+                        <td>
+                            <a href="/p/kJysWbnFiy">
+                                1g of Ketamine (Crystal Form)  [FREE Stealth + Worldwide Shipping]
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/kJysWbnFiy">
+                                1g of Ketamine (Crystal Form)  [FREE Stealth + Worldwide Shipping]
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>About a week to arrive. Top notch! Great Vendor!</td>
+                    
+                        <td>
+                            <a href="/p/kJysWbnFiy">
+                                1g of Ketamine (Crystal Form)  [FREE Stealth + Worldwide Shipping]
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/kJysWbnFiy">
+                                1g of Ketamine (Crystal Form)  [FREE Stealth + Worldwide Shipping]
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Nice and easy. Thanks.</td>
+                    
+                        <td>
+                            <a href="/p/kJysWbnFiy">
+                                1g of Ketamine (Crystal Form)  [FREE Stealth + Worldwide Shipping]
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/w4tNjJl04E">
+                                VYVANSE 50mg (Brand Name) [Discreet Worldwide Shipping Available]
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Just as promised.  Thanks!</td>
+                    
+                        <td>
+                            <a href="/p/w4tNjJl04E">
+                                VYVANSE 50mg (Brand Name) [Discreet Worldwide Shipping Available]
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of ferrisbueller:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kJysWbnFiy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kJysWbnFiy">1g of Ketamine (Crystal Form)  [FREE Stealth + Worldwide Shipping]</a><br/>
+                    <span class="description-preview">You are purchasing - 1g of Ketamine (Crystals)
+
+# PLEASE SELECT THE QUANTITY YOU WANT IN THE SHOPPING CART MENU #
+
+
+BUY WITH CONFIDENCE!
+* Vendor on SR2 for 4 months (over 40 &#116;ransactions)
+* D ...</span>
+                </td>
+                <td>0.15000333 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Kvxlp4swqw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Kvxlp4swqw">ADDERALL XR 20mg (Brand Name)  [Discreet Worldwide Shipping Available]</a><br/>
+                    <span class="description-preview">YOU ARE ORDERING - Adderall XR 20mg (Manufactured by Shire) [NOT GENERIC]
+
+
+# PLEASE SELECT THE QUANTITY YOU WANT IN THE SHOPPING CART MENU #
+
+
+BUY WITH CONFIDENCE!
+* Vendor on SR2 for 4 month ...</span>
+                </td>
+                <td>0.05222338 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vyqTbv78ei.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vyqTbv78ei">ADDERALL XR 30mg (Brand Name)  [Discreet Worldwide Shipping Available]</a><br/>
+                    <span class="description-preview">YOU ARE ORDERING - Adderall XR 30mg (Manufactured by Shire) [NOT GENERIC]
+
+
+# PLEASE SELECT THE QUANTITY YOU WANT IN THE SHOPPING CART MENU #
+
+
+BUY WITH CONFIDENCE!
+* Vendor on SR2 for 4 month ...</span>
+                </td>
+                <td>0.05777906 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Czzts7hJ4A.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Czzts7hJ4A">1g of COCAINE (Good Quality) [FREE Stealth + Worldwide Shipping]</a><br/>
+                    <span class="description-preview">You are purchasing 1g of Cocaine (GOOD QUALITY / TESTED)
+
+# PLEASE SELECT THE QUANTITY YOU WANT IN THE SHOPPING CART MENU #
+
+BUY WITH CONFIDENCE!
+* Vendor on SR2 for 4 months
+* Described as a t ...</span>
+                </td>
+                <td>0.17778172 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/w4tNjJl04E.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/w4tNjJl04E">VYVANSE 50mg (Brand Name) [Discreet Worldwide Shipping Available]</a><br/>
+                    <span class="description-preview">YOU ARE ORDERING - Vyvanse 50mg (Manufactured by Shire) [NOT GENERIC]
+
+
+# PLEASE SELECT THE QUANTITY YOU WANT IN THE SHOPPING CART MENU #
+
+
+BUY WITH CONFIDENCE!
+* Vendor on SR2 for 4 months (4 ...</span>
+                </td>
+                <td>0.05889019 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="ferrisbueller" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to ferrisbueller</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'ferrisbueller'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

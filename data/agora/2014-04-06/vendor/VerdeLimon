@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>VerdeLimon</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.35 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>VerdeLimon</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.71/5, 15~25 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.11 (MingW32)<br/><br/>mQGiBFM1EigRBAD0AC8ZRkFh2bEVTqNi/k5cKE0FQJwMhvqPDjCTZo8fjXW9ctZD<br/>pyk/GMbWF1m/gHScUSbN3OfBf8OgAcy1MqrLrDqDiSZ8F/fFOY04Pg1IDgsMlYK4<br/>RDZUzD67Obrw0khheem1YemMIwuryvNwjraHNYSrOtct4CRkYbQMgoo5hwCgsnRs<br/>+8yMJ40x2s0sGdNwphK58gcEAOiDyONGNgtHqnWj/pd3RfrTQFRGiuxGw1yDVNby<br/>fpHL5vbIwi4vQjPQjuhvdRyq9YfVNClgm0PShYoPFd/XPBD2XMUWziYGWpU9beYK<br/>Thuq7yb3ofkQXzbceWmtBqRXocKrBbeVvdQG9mjDslGFw/PqJnzsOPPKZ6nv1maI<br/>027nA/0WhVSqW2DzrAbmU0vqQk0efxkQRFPdv7SD666piHkDl7bhabGJmXnBz9ps<br/>UpENID4qq2p2cUEA5O8maX/VtkowzJVIsUV3w/wgijxlGgOiLBKqTmmGfvCSHpBr<br/>Zm1pcJzsGZTSZWfRil9DyC4YbgJNa+cue0odQqdyhrz7+b+rn7QcVmVyZGVMaW1v<br/>biA8VmVyZGVAbGltb24uY29tPohiBBMRAgAiBQJTNRIoAhsjBgsJCAcDAgYVCAIJ<br/>CgsEFgIDAQIeAQIXgAAKCRB6xpyqNyHp/TWQAJ4sr3qCpK7tZ86J8laJa+TPs4l0<br/>EgCfZ9h2iC2mOKqcxXhlRlZ8n3EiOAm5CA0EUzUSKBAgAK0ZtPndvqMVTOAhZndL<br/>69uP3/RkhkZj/Rw0TPY58piV4uhFRpsNBXhhFVDG+nxpK59qnsArQIxpb4fwULZr<br/>LKuHM+Mc5v+y4A0eB/4ent40mEnOsC5KC7lRRwUzGVlwfCLgh0lhh39us9DdJYbM<br/>zU9hXRYF1Xhs6fuPAUCwN6K8M8FJoAkt758nEbySZ/lnyLWS7BbPoj/eunnTQHcE<br/>7U+MeIgsmF4PMvrFhnsn/Pf+27b93myPK9TumyuQY0JihUwKQDk6&#105;ISibAHGTdp8<br/>u94EcGODPfAle3FbPvLHgBEDpMv9dO4vsv9gJDSpQQiN6M6IoSsL15tiheg0PapK<br/>NMwZ7Gzpr+2+gBfkh9e3eCx/peZ+B4Qn5+DVlK9a/ay5pN8ssfrrjr4d+2LEdoQe<br/>sPUH9gkC2XPfrJT/lVkny64EzJ6BRREy8uOqcA0Ijl8tS5ZDpqBwVHctYefkLZIC<br/>+WFGo857UbvSZOgKSG3rQbUQeoOgV04eZEcujBIdexrLhPhfcus95y90zDqkDX76<br/>dHYo3CumCgJJhoIV0nmRoM3v8RpMXFQhxLJ5kgORLQC17uqBW7fs1XegpFL0OJer<br/>1A7Hja22owrkkWvV4q/wJBM4eZn70QeLfDHFatPANtp2EQX3/NiM7xdb8bI9DVeu<br/>ce5C8ycYysR80yZvYTNOtQ/4SEwaZSCQoSi4YKaLSLu2SsHjxtkCcXuGb9tiTrfE<br/>zUGzY9yvGrecc3oqj+H4NFt2R2He+RiRzeXsbgyf6A5X8UMe4O3NMY8TYgjQ6yql<br/>iSakEMrf6iQwhi8lyq/FjqfhhiNvVd7O8HdvPz5FoDzhEj+n46kAkemdAd2e75Z1<br/>Nid+Q3FaW+okZL7Q5yNwMR7xQ/dJG9lMlG2lFRKVMvAxkt26E4vecQ8HBYn3dY1D<br/>HpUUrgXXbsbaB/VaHjuxQGoNrpiaQCRfuBvZQgQnilpA7eBMZZvY2wk1vpBPIB1h<br/>bXen5rVNbyQpj6N/pimHBk3tScy5Jbc8f4mljWS6gmrGsOJp/8zBHv1bRBrt189H<br/>rsLiu6bAHGCSSbDMKBB7tCKCDhF9/opv23fBOXiHmfcd2AgoAXgmAEGZmv4Fdzo4<br/>KUizmTKG1NE/u3s8w55NZM2CqJV23O1LBsMDTGIOfAUIibym64IFrOT6KyteqPZ1<br/>X1zcxXt47bxzpijqlpXQGfJ+4c4P1fSP3vx2FOOOiWUfrAOHFzqK/AfzrAjhK3PJ<br/>UIvdF1mT5johBMprYJjMgEztWQYUqd4DmWnHsjI6nk8qL4pxDTpUR2RUVWXhTYDf<br/>JCRLYZvT68/Ug7XVOK5LDd0x5eer26OU+jWaVlPm+cDPRiByeE3W7o+Z+RmE/0jR<br/>v0MAAwUf/jBf3CsqHQ7waLhsenFROpGNxcFDghdDJIpicVAvZQ9eXrMIGUCWeexR<br/>or4uglTS3cwqRYypU8zvdbBQiXhmxsr0cNJtOL6v4Anp70DK4UsgqnsVmWoOwys3<br/>+Lyc0h3JTxjzQAszGIwKrt3ryl1VE9BF7kAJZq3APOEMcPDijpIAikM9ac+GAycn<br/>BIHAH3Fgdtof7hBm6isD8EwI1joZiLAmjN3dpFnVJgqYLuBdTXO1I8yasyjaBNLO<br/>W3Ge5kxvXmMLxPUOp9OeUGsRLwH1HcCPzkfb6nJZUMTGNSqoFRPsvEi1AJ8Hmy9C<br/>BOWC9drK5nif9egPQLdgjchw1V0bG5I+3yEeJWgEhhxZR6OXkFoU8vzQDZOQKgoy<br/>CTnzO7RHyUfN23zuzi1ATsN7CocLcyi/Hh8AbCAiJg5cGIXXqG4UKquF8e0vVXZY<br/>eCRL6+5bH3gSQcWZOEj97TFMSmayFsgwK0xaKE4bMSD38yoZjLU9br78T3+yuyvN<br/>C7HxT0E3dcwg5zQ1cGLhShh4M7OyQi4h26hi3eP/5fX+hjRDPjs3xndIR6X/fmSo<br/>6OiZzyA17Aux90WGAskuYkc0AcK3hPN683sb1KzXk12ysLF13jGn8Vn2oYel0tpm<br/>FONmojIgRoy51fnt2Az0IzHwck1KEKjvDkGe8NkeP/WRz7S9+KtdSpZqnRbUWwPY<br/>Q5qYgK9luv4eOcJ4LHKz8SfWfIbK7/LmbIscqea6/JMDU+VdFDUdbJ3uBuUOrfFn<br/>X9y7QkX/VTvLbZiy8BJU2p8JAMKOeX2YaLS+aq5XXJDU1sY1yblJLk0ByKle1BpC<br/>+OA/w&#105;isbrTll00xXqekNrVw8EJBPRFw8w3GzPKQavK9nhKE7fy2hnlQ5tQwSpnS<br/>/qxiyl1gyd0XUdB5gzZjO6cbAPpBVojx1Xx+dzw5QGMu4jkixAsvpblxXGQXEILT<br/>ptmCuKNyuA+2knXqzTbNgkrC9V0tjjxCAdKNT3dkDjJQniwtmJJXbso9m3TSd+f1<br/>6g+oKCsYk031ZMrahcdj3RDJdi22LnS6JZYUkVKF5YNoFqCPlWc2kIU1ZBP/inA8<br/>SK0dqa9yP+N8NLY3wQGFbrtpON9mmOOOrbKYwY/sdpUv98sNliz09+3uC3VuwA1C<br/>ahQzdcgjiq3tVTwOYBWsWS36PXZblHLsgYFOzetxnOwXWabk+d9HXTBavEGzrHnR<br/>9NXbIfiixm6+Rx+i75rD3p/vgrcxC8OBLX7u6M4TrJMa+tKcUzkEZUlTihgURZmU<br/>frP6WgioFPxLcKl2CXNSth6ZDnvL13cegPL4OSyVB9YAM4t67SCrvrJlw11FPBXe<br/>a6CWFB/YGVGkeVCSgvVPNPnfXZE+gTqISQQYEQIACQUCUzUSKAIbDAAKCRB6xpyq<br/>NyHp/e0cAKCaKvCky8HNdjBYaYzmH7hVBPBFoACfUqfm7k5ccsCMhGVJ9dakDLQj<br/>dfs=<br/>=Wm5R<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast and great quality.  Gonna make fat stacks yo.</td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>super fast, 3 working days to eu, super stealth, quality TOP NOTCH A+++ . Thanks and Respect!</td>
+                    
+                        <td>
+                            <a href="/p/tlAaYVLhbm">
+                                Ice Crystal Meth 1/4 OZ - 7 Gr. -  Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE</td>
+                    
+                        <td>
+                            <a href="/p/Arcu5jnTpX">
+                                Ice Crystal Meth 1 3/4 OZ - 50 Gr. -  Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order was speedy, communication excellent, stealth resistant to rather aggressive customs. Order with confidence!</td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Another fine &#116;ransaction with the man himself. Great going VerdeLimon!!</td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>THIS GUY IS THE BEST DONT LISTEN TO ANY CRAP, THE STELTHYEST CHUNKYEST</td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Hopping to order again. rating is a 5 Verde is an honest business man.</td>
+                    
+                        <td>
+                            <a href="/p/dtC4xUz1Ce">
+                                Crystal Meth ICE 1 OZ - 28Gr. - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Verde is a stand up honest generous vendor...Amazing stealth, quick delivery time...GREAT PRODUCT...ORDER WITHOUT FEAR VL IS TH</td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>unbelievable,  just fantastic vendor and stuff. 
+this man is my new Idol.  thank you so much.</td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All I can say is WOW!! Awesome vendor &amp; stealth! Product is amazing. Cheers amigo!!</td>
+                    
+                        <td>
+                            <a href="/p/tlAaYVLhbm">
+                                Ice Crystal Meth 1/4 OZ - 7 Gr. -  Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Amazing! Best stealth I ever seen and quick response from a great vendor!
+Gracias amigo!</td>
+                    
+                        <td>
+                            <a href="/p/tlAaYVLhbm">
+                                Ice Crystal Meth 1/4 OZ - 7 Gr. -  Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/dtC4xUz1Ce">
+                                Crystal Meth ICE 1 OZ - 28Gr. - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Wow!! The best ever had in all ways. Incredible quick confirmation and dispatch of the order. Arrived safely with a impressive </td>
+                    
+                        <td>
+                            <a href="/p/dtC4xUz1Ce">
+                                Crystal Meth ICE 1 OZ - 28Gr. - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>Only package arrive with no ice inside. CAREFUL WITH BIG AMOUNT ORDER.</td>
+                    
+                        <td>
+                            <a href="/p/DjMM3kzhxy">
+                                Crystal Meth ICE 2.5 OZ - 70 Gr. - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~0/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>VerdeLimon is the business...Shards straight from the cook. As good as anything I ever tried. Vendor is honest, customer servic</td>
+                    
+                        <td>
+                            <a href="/p/tlAaYVLhbm">
+                                Ice Crystal Meth 1/4 OZ - 7 Gr. -  Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome seller, cant wait for next deal.</td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Having worked with VerdeLimon prior to Agora I can say without a doubt he&#39;s a true Businessman. His product sets the benchmark </td>
+                    
+                        <td>
+                            <a href="/p/wzeTyRDD5b">
+                                Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of VerdeLimon:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Arcu5jnTpX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Arcu5jnTpX">Ice Crystal Meth 1 3/4 OZ - 50 Gr. -  Escrow &amp; Stealth</a><br/>
+                    <span class="description-preview">Custom order- (1 3/4 ounce 50 grams) for Teraqq of the highest quality Crystal ICE Meth. I am working to promote my service here on Agora for all my Dark Web brothers. Take advantage of our low price ...</span>
+                </td>
+                <td>3.14611720 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/MEX.png" /> Mexico<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/dtC4xUz1Ce.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/dtC4xUz1Ce">Crystal Meth ICE 1 OZ - 28Gr. - Escrow &amp; Stealth</a><br/>
+                    <span class="description-preview">I work for you! - I am now shipping the highest quality Crystal ICE Meth- 28+ grams for the super low price of $795 per 1 OZ.I am working to promote my service on Agora for all my Dark Web brothers.  ...</span>
+                </td>
+                <td>1.76138251 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/MEX.png" /> Mexico<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wzeTyRDD5b.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wzeTyRDD5b">Ice Crystal Meth  1/2 OZ -  14 Gr.  - Escrow &amp; Stealth</a><br/>
+                    <span class="description-preview">I work for you! I am now shipping the highest quality Crystal ICE Meth- 14 grams for the super low price of $398 per 1/2 OZ.I am working to promote my service here on Agora for all my Dark Web brothe ...</span>
+                </td>
+                <td>0.88179904 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/MEX.png" /> Mexico<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tlAaYVLhbm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tlAaYVLhbm">Ice Crystal Meth 1/4 OZ - 7 Gr. -  Escrow &amp; Stealth</a><br/>
+                    <span class="description-preview">I work for you! I am now shipping the highest quality Crystal ICE Meth- 7 grams for the super low price of $265 per 1/4 OZ.I am working to promote my service here on Agora for all my Dark Web brother ...</span>
+                </td>
+                <td>0.58712750 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/MEX.png" /> Mexico<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/Jd2KiaMkyS">Cocaine Acetone Washed- No cuts! - 14 gr. o 1/2 ounce</a><br/>
+                    <span class="description-preview">Custom listing for George XXXXX.
+1/2 ounce pure cocaine...acetone washed</span>
+                </td>
+                <td>2.21557549 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/MEX.png" /> Mexico<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="VerdeLimon" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to VerdeLimon</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'VerdeLimon'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ThePrinter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.89 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>ThePrinter</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;3.20/5, 6~10 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">6 successfull &#116;ransactions since 2013-04.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 6 days ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.12 (MingW32)<br/><br/>mQINBFFzWi8BEACYUAEztBGY7soHuhYh5gkSUCSGgeysRlgyaoE9ZysRdeZS/fCl<br/>P9m9I2/g1W6fm7koBFybJGgVBLS+8YA/JDWTNqO2oYrqrV05Zlx02zHREEWUnSMH<br/>U2qIH5leosS/o14udfWI7k4A7lVS8GgKFWJrpPJPWUtTWxAHFkVqzb2ezq20tfI3<br/>/YNuRoWVXLV1JXVUFlK1T1xIC41GB5Ntuf32dBWFR+2qygP16NoQv2M+EBZp3Fbm<br/>uGoXF6YaM3w/UqNcQFT7CCwj2jbdwz0hFOevyTGG5qAkhwnGlSQ6iYLDsJSSu2Gx<br/>L0iVw1xYZ7E6J2QPlfDxndS2T8RjRvipnh7cEdND6RvAgqBUJZsPALGX5OY/1CDJ<br/>ahj70D5xawElmTCuHYRQmnFzZ3WbGY6qZFv5BqJVBYxw1L9trKIEja5DjAezcC0U<br/>zfganQFasoHLhvXN68WBplRGRmKR+Qcu5xpnMWgxXpnO6ZRIJYvXbNh9c1kAyNsw<br/>0INBfa4J5djweFUyGd+ckJK1r2sSwEIgaZ4LEyUK0b555ZODB2FqNNNVesmEUUy4<br/>0OgQV5QBwPPeWIW4Cu6CO4suosXdmB+qVe5/TlIjv/pyNgwU5NJ6xqLqQE++O3Bp<br/>pLS4Cc7cHyckKuNmiJEFVUgYGrDT1vEb/rU35NqA95eDjNMDCZgncJekfwARAQAB<br/>tCdUaGUgUHJpbnRlciA8VGhlUHJpbnRlckJNUkB0b3JtYWlsLm9yZz6JAj4EEwEC<br/>ACgFAlFzWi8CGwMFCQlmQ9EGCwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJELyk<br/>tmPeg+ykJA0QAJhEayDD//w9dP2Jb0lMmv5sIyrsR4MbcSxZFTdQPcNr0O8eh1c8<br/>Cg76OFt2ie8zVTkLFKtGnpiqx57y9eaufa+ixk8uSYY2Tn7lkY7pJw17cQOYGwb1<br/>E1b3VGvxtTaV5dVW4NmkhRkzVCC4uYMFSU6P+rUVWHopo3mrrOAQKpI10JHjhGku<br/>6L+OUwud+wDOouMtNMaBnnR1Ih5kxGxqkp97Rj1XBQWvOzGMRPW6OxvYWUnU+0Fv<br/>TWB5SbKOtNHEcFcqCrJf8Mep/2PCoRKIra1arFNMpoKNk6rAF0xoqDlBrhA0t4Hy<br/>7FKtFGLyyaM2bhXPO9H2Vgz9cZ9+blyLAB11mCPiW7McjMQhKtoTkaTwn0zzYZst<br/>q5m2hd8RY29fJy8MjUpHXRHr3LvvTeUZzp6qmcej1v3g/CXUNZmVQd8pJTAmyjK7<br/>LUK7NqFMbTb7yj9qmTEZ/kjI4PH8BzBPupNyzYYHmd5Dn2/kYNCD+FnKr7+2dEc0<br/>Qw7JvynPeh4hDGxyMGzx4hC10XcJiJI8IP0xG/RycqTyjaxuU2MhMSrk0NXdWgu2<br/>6JgqdE6QhSsg35WnP8WwBqUHEWZPfEpv3I24QZ96GUd86hBcuYOEt+Z34n+DG/o7<br/>KUMbuzy53ZbQOysKAjZR9sHZidFZRaB3djCql0grvFvZWFoWalFHlQEcuQINBFFz<br/>Wi8BEADkVJCLXKBNlTxM5mXRxK6o0PkTRL5xJJrktMWqQlFqymocNJQ7/7q9j6iV<br/>76ojLJiLPg1mSVAniooWhZxYFnu8kiix&#112;HpI3L2L67xddLwUVXRKEEnCQlGJWKpb<br/>EEwA3sHdDey26kIb265jFEDauioNoztphAzogkwsOQLKabproPTrU8oNt9zH3uD6<br/>hi07rofnYxaChWomc8HPkI//MTO/uAd2ZMDN/aF6dm4xlmmRNTNDA88kVnwZshJc<br/>NCGHd5I92+UKNruRoacBT0OisRZxfg09mgxXa/az/bUxeHaUco/p++GeYQSj08VM<br/>TkvUGnO5U7APnGB/+ka7HNV11gfz+Rf+XCA65byAkUaBnhqXcJ7sw/cBunlUjUsK<br/>a/jZswP9o0Nuv8lRhETAA3Y09uF02r6ER98+LAdSTN3YzXkSR52zkh/Edkp/jZW6<br/>7wY/F95XtPChOMuVoHmi5kR3TmF02XQ6u+0pm2zLUog/O2CdkVaAvOGciIbslXDq<br/>lzqnIzVr4+8SgeA8oxYrgW348UPhzn06HK0j/Rzrv/FhVicSaL9z/KWmwZaNBSpS<br/>9EQA6u7W2qvZDKV+/SrIuCF5sLGUG+LaF4zTSzY4LXrIcvjiqq2HSzJ8yqTQ6xyp<br/>0HqlcoNW1/Esm1CKeBGS5OGHCf/PSIapawqqX9Xawaw7IiZGxwARAQABiQIlBBgB<br/>AgAPBQJRc1ovAhsMBQkJZkPRAAoJELyktmPeg+ykiNEP/i5LeTaOR/huMoiTq2QS<br/>YbKGiIxtQqEGKFNCn730TN1GF/2Xko+rsMj8NdOv5aGKYio8bdtd2f4VsbYGTZ07<br/>F3jI23CD0L+muZJocgXfz5LI5VsYefMZETpyFudn1akFvOEEGQ+6M/EwQo9068S0<br/>+DnGirDzrVOcCKRnF13sBBHPFYT1tWXMX7QOy3gQFfImlKrWRL+6kHsoWklyTn7n<br/>CBPS32PEuBwnD5angXyWg2I9JpMHvU4Dgxg5Ms6tOnIL2mQbT7kHFyiC0qvURlMO<br/>wscuXyGdCPiOeZiO04bpUJ5rq/dybUhBVbKM/fxvjy9KTwdqIS1/bQO2oWC0A8uX<br/>bw1xhj86IkXg+qBLEbF0tQl24ofQP783742Jv31UvoFT9bZ10anKiBbTju7goBKr<br/>VjkexA+i1m7dfqrxtiLV6Nr5y/UAulr+WPGOTzyBcipxmbOg70936fNyEKFgZnTR<br/>TAdXlmYvV84jy/InE6z32osd5S3ceVbAhAeln6m8yBu6lyBSuPnUABIflVnDRCW9<br/>WYGCRpgfNj8MPiaKiHflwlqIFJWKicZbkPRFyZ546dlue+6gk7RC9xQ/sFg9Yrgn<br/>W6iasiyrBe1fgHMzNir7VXrmDPzRLgHCrDscTUfY+sVYhDA6NPj9vRvnmsHzi+vK<br/>CWsUK8GOSEXHbR3a8Hse9Ew2<br/>=ijzr<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>Great vendor. Good communication and fast shipping. Bills are poor quality and probably unpassable. Will do business again if t</td>
+                    
+                        <td>
+                            <a href="/p/oh75JYCVM2">
+                                (40) Counterfeit $20 USD - Pen test - Watermark - Microprint - ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>1/5</strong></td>
+                    <td>Stealth shipping for sure, but the bills are of really bad quality, and feel like xerox paper. They do pass the pen test and su</td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>Great vendor!Underwhelming product. Would certainly do business if improved.</td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>2/5</strong></td>
+                    <td>Money feels a bit fake, and the watermark can only be seen under a blacklight (unlike actual bills). Overall subpar quality, an</td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>I couldn&#39;t trick a blind hippo with these bills.</td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good shipping time, Bills look good but the feel is very off. Will leave a more detailed review on the forums when I have more </td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>Stealth Shipping = One of the Best. As for the $20 Bills, I give them a 6 out of 10. They are printed on a laser printer. There</td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>pretty good quality, defintly cant fool an intelligent person and the cutting is a little off but good &#116;ransaction overall</td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Will do business again!!</td>
+                    
+                        <td>
+                            <a href="/p/M1uRS11oUn">
+                                (4) Counterfeit $20 USD - Pen test - Watermark - Microprint -  ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.83/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of ThePrinter:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/MzWWEgFUmd">0.01 btc - Deep Web Savings and Investments - 5% per Week Continuously Compounding Interest</a><br/>
+                    <span class="description-preview">-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Deep Web Savings and Investments
+Operated by a6n89 (ThePrinter)
+
+Overview
+There are two facets to this business. We will accept deposits that acc ...</span>
+                </td>
+                <td>0.01000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="ThePrinter" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to ThePrinter</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'ThePrinter'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

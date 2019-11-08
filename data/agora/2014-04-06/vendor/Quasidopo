@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Quasidopo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.73 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Quasidopo</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">111 successfull &#116;ransactions since 2013-10.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 1 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            ##############################################<br/># Order directly from our Onionshop and get cheaper prices!<br/>#<br/># http://onionshopkue7sxr.onion/quasidopo<br/>#############################################<br/><br/><br/>Quasidopo - Your Drug Store in Germany<br/><br/>Welcome to Quasidopo. We supply various types of Weed and Hash straight from Germany. We have been in business since Silkroad 1, BMR, Sheep- and Tormarket. Now we sell on Silkroad v2, Agora and through our own Onionshop, as usual giving you best customer service and stealth shipping as possible.<br/><br/><br/>Shipping<br/><br/>We ship almost every day. We send in small, flat envelopes that fit in every mailbox, no signatures. We also deliver to PO Boxes (Packstationen). We put alot of effort in stealth-packaging, drugs are sealed in odorless foil (dogproof), packaging is switched up constantly.<br/><br/><br/>Refunds<br/><br/>If you&#39;re order gets lost in transit (we have delivery-rates of over 99% so this is really rare) you get refund depending on how much you have ordered before from us.<br/><br/>if its your first order with us, you get 20%, second order 40%, then 60% and if you have made more than 4 orders, you get 75% refund on all following orders. <br/><br/><br/>PGP<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.10 (GNU/&#76;inux)<br/><br/>mQENBFJMrowBCADBjf/OeObW7UkSxMeKDKp1FEAplyf6canOpjvHBrRcNXT9JGj6<br/>HU9ta5rpeDYB6o3Kp4muBVPoe8pblz1ZUg3iY1xJp618Zmx0RjhIPf44V7rBKjbN<br/>nI7I9pXiBnsNPJHyED1e0HHBekCItyMRqwCjeiqmcZ83fLF+r9Ri/JkjzfqrZMDt<br/>lLzNnl51pSUYHBj8grVm7sDcLBXC216V7BgezgrexKP2GARyc4fKmGNfCwT8/AyS<br/>9bNq78Zm6x84wErxn9NZz6Vo5R2owHqmpCw81im+objY2KtukU1KONPSYRwPBqBd<br/>y4CYAvzT6McI2Dpm9ikmIzxhyCRGXb+slTNHABEBAAG0I1F1YXNpZG9wbyA8cXVh<br/>c2lkb3BvQHNhZmUtbWFpbC5uZXQ+iQE3BBMBCgAhBQJSTK6MAhsDBQsJCAcDBRUK<br/>CQgLBRYCAwEAAh4BAheAAAoJEJy/la0sxzpd/tYIAIYyMXZqRdmDdIMNeDk4ARrS<br/>1LEPwvMMioh/6WBB6JmFBZeLXSLUSqhQG0IbpnjGGgjXvCRBkjojhAJYYtnKnX+s<br/>e3ZXiTnQugVGLOCP0PjtEgTVZ9a3XS5fTB7AianHSmRcvbazwN+uk8NvYuU4o32W<br/>sd8PKMJBIyFWiO/iP/h9bb+L1eipIx4oGBmde1Oa9dgbdKWgQYSE9hWmKuWANiiN<br/>gp4CPqZ/+unUjtis1C2+K0rTWYhqaV/TvbY5FlH8zFcyRHOeIRDGCmiqlBWM1NC5<br/>LEHVY1d/ug7gGIlvGQscqSgFT9QZFKh+38CVc/PdZ9bQPatQB6CJTMh+e9uqJLi5<br/>AQ0EUkyujAEIALsJLXljqBcLNtud7KertXNlkMIp3f+byzyKTTiq2EfFmLwmxLiL<br/>3s8wFZp4jxxHhzs/06otuqklkkS2rlwaLsvn50g4EwkcdPu7e2KSFSGjt5ZAfaqQ<br/>3DtR/qeWe5idlrihqmcFXzFRsHDFPckcaWbqfirp/53B8p3D1wGjHlK0PjzhN4q6<br/>aAVftMxtiKBlRh09A5fbl0kbmPC6HL4uuCuto1U4b/Vf9NjfFGuK47//dIah9UqN<br/>Pd6J9AwacOm1ZlXDG95Y8fj1SlEfI2Dzj5byy+KvbhjbwaLV+JmVm0KZWNvy8A8m<br/>XswKV5jYKQCaxKLkI8AMfVI4Pf5YkvmVpfsAEQEAAYkBHwQYAQoACQUCUkyujAIb<br/>DAAKCRCcv5WtLMc6XXZcCACe+1Zq5i3Q6k4gpUf0kMeMvw+nLa0ORjXK8u1hKUtz<br/>jyFKjtZbkGFTrjJB/wcc4P2IGuF7IWCst6dQbJXDj4GjBnFWql4s4FNMxlrqMLRr<br/>3D5lImOgx2kC6iVU3nYsHfWds8ahIgM4MoHWwDCmr9UhOkvBAImKfQGy/0dogTKh<br/>8cuCgMo5lIa4RB3F92JUgnUqZdAZng5gBtAFcmEQUoySx+RTe383VbzM7dqV94k4<br/>JqbEImzAvKePSKzpAX2SfhhrIZy72jaCyb+jOdwOcUTYxDQthn+L8NKbmePFBSrr<br/>83EXTZcPlYrdsF4wdwzUnDTLb3dZB+dPvIImyWOmBM9f<br/>=StAb<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Lieferzeit: 1 Tag; Verpackung: 1; Kommunikation unn&ouml;tig; Preis/Leistung stimmt, Fr&uuml;hlingsmische mit Chronic l&auml;sst sich gut rauc</td>
+                    
+                        <td>
+                            <a href="/p/sZil5qsKgz">
+                                1g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast and top stealth!</td>
+                    
+                        <td>
+                            <a href="/p/cZ0t0Gghfc">
+                                2,5g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top Service!</td>
+                    
+                        <td>
+                            <a href="/p/jPKKwyw7J4">
+                                2,5g Moroccan Hash - Standard Quality Hash for a cheap price
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top! I&#39;ll be back...</td>
+                    
+                        <td>
+                            <a href="/p/brq05ePCrc">
+                                5g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All went perfectly smooth! Good quality! Very fast shipment! Absolute professional stealth packing! Im glad to buy again</td>
+                    
+                        <td>
+                            <a href="/p/brq05ePCrc">
+                                5g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>its standard! but for the price is good! the stealth is the best i have ever see on markets! greetz</td>
+                    
+                        <td>
+                            <a href="/p/Ppn7eJ98go">
+                                5g Moroccan Hash - Standard Quality Hash for a cheap price
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great vendor</td>
+                    
+                        <td>
+                            <a href="/p/LfhLD1xsoG">
+                                10g Moroccan Hash - Standard Quality Hash for a cheap price
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor! Awesome stealth! Nice communication and fast delivery! Will buy again! Thank you!</td>
+                    
+                        <td>
+                            <a href="/p/RGRU7VWZ00">
+                                20g Moroccan Hash - Standard Quality Hash for a cheap price
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Quasidopo:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RGRU7VWZ00.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RGRU7VWZ00">20g Moroccan Hash - Standard Quality Hash for a cheap price</a><br/>
+                    <span class="description-preview">20g Moroccan Hash - Standard Quality Hash for a cheap price
+
+This is our standard Moroccan Hash. Good for resale due to the cheap price.
+
+please read our profilepage before making a purchase</span>
+                </td>
+                <td>0.27632363 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ti6uNJtZ7q.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ti6uNJtZ7q">20g Marlboro Hash - Decent Smoke with good Price/Quality Ratio</a><br/>
+                    <span class="description-preview">20g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+
+Solid Hash for a reasonable price. Higher Quality than our Commercial Hash but still very affordable. Check it out!
+
+please read ou ...</span>
+                </td>
+                <td>0.36843151 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/g54F5ula8t.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/g54F5ula8t">1g White Widow - AAA-Quality Weed</a><br/>
+                    <span class="description-preview">1g White Widow - AAA-Quality Weed
+
+Nice buds covered in the white widdow-typical crystals. At first it provides an euphoric and energetic type high. After a while, the high level of Indica in the s ...</span>
+                </td>
+                <td>0.04174673 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/C3vyRUnPwe.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/C3vyRUnPwe">2,5g White Widow - AAA-Quality Weed</a><br/>
+                    <span class="description-preview">2,5g White Widow - AAA-Quality Weed
+
+Nice buds covered in the white widdow-typical crystals. At first it provides an euphoric and energetic type high. After a while, the high level of Indica in the ...</span>
+                </td>
+                <td>0.10050140 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/brq05ePCrc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/brq05ePCrc">5g Marlboro Hash - Decent Smoke with good Price/Quality Ratio</a><br/>
+                    <span class="description-preview">5g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+
+Solid Hash for a reasonable price. Higher Quality than our Commercial Hash but still very affordable. Check it out!
+
+please read our ...</span>
+                </td>
+                <td>0.10592406 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cZ0t0Gghfc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cZ0t0Gghfc">2,5g Marlboro Hash - Decent Smoke with good Price/Quality Ratio</a><br/>
+                    <span class="description-preview">2,5g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+
+Solid Hash for a reasonable price. Higher Quality than our Commercial Hash but still very affordable. Check it out!
+
+please read o ...</span>
+                </td>
+                <td>0.05910255 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LfhLD1xsoG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LfhLD1xsoG">10g Moroccan Hash - Standard Quality Hash for a cheap price</a><br/>
+                    <span class="description-preview">10g Moroccan Hash - Standard Quality Hash for a cheap price
+
+This is our standard Moroccan Hash. Good for resale due to the cheap price.
+
+please read our profilepage before making a purchase</span>
+                </td>
+                <td>0.15044286 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Ppn7eJ98go.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Ppn7eJ98go">5g Moroccan Hash - Standard Quality Hash for a cheap price</a><br/>
+                    <span class="description-preview">5g Moroccan Hash - Standard Quality Hash for a cheap price
+
+This is our standard Moroccan Hash. Good for resale due to the cheap price.
+
+please read our profilepage before making a purchase</span>
+                </td>
+                <td>0.08443222 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sZil5qsKgz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sZil5qsKgz">1g Marlboro Hash - Decent Smoke with good Price/Quality Ratio</a><br/>
+                    <span class="description-preview">1g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+
+Solid Hash for a reasonable price. Higher Quality than our Commercial Hash but still very affordable. Check it out!
+
+please read our ...</span>
+                </td>
+                <td>0.02609723 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/jPKKwyw7J4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/jPKKwyw7J4">2,5g Moroccan Hash - Standard Quality Hash for a cheap price</a><br/>
+                    <span class="description-preview">2,5g Moroccan Hash - Standard Quality Hash for a cheap price
+
+This is our standard Moroccan Hash. Good for resale due to the cheap price.
+
+please read our profilepage before making a purchase</span>
+                </td>
+                <td>0.04605393 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/thw6gu6Bvv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/thw6gu6Bvv">10g Marlboro Hash - Decent Smoke with good Price/Quality Ratio</a><br/>
+                    <span class="description-preview">10g Marlboro Hash - Decent Smoke with good Price/Quality Ratio
+
+Solid Hash for a reasonable price. Higher Quality than our Commercial Hash but still very affordable. Check it out!
+
+please read ou ...</span>
+                </td>
+                <td>0.19649680 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/dWMwYl5JKb.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/dWMwYl5JKb">1g Moroccan Hash - Standard Quality Hash for a cheap price</a><br/>
+                    <span class="description-preview">1g Moroccan Hash - Standard Quality Hash for a cheap price
+
+This is our standard Moroccan Hash. Good for resale due to the cheap price.
+
+please read our profilepage before making a purchase</span>
+                </td>
+                <td>0.01995670 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TcZKY5DYyU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TcZKY5DYyU">5g White Widow - AAA-Quality Weed</a><br/>
+                    <span class="description-preview">5g White Widow - AAA-Quality Weed
+
+Nice buds covered in the white widdow-typical crystals. At first it provides an euphoric and energetic type high. After a while, the high level of Indica in the s ...</span>
+                </td>
+                <td>0.19371369 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide (except USA)
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Quasidopo" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Quasidopo</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Quasidopo'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

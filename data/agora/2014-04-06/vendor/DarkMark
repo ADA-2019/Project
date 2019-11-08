@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>DarkMark</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>DarkMark</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 2 days 18 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hello, DarkMark here!<br/><br/>My current listings are of my premiere product: Colorado fake IDs.<br/><br/><br/>------------------------------------------REVIEWS (clearnet)------------------------------------------<br/><br/>http://reddit.com/r/fakeid/comments/219tq4/remember_the_25_colorado_fake_here_it_is/<br/><br/>http://www.reddit.com/r/fakeid/comments/21affu/new_vendor_review_darkmark_colorado_id/<br/><br/>----------------------------------------------------------------------------------------------------------------<br/><br/>----------------------------------------------ORDER INFO---------------------------------------------<br/><br/>PLEASE USE PGP or PRIVNOTE FOR ALL ORDER INFORMATION!!<br/><br/>We look forward to your orders and serving you in a prompt, private, and professional manner.<br/><br/>If for any reason you are not pleased with our service, please contact us before leaving negative feedback. We have our customer&#39;s best interest.<br/><br/>----------------------------------------------------------------------------------------------------------------<br/><br/>---------------------------------------------CONTACT INFO---------------------------------------------<br/><br/>DarkMark@lelantos.org<br/><br/>----------------------------------------------------------------------------------------------------------------<br/><br/><br/><br/>##### SECRET ACCESS INFORMATION #01034 #####<br/>      -Product inside card-<br/>      -Feel for cavity-<br/>      -Tear open card-<br/>      !!-Cutting may damage goods-!!<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFMdNtQBCAC95yiGptTYe0AqBLWNpGlZQ/EmKRlJZvtLTLJCJQsDPTvuPPuA<br/>S4jvqasTec6PCFkobzo+PHBhVBS8bBwGYq8bQBNlnQKfH3eLapoIvHk7VSp+FdlZ<br/>ORRoLr/VneAeXpCvlRb7JU1gLidfUeUoROZPxDgPpOpG6YmkTrC58yjVNfdD7qzd<br/>RCDRJkpAH2+nUUvMgRr6J0zoweGkvyhRqlp65iMpIx+YOcLXLLW2rRrO+M1paUIw<br/>wvQoGNmeVXhCyVDY5DrrvMbYuVQe92THUyvTx0Y/nm8pNjyO1nNEv3LrzU230FEE<br/>YK8nx0K1llkHLSqHFzYTgppVWVtqH6BdmaG9ABEBAAG0IERhcmtNYXJrIDxkYXJr<br/>bWFya0BkYXJrbWFyay5jb20+iQE5BBMBAgAjBQJTHTbUAhsDBwsJCAcDAgEGFQgC<br/>CQoLBBYCAwECHgECF4AACgkQdfypT6ZceNzsnwf/YiYoiB9dPCXkmZ7EHMIsl7Zb<br/>/QELzzvEhz4Izcjz2UI4moiWWFclF6XYVERga3KbrrXELZxXtZqx7nAij5fQ13zs<br/>hh8ESDi64m5SBOsYmHnxJ1fAt0V1fxkjQcGZzU6ZJNsGAY1MCHQPobEUItxl3D8s<br/>aGZETU7+St0HVJy98YHliVuKojtD3GnNWVW9cVDC/oQwGdxCmgV+xUwlq1J8AaO+<br/>oS2Uo3hcnLKBrEgypkuV0VMWlqSXV2KeP/aB8AqOcmvvGSoQdyz7mcwk0dK7z7/t<br/>q9Jw34DWDh8eplHNMoJJ9fMbAdx44+P93E+HxLq9QFyfb8w5Ewnrl/klJfrl97kB<br/>DQRTHTbUAQgAzA43Z+AoTn/EoQ1mfgl58Z9Nom8UwpSr2C26n7V6bLy5afm6dfeH<br/>bxQ1plrui86IQ+IqSGuunsW51znexSUtjGRWyfXDDqRalsaoYMlWaZeMskxHpvEh<br/>SWkYc4oRGs0A4oQmVmvEpV1qVetrcvCTKTNnweJcCufwJfFBM6Uk3odMuJ+EktZR<br/>aeCtMyNBAR1CDgpsSBW+yghUmcYb3pAS9AuxoGrxmWB8dkcggvlOEjq3GB5LK4JJ<br/>tDR4RFJ+MXeLQAFP3AvsMfKWUfS6oJuWO+WSGo+EdN/PtoyXFDDElJ4VLagKky6D<br/>TeDxVMI77lk5BSSf77/GBjl3j2DsFuYPTQARAQABiQEfBBgBAgAJBQJTHTbUAhsM<br/>AAoJEHX8qU+mXHjcxyEIAKjan42MfuH3NXq4AHzaqvCK3sdwup98zi9414wRAJup<br/>LLePU9HvpyK2oNT7kE7v12S/cZ9dCzAB1l/5o2HV54wrlpUUd0Mc4xQhgfj2CYRm<br/>V09exJrzu2K/lbJ3Hj3if8unFdfFokh06OISk9VMrAOymGZcuN6tg9JvdM+Ip/t9<br/>FLN8oiEnNrYgFE092fnv8dPEmPmbwkiX+tyq8AUg0iHo5bel8pg0yJA0UUfTMhUv<br/>JBSGss+Ybu15/4Ngy2c6dFmezr01EyS8JcGBBQQiHvmV+zMWl4YyzRlQFd8Q/iir<br/>hL+yU8oatS2QPcRdKamEPu4fJiadwfDarAY1Ig5Y4Zs=<br/>=33Ee<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I have not used it yet but it looks great! I ordered it on a Monday and got the ID the next Monday. Shipping and quality of ID </td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good ID. Good stealth, very fast turn around. Highly recommend buying from DarkMark. Very legitimate seller.</td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Customer Service: (5/5) Before ordering I messaged the vendor with a few questions about my ID and DarkMark answered them faste</td>
+                    
+                        <td>
+                            <a href="/p/P3YXlWmB8v">
+                                Custom Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Pass Black Light test as well as having proper holograms. Id also scans. Shipping stealth is just fucking clever.</td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good quality ID. Fast shipping, good stealth. Amazing/Friendly service very responsive vendor.</td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good quality ID, fast turnaround time and shipping, as well as a friendly and communicative vendor. Definitely recommend</td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great seller, amazing communication &amp; fast turnaround.  Id is good.</td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast and responsive</td>
+                    
+                        <td>
+                            <a href="/p/iiG6LNw4TW">
+                                Colorado Fake ID / All Security Features
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of DarkMark:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/iiG6LNw4TW.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/iiG6LNw4TW">Colorado Fake ID / All Security Features</a><br/>
+                    <span class="description-preview">--THE ID--
+
+This is the current Colorado ID, complete with accurate optically variable shifting holograms, UV, ghost image, magnetic stripe, and 2D barcode.
+
+--PRICE--
+
+Our discounted ID sale w ...</span>
+                </td>
+                <td>0.22075055 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="DarkMark" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to DarkMark</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'DarkMark'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

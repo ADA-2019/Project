@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Weed</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.31 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+    <div class="topnav-element"><a href="/cat/vheN9d2mMr">Drugs</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/VS5XwFcJBY">Cannabis</a></div><div class="topnav-divider-element">&gt;</div><div class="topnav-element"><a href="/cat/w5jadNe4G3">Weed</a></div><div class="topnav-divider-element">&gt;</div>
+
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+            <table class="mainpagedivider" cellpadding="0" style="border: 0; padding: 0; margin: 0;"><tr><td style="width: 160px;" class="mainpagedividertd">
+            <div id="leftmenu">
+
+                <form action="/search" method="post" >
+                    <input type="text" name="s" style="width: 100%; margin-bottom: 15px;" placeholder="Search"/>
+                    <input type="submit" style="display: none;" value="Submit"/>
+                </form>
+
+                
+    
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VS5XwFcJBY">Cannabis</a></div>
+    <div class="leftmenu-subelements">
+
+
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/MjE6rSFd4b">Concentrates<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/GcBRiJhZ1u">Edibles<span class="extra-caption"> (70+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/fZVzZ5xvER">Hash<span class="extra-caption"> (300+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/rdffTvGkMC">Seeds<span class="extra-caption"> (100+)</span></a></div>
+
+    
+    <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/arXCLhtVhq">Synthetics<span class="extra-caption"> (50+)</span></a></div>
+
+    
+    <div class="leftmenu-element leftmenu-element-selected"><div class="drawer"></div><a href="/cat/w5jadNe4G3">Weed<span class="extra-caption"> (1300+)</span></a></div>
+
+
+
+    </div> 
+
+    
+
+    <div style="padding-top: 20px; padding-bottom: 5px; color: #aaa;">Main menu:</div>
+
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/iagjMlD0Cr">Counterfeits<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sqxrhAitt4">Data<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/VK5iK8xY0i">Drug paraphernalia<span class="extra-caption"> (20+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/vheN9d2mMr">Drugs<span class="extra-caption"> (7500+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/nL0oges5ZX">Electronics<span class="extra-caption"> (70+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/uJM18V1Fyy">Forgeries<span class="extra-caption"> (100+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/PfjGSF75ez">Information<span class="extra-caption"> (800+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/EKbrBV7frb">Jewelry<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/evljk7AG11">Other<span class="extra-caption"> (10+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/sYqAB5BE46">Services<span class="extra-caption"> (300+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/tFCxKyZhJm">Tobacco<span class="extra-caption"> (60+)</span></a></div>
+    
+        
+        <div class="leftmenu-element "><div class="drawer"></div><a href="/cat/eD8l7PYEK3">Weapons<span class="extra-caption"> (100+)</span></a></div>
+    
+
+
+
+            </div> </td><td class="mainpagedividertd">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+
+
+<div id="product-list" class="nofirstmargin">
+
+    <div class="product-list-tools">
+        <form action="/user/setsorting" method="post" >
+            <div class="leftcol">
+                <span class="nofe"><i class="fa fa-thumbs-up"></i></span> <input type="checkbox" checked name="sortNoFeFirst"/> No-FE first&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="sortMode" id="sort">
+                    <option value="d" selected>Sort: Default</option>
+                    <option value="p" >Sort: Price</option>
+                    <option value="l" >Sort: Vendor #deals</option>
+                    <option value="r" >Sort: Vendor rating</option>
+                </select>
+            </div>
+
+            <span class="domestic-hint">Show domestic first:
+                
+            </span>
+        <select name="domesticCountry">
+        <option value="" selected>Choose</option>
+        <option value="NON">None</option>
+<option value="USA">United States</option>
+<option value="GBR">United Kingdom</option>
+<option value="">----</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BLR">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BIH">Bosnia and Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COD">Congo, the Democratic Republic</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Côte d'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="DNK">Denmark</option>
+<option value="DJI">Djibouti</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GGY">Guernsey</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island and McDonald Islands</option>
+<option value="VAT">Holy See (Vatican City State)</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRN">Iran, Islamic Republic of</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JEY">Jersey</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="PRK">Korea, Democratic People's Republic</option>
+<option value="KOR">Korea, Republic of</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Republic</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LBY">Libyan Arab Jamahiriya</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="FSM">Micronesia, Federated States of</option>
+<option value="MDA">Moldova, Republic of</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestinian Territory, Occupied</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="REU">Réunion</option>
+<option value="ROU">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthalemy</option>
+<option value="SHN">Saint Helena</option>
+<option value="KNA">Saint Kitts and Nevis</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French part)</option>
+<option value="SPM">Saint Pierre and Miquelon</option>
+<option value="VCT">Saint Vincent and the Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome and Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">S. Georgia + S. Sandwich Islands</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="TZA">Tanzania, United Republic of</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="USA">United States</option>
+<option value="UMI">US Minor Outlying Islands</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands, British</option>
+<option value="VIR">Virgin Islands, U.S.</option>
+<option value="WLF">Wallis and Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+
+
+            <input type="hidden" name="returnUri" value="/cat/w5jadNe4G3/11" />
+
+            <input type="submit" name="submit" class="input-in-button button-small" value="Go" id="submit" />
+        </form>
+    </div>
+
+
+
+    <div class="product-list-pages product-list-pages-top">
+        More:
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/1"> 1 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/2"> 2 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/3"> 3 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/4"> 4 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/5"> 5 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/6"> 6 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/7"> 7 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/8"> 8 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/9"> 9 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/10"> 10 </a>
+        
+            <a class="page-link current-page" href="/cat/w5jadNe4G3/11"> 11 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/12"> 12 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/13"> 13 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/14"> 14 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/15"> 15 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/16"> 16 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/17"> 17 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/18"> 18 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/19"> 19 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/20"> 20 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/21"> 21 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/22"> 22 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/23"> 23 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/24"> 24 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/25"> 25 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/26"> 26 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/27"> 27 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/28"> 28 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/29"> 29 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/30"> 30 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/31"> 31 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/32"> 32 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/33"> 33 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/34"> 34 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/35"> 35 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/36"> 36 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/37"> 37 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/38"> 38 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/39"> 39 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/40"> 40 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/41"> 41 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/42"> 42 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/43"> 43 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/44"> 44 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/45"> 45 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/46"> 46 </a>
+        
+            <a class="page-link " href="/cat/w5jadNe4G3/47"> 47 </a>
+        
+    </div>
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            <td>Vendor</td>
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TsoY8tq4Un.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TsoY8tq4Un">7-inch GlassOnGlass WaterPipe w/ Dome Perc., IceCatcher.  *FREE USPS SHIPPING*</a><br/>
+                    <span class="description-preview">This is a listing for a 7&quot; tall glass-on-glass water pipe with one dome perculator and an ice-catcher.  
+
+**OPENING VENDOR SPECIAL - FREE USPS 1ST CLASS SHIPPING IN THE CONTINENTAL US!**
+
+You&#39;ll  ...</span>
+                </td>
+                <td>0.13233477 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/ImportDirect#"/>ImportDirect</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rVekjyPvBG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rVekjyPvBG">1 oz Medical Grade Top Quality Organic Bud- Bubba Kush</a><br/>
+                    <span class="description-preview">1 oz Organic Indoor Grown Bud!
+
+Bubba Kush
+
+*Please send all messages and orders via pgp*
+This protects both of us!!
+
+Will cancel order if you do not pgp your address. Period!!
+
+Smaller quan ...</span>
+                </td>
+                <td>0.41912997 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/DankBoss101#"/>DankBoss101</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/B8tbe2R2W4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/B8tbe2R2W4">Willies Wonder 2 lb (907g) || Medical Grade Greenhouse || Machine-Trimmed</a><br/>
+                    <span class="description-preview">-
+Buy more and you&#39;ll reap big discounts!
+Check out just how much money you could be saving.
+Half Pounds - Save 4.5%
+Full Pounds - Save 13%
+Two Pounds  - Save 21.5%
+Four Pounds - Save 28.5%
+
+ ...</span>
+                </td>
+                <td>10.31280331 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/MoodyMayhem#"/>MoodyMayhem</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.86/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VVuRh7vtP1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VVuRh7vtP1">10g | Skunk Trimmings | FREE Shipping</a><br/>
+                    <span class="description-preview">______________________________________________________
+-- &bull;&bull; ★ [&bull; Skunk - Trimmings &bull;] ★&bull;&bull; --
+
+
+
+&rarr; 10g - Skunk - Trimmings (Verschnitt)
+
+
+└ &rarr; Gut f&uuml;r Joints usw. geeignet!
+
+
+
++ Wie gewohn ...</span>
+                </td>
+                <td>0.08371569 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Germany
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/stillinger#"/>stillinger</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.75/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LvqgAF9vZX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LvqgAF9vZX">7.0g Master Kush AAA+</a><br/>
+                    <span class="description-preview">*** SPECIAL INTRODUCTORY PRICE ***
+*** FREE SHIPPING, WORLDWIDE!! ***
+
+AAA+ quality medicinal marijuana.  Grown indoors to ensure the highest quality.
+
+Full description of the strain can be foun ...</span>
+                </td>
+                <td>0.15441630 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/BudBoss#"/>BudBoss</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.94/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xzEUdMlnAX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xzEUdMlnAX">3.5G (1/8 OZ) Train Wreck MEDICAL GRADE AAA+ *FULL ESCROW*</a><br/>
+                    <span class="description-preview">This product is what i roll joints with, if i used the AAAA stock it would cost me too much, the value to quality is rite on the money.
+
+Great smell. No sticks. No seeds. No stems. 
+
+Great for pa ...</span>
+                </td>
+                <td>0.06617841 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: WORLDWIDE
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/cannabiswholesale#"/>cannabiswholesale</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/uwy7uMoTK7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/uwy7uMoTK7">3.5g Sensi Star Indoor Organic AAA</a><br/>
+                    <span class="description-preview">High grade weed, grown indoors with love.Shipped very stealthy.
+
+CHARACTERISTICS
+Type: Mostly Indica with a hint of Sativa
+Effect /Buzz: Strong body high possible cerebral effect
+Smell/Taste: Pu ...</span>
+                </td>
+                <td>0.09926762 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/ESP.png" /> Spain<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Nevita#"/>Nevita</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.99/5, 70~100 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/ByprmUbXbe">Shake 1/2oz</a><br/>
+                    <span class="description-preview">This shake is fine quality, 90% water leaves have been removed, leaving a fine smelling crystal crumble. Strains vary and sometimes are mixed.
+
+Pictures on the way</span>
+                </td>
+                <td>0.16544604 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Rook#"/>Rook</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kuDxABWa7V.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kuDxABWa7V">ChemDawg - 448g</a><br/>
+                    <span class="description-preview">✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟
+✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟
+✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟
+✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟✟
+
+The Black ...</span>
+                </td>
+                <td>5.51486808 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/TheBlackGod#"/>TheBlackGod</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.75/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nLNC1ub5zJ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nLNC1ub5zJ">7.0g Blueberry Kush AAA+</a><br/>
+                    <span class="description-preview">*** SPECIAL INTRODUCTORY PRICE ***
+*** FREE SHIPPING, WORLDWIDE!! ***
+
+AAA+ quality medicinal marijuana.  Grown indoors to ensure the highest quality.
+
+Full description of the strain can be foun ...</span>
+                </td>
+                <td>0.15441630 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/BudBoss#"/>BudBoss</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.94/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LkgcYNcTUu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LkgcYNcTUu">&#39;Malana Cream&#39; Charas (HANDMADE Indian HASH)!  **NEW USA Vendor**</a><br/>
+                    <span class="description-preview">&#39;Malana Cream&#39; Charas (HANDMADE HASH FROM INDIA)
+
+This top-shelf hashish variety is sourced directly from India, its country of manufacture.  It is jet black, very shiny, pliable into any shape, st ...</span>
+                </td>
+                <td>0.04850877 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/ImportDirect#"/>ImportDirect</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pTYgA0myL7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pTYgA0myL7">7.5g Thai Fantasy Indoor-Soil-Organic (AAA+)</a><br/>
+                    <span class="description-preview">Thai Fantasy is easily the most popular and highly requested strain that comes out of our shop. 
+
+
+
+Un-smoked, Thai Fantasy emanates an overpowering odor of diesel fuel that will be hard to forge ...</span>
+                </td>
+                <td>0.18750551 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/coasttocoast#"/>coasttocoast</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.98/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GD5ABarmfm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GD5ABarmfm">HP Sour Grape - Sour Diesel x GDP (224g) - FE Only</a><br/>
+                    <span class="description-preview">Nice bud to make money with smokes well. decent buds and a nice aroma.
+
+Shipping Sunday 4/6/14</span>
+                </td>
+                <td>2.09564987 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/QualityMedicine#"/>QualityMedicine</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.97/5, 200~300 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZfSVRnglPB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZfSVRnglPB">ⒸⒶⓃⒹⓎ ⓀⓊⓈⒽ 3.5G - 1/8 - PREMIUM MEDICAL GRADE</a><br/>
+                    <span class="description-preview">MUST FE EARLY LISTING
+
+3.5 GRAMS (1/8 OZ) CANDY KUSH
+
+HIGH GRADE!
+
+SMELLS LIKE CANDY!</span>
+                </td>
+                <td>0.11250330 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/GucciBuds#"/>GucciBuds</a><br/><span class="gen-user-ratings"> [0 deals]</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ELTuUuVf1D.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ELTuUuVf1D">Willies Wonder 1 lb (454g) || Medical Grade Greenhouse || Machine-Trimmed</a><br/>
+                    <span class="description-preview">-
+Buy more and you&#39;ll reap big discounts!
+Check out just how much money you could be saving.
+Half Pounds - Save 4.5%
+Full Pounds - Save 13%
+Two Pounds  - Save 21.5%
+Four Pounds - Save 28.5%
+
+ ...</span>
+                </td>
+                <td>5.73546280 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/MoodyMayhem#"/>MoodyMayhem</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.86/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/k1ZSYJvmeC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/k1ZSYJvmeC">1oz - 28g Mountain Jam Sativa</a><br/>
+                    <span class="description-preview">The Mountain Jam is a hybrid of the Soulshine and DJ&#39;s prized blueberry, blending two colourful and sweet flavored elites for an oustanding performer.
+
+Indoor AA Quality.
+
+SHIPS ONLY WITHIN CANADA</span>
+                </td>
+                <td>0.35295155 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: Canada
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/whiteyford#"/>whiteyford</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.95/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SPle3dy7Mt.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SPle3dy7Mt">Pink Kush - 1/2 lb (225g)</a><br/>
+                    <span class="description-preview">This 50/50 Hybrid is a crystal &#99;aked beauty. shes delicate, very thin stems beneath full fluffy buds. real nice light green color with pink accents. Unique sweet flavour and a pungent aroma that reca ...</span>
+                </td>
+                <td>3.63981293 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/beachcomber#"/>beachcomber</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gpqVeGtT0J.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gpqVeGtT0J">1.1g HIGHGRADE BLACK KUSH w NDD;)</a><br/>
+                    <span class="description-preview">sweet with next day delivery</span>
+                </td>
+                <td>0.04081002 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: Undeclared;)<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/MrCronk#"/>MrCronk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.940/5, 500~1000 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yRU0SDz0a4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yRU0SDz0a4">25x Purple Pokeball Doraemons</a><br/>
+                    <span class="description-preview">25x Purple PokeBall Doraemons
+
+Reviews:
+http://www.pillreports.com/index.&#112;hp?page=display_pill&amp;id=32090
+
+http://www.pillreports.com/index.&#112;hp?page=display_pill&amp;id=32855
+
+
+Product Information: ...</span>
+                </td>
+                <td>0.44118944 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/StarDockGaLiX#"/>StarDockGaLiX</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.96/5, 150~200 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/G5L7GeJ2ha.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/G5L7GeJ2ha">HP Critical Mass Greenhouse</a><br/>
+                    <span class="description-preview">Green house medical grade 
+
+super frosty and fat nugs with light purp hairs</span>
+                </td>
+                <td>2.10447366 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/GandoffWhite#"/>GandoffWhite</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/X5FL9DEixh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/X5FL9DEixh">2g Critical Jack - Hydro-Grown (Dinafem) Sample</a><br/>
+                    <span class="description-preview">2G Sampler so you can get familiar with our stuff^^
+
+2G - Hydrogrown Critical Jack
+
+Critical Jack has an intense fruity flavour, this varied to a lemony taste of wood.
+The effect is physical and ...</span>
+                </td>
+                <td>0.05294273 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/MiniDeal#"/>MiniDeal</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.79/5, 70~100 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tuCd1286h4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tuCd1286h4">28G (1 OZ) OG Kush TOP SHELF AAAA+ *FULL ESCROW*</a><br/>
+                    <span class="description-preview">These batches are for the real conniseurs. Covered in crystals and trichs. No stems or leaves. I have never found a single seed in any of my weed. This comes from high tech indoor hydroponic farms in ...</span>
+                </td>
+                <td>0.55148680 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: WORLDWIDE
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/cannabiswholesale#"/>cannabiswholesale</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yptWTiFuWZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yptWTiFuWZ">3.5g Cannasutra by Delta 9 Labs  70% Indica 30% Sativa. (NO FE)</a><br/>
+                    <span class="description-preview">Cannasutra is a cross between Somas Reclining Budha and Sensi Star. The aroma is spicy and smells like food. We had her tested at 15% THC and .7% CBD.
+
+The High Reported by buyers:
+- Mellow
+- cre ...</span>
+                </td>
+                <td>0.04087620 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/canadaflag#"/>canadaflag</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/UtAB1wqh7A.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/UtAB1wqh7A">XJ13 1/8 oz</a><br/>
+                    <span class="description-preview">XJ-13 is a strain that is popular both for its medicinal uses and as a great recreational choice. This hybrid cross of Jack Herer and G13 Haze is euphoric and leans more toward social and creative sa ...</span>
+                </td>
+                <td>0.12132709 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Dankness#"/>Dankness</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.91/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rndLlNcRCq.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rndLlNcRCq">Ten Dollar Grams</a><br/>
+                    <span class="description-preview">This is a listing for our mid to high grade cannabis.
+
+The listing is for one gram at a price around 10.00
+each.</span>
+                </td>
+                <td>0.02647136 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/Nostress#"/>Nostress</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 40~55 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XjYcidG0V4.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XjYcidG0V4">1.1g HIGHGRADE DUTCH WHITE WIDOW w NDD;)</a><br/>
+                    <span class="description-preview">sweet with next day delivery</span>
+                </td>
+                <td>0.04632489 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/MrCronk#"/>MrCronk</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.940/5, 500~1000 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/EshDyjLaov.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/EshDyjLaov">Green Crack - Organically Grown Indoors - 2 ounces ( 56 grams )</a><br/>
+                    <span class="description-preview">Similar to the likes of Blue Dream, Chemdawg, or OG Kush, the Green Crack strain has become a staple in the medical cannabis industry. It is a Sativa-dominant hybrid with genetics linking to Skunk #1 ...</span>
+                </td>
+                <td>1.10297361 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/KayaNow#"/>KayaNow</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mce3CsW65w.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mce3CsW65w">1oz(28g) of High Quality Indoor Marijuana Grape Ape</a><br/>
+                    <span class="description-preview">Price for escrow has gone up I&#39;m sorry to do it but with the instability and the numbers of orders in escrow now I must. You can still get the $200 price by FE thanks for everyone who helped me rebui ...</span>
+                </td>
+                <td>0.48530839 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/greenhaus#"/>greenhaus</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 55~70 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ep8RLEG2UK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ep8RLEG2UK">200 Grams Good Kush Shake</a><br/>
+                    <span class="description-preview">NEW UPDATE(04/04/2014):::: Shake is ready to go, will be shipped out the day after it was ordered.  Tracking sent right away to.
+
+NO FE REQUIRED ON ANY ORDER. Thanks to everyone who has ordered and ...</span>
+                </td>
+                <td>0.44118944 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CAN.png" /> Canada<br/>
+                    <i class="fa fa-home"></i> To: world wide
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/medicineman420#"/>medicineman420</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+                </td>
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JUygeL7EWq.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JUygeL7EWq">15 grams dutch quality el cucaracha</a><br/>
+                    <span class="description-preview">**********************TRY US AND YOU WILL COME BACK************************
+
+- 15 grams dutch quality el cucaracha
+
+- (Always overweight)
+
+- same strain as amnesia
+
+- Dutch quality
+
+- We al ...</span>
+                </td>
+                <td>0.27574340 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                <td>
+                    <span class="nofe"><i class="fa fa-thumbs-up"></i></span>
+                    <a class="gen-user-link" href="/vendor/superstrains#"/>superstrains</a><br/><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.89/5, 100~150 deals</span>
+                </td>
+            </tr>
+        
+    </table>
+
+    
+        <div class="product-list-pages">
+            More:
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/1"> 1 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/2"> 2 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/3"> 3 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/4"> 4 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/5"> 5 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/6"> 6 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/7"> 7 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/8"> 8 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/9"> 9 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/10"> 10 </a>
+            
+                <a class="page-link current-page" href="/cat/w5jadNe4G3/11"> 11 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/12"> 12 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/13"> 13 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/14"> 14 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/15"> 15 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/16"> 16 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/17"> 17 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/18"> 18 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/19"> 19 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/20"> 20 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/21"> 21 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/22"> 22 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/23"> 23 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/24"> 24 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/25"> 25 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/26"> 26 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/27"> 27 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/28"> 28 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/29"> 29 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/30"> 30 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/31"> 31 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/32"> 32 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/33"> 33 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/34"> 34 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/35"> 35 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/36"> 36 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/37"> 37 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/38"> 38 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/39"> 39 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/40"> 40 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/41"> 41 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/42"> 42 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/43"> 43 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/44"> 44 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/45"> 45 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/46"> 46 </a>
+            
+                <a class="page-link " href="/cat/w5jadNe4G3/47"> 47 </a>
+            
+        </div>
+    
+
+
+
+
+    
+
+
+</div>
+
+
+        </div>
+        
+            </td></tr></table>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

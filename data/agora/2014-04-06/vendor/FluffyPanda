@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>FluffyPanda</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>FluffyPanda</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.55/5, 15~25 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 0 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.22 (Darwin)<br/>Comment: GPGTools - https://gpgtools.org<br/><br/>mQENBFL2XB4BCADI5HTLJVkbt0I6h1lO2hWhGMJWpFSKpswgqsYBZ6arORMu1O6g<br/>JsmKGJdgmUtnTWGpz7aLpDCd77DlmsYy1UYf2A5CpB8JSJPT+wO3h9RNZ2aUMhl4<br/>L4HxQZ80HwnQY1/VpV1B7+mgiEQxzQ3NYhXl51hDE8uPqikf5FwpOuG6/rLxHspF<br/>CcaOi9VATAHEjjHWps2HigxRTujEWIwAFcIupSkbFfMJUMCUcfWrGTcqkkTF7usC<br/>Yvsuc9hQBT3EY16h9xc/LEIEGIIwqSNyQu6IVr1d6Ndca8TYkUMVe0fv0q1OY4R4<br/>NpVz9PIz1OhNzOC9BgE/lkxWl+h3bohA6cqbABEBAAG0J0ZsdWZmeVBhbmRhIDxG<br/>bHVmZnlQYW5kYUBzYWZlLW1haWwubmV0PokBPQQTAQoAJwUCUvZcHgIbAwUJA8Jn<br/>AAULCQgHAwUVCgkICwUWAgMBAAIeAQIXgAAKCRChfvRmnW8Ff+kNB/wP9/QaY2c7<br/>f4LoAMK7pU452fbfLfLwQlWabKVrotya3kPj8vR0XVpwytCZfp82v9qEnG/iipwo<br/>vsxG6JUZEOSsW+lMiAbmIAwotfNUuFFgk434dWMjhHjqopoHIF8EXuCLfyXPs6zI<br/>+HFtX0rDbY35LfyNu/F7huWbZ4RvTL74PTH4Wgk7dsz/8BsYJ3BaZJrFqmePV7X1<br/>c7ADlf7OfYQuMna64Ee6QgK3/w3PW7obthOuJvtGbN3HBNCbvMdBy/8DfWoCXXp/<br/>9E8ktZGuECdMW27HlLLkoZljpy0QHLYU30+DxAQ0I9Pir9Y0dbkotyb+OABdIhJA<br/>D9uPWY9G3erouQENBFL2XB4BCADGQYdDjcMrmu81BvAyNUDTD79mYpXdketX++I7<br/>11gwUQmAzFDhJp8cgPkBy2zkbPKlx51KUHDkD63dAfpSR7YgHtDhhdRB5JfZRB+0<br/>Ik37wKf2cAfHEiK3f7EIdxrYFGh4Kzd8hRfkWYV29jHu5H9TFnsG2d+BYcuQlBaB<br/>bjC1SX0VpbX6NHd4kp54YWccr+kmfkoGyNRJViwhPJGKB1wkMtUGGK40GZJFsTZR<br/>Etbmy9TFDIVBF5iC4mMHQRBcjcav/7/Rik9WID4mH7pJUdzBiGdQdJTL37lq9umv<br/>gR6vRcC6305JMC5Ag4z0gpp+QeY47oYIY7EImzZUXRasIakvABEBAAGJASUEGAEK<br/>AA8FAlL2XB4CGwwFCQPCZwAACgkQoX70Zp1vBX+64wf/bHzlByj9uGGwABEUas6y<br/>3Iou+rTdkEoxY8LlafF0xWT5Qi6RbYK7kaw2Mo2I4eoenQs7IOqbJWcJ5yVXfNt/<br/>NgpKhpG5u0L/Uvf3SlhrHAEE6xDE3YSK1e6upniS9OEG1MVR2b2GtLoWFI7k+fUr<br/>Gj8gH/4vggmcvrGr1zU2nxZofusXtu7Zr3JChsFXJaV9V2c294PkiEoOVfV6QOVC<br/>4erHzUdlmiml8IBoreVifkZM/ncMEuVAgp2w85gpUU/aJErJYEQvcuK48XSnErlN<br/>iv1V5c3ukyGOAlRDbI7khmIbs2R6MQTs8SeSq9WBj+ek8xlGhStax8gJyFHObwek<br/>pQ==<br/>=lp+4<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>shipping 5/5, stealth 2/5, quality 2/5</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I received a potent, generous gram fast. Will definitely order larger amounts from Fluffy when my broke ass gets some coin.</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>came thru. thanks.. looked odd. had a lot of seeds. pics from wearebaked/wheresweed.com</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~3/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>Stealth was actually good! Im to scared to smoke the weed though ): not bud but not shake weird. everything else was good</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Finalizing Early!</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Update: Not a scammer just not priority mail like I thought it was sorry bro bud doesnt look like pic at all but great for the </td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>UPDATE** Finally arrived took a week. shit looks good.</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>i got it and worth the dollar i paid for it.
+
+not high quality weed by any means but i got what i paid for</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Amazing quality, fast shipping, perfect seller.</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>The person(s) that said this guy is a &quot;scammer&quot; are obviously another vendor who bought the item because of its low $1 price, j</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>Lol really man? Received some shitty outdoor weed and a bunch of seeds..hope your happy with that dollar asshole.</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Bad shipping &#101;rrors,vendor apologetic,thanked for feedback,says will address shipping.Frostiest weed ever,give em a shot.</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>HONEST REVIEW
+
+STEALTH 2/5
+WEIGHT 10/5
+srs.. idk if it was because the bud was light, but it looked like an eighth.. 
+QUAL</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Can&#39;t beat this deal.  Bud is decent.  Stealth is lacking, though...</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Vendor seems to do great business. Looking forward to try your Jake Herer!</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>AWESOME bud. Thanks for the sample</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE will update, fingers crossed</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good bud, really fast shipping</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good shit</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Really Fast delivery!!! Received 2 days after ordering. I wish I ordered more then 1g. I will definitely be ordering larger qua</td>
+                    
+                        <td>
+                            <a href="/p/NPyuXP5WjC">
+                                1g samples of Jack Herer - Incredibly Strong Sativa Strain
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of FluffyPanda:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ALUjE3pM9l.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ALUjE3pM9l">3.5g Jack Herer - Incredibly Strong Sativa Strain</a><br/>
+                    <span class="description-preview">Jack Herer being a sativa-dominated strain can be effective in relieving anxiety, nervousness, stress and depression. It is also viewed as a motivational medicine, stimulating energy, creativity and  ...</span>
+                </td>
+                <td>0.09251101 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FNMwCvYxic.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FNMwCvYxic">7g Jack Herer - Incredibly Strong Sativa Strain</a><br/>
+                    <span class="description-preview">Jack Herer being a sativa-dominated strain can be effective in relieving anxiety, nervousness, stress and depression. It is also viewed as a motivational medicine, stimulating energy, creativity and  ...</span>
+                </td>
+                <td>0.18502202 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Bi3VDP9DqB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Bi3VDP9DqB">14g Jack Herer - Incredibly Strong Sativa Strain</a><br/>
+                    <span class="description-preview">Jack Herer being a sativa-dominated strain can be effective in relieving anxiety, nervousness, stress and depression. It is also viewed as a motivational medicine, stimulating energy, creativity and  ...</span>
+                </td>
+                <td>0.37004405 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NPyuXP5WjC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NPyuXP5WjC">1g samples of Jack Herer - Incredibly Strong Sativa Strain</a><br/>
+                    <span class="description-preview">Samples EXTREEMLY low priced. We are sorry, but in order to weed out some unprofessional buyers, you must have at least 1 purchase on your account before requesting a sample from us. Any order placed ...</span>
+                </td>
+                <td>0.00220264 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="FluffyPanda" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to FluffyPanda</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'FluffyPanda'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

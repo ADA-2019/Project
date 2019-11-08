@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>apoteket</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 453.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>apoteket</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.91/5, 25~40 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Vi &auml;r en p&aring;litlig, svensk inrikesleverant&ouml;r av amfetamin, franska subutex 8mg, Rivotril/Iktorivil, vallar, Ksalol 1mg, Tramadol 50mg, Ecstasy 200-220mg samt gr&auml;s. Vi har &auml;ven tagit in Pfizer&#39;s Lyrica 300mg f&ouml;r tillf&auml;llet.<br/><br/>F&ouml;r refs titta p&aring; v&aring;r s&auml;ljprofil med username Swecan p&aring; Pandora Market &amp; Flugsvamp eller username Apoteket p&aring; SR2. Finns fina ord om oss &auml;ven p&aring; FB!<br/><br/>Vi skickar i nul&auml;get enbart inrikes i Sverige och med vanlig post (inte rekommenderat) om inte annat anges eller &ouml;verenskommes innan order. Om vi skickar enligt &ouml;verenskommelse till annat land &auml;r det p&aring; egen risk och Finalize early som g&auml;ller. Alla inrikes ordrar anv&auml;nder vi givetvis escrow och kr&auml;ver ingen FE p&aring; dem ordrarna.<br/><br/>Anv&auml;nd g&auml;rna PGP-kryptering vid korrespondens med oss och n&auml;r Ni skickar Er adress. I v&auml;rsta fall (om Ni ej kan kryptera pgp) anv&auml;nd en privnotel&auml;nk, ReadThenBurn eller liknande tj&auml;nst. V&aring;r public key &auml;r:<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFLHTd8BCACbWYxIrTw8ZcFR7zzLvdCV3WXa7bX4QpZeOHeyfSL7uNdIMYjW<br/>xRjfTpyHZq2LrHVZisbleC/blmALr1RXaOW8M/9sTOa5ZIbscb6jYOPeU/AfU7Lw<br/>pCZEX4JtRX4jNgAydBZMTtPMLEy3M0EzptvmZsiJf6sB8XchBTqoxH2O1AfppRk2<br/>8vd8xYXZNkcQZZxU6O0JUxL5THL/zsQjCXxXf1aYMOCqCnXcw0EbVz1NEzC/snVb<br/>rsyi7yt0p81m8JkxQexgVkaFl7/R93s8K2bwyS0kFHB8ocdvwyn4CQ6tCDi8l2Jp<br/>ZGMof4kIvwTcJ4bKRvqFMHuNwIdBJDlul9+TABEBAAG0JUFwb3Rla2V0IChTUjIp<br/>IDxhcG90ZWtldEBhcG90ZWtldC5zZT6JATkEEwECACMFAlLHTd8CGwMHCwkIBwMC<br/>AQYVCAIJCgsEFgIDAQIeAQIXgAAKCRDtHvMdA/dvUHOVB/40mMkcL2Ci9f+Phd79<br/>KgNYSTjr/kV5HGfrONKtiFq1QLEx7s63KdzA1Ty6ryg7cAdgVQRcHlU/zX5b1fUF<br/>A1K3Hd0Xte3GtLo1N5ImwjkX9co2fASowNknD79dunoOgRivexn2Ad5/CLd8vvEp<br/>DCamDMuSYS8B7vC+FbUKznht1mCgRbKALugQo6DElMILh0BqW6nIcH6WsPieztrv<br/>NcHoylefCqANEnEJUq1/QHkLPJwaBzio/I8oHv1XsnbGaft3EWSQmg4YkeJSyqaX<br/>sUE/kKphFXRWXnbqQimC83HkGCShpSCMyhIxv/XVDC2hhXw6SiRrK3Gf3KrcW5+J<br/>KggPuQENBFLHTd8BCADUgoIQ15UWIi8L/SLazroQ7sDIZfUKlmIPQVKVSAJfloAd<br/>sL75DIhmOi8UBj8IZFuEL3i8WJF8tXXV9iGgVwioOXHLBDTouVXVT7EDlXBEbTwR<br/>6FLL9Ilsmz5aHx5U59WUVtkoj6FO/0q5aHegq1iucYXo5DEEcRAujxtGfpiaQ9SD<br/>p1h5vN174+wayAyLggioM4wa1+hDwvs0Er1ANFei/VGGkMHYq39SlgjtTiv8Ln1u<br/>9Jbvg4v67KIJbPiR6Nlc7zKacoXudK4O7bFf4KONVROYHXzBJ9YjL3+MPbGfNIwy<br/>OCW/wBTTuCo3BQAg1UuyDuo6ifP9N4N3+QT7GpKPABEBAAGJAR8EGAECAAkFAlLH<br/>Td8CGwwACgkQ7R7zHQP3b1D+Awf/e1/V+I6V+vtrXigr1mjEDlb06Ts+RUyDxFBD<br/>x2ENCz9c+OiE7aodRS2W+Dbb+YZp0HnVWUlUx1i0yaSE7677dQ1c1j4S5OF73hkD<br/>RZ2ck61btxREnl/eRFB4usNdaoHawFMyV3Zrp8IjYlm+KyVzGYZ3HVfwEMDPPdic<br/>1OQdY2m+z8vUuVHrLOg0EUajxDBNMpuM+6SHfjvMXcDvTYrlYntYNGnBFmPjcQNW<br/>8iAlBoCYQj1reAmeeGZ7ZUxLsWgbX/McqdAXFgvBMEfX4wEwj2Miwy28TiDVWbol<br/>QOJRPPiaC2Ervw4NoBLXeYWW1kft2qC8d3jkd57ptcEY89D/AQ==<br/>=X5R9<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 dagen efter!</td>
+                    
+                        <td>
+                            <a href="/p/ynELT4wd3A">
+                                Rivotril 2mg (Klonazepam) by Galenika - 100 st
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>gick snabbt och allt var som det skulle</td>
+                    
+                        <td>
+                            <a href="/p/z1CjqpFJqx">
+                                XTC, MDMA-pills: &quot;Apple&quot; 200mg - 10 stycken
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Bra jobbat grabbar. Betalar g&auml;rna lite h&ouml;gre pris f&ouml;r s&aring;dan service. Overnight delivery 5/5 + 10!!</td>
+                    
+                        <td>
+                            <a href="/p/NRixGtYmMo">
+                                Tramadol 50mg - 50 kapslar
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Lika bra som alltid!!!!</td>
+                    
+                        <td>
+                            <a href="/p/Ub08JEppdx">
+                                Subutex 8mg - 2 st
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>perfect</td>
+                    
+                        <td>
+                            <a href="/p/Ub08JEppdx">
+                                Subutex 8mg - 2 st
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/qhGB096ST2">
+                                Amfetamin, Speedpaste - 2 grams
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Snabb leverans, bra service, fick en liten p&aring;se benzos med best&auml;llningen vilket uppskattades :)
+
+Varan var inte s&aring; fantastisk</td>
+                    
+                        <td>
+                            <a href="/p/mCdL2fUBGd">
+                                Amfetamin, Speedpaste - 3 grams
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast, honorable, accurate. Highly recommended!</td>
+                    
+                        <td>
+                            <a href="/p/eemKi6JML5">
+                                Xanax 1mg Ksalol Galenika - 250 st
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Grym snubbe, deepwebbens b&auml;sta kundservice! Bra produkt ocks&aring;. 5/5</td>
+                    
+                        <td>
+                            <a href="/p/qhGB096ST2">
+                                Amfetamin, Speedpaste - 2 grams
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Graet! :) 2 dagar inrikes, skitbra sub och mkt diskret packat. Jag &auml;r en &aring;erkommande kund o jag ger apoteker 6/5 i betyg (inom </td>
+                    
+                        <td>
+                            <a href="/p/Eul61ejiGS">
+                                Franska Subutex 8mg - 1 st
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Enbart positivt att s&auml;ga om denna vendor</td>
+                    
+                        <td>
+                            <a href="/p/bkcjxxepU3">
+                                Franska Subutex 8mg - 10 st
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Sk&ouml;nt och cleant blomsterkladd, snabb leverans, ytterst suver&auml;n apotekare!</td>
+                    
+                        <td>
+                            <a href="/p/mCdL2fUBGd">
+                                Amfetamin, Speedpaste - 3 grams
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>riktigt bra vendor, snabb leverans och bra att ha och g&ouml;ra med!</td>
+                    
+                        <td>
+                            <a href="/p/c6VwoDKAg2">
+                                Custom listing for charliee
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~3/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Snabb leverans och mycket bra stealthf&ouml;rpackat! V&auml;ldigt n&ouml;jd kund.</td>
+                    
+                        <td>
+                            <a href="/p/bkcjxxepU3">
+                                Franska Subutex 8mg - 10 st
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast delivery</td>
+                    
+                        <td>
+                            <a href="/p/qhGB096ST2">
+                                Amfetamin, Speedpaste - 2 grams
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fort framme, 1 dag bara! Grejerna va helt ok! Sk&ouml;nt drag i b&ouml;rjas som senare dala ut i ett sk&ouml;nt rus.</td>
+                    
+                        <td>
+                            <a href="/p/mCdL2fUBGd">
+                                Amfetamin, Speedpaste - 3 grams
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Absolutely fantastic product and 1 day delivery. It hardly gets better than this.</td>
+                    
+                        <td>
+                            <a href="/p/qhGB096ST2">
+                                Amfetamin, Speedpaste - 2 grams
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>6/5 Fick refund.Har han absolut inte beh&ouml;vt.. Sjysst som fan mitt f&ouml;rsta kom inte fram! Men i dag s&aring; kom det inte hunnit testa </td>
+                    
+                        <td>
+                            <a href="/p/z7PkoA940j">
+                                Weed Strain: Amnesia Haze - 5 gram
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Snabb leverans, dock s&aring; &auml;r jag lite missn&ouml;jd med packeteringen d&aring; jiffybagen var &ouml;ppen och man s&aring;g vakuumf&ouml;rpackningen inuti. R</td>
+                    
+                        <td>
+                            <a href="/p/gEEZti2Xlh">
+                                Weed Strain: Amnesia Haze - 10 gram
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Allting helt PERFEKT :-)Hurra! och tack!</td>
+                    
+                        <td>
+                            <a href="/p/Ub08JEppdx">
+                                Subutex 8mg - 2 st
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of apoteket:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/tRCxFuMUzM">Bensedine 10mg (Valium) galenika - 100 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Diazepam (Valium)
+M&auml;rke: Bensedine 10mg
+Tillverkare: Galenika
+
+Antal: 100 st
+
+Vita Valium fr&aring;n galenika, mycket h&ouml;g kvalit&eacute;. Liknar svenska Stesolid.
+
+Vi skickar enbart inom Sv ...</span>
+                </td>
+                <td>0.37527593 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ynELT4wd3A.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ynELT4wd3A">Rivotril 2mg (Klonazepam) by Galenika - 100 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Klonazepam
+Varum&auml;rke: Rivotril 2mg
+Tillverkare: Galenika
+
+Antal: 100st
+
+&Auml;kta Rivotril 2mg fr&aring;n Galenika. Mycket uppskattad benzo!
+
+Skickas enbart inom Sverige med posten.
+
+Vi ...</span>
+                </td>
+                <td>0.37527593 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mDeXKClnER.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mDeXKClnER">Franska Subutex 8mg - 5 st</a><br/>
+                    <span class="description-preview">Vara: Subutex 8mg
+Fr&aring;n: Frankrike
+Aktivt &auml;mne: Buprenorfin
+
+Antal: 5 st
+
+Varorna skickas utan blisterkartor men givetvis &auml;r det &auml;kta vara.
+
+Vi skickar varorna mycket diskret och med snabba le ...</span>
+                </td>
+                <td>0.41942604 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lux0Xp7hrS.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lux0Xp7hrS">Rivotril 2mg (Klonazepam) by Galenika - 250 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Klonazepam
+Varum&auml;rke: Rivotril 2mg
+Tillverkare: Galenika
+
+Antal: 250st
+
+&Auml;kta Iktorivil 2mg fr&aring;n Roche. Mycket uppskattad benzo!
+
+Skickas enbart inom Sverige med posten.
+
+Vi e ...</span>
+                </td>
+                <td>0.82781456 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Eul61ejiGS.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Eul61ejiGS">Franska Subutex 8mg - 1 st</a><br/>
+                    <span class="description-preview">Vara: Subutex 8mg
+Fr&aring;n: Frankrike
+Aktivt &auml;mne: Buprenorfin
+
+Varorna skickas utan blisterkartor men givetvis &auml;r det &auml;kta vara.
+
+Vi skickar varorna mycket diskret och med snabba leveranstider.
+ ...</span>
+                </td>
+                <td>0.11589403 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/tdZw5ttXcx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/tdZw5ttXcx">Rivotril 2mg (Klonazepam) by Galenika - 50 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Klonazepam
+Varum&auml;rke: Rivotril 2mg
+Tillverkare: Galenika
+
+Antal: 50st
+
+&Auml;kta Rivotril 2mg fr&aring;n Galenika. Mycket uppskattad benzo!
+
+Skickas enbart inom Sverige med posten.
+
+Vi  ...</span>
+                </td>
+                <td>0.26490066 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/y7i6CE7CwD">Bensedine 10mg (Valium) galenika - 250 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Diazepam (Valium)
+M&auml;rke: Bensedine 10mg
+Tillverkare: Galenika
+
+Antal: 250 st
+
+Vita Valium fr&aring;n galenika, mycket h&ouml;g kvalit&eacute;. Liknar svenska Stesolid.
+
+Vi skickar enbart inom Sv ...</span>
+                </td>
+                <td>0.82781456 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/SstisCyLN6">Bensedine 10mg (Valium) galenika - 50 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Diazepam (Valium)
+M&auml;rke: Bensedine 10mg
+Tillverkare: Galenika
+
+Antal: 50 st
+
+Vita Valium fr&aring;n galenika, mycket h&ouml;g kvalit&eacute;. Liknar svenska Stesolid.
+
+Vi skickar enbart inom Sve ...</span>
+                </td>
+                <td>0.26490066 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/AugL9S6Cyi">Bensedine 10mg (Valium) galenika - 25 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Diazepam (Valium)
+M&auml;rke: Bensedine 10mg
+Tillverkare: Galenika
+
+Antal: 25 st
+
+Vita Valium fr&aring;n galenika, mycket h&ouml;g kvalit&eacute;. Liknar svenska Stesolid.
+
+Vi skickar enbart inom Sve ...</span>
+                </td>
+                <td>0.15452538 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/z7PkoA940j">Weed Strain: Amnesia Haze - 5 gram</a><br/>
+                    <span class="description-preview">Cannabis - Weed
+
+Strain: Amnesia Haze
+
+M&auml;ngd: 5 gram
+
+Gr&auml;s av absolut h&ouml;gsta kvalit&eacute;! Riktigt Premiumr&ouml;ka.
+
+Vi vakuumpackar givetvis alltid orders p&aring; gr&auml;s och skickar enbart inrikes!</span>
+                </td>
+                <td>0.26490066 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fFFnUSd5XT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fFFnUSd5XT">Rivotril 2mg (Klonazepam) by Galenika - 25 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Klonazepam
+Varum&auml;rke: Rivotril 2mg
+Tillverkare: Galenika
+
+
+Antal: 25 st
+
+
+&Auml;kta Iktorivil 2mg fr&aring;n Roche. Mycket uppskattad benzo!
+
+
+Skickas enbart inom Sverige med posten.
+ ...</span>
+                </td>
+                <td>0.15452538 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/rq1P4Y7qbe">XTC, MDMA-pills: &quot;Apple&quot; 200mg - 2 stycken</a><br/>
+                    <span class="description-preview">MDMA-piller, Ecstasy/XTC av h&ouml;gsta styrkan: 200mg.
+
+
+Dessa partypiller &auml;r gr&ouml;na och har ett &auml;pple p&aring;tryckt, d&auml;rav
+kallas dem &quot;Apple&quot;.
+
+
+Denna annons g&auml;ller 2 stycken piller.
+
+
+Vi skickar va ...</span>
+                </td>
+                <td>0.15452538 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/iTl924LN9X">XTC, MDMA-pills: &quot;Apple&quot; 200mg - 5 stycken</a><br/>
+                    <span class="description-preview">MDMA-piller, Ecstasy/XTC av h&ouml;gsta styrkan: 200mg.
+
+Dessa partypiller &auml;r gr&ouml;na och har ett &auml;pple p&aring;tryckt, d&auml;rav
+kallas dem &quot;Apple&quot;.
+
+Denna annons g&auml;ller 5 stycken piller.
+
+Vi skickar vanliga  ...</span>
+                </td>
+                <td>0.27593818 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/AGcERmJNgR">Xanax 1mg Ksalol Galenika - 100 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Alprazolam
+M&auml;rke: Xanax 1mg Ksalol
+Tillverkare: Galenika
+
+Antal: 100 st
+
+Snabbverkande och &aring;ngestd&auml;mpande benzo som i Sverige s&auml;ljs under varunamnet Xanor.
+
+Vi skickar enbart i ...</span>
+                </td>
+                <td>0.37527593 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/rm1Rl6w1Yc">Pfizer&#39;s Lyrica 300mg (Pregabalin) - 10 st</a><br/>
+                    <span class="description-preview">Vara: Lyrica 300 mg
+Tillverkare: Pfizer (&auml;kta apoteksvara)
+Verksamt &auml;mne: Pregabalin
+
+Antal: 10 stycken
+
+Lyrica &auml;r en lite allt i allomedicin som f&ouml;rst togs fram som ett antiepilektum (mot elep ...</span>
+                </td>
+                <td>0.16556291 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/zSfumLDvtB">XTC, MDMA-pills: &quot;Apple&quot; 200mg - 25 stycken</a><br/>
+                    <span class="description-preview">MDMA-piller, Ecstasy/XTC av h&ouml;gsta styrkan: 200mg.
+
+Dessa partypiller &auml;r gr&ouml;na och har ett &auml;pple p&aring;tryckt, d&auml;rav
+kallas dem &quot;Apple&quot;.
+
+Denna annons g&auml;ller 25 stycken piller.
+
+Vi skickar vanliga ...</span>
+                </td>
+                <td>1.00441501 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/KjJmBtsl2K">XTC, MDMA-pills: &quot;Apple&quot; 200mg - 3 stycken</a><br/>
+                    <span class="description-preview">MDMA-piller, Ecstasy/XTC av h&ouml;gsta styrkan: 200mg.
+
+
+
+Dessa partypiller &auml;r gr&ouml;na och har ett &auml;pple p&aring;tryckt, d&auml;rav
+kallas dem &quot;Apple&quot;.
+
+
+
+Denna annons g&auml;ller 3 stycken piller.
+
+
+
+Vi skic ...</span>
+                </td>
+                <td>0.19867549 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/kmzm1tWbUL">Xanax 1mg Ksalol galenika - 50 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Alprazolam
+M&auml;rke: Xanax 1mg Ksalol
+Tillverkare: Galenika
+
+Antal: 50 st
+
+Snabbverkande och &aring;ngestd&auml;mpande benzo som i Sverige s&auml;ljs under varunamnet Xanor.
+
+Vi skickar enbart in ...</span>
+                </td>
+                <td>0.26490066 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/gEEZti2Xlh">Weed Strain: Amnesia Haze - 10 gram</a><br/>
+                    <span class="description-preview">Cannabis - Weed
+
+Strain: Amnesia Haze
+
+M&auml;ngd: 10 gram
+
+Gr&auml;s av absolut h&ouml;gsta kvalit&eacute;! Riktigt Premiumr&ouml;ka.
+
+Vi vakuumpackar givetvis alltid orders p&aring; gr&auml;s och skickar enbart inrikes!</span>
+                </td>
+                <td>0.46357615 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Ub08JEppdx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Ub08JEppdx">Subutex 8mg - 2 st</a><br/>
+                    <span class="description-preview">Vara: Subutex 8mg
+Fr&aring;n: Frankrike
+Aktivt &auml;mne: Buprenorfin
+
+Varorna skickas utan blisterkartor men givetvis &auml;r det &auml;kta vara.
+
+Vi skickar varorna mycket diskret och med snabba leveranstider.
+ ...</span>
+                </td>
+                <td>0.19867549 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/z1CjqpFJqx">XTC, MDMA-pills: &quot;Apple&quot; 200mg - 10 stycken</a><br/>
+                    <span class="description-preview">MDMA-piller, Ecstasy/XTC av h&ouml;gsta styrkan: 200mg.
+
+Dessa partypiller &auml;r gr&ouml;na och har ett &auml;pple p&aring;tryckt, d&auml;rav
+kallas dem &quot;Apple&quot;.
+
+Denna annons g&auml;ller 10 stycken piller.
+
+Vi skickar vanliga ...</span>
+                </td>
+                <td>0.49668874 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/V7AylkUzb7">Xanax 1mg Ksalol galenika - 25 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Alprazolam
+M&auml;rke: Xanax 1mg Ksalol
+Tillverkare: Galenika
+
+Antal: 25 st
+
+Snabbverkande och &aring;ngestd&auml;mpande benzo som i Sverige s&auml;ljs under varunamnet Xanor.
+
+Vi skickar enbart in ...</span>
+                </td>
+                <td>0.15452538 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/eemKi6JML5">Xanax 1mg Ksalol Galenika - 250 st</a><br/>
+                    <span class="description-preview">Verksamt &auml;mne: Alprazolam
+M&auml;rke: Xanax 1mg Ksalol
+Tillverkare: Galenika
+
+Antal: 250 st
+
+Snabbverkande och &aring;ngestd&auml;mpande benzo som i Sverige s&auml;ljs under varunamnet Xanor.
+
+Vi skickar enbart i ...</span>
+                </td>
+                <td>0.82781456 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/SWE.png" /> Sweden<br/>
+                    <i class="fa fa-home"></i> To: Sweden
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="apoteket" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to apoteket</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'apoteket'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

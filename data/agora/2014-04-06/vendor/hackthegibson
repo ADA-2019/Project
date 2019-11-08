@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>hackthegibson</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 463.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>hackthegibson</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 6 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            HACK THE PLANET!!! HACK THE PLANET!!!<br/><br/>Hello All.  We&#39;re here to provide you with the best MOONROCK on Agora as well as the same superb customer service that you&#39;ve become accustomed to seeing from HTG. We&#39;ve been on the Darknet for a while now and were a trusted seller on SR1, BMR, Sheep MKT and now SR2. <br/><br/>http://blueskyplzv4fsti.onion/users/viewUser/hackthegibson<br/>hackthegibson@Safe-mail.net<br/><br/>I. Mission Statement<br/>*****************************<br/>Our mission is simple, to provide high quality drugs and high quality service. We have tons of experience and have been in the game for a while. We work directly with the cook to ensure the highest quality MDMA on Agora. Satisfaction Guaranteed. We promise you and your friends won&#39;t be disappointed.<br/><br/>II. Escrow<br/>*****************************<br/>PLEASE RELEASE ESCROW UPON RECEIPT OF THE PACKAGE. Buyers who do not release the escrow will be banned. We expect to be paid once we&#39;ve done our job, so please do yours and release escrow.<br/><br/>III. Shipping<br/>***************<br/>Make sure your address reads as follows:<br/>John Smith<br/>123 Main St.<br/>Tallahassee, FL 32301<br/><br/>We ship every single day, so you should expect to receive your package in 2 - 5 days using USPS Priority.<br/><br/>IV. Feedback<br/>*****************************<br/>Your feedback is appreciated, but PLEASE message us before leaving anything below 5/5. Customers who leave anything other than 5/5 before contacting us will be banned. Also, please share your experience<br/><br/>thanks<br/><br/>HTG<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.19 (Darwin)<br/>Comment: GPGTools - http://gpgtools.org<br/><br/>mQENBFKaxSUBCADOL0UG+V7hvzHMzirs15VuAVKx+FKhuF1yLP3rFMV3pUmmXdtT<br/>2K4eU9qeSMTtctaAOryCm3FI2659cozZXlNR8XOLAH6JjZI3xDO3jjwxGdslP1ZP<br/>aChxV/DtwA+LXe32xbfcxuizAWwjGdOh+TOpZ5mUXaJppolSOrpSHklAuP3g0g/I<br/>RaEjxBwJbKW9YCEgpcu4+4yHPdHqG9lvTY6bX82bYo3oLuqxsqhYVhi5PYcAKLpB<br/>lppUNhdEHtOdrgJKkWgEkzcdvsjhrw0yd3RiVhyNGUmINXy7bhITUt6fO35gAd75<br/>SrFNkqWSKxWL3k0PKOFA1wYIExibxEPcpsvnABEBAAG0LWhhY2t0aGVnaWJzb24g<br/>PGFpbnRub3RoaW5ndG9Gd2l0aEBXdXRhbmcuY29tPokBPQQTAQoAJwUCUprFJQIb<br/>LwUJB4YfgAULCQgHAwUVCgkICwUWAgMBAAIeAQIXgAAKCRC7nzrbePKg57dEB/9u<br/>rkbCOq88eVCicyAK2L84r3bWR5KQi28z41NcPS7COvRJeWFGjVvhB6kVSe6L8Z3Z<br/>efM/9vrxLHWPdLIMyzuas5IzdR/V3REgLNPT19O8MRNSkyWcPts2KPI0GbP5b8xR<br/>HsQWZxzSQfcbhDZCR/VyBo/+TZ3KzNaVbV61Pon6GTEXo1Pwe2QyT9hcPnfuqaYi<br/>Kb4j+PZ/hxQbYApWpu6aZ4bfQZQTs7DFZ5WN5wgWQz3lzU/KKy3FOp5ee8xc/qDW<br/>Mm4HKdELHAzcSJe71+Vk2yYn6xrSomBlDnEKMM/VDs0qy2jQxf2p1o0T2H4kLVPd<br/>7QTNwskZBgRQdQhbnJjPuQENBFKaxSUBCADHpDPZvQ9gAYBSs7FrAQ&#83;qLqQ4pyzm<br/>8ItLmkFdQNyLMvkaFP87ZluiD3sZfeUPeD4UdzCx2o94GB+WkbBpLdmLbLFrsJ7z<br/>Tsl8Ii1x1Ev9S8ncBvRUoZnK9QyYBPKdiv2KjjzJiz7jisnGtMBAPbsaXfmMmLtu<br/>3IKos8MznLMPasUQxF1wnl+sHesXIl4V7NPKToDZMGRkeugwPkj4oQuJ7vVYuKk6<br/>KNywX1a2uWSwuet77aHZnIIRHXaw8CW7F52b/CXf1QTE4MSn+QGXpE1OKQnK/fjv<br/>PFfmanmhK1otbtYXUptx0AOuKlsht+oInTvQTJxFEvYpqZKh4DL5DUz3ABEBAAGJ<br/>AkQEGAEKAA8FAlKaxSUCGy4FCQeGH4ABKQkQu58623jyoOfAXSAEGQEKAAYFAlKa<br/>xSUACgkQd2iJuSFwMGsF/gf+L/BxO1rSecTBPGi8DLjqWlW8wzingisvaFUySfkW<br/>DNzKFq2yAQ0ccZ4oyAAQkTb+Falo0zHKq/NOwDxYNpYMEH4k9eA1E5lE0lCX+rym<br/>bt+/dHeHixeceo7F7+7ktUJBbAj47rG+mo0rvKMkEubtHhiBjgEJXNT5Fcf6e23E<br/>rYR6NWh9JInoJ/GJAGCXrXTDEl9tZ9Faeq54K+xxnuXKpzHvGw1Q1oErpTRCapiZ<br/>hCth2B6p2/pndBiM52y6+Q8QwLJew3jJZ0ZzIZcQcJtw9aety3BC6Hx8gRSH2UKN<br/>S/eoTYPb0FoviFc20zCs3J2NMlaIkh2PZ+u45wwWGPdqrK4TCACnPBlQsnL1dNod<br/>5w5kwV7NAsz7wgzyLu80Q+fvDkox2yNPWkstRN2uw09zeDszX8hvqzDR1evfuFCC<br/>jdXRAwo5AfrdT+Ssmk+Is2hW+0Kql9LjG0oHqV1MPljivN7JDhoDTr68XApALxY8<br/>iebwAUlqm/bg94XMGNVr9a+tzNBNFPPdzD7qyaaWm6LU4LjMhBqJtu4WKtnXrVYU<br/>a2QcAzTxLMmyn/Px2HW6aKqYEMeBiPTc/Kf9kspKmHwkL0HZZPvnsUZ+kZ0SxlK3<br/>+7TKgRLwxNx3becXYlmihCvNldoguVBhq0MxXOmEs3Z8kQJMNjaCMPOQJTVZFylJ<br/>k5Hp6K5+<br/>=v1F+<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>3 day domestic ship. .005 underweight(no biggie)would order again!!!</td>
+                    
+                        <td>
+                            <a href="/p/ysqhE0yZui">
+                                5g HQ Moonrock MDMA
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Saw HTG on SR1 and always wanted to try his product, so I&#39;m glad he opened up shop here. Placed order on Wednesday night, recei</td>
+                    
+                        <td>
+                            <a href="/p/ysqhE0yZui">
+                                5g HQ Moonrock MDMA
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Dealt with hacker even back on SR, he is very professional and very quick. The product is second to none, I was even caught in </td>
+                    
+                        <td>
+                            <a href="/p/k4VM8JcB1z">
+                                1g HQ MOONROCK MDMA
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast shipping, great stealth, smooth &#116;ransaction</td>
+                    
+                        <td>
+                            <a href="/p/Wuv3euwLl7">
+                                30mg Adderall 10x
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>excellent customer service, quality product.  vendor went out of his way to accommodate.  would definitely do business with aga</td>
+                    
+                        <td>
+                            <a href="/p/Wuv3euwLl7">
+                                30mg Adderall 10x
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Everything was perfect! Fast shipping, on point weight, and awesome product. Would buy again!</td>
+                    
+                        <td>
+                            <a href="/p/ysqhE0yZui">
+                                5g HQ Moonrock MDMA
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/k4VM8JcB1z">
+                                1g HQ MOONROCK MDMA
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of hackthegibson:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/k4VM8JcB1z.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/k4VM8JcB1z">1g HQ MOONROCK MDMA</a><br/>
+                    <span class="description-preview">New Vendor Special 
+******************
+
+1g of the best stuff on the DarkNet... Guaranteed. Current Batch Purity &gt;86%.  
+
+we aim to please and a superb product coupled w superb customer service h ...</span>
+                </td>
+                <td>0.12958963 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/u2vdoiy3LA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/u2vdoiy3LA">10g HQ Moonrock MDMA</a><br/>
+                    <span class="description-preview">New Vendor Special 
+******************
+
+10g of the best stuff on the DarkNet... Guaranteed. Current Batch Purity &gt;86%.  
+
+we aim to please and a superb product coupled w superb customer service  ...</span>
+                </td>
+                <td>1.10151187 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Wuv3euwLl7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Wuv3euwLl7">30mg Adderall 10x</a><br/>
+                    <span class="description-preview">30 mg instant release adderall... perfect for studying and partying... split them up easily
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+&#86;ersion: GnuPG/MacGPG2 v2.0.19 (Darwin)
+Comment: GPGTools - htt ...</span>
+                </td>
+                <td>0.47516198 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GoujhN7LR5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GoujhN7LR5">20mg Adderall 10X (instant release)</a><br/>
+                    <span class="description-preview">20 mg instant release adderall... perfect for studying and partying... split them up easily into 2 10mg each 
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+&#86;ersion: GnuPG/MacGPG2 v2.0.19 (Darwin)
+Comme ...</span>
+                </td>
+                <td>0.34557235 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kZP5Ns3uFk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kZP5Ns3uFk">3g MDMA Moonrocks</a><br/>
+                    <span class="description-preview">New Vendor Special
+******************
+
+3g of the best stuff on the DarkNet... Guaranteed. Current Batch Purity &gt;86%.
+
+we aim to please and a superb product coupled w superb customer service has  ...</span>
+                </td>
+                <td>0.36717062 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ysqhE0yZui.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ysqhE0yZui">5g HQ Moonrock MDMA</a><br/>
+                    <span class="description-preview">New Vendor Special
+******************
+
+5g of the best stuff on the DarkNet... Guaranteed. Current Batch Purity &gt;86%.
+
+we aim to please and a superb product coupled w superb customer service has  ...</span>
+                </td>
+                <td>0.58315334 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="hackthegibson" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to hackthegibson</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'hackthegibson'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

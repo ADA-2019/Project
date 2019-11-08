@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Clear-perfection</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Clear-perfection</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 19 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1<br/><br/>mQINBFM8bugBEACuj+mxofPRqNhOLZol6Q+8WreIC5wl5HPvOoteIR3iHTz6KkS2<br/>x9xFT5CmOJ3FFHUQr3QwQAUVpPXMWTaiHI+yTuslYDooP7jUzkgN/+SgqZPfX7SI<br/>GguCEVIkzwGU/Xqn7EbWOreXtvnHDjOeLDIiHeio3ucof5ktG0IANdmfUn+HIXs5<br/>44yQaRMFfg8EsIxNS8nW9SOmBx2YyTzPOTed/Al4gDd3X5f6/634SPQELCBrBey6<br/>kHIVfFE+ta3SPBXnDL87e4bY5jXE0AZ2V28GtIEKLCoPuVS19oxsH5iSbqxMhikf<br/>WOUiUuOlBhqkpHjb5OeYrhpzN05iBrcpkA0pe0KONzuXrjR7l/YBE41sNOyQPRj7<br/>4BpIdd35rNhwvKbXJlcQ/lXm4FACtlt/kClfYMvx1dUU6Cdo5yGjKO5daxGZnG95<br/>aLkd9uYjHX8R90i/13rUPMKZ+rh/bABnCllyQLXZrA7Pf0s6W1aHdJfzfEojvgAp<br/>Z2s3RnK7j/vt+hmEqFkbLTWlwIKS9OB9NspCaf2ZKj/sVRbVifdWGQdPtq9r4sXj<br/>T3EFc+JmQtHck4w1Aso1io2QrLPNQJBSnt88pc1sww0NhcuePmmAUT0m9phqlPYU<br/>eCM8nFNG0bv6sni1q2W9cCu11HqSuKEyZUwp11FuwrC7eXZuRzXKKedauQARAQAB<br/>tDBjbGVhci1wZXJmZWN0aW9uIDxjbGVhcnBlcmZlY3Rpb25AZ3VhcmRtYWlsLmNv<br/>bT6JAjYEEwEKACAFAlM8bugCGwMFCwkIBwMFFQoJCAsEFgIBAAIeAQIXgAAKCRCt<br/>11d7wKd0j0M4D/4kK3Cx/+VTCx5ALg/i0xHx7sHMKjfJPSiiWQrxi7qMZXrP/mAS<br/>3H2EISnqAHe4/fSsjDf2r0vXRBY1EaM+nLLKdYnc8XKFiyNnQnrBwOTHfyhyQ85r<br/>EaZGx41lvqXIRlAN1obBfD9nkuMpsyheW7NBtKFe8BByHARhNwetsm83p5Sh9QM6<br/>aNPQ+UAI8G8vbcjrFxj2WJOn/hSpZV2a8IXTa3BhGqXDfsWt/Eqzp81pRrsQ8Eva<br/>ooOBBm7JIh/W3YiKg93tuHay34Ze3aqua2XJVxyhCQ/gSUhluNRY6zVuyYJmNxXN<br/>1QD7pzmuO8CwFmGWdIyIbZr0LOTmfZSGPe1oCerniwUNmPYi4h17zZgjEdGXnoMu<br/>yTK8X3tzYQUxYOuCwVsKTDieVhcoZDz2G1W2JNzEZ6MtAbvRmV86Y0bLDqNvjNCE<br/>tSEDiRYlRBII9K5zqYaS7v4RyZzSfroHfhj4uPizTk9rKZoAZF+nvqtLtKzXOgpI<br/>/Cyc87vbWzURafJS48va8qA9AQjbaHueRp8Aa1P+A7S5PlCFiJx9kjIzSsNhMCM/<br/>Q0Y7vuZhI4XmnUIOPqKLu5XANF5V2rBfWqWJO5B2867Fpb4XY4y+YlbWrv6/RqlQ<br/>JuYzhjlM&#112;Hpb+9Fm6eCfAsa1y4E3RbU1+kdoadDtuyJLWFtYLRtHlf83vbkCDQRT<br/>PG7oARAA4ZSQ7M2pLRNvKh9z6q9j5tymhtNztFDWxc74Qi/IiJDftHR5hyJew/v2<br/>NIoVqLuqypKdsNIiqiD8Tfgi6vsLyLNuBoVc8xkx/yw/w+Cw2nOtS1kpwW5mRv0p<br/>PsaLO1xt7sS9b6O6HF9uTrGTcL+fV1h0k+wJ28LXDTjU/xykjo0jSGXrvL1UKete<br/>ycxzZt12vvUcep/ENIhD0WSb61h1YTbCCQ7vCrNao8c2D4NF+pSrY63mA0tZ4cYm<br/>kB5rwTrNe3wGlYcNiI/IR6rTdVDGsLRH5NE1P1ZVH0webKK8j1hrg3MpLsGb0YEi<br/>PIXDmX5Z0GKrxFZSbaNAU9nUKZxQYV3L8xKkpLOzyEYPomu8Ynhdymc+5FwmApKH<br/>MtGx6KeEYUO8WABrgNW8w8h61rvnV8e7wZPqrbz3d7I+AZba5Legl2FZ9P6QXUEo<br/>wo9SuCMVYZCxSUY6kkXv9CvbTMgHNZjvWIRzlh24B31eyqmXiJY9OEUN6D80Ln0g<br/>bzlGvzdUDG2lCoBVGv4HunE+4dfkhr7S4RBHdgjAeeWTNCLxughOKPIV1Bzgayha<br/>Ia1NS0uqLqzbgJq5d5vncI5qVxt52oz6bmZ9bufpzuA5W3jcQS++qNUyMQ+68aoa<br/>QAQOhYaPK/q9KEjQKo9bEPFmsHCAyPvj7rs8+N7LcXWUeR+FY60AEQEAAYkCHwQY<br/>AQoACQUCUzxu6AIbDAAKCRCt11d7wKd0j6aBD/0aIWpJ5p84RpEBxp1GgGEuZqSI<br/>vtS3En4wGBlN1EbkLgMqFu8IYIJoEeiB6e+PssS1e3ZDj9lTSt2Ot83f+gQsbvGO<br/>V0GjKuhjFJ8TbezBXJP6qM2PRISvqwqwHN1Y8TIW5Wt2UTtbn3TksGZi089vk4RL<br/>pWHtou9OIsAto+fG1YFJJrLAWV9pUPqS/rrRsGdNSEiBCY673Y7c9vPZaFtUC0PY<br/>DCyTirA4kDHUACX+vNIsNOVvm0G+nZ8nPd1rNWyvt+aNxUxUUJQeoD/aibd+eDzs<br/>KwohmH0DPbUjD9aL6Q3jRMff5m/ip927VzpeHxvOJVIcHhtHgrV1KAvcx+q70ZUG<br/>KshBYm8vyI2mnNk+Bu6mRxpw0nTuQoFShZlUD+/wyvwVn2RuFkdYYgL14HaeCpWp<br/>N0zdd6GPGYIKG/QZOTepqxd7GkqON+Qd9IHLDQ3KftFbptdOTmVosQ7m4hGrLQrK<br/>YDe1zim4d2UCT/nqX6Uvv9DBuigm4qvLwbE3VWNHHs/9dX4LAr1XrCZF1SdgxbFy<br/>XUFqJCcUAKQ1HptZE8oIbEgR4gT0dhMQkStY/dEJyCiKs0c9WEGeP7XukQMpuWBC<br/>4APiyKylohqC5Xuf6BsMwaXyqdxnAstwEo2Vy/Bw4tlFH8NZczXnyBbuMY5wR4kg<br/>UY0ZJXjXE+fd/dHD/A==<br/>=vleP<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of Clear-perfection:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Tsul9dplSz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Tsul9dplSz">14g -  HIGH  PURITY --- ASIAN  IMPOTRTED ---  CRYSTAL  METH</a><br/>
+                    <span class="description-preview">Before I get anymore messages,  picture is for illustration purposes
+(Although is similar in clarity)   
+
+I only deal in the best &amp; cleanest products available
+
+All are products are shipped from ...</span>
+                </td>
+                <td>4.18502202 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: Anywhere
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/D0wsabFJjC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/D0wsabFJjC">100g  -  HIGH PURITY ---  INDIAN  IMPORTED ---  KETAMINE</a><br/>
+                    <span class="description-preview">Pictures are for illustration purposes
+(although very similar)   
+ 
+I only deal in the best &amp; cleanest products available
+
+All are products are shipped from the UK right to a drop house of your  ...</span>
+                </td>
+                <td>5.28634361 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: Anywhere
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/lrpBeaSt3a.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/lrpBeaSt3a">500g   HIGH  POTENCY  ---  UK  GROW  CHEESE</a><br/>
+                    <span class="description-preview">I ONLY SUPPLY DEALERS OR USERS THAT BUY IN BULK
+
+I only deal in the best &amp; cleanest products available
+
+All are products are shipped from the UK right to a drop house of your choice
+
+****  FE   ...</span>
+                </td>
+                <td>7.04845814 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: Anywhere
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XqgJfxaKM0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XqgJfxaKM0">10g  HIGH  PURITY ---  DUTCH IMPORTED --- MDMA</a><br/>
+                    <span class="description-preview">I only deal in the best &amp; cleanest products available
+
+Before I get anymore hate mail,  picture is for illustration purposes
+(Although is similar in clarity) 
+
+All are products are shipped from  ...</span>
+                </td>
+                <td>0.99118942 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: Anywhere
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Clear-perfection" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Clear-perfection</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Clear-perfection'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

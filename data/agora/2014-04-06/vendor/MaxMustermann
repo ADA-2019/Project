@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>MaxMustermann</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 447.68 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>MaxMustermann</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">44 successfull &#116;ransactions since 2013-09.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 11 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/><br/>mQENBFJ6iLABCACv511QbzGuzo/+coZuB3VccCaaCd+OO7qQrS84gC9X3qEPX0Y3<br/>VQX6MnZKoZdrjfuszZlCa0xjxsRTvugv1Mu1G9PseeBbCGkQ2OT2urk3KC6FIIEf<br/>mulCQAEn9+Gqv/JbefJk74yaAFaGGDVwrmBEGFebRvoX1Wbu80yHZV8hBJ+98p4Y<br/>08JPsOaYejJtuHuWcuSZg3wKIxIjgNfRKB7075GkC1T7ELLwf7H0IPmTreMV+UVP<br/>+3VvqUqzX0aoXEyCKmjwaJh73rISSdo6c5mucHk9MP6yay6EsEL0vNjCyoFxHkm7<br/>JqH4yCPRoa0Wbnsynzp+zFmXkyQPUg7lp0KrABEBAAG0KU1heE11c3Rlcm1hbm4g<br/>PG1heG11c3Rlcm1hbm5AbWFpbHRvci5uZXQ+iQE/BBMBAgApBQJSeoiwAhsjBQkJ<br/>ZgGABwsJCAcDAgEGFQgCCQoLBBYCAwECHgECF4AACgkQjFIB9hd6FjZNqggAnzy8<br/>XymnLVsbgu+pafvRRsBzl2FaxkUwWUjaYoqJrHLxim6pPPjp7tk/QJD/NEve+Ve7<br/>L7QUA6H1khhgjdmVsfEIj5CqzoVdFFDa0xz5E5aYvLMa0teIoJJLCbg1bHwE7VBl<br/>wfLefdpCcVK+McXI0l/Y88FYooMFHF1Vurk0G67eYedLC7pvLu3/ZM+42dKxJI5g<br/>mDflmMlSA3F8Hf42u0W6UFu+R2Tt2bShHHV6V8XZ6o6Zjt8c2n5b4wIsnP8aderp<br/>ZbF1sR5l9G9W0KC4Vqfbm/txJYShvOHbIYe7mEIAXFaL7oPYPbY3t7yCavDNy+FM<br/>s7RrBKycOn90BVBrrLkBDQRSeoiwAQgA1eZTpqARAYOiOIFuh21mlizqBEjpONVs<br/>usiTl94mMNzfFd8q9IFDjnO15zPVceutPlBXNFG2oM+SbhIkAV9MBviL2B3FdEj0<br/>QmRr0s5DTmzSEKE1lclp9NlR6jXu+Ssk95YkwAPaKyf7GO8jNi4XOm8gqiexFQ2p<br/>0k6fJbqvXn4WAszLUSd6qWJWa+cXDYzDrGWYtnnq1zjA02+Qvp8hWRihmz9yfvq7<br/>yFaJtgGqTWLcNCibRXX8PliajLRUNboooh3+eaOm55JpF+SdwhsZCFhOqU8F+QV3<br/>c3YRQc723MvM/vLMiV6D75SizpHnrYNglyfyPsZ8Visy7YK1NDdMewARAQABiQEl<br/>BBgBAgAPBQJSeoiwAhsMBQkJZgGAAAoJEIxSAfYXehY2BLgH/ArD+RiicxPzkybe<br/>aCdWzhklw33xuM6cFWEPRpGJPxcHQFE1Ba2ymdsvTAFIA74l/MEoTixfNGYJsxK/<br/>xNaDJ8ZpFIewJ0R30+DJkW0t1h92jCgQmMVU5kPXsa0kkVFhuSXzcOEHeqgkoKBc<br/>DPp7vrrPaN30R4UZ/CAXVSnSMW6t5zXJFLPDFEnLgE75resx0f3XlE1ayG4wSRdX<br/>xPQiMNIuAjEiDLSeOrhuBGdOR4cbHEhk4NkCIzCjyvjA2VFsIAwLOVHRw6/L1dNc<br/>knHtUVmJGhmBC+au6f79wO1WqnO8q/69HbmKzybh93q0c6L++6cKneHKR9qBS9zv<br/>o1PBRsY=<br/>=z+Kz<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very good vendor.</td>
+                    
+                        <td>
+                            <a href="/p/pjdNPYnoBx">
+                                10 X 9mm Luger FMJ Gecko ammo
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Vendor, Fast shipping und good contact!</td>
+                    
+                        <td>
+                            <a href="/p/jZeGpBboPK">
+                                Gun for duckling
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very quick and stress free, as it should be...MM is a pro!</td>
+                    
+                        <td>
+                            <a href="/p/vFZYWwLLBK">
+                                100 X .22lr JHP High Velocity ammo
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Lovely piece of equipment, hassle and stress free &#116;ransaction...nice one MM</td>
+                    
+                        <td>
+                            <a href="/p/fYkLgCLrsk">
+                                .22 caliber silencers
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent, honest vendor, great communication, order arrived on time.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/f841NcxbVw">
+                                200 X 9mm Luger FMJ Tulammo
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Flawless &#116;ransaction. Will update on forum after suppressor has been tested.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>No problems at all. Thankyou.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great vendor!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>No problems at all, just perfect! I would definitely make more business with MaxMustermann again! TOP RECOMMENDED, THIS IS THE </td>
+                    
+                        <td>
+                            <a href="/p/WZWMLTXhL1">
+                                Gunlisting for richkid
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Thanks for the item</td>
+                    
+                        <td>
+                            <a href="/p/uNzc0oSYnq">
+                                Erma KGP 69e .22lr pistol
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>You&#39;re the best man</td>
+                    
+                        <td>
+                            <a href="/p/KDEZ9Pd8kx">
+                                Customerlisting Silencer
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Comes fast, safe, all good.</td>
+                    
+                        <td>
+                            <a href="/p/pjdNPYnoBx">
+                                10 X 9mm Luger FMJ Gecko ammo
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of MaxMustermann:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Vc6deeeLee.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Vc6deeeLee">200 X  .22lr Remington ammo</a><br/>
+                    <span class="description-preview">200 X  .22lr Remington ammo.
+
+I sell always with full escrow.
+
+Picture:
+http://www0.xup.in/exec/ximg.&#112;hp?fid=57070807
+
+130&euro;  =  181$</span>
+                </td>
+                <td>0.40429761 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/f9tGxjMWEy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/f9tGxjMWEy">25 X  .22lr Remington ammo</a><br/>
+                    <span class="description-preview">25 X  .22lr Remington ammo.
+
+I sell always with full escrow.
+
+Picture:
+http://www0.xup.in/exec/ximg.&#112;hp?fid=57070807
+
+25&euro;  =  35$</span>
+                </td>
+                <td>0.07817909 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CJY2fRGYiR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CJY2fRGYiR">ME Revolver .22 caliber</a><br/>
+                    <span class="description-preview">I am selling here a ME revolver in .22 caliber.
+It is like a Weihrauch HW 38 revolver, just in .22.
+It was a mix between a decoration and a air revolver in the past.
+This kinds of guns are now for ...</span>
+                </td>
+                <td>1.56358194 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wzkYeDlAJm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wzkYeDlAJm">Scorpion full auto pistol</a><br/>
+                    <span class="description-preview">Here I am selling a Scoprion full auto gun with 2 extra magazines.
+All my guns are never used in a crime and they are always in good condition.
+
+The price is 2500&euro; (=3433USD)
+
+I don&#39;t know why,  ...</span>
+                </td>
+                <td>7.66825258 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cGAWeWjAvN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cGAWeWjAvN">CZ 70 pistol</a><br/>
+                    <span class="description-preview">This is a CZ70 semiautomatic pistol.
+It is in caliber 7.65mmBrowning (=.32ACP).
+
+It comes with an extra magazine and in the gun-box of a CZ50. The gun on the picture is sold. But I have a second h ...</span>
+                </td>
+                <td>4.59022984 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/fdNEBKrffr">.223rem caliber silencers</a><br/>
+                    <span class="description-preview">Here you can buy a silencer for the caliber .223rem.
+
+200&euro; 275$</span>
+                </td>
+                <td>0.61426433 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/jqewbcsiFC">ammo for KungFuPanda</a><br/>
+                    <span class="description-preview">-100 Tulammo  
+-100 Subsonic 
+-100 .22 Rem.  
+
+380&euro;  =  521$</span>
+                </td>
+                <td>1.16375170 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Dwcjo07fZd.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Dwcjo07fZd">FEG high power semi automaitc pistol 9mm Luger</a><br/>
+                    <span class="description-preview">I am selling here a 9mm Luger semi automatic pistol.
+It is a Hungarian FEG high power with a 13 round magazine.
+It comes with 50 rounds ammo.
+
+The price is 2500&euro; (=3433USD)
+
+I don&#39;t know why, b ...</span>
+                </td>
+                <td>7.66825258 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pjdNPYnoBx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pjdNPYnoBx">10 X 9mm Luger FMJ Gecko ammo</a><br/>
+                    <span class="description-preview">10 X 9mm Luger FMJ Gecko ammo
+
+
+32&euro;  =  45$</span>
+                </td>
+                <td>0.10051598 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fYkLgCLrsk.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fYkLgCLrsk">.22 caliber silencers</a><br/>
+                    <span class="description-preview">Here you can buy a silencer for the caliber .22.
+The price is 160&euro;.
+For gun-buyers the price is only 120&euro; like at my BMR listings in the past. When you buy a gun from me and you also like to buy a  ...</span>
+                </td>
+                <td>0.49364515 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CFuU1LWMXy.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CFuU1LWMXy">100 X 9mm Luger FMJ Tulammo</a><br/>
+                    <span class="description-preview">100 X 9mm Luger FMJ Tulammo
+
+
+160&euro;  =  220$</span>
+                </td>
+                <td>0.49141146 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/CqbadqoST6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/CqbadqoST6">50 X 9mm Luger FMJ Tulammo</a><br/>
+                    <span class="description-preview">100 X 9mm Luger FMJ Tulammo
+
+
+90&euro;  =  125$</span>
+                </td>
+                <td>0.27921106 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zr4Rasufvm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zr4Rasufvm">100 X  .22lr Remington ammo</a><br/>
+                    <span class="description-preview">100 X  .22lr Remington ammo.
+
+I sell always with full escrow.
+
+Picture:
+http://www0.xup.in/exec/ximg.&#112;hp?fid=57070807
+
+70&euro;  =  95$</span>
+                </td>
+                <td>0.21220040 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/yWKNBM8DW5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/yWKNBM8DW5">500 X .22lr JHP High Velocity ammo</a><br/>
+                    <span class="description-preview">500 X  .22lr High Velocity hollow point ammo.
+
+I sell always with full escrow.
+
+
+340&euro;  =  472$</span>
+                </td>
+                <td>1.05430096 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pohvNiZChK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pohvNiZChK">25 X 9mm Luger FMJ Tulammo</a><br/>
+                    <span class="description-preview">FMJ ammo form Tulammo.
+
+I sell always with full escrow.
+
+Picture:
+http://www0.xup.in/exec/ximg.&#112;hp?fid=26409595
+http://www0.xup.in/exec/ximg.&#112;hp?fid=84191797</span>
+                </td>
+                <td>0.16752663 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XnKARET1eh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XnKARET1eh">500 X 9mm Luger FMJ Tulammo</a><br/>
+                    <span class="description-preview">500 X 9mm Luger FMJ Tulammo
+
+
+470&euro;  =  652$</span>
+                </td>
+                <td>1.45636489 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SiS7DEpXh5.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SiS7DEpXh5">50 X  .22lr Remington ammo</a><br/>
+                    <span class="description-preview">50 X  .22lr Remington ammo.
+
+I sell always with full escrow.
+
+Picture:
+http://www0.xup.in/exec/ximg.&#112;hp?fid=57070807
+
+40&euro;  =  55$</span>
+                </td>
+                <td>0.12285286 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/c4gGnL97rB.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/c4gGnL97rB">500 X 9mm Luger Subsonic flat head FMJ ammo</a><br/>
+                    <span class="description-preview">500 X 9mm Luger Subsonic flat head FMJ ammo
+
+I sell always with full escrow.
+
+900&euro;  =  1250$</span>
+                </td>
+                <td>2.79211061 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/f841NcxbVw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/f841NcxbVw">200 X 9mm Luger FMJ Tulammo</a><br/>
+                    <span class="description-preview">200 X 9mm Luger FMJ Tulammo
+
+
+300&euro;  =  417$</span>
+                </td>
+                <td>0.93144810 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vFZYWwLLBK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vFZYWwLLBK">100 X .22lr JHP High Velocity ammo</a><br/>
+                    <span class="description-preview">100 X  .22lr High Velocity hollow point ammo.
+
+I sell always with full escrow.
+
+
+80&euro;  =  110$</span>
+                </td>
+                <td>0.24570573 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wTBLjX7vp3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wTBLjX7vp3">50 X 9mm Luger FMJ S&amp;B ammo</a><br/>
+                    <span class="description-preview">FMJ ammo form S&amp;B.
+
+
+I don&#39;t know why, but uploading a picture on Agora is at the moment not possible.
+I will update a picture as fast as it is possible.
+
+I sell always with full escrow.
+
+Pic ...</span>
+                </td>
+                <td>0.27921106 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/mFRGzLMEYq.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/mFRGzLMEYq">.308 Win 7.62 X 51 NATO ammo</a><br/>
+                    <span class="description-preview">.308 Win (=7.62 X 51 NATO) ammo.
+
+50 rounds for
+150&euro; (=206USD)
+
+I have only 150 of this rounds in stock. And I am sure, it will take a extreme long time, before I get new rounds in this caliber.</span>
+                </td>
+                <td>0.46013982 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zjtP6KohxP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zjtP6KohxP">.22 caliber silencers for gunbuyers</a><br/>
+                    <span class="description-preview">Here you can buy a silencer for the caliber .22.
+The price is 120&euro;, instead of the usual 160&euro;.
+(120&euro; = 165USD)
+This cheaper listing is only for persons who buy a gun from me.
+If you want to buy a ...</span>
+                </td>
+                <td>0.36855860 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ouYoJ2eXZ9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ouYoJ2eXZ9">500 X  .22lr Remington ammo</a><br/>
+                    <span class="description-preview">200 X  .22lr Remington ammo.
+
+I sell always with full escrow.
+
+Picture:
+http://www0.xup.in/exec/ximg.&#112;hp?fid=57070807
+
+250&euro;  =  347$</span>
+                </td>
+                <td>0.77508990 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/huF3mAJ1nE.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/huF3mAJ1nE">50 X 9mm Luger Subsonic flat head FMJ ammo</a><br/>
+                    <span class="description-preview">50 X 9mm Luger Subsonic flat head FMJ ammo
+
+I sell always with full escrow.
+
+
+110&euro;  =  150$</span>
+                </td>
+                <td>0.33505327 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SkCcdvVYp3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SkCcdvVYp3">10 X 9mm Luger FMJ Tulammo</a><br/>
+                    <span class="description-preview">10 X 9mm Luger FMJ Tulammo
+
+
+30&euro;  =  43$</span>
+                </td>
+                <td>0.09604860 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="MaxMustermann" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to MaxMustermann</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'MaxMustermann'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

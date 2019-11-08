@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Amsterdam</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 464.80 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Amsterdam</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hi guys, <br/><br/>Welcome to my profile page.<br/><br/>Im here to sell my stuff for a very low price. No doubts about my products, they are all high quality.<br/><br/>Escrow for all order in Europe.<br/><br/>Finalize early for all orders outside Europe.<br/><br/>Make sure you write your address correctly.<br/><br/>I send all my orders with priority and sealed.<br/><br/>Feel free to send my a pm with questions.<br/><br/>Bulk orders on request.<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG C# v1.6.1.0<br/><br/>mQENBFM12g4BCACvuP03CkFtW8ZENb5cWSKooptdPKrrangXW946OPBIYvZ36wM0<br/>FeIMlh1bcAAPoG4HjzcWAhaggB2cYheJvY6LMbonnxgRxmg9LObhG+a0iSKWgCom<br/>kGkX9maByzGkuSWmk2CsrUcaH0hgAQVtFjmp6XCYWgNMcrN+R81AT1+wNlBKVLjy<br/>0Yqmg1UhrqkfB5n2H4N9y/FoNGC5IJWWej+Noa4JeR6vO4egqrqcEJj1k0JYDEXe<br/>2/92goYvLDFBWgGS2iIwY7Ao/T8uxPya356g0vsjQS+2K2dNfqVsqFzhjysSJsM2<br/>WKaqdj379725tUodZ9+Oz0RoDzN5fiyqpx1JABEBAAG0AIkBHAQQAQIABgUCUzXa<br/>DgAKCRD+fbk6Q79r/gQzB/9G8gPt7t4t+GmIWklOpFOXaKAHUugNw82ysXGsaxVB<br/>456EQ3XfXvInpKQmINJojzXn8mEWfASTaQNXYKSgTyKxW6qDi20FPWQ803TWibtr<br/>KNdpwF9xz4DGrjZbXhdmusc2lUCOu+FdEVDO5tpA153IjzV4x6frx/u/fMprWNcd<br/>iotUB2i09cuUTmBBys3v+GukDVRCsqZ05R1p6Q9f+DmiS1tt70gBfeoJ3NW/U9Fg<br/>pC7mwnOGPF28tuXsi5cHPizk8GHbhxPu7N2k7/qVzjpFPn38bAhNBcP5QB1X9TOZ<br/>sBe+oOxPTZc1foOYh42pvT9wH+k6TLO9R5WcZHoLUl0S<br/>=LgOx<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>4 days for neighbor country, top vendor.</td>
+                    
+                        <td>
+                            <a href="/p/zbxXj45Btq">
+                                5 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good stealt good comunication &gt;Thankyou&lt;</td>
+                    
+                        <td>
+                            <a href="/p/MKExq5xL14">
+                                1 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>recommend guy. Happy Happy!</td>
+                    
+                        <td>
+                            <a href="/p/MKExq5xL14">
+                                1 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/MKExq5xL14">
+                                1 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Curious for this price...</td>
+                    
+                        <td>
+                            <a href="/p/MKExq5xL14">
+                                1 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Bought in escrow. Waiting. Will update.</td>
+                    
+                        <td>
+                            <a href="/p/MKExq5xL14">
+                                1 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Crazy prices for MDMA, we need this competition:)</td>
+                    
+                        <td>
+                            <a href="/p/zbxXj45Btq">
+                                5 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Sample ( 4 days UK ) Will update.</td>
+                    
+                        <td>
+                            <a href="/p/MKExq5xL14">
+                                1 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order binnen 1 dag in huis.</td>
+                    
+                        <td>
+                            <a href="/p/MKExq5xL14">
+                                1 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE, good guy i think</td>
+                    
+                        <td>
+                            <a href="/p/ZUn5f4ThzG">
+                                3 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>First customer i think, used the escrow. 5/5 communication, product looks great for that price. Will update once arrived.</td>
+                    
+                        <td>
+                            <a href="/p/ZUn5f4ThzG">
+                                3 gram MDMA in ESCROW
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Amsterdam:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zbxXj45Btq.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zbxXj45Btq">5 gram MDMA in ESCROW</a><br/>
+                    <span class="description-preview">5 gram MDMA in ESCROW
+
+Pay after receiving the product.
+
+Only ESCROW for EU.
+
+Outside EU feel free to buy, FE is needed.</span>
+                </td>
+                <td>0.19363166 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/MKExq5xL14.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/MKExq5xL14">1 gram MDMA in ESCROW</a><br/>
+                    <span class="description-preview">1 gram MDMA in ESCROW
+
+Pay after receiving the product.
+
+Only ESCROW for EU. 
+
+Outside EU feel free to buy, FE is needed.
+
+Feel free to buy more than 1 gram.</span>
+                </td>
+                <td>0.04302925 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZUn5f4ThzG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZUn5f4ThzG">3 gram MDMA in ESCROW</a><br/>
+                    <span class="description-preview">3 gram MDMA in ESCROW
+
+Pay after receiving the product.
+
+Only ESCROW for EU.
+
+Outside EU feel free to buy, FE is needed.</span>
+                </td>
+                <td>0.11833046 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pe5KdFEz8l.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pe5KdFEz8l">10 gram MDMA in ESCROW</a><br/>
+                    <span class="description-preview">10 gram MDMA in ESCROW
+
+Pay after receiving the product.
+
+Only ESCROW for EU.
+
+Outside EU feel free to buy, FE is needed.</span>
+                </td>
+                <td>0.36574870 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/NLD.png" /> Netherlands<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Amsterdam" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Amsterdam</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Amsterdam'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

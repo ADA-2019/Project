@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Snowball_II</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 464.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Snowball_II</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 5 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Until things change, FE is required on all orders.<br/><br/>I don&#39;t do refunds.<br/><br/><br/>We&#39;re here to help! If you have any problems, send us a message, please.<br/><br/>PLEASE PLEASE PLEASE PLEASE OH PLEASE USE PGP<br/><br/>Please respond with your public key if you want an encrypted response.  Your security is your responsibility.<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.19 (Darwin)<br/>Comment: GPGTools - http://gpgtools.org<br/><br/>mQINBFLMx3wBEACwwZyS396hHm6z6C/7YqLyTQ6YjEr3BjNwx4F0Ivo1BUJH/DX1<br/>td2zjvpTYtVHdgDFJeXW4xsvx6+n0nuI7XRHlJprieK0IZo9yPjtr9rqPC1jZFsE<br/>i3wf9MEaesfuQTwOdDKQBTYg2KtEEtffGRawz3ig9dBYnEY1pM2VQ5smaFAZ/mwN<br/>tqqmT2YnNaipHZX05miDd/+vE+D/J0Z6Gu59zY2fhO61K5LZu1RLjjW4aIKA+YjL<br/>D+NW3h+NcJy/WFCWjoaVZiw6aGGoToR082JQHG8DzqD4g4u6+r66k6akWt4ciB99<br/>WFopKhF+Zry8AiEBiP2pJk+QB7XG14FMeq84z9rkBL7fU1xyD8u5nq1gdrUTP/Gf<br/>+p+ZgecqAOL7BSs6dt1QBr2wcj5OezxalX5k9lgphIJWeGxdN37VKlK/n3bP8LEI<br/>kTlauK7p/4/kGOsdAl0S2++jyhCK2myk7xUJMaNLjrOnzoBrkGAWYlo5w22+L1dq<br/>Ys9ppFV7u1kEFN4ynhxcp+FmG2rSCvrz1PdwnOOMTRBE4Qrz6JZgEILL4Co+/QRd<br/>Jg8/4ahr776rCebOPKHaOOB2MR03VTXt2+CMZXi+Eigc8CpawO/PQZcOu0F28dCW<br/>hFDtP6zbqxxYTRcojocVeUPnstFLFMc2sOMAmB3AE5OdByJPxhMN7y2gVwARAQAB<br/>tAhraXR0eWJvb4kCPQQTAQoAJwUCUszHfAIbLwUJB4YfgAULCQgHAwUVCgkICwUW<br/>AgMBAAIeAQIXgAAKCRA5hXuP62nnQXSIEACHkPHJEMl3GdhRGCDYVrXUkp4Fzwa9<br/>oKzzwrhjFdrCRoXskRP3ccEQSIZ57n/i1HBGGYv0bBjMi/w1KG8UtZyQYQ2SLzlR<br/>0gDa8rzArEFyVzYv9IKGBA3GZWKWu0/qc3ozbBXSKLqtQ9ARqYeAnQqovdnaN/33<br/>CmBwTcPldfU8E5EXmIu/T+y+YNhCK9clyAS+2nPrWbYuXmRMnaW89UJaF75zAwH2<br/>FfgEwCPd4yK0MKsqEUIuv+58KDFAfG1nQ/XbEIguzz7sw8FGxlcI6r4PrG2ULrU4<br/>oCBmL0JoJCvWHBc1EEbhqkBHg31P1i91dES2qbBQkHn5VkdKORdxCASakCJyMJ0L<br/>3fQ3OTkMvRhBovmly0PkE7RGDXeQnYEtRpMTaRHzEsEBK4YUuoKeYqF/RSwtWxwp<br/>T1m/u+GLNCiLEM62OjFcvDtL28yjz5jVm2G3NI85nBHvXfLNd3h/NbZOcY58crWZ<br/>Sr60XMtmXcNkGQln6sh/0rDl0+7YS91TtKkvIKGf/iFk9GfKt5Da9DvPSVbR3SO/<br/>wpxdtpmesKC2lchGgkE4ao5YA5LqwKEjfvfTyuAMpBtuA9acNxoZPE8+ai0recW1<br/>uXWos/zx9llIDk/fon0L1wGtmRWbNI3dBRQxY9XBuU8XyB/vbpWsaAMPZSfa+KB3<br/>hquW2y6np1ZfLLkCDQRSzMd8ARAAuiCy900jrwBrbTwY0sQVKImkVmn9t5H9uJak<br/>xEvgFKOu/1As25IRrXFTiTvv/Z4Q/5bqpHJCbUfFpUt2s1cPPtDGn6ueC+l/koXV<br/>XJBFcitLpJoA52mMQ8h8nSkJm7HXKuBvPdWfdetwv6lR8wNT+B6IIcgR+gHo+x85<br/>NRTyOKAch5M3MsdnUDXJQei+mP18EKu7JoQquDdeo3zW+/9GFuDoVShLiGsInhty<br/>Pch9VecuqR1C4wCYF6/kDfrwjxgAu9E9egWbdlfOkLkB7GXOjjY/xO3/JLgxVnen<br/>jMX74Tj5vI8B2Ufv25sIrFAzn9Sg8Enzuevy7o4+bZ5Oanop7OU7tLAF7nly+/H8<br/>bMNdkr1cEzY/1b0lTfjvUSgJkOAZLzyQKvVBWctc5pedM6Q6ajiONM76//R+dGMh<br/>c/eyPU5AIlalVJu8iO6kVkNB/ByR5a8SJHCPYMqt0JJl/eapLcCjiAfirSdN3rHA<br/>Or2KBClUR7PpbdzcURK+lEQAvmz+xV1Ntp/WuPYhmUtCtr4M31/WVTkKjnfJ7fiP<br/>pyiGvHTfWCgVURZThlTuynYWU1djgNWrfhniuf/em/UrFrTRvJFc7T7phoAks+I1<br/>FJXtG3H6qlbRAW8mXaBlRmskZYgRFa+zg2QzCd9R9T7KGso8aLuTjlEENSGDXVYH<br/>DqzG9aEAEQEAAYkERAQYAQoADwUCUszHfAIbLgUJB4YfgAIpCRA5hXuP62nnQcFd<br/>IAQZAQoABgUCUszHfAAKCRAFu28wuzrX9MTvEACpEMG9q4TomSbYs0cB6894QQ8v<br/>dHChtPB1OGvYvKZwO8XKdf8YeVFV/Yqb3g39H1zFC0WCYvq+YXAb8AhjZyFG7Gcd<br/>cvxHmI712E86i+hJrlKnyqZmO8KpJ0w1bNOrVdpv2w15t6d1HWgbMmFeNR2f6Pix<br/>mFAzMCaxQTtWNHSrJlKJZEvYGhTg5G/Sr4dXiOy33JuSayPeC7fovug0lYqaHLvT<br/>XxikUvZG9ZszmwJyZzhCRwvnGTElBh/of7z0HbSmm8LAbDlVjcMdC2Lf6FsOSThb<br/>n0B0TzcLP56/5aknjkUL5kZNzFu/cw14r/tzXyIQane3lREkZC9DTEzB/ZYJ8Y/x<br/>odYOck0FSCLffoWNKUiePfi48iD8eNdxX9T8T0yrQ/mYwBTQaZWaxSZLO85dNt2P<br/>y8mUeWDME6yUImwFHcgELpJCtuR7nGW1v8uW2onFQ85C3xqGlwhx9ErpogYDRR2G<br/>+7kKLwjaEarZe1V3htQ1Tavk7ziJB7kQ85H0ck3rIpYmUcsMQGY+Z7Hf7eSGh3tx<br/>Oi3iqK/K9qeKJocSSB0r&#89;iiq3xI1iiA5anA/eg+jkk4yYvR9EA+CdiuUH01mabtH<br/>5FZJ0mSYTlZNGb2nYTUkI2oF+WhULc9kuyM/KVBpSe896fRaUFaNlVg8e/sUVhFC<br/>dBlJa1vlgPldZh8bsc3VD/wJ8JWyTRoQQxqU7DO9HJTQLGNS5HL2c8ch0byKn49Q<br/>+gjeRTn5aWrzGy/fGAfSDPHlNo0eckI4kD6VL9lSnLpw1W8a510Bth3I0JJObpzQ<br/>Wcz70zWCMhrAHWAoppziE7+uJQdWSXmY4acEeo97GJ8UqWWpsWDwqvPZS4SHJMS5<br/>2TGfs4luCuxf0DISpkQQ66Fh+SDIDH/s9mOJcgR1zgkq0yslOt1nBZMU3qBN6TiL<br/>0+wllaTWwjxx8/qrRv5anuY5zdJMdNBQnxvfzvPkUp8EOFxeJJSJcmtqaoeiYyi7<br/>q/L+hxPbEA1X9sXC3WrJeLWew50f6Y7/S5Y0YhegB1f/kGVDerC/tgZc3GhbAh8i<br/>RyzLrG4k/3TLuEG5hgG43658SbZMnSvp3Q4mBXDn/w2nstU9jJDUggvl5tPyva/t<br/>mgg8GrS/buMfoaTA2LbkhCnfQrOUbjhmOhsiJ8GQsFbngSHoOBp/IHawhMxGGXZp<br/>0x7/ujfq0qUr49/2+jWILLwj9lC+FlNMDxUmLDQBd0T5UYpW7OVuN8fsKAsAPGnX<br/>lVsyy70+fqZj6lJ1SGMI49TIBwOeLf8XySHksaxPhhtWlu4/vnsA41bhnALWCa+W<br/>/CC5Tt2IylPxOlk7K2Z9Sr6TRFBqHQDxfga70bW6AX8yEuyPC1yAjBVJA++z3GLc<br/>dw==<br/>=NepD<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39; will update on arrival.</td>
+                    
+                        <td>
+                            <a href="/p/SvzhgNF3Em">
+                                1 gram Psilocybin Cubensis b+ , dried- ORGANIC
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE per vendor&#39;s policy. Will update upon arrival :)</td>
+                    
+                        <td>
+                            <a href="/p/SvzhgNF3Em">
+                                1 gram Psilocybin Cubensis b+ , dried- ORGANIC
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Snowball_II:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/upws7pCsif.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/upws7pCsif">7 grams Psilocybin Cubensis b+ , dried 1/4 oz ORGANIC</a><br/>
+                    <span class="description-preview">7 grams Psilocybin Cubensis b+ , dried 1/4 oz ORGANIC
+
+Freshly grown, freshly dried
+
+shipped whole, not powder
+
+Free shipping
+
+super potent*
+*if you want to TRIP BALLS, eat more
+
+Dosage -  ...</span>
+                </td>
+                <td>0.08620689 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SvzhgNF3Em.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SvzhgNF3Em">1 gram Psilocybin Cubensis b+ , dried- ORGANIC</a><br/>
+                    <span class="description-preview">1 gram Psilocybin Cubensis b+ , dried - ORGANIC
+
+Order as many as you want.
+
+Freshly grown, freshly dried
+
+shipped whole, not powder
+
+Free shipping
+
+super potent*
+*if you want to TRIP BALL ...</span>
+                </td>
+                <td>0.01293103 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fXtF9J4Cbr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fXtF9J4Cbr">3.5 grams Psilocybin Cubensis b+ , dried 1/8 oz</a><br/>
+                    <span class="description-preview">3.5 grams Psilocybin Cubensis b+ , dried 1/8 oz
+
+Freshly grown, freshly dried
+
+shipped whole, not powder
+
+Free shipping
+
+super potent*
+*if you want to TRIP BALLS, eat more
+
+Dosage - Some p ...</span>
+                </td>
+                <td>0.04739224 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/k8Zom5P32U.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/k8Zom5P32U">28 grams Psilocybin Cubensis b+ , dried 1 oz - ORGANIC</a><br/>
+                    <span class="description-preview">28 grams Psilocybin Cubensis b+ , dried 1 oz - ORGANIC
+
+Freshly grown, freshly dried
+
+shipped whole, not powder
+
+Free shipping
+
+super potent*
+*if you want to TRIP BALLS, eat more
+
+Dosage - ...</span>
+                </td>
+                <td>0.29094827 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Snowball_II" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Snowball_II</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Snowball_II'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

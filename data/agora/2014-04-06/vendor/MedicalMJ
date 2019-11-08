@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>MedicalMJ</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.87 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>MedicalMJ</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.14 (GNU/&#76;inux)<br/><br/>mQSuBFMDv9ERDACNPXuolk73UaEf7Ku4mmsfLNiUEVrrPEvjBSp952HVT/hLSyeA<br/>iA3e6zJGyvcnDuzpp7QX1sJ3ybarYAwRXz9ov0P0em2S4kb+qVfwJhFG5EDf+JBp<br/>2/8I2090R9H99Ni4t+beBY9RKMDdTrm10lZhueFkREWk3yJ06nBD/hqgwcQRUWkL<br/>ipR62KhdV7TsLeLklmEnbj+7krDAuLU7rxe3N+5ilgrB0LA5QexZh81tzJMYtNGS<br/>zn8LUn/4+1fe5SEW6j7sgXqnAi/FemtnGSETiEoCigQFCvUeuOWc4LfgfzvhQx4F<br/>0Q1ioNndbSeR7iUXNi0jIP89LKDadk2cjAj4IVescht9/2aXii3FlczkeLwnuUP6<br/>YtktBuYp6YHmSEJi4bnMZmptX5anxujIbTlrIAP374dDSxFtpVOU2UBYyv86Djv/<br/>CLbkHrSkbFDtjaA/6PRJ3r3ff0O6HE/3Y4Z3S46ulD/whxu/TSkkPVyyXdDqsSXD<br/>U8QKQcvu0zBIys8BAOSlEgWLaniyYcqr1+AlWAJdg6KEDv6/jMWt+7kEa257C/wJ<br/>2XJK4FCEmyOpThLB1a86cbML8EHTwJqeXC77dAjStc9E90w9d/4cK1Wo64Qc8T8b<br/>9+vsXbyJR0UAIS/N3kILNpIGdIy+ywELnr2SPBkFWF0J80U0jOyM20RQUjwyf+xi<br/>c4D4MVA8XaM3tFNEs6ryti0dpjTSleA3OOaLju/OJMfGdZgBOIPQknC4YW+FA5wj<br/>YtJLmfRDccdrAbZituEU0U/QsdrAUl9KcCLb5MJCTIEwjU48fkVXuDGIY7FyQ0AZ<br/>MgterV+LKifWyXh5gLhx/WELW4cFK8jc18qzzPz9Fi2bOCQZDLP+gkBsEDRKuDBD<br/>csykQwWWHCRT1ITqejXuYaYzrUna5n9l3zyUHh/cR9nDMj0d0jXFaOve3cJkhUVx<br/>gRzR70vP9YOfty2x4EYs8UBC5yK4zXRxL338d+WqV9vXVuc7iX7jUENqxEMrIeHz<br/>Qgsi6snFfL9LJkZT5vafAvTEfipP5&#80;hP1KpaiDQuXXYEgFtIFMMs3sSc6hxxkDgL<br/>/j0dQ705AGKeT7FKa7Q4zlbfiEZithztxkUumNoiJqAXgxJ1DDIeOfnu0HfXyjbH<br/>gBPtWdq5iQ/0aYPyS38l/1Qd6gZ0GVtQTuQhx9gRTwrOouU2TKQmOGp+TKMIwa8U<br/>zBBFaC4tL+BOr6WgRzBbVmFxZ3vSEvWZgVLNhU7a4Kf28Q7wAA+XI3QTOdt6TXzW<br/>Ex/RfeWS2DNSG3g8A42+rnT9TMU02qhtiNqmahPU0V8/Po7+hc+aRP2+Z3XdmkYF<br/>gSDOlvy6Nk42qdyc4JMu+t8tNQZ+asUuWC/F1IjYvu+wCGlO6hOtpt0/H1es6XOC<br/>WFGpd/I8ta24odGZWp1fb6wH6si29de9JxQcFjYDQj/P463HXEvPXEVDepqXlzxq<br/>R2qWIaCFX2IdBJX+xo/UqdkGlYNoI3KUtCAhWa1VZ7iVF0XWMoOXJno2wfOIoNGt<br/>2iUK0uaAxz5rinAQ2Ub1CxjATGsN++64yHEUE8jaJiYoVOpkEuDtMn9HW5nKOw7N<br/>h7RVTWF0dGhldyAoTGV0IHVzIGNsaW5nIHRvZ2V0aGVyKSA8Qk0tMmNXTVU0ZDdj<br/>VTd6a2J2c1ZHUnA0UjRHaU5lTUdUWllUN0BiaXRtZXNzYWdlLmNoPoh6BBMRCAAi<br/>BQJTA7/RAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRATMB8XOAw2MuNt<br/>AP4vaG2yyWD86MeLXytW/7LcvsvQfFWbj3DdPsi/zLOt2gEA40dq/ihQdZEDXCM0<br/>H6pLIfdPAmU6IJIYxpX8FD2AVcK5Ao0EUwO/0RAKAOcwkhU1Ha/A0N044F6rssoP<br/>gvQLWHaT9A+9CXrrmKQmW8Vnh/2eIWbJgc/2G/9gACob5y2jqzJC8CwumuVrg4WJ<br/>cYYX2cDyUNU0q2AzKsSTGP1sZNbTBxilw1qpsoNhTivLrE2KyNEKI9k1pbDDybGA<br/>QLgH48is9PQj0P1rrvJJKaHRRguTURyE/hFdi19VM7G/IFxd32zp7GLmBSSfgtvr<br/>MVZTeSqJye+tk&#105;ISk+j+tIKE9HPMpkiPyRresNW0LQ0O1xRlW0MYH25mSdxawqWx<br/>NQc9kNorMwAlv/s8joy/w7eyoMM8lglxlUPNaAa48gQN8MskZva0rRpKqHI1AYyB<br/>1916yDG4NxKTcuTBUtqkzCSr7q1JI0swN8DwmKpzrRIvk3c3QePquEoSSBgWpLqe<br/>wZ5IZs7HF40MCvT6O5wjAAMGCgClhDFcusCP5aGriv&#77;VCtpXbVc3/Pvbt0Ix4zNb<br/>Np8XPwAcV93th8yehLx2AI2/OU4WtVBXobhkY7EWf3TEs4XjD2yVl18Bwh6JC1H+<br/>w22xLnozLOPdnCs+SQhk9wO0gfIPjF5tTa1SC3ZDa4YyDb8EvUGKWIsFufzLErh6<br/>axtLFG67VL7x93uSToIiLUssZEMFv4v+Z8BDnjndtW1tfXIugmZwK8PGnHKo45+u<br/>ahnHCZEIzvGkEvnht+hRhmYlZWpdeA+0f4+DNkccrtTqUmmEMah2gWThN6Wp0H5Q<br/>cUSKPu7fw72ilN2WqaZMh4HEEKwwKPF1/nUd2A+9mCvJhc+ADaAn6bp2a1wHjemU<br/>FAbuWzsIRzkotoALuWCjuIX4REIAzb99aY9n7zZn+4X2x464nboaGRlIAYt/lUVW<br/>EltLd4hhBBgRCAAJBQJTA7/RAhsMAAoJEBMwHxc4DDYyEtUA/Aq0ElRAm4b8H2FB<br/>1F0O0DT9iMda+U8EKmSOlJp7lZscAQCC6unIXjrAT5YAQy5ExGuOl/TJSTWntaNz<br/>ZQk+NeDYFA==<br/>=QD5t<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome new vendor. good nugs, good stealth, plan on future business:)</td>
+                    
+                        <td>
+                            <a href="/p/TTCkDZmucA">
+                                Sample 1g
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great vendor. great weed. great price. great stealth. 5/5 all around</td>
+                    
+                        <td>
+                            <a href="/p/TTCkDZmucA">
+                                Sample 1g
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~3/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of MedicalMJ:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/KsPhVvoYCk">C-grade 1 lb.</a><br/>
+                    <span class="description-preview">Usually a mix of B-grade material into 1b. 
+so pretty good quality but there is no guarantee of type</span>
+                </td>
+                <td>4.16776344 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/m9RY4TaTe6.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/m9RY4TaTe6">A-grade Blue Dream 3.5g</a><br/>
+                    <span class="description-preview">Type: Sativa-dominant hybrid
+
+Looks: Light green with orange hairs, lots of crystals
+
+Smell: Pleasant smell
+
+Taste: Woody and somewhat fruity, not over-powering
+
+Effects: Jolly, satisfied, ve ...</span>
+                </td>
+                <td>0.13161358 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/EP7PjdhgpG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/EP7PjdhgpG">B-grade OG Kush 3.5g</a><br/>
+                    <span class="description-preview">Type: it&rsquo;s a sativa-dominant hybrid
+
+Looks: The strain is easy to identify if you know what to look for: fluffy, popcorn-shaped buds swollen with resin; the near-total absence of stems; and lime-gr ...</span>
+                </td>
+                <td>0.08774238 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/uDZa81zNCw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/uDZa81zNCw">A-grade Platinum OG 3.5g</a><br/>
+                    <span class="description-preview">Platinum OG is just as precious as the metal it&rsquo;s named after. With a THC content regularly topping 20%, this indica-dominant hybrid asserts itself as one of the &ldquo;heaviest&rdquo; strains around. Platinum O ...</span>
+                </td>
+                <td>0.13161358 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GYEgafs50N.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GYEgafs50N">A-grade Three Kings 3.5g</a><br/>
+                    <span class="description-preview">The 3 Kings marijuana strain, a holy trinity of  headband , sour diesel, and OG kush, is a sativa-dominant hybrid and genetic masterpiece. Sour tanginess reek from the sage green buds, and its frosty ...</span>
+                </td>
+                <td>0.13161358 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sG2zVJeT8C.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sG2zVJeT8C">B-grade Sour Diesel 3.5g</a><br/>
+                    <span class="description-preview">Type: 90% sativa, 10% indica
+
+Looks: Light green with a lot of orange hairs
+
+Smell: Citrus, kinda tangy gas
+
+Taste: Complex but smooth
+
+Effects: Creeps up and hits you, making you feel very l ...</span>
+                </td>
+                <td>0.08774238 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/TTCkDZmucA">Sample 1g</a><br/>
+                    <span class="description-preview">Want to check the quality of some of my stock? 
+1g sample order (message me for specific strain request)
+
+$1 to cover the shipping and handling</span>
+                </td>
+                <td>0.00219355 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fmGAav5MTF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fmGAav5MTF">BHO Shatter 1g</a><br/>
+                    <span class="description-preview">made from the finest material</span>
+                </td>
+                <td>0.13161358 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RzTplxsrdr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RzTplxsrdr">A-grade Skywalker OG 3.5g</a><br/>
+                    <span class="description-preview">Type: 60/40 Indica Hybrid
+
+Looks: A) In short&hellip;.this is weed porn! Light fluffy green with tons of orange
+
+Smell: A+) A very fragrant sweet smell and skunky/earthy burn.
+
+Taste: A+) Again; A ve ...</span>
+                </td>
+                <td>0.13161358 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/XMPYVJAEkT.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/XMPYVJAEkT">A-grade Blue Dream 1 oz.</a><br/>
+                    <span class="description-preview">Type: Sativa-dominant hybrid
+
+Looks: Light green with orange hairs, lots of crystals
+
+Smell: Pleasant smell
+
+Taste: Woody and somewhat fruity, not over-powering
+
+Effects: Jolly, satisfied, ve ...</span>
+                </td>
+                <td>0.65806791 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="MedicalMJ" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to MedicalMJ</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'MedicalMJ'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

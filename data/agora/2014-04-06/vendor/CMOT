@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CMOT</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>CMOT</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 2 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hello lovelies. Like a lot of vendors, I have migrated over here after the great hack/ripoff whatever on SR2. For those of you that know me, Hi! Good to see you again. To those of you that don&#39;t...<br/><br/>I have been a mycologist for a LONG time. Longer than some of you have been alive, more than likely. I have developed a hardy strain that incorporates Gulf Cost Texas, Penis Envy, and Golden Teacher. It&#39;s high yielding and quite potent, perhaps a half step down from PE, and a cube is a cube is a cube, after all...<br/><br/>I sell in bulk, primarily for resale purposes. I am not interested in sending out quarters, halves, and ounces all day long. I am interested in suppling a few customers with a good amount of product and staying low key.<br/><br/>Security is paramount. Please don&#39;t message me with anything sensitive without using PGP. Include your public key in your message.<br/><br/>Only use a valid address with a valid name. Honestly, if a package gets bounced because you didn&#39;t follow this simple rule, it&#39;s your own damn fault. Sometimes, my package may be to large to fit in your box. Either have somewhere for the postman to leave it or go pick it up when they leave the card. Don&#39;t get paranoid, just go get the shrooms. Please do not discuss my shipping procedures anywhere.<br/><br/>I am a bulk grower, and I ship in bulk. There will be breakages, and there will be shake. My prices are VERY low,however. That, combined with the fact that all my packages are at least three g&#39;s over more than makes up for it. If you want beautiful, boutique mushrooms, go somewhere else. That&#39;s not what I&#39;m about.<br/><br/>My feedback was flawless on SR1 (where I operated under a different name) and on SR2. I don&#39;t need to pad my feedback, so don&#39;t bother offering. <br/><br/>I look forward to seeing some of my old friends again, as well as setting up new clients. Here&#39;s to prosperity! And above all, BE SAFE!<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQGNBFLZbsIBDACt5phlqhQ5TmdAVCTRtPQGoM8QSE51t/MBBA5381ZvL7bDAygQ<br/>cQXURN3LpUAxCU6bbUSRI58pb0rm5C1oBuPvfobHJIpJhbR2rlTmZmcYvUAL7DZ6<br/>Lp05cC0WLVPn7/seVyXgT0oWsnz24zj63YOYbK7tHoAqq/w+nzGbPIvh7SkkY0Zd<br/>shEVFVNlrpk2nNL3jtPIe114xPSg/7U9F/GkI48FYN70JTKpzJKOfhmtkDM8SVAc<br/>5eTxnoMk2nA91ZvNpqwOqEpBKYiDn+cBvFh8igO4r/qBoF0SWsUHotD5uCEIPbc7<br/>/6eIrMDtCASqKK+XFR2ah3Zwf3PS0Yae/wgkZZxyQ4vtJO8NO+Gf2qhr094TYeMZ<br/>YM+836dgGz465ZmTND2Mf90b65zoJ4rrD3+g5N++5OESb66gopxqzSOegWWQ0NlX<br/>D3VFNMc+rOhy8o4/kjMIDtDIyEbXmnXNKrSD+by+ASG2D47atkh9KZ5iWiJethEj<br/>1pY6qqBA0nJQ8MsAEQEAAbQbQ01PVGRpYmJsZXIgPG5vcGVAbm9wZS5jb20+iQG4<br/>BBMBAgAiBQJS2W7CAhsPBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRCJoXBx<br/>NYNf74X0C/4psYOvhNSRgpuUlMdGLMfjRMORc+v3Hg02gtroEdd3GdiYJabbRVEp<br/>eaSQ7pcA5ceiHoAoj6uU5tDdIj/QotbQLqd3KC5T0zxNXAw5noNLzls7YMgVaQFU<br/>sCHSs+Rm6NoMoLPiyK87ec+RmXDLAT8cz68Pz1nFzJJ3v4BERRSDSHh5M0dWLoA5<br/>P7YUxJ1Li8z0ZnPw+smPgngqt+AfgVxRlcVeIfkjEeEA1I+ZkbdVEelPIGW4Yr4T<br/>sVZYFZNgCJyds7bueNMEugMV/BOqXF8rlbsurSrFwHRzMZ04wQKH2XiMF8Gt6jps<br/>lPfgQHAXplJmAhGzr5hqnlsHky7BeS3e3byPcjCiv6Tx8UmLVq0I2tDSFoVK8OlY<br/>UObNLX6cR13YExteJdxU5AxeX8ARwJjZmChdJr7oZeJGfS+2yC3oKeVI9558C1AA<br/>Wrmf7e7xHQ5GAhNAr9Gm+7iZg43l7kLgjY/fa4cYQqMpQjOGl8ema6DdkyVlviQn<br/>bzi+EoEwyy8=<br/>=/1pz<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good for the price, great vendor</td>
+                    
+                        <td>
+                            <a href="/p/R6x3kKNAEn">
+                                224+g&#39;s Quality Cubes Priced For Resale!
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 15~25 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fantastic seller, top notch all around.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Like clockwork, ordered Friday received Monday #skrrr</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Huge product. Fast shipping. Will be back</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 amazing vendor excellent stealth and quick shipping.
+
+On point and my current go to guy for quality shrooms</td>
+                    
+                        <td>
+                            <a href="/p/lczdUm9jVG">
+                                For the Earl of Farnsworth
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Freakishly large mushrooms, quick shipping, ridiculously good stealth. My new bulk vendor! 100/5</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Thanks man the shrooms are great! A+++</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Received it Fast, I&#39;ll be coming back ;)</td>
+                    
+                        <td>
+                            <a href="/p/R6x3kKNAEn">
+                                224+g&#39;s Quality Cubes Priced For Resale!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping and amazing product. Best stealth ive seen yet. And ive seen plenty. Will be coming back for more</td>
+                    
+                        <td>
+                            <a href="/p/KbGLRdMvsS">
+                                112+g&#39;s Quality Cubes For Resale!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>awesome stealth and speed will be back CMOT is he best</td>
+                    
+                        <td>
+                            <a href="/p/KbGLRdMvsS">
+                                112+g&#39;s Quality Cubes For Resale!
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Absolutely &#101;xceptional. I&#39;ve never seen anything like it, all around. All hail the king of shrooms!</td>
+                    
+                        <td>
+                            <a href="/p/R6x3kKNAEn">
+                                224+g&#39;s Quality Cubes Priced For Resale!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5/5 be in business again very soon</td>
+                    
+                        <td>
+                            <a href="/p/R6x3kKNAEn">
+                                224+g&#39;s Quality Cubes Priced For Resale!
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of CMOT:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/lczdUm9jVG">For the Earl of Farnsworth</a><br/>
+                    <span class="description-preview">For god&#39;s sake man, Don&#39;t buy this if you&#39;re not the Earl! The scandal!</span>
+                </td>
+                <td>1.34065934 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="CMOT" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to CMOT</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'CMOT'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

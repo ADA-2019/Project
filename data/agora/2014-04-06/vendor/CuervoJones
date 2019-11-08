@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CuervoJones</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 448.64 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>CuervoJones</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 months 25 days ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.17 (MingW32)<br/><br/>mQENBFJ+lRcBCADSBtycV8UvQjCYg9uQa+CJphC4GEIb64zq+P78D4HqixKEowjP<br/>7yTPWn8xR+2p56zjZl1tUVpdImelHwzwUFc1B+s0XQIzELiBh1JwskmoDS2chffo<br/>b3rRexhBpppzk6QPxv//xN34UGkaHj5ShH/m9PXaB3stRjDaB01HRcGkM8/+pR+G<br/>0nkWRr9NFaA/VVtoMWWOUKDytukKKzlHDU4/hqY4Lz4vezps1nWnsqGCBaxcEc8n<br/>GEEAyRK3H2GkBXfcTFR+is8wTXYMFl3miNFCenJvBt+13n3eTkx67vOKfLFQTkNN<br/>uRaMrJVDRNKV5M0JC3j1vI8NLL/YjOb6oWVHABEBAAG0J0N1ZXJ2b0pvbmVzIDxD<br/>dWVydm9Kb25lc0BzYWZlLW1haWwubmV0PokBOAQTAQIAIgUCUn6VFwIbAwYLCQgH<br/>AwIGFQgCCQoLBBYCAwECHgECF4AACgkQwGCI997XAWBMWQgAtySH7Pv/2a2cb3HI<br/>0MZziN7lo2JgOBTWvRPhLjclmkCFV5oKnJ0dx302s5LIav/IdxQIUa+t+yWr5Fdt<br/>2yaxcqFcaWJx4borASQUR/fUt/jNIY/XRkBCZ4YhOXD/L6N+RCTBJTbQeGwbCsOO<br/>hV+72sOFuK3tE3Sf+4DFAM4F1p9moXKHgy8q8sLqVWqBAGPpjytf/AQgNEt93bOh<br/>Zfdot6RsUfNZCwv1DnvU54Z1jdbR7dWMAB3NmxPTfryCXG8jwAx21ljewCB/+/6O<br/>RgvvbMddXxHcZ7Brzzb+i5r/0qVuaV0gXnnk91IuMHxBhPqCoiwEY5RQRa3l4cQg<br/>Dj7vnrkBDQRSfpUXAQgA0qYLR/RaoJ7faE6JDB9g72SgoMzi0tegtB4KoqPog0s+<br/>XvlyeINatvwaf+nE2tXiQQRg5haIrFv+gEoyUH6xbNUdnpGKcok2eUHdcki/PesX<br/>Ud4o0NCYrsSKrNe6QxZbXD0KypPi9I+R6JDXi8bbv1xXcJmWv1ols1PsmXacJWX+<br/>42LyDQPQpZyUhnA5XJddLcBPlfarRY7N1hpTNC9PLv6Ag2aYkqOLBO5RnB2oPfuX<br/>8XI4VNW4n5kLbpKaH87UrAUrZV9swSGZ+3R4olC5TQdMEsaLgoBwwpxhhMk/AAnz<br/>tBmQ1FWBDR6AWZcT+A45jrBgS+sfbktTqFG1QQp9AwARAQABiQEfBBgBAgAJBQJS<br/>fpUXAhsMAAoJEMBgiPfe1wFg6AcH/juDTwvkldtNOSYUPYpeAA0wV3ms0V8278uF<br/>YsbiALmGwM0lsXi1OHcQOfuVEcp/NShUonse6Z2cf3JwTm63a+ewDzSNv2Ij6NQr<br/>0qtk0T5z5mR2FLLgoIWahNltupdRQvZUDg/AdbRWB0qWV08NVoQH7jc+bxPh86gM<br/>x1hO5xCfutIMMWlEm7wtbDjJwUn0hFS/83kkt9gghQPglXbQNy7l1wKERJvWDWPF<br/>DOlKql/ibCkgFHU5Ro+P79y0eTMaxmNdHBftzeYbCDK2Pkj6Caqr2Qp31Usok3rw<br/>WeWhS/fbHFIplNTejkm6ilCEO03msIvhrmoap4INXp9SD0mW6Xg=<br/>=tWwe<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of CuervoJones:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/C3W7uhXU80">1/2 Gram Pure #4 Black Tar Heroin - &quot;Blue Magic&quot;</a><br/>
+                    <span class="description-preview">***CAN&#39;T UPLOAD PICTURES OF IT DUE TO AGORA BUG...CHECK OUT MY PICS AND REVIEWS ON SR2**
+
+This listing is for 500 mg (1/2 g) of black tar heroin. This tar is extremely potent as ranks among the bes ...</span>
+                </td>
+                <td>0.24517998 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="CuervoJones" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to CuervoJones</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'CuervoJones'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

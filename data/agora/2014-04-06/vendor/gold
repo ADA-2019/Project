@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>gold</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.12 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>gold</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 7 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: BCPG v1.47<br/><br/>mQGiBFLf62YRBADdecZ+BgCUyTW1unGh3ejFDQQLIuSCSOOockJdR4gMGnzzG4AW<br/>q7Ue0ryabDoMzX+SoK1EfdxmLNgCIiWtcDO8Te5iN+pi3GirFmoLpREr5g6cS8Jr<br/>F2O0MNak4/WP2MBT24UHS7NkuJZi/V5U2FExrgKlqRczsnjGVPy1V+qhNwCgw29l<br/>PQ9UXwwu5f8fTZWqAoOkuwsEANfN475rMdgwUxx0YQlFrXEn8/uOZjpplQCKjXZw<br/>b8lxosnYN1MwTslWxTUs9AOIbu6WM9dOYr4Yj7eXASVfPaBkxS48YXK3XZJ6Hy5R<br/>0KVZEKrbSEVyohfUymV3T9XX6rnGAqUqSu+shK5T+VHybQ1HeP7FnJjqH9TFu66Y<br/>mHnjBACZXjQQ7mAKi2f5IZ30vRctOiB7rU2oDkirk/zMlaPCmO5XPoCzLYXk3Pyi<br/>lW1dPM2R+LxJynQ1+yxg+3EBMhvqWEISQJ9FjLV+wVdDIWnBt/ENZoO8cimcZdYJ<br/>9HctYn5eIUdobxBdZitWZTP7Gr8K46ZUI/4Zj9s/IQsbNj8eh7QQZ29sZCAodmVu<br/>ZG9yKSA8PohGBBMRAgAGBQJS3+tmAAoJEBeo8krYqnsXgfAAnRiKy0VIlYgl9IjN<br/>jrQTfw504wShAKCaSUBTE8LwlxAIUuI2VFrBXXa9ALkBjARS3+tmEAQAw07TsIWP<br/>osm3upKaM4vcGN0ISGiCEFXdlms0JX1koMgVSlhgW9gpL8Y+yKDtuJIgyFh2XmEk<br/>5S/A0pCbk99vIJTIXpXmqTmlTspkYWI+k8PZMvxvu/+vlWB/l3v9+WWZBDjJHQ4/<br/>E6IvixoD3fZtOAhImEQ9km9FQjaumfyVp+8D/jM9unY9HNF5VfCRbPh+GTeowKve<br/>GtE5x+JbwBRaQ33LOtig6eOel34CKMVToJZAPabU9QNNIlftH0BRfcmGKDHXpR5B<br/>RC5kUSpwxotDp+eYB+6mcBpRq+bYCqTHFOWVKHVRcrIDQgqLUHCyLEXzsM/dSnYH<br/>w5tLR96HDqteAq9HBAC0aOOEsuTeZ93TgF7dXg9RdF48mnf8Uea+wyAYqkaDlplq<br/>vvtXxIl0JBtotWcm5uJhnGDQ9zADGPXmi7PKc92UCoSTTy1+at3pZR6NC1RAR+yK<br/>DVyIJAotY+gUwNGDyWZ1zbXZ32CRPOugxyWjt5PFAZCHpWlidjd6VCG+IVTLN4hG<br/>BBgRAgAGBQJS3+tmAAoJEBeo8krYqnsXn5cAn0YCchqn8A8LtfDr8nwqceOUJLWg<br/>AKCzthBUNsV1laRiLic/n2J+3d9OlA==<br/>=nO5o<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>On time and &#101;xceptional service as usual!</td>
+                    
+                        <td>
+                            <a href="/p/vyb8YJmjmw">
+                                $1,000 US Dollars Cash (10 $100 bills)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>LEGIT! I placed an order for $100 just to verify it&#39;s the same gold from SR1 and SR2. It&#39;s you, it&#39;s really really you! Where h</td>
+                    
+                        <td>
+                            <a href="/p/n0zVuLKfMh">
+                                $100 US Dollars Cash (1 $100 bill)
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of gold:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/J9pSDeyoYN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/J9pSDeyoYN">1/10 Ounce (3.11g) Gold Coin American Eagle Bullion</a><br/>
+                    <span class="description-preview">1/10 Ounce Gold Coin - American Eagle Bullion
+
+Total Weight
+0.1090 Troy Ounces (3.39 grams)
+Fineness
+22kt
+Actual gold weight
+0.10 Troy Ounces (3.11 grams)
+Diameter
+0.650 inches (1.65 cm)
+Wi ...</span>
+                </td>
+                <td>0.33690793 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/KMZqzXSNBF.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/KMZqzXSNBF">1/2 Ounce (15.6g) Gold Coin American Eagle Bullion</a><br/>
+                    <span class="description-preview">1/2 Ounce Gold Coin - American Eagle Bullion
+
+Total Weight
+0.540 Troy Ounces (16.8 grams)
+Fineness
+22kt
+Actual gold weight
+0.50 Troy Ounces (15.6 grams)
+Diameter
+1.06 inches (2.69 cm)
+Width ...</span>
+                </td>
+                <td>1.58765111 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xgqgZkulpi.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xgqgZkulpi">1 Troy Ounce Gold Coin A. Buffalo .9999 Bullion</a><br/>
+                    <span class="description-preview">1 Ounce Gold Coin - American Buffalo Pure .9999 Bullion
+
+Total Weight
+1.0 Troy Ounces (31.1 grams)
+Fineness
+24kt
+Actual gold weight
+1.0 Troy Ounces (31.1 grams)
+Diameter
+1.28 inches (3.25 cm ...</span>
+                </td>
+                <td>3.08942373 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/NY3NUtcxcm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/NY3NUtcxcm">$1000 USD Cash AND 1 Ounce (31.1g) Gold Coin American Eagle Bullion</a><br/>
+                    <span class="description-preview">Discount when bought together!
+This is a combo of 2 times, My $1000 cash and 1 Ounce of gold.
+
+You may substitute any of the following 1 ounce coins I carry If you prefer it over AE:
+American Buf ...</span>
+                </td>
+                <td>5.41695109 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/iKBgyweZx2.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/iKBgyweZx2">$10,000 US Dollars Cash (100 $100 bills)</a><br/>
+                    <span class="description-preview">Genuine USD Cash - Federal Reserve Notes
+
+
+Limit 1 per order.
+
+
+FE is NOT REQUIRED, unless you have not purchased from me before.
+
+Old customers from other sites may not need to FE, please as ...</span>
+                </td>
+                <td>25.10294409 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/DKn1rDXFZ9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/DKn1rDXFZ9">1 Troy Ounce Gold Coin American Eagle Bullion</a><br/>
+                    <span class="description-preview">1 Ounce Gold Coin - American Eagle Bullion
+
+Total Weight
+1.090 Troy Ounces (33.90 grams)
+Fineness
+22kt
+Actual gold weight
+1.00 Troy Ounces (31.1 grams)
+Diameter
+1.28 inches (3.25 cm)
+Width ...</span>
+                </td>
+                <td>3.08942373 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/dFvEyxGaxV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/dFvEyxGaxV">1/4 Ounce (7.78g) Gold Coin American Eagle Bullion</a><br/>
+                    <span class="description-preview">1/4 Ounce Gold Coin - American Eagle Bullion
+
+Total Weight
+0.270 Troy Ounces (8.38 grams)
+Fineness
+22kt
+Actual gold weight
+0.25 Troy Ounces (7.78 grams)
+Diameter
+0.86 inches (2.18 cm)
+Width ...</span>
+                </td>
+                <td>0.81034065 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vyb8YJmjmw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vyb8YJmjmw">$1,000 US Dollars Cash (10 $100 bills)</a><br/>
+                    <span class="description-preview">Genuine USD Cash - Federal Reserve Notes
+
+Limit 9 per order. If you want more than 9, please visit my listing for $10,000 if it is available (it&#39;s slightly cheaper anyway)
+
+FE is NOT REQUIRED, un ...</span>
+                </td>
+                <td>2.53231453 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/n0zVuLKfMh.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/n0zVuLKfMh">$100 US Dollars Cash (1 $100 bill)</a><br/>
+                    <span class="description-preview">Genuine USD Cash - Federal Reserve Notes
+
+Limit 9 per order. If you want more than 9, please visit my listings for $1000 and $10,000 if they are currently available (they&#39;re slightly cheaper anyway ...</span>
+                </td>
+                <td>0.25543346 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="gold" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to gold</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'gold'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

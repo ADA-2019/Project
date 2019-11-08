@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>GoldDust</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 460.80 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>GoldDust</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 months 20 days ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.14 (GNU/&#76;inux)<br/><br/>mQGNBFK4zTkBDADVB7viirQ14dCo6ZoXoEvIdiuE6qM7V/K3MjksDFASDdspcphz<br/>uSuN6c9jS5Ej56JrLWxgOYimbhOSi7M82N3W8YsQA4MIr43hCjn99rGCLAbGC/xA<br/>1GB2JXy+sKUQc+17VI4g8jRMLbzEnl2bUCBxb3I8CIjrF9LFQafRm2ipTeCIEdjt<br/>39LoK6/HfYBH+PLF1i6txmANYkaHHMTYcjOHEt4PzlezIJEwbHvd3NcIMYH3Wwqj<br/>5WVIptv80FdyzaKh3qmaogJ64Syoefg+LkDmDVLZMF3s5bke+trdRsOob0+9Hdk9<br/>5uLa/x1x/PiKIgwUdMbFA+4PGJz/LvJL4RNPaNRoZ0mas5xO6twc/SzWrPN4CQsm<br/>gKeqh93xaABPnLAIsW2XZiT1VGjCJ8jxZ8PotSLidyWCyHrDnB7Wro/nnLA7b6AX<br/>EgAhs37KEGDraGsci6s25+t5Ks75J3NuPl/Te2xB9AbJy9gr8X3aTWlCw62yXfdY<br/>50elMnilgTYni9kAEQEAAbQYR29sZER1c3QgPEdvbGRAZHVzdC5jb20+iQG4BBMB<br/>AgAiBQJSuM05AhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRCXsCbZ/xE5<br/>DJLNC/9pW/CKDfxGw0v3NEHkqCkG/KWF/hedZMTZOr3yo6pEz3h9TVB2Lm8IPof7<br/>WFzLfKggFJadcnOfBF/95PfTqoGtOLRLP4wGHCPEIltHLeknPPEMvXkHqPo/QTTY<br/>aNcWWwk1h1t6x4eLZ0jOAU7EaOwPpnwebR4f8oc2V4JZdtwYeg2UQMVeBSw6ALQi<br/>xB56lLwdwaZkBbgjSW3zyn1qJtZ3NtExgVuicaSswoYUrCPpH86MRlAoR2OVi6CL<br/>BEaUETPc0/3/RnGEU7MJjTRfkcU16/nrRMXKVWkEg90413VoZfbpK61fMFAbrMkU<br/>NvXVDIlCUY9/WPPej/qerohqt2KnMcxVHvJ/R26EpIY8hGHlPOrquG3qzBYoxka5<br/>W7WqF6ik3Tsu0I6nUxfg8GztgXU9grxVw+280+AE9QnZijzVDMQ6bMvmcm22TFRO<br/>iHz4SpZH+bzVqUKexH06B/ccD/Twzm991iUAzqDE9+g/2kx6XVc9HfvVE+Akx/23<br/>/DHw0HW5AY0EUrjNOQEMAMKIW3fx6DJqHX6IwLUY/MmNjRPhxymZlQ5HAzu7Ybig<br/>MTH4eslSZ2SX91iuYNoaiX83UOxn3NJmU+Ei3JyDbij64d3kY5Jrj4/F6eNKkGY0<br/>pZiHv4irdQNBmB9mhChm1YdimvGr7oaTsA1+YMG0h42BsmxvPjgv7Rfsht8H5hZU<br/>ltAmndCAdIgABmPglTnuJo5bYAgkOHwsaULtvDy/NEmcyLfpugDdFqGPTRPaGkKO<br/>8ldVFndEG2c1acuxkU3wR6co13pt+M2UVAuE7mo1kzbdBVRr7LvukSuqEwMRyDDP<br/>R/U6QDIDX9BwcW0CMzlLLiLXoumUlfkxI9DZnpagC93MIY+6HbOQrhoa5t3rhcDQ<br/>Q5m/tfbmcvlvrRdi4kTFfrZPqdXsGAZ7yGobWpb3TmAlz7kAtYdocJBpBR+B4vup<br/>SmTi7QAkSvYLp8JxAUmW1hYaOwPaLrgWETCZfkqeDQOH3fOVXHa0f2L/+qJCeVC7<br/>GDwrr5lXoo1hztjMzOv/iQARAQABiQGfBBgBAgAJBQJSuM05AhsMAAoJEJewJtn/<br/>ETkMvpEL/jNUI6LJXapZ8PLv/69Zl0UdgOg677oUFl0++v4+1ptimN808VvV1wz2<br/>CtmEYLvEvFrgSeQoA8WEO2EbvlmMLItggkfrhFErN3/IeiNgdGjW6ROXo6Ndzttf<br/>WRFeR12IpwhuU9LosVkCHTUVzdG4EaBiuaP+mZRuKqCEcMSRwLgEuvid0OJ6A1CM<br/>oV6Lm81oQQlZZ4E2m1YPTvVO40hnfqJ6EhPEcSTvIjpQWrYVOHKvmhmNTwUDM45n<br/>WAU5kMNBr7bDTWnU/iiEyM5aIXJaN3JCiQncTrfMUhhY762siURFwEqZ2zisNmHT<br/>Wj7J5zmkFowTZsOSh+nBHK+162kKggbnHyNNQqOoirxN4fzt6nOkvdaeUeCYmqXY<br/>4apBd2QkMCuHb7MxHxLQtMiPDQyt2COWFqLsaG5hAaOJpvMFxu+fVuRUj7iL7/wP<br/>iC59ywuFvF/phxR46tDVdGN8CfM78iXRQbwVCB5/F1IZeK47aeuVGZ/CO0KGgc7l<br/>De25W1r82Q==<br/>=s3V5<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of GoldDust:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/gEhN2mZp0c">100 Grams Crystal MDMA</a><br/>
+                    <span class="description-preview">100 Grams Crystal MDMA
+
+Sent from the UK. Sent in 25 grams packages over a period of a couple of days</span>
+                </td>
+                <td>6.61892361 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Um6iNZLn4a.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Um6iNZLn4a">50 Grams Crystal MDMA</a><br/>
+                    <span class="description-preview">50 Grams Crystal MDMA
+
+Sent from the UK in 25grams packages. 
+
+Sent very flat over a period of a couple of days</span>
+                </td>
+                <td>4.01475694 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/n4w7X3npZU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/n4w7X3npZU">100 Grams Crystal MDMA</a><br/>
+                    <span class="description-preview">100 Grams Crystal MDMA
+
+Sent from the UK. Sent in 25 grams packages over a period of a couple of days</span>
+                </td>
+                <td>6.61892361 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="GoldDust" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to GoldDust</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'GoldDust'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

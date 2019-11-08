@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>budbrother</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.64 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>budbrother</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 150~200 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 23 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Update 21 March All my new products will be listed on Bluesky. I hope to have listings up there in the next few days. This site (Agora)being so slow of late, for whatever reason(s) means I&#39;m headed to Bluesky where we can trade with ease. I look forward to seeing you there. On the horizon I see limited stocks of Blueberry and Kosher Kush, plus recent favourites among my customers Dinachem and 818 Headband.<br/><br/>As this site is having some access problems, I hope to be vending on Bluesky very soon:<br/><br/>http://blueskyplzv4fsti.onion/      no invite needed<br/><br/>I am budbrother on Bluesky. On Bluesky you need to set your shipping region in your account settings to AU before the domestic search will work for you.<br/><br/>Update 18th March I see more top shelf buds on the horizon, in the next couple of weeks. I will/have put my bud prices up 20 to 25%. This is to contribute to covering some of the losses I&#39;ve had over the last 6 months. I expect to continue to have quality at least equal to the best on this market, and I also expect this will be reflected in my future feedback. A huge thank you to all my customers for your support and patronage.<br/><br/>Update 16th March In my experience over the past week Agora pages have been not loading a lot of the time. This has resulted in me being slow to reply to msgs and in some cases slow to send orders. So if I seem slow, this could be the reason. I&#39;ve heard it&#39;s a known problem, others have told me they&#39;ve had the same experience recently. Thank you for your patience and understanding.<br/><br/>Update 1st March I&#39;ve got a NEW KEY:<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFMQnIABCACfdzP+H2la2g8ndqpV2rrJPw8ygAM80u5ik4FERVb8uZT1P5KC<br/>dNMOAHCHv+nILmfisPkzWyoztx6p9Q58AAq8jh3dNI3WQnOMbx1BRp2N2+oO6pk2<br/>Vnxj7fXRUNm6cKD44ppyOdvTMQFahQZwl6ZMUGbyESJXlH+Gr0o4Bege79QcvqvB<br/>3unbETVRhADVnuDKPDXPGc7bRKKNBroC6VhYIrjaQdcM6L5bXaseXbpnimPEYe+c<br/>OEe8/EUjTnlrKU/MP/flcvMxTDzpXvfbs35kqN6FtTC/Gb9DQfzDsXa5xd072XA4<br/>54NCZxQYK4XT2uw4KpxhLoKBKrIt1HyEHixnABEBAAG0KEJCIFJlYWwgPGtleXJl<br/>YWxseUJCc0BlbWFpbG5vdHJlYWwuYm9uZz6JATkEEwECACMFAlMQnIACGwMHCwkI<br/>BwMCAQYVCAIJCgsEFgIDAQIeAQIXgAAKCRDERYhKn2vFMm5MB/9P06lg4XnzAImS<br/>b3G/8/drj6C8qYC2h3erz/LRdEpwoYwi52xh8A+pNIoq2gPrxli9QMoMxlxDED9R<br/>rvY5QOq3fOJS3ZOk21mfA6ckIDdvsRIkxA4emTHMuaV7b5cpp4afbJeBWGyrjo1R<br/>EgaZwNKr0q/kG+Q/0OqUYn0zRhw6Fy9Mql17WNSJ8coYHykeXVcYiTUKppkWOP4s<br/>JbygoWGglBZjruzMOoKp6LulKGRQeK7/pkZv7ODMqp6lFPprC1u/VOR2PVdYu9aB<br/>dYxcyDFvs/IVg4tVkmaLzf9nmkzuZHo8sCKghwFsMBTiGU0uF1Tvjmqhm0HgYmfI<br/>DU19ZEq/uQENBFMQnIABCACxQERFR/omkF9PA3u1EITqU2j/NKGJn8gc7CWIRV7f<br/>4mQkIWc2Io2f/dcVFCC1hIjbrOATfyu5FWO5GSHs5qA47VLLunh2ukF3Xr8JNmRw<br/>YA2RBdR0KRtSXY/Ew2UCWr/qCYqg6uQlHX0TRiu3iN6JBhe/EwTYE1WjOfg+6Fyi<br/>KieES7T5Tlp86x9O/ulHxEb935s/LOjib9p9CbSUeqlscr5bD79747rVNjpTVXWM<br/>JhWW3OlWbSu+vu7j5GprMENGaxdsLs/XhXl/xKoGPomuds/LbwBXO76NeFkQYD+w<br/>FBINDfdcydDt6++jGYgwV9pUPYJJ5ji2wiherYgqqUzNABEBAAGJAR8EGAECAAkF<br/>AlMQnIACGwwACgkQxEWISp9rxTLMmAf/fsihZgSMV/WOFIagen/O2yAYq3AedspS<br/>OdSmOsIqn52lIXn6xaHzGCF4wrsvflMwBTgICl6z2NR8d1cxql+O1SOK2TwQGC3K<br/>gJpNauxXAk2sfGreDoHhl8QI7nIIgK0heGb2vDLADisDII111gjs3T9pmaMfJq8H<br/>3NDn5OZyCABye8ksmOKoTbpn9CJTSls3tPGtZHgn4fg+UTjQONXrgX4BivVbTm53<br/>FDE0M4wpcNIJy0tUgVYiWTZyqfobup2JNqZd/6QWN9N/KSKS3ha2trkjkArg47QU<br/>zry0ffunevSkJQebVJB1KMoW/QFNnYqJWXefqORxRv6v0JPXYMSh6w==<br/>=LZVZ<br/>-----END PGP PUBLIC KEY BLOCK-----</span><br/><br/><br/>Update 26th Feb agora has cancelled some orders and customers have cancelled others, BTC was returned to the customer. It seems very few customers were scammed, so that&#39;s really cool. i have been in touch with most of those who were scammed, all, i think, if you still have issues please msg me so i can sort it out.<br/><br/>Update 25 Feb I lost control of my vendor account from Feb 4th until yesterday. I was hacked and this vendor account was in control of a hijacker for that period. <br/>A big, make that huge, thank you to Agora, seems they intend being here for the long haul. Agora has allowed me to regain control of my account based on customers support of me via the Agora forum. A few orders have been cancelled by Agora, if you ordered and did not receive, check your account to see whether Agora has refunded you. I have heard from one customer who hassled Agora for ten days via msg and was refunded, so give it a go, via your order page and via private msg to agora. let me know how you go. <br/>I&#39;m very happy to be back.<br/><br/>Update 24 Feb I&#39;m back, finally. You may not trust that it is me yet, but if you keep an eye on my feedback you should see the negative feedback changed as I refund scammed customers.<br/><br/>For info on my tribulations of the last 20 days see these Agora forum threads:<br/><br/>http://i4rx33ibdndtqayh.onion/index.&#112;hp/topic,989.0.html<br/><br/>http://i4rx33ibdndtqayh.onion/index.&#112;hp/topic,1080.0.html<br/><br/>My Pandora account is still hijacked, the support there are shithouse, won&#39;t reply to my msgs, so of course don&#39;t buy there. My Silk Road account has always been under my control, it is now and will remain in vacation mode (no visible listings) for the foreseeable future.<br/><br/>Thank you to the customers who believed in me and helped me get my account back. Sorry for fucking up by allowing my account to be hacked, I was tricked by a msg from &quot;Support&quot;, which was not from Agora. Apparently they only ever msg from &quot;agora&quot;. I feel that I am to blame yet I feel it was unprofessional of Agora to allow someone to open an account called &quot;Support&quot;.<br/><br/>Hello and welcome to my vendor page. I&#39;m BB (budbrother) from SR1 where I vended for six months with a 99 - 100% feedback score.<br/><br/>I have begun vending on SR2 under the name budbrother2, the account is in vacation mode to allow me time to concentrate my efforts on sorting things out here.<br/><br/>I&#39;m also JC (justincase) from Tormarket and Sheep Marketplace where I was a verified vendor. I now have a HIJACKED vendor account under that name on Pandora http://pandorajodqp5zrr.onion/. DO NOT BUY ON PANDORA, MY VENDOR ACCOUNT THERE IS STILL HIJACKED AND PANDORA ARE DOING NOTHING TO HELP.<br/><br/>My stealth and packaging are second to none. Seeds are double sealed, weed and leaf triple sealed. <br/><br/>New PGP Public key :<br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFMQnIABCACfdzP+H2la2g8ndqpV2rrJPw8ygAM80u5ik4FERVb8uZT1P5KC<br/>dNMOAHCHv+nILmfisPkzWyoztx6p9Q58AAq8jh3dNI3WQnOMbx1BRp2N2+oO6pk2<br/>Vnxj7fXRUNm6cKD44ppyOdvTMQFahQZwl6ZMUGbyESJXlH+Gr0o4Bege79QcvqvB<br/>3unbETVRhADVnuDKPDXPGc7bRKKNBroC6VhYIrjaQdcM6L5bXaseXbpnimPEYe+c<br/>OEe8/EUjTnlrKU/MP/flcvMxTDzpXvfbs35kqN6FtTC/Gb9DQfzDsXa5xd072XA4<br/>54NCZxQYK4XT2uw4KpxhLoKBKrIt1HyEHixnABEBAAG0KEJCIFJlYWwgPGtleXJl<br/>YWxseUJCc0BlbWFpbG5vdHJlYWwuYm9uZz6JATkEEwECACMFAlMQnIACGwMHCwkI<br/>BwMCAQYVCAIJCgsEFgIDAQIeAQIXgAAKCRDERYhKn2vFMm5MB/9P06lg4XnzAImS<br/>b3G/8/drj6C8qYC2h3erz/LRdEpwoYwi52xh8A+pNIoq2gPrxli9QMoMxlxDED9R<br/>rvY5QOq3fOJS3ZOk21mfA6ckIDdvsRIkxA4emTHMuaV7b5cpp4afbJeBWGyrjo1R<br/>EgaZwNKr0q/kG+Q/0OqUYn0zRhw6Fy9Mql17WNSJ8coYHykeXVcYiTUKppkWOP4s<br/>JbygoWGglBZjruzMOoKp6LulKGRQeK7/pkZv7ODMqp6lFPprC1u/VOR2PVdYu9aB<br/>dYxcyDFvs/IVg4tVkmaLzf9nmkzuZHo8sCKghwFsMBTiGU0uF1Tvjmqhm0HgYmfI<br/>DU19ZEq/uQENBFMQnIABCACxQERFR/omkF9PA3u1EITqU2j/NKGJn8gc7CWIRV7f<br/>4mQkIWc2Io2f/dcVFCC1hIjbrOATfyu5FWO5GSHs5qA47VLLunh2ukF3Xr8JNmRw<br/>YA2RBdR0KRtSXY/Ew2UCWr/qCYqg6uQlHX0TRiu3iN6JBhe/EwTYE1WjOfg+6Fyi<br/>KieES7T5Tlp86x9O/ulHxEb935s/LOjib9p9CbSUeqlscr5bD79747rVNjpTVXWM<br/>JhWW3OlWbSu+vu7j5GprMENGaxdsLs/XhXl/xKoGPomuds/LbwBXO76NeFkQYD+w<br/>FBINDfdcydDt6++jGYgwV9pUPYJJ5ji2wiherYgqqUzNABEBAAGJAR8EGAECAAkF<br/>AlMQnIACGwwACgkQxEWISp9rxTLMmAf/fsihZgSMV/WOFIagen/O2yAYq3AedspS<br/>OdSmOsIqn52lIXn6xaHzGCF4wrsvflMwBTgICl6z2NR8d1cxql+O1SOK2TwQGC3K<br/>gJpNauxXAk2sfGreDoHhl8QI7nIIgK0heGb2vDLADisDII111gjs3T9pmaMfJq8H<br/>3NDn5OZyCABye8ksmOKoTbpn9CJTSls3tPGtZHgn4fg+UTjQONXrgX4BivVbTm53<br/>FDE0M4wpcNIJy0tUgVYiWTZyqfobup2JNqZd/6QWN9N/KSKS3ha2trkjkArg47QU<br/>zry0ffunevSkJQebVJB1KMoW/QFNnYqJWXefqORxRv6v0JPXYMSh6w==<br/>=LZVZ<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>5 stars. I messed up the shipping in the order and the vendor still managed to sort it out for me. Cheers.</td>
+                    
+                        <td>
+                            <a href="/p/lfakdURa3M">
+                                5 regular seeds - Shiva&#39;s OG - Shiva Skunk X OG Kush
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Lovely work A+</td>
+                    
+                        <td>
+                            <a href="/p/tWBvdcGV5L">
+                                5 regular seeds - Widow Lights - White Widow X Northern Lights
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>smells amazing and packaging is great!!</td>
+                    
+                        <td>
+                            <a href="/p/ujsLptnu9l">
+                                7g 818 Headband
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Second &#116;ransaction in 3 days. So smooth again. Kudos to you brother. See you at Blue Sky</td>
+                    
+                        <td>
+                            <a href="/p/oii444g4tj">
+                                3g 818 Headband
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great seller, see you on BlueSky.</td>
+                    
+                        <td>
+                            <a href="/p/ujsLptnu9l">
+                                7g 818 Headband
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top notch seller, stealth great, very speedy</td>
+                    
+                        <td>
+                            <a href="/p/vq8ADtmllu">
+                                1g The Church from budbrother
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>What can I say, amazing stealth, and the gear is awesome, a true professional. Cheers.</td>
+                    
+                        <td>
+                            <a href="/p/ujsLptnu9l">
+                                7g 818 Headband
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast and discreet.  Good product.</td>
+                    
+                        <td>
+                            <a href="/p/MPDhi7RApF">
+                                7g China Yunnan - indica dominant comercial hydro
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/bY9TM1TE39">
+                                10 regular seeds - Widow Lights - White Widow X Northern Lights
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>bb is great - head across to bluesky there&#39;s more goodness where that came from</td>
+                    
+                        <td>
+                            <a href="/p/bA3yF9oiCE">
+                                14g leaf from the strain Blueberry Headband
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~3/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>everything went perfect, got my seeds.</td>
+                    
+                        <td>
+                            <a href="/p/tWBvdcGV5L">
+                                5 regular seeds - Widow Lights - White Widow X Northern Lights
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent as always.</td>
+                    
+                        <td>
+                            <a href="/p/vq8ADtmllu">
+                                1g The Church from budbrother
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Epic stealth, next day shipping, great comms and a solid product. Cheers!</td>
+                    
+                        <td>
+                            <a href="/p/gWwL7PNxmn">
+                                14g leaf from the strain 818 Headband
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great service- I&#39;ll be following you over to BlueSky, thanks BB.</td>
+                    
+                        <td>
+                            <a href="/p/GZYq562lti">
+                                3g China Yunnan - indica dominant comercial hydro
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Top stuff will be cooking it up tonight</td>
+                    
+                        <td>
+                            <a href="/p/ZdiSiJkjPU">
+                                14g leaf from the strain DINAChem
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>top stuff mate slightly diffrent to the last batch but very well grown</td>
+                    
+                        <td>
+                            <a href="/p/MPDhi7RApF">
+                                7g China Yunnan - indica dominant comercial hydro
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>This guy is the real deal, got my order the next day, everything good, will be back</td>
+                    
+                        <td>
+                            <a href="/p/XAL11KCMME">
+                                14g leaf from the strain OG Kush
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Best packaging ever, better than int&#39;l ones. Fastest turnaround ever, under 24hrs!!</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fantastic as usual.CY is lovely strong high</td>
+                    
+                        <td>
+                            <a href="/p/MPDhi7RApF">
+                                7g China Yunnan - indica dominant comercial hydro
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>(*)ALSO BB added an additional 14G of leaf to my 2oz order! Absolute amazing vendor will do business again! :D</td>
+                    
+                        <td>
+                            <a href="/p/bA3yF9oiCE">
+                                14g leaf from the strain Blueberry Headband
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of budbrother:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gmBVu5KiGl.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gmBVu5KiGl">5 regular seeds - Skunk Kush - pain relief</a><br/>
+                    <span class="description-preview">This is an F1 hybrid of Skunk #1 and Hindu Kush.
+F1 hybrids typically show &quot;hybrid vigour&quot; which materialises in plants growing faster and yielding more than their parents.
+
+Skunk Kush gives big y ...</span>
+                </td>
+                <td>0.04428207 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/lfakdURa3M">5 regular seeds - Shiva&#39;s OG - Shiva Skunk X OG Kush</a><br/>
+                    <span class="description-preview">Shiva&#39;s OG is an F1 hybrid of Shiva Skunk and OG Kush.
+F1 hybrids typically show &quot;hybrid vigour&quot; which materialises in plants growing faster and yielding more than their parents.
+
+Above average yi ...</span>
+                </td>
+                <td>0.04428207 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/znNMWSAdnJ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/znNMWSAdnJ">5 regular seeds - AK47 Automatic - autoflowering sativa dominant</a><br/>
+                    <span class="description-preview">AK47 Automatic is an autoflowering sativa dominant strain which shows sex within 3 weeks of germinating. Seed to harvest in ten weeks. Yield
+varies a lot depending on how well they are grown. 
+
+
+ ...</span>
+                </td>
+                <td>0.08856415 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/bY9TM1TE39">10 regular seeds - Widow Lights - White Widow X Northern Lights</a><br/>
+                    <span class="description-preview">Widow Lights is an F1 cross of White Widow and Northern Lights. F1 hybrids typically grow faster and yield more.
+
+A hydrid of two classic indica strains. Short flowering time and heavy yield plus a ...</span>
+                </td>
+                <td>0.06642311 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/vq8ADtmllu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/vq8ADtmllu">1g The Church from budbrother</a><br/>
+                    <span class="description-preview">I&#39;m only listing some of my listings here on Agora currently, most of them are now on Bluesky. Please see my profile page for details. Thank you.
+
+This is what the seed company says about their str ...</span>
+                </td>
+                <td>0.08856415 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Xc8GoN72Rn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Xc8GoN72Rn">10 regular seeds - Church Kush - mold resistant</a><br/>
+                    <span class="description-preview">This is an F1 hybrid of The Church (Greenhouse Seed Co) and Hindu Kush (Sensi Seeds).
+
+F1 hybrids typically show &quot;hybrid vigour&quot; which materialises in plants growing faster and yielding more than t ...</span>
+                </td>
+                <td>0.06642311 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/tWBvdcGV5L">5 regular seeds - Widow Lights - White Widow X Northern Lights</a><br/>
+                    <span class="description-preview">Widow Lights is an F1 cross of White Widow and Northern Lights. F1 hybrids typically grow faster and yield more.
+
+A hydrid of two classic indica strains. Short flowering time and heavy yield plus a ...</span>
+                </td>
+                <td>0.04428207 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rS8L5wyNut.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rS8L5wyNut">50 regular seeds - Church Kush - mold resistant</a><br/>
+                    <span class="description-preview">This is an f1 hybrid of The Church (Greenhouse Seed Co) and Hindu Kush (Sensi Seeds).
+
+F1 hybrids typically show &quot;hybrid vigour&quot; which materialises in plants growing faster and yielding more than t ...</span>
+                </td>
+                <td>0.22141038 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/a37plcuKol.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/a37plcuKol">10 regular seeds - Skunk Kush - pain relief</a><br/>
+                    <span class="description-preview">This is an F1 hybrid of Skunk #1 and Hindu Kush.
+F1 hybrids typically show &quot;hybrid vigour&quot; which materialises in plants growing faster and yielding more than their parents.
+
+Skunk Kush gives big y ...</span>
+                </td>
+                <td>0.06642311 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gWwL7PNxmn.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gWwL7PNxmn">14g leaf from the strain 818 Headband</a><br/>
+                    <span class="description-preview">Cheaper on Bluesky! Please see my profile page.
+
+818 is a hybrid with strong medicinal properties. Good for anxiety, pain relief and alleviates insomnia.
+
+The plants were grown naturally to matur ...</span>
+                </td>
+                <td>0.06642311 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xU9ultxZTV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xU9ultxZTV">5 regular seeds - Church Kush - mold resistant</a><br/>
+                    <span class="description-preview">This is an f1 hybrid of The Church (Greenhouse Seed Co) and Hindu Kush (Sensi Seeds).
+
+F1 hybrids typically show &quot;hybrid vigour&quot; which materialises in plants growing faster and yielding more than t ...</span>
+                </td>
+                <td>0.04428207 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kAysrMrXVs.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kAysrMrXVs">10 regular seeds - Shiva&#39;s OG - Shiva Skunk X OG Kush</a><br/>
+                    <span class="description-preview">Shiva&#39;s OG is an F1 hybrid of Shiva Skunk and OG Kush.
+F1 hybrids typically show &quot;hybrid vigour&quot; which materialises in plants growing faster and yielding more than their parents.
+
+Above average yi ...</span>
+                </td>
+                <td>0.06642311 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="budbrother" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to budbrother</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'budbrother'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

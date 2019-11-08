@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>minesweeper242</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>minesweeper242</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 25~40 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 16 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            UPDATE, March 28: The 0.25g listing has been REMOVED and replaced with a half gram listing. We are also operating on a strict FE ONLY policy, so please finalize all orders for shipment.<br/><br/>We apologize to any users who are not comfortable with the early finalization system, however we believe it is presently the most secure course of action. Have a look at some of our reviews; we intend to continue proving ourselves through &#101;xceptional service.<br/><br/><br/><br/><br/>We are a new USA based vendor stocking very high quality cocaine. We have been successful in the business for a very long time, and are very excited to now expand our services onto the darknet.<br/><br/>PGP Encryption is a requirement for all sensitive information. If you place an order without encrypting your details, your order WILL BE CANCELLED!!<br/><br/>Due to an increased quantity of orders, we will no longer be offering same-day shipping. Instead, if your order is placed by 9PM EST Sunday-Thursday, it will ship the following morning. All our shipments are made priority mail, and packed discretely. We only ship within the United States, and our products tend to arrive within 2-6 days. All shipments hold a tracking number, so we are able to confirm your delivery if needed. We will not, however, disclose this tracking number! There is no need to even check tracking before 5 days so DO NOT ASK US; this is for your own security.<br/><br/>When sending your address, please put it in the following format:<br/><br/>Your Real Name<br/>1234 Address Ln<br/>City, State 12345<br/><br/>ALWAYS USE YOUR PROPER, ACTUAL INFORMATION! We will not be held responsible for delivery issues brought on by having been sent improper information. There is NO BIGGER RED FLAG than Suzy getting a priority package for David D. Davidson. Always use you real name.<br/><br/>Refunds and resolutions will be handled on a case by case basis. If the tracking confirms, or you can provide proof of, package seizure NOT BROUGHT ABOUT BY IMPROPER ADDRESS ON YOUR PART, we would be happy to discuss reshipment or reimbursement. However, we have been shipping sensitive mail for many years now without incident, and we hope this trend will continue.<br/><br/>Thank you for your interest, we hope to do business together soon!<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFL7wc0BCADa2w/jRbAhxyHDiv0LepfjMhEOFt6aj9iU0LLjbmq6J8ETQkc0<br/>WU1Ngy3Itf/w6chSS8sb4TvnNarAqSHWVpqwtUpvo/mtOedeu9cXmx99DyToQnr9<br/>2UcGVdCGMGzSigpd/4ti19ne0tY8JOuyN/jhxg/rLF7WAZQydRUlSyKTqIc70Wat<br/>lHB/F65u7mmOlK8Sb2Mhv9VbNqdT3Va4BZ/g776XIQL1mxC21+UpHhqZU3RScQVr<br/>BzkgWOMYT5/R44A5LaDPp2rchpLBMatDsWZpEWuzuq2nWrT1hGMWPe4RHmKm7ZLv<br/>ZRFqjveo/KHzbzg8P6fJahNr+GkuDfI3JrqVABEBAAG0Hk1hcnR5IE1jRmx5IDxh<br/>c2RmQHRvcm1haWwuY29tPokBOQQTAQIAIwUCUvvBzQIbDwcLCQgHAwIBBhUIAgkK<br/>CwQWAgMBAh4BAheAAAoJEGudUEvHEheZqp4H/16ZmgItuylMZyB+fYfRKWlXANbE<br/>d6dic6NX+NFThoU42ABn2OMnYD4zL2TMIg8ezD/qvopozPlS0v3PyCZyndfEu6Tq<br/>KBYUSwbgmJ9rEVj0C22+ZMWBqGcLwDNrdtcrlWjcT3IeOcwpG9sT1oipLRCDuhq9<br/>4klbRJG0ow2DaWEORCJ1v8KUC4Ti0R/u+4Hfv6/pFFo8tE4R/n1kEN0zfP/i6/PS<br/>QBBcBKQ/4bIqsb/udtUHhycUvUh5Cqy5odVTqeXGq9GdiUBMBL77Z8rKBcvDQ7Fx<br/>8x7i96g3V/J8vDD0gTj+wfWsl8wWP9PxfBLz8YxBynxY9l9dYro3ygG5xLY=<br/>=dzkU<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/Nn7uexo485">
+                                0.25g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Outstanding clean product.  Fast shipping.  Highly recommended.  Can&#39;t ask for much more</td>
+                    
+                        <td>
+                            <a href="/p/gYWD9LYXRb">
+                                3.5g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived in TWO DAYS which I can&#39;t be happier about. Packaging was alright for domestic shipping. The quality is GOOD but defini</td>
+                    
+                        <td>
+                            <a href="/p/YFdnUscaVc">
+                                1g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;ed Sunday, came Wednesday. Great Comms. High quality product. Found my new domestic C Vendor!</td>
+                    
+                        <td>
+                            <a href="/p/gYWD9LYXRb">
+                                3.5g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Eureka! I&#39;ve found my new go-to guy. Two small bumps and I&#39;m soaring. Fast shipping, good packaging and of course FE wasn&#39;t a p</td>
+                    
+                        <td>
+                            <a href="/p/YFdnUscaVc">
+                                1g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quality&#39;s right on par with the best I&#39;ve had, nice stealth too</td>
+                    
+                        <td>
+                            <a href="/p/gYWD9LYXRb">
+                                3.5g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>A+</td>
+                    
+                        <td>
+                            <a href="/p/YFdnUscaVc">
+                                1g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Return customer, glad to FE for this vendor. Will update.</td>
+                    
+                        <td>
+                            <a href="/p/rdDtgkuk1f">
+                                0.5g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping. Awesome product as always.</td>
+                    
+                        <td>
+                            <a href="/p/gYWD9LYXRb">
+                                3.5g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Just got my order yesterday. Bought too of these, by far the purest stuff i have ever come across</td>
+                    
+                        <td>
+                            <a href="/p/Nn7uexo485">
+                                0.25g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Absolutely no complaints other than FE policy. Would pay more for an escrow buy of this quality level. Oh well. #firstworldprob</td>
+                    
+                        <td>
+                            <a href="/p/YFdnUscaVc">
+                                1g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good shipping time, great comms, great product. Stealth inside package underwhelming but adequate. FE policy is a bummer but so</td>
+                    
+                        <td>
+                            <a href="/p/Nn7uexo485">
+                                0.25g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very nice. arrived very fast and quality product</td>
+                    
+                        <td>
+                            <a href="/p/Nn7uexo485">
+                                0.25g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Haven&#39;t tried it yet, will update later. However, coke looks as described. Shipping was fast. Also communication with vendor wa</td>
+                    
+                        <td>
+                            <a href="/p/gYWD9LYXRb">
+                                3.5g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good stealth and fast shipping. Fucking fire!</td>
+                    
+                        <td>
+                            <a href="/p/YFdnUscaVc">
+                                1g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE, will update on day of drop.
+Stoked for my sugar</td>
+                    
+                        <td>
+                            <a href="/p/YFdnUscaVc">
+                                1g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Superb once again :)</td>
+                    
+                        <td>
+                            <a href="/p/Nn7uexo485">
+                                0.25g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived incredibly fast... Quality is among the best I&#39;ve had, certainly the best since SR1 went down.  Stealth in packaging le</td>
+                    
+                        <td>
+                            <a href="/p/gYWD9LYXRb">
+                                3.5g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>amazing product! real deal fish scale. order came in 3 days, communication is great!</td>
+                    
+                        <td>
+                            <a href="/p/Nn7uexo485">
+                                0.25g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>excellent!</td>
+                    
+                        <td>
+                            <a href="/p/Nn7uexo485">
+                                0.25g High Quality Cocaine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of minesweeper242:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gYWD9LYXRb.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gYWD9LYXRb">3.5g High Quality Cocaine</a><br/>
+                    <span class="description-preview">This is a listing for 3.5g high quality cocaine, estimated by our sources to be over 90% in purity. Quality is our top priority, and while our points of origin may change from time to time, our produ ...</span>
+                </td>
+                <td>0.70796460 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YFdnUscaVc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YFdnUscaVc">1g High Quality Cocaine</a><br/>
+                    <span class="description-preview">This is a listing for 1g of high quality cocaine, estimated by our sources to be over 90% in purity. Quality is our top priority, and while our points of origin may change from time to time, our prod ...</span>
+                </td>
+                <td>0.24336283 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/rdDtgkuk1f.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/rdDtgkuk1f">0.5g High Quality Cocaine</a><br/>
+                    <span class="description-preview">This is a listing for 500mg of high quality cocaine, estimated by our sources to be over 90% in purity. Quality is our top priority, and while our points of origin may change from time to time, our p ...</span>
+                </td>
+                <td>0.13274336 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="minesweeper242" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to minesweeper242</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'minesweeper242'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

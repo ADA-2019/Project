@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>bas30</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 447.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>bas30</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 7 days ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFMbiawBCADq9jwg5K2EU7yedT98IquXsWSwU+l/5piskmfjnsQ2ffnXzpSP<br/>GceqZJS/lA4yE7eIXqjsiYHH8KQJ4ggwOyA++hYrdwyGq8jRG14FI1ZqKl9aYbsp<br/>gpavd6H7GRYFwD89GSUI8AUj8DSRmJQAbOlVgbDkiYV6AhokV09dV4vjCdoHDGXf<br/>rDand+6yLTWJqA5gd9waG8BeQV2h4jpAGvtw&#83;qlWsz9zVD81n8pV/abIE6CBtiXf<br/>/JZfQJxIwOfDye6PxRnheYdDF2a7ITSU51nLJuOcjvx9f0gWDmZ0nbo59uXI3Czw<br/>P621wuiy/f55BT0UMfCFge2GpbNa9X9O4JKbABEBAAG0G2JhczMwIDxiYXMzMEBT<br/>YWZlLW1haWwubmV0PokBOQQTAQIAIwUCUxuJrAIbAwcLCQgHAwIBBhUIAgkKCwQW<br/>AgMBAh4BAheAAAoJEAbNugY3xRkWnT8H/1RKYXpQPErIgQOV8nKCM1Kz9Kz9jb0q<br/>vwx/hjzcWSy1YzCVER56tP3ZgzjxoKc5yEf9/6rTwvfRMBKZpLqT8wNrJp5rEeOq<br/>dHpmGdqsu1HfWE01w+JfCcnA4J9jzTrquCBRtvQATd+Kjx1/g8XDbRn4pz8UjvaZ<br/>vtU0UhiRbPY1dDNL9v4ppwn0QasyWKak636BMeBbaZzCK+4WE+tf6LEUYsaQX9EA<br/>s09o6slf2ezqRKAQqmX7LqkZ46i0yd90mCi+dO4gMB25enPs+ekDccFyQPHXDJ0I<br/>eiTMYIejqgBfecmuS9M4zQ36KpExzRFWFAef1cTjh2Ma4EX4uqas4hK5AQ0EUxuJ<br/>rAEIALj9bG8nSw0IwWeB5C/Qk8G3XWEdkLPz7tMO9vt5hCnyRg7+X+g/6adZlr8p<br/>q5Im+zP8csg+RTjqM8jTF7UJnCmXf4edY1YVJpt18FVPTeNde2FI+ijcY/tSW3Y/<br/>Bn1jB+q6XqrATmTL5ppAtSNk0M7tLIbGT2VMmiMz43iGTGFVmB5JqMd6dghyP8An<br/>exqQK4ckCjsvcnPqNf1gm1yUnxI3FLva6rf4oGelD2binlwFtqq9K1VpKHH8XJIf<br/>lIh9P0nBCzi05r9pRk9ud8pwm9JJPJm22pqOvrpBPgdJURfZizFU0sJMPyI1MOS7<br/>stvPP7N/Nw2nHEokYMZUR0z+t98AEQEAAYkBHwQYAQIACQUCUxuJrAIbDAAKCRAG<br/>zboGN8UZFhmxB/9EIO6EArU5r5sZcZWvQazg++NhJ9vqucEt27bH6cWFxVUnSrbd<br/>DhliNyH0Rsi3yXNJTOTfDAt63quNl2NtoUDAhV02TyixR0OQCPHdv1pIp768JmKt<br/>qV6TxIZBWsJwK1JMhW6zywVDP0iioRq2wt1LB2cgfZN5gPKjgVgQ3W8fT4n4eWJE<br/>cgMaZ38aLy0fuc4CxRulvL1a+Iv4063CA2RW2HjHXL2+dKToy3QK/dGiZQxgy4RO<br/>GqgCnJKaaal2gXGYKRABvaVvATuFzcWaWNGTePhmKBis/wy4hF2pKNr+GPCpzpTM<br/>4CMNqtYCH9Ns/7WnMHLJBho1RMUz+LuezgNz<br/>=4RUq<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Received exactly what I ordered - stealth good</td>
+                    
+                        <td>
+                            <a href="/p/fB6PiYRpno">
+                                Subutex 8mg ( Buprenorphine ) X 10 Pills  No Naloxone No Generic
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipping, and good packaging.</td>
+                    
+                        <td>
+                            <a href="/p/Deu9ZRyCer">
+                                special listing for maraschino 200 pills subutex 8 mg
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of bas30:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/UBUh2CMkou">Top Red Lebanese direct From Bekaa Valley x 10 gr (Very limited stock)</a><br/>
+                    <span class="description-preview">Top Red Lebanese hash real lebanese hash direct from bekaa valley city baalbeck quality hash from Abu Ali Masri familly hash product.
+20 or 22 % THC bulling when you burn just little and become blac ...</span>
+                </td>
+                <td>0.67114093 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qNzxL93Cpu.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qNzxL93Cpu">Top Red Lebanese direct From Bekaa Valley x 1 gr (Very limited stock)</a><br/>
+                    <span class="description-preview">Top Red Lebanese hash real lebanese hash direct from bekaa valley city baalbeck quality hash from Abu Ali Masri familly hash product.
+20 or 22 % THC bulling when you burn just little and become blac ...</span>
+                </td>
+                <td>0.06711409 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/Deu9ZRyCer">special listing for maraschino 200 pills subutex 8 mg</a><br/>
+                    <span class="description-preview">my friend that is your special listing for 200 pills subutex 8mg + 
+expresse shipping charges with track and trace and very stealth and safety method prepare 
+thanks my friend.</span>
+                </td>
+                <td>4.68000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/RXPsiC5Cnx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/RXPsiC5Cnx">Heroin Brown Afghani X 10 gr</a><br/>
+                    <span class="description-preview">Heroin Brow Aghani X 10 gr  good heroin purity 40 maybe 50 % but very good stuff for this prices.
+for any information send me mail i ship every day order and i m connected minimum two time per day. ...</span>
+                </td>
+                <td>0.44742729 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/dD7cjsiCdU.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/dD7cjsiCdU">5 gr Heroin Brown purity 75 to 80 % New batch And Quality Very limited Quantity</a><br/>
+                    <span class="description-preview">This Heroin Brown Are New Batch have it just from 2 days very limited quantity i just have 200gr this listing are for 5gr brown heroin the purity approximation 75 to 80 % very good quality inject abl ...</span>
+                </td>
+                <td>0.78299776 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GJfKzZWwz0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GJfKzZWwz0">25 gr Heroin Brown purity 75 to 80 % New batch And Quality Very limited Quantity</a><br/>
+                    <span class="description-preview">This Heroin Brown Are New Batch have it just from 2 days very limited quantity i just have 200 gr this listing are for 25 gr brown heroin the purity approximation 75 to 80 % very good quality inject  ...</span>
+                </td>
+                <td>2.23713646 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Rnb6MSyCzp.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Rnb6MSyCzp">10 gr Heroin Brown purity 75 to 80 % New batch And Quality Very limited Quantity</a><br/>
+                    <span class="description-preview">This Heroin Brown Are New Batch have it just from 2 days very limited quantity i just have 200 gr this listing are for 10 gr brown heroin the purity approximation 75 to 80 % very good quality inject  ...</span>
+                </td>
+                <td>1.23042505 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fB6PiYRpno.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fB6PiYRpno">Subutex 8mg ( Buprenorphine ) X 10 Pills  No Naloxone No Generic</a><br/>
+                    <span class="description-preview">Subutex 8 mg X 10 pills  ( Buprenorphine )
+No Naloxone No Generic so injectable or snif.
+thanks for all customers and for any info contact me.</span>
+                </td>
+                <td>0.55928411 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/FtNXzqchkN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/FtNXzqchkN">PEN GUN  Caliber 25 ACP</a><br/>
+                    <span class="description-preview">this beautifull pen gun made by professional not homemade i have buy it this pen gun are caliber .25ACP  very strong power for this pengun very nice i love it i have two i sale one and keep one.
+tha ...</span>
+                </td>
+                <td>1.23042505 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/wXusoUyANZ">Subutex 8mg ( Buprenorphine ) X 100 Pills No Naloxone No Generic</a><br/>
+                    <span class="description-preview">Subutex 8 mg X 100 pills ( Buprenorphine )
+No Naloxone No Generic so injectable or snif.
+thanks for all customers and for any info contact me.</span>
+                </td>
+                <td>4.47427293 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="bas30" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to bas30</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'bas30'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

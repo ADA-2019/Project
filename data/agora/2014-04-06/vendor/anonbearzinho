@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>anonbearzinho</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.98 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>anonbearzinho</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.44/5, 15~25 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 4 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFKLf98BCACkdx1b0wRzs//hEAcmLdVTXdvcUTR/luFAKAn4Rn7oX3YYrmLq<br/>CX4uSASLyXadA0NyhBCnea2pW8PZvBKmQldM5+2M3ftmaq10YPuZ4w37gh58g7M6<br/>zgPaU2f4ZJyRh0PMbONizKujElysz2c/QEjlvhwGks8U6hPxNZRk2MY9ypvOIMQE<br/>IVBUFTy1sTmTq2o9fno01QXKFvP+zUWqY7klmhSvFlKGde9s5CAqwfkLwn97XW8T<br/>qhCwUmuPO92iF68fOvFLqlPfDqc9F0reSVKQ5ot9yuqx1jQzu4Nj4c7glL5/7jgK<br/>rryK9EtsDDAo56q1AytR4xFMtwKDuKlTOtc/ABEBAAG0Q2Fub25iZWFyemluaG8g<br/>PEJNLTJjVnJ1THZNYTJENU05Y3hzUU1uYWRQa1hlYlpSa3A2emdAYml0bWVzc2Fn<br/>ZS5jaD6JATkEEwECACMFAlKLf98CGw8HCwkIBwMCAQYVCAIJCgsEFgIDAQIeAQIX<br/>gAAKCRAOhGitC4TEvdYBB/42wVlOIdaTsjp46LDbsH4OdZLmdtVbGdeUXID8xmKk<br/>ss62XiRibFuZxWNwgX6OS6AJjZzVYjpvYCmeWs++trLieVFoQHkklh6MDl3juAS3<br/>Af13Pd0ySAVykgPOgSBnZyqY2SiTj6hMaMzbbRXFwcXGPbStNw8bay7kBmhVHy+C<br/>fMrmquA0YYXQ377/JlK8xIXMxKHaofqGIuuVZYKi2R+tMzI0d49e48T65iusoSr+<br/>JAVH3vTS9MpuEfbpJSRVrYlZQwpKXw1PYREb8LtNe2G/mEMcTdz2zkqid6wI9PXK<br/>TObgEeTfpuq/tgQ4o7WvKhd0uCgF2CvJHblJVm03oNK5tFNhbm9uYmVhcnppbmhv<br/>IChhbm9uYmVhcnppbmhvKSA8Qk0tMmNWcnVMdk1hMkQ1TTljeHNRTW5hZFBrWGVi<br/>WlJrcDZ6Z0BiaXRtZXNzYWdlLmNoPokBOQQTAQIAIwUCUouMxgIbDwcLCQgHAwIB<br/>BhUIAgkKCwQWAgMBAh4BAheAAAoJEA6EaK0LhMS9yOIH/iz33NEScko20qTQPzCM<br/>bDwi7GFSbzHCpHFSvbPeTTcmhAunMnzwUsLSwxerM8bX449pKYroNJP9aFIjveYZ<br/>krLzkdS6V5PKxCsWocWs/DmuX98toGEUf1SsU8bT84BspmytO6XSj8/ftEFqtVZQ<br/>OQ9GJaF40dOWqPRmNc7KNjyEAiAmmqSsuyaREWlaZvq1qys1Vmj7FAW+xnh5W8/B<br/>8PCjrjEZfVOWTwLJ3hFq/ZDuquKQrK0y87Oth4jW/g9ZOFhFUODha+l7uKTIxgLA<br/>odvoZh7vJYiskOLANREZ06vbawIjwD5wbNf4Q+NI78vlo4bngkyg0sYeXeaIg7cj<br/>2Kc=<br/>=Sv2j<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>The note looks pretty bad with the paper, but was quick delivery.</td>
+                    
+                        <td>
+                            <a href="/p/SZbCSf9U11">
+                                GBP notes &pound; notes pound notes &pound;10 GBP10 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>These notes were really poor, not even living up to the description, the vendor was a gent though in sorting the issue. The pro</td>
+                    
+                        <td>
+                            <a href="/p/SZbCSf9U11">
+                                GBP notes &pound; notes pound notes &pound;10 GBP10 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Notes are poor quality the paper is bad. Arrived swiftly. Thanks</td>
+                    
+                        <td>
+                            <a href="/p/Ko7LCqmA3A">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>1/5</strong></td>
+                    <td>full refund given but these notes are very, very low quality</td>
+                    
+                        <td>
+                            <a href="/p/SZbCSf9U11">
+                                GBP notes &pound; notes pound notes &pound;10 GBP10 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>not great quality and highly doubt most shops would take these, but came next day as described</td>
+                    
+                        <td>
+                            <a href="/p/Ko7LCqmA3A">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Notes are okay, good communication with vendor</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Notes are awful got busted paying in a shop with one</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very quick delivery. As the seller says not the best. They don&#39;t feel real when you touch them. Change the paper</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quality not great, passable perhaps.</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived super quick thanks :)</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Next day delivery to UK. Notes aren&#39;t the best i&#39;ve seen but definitely passable. Thanks</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Quick speedy delivery, very impressive! Notes aren&#39;t the best in world but there not bad.</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Paper is better but still needs more work, doesn&#39;t feel genuine. Magnetic strip also needs work.</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Prompt dispatch &amp; friendly vendor; product&#39;s reasonable quality but the look &amp; feel could be better.</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great communication and delivered next day. Hologram and strip ok-ish, change paper! :)</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>4/5</strong></td>
+                    <td>Good hologram, awful paper. Fix the paper weight and you will have a decent counterfeit.</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Communcation and Seller Note looks good will try today and will be buying more :)</td>
+                    
+                        <td>
+                            <a href="/p/fvgA30F73D">
+                                GBP notes &pound; notes pound notes &pound;20 GBP20 samples
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of anonbearzinho:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/SZbCSf9U11.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/SZbCSf9U11">GBP notes &pound; notes pound notes &pound;10 GBP10 samples</a><br/>
+                    <span class="description-preview">SELECT NO. OF NOTES, default = 1 note!
+selling sample notes to build a larger customer base, already selling via other sites under the same handle so u can look me up etc.
+Minimum order quantity is ...</span>
+                </td>
+                <td>0.01545322 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Ko7LCqmA3A.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Ko7LCqmA3A">GBP notes &pound; notes pound notes &pound;20 GBP20 samples</a><br/>
+                    <span class="description-preview">SELECT NO. OF NOTES, default = 1 note!
+selling sample notes to build a larger customer base, already selling via other sites under the same handle so u can look me up etc.
+Minimum order quantity is ...</span>
+                </td>
+                <td>0.03090644 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fvgA30F73D.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fvgA30F73D">GBP notes &pound; notes pound notes &pound;20 GBP20 samples</a><br/>
+                    <span class="description-preview">SELECT NO. OF NOTES, default = 1 note!
+selling sample notes to build a larger customer base, already selling via other sites under the same handle so u can look me up etc.
+Minimum order quantity is ...</span>
+                </td>
+                <td>0.03090644 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="anonbearzinho" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to anonbearzinho</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'anonbearzinho'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

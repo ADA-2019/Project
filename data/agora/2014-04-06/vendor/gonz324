@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>gonz324</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 462.93 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>gonz324</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 7 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            <span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.22 (Darwin)<br/>Comment: GPGTools - https://gpgtools.org<br/><br/>mQENBFEnm4ABCADPhYUNDGf7+87gyz12tv/s+sWkGyi5PE0iTDmziIejV4LaNSO3<br/>YizXHzgtEXjtjr4EK/idMPIYT4JCNp4Fx4dBf7WUg2lzQ1M1aToTt3YWHAQNEe1v<br/>dZCnyTuHoVpnTMlDEhHv2Zh3JnJtTWG8c21HEx4gI98VgnB4m8BgwQl46IMUzzgD<br/>g6XI5OB9VX16UTGMrGDMSb+32YxOEp58pCURG7Jxm3Q2yV6wKBkoN7t70VUHRZrM<br/>nv4J7MnLQeGUcoFsZXnzFApiI1vR52jTDy0eNsEwviYeyQVFGRqv0h4m06MvFNNb<br/>45pLla4JNr+uektQPfkQ2pdL2jdaZqpRRzrBABEBAAG0H2dvbnozMjQgPGdvbnoz<br/>MjRAc2FmZS1tYWlsLm5ldD6JAT4EEwECACgFAlEnm4ACGy8FCQeGH4AGCwkIBwMC<br/>BhUIAgkKCwQWAgMBAh4BAheAAAoJEPuvoOaM/dBuYP4H/jmYxitwTi7AmwQeoRCz<br/>2MaisWxKiZqfVOC9GM9z4oniio6h48rCSZi1Gy4Xm5qYU3rW1GUnFWIQ4iy0cjlV<br/>viiHq7BVMc2Juzg9s1URTLGyYA17KF6Y3qrMFC/Wqx/pKJMRFm1zm7eE/ntOHPsH<br/>yJl6YzJ96s7TEuf63LLkWbL0oedgoo0jOm1eTW1RVR+d+IP3F4ocnqu/vMuoO9Vv<br/>4IXHZZd+7SY01hPpRK/5B0fT6b5tN+tZzkPh+MmjcyqhYMUkz/nfnDrNtrBk5rq7<br/>MLlCf7XnJlPl6tphKrMaJtLWuwrOSeh3N5SRxhcNdnivYOycoOJ8+ELrSXbh+cbe<br/>Kia5AQ0EUSebgAEIAM+CL4LdSDJF0b//kvw6C/ImkIHCf5Z7Kqd2R46TaJnZDOsA<br/>UDjIH1Dg1/1PJk18n7IA0oaZLwsaiykvbpa4+cqIjX9w7nyowZYyvzJ1OeXiltwP<br/>NZf0tW+vPz3UpyvPD7Lr9+uf/Kwn2lgGq3vpDAsFt5Ee0ovjEIPxvBw/w+mzf1sc<br/>JXrhy4AUSjHpkvx0qSQT8Doj9YlJwQNoCtwHHw/YzjMem4j73oYEkYc5eKwoMpVt<br/>fgPVFSOusHAeOMcaePzXRg6ITMcthSmSH2h8OU2SH8kRyp/g3WFbL14LeYw5w/6b<br/>yIzmw3/eYqmLF11pUiHVksrSmHxh4G2uCCvXmbEAEQEAAYkCRAQYAQIADwUCUSeb<br/>gAIbLgUJB4YfgAEpCRD7r6DmjP3QbsBdIAQZAQIABgUCUSebgAAKCRDooFKnttuh<br/>v1HsB/9HKjggho2q9Xblr+IVUCYkuli9/Lh5ZvH3/l6kkfYY1dJHFgw/WNk5GsWx<br/>Cqa/DJw8MeY3OhCaF48eHHy7ked4we5YFJeBXhmOQ4lhmd42YozMBLjotqapmsmw<br/>vxXxPlLXklaoSgFERbwea0W+wKpBnbBLPglEfLScSzIoddrcKfcjLnh5ibt8ur/k<br/>ruW2CBPJ7TfceeGRZP3aoT7YGGfqj8nGK5SVnO0OsmHxBbIpvY8NNJ3suunlQ72s<br/>pUt3+2V+CCnxIdSumwjUxpWfgFYC8KPiuFPyXRA0ya83YFaIwCFnz4CgVx7mQyia<br/>nc0hf4PEQlPva/gAiJ3qA4dCvK1HPnUH/0Lsrl5gQJGIjwPIgbjgITOqUBAF2C7r<br/>jotPSmorzyqnAAlg/C8CWPgKMaa3G/JBKIg2uyndXiW4EXYYwvenwy4ut7KsPgVu<br/>ZB8iDBrOuWARE4Uh4mVfSPYX1qsNvHx3ED9hPfaAc9Y46nmVoWtAQx9FHXGYHV+P<br/>Fmmf/8g351dYQ6W+gkqgwDNH28i3rYUsqakbAmV+anH7rAHN1rnjKDSnGj13s3sM<br/>WPYzfehKNMI0rGsx92L7kPMc8O/8WMlByakdLbEKn2wAv5v6XfvYGVs6jrYUxuY8<br/>RDi7BQyAd5yAl7YyWxgqVDB/OSYI9JyWJmpB2nqHl3r8pGMyiuFejHs=<br/>=VcUG<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d</td>
+                    
+                        <td>
+                            <a href="/p/n6LKX5c7m1">
+                                1 gr of DMT-infused herbs &#39;Electric Sheep&quot;
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE&#39;d</td>
+                    
+                        <td>
+                            <a href="/p/sUu5K6Y0Rs">
+                                1 gr of Changa &quot;Original blend&quot;
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Seems to be the real deal, fine crystalline powder, no paste-ish crap like last time from other vendor. To be recommended ... &amp;</td>
+                    
+                        <td>
+                            <a href="/p/uz2JgNTcUP">
+                                1 gr Ketamine, racemic
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great! 5 out of 5!!</td>
+                    
+                        <td>
+                            <a href="/p/cL55a6C0N1">
+                                100mg DMT Freebase
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast shipping (domestic), weight slightly short (about 80mg with 2g), stealth good and finally the product: simply great!</td>
+                    
+                        <td>
+                            <a href="/p/frFXnvSCu7">
+                                1 gr Ketamine, S-Isomer
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE for trusted vendor</td>
+                    
+                        <td>
+                            <a href="/p/cL55a6C0N1">
+                                100mg DMT Freebase
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Vendor required FE. Will update when the product arrives.</td>
+                    
+                        <td>
+                            <a href="/p/cL55a6C0N1">
+                                100mg DMT Freebase
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very good stealth, looks good and the weight is spot on..
+Will update when its tested.</td>
+                    
+                        <td>
+                            <a href="/p/uz2JgNTcUP">
+                                1 gr Ketamine, racemic
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good stealth, product and communication. Nice vendor put something extra in unasked bc slight shipping delay.</td>
+                    
+                        <td>
+                            <a href="/p/uz2JgNTcUP">
+                                1 gr Ketamine, racemic
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>2 days domestic. Nice stealth. Product will be tested the next weeks :)</td>
+                    
+                        <td>
+                            <a href="/p/cL55a6C0N1">
+                                100mg DMT Freebase
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>very good stealth, looks good, will update when i&#39;ve tried it</td>
+                    
+                        <td>
+                            <a href="/p/q88vNepCD0">
+                                250mg DMT-Fumarate
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of gonz324:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/p5CY0AVuzV.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/p5CY0AVuzV">1 gr of Changa &#39;The Salad&#39;</a><br/>
+                    <span class="description-preview">This blend contains:
+
+25% Morocooan Mint
+15% Jasmine Flowers
+15% Blue Lotus
+10% Damiana Leaves
+5% Lavender + 3 drops Lavender Tincture
+5% White Sage
+25% Full Spetrum harmalas extracted from S ...</span>
+                </td>
+                <td>0.14904739 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: WW
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/n6LKX5c7m1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/n6LKX5c7m1">1 gr of DMT-infused herbs &#39;Electric Sheep&quot;</a><br/>
+                    <span class="description-preview">This blend contain:
+50% Blue Lotus
+50% Calea Zacatecgichi (Dreamherb)
+
+it brings some amazing visuals with it
+
+All my blends are mixed with 50% herbs and 50% DMT</span>
+                </td>
+                <td>0.14040696 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/uLRMnEuRCG.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/uLRMnEuRCG">0.5 gr of Changa &#39;Twisted Fruit&#39;</a><br/>
+                    <span class="description-preview">This Changa contains:
+
+50% 10xCaapi leaves
+20% Salvia
+30% Mugwort5x
+
+It&#39;s mixed in a ratio of 50% herb and 50% DMT.
+So, it&#39;s a pretty strong ratio and contains 500mg DMT
+
+
+if you would like ...</span>
+                </td>
+                <td>0.07560374 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xfB9xT7jf9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xfB9xT7jf9">0.5 gr Changa &#39;Dreamy Lotus&#39;</a><br/>
+                    <span class="description-preview">This blend contains:
+
+50% 10xCaapi
+20% Mullein
+10% Blue Lotus + 2 drops of 15xBlue Lotus timcture
+10% White Lotus
+10% Calea Zacatechichi (Dreamherb)
+
+
+It&#39;s mixed in a ratio of 50% herb and 5 ...</span>
+                </td>
+                <td>0.07560374 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/emn8iuKK73.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/emn8iuKK73">1 gr of Changa &#39;Twisted Fruit&#39;</a><br/>
+                    <span class="description-preview">This Changa contains:
+
+50% 10xCaapi leaves
+20% Salvia
+30% Mugwort5x
+
+It&#39;s mixed in a ratio of 50% herb and 50% DMT.
+So, it&#39;s a pretty strong ratio and contains 500mg DMT
+
+
+if you would like ...</span>
+                </td>
+                <td>0.14688728 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/frFXnvSCu7.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/frFXnvSCu7">1 gr Ketamine, S-Isomer</a><br/>
+                    <span class="description-preview">1 gr pure nice chrystallized S-Isomer Ketamine.
+
+very good quality
+
+Sent from Germany.
+
+
+Watch out for my racemic Ketamine listed as well..:-)</span>
+                </td>
+                <td>0.12096599 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/cL55a6C0N1.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/cL55a6C0N1">100mg DMT Freebase</a><br/>
+                    <span class="description-preview">This is to offer my product for you if you wanna rather try before you buy a bigger amount
+You&#39;ll get 2 breakthrough doses of DMT for sampling my product
+
+Please only 1 order per customer
+
+Prduc ...</span>
+                </td>
+                <td>0.04320214 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LDUYxYDMnN.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LDUYxYDMnN">0.5 gr of DMT-infused herbs &#39;Electric Sheep&#39;</a><br/>
+                    <span class="description-preview">This blend contain:
+50% Blue Lotus
+50% Calea Zacatecgichi (Dreamherb)
+
+it brings some amazing visuals with it
+
+1 gr of &#39;Electric sheep&#39; contains 500 mg of DMT</span>
+                </td>
+                <td>0.07560374 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/pyoMdSYEPX.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/pyoMdSYEPX">1gr Changa &#39;Dreamy Lotus&#39;</a><br/>
+                    <span class="description-preview">This blend contains:
+
+50% 10xCaapi
+20% Mullein
+10% Blue Lotus + 2 drops of 15xBlue Lotus tincture
+10% White Lotus
+10% Calea Zacatechichi (Dreamherb)
+
+It&#39;s mixed in a ratio of 50% herb and 50% ...</span>
+                </td>
+                <td>0.14688728 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: WW
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/LJyPrR2VdZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/LJyPrR2VdZ">250mg of DMT Freebase</a><br/>
+                    <span class="description-preview">250mg of my Freebase-DMT
+
+
+Please release coins before sending!!</span>
+                </td>
+                <td>0.10800535 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: WW
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/kVTwXytlEA.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/kVTwXytlEA">2gr Amphetamine-Sulphat (bonedry powder)</a><br/>
+                    <span class="description-preview">2gr of real bonedry, Amph-Sulphate-Powder.
+absolutely no loss by drying, or something..
+
+i&#39;m sorry for the little higher price that i planned to sel it, but due to the actual market situation, i p ...</span>
+                </td>
+                <td>0.09720482 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worlwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VLu24t5ugf.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VLu24t5ugf">0.5 gr of Changa &#39;The Salad&#39;</a><br/>
+                    <span class="description-preview">This blend contains:
+
+25% Morocooan Mint
+15% Jasmine Flowers
+15% Blue Lotus
+10% Damiana Leaves
+5% Lavender + 3 drops Lavender Tincture
+5% White Sage
+25% Full Spetrum harmalas extracted from S ...</span>
+                </td>
+                <td>0.07668380 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VU4BZwREXj.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VU4BZwREXj">0.5 gr of Changa &#39;Original blend&#39;</a><br/>
+                    <span class="description-preview">This Changa contains:
+30% Ayahuasca Vine
+20% Mullein
+20% 10xPassionflower
+20% Morocoan Mint
+5% 
+Calendula
+5%  Blue Lotus
+(both these last two flowers, are added in after combining the DMT in  ...</span>
+                </td>
+                <td>0.07992396 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/sUu5K6Y0Rs.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/sUu5K6Y0Rs">1 gr of Changa &quot;Original blend&quot;</a><br/>
+                    <span class="description-preview">This Changa contains:
+
+30% Ayahuasca Vine
+20% Mullein
+20% 10xPassionflower
+20% Morocoan Mint
+5%  Calendula
+5%  Blue Lotus
+
+(both these last two flowers, are added in after combining the DMT  ...</span>
+                </td>
+                <td>0.14904739 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/q88vNepCD0.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/q88vNepCD0">250mg DMT-Fumarate</a><br/>
+                    <span class="description-preview">Very clean and potent DMT Fumarate ideal for oral use (Pharmahuasca), Sniffing and even iv.
+
+in combination with MAOI harmalas it will last much longer than a usual DMT-Freebase trip.
+just swallow ...</span>
+                </td>
+                <td>0.06912342 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: WW
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/uz2JgNTcUP.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/uz2JgNTcUP">1 gr Ketamine, racemic</a><br/>
+                    <span class="description-preview">1 gr pure nice chrystallized racemic Ketamine.
+
+very good quality
+
+Sent from Germany.
+
+
+Watch out for my S-Iso Ketamine listing as well..:-)</span>
+                </td>
+                <td>0.11880589 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/DEU.png" /> Germany<br/>
+                    <i class="fa fa-home"></i> To: WW
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="gonz324" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to gonz324</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'gonz324'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>QuikConnect</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 454.98 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>QuikConnect</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            3-27-14: NEW kb added to the store! Blue Rhino, and GSC. Both very dank top shelf indoor strains<br/><br/>4-5-14: Just added Meth listings for those that indulge. The quality is VERY good and VERY clean. If you would like a different quantity of any of my listings PM me and I&#39;ll make a custom listing.<br/><br/>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br/><br/>Hello buyers! Here to provide excellent customer service and QUALITY products. Full Escrow :P<br/><br/>PLEASE use pgp to encrypt your addresses. I only ship within the USA and use Priority w/ tracking. I&#39;m experienced in stealth shipping so no worries there. If you have a mailbox size limitation let me know when you order.<br/><br/>I will provide tracking at the 14 day mark in the event of non-delivery. In these cases, you have the option of a 100% reship, or a 50% BTC refund. Original order must be finalized prior to the reship option.<br/><br/>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFL8kfoBCAC0kd76oc6IJ9sR6zePeIx0RZ1PbAOTLeXkGX90AuHsRFYLYi2G<br/>J/UYsQ0WFggAMZt1bc1svN23N1fcmhpGjPRUIFVtr0noZFAhTFn5GlkMW8eB4wuO<br/>VhrfpJ/OrobN9GcAWB7kYfPH4ynkYjMROiDQw5tltiPWtRmnKvcmk8d58d4byA4r<br/>E6NVFBMDbN55m1T54Z0uvSUQP2qGAnnAzeWVLpWSTM57hhU5xgSvkM9XhW/1Oucg<br/>kEvz3Zwp7RiGqkIbMzqlq2OO0HUBda4O1j+RHF7Ug8RKyzNV/ZxKCVE4h2n5wun/<br/>meR7YmwsL83QUSYSuGnlDdQBraUpTsg84EpXABEBAAG0HFF1aWtDb25uZWN0IDxR<br/>dWlja0BmYWtlLmNvbT6JATkEEwECACMFAlL8kfoCGw8HCwkIBwMCAQYVCAIJCgsE<br/>FgIDAQIeAQIXgAAKCRCjGmJqW76/C2L2CACbv8ztn/OmruGzXMShRm3Xan5/wbU/<br/>eJstMKRoZoRXLAOI3h0fLH6T8grZoZuNz25ywI0bQI0LakcDw5FbSartcwob65Lx<br/>uR3S27hJylpnlB/KC9TYv7IRf7sSKfGUenxTPTUNk9UYHVEKLCaQoW6b8ymdj0TE<br/>O73ukGWdOcy8OSQaqYmpqCYAFkxjXkHYrdZlWbc8iOigMzGbueCfU/X9Q+/LdJWp<br/>w7fG5tFb93P9HsWjlvQb47o/RmFmhXYpb9XYxpZCtE2dZd8EOzG5RVw/B9sWRpBt<br/>IzItgTjG06HqHIK2u+R+dSSZwoDsfOlzUlWopM51k0zNueQ22dIHifzL<br/>=R9kn<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Super dank bud. fast shipping, Creative stealth, and great communication. Will def b back.</td>
+                    
+                        <td>
+                            <a href="/p/AVfGWvrDGb">
+                                1oz Blue Rhino, AAA+ indoor
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast great hash for the price.. thanks</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Good hash at a great price! Good stealth, shipped fast. I love it. Will order more.</td>
+                    
+                        <td>
+                            <a href="/p/zY2aKwTbL3">
+                                3.5g Quality hash/NO FE
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of QuikConnect:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Pujfglpo0l.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Pujfglpo0l">3.5g CLEAN Methamphetamine</a><br/>
+                    <span class="description-preview">Recently acquired a solid connect for the BEST meth I have ever done. Very clean product. You will not be disappointed.</span>
+                </td>
+                <td>0.49452723 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fKTv2zfeii.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fKTv2zfeii">28g Mid quality MJ- &quot;Reggie&quot;</a><br/>
+                    <span class="description-preview">Reggie is what ppl call mexican weed in my area. I prefer to call it Reginald lol. A higher quality mexi weed</span>
+                </td>
+                <td>0.27473735 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/VBRJu9ibq9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/VBRJu9ibq9">1/2 oz of Reggie Midgrade</a><br/>
+                    <span class="description-preview">Reggie is what ppl call mexican weed in my area. I prefer to call it Reginald lol, HIGH SOCIETY, A higher quality mexi weed</span>
+                </td>
+                <td>0.15385291 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/J62mnj9ZdR.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/J62mnj9ZdR">1/2 gram METH, FULL ESCROW</a><br/>
+                    <span class="description-preview">I have alot of really nice meth. Great quality stuff</span>
+                </td>
+                <td>0.09890544 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/l7ikBWyvyD.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/l7ikBWyvyD">1g METH, FULL ESCROW</a><br/>
+                    <span class="description-preview">Great quality, great price.</span>
+                </td>
+                <td>0.18682139 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zY2aKwTbL3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zY2aKwTbL3">3.5g Quality hash/NO FE</a><br/>
+                    <span class="description-preview">Great quality hash made in small batches. Smokes wonderfully and looks pretty. Full escrow</span>
+                </td>
+                <td>0.13187392 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AVfGWvrDGb.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AVfGWvrDGb">1oz Blue Rhino, AAA+ indoor</a><br/>
+                    <span class="description-preview">I will ship 28g of this strain Blue Rhino.</span>
+                </td>
+                <td>0.61541166 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="QuikConnect" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to QuikConnect</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'QuikConnect'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

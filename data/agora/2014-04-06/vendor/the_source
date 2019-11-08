@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>the_source</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.64 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>the_source</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.68/5, 100~150 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Welcome to ***THE SOURCE***<br/><br/>UK distributors of high quality bits and bobs<br/><br/>Please feel free to peruse our listing and tell us what tickles your fancy :-o <br/><br/>We will endevour to dispatch all orders within 24 hours of them being placed<br/><br/><br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG/MacGPG2 v2.0.22 (Darwin)<br/>Comment: GPGTools - https://gpgtools.org<br/><br/>mQENBFLkz08BCADA9eRGLZrU2SHoacLGr7cyG5RX4Mt0InhOpslyrRUnZDeiANqC<br/>+eVCqqJL6WEG16RQwWlarqz0jPXC29COhFzInRxDwxq97totzgAxdbHo3YWqI30E<br/>eM27oLfbaUI9emiq+Vi9j+8Ydkd6+7K6hBKKBK1LWBg+xWOjSk14bdMAy0DaGB8R<br/>/KlVFFa274l7upxfR9e1CiR+DGDO+48NItsCrUzu07glmdj5aUW2dAdEWvjKAYdr<br/>qgnnavOgw6kjm/gHOc8q375EKKrQTgEoJsB6vD8XW8HfL8GmCQitkcP/2tfyuMFo<br/>udrjsguWUaKX3LVUuhXpLk3/5ZcViI1Fr8ozABEBAAG0CnRoZV9zb3VyY2WJAT0E<br/>EwEKACcFAlLkz08CGwMFCQeGH4AFCwkIBwMFFQoJCAsFFgIDAQACHgECF4AACgkQ<br/>2WAIChbN9bWniwgAg3OhzD0USVMFjKwnybuEqQrYxTkurhSeWvRY6hoHygPyLKPS<br/>brecwaep+OZYxQB3oVOBU7Ei6Vx4Jnkxt/IDQhg2fq4JXcvk4/h5z/+7rqslmOL1<br/>Q68ChW5gvSCOUGdGFRRtQGnsvksKnJFpjeuN6BNWHTKRIaK6l98/GeZsrF7tv1jb<br/>9GLHOGan0+BEuZVQrhMfdawfe3+mNrqhdFSw+rygYH99uZxXdL0SYpVy0kNLTfAL<br/>tTd40K2Wkp6ptmfAXzwVR8jVHBNSQr2qnpQvnVE7knvUnGOV0qXxxAZIr4fuyXGJ<br/>qLoctu/jrYv2b2KAK/TgPeMvpXaQlX1mkijYJbkBDQRS5M9PAQgAv9I09v9DPcgI<br/>uYdJz5PKbYwFax9RGrsOQRdxALLLXML3oTvbSuFnfTWO8yprzW/N0S1TPFf4gHDN<br/>l8yIfexje86OqzdbA//f9uNLpmn/cgVYwo1de1SiUgx7o4MYPUWmfCdr/4HoHPCQ<br/>Jxd/O/fuBbrOOxa8jzvQD0h917KNGDYqebp9lTpAHsWwZQrsv92TGa5HVA1I1sIR<br/>Y0M7473lq6O4l9X3/I/3pVppxp+NybpsA/BKNI6Q6SA2sVNVLmBvFMNpLjTOxeZL<br/>fQMEY4xBzUznn54jVgMhLRY5M5mD6QP5E1pEefWaUoEL3yjyvIIPynFrJtvML1ie<br/>LeZVBpDvHwARAQABiQElBBgBCgAPBQJS5M9PAhsMBQkHhh+AAAoJENlgCAoWzfW1<br/>GuAH/0y00PvGKXlvmrxkgfHMR49pxR2eb2WZ1DndtoBj20ZM/UIxX+tvhxlYAm18<br/>+y9ouiZ2uAjrDVemqziIMKhFL1G4zJhXGvTfhDnYi/YjuGSiagzT0kEZ0/G0bt99<br/>3K9fXcyEGzJB89HiI2OU8wTl5yAs9ldmtRl8bUGSDiEMeFbHTqzWmFLimCx+C2kr<br/>jhSDmJj13m2qTDZx8fIeUXuXVBVmYL3595++mKYpEcFenwGD1ivZm7WQaAw30lk4<br/>FUvdSSn0rksgBVJ0GVcSQCzEoGA1M/BCtS591H5wXqDANzV5u0JzpVKbsJQchKOl<br/>vs86G0SQ9mAa5GAyeGhzRyr/4gA=<br/>=nInX<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>nice stuff, arrived in good time, good vendor to deal with... reccomended</td>
+                    
+                        <td>
+                            <a href="/p/GZUAps7a57">
+                                1.0g Peruvian Flake Cocaine 80-90%
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>thanks, very nice</td>
+                    
+                        <td>
+                            <a href="/p/TSJmzqCgyC">
+                                1g Blue Cheese - High Grade **vacuum packed-smell proof guaranteed**
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came next day great product as advertised.</td>
+                    
+                        <td>
+                            <a href="/p/b2KvfKZw5q">
+                                0.5g DMT (N,N-DMT)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/rEP2whMc3B">
+                                1g Indian Shard Ketamine
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Thank you very much brilliant stuff, and came within 2 days :).</td>
+                    
+                        <td>
+                            <a href="/p/GZUAps7a57">
+                                1.0g Peruvian Flake Cocaine 80-90%
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast delivery and great bud :)</td>
+                    
+                        <td>
+                            <a href="/p/TSJmzqCgyC">
+                                1g Blue Cheese - High Grade **vacuum packed-smell proof guaranteed**
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick and the real deal</td>
+                    
+                        <td>
+                            <a href="/p/qSqDvbo38C">
+                                28 x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/qSqDvbo38C">
+                                28 x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great product great service as usual, very happy!</td>
+                    
+                        <td>
+                            <a href="/p/L81A7r9kSv">
+                                56 (2 boxes) x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>2/5</strong></td>
+                    <td>2 weeks after FE - nothing shipped
+I think this vendor is scamming</td>
+                    
+                        <td>
+                            <a href="/p/qSqDvbo38C">
+                                28 x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I mean, I&#39;m just a guy from Terre Haut, Indiana with a big ol&#39; dick, a fat wallet and a spleef the size of a baby arm. Let&#39;s ge</td>
+                    
+                        <td>
+                            <a href="/p/TSJmzqCgyC">
+                                1g Blue Cheese - High Grade **vacuum packed-smell proof guaranteed**
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>0/5</strong></td>
+                    <td>**SELECTIVE SCAMMER** Over 20 days later and so far I have received nothing and have zero communications. If you finalize early</td>
+                    
+                        <td>
+                            <a href="/p/rEP2whMc3B">
+                                1g Indian Shard Ketamine
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>No complaints. Arrived promptly 5/5</td>
+                    
+                        <td>
+                            <a href="/p/L81A7r9kSv">
+                                56 (2 boxes) x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>less than 24 hour delivery genuine seller thanks! :)</td>
+                    
+                        <td>
+                            <a href="/p/L81A7r9kSv">
+                                56 (2 boxes) x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came in 2 days, top quality, thanks</td>
+                    
+                        <td>
+                            <a href="/p/qSqDvbo38C">
+                                28 x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Super quick postage</td>
+                    
+                        <td>
+                            <a href="/p/qSqDvbo38C">
+                                28 x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came day after shipping to UK. Good, trusted vendor.</td>
+                    
+                        <td>
+                            <a href="/p/qSqDvbo38C">
+                                28 x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Super fast next day shipping. Looks great! Cannot wait to pop a few. For my teeth of course. &quot;)</td>
+                    
+                        <td>
+                            <a href="/p/bZ2RxcWl6r">
+                                140 (5 boxes) x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~4/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>great seller, very good products</td>
+                    
+                        <td>
+                            <a href="/p/bZ2RxcWl6r">
+                                140 (5 boxes) x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>sorted</td>
+                    
+                        <td>
+                            <a href="/p/rEP2whMc3B">
+                                1g Indian Shard Ketamine
+                            </a>
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of the_source:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qDguSSaKyE.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qDguSSaKyE">0.5g MDMA high grade crystals</a><br/>
+                    <span class="description-preview">High Grade MDMA
+
+Opaque MDMA crystals
+
+Very pure clean product as highlighted by the off white colour of these crystals. 
+
+MDMA is colourless so the yellow colour often evident in most MDMA pre ...</span>
+                </td>
+                <td>0.06000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: UK
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/GZUAps7a57.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/GZUAps7a57">1.0g Peruvian Flake Cocaine 80-90%</a><br/>
+                    <span class="description-preview">High Quality, unmanipulated Peruvian flake at it&#39;s utmost best
+
+Beautiful shimmering flakes with that distinct petroleum smell
+
+the original rocket fuel!</span>
+                </td>
+                <td>0.20000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/b2KvfKZw5q.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/b2KvfKZw5q">0.5g DMT (N,N-DMT)</a><br/>
+                    <span class="description-preview">Our N,N-DMT is extracted from the root bark of the Mimosa Hostilis tree, which is sourced ethically from the sustainable plantations in Brasil.
+
+The method used was the acid base extraction extract ...</span>
+                </td>
+                <td>0.06000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/L81A7r9kSv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/L81A7r9kSv">56 (2 boxes) x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**</a><br/>
+                    <span class="description-preview">***NEW STOCK OF GENUINE UK SCRIPT DIAZEPAM - HALF PRICE!!!***
+
+
+
+Genuine UK prescription TEVA 10mg Diazepam
+tablet!!
+
+
+
+**Rare**Rare**Rare*Rare**
+
+
+
+These are &#98;asically as good as diazep ...</span>
+                </td>
+                <td>0.11721131 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aDpbSAaDGx.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aDpbSAaDGx">1g sociable &#39;cut&#39; cocaine</a><br/>
+                    <span class="description-preview">There&#39;s not too many more unattractive sights at a social gathering than the guy that&#39;s overdone it on the rocket-fuel and subsequently has more edge than a pocket full of 50 pence pieces.
+
+A dilut ...</span>
+                </td>
+                <td>0.10000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/h8uisGYs5E.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/h8uisGYs5E">4 x Kamagra Tablets 100mg Sildenafil Citrate</a><br/>
+                    <span class="description-preview">Generic Viagra - Kamagra!
+
+100mg Sildenafil Citrate, the exact same active pharmaceutical compound present in Pfizer&#39;s revolutionary Viagra tablets
+
+Our customers who buy Kamagra are usually not  ...</span>
+                </td>
+                <td>0.03500000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/TSJmzqCgyC.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/TSJmzqCgyC">1g Blue Cheese - High Grade **vacuum packed-smell proof guaranteed**</a><br/>
+                    <span class="description-preview">Beautiful buds of high grade marijuana 
+
+Blue Cheese Strain
+
+Pungent aroma with THC crystals clearly visible on the bud surface
+
+A true Connoisseur&#39;s smoke!!
+
+****** smell proof guaranteed -  ...</span>
+                </td>
+                <td>0.04400000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/gtFKdsq6qr.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/gtFKdsq6qr">Marquis Reagent Test Kit - Best home test for MDMA/Ecstacy</a><br/>
+                    <span class="description-preview">Ecstacy / MDMA home testing kit
+
+This is the Marquis Testing reagent
+
+Simply scrape a corner of a pill or crush a small crystal of MDMA
+
+Drop one drop of reagent onto the powder (on a white pla ...</span>
+                </td>
+                <td>0.04000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bZ2RxcWl6r.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bZ2RxcWl6r">140 (5 boxes) x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**</a><br/>
+                    <span class="description-preview">***NEW STOCK OF GENUINE UK SCRIPT DIAZEPAM - HALF PRICE!!!***
+
+
+
+Genuine UK prescription TEVA 10mg Diazepam
+tablet!!
+
+
+
+**Rare**Rare**Rare*Rare**
+
+
+
+These are &#98;asically as good as diazep ...</span>
+                </td>
+                <td>0.29821703 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/inlCgxWEMZ.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/inlCgxWEMZ">2 x &#39;Three Wise Monkeys&#39; Blotters 150ug High dose</a><br/>
+                    <span class="description-preview">Three Wise Monkeys blotters
+
+150ug LSD per blotter
+
+The image of the monkeys is printed over 6 perforated squares
+
+We have calculated 1 blotter to equal the whole image so a 150ug dose is sprea ...</span>
+                </td>
+                <td>0.04000000 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/qSqDvbo38C.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/qSqDvbo38C">28 x 10mg TEVA Diazapam tablets **genuine UK prescription diazepam**</a><br/>
+                    <span class="description-preview">***NEW STOCK OF GENUINE UK SCRIPT DIAZEPAM - HALF PRICE!!!***
+
+
+
+Genuine UK prescription TEVA 10mg Diazepam
+tablet!!
+
+
+
+**Rare**Rare**Rare*Rare**
+
+
+
+These are &#98;asically as good as diazep ...</span>
+                </td>
+                <td>0.06446622 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: EU
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="the_source" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to the_source</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'the_source'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

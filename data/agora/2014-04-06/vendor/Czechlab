@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Czechlab</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.00 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>Czechlab</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.83/5, 10~15 deals</span>
+        <div class="vendor-verification"><i class="fa fa-shield"></i> Verified: Black Market Reloaded v1/v2<br/><span class="extra-info">250+ successfull &#116;ransactions since 2012-09.</span></div>
+
+        <div class="vendorbio-stats-online">
+            Last seen 1 days 3 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Hello and welcome to our shop.<br/>I have been a succesful vendor on BMR and would like to bring a &quot;no problem&quot; approach to agora as well as a Karmic boost for our customers.<br/>Darknet Feedback: http://fqyfryfq2iznzsob.onion/index.&#112;hp?id=95873<br/>http://loow5bjd6qjbwi5z.onion/index.&#112;hp &hellip; p;id=95873<br/><br/>By shopping here you support a living patients collective in the Czech republic. The funds go toward supplying treatment with Cannabinoids to patients, due to the status of patients here in regard to a post-Socialist underfunded health system. <br/>Can find no source for treatment we all KNOW helps.<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: PGP Desktop 10.0.2 (Build 13) - not licensed for commercial use: www.pgp.com<br/><br/>mQENBFF9cUcBCADAO94MXfWK+O+hXtIwNP1YMbeISDuv7zgkpUO9ri5Kb/p6CO6v<br/>KNF5HDNzgLCpARpjPPMiq+qhOL5YRM36sLEmE2fh5+cQ+fjO4A3/fBiHPbx+92l+<br/>taK6waieiX5d3c0W6NWx0Fu0VyndeRtp8Ql3tAlfrn99kpP7Y2qY9n0BRupZvGEc<br/>ttoNyRMTIkWwjpPFDhpFCo6ZRGQgBhNvHcsGqvXlFbYRWyU7Ropbrih5WC7Ctibm<br/>mSZ8lYh680vhmm0BDutiHq4TPnskRc6xOiVC3MhfolCBgdL5ib2AgBBMxbxy/E6y<br/>EbrdwA/elVqhHaeyHfDoHRWUvFA0NQMZPZ1ZABEBAAG0H0N6ZWNobGFiIDxDemVj<br/>aGxhYkB0b3JtYWlsLm9yZz6JAYwEEAECAHYFAlGDvyQwFIAAAAAAIAAHcHJlZmVy<br/>cmVkLWVtYWlsLWVuY29kaW5nQHBncC5jb21wZ3BtaW1lCAsJCAcDAgoBAhkBGRhs<br/>ZGFwOi8va2V5c2VydmVyLnBncC5jb20FGwMAAAAFFgADAgEFHgEAAAAGFQgJCgID<br/>AAoJEMgUVsENozmEEl0H/1vzhoJX6OxrGl6o+aSsBT6QAaUiHgrjdp8AMuY351nZ<br/>VO56CgvieaiMpEPvJNUkPHZOBRglciPcr/U+tci7IDTmfzjpEhBk1IWu/ThppmPN<br/>CM8Okrimdt8Rsvw9P/7GY72+6y5E1n0aJIuPXrUv89bW4VWZFOQERGGbIc8i5KYb<br/>NSGrXqdsick3uYqyBjRUrKPHxL1+y8xrMEGEzBU3Fja5Gyr73WLWd2FS+O8tn0Gd<br/>KuHi6aB+4P0otnvWP6uL9Fql3NI5u60i4rWiJf5wDXNLU9735JzELnDoCHv45uPJ<br/>Ze9tzMzYz6bGfcF56qzfbWWCS0YEB+lZaeQ5+yYkgda5AQ0EUX1xSAEIAMDHAEqD<br/>nmN+9xfDofdjZplv50SOvVohoGX5rQQWFBM9H9zBYc3sZZRwUIx+/yPGQKpDqT8e<br/>KkIhMGU0jc6E2ZnX1ngaFEqyMjMWgQ0FgwJ6CyK1caYghrnpeXZA5pIJ24His7qY<br/>2u+MowQ9WwgQqGC2e/lqCfYOq6C6Hohwt96W6i7z8BkyXd46v/DCtkmiAuj827ZU<br/>OXt8M6m/njyWXDPZEn0eughkdpZOkvR/kdmfGkALMq8BojVELEyKg5sz+SXYYMcC<br/>R8v3z8pMBNouZUXYBFnQAEPvpGOlT45quNv85TZQChOOfJFwZsNuUiM4fH7EMxGT<br/>i5/LcIMLKO1G3rkAEQEAAYkCQQQYAQIBKwUCUX1xSQUbDAAAAMBdIAQZAQgABgUC<br/>UX1xSAAKCRBrf3iwpA02GdOLB/0d58ct/JwFnQOubzB5HKyrwIemeyiWRH3VuCgO<br/>ysgyw+RDSyLmdmCGuBaFO5t/QDoFxByEh4FVqgKjsN1GXsqQNH4Zit4oYkMHxw0O<br/>wct6d4CGFD/PINUgOoa6bbr7ZDK5Tn7qi0/O8YB9GJTleAXpm0+w9jajDGoEHIcn<br/>35wWQTzFqeUu9q873dr3Q0QR78JinWN1K6jFti4J3zxnamhJahV/9dyE3XF+CNfq<br/>/430iyKDb0AI+QLtynUSlIrDx56QLKTf6eJwvmL+eE9p+66SaWfNO14uphTjzSG3<br/>B77tkn70FIwFaMt2EMXWZuP0W5ieS5C7UfT1Yt+PIUu9ekiOAAoJEMgUVsENozmE<br/>dUsIAJSpOcjqUOeD+h1B+uqSrTl1BmSMVAiMbhE2EsOmbI+PtDGJRWFli4k/Q/3u<br/>8U8jafE966mvNC4pJh74jd25BC44RW0rmHmw2oSeMd+LGktoUV9VYviMNf9Inar8<br/>+YGLXm8Hv1AL/Skwtae+2bIAhMWezSRYLDqIDiB78RpOOifnNqlTIcf4ASNgTrjg<br/>yLl0KMT9LP1b/8EzMnqHFdcq9/sR2P2toa2D9cWE37kLH/b3i25H5Y/atoTk4F65<br/>i5dLhNx7ZyVsECxUGOkUs5DjdpYXLlB1TZXNpYu9Y/R/zNNoLyxoBXPOFpGtojM8<br/>W+pRZUbiUQSR0CQUhW6we4SgyN4=<br/>=Caz/<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great seller, fast shipping ! Thanks ++</td>
+                    
+                        <td>
+                            <a href="/p/f2M0My9jRx">
+                                +Smoke POT - Greenhouse gold Black Widow 2g
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>again good weed, long high 5/5</td>
+                    
+                        <td>
+                            <a href="/p/Ypu0E2ppu9">
+                                +Greenhouse gold Black Widow 10g
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>it arrived with delay because customs. vendor&#39;s behavior was unbelievably rude and unprofessional.</td>
+                    
+                        <td>
+                            <a href="/p/ayhrGUWeGK">
+                                Greenhouse gold Black Widow 10g
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.67/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>All good, thanks!</td>
+                    
+                        <td>
+                            <a href="/p/V5ZkpKiXlm">
+                                +Greenhouse gold Black Widow 5g
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td></td>
+                    
+                        <td>
+                            <a href="/p/dmzV0uUbuL">
+                                custom for The Tonik
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Honestly the best high from weed I&#39;ve ever had. It was beautiful and serene, I&#39;m sure the medical benefits were incredible too!</td>
+                    
+                        <td>
+                            <a href="/p/cyC3Mt1tJt">
+                                CBD capsules 6 x 60mg sample for feedback
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast shipping, good stealth and good product. Will be back :)</td>
+                    
+                        <td>
+                            <a href="/p/f2M0My9jRx">
+                                +Smoke POT - Greenhouse gold Black Widow 2g
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE! Will update later.</td>
+                    
+                        <td>
+                            <a href="/p/f2M0My9jRx">
+                                +Smoke POT - Greenhouse gold Black Widow 2g
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Speedy delivery, good stealth, excellent product.</td>
+                    
+                        <td>
+                            <a href="/p/cyC3Mt1tJt">
+                                CBD capsules 6 x 60mg sample for feedback
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>fast, recommended!</td>
+                    
+                        <td>
+                            <a href="/p/cyC3Mt1tJt">
+                                CBD capsules 6 x 60mg sample for feedback
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>good weed nice high and a good amount 5/5 ^_^</td>
+                    
+                        <td>
+                            <a href="/p/f2M0My9jRx">
+                                +Smoke POT - Greenhouse gold Black Widow 2g
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Awesome bud, 3 business days within EU. Smooth smoke &amp; lovely smell. Worth the price.</td>
+                    
+                        <td>
+                            <a href="/p/f2M0My9jRx">
+                                +Smoke POT - Greenhouse gold Black Widow 2g
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of Czechlab:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ZEprveEuBw.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ZEprveEuBw">+High quality Heirloom strain. 14g</a><br/>
+                    <span class="description-preview">Well grown heirloom strain from the wine country. 
+
+A popular strain grown with care by our grower. This cas been in circulation so long the original seedstock is clouded with mystery. &#66;asically no ...</span>
+                </td>
+                <td>0.32967032 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/ayhrGUWeGK.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/ayhrGUWeGK">Greenhouse gold Black Widow 10g</a><br/>
+                    <span class="description-preview">Speed and quality listing. Free Shipping for EU!
+
+Anyone worried here is a sample, get them while they last ;-D
+
+The strain is a greenhouse grown sample of MNS black widow, lovingly grown by an a ...</span>
+                </td>
+                <td>0.24175824 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CZE.png" /> Czech Republic<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/avEGZYEnDv.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/avEGZYEnDv">+High quality Heirloom strain. 5g</a><br/>
+                    <span class="description-preview">Well grown heirloom strain from the wine country. 
+
+A popular strain grown with care by our grower. This cas been in circulation so long the original seedstock is clouded with mystery. &#66;asically no ...</span>
+                </td>
+                <td>0.13186813 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/V5ZkpKiXlm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/V5ZkpKiXlm">+Greenhouse gold Black Widow 5g</a><br/>
+                    <span class="description-preview">Speed and quality listing. Free Shipping for EU!
+
+Anyone worried here is a sample, get them while they last ;-D
+
+The strain is a greenhouse grown sample of MNS black widow, lovingly grown by an a ...</span>
+                </td>
+                <td>0.13186813 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: EU<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Ypu0E2ppu9.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Ypu0E2ppu9">+Greenhouse gold Black Widow 10g</a><br/>
+                    <span class="description-preview">Speed and quality listing. Free Shipping for EU!
+
+Anyone worried here is a sample, get them while they last ;-D
+
+The strain is a greenhouse grown sample of MNS black widow, lovingly grown by an a ...</span>
+                </td>
+                <td>0.25274725 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CZE.png" /> Czech Republic<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/nbNY9JNqgm.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/nbNY9JNqgm">+High quality Heirloom strain. 2g</a><br/>
+                    <span class="description-preview">Well grown heirloom strain from the wine country. 
+
+A popular strain grown with care by our grower. This cas been in circulation so long the original seedstock is clouded with mystery. &#66;asically no ...</span>
+                </td>
+                <td>0.04835164 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CZE.png" /> Czech Republic<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="Czechlab" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to Czechlab</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'Czechlab'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

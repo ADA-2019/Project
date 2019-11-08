@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>SamWalton</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 452.17 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>SamWalton</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.83/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 12 days ago.
+        </div>
+        <div class="vendorbio-description">
+            Sam Walton is back. Providing the LOWEST Prices in the market. High Quality, LOW Prices!! Don&#39;t be Fooled by the LOW Prices! I&#39;m not  greedy thats all!! Have direct prices! YOU make $$, I make $$.<br/><br/>FE only required for orders over LB.<br/><br/>Shipping done discreet. Need Full NAME or Business Name, physical Address. No Refund for undeliverable and Returned to Sender. REship for any detained packages. As much as I hate  this happening we are in a high trafficking area and packages get scrutinized quite a  bit.<br/><br/>If for any reason you are dissatisfied and feel compelled to leave less than a 5 rating, please contact me to see if I can&#39;t fix the problem. I want to build strong business relationships and will do what I can to make you happy.<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.22 (MingW32)<br/><br/>mQENBFLDYCgBCADOk8y2U/ymr1AYIJ/uvadw/J8CyNSMAT1pZcbhR56uTvigwmmP<br/>q8fSQTK9the6Vye7JfmoI3TcJWBCgCbiDIq1PKQZ46BSJxy19NVrs4fD1KdR6+SW<br/>LPoLXoplvIfLj0joI9ObsT4mFKLvgGr2SFYj1VngFHHV/DLvGyB+4qsS1QGiSYDe<br/>Gx6hgP52tzyYljI8adkHo4IGPR6Ugqy93JkpRR2XsBdopg2ApleeUNDAI47URMS5<br/>28LcJEU/j2o7CNiKfr8VrWfS/EZpQAOxaSRm36sL7WD/r/L4vTU6EWwthQIa6euj<br/>/7IZ0AUSBUAgp5oYZ9oh6bRnxwQ2jK0o6OtjABEBAAG0IVNhbVdhbHRvbiA8U2Ft<br/>V2FsdG9uQHRvcm1haWwuY29tPokBOQQTAQIAIwUCUsNgKAIbAwcLCQgHAwIBBhUI<br/>AgkKCwQWAgMBAh4BAheAAAoJEFNXZTBMtY7yXEoIAIlDz8rNbXwf0qbeG/BXBgZ5<br/>8BVykKZTr4Dmle6SNnNs7m0DFuAdJDTpmzDEHkza7dn6K7UBklQTECx/bWhsBwN4<br/>at8etEy6wc0DWbd52D+8wJqczQ8MWBGPeB95U/o/YD7wwQHm5QcsgVW/VX4NljTi<br/>SyopbybkvHK+LJmc/TO3qvyQJmZ+vsuZ9QEKtUfCOxbBGGa9sQ2PRzDynfGeDtHB<br/>SvnC0uf8dsgUkQryduSyUMDoIhtDGY9jdRTO24VXyerL0uNW+a/85Xpc1kodj4+t<br/>kjCbG4TXqqkApMkRZ9fgOTEdsj2fooQM2c0tL0E+r0G2DY2CkL4eD1CmIdgrRse5<br/>AQ0EUsNgKAEIAOgHGPtcJtu1sMiO6YN6/Vig8N15qy9kl/qD5RBD3hc139NW1f8u<br/>DuAvxeRME2g6nXXIhS0Q32E1S0GL9HWmaZUaNxuBuDLlrUJ4lxbkUq/g//kXQrt2<br/>b+oiSa8xlx8Rn/T8rMd8iiKwgOxP2TwgV0LJcqGpLmUuC6w6nmywPdZArLvjOujR<br/>dLGVHzmhE2shqZNRGQWwZQdc8JNpVK3YvxYFI2IJz0/6TStUAtCC4xz4wLwX6Vik<br/>FxWykLoS84pC6oQauyzSZCG1qA1o8j5DDcO29JhS7i0yZmGwtomhi46IGWF+XLJm<br/>2OBIIXKMEEeDxuF9MSEOhFOB9wlDUuZdilMAEQEAAYkBHwQYAQIACQUCUsNgKAIb<br/>DAAKCRBTV2UwTLWO8iDkB/9MX6d7V8vzC9oXCZe24mROYna6hTpF5veS4FsLgKVI<br/>EeKlGt8eOkN5vbbAtVE7tRerJVGdHosLUz0sPbsMD9+XIW/1F0S/cXkPutJyv0+4<br/>npOrSQTcyRPIH/qvdNnEmpZPPw/TsFg18u78vpSiTCKvubUxC7AcHnfP+3Wjw+bL<br/>ALUhBm6YN5tl7rC71A7qJaAWDgdwkKWGNBGLNK+FXwGu2Q6BLAGI878YqT9RYmSk<br/>eIFClfmQvDbyDQHK1rUxn1qm+Z71KDd56tlo9UH5HF6T/iuD0C4UvS4nhZ2NksM1<br/>fjPgz7jpC+HhafZ+DMgHqq2Idu2E51HG3YTuID2/y1Qp<br/>=pC3z<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>FE early. Didn&#39;t get my package but he give me a free replace, will update when receive.</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Decent product...however, inner wrapping was covered in what seemed to be motor oil....strange</td>
+                    
+                        <td>
+                            <a href="/p/YA9fAyRN9b">
+                                FREE 1/2 OZ with 1 OZ Purchase
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Shipping took a few more days than I thought it would, but that appears to be the fault of the shipping service.  Decent produc</td>
+                    
+                        <td>
+                            <a href="/p/YA9fAyRN9b">
+                                FREE 1/2 OZ with 1 OZ Purchase
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>came in 2 days bad thing is that it smelled weird, and now my bud smells like motor oil</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great product for the price. Great vendor. Product as described and fast shipping. Highly recommended.</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great for the price for sure, little harsh but it still works good.</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;4.67/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great mids - low seed count.  Killer price.  Got 46 grams instead of 28!  Wear gloves when opening, though.</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>3/5</strong></td>
+                    <td>Was supposed to be 1 oz. Received 23g</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great Communication. Fast Shipping Great Product. A+++++++++++++</td>
+                    
+                        <td>
+                            <a href="/p/wEucmFJPYc">
+                                1G  85%+ $85 LOWEST PRICE ANYWHERE
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>ships fast and great communication</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Great product for the price. Will be coming back.</td>
+                    
+                        <td>
+                            <a href="/p/aaFEVFhplz">
+                                1OZ Get 1/2 oz FREE High Grade Mexican Commercial
+                            </a>
+                        </td>
+                    
+
+                    <td>3 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent buyer. Superb communication and quick escrow release on product arrival. Would love to do business with again.</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;3.20/5, 6~10 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of SamWalton:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/aaFEVFhplz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/aaFEVFhplz">1OZ Get 1/2 oz FREE High Grade Mexican Commercial</a><br/>
+                    <span class="description-preview">1 oz of  Get 1/2 oz FREE high quality commercial sent to you discreetly. LOW PRICE for LIMITED TIME. Vendor SPECIAL
+
+Sam Walton provides the lowest prices with the highest quality! I buy in bulk an ...</span>
+                </td>
+                <td>0.22115576 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/YA9fAyRN9b.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/YA9fAyRN9b">FREE 1/2 OZ with 1 OZ Purchase</a><br/>
+                    <span class="description-preview">1 oz GET 1/2 oz of high quality commercial FREE  sent to you discreetly. LOW PRICE for LIMITED TIME. NEW Vendor SPECIAL
+
+Sam Walton provides the lowest prices with the highest quality! I buy in bul ...</span>
+                </td>
+                <td>0.22115576 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/wEucmFJPYc.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/wEucmFJPYc">1G  85%+ $85 LOWEST PRICE ANYWHERE</a><br/>
+                    <span class="description-preview">TIME to Get rid of the middle man. We buy direct and pass the SAVINGS to YOU. SAM WALTON is moving out the old. This listing is for 1g of uncut, straight from the brick cocaine. Items will be shipped ...</span>
+                </td>
+                <td>0.18798239 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/AV4Serqyms.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/AV4Serqyms">1LB High Grade $$MoneyMaker</a><br/>
+                    <span class="description-preview">1LB High Grade Commercial..LOW Prices, High Quality..SAM WALTON delivers the BEST Price!!
+
+No FE Required!! Let me earn your trust
+No Reship if not received due to detained
+
+NEW VENDOR SPECIAL.. ...</span>
+                </td>
+                <td>1.99040184 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    <i class="fa fa-home"></i> To: USA
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="SamWalton" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to SamWalton</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'SamWalton'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

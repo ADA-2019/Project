@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>cossacks</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 447.67 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>cossacks</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 6~10 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 9 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Please read the listing you are intersted in and profile before asking me a question as it might be answered on those :)<br/><br/>FAQ<br/><br/>Where do you ship to/from ?<br/><br/>Shipping from the UK and to any country with a working postal system <br/><br/>Can I stay in escrow ?<br/><br/>Yes .<br/><br/>Do I have to sign for your orders on arrival ? <br/><br/>No , never .<br/><br/>Any other questions please message me Ill try to get back to you quickly<br/><br/>How long does dispatch &amp; postage take ?<br/><br/>I will do my best to get orders out same day or next day depending on when they are ordered . Delivery in the UK should take 1-2 days , delivery to EU should take around 7 days and for the rest of world Im not sure around 1-2 weeks I think ( will update this once Ive sent some to non eu countries and know )<br/><br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v2.0.21 (MingW32)<br/><br/>mQINBFMkW3ABEADRgutgN/Rc/RIkRmvr7/8FRK7voQ2UOTSPe83eQRxYcGHTm4BS<br/>JYZOf1djZd1KUwHBOn8qld7PtkUH0Xro/sEKtb9EpRH2HmkOfkFeBRbKBKMk6TKs<br/>7cLph5dnFa1fxom9lC3SWrBZ+m3hc/XbEPrUsKXwxhYE6hItVvux0NLITbnEU61y<br/>TXLrf/PQjU61gk5LuAdjhNv1LwhYHVV6rzZUE8v3xD7NaLqRnxI5xo2HnfUJhhH0<br/>MNC3bxvLj7v6PR7u+W3I+eoyH8T3SYj+xNQFc5UNsd9BDujiqvJAKHmJwSdhth+S<br/>ZBVk07KFK9FpnJLmk7ci3DudxG5U2pVm48dXv+sNgIhxNYR7js3B8wEBTp6j5a8z<br/>XR7q4Jh4vZv2mcQtiBL+3Cd9r5UEWdyPlpEkvOTD3abKcIeJN6awdult9DRDNYEg<br/>6mE1KdBEk2PJzuFkz3zTakD5/8+VgldpdPuTP7oU5vaPWHCV9QGxSMoz7cqt80bn<br/>MzkWtbOpLsHxG2f5zKTH2w9ep3Ek9VCmVJyC6JhKsr50LoPAQxs6qOG+lcgTGyvN<br/>LA/920Nqn6sqVMA9jUI/ki+xi/vgRHFFJZgbm7ejY4e8X5m+K3PUB6Q2w32IKnZp<br/>jrKdAnen4304SSQYvA/PDM+KbaDyrVopldRwlNk8PAIGfnvpHcAF5rk3AQARAQAB<br/>tB1jb3NzYWNrcyA8Y29zc2Fja3NAYWdvcmEueHh4PokCOQQTAQIAIwUCUyRbcAIb<br/>DwcLCQgHAwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJEGDXKyGPBU3OkpkQAIAVgBss<br/>SiiC2DBJphfHbUjkPRqq+I8mvhA2hGfC35mfLPUXADTxbqKruK+efS2GfdhlTSua<br/>JY5jXEszVLIxlu5m/AQHVTQ3i53R7mXx/38bEFrTPAJFPbHJZ8rWuBtqW/y9iIHr<br/>perDTOfRniwCy8+hT1EBjJVbj/Ba+NZg9Yc114x8a2TGpca8YocWr7oyv3cHlcV+<br/>XtYXA+blpUCzU5yyBePKVUM70yy2rHvtqXEE86EyaclZsx9vOpPtHTR3dhUgYYoE<br/>KDPfF5pu8eh2VMVI/6jhcfTckY6Ypt9fG7U3FPviaY2SL+SrICLYyZ4hQS0qFk9M<br/>rwVbeNkPKbdS8zZZCWZ21nzQzTT/rBfuynbmfWB6oSrchBYlN1ZL2EauC1O+5wtZ<br/>ratO9c0b+ZOR2ZVmKRfCGGQTWHGlzJhdCnGgvQlXUSzr65lVDdoioVEIyxPGrMiL<br/>2AeSFwb4yfo6GhEeRIX4YoGuQ7t1sfsQpTivTWzHKFNS+SRVnmRJm69Cg59GW1Sz<br/>xuHkoNgLoGMPN7JXx/gJazYDHpCRV7AiqR8OzacTI9LhQfThkqX1JkT0OelKiEpo<br/>QrZEVIa1ny/9wwFmaubRwbrtPZ5yBiZHAwBglpTVWItlbr0ilhwHzFN+PQXLzrzH<br/>hGk6RTTkq0NqY4YtOSnUmc3fwiqgsjrtP4rT<br/>=Qxbp<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Delivered domestically with speed and stealth. Product not yet tried but looks the part</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>The product didn&#39;t arrive the first time, but the vendor kindly agreed to send again, and it arrived the second time. Excellent</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Excellent communication and great quality Bees, would recommend and will definitely use again</td>
+                    
+                        <td>
+                            
+                        </td>
+                    
+
+                    <td>5 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast delivery / Excellent stealth / I will review about quality on forum after have tried the product. Lot of thanks !!!</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast delivery to EU, great stealth and package very professional looking. Product yet to be tested but vendor is very help</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast delivery, professional stealth. 
+Not tested yet but will update if not as expected.</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Got the sample really fast looks legit..will test ASAP.</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>6 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Sample received.Stealth good,communications good &amp; received in good time.Will test asap.Assume real deal unless updated</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Sample received within 24 hours of ordering, consider myself a bit of a connoisseur of 2cb having done it nearly every week for</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Fast shipment to France (2 days), good stealth, overweight(+57mg) and it looks like the real deal. Will update with a review af</td>
+                    
+                        <td>
+                            <a href="/p/XLUj5tTe0B">
+                                100mg 2cb powder (sample)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of cossacks:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/eBoo7fh4Al.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/eBoo7fh4Al">0.5g 2c-b powder</a><br/>
+                    <span class="description-preview">0.5g of 2cb see my past feedback for what other customers think of it , good quality powder slightly off white ( see pic :) ) all orders are vacum sealed and look profesional on the outside .
+
+It i ...</span>
+                </td>
+                <td>0.15636517 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/zRWr2mNE1F.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/zRWr2mNE1F">0.25g 2c-b powder</a><br/>
+                    <span class="description-preview">0.25g of 2cb see my past feedback for what other customers think of it , good quality powder slightly off white ( see pic :) ) all orders are vaccum sealed and look profesional on the outside .
+
+It ...</span>
+                </td>
+                <td>0.08488395 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/JZSeJP7Sxs.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/JZSeJP7Sxs">1g 2c-b powder</a><br/>
+                    <span class="description-preview">1g of 2cb see my past feedback for what other customers think of it , good quality powder slightly off white ( see pic :) ) all orders are vacum sealed and look profesional on the outside .
+
+It is  ...</span>
+                </td>
+                <td>0.29039247 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/GBR.png" /> UK<br/>
+                    <i class="fa fa-home"></i> To: World
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="cossacks" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to cossacks</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'cossacks'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

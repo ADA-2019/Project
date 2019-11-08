@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>TheIntoxicologist</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 455.89 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>TheIntoxicologist</strong> <span class="gen-user-ratings"> [0 deals]</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 22 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            Greetings!  <br/><br/>I am the Intoxicologist.  <br/><br/>My goal in vending on Agora Marketplace is to provide the highest quality products at the lowest possible price.  <br/><br/>I am currently offering high quality, sativa-dominant cannabis for a bargain price.  However, in the coming weeks, I will also be offering hash oil-infused caramels, mdma, and other goodies.  :)<br/><br/>Shipping is professional and stealth.  <br/><br/>Please use PGP for sensitive information, including but not limited to shipping info.  My key is listed below.  <br/><br/>-TheIntoxicologist<br/>Be Safe; Self-Elate.<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1.4.11 (GNU/&#76;inux)<br/><br/>mQENBFMNmO0BCACwodveZ3mCe/nTMix39slEqFpep038cDFdrUCgmwh024awj1sd<br/>WnUX6zZZ1uFtlo4Ihca6V2wsaHhOeRqj2C07ul2dTdGPOjI/5wrBqhX48cjf9xN3<br/>x+HGFKEZvN5xVk+1GqPrX4pI/04w2FxG3foytgDHJMzi54yqPEZhUAkaIfFvCVN3<br/>by9Tbr3AfND9eWOoy2nsa+4iFYdEmwg7661xpWRuEbH4CWAenzwgSDW6qst23LQQ<br/>oTROKti0rBmtg55NqOVMhj6w0a+iS1jEK+zRQpOUxj9PR1/z1K3ULKOheaTx/5pU<br/>qIpwi+Jm6+gkwtlfux0sICc2CkaFsmjbsG4dABEBAAG0MHRoZWludG94aWNvbG9n<br/>aXN0IDx0aGVpbnRveGljb2xvZ2lzdEByaXNldXAubmV0PokBOAQTAQIAIgUCUw2Y<br/>7QIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQzs2YuJKbQ1902Qf/X2n9<br/>R5yClEx1ZjQO72XKwe8e186WmH5yjTKYoOqQ/PHYcbrk1eeVGGM3mbntWEJSiSxs<br/>xWjOx29OuWc+oZGGE4bQw3e/bcKIKEB7dpTwjP9UvZdVQIKY8gGCufLN1/9RX3vG<br/>r6IzHBUhMhsa5ewp0S35QCx8Mor+liuXAMhAO4JclGOuA/3idPb&#121;IIoRSXFLYedm<br/>Y4Zepq4yAQqoI3dfjSS5y/xXq5zpVgH9a+4r5QPKrWePE4czv0ANQKSBib7t/1gC<br/>pcFfGH7qKIzkSVwWywfuGl/qcX06hkDI8JR2hOfWYAItnh26qC7YKu3W54kT6M9A<br/>9bo+DxxK+VyMjMHLtbkBDQRTDZjtAQgA09swuOwbpcGHdYBfepAEHxAPoc/6r/2H<br/>L463yMLsLpgNo9rxR6GHzU1XnxrWO2nsvmj2F0oPTvfMBndFI7LwmV/j7kyy9lkj<br/>w0ZwPtKwo+hSNeO+mNfK8bqOQkZV+XLi4evNLcrxsSTvwecUVHRFxbJR5JYH3D8d<br/>P9llVfrk9gST5voNUgJzG535w6V5WTDSdNBOWGyNESiswm5+7z6GQFKWGDpqGzDz<br/>dU8UIW5tkmLHxgN4cYhHubVttCVEZMLig0WezmGB/5xQ707uAPqid6Fxe9K5FUfG<br/>xt/TP4prmYy7T/EV2vRJDiEt0VG84zDjqrYMPvneE4TqqiuhXBlIlwARAQABiQEf<br/>BBgBAgAJBQJTDZjtAhsMAAoJEM7NmLiSm0NfN2MH/i2+fg/OZzf/TCwdEDdSCIzM<br/>6wrMAhZDD1XBK0up/W8/02rWz+ACOqtbMyRGrf3PNUfbjn204O/QBJ5Nveh/QgdW<br/>ncbgamW/f5y8FrEr2Q+ka5UNSvQkCYcJnRlf6UzY6qgUYh2F+wQT/wuSe/OukEvM<br/>FzldkOzo00PcFCuQJZb9+DP6aZ13Kq66bJ3cTwo6zSnABkQbKQG/HwTi9oODyBHf<br/>f2zvs1ZjAEz73HGrkDJKBjdip5yvtffqX+0HNcF4VeP9yorpCWXseySQmCepzVkZ<br/>QjHZaujraI5l1ec5Cevg3vcTa9Twa8XXW4eONpQtIStrsXefxVIzYWg4vbO8K8U=<br/>=P4WW<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    No feedbacks found.
+</div>
+
+
+        
+            <h3>Products of TheIntoxicologist:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/B6WZygxydY.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/B6WZygxydY">14 g Sativa-Dominant Cannabis</a><br/>
+                    <span class="description-preview">half of an ounce of Sativa-dominant cannabis grown organically in Colorado.
+
+Excellent buzz, pretty potent, very heady.
+
+Stealth-shipped from USA.</span>
+                </td>
+                <td>0.32901952 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/fdrsMuifsf.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/fdrsMuifsf">3.5 g Sativa-Dominant Cannabis</a><br/>
+                    <span class="description-preview">One eighth of an ounce of Sativa-dominant cannabis grown organically in Colorado.  
+
+Excellent buzz, pretty potent, very heady.
+
+Stealth-shipped from USA.</span>
+                </td>
+                <td>0.09870585 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/td97B3AWtz.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/td97B3AWtz">7 g Sativa-Dominant Cannabis</a><br/>
+                    <span class="description-preview">One quarter-ounce of Sativa-dominant cannabis grown organically in Colorado.
+
+Excellent buzz, pretty potent, very heady.
+
+Stealth-shipped from USA.</span>
+                </td>
+                <td>0.17547707 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/USA.png" /> USA<br/>
+                    
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="TheIntoxicologist" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to TheIntoxicologist</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'TheIntoxicologist'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>

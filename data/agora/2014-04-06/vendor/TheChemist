@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>TheChemist</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/FontAwesome.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+		
+  
+
+
+        <style type="text/css">
+        
+
+        .pgp-verification, .pgp-verification textarea {
+            font-family: "DejaVu Sans Mono", "Consolas", "Courier", monospace;
+            font-size: 9px;
+            color: #222;
+            text-align: center;
+        }
+        .pgp-verification textarea {
+            display: inline-block;
+            text-align: left;
+            width: 400px;
+            height: 250px;
+            padding: 15px;
+        }
+        </style>
+	</head>
+	<body>
+
+    
+    
+    <div id="topmost">
+        <table style="width: 100%; height: 100%;" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="smalllogo-td">Ag</td>
+                <td style="width: 20px; overflow: hidden;">&nbsp;</td>
+                <td id="topmost-middlecontent">
+                    <div id="page-heading">Agora<span style="color: #ccc;"> Beta</span></div>
+                    <div id="topmenu-container">
+                        
+                            <a class="topmenu-element" href="/">Listings</a>
+                            <a class="topmenu-element" href="/profile">Profile</a>
+                            <a class="topmenu-element" href="/wallet">Wallet</a>
+                            
+                                
+                                    <a class="topmenu-element" href="/orders">Orders</a>
+                                
+                            
+                            
+                            
+                            <a class="topmenu-element" href="http://i4rx33ibdndtqayh.onion" target="_blank">Forums</a>
+                            
+                            
+
+                        
+                        
+                        <a class="topmenu-element" href="/info">Info/Help</a>
+                    </div>
+                </td>
+                <td style="text-align: right; padding-right: 40px;">
+                    <div id="login-info-bar">
+                        
+                            Welcome
+                            
+                            gwern
+                            :: <a href="/wallet">Wallet 0.00000000 BTC</a>
+                            (<a href="/profile">Display USD/BTC</a>) :: <i class="fa fa-btc"></i> 451.35 USD
+                        
+                    </div>
+                    <div id="login-buttons-bar">
+                        
+
+                            
+
+                            
+                                <div class="button-grey">
+                            
+                                <a href="/messagelist"><i class="fa fa-comments"></i>&nbsp;&nbsp;0 new messages</a>
+                            </div>
+
+                            <div class="button-red"><a href="/logout"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Logout</a></div>
+                        
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%; height: 1px; background-color: #d9d9d9; overflow: hidden;">&nbsp;</div>
+    <div style="width: 100%; height: 1px; background-color: #FFFFFF; overflow: hidden;">&nbsp;</div>
+    <div id="top-navigation">
+
+        
+        <div class="topnav-element">Vendor page</div><div class="topnav-divider-element">&gt;</div>
+    
+
+
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="aftertopnav-divider-1"></div>
+    <div id="aftertopnav-divider-2"></div>
+
+    <div id="middlestuff" style="margin: 0 20px;">
+        
+
+        <div style="float: left;">
+            
+                
+                
+                    
+                
+                
+            
+            
+
+
+
+    
+
+    
+        <i class="fa fa-user"></i> <strong>TheChemist</strong> <span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;5.00/5, 10~15 deals</span>
+        
+        <div class="vendorbio-stats-online">
+            Last seen 8 hours ago.
+        </div>
+        <div class="vendorbio-description">
+            $$$$$$$$$$$$$ ***** APRIL SALE PRICES ***** $$$$$$$$$$$$$<br/><br/><br/><br/><br/>ALL ORDERS WILL BE &#80;ROCESSED AND SHIPPED WITHIN 24 hours :)<br/><br/><br/><br/>3/04/14  WOW MDMA sold out restock by next WEDNESDAY - Still got lots of coke,<br/><br/><br/><br/>Customers are requested to FE - that will really help with the constant BTC fluctuation  but not required for the time being.<br/><br/><br/>ALL ORDERS POSTED THURSDAY :)<br/><br/><br/><br/><br/><br/>2/04/14 WEDNESDAY- ALL ORDERS POSTED ;)<br/><br/>2/04/14 MDMA stocks low , will be replenished next week 100%<br/><br/><br/>SELLER ON THE OLD SR1  - [ DR LOVE ]<br/><br/><br/><br/><br/>Listings<br/>---------<br/><br/>MDMA              (BULK AVAILABLE)<br/><br/><br/>HIGH QUALITY COKE ( BULK AVAILABLE)<br/><br/><br/>DMT -YELLOW CRYSTALS (LIMITED QUANTITY)<br/><br/><br/><br/>PLEASE PM FOR CUSTOM ORDERS<br/><br/><br/><br/><br/><br/>EXPRESS NEXT DAY POSTAGE WITH TRACKING<br/><br/><br/><br/>-------------------------------------------------<br/><br/>If tracking shows delivered NO REFUNDS,<br/><br/>NO REFUNDS for incorrect addresses<br/><br/><br/><span class="pgptoken">-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>&#86;ersion: GnuPG v1<br/><br/>mQINBFMVUZcBEAC2RrRiUxoEYSDZSmZd/OsEzAeoDYhCJNugj19Va8rr1ZyqLijn<br/>C1TUMlSzcEmqzBZmw/2wlmA2XJtvYKMnHkvF2juA7ojdiWaRUVGt2G0N6CvIPhnW<br/>nVL6JEt5IDwB8n0Ov08aq1MlQKwm11g5K6JnDKD53jDD/oPeIfuNMukZnp47BkzK<br/>qHQvZPKuI0Oq3XS9DukHiiNwHSKXNeMOwvrC1c7DGCRsx+SR3LeP0cLoYZS7MEOT<br/>4iPzsAqJ3FiA6zWy8rZmgKIBurH6JGIyDUYQWf1BMcd9I6HrdaUaQKHi+P8q6lYS<br/>sX6h0bW20aK+PCB9C2MD9uxZiOKl0VwKKRNLn467JWafBnEf42pygVZAY45skKB4<br/>0enREZLkTPfyMWegjjz2I1uNnPMqp6MDDwTYVExHaltcGFqKE4TTIxVdwB7SFZE1<br/>Zh0xQsOJXDv4mPSf+HhTeK+PK4/7Ws7GApkP2lAQGCgLudF/5DmPNJvzx9Iz18u7<br/>zoyHGe8pNx8q4/WnjZQgyFPE+8H9jRPcpKmtjPOTkoLLkzPRS/4Rg30Btu49tNzP<br/>V2RJqF6VFDcBh01c6OV/tPIthAra8wXJk9TFN18yR2pXUAdtLlP56hAN1DnAqlyy<br/>7CGXAzJeMYkSQ4ciiEVQkodyQ7I4O3vVpYXjnUbs5ggp3HeQ1MvtfjQfOwARAQAB<br/>tDVUaGVDaGVtaXN0IChEciBsb3ZlKSA8cmlmcmFmMjAxM0Bhbm9ueW1vdXNzcGVl<br/>Y2guY29tPokCNgQTAQoAIAUCUxVRlwIbAwULCQgHAwUVCgkICwQWAgEAAh4BAheA<br/>AAoJEGfPS2XkLPaVadwP/iUDFr1nYQi1DvxWRxUE8Pl2s3mzK1L7w+3nB7e3cMKb<br/>FpW0sjki7rtkrf0k++TSQYPlbbJmMLheKx2cPtSpnVkFlj411l/r0l/qcnCCjQYc<br/>SLKJXnsiO4RDsZl/6pZJUQjNl3SW34YWhSSiOfkS0r0MK/qIfe0qYdlvdoB9xk34<br/>YcX7qE6ko5T7AQa4v/zUO4np0ogSp3mnH+nzsEuGFokGigVxz0IKDrVvr+roLb/I<br/>lcgEb9ACiS4SfcSC2nz51J+cCKrbvCI8xacupu0Jur7xKjOvzoWa8ZBPKTI3q&#105;IS<br/>c9mhxXT/o5iyzFI3pC/R42qiHNaulIK0Is0WzCoXJtsl3ZF4oOYFyITFXAuTezIb<br/>E9mlZ8/kFefrFlTHc/G/KpjWD9I/iuL3fM2RgO5XMRi+zT+OLB3VOYFSKenijzf3<br/>GHse/6chfMQBmb91pdBG3rWN2lygaX+aYHret5AclXDiQkVnTJfjGmI96odVxEOP<br/>903S3f69xFEOuqHZqrWqgfFAEFPO7EVhlrsKa8tO3OF01EXd7mLtRngr2utqnSbS<br/>SRGC1+HrBhI+B8panWjFp7YZZvY/T2lx92gpK2r6oiuZ57XIk13/4v69TolSkW1g<br/>hklKipbLIddKVfkHNIpYkLv867L4CFJB+vqpQO2/A25ep2VeCTJTBh6zZYBZD0jj<br/>uQINBFMVUZcBEADW3kZq2w6Ujt7AJHd4yWtG/NIiNCEAPurRKoeIilvENgiXV/no<br/>hLrjhjS862dZKcX07XfHdAWTq6uD2ELXlT566OVHyD4tJ96YKJCpyCgO756nBmWN<br/>x8Z+YDb7G1AA0tbNkXIkG2eEA5UV7o0lsDhhy3vuHUyz6pA0awecuBes0PGRhrEA<br/>V46fhkVlBCZCQWgoOUH9Zi658VdgCn+I15eoBqY1fwmrDbc/HChuERU6e6Sw4pYu<br/>7f+mXtkhGN6kTbFeFMiNcG6QiDtnjn88Yk3lgiD5Hc6P8JZcXVdaCDxPz6TaFmD8<br/>Ra8DYuxykoFSuWsQjbs4zdaQGHYSrKhH/yAHiH0sx6z1mWCk0t6AO/xakFnOafpq<br/>Y/yh+H+pY/KzU31XuG7WZ073Bch9adacmm9mP/aS7zzy9WSQeUes11Z+FTl+4I7X<br/>noxXfzBj2S+czA20P1L7LE8A2BqzltiPiD8ixbeVsBkDCJL5NdsnIChV6EobAV2R<br/>eMtICgrG4HioYqnxwfDgNWQVXPNAGScVWDXuQP3jCupCE6uNRtu4Y7uy+Z0HtzSI<br/>7gSJKtLhBK8zNoF3doBclrOOeVkihY3NguRkuSA0fxnxK7Rd7FE10A2MNnNYcbnR<br/>mirRzPJm6h8PRTOC39ZzD2apQFgyIEvOd5tVo3B4rAFn+kp6mYUXqLVgBQARAQAB<br/>iQIfBBgBCgAJBQJTFVGXAhsMAAoJEGfPS2XkLPaVINsP/38d+Ed/L+GQBDKQI9TN<br/>S9Gck6iJVq2BxCJlD+8TAgAg3qqdeC8Y+fX5Vri9F0Byce3Gy/HVGHdcQlwJnHUp<br/>cO71ek79Qu3C+/7/U+8YN4qNE8Z+xke561FFJy97P3JuV8atSnZqJ7oYA1kKase2<br/>EVBR/v1dzAFA7mkuFFOmFCn78h5sVztSEWXvRc0ut0pRT8bEt7JXD69FaFl0sCXM<br/>BW9TEHqV24zRYDo1pUV4ze7OdLn7AH5RzByFQ64dWS3ivZjGMqiOxEyEOTb3V/tP<br/>EYzTDB03W9zxcu+InyWJTkgIQ9Vd0JhBvCjBExixMPg60KmhS5Wr2OwRqmzG4g0d<br/>2g7GUcgPs9rRa3be4luXJAkDrMPnizJiuQ1lLF0JKzB2H8slBAhFDXltjHqNECfU<br/>NbO4RSjFtLdQssYN8MZdFCKtytQ+gm26jgGQyECmDibsglap6ZWWsfEVFH/gHMBW<br/>Ff3P3IWj4RXs+9jk+ySpjWfZDsWRO5+GrromSgT+QSFX+ofV6xBvzs3ut4hpvwmm<br/>DlAQss0sRLDICi7jXuzvxs96WBt06aW3KyYvWCeJIhJiQcQbqKKgXJyFbVhR/bD2<br/>STasYBoRa9Xvwm6bK0psS1QmL/IYRPDI2e8pf7y1nisBPXEX7B1zq5I1VmnoXbIh<br/>zG61OaLma/M4V4fgwgOd0JxW<br/>=uBxC<br/>-----END PGP PUBLIC KEY BLOCK-----</span>
+        </div>
+
+        
+<div class="embedded-feedback-list">
+    <h4 style="margin: 10px 0 5px 0;">Feedbacks:</h4>
+    
+        <table>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Quick postage and the product looks good.</td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Took too long. Product looks and tastes OK. At least the vendor still shipped after the BTC fall.</td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Arrived within 24 hours with good stealth. Product is top notch, some powder along with big tan crystal chunks. Clean rolling h</td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Order arrived in 24hrs. Not sure what the cutter is but its active.</td>
+                    
+                        <td>
+                            <a href="/p/v7sewydlEp">
+                                COCAINE 1 Gram  HIGH QUALITY  [AUSTRALIA]
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Really quick to come and looks the goods.</td>
+                    
+                        <td>
+                            <a href="/p/zYP3ssM8NC">
+                                DMT 0.5 Gram   10 x doses Pure White Xtals (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>0 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> [0 deals]</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Vendor went out of their way to help me. Great communication. Express delivery, came next day. Good looking crystals with nice </td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Honest vendor.  Fast Shipping. All Good...</td>
+                    
+                        <td>
+                            <a href="/p/v7sewydlEp">
+                                COCAINE 1 Gram  HIGH QUALITY  [AUSTRALIA]
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Very fast delivery.  Product is the real deal.  Find a comfortable chair prior to launch; the ascent is dizzying.</td>
+                    
+                        <td>
+                            <a href="/p/zYP3ssM8NC">
+                                DMT 0.5 Gram   10 x doses Pure White Xtals (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Tested purple looks, the goods</td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Packaged well. Good product. Will buy again!</td>
+                    
+                        <td>
+                            <a href="/p/zYP3ssM8NC">
+                                DMT 0.5 Gram   10 x doses Pure White Xtals (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Came in overweight and it looks and smells the business.  It took 12 days to get here but I&#39;m not gonna take off points for tha</td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>4 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 3~5 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>took a while but finally made it. weighed in about 200mg over order, very nice. excellent communication during agora troubles. </td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>I have not yet tried the product, but from the smell it seems very strong, and a great vendor</td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>1 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td><strong>5/5</strong></td>
+                    <td>Looks good , took a little long but you can blame agora itself for that i suppose. stealth is good and bad , will have a talk t</td>
+                    
+                        <td>
+                            <a href="/p/Nr8ZuBcCP3">
+                                SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)
+                            </a>
+                        </td>
+                    
+
+                    <td>2 days ago</td>
+                    <td>
+                        <span class="gen-user-link">anon</span><span class="gen-user-ratings"> <i class="fa fa-bar-chart-o"></i>&nbsp;~5/5, 1~2 deals</span>
+
+                        
+                    </td>
+                </tr>
+            
+        </table>
+    
+</div>
+
+
+        
+            <h3>Products of TheChemist:</h3>
+            <div id="product-list">
+
+
+
+    <table class="products-list">
+        <tr class="products-list-header">
+            <td></td> 
+            <td>Name</td>
+            <td>Price</td>
+            <td><!-- Ships to/from --></td>
+            
+        </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/v7sewydlEp">COCAINE 1 Gram  HIGH QUALITY  [AUSTRALIA]</a><br/>
+                    <span class="description-preview">1 gram of high quality cocaine,
+
+Oily, melts in your fingers when rubbed,
+
+No nose burn
+
+MUST TRY</span>
+                </td>
+                <td>0.55389387 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/bCsFUbl26W.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/bCsFUbl26W">MDMA 5 Grams Mostly TAN small crystals and rocks(Australia)</a><br/>
+                    <span class="description-preview">MDMA
+
+5 Grams
+
+Tiny Tan crystals in varying sizes /  Never pulverised powder
+
+Express post ( 1-3 days)
+
+FULL ESCROW
+
+Cheap starting prices
+
+
+Please PGP Sensitive Addresses</span>
+                </td>
+                <td>1.93862855 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/d3YlRxL02R">Cocaine High Quality 3.5 grams</a><br/>
+                    <span class="description-preview">Cocaine High quality 3.5 grams
+
+oily , some rocks, melts in finger when rubbed ,
+
+MUST TRY
+
+you be the judge</span>
+                </td>
+                <td>1.99401794 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/zYP3ssM8NC">DMT 0.5 Gram   10 x doses Pure White Xtals (Australia)</a><br/>
+                    <span class="description-preview">Pure light yellow DMT crystals
+
+0.5 grams = 10 standard doses
+
+PICTURE SOON
+
+Have lots in stock,
+
+PM for bulk</span>
+                </td>
+                <td>0.19940179 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/xzqSd6iZal.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/xzqSd6iZal">MDMA 10 Grams Mostly TAN small crystals and rocks (Australia)</a><br/>
+                    <span class="description-preview">MDMA
+
+10 Grams
+
+Tiny Tan crystals in varying sizes /  Never pulverised powder
+
+Express post ( 1-3 days)
+
+FULL ESCROW
+
+Cheap starting prices
+
+
+Please PGP Sensitive Addresses</span>
+                </td>
+                <td>3.32336324 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"></td>
+                <td class="column-name"><a href="/p/FdgXMaNKa1">SAMPLE COCAINE HIGH QUALITY 0.5 [AUSTRALIA]</a><br/>
+                    <span class="description-preview">SAMPLE LISTING
+
+
+This is for you guys to try the coke out and see what quality your are looking at .
+
+
+MUST TRY
+
+Oily and melts when rubbed with fingers,
+
+no nose burn</span>
+                </td>
+                <td>0.33233632 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    
+                </td>
+                
+            </tr>
+        
+            <tr class="products-list-item">
+                <td style="text-align: center;"><img src="/liabilities/list/Nr8ZuBcCP3.jpg" alt=""/></td>
+                <td class="column-name"><a href="/p/Nr8ZuBcCP3">SAMPLE MDMA 1 Gram Mostly TAN small crystals and rocks (Australia)</a><br/>
+                    <span class="description-preview">MDMA
+
+1 Gram (10 available samples for feedback purposes)
+
+Crystals in varying sizes /  Never pulverised powder
+
+Express post ( 1-3 days)
+
+FULL ESCROW
+
+Cheap starting prices
+
+
+Please PGP ...</span>
+                </td>
+                <td>0.35449207 BTC
+                    <br/>
+                </td>
+                <td style="white-space: nowrap;">
+                    
+                        <span class="nofe"><i class="fa fa-thumbs-up"></i></span><br/>
+                    
+                    <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/AUS.png" /> Australia<br/>
+                    <i class="fa fa-home"></i> To: Australia
+                </td>
+                
+            </tr>
+        
+    </table>
+
+    
+
+
+</div>
+        
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<div class="send-message-tab">
+    <form action="/im/send" method="post" >
+        
+        <input type="hidden" name="touser" value="TheChemist" id="touser" />
+        <input type="hidden" name="imtype" value="touser" id="imtype"/>
+        <input type="hidden" name="returnto" value="vendorpage" id="returnto" />
+        <div class="send-message-caption"><h2>Send a message to TheChemist</h2></div>
+        <table>
+            <tr><td><textarea name="message" class="send-message-content" id="message" ></textarea></td></tr>
+            <tr><td style="text-align: right;">
+                <div class="button-red"><input type="submit" name="submit" class="input-in-button" value="Send" id="submit" /></div>
+            </td></tr>
+
+        </table>
+    </form>
+
+</div>
+
+
+<h2 class='messagelistspecific-h2'>Message history:</h2>
+
+    <span class="user-class-hint">
+        'TheChemist'
+        
+            is a <strong>Vendor</strong> account.
+        
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+    <div style="clear: both;"></div>
+
+
+   
+
+	</body>
+</html>
