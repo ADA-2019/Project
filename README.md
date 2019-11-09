@@ -27,6 +27,32 @@ During this project, we will address several research questions regarding impact
   - ##### Data Enrichment and Processing
   Using online resources like the description of the dataset or tools from provided and found papers. As mentioned in the source description, the incompleteness of the Dataset will require a thorough study of the semantic behind the data as well as the use of adapted tools and methods.
 
+### Tree structure
+```
+data/
+└── agora
+      └── YYYY-MM-DD
+          ├── cat # Directory containing list of listing for every category
+          │   ├── cat_name_hash
+          │   │   ├── page_0.html # Contains Title, Ships Fr. Ships To, Price in BTC, vendor_name, rating
+          │   │   ├── page_N.html
+          ├── p # Directory containing list of all listings page
+          │   ├── listing_0_hash.html 
+          │   ├── [...]
+          │   └── listing_N_hash.html
+          └── vendor # Directory containing list of all vendors profile page
+              ├── vendor_0_name.html
+              ├── [...]
+              └── vendor_N_name.html
+└── agora-forum
+    └── YYYY-MM-DD
+        ├── index.php
+        │   ├── board,n.items_offset.html
+        [...]    # Each File contains a list a topic for a given board (title, authors, n_views, n_replies)
+        │   ├── board,N.10650.html
+        └── index.php?action=stats # Contains num of posts, replies, and other global stats
+
+```
 # A list of internal milestones up until project milestone 2
   - #### Nov 10th
   Choose the data archives that fits the subject. Describe a restricted dataset adapted for the project topic
