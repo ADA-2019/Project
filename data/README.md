@@ -16,10 +16,10 @@ Category : id="top-navigation"
      </td>
      <td style="white-space: nowrap;" class="__fx-devtools-hide-shortcut__">
 
-     <i class="fa fa-truck"></i><img class="flag-img" src="/images/flag/w13/CHN.png"> China<br>
-      From: <i class="fa fa-home"></i> To: Worldwide
-      >
-     </td>  <td>
+     <i class="fa fa-truck"></i> From: <img class="flag-img" src="/images/flag/w13/CHN.png" /> China<br/>
+                    <i class="fa fa-home"></i> To: Worldwide
+      </td>
+      <td>
 
          <a class="gen-user-link" href="/vendor/mindcrasher#">mindcrasher</a><br><span class="gen-user-ratings"> [0 deals]</span>
      </td>
