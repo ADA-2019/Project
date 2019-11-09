@@ -35,9 +35,10 @@ data/
           ├── cat # Directory containing list of listing for every category
           │   ├── cat_name_hash
           │   │   ├── page_0.html # Contains Title, Ships Fr. Ships To, Price in BTC, vendor_name, rating
+          │   ├── [...]
           │   │   ├── page_N.html
           ├── p # Directory containing list of all listings page
-          │   ├── listing_0_hash.html 
+          │   ├── listing_0_hash.html
           │   ├── [...]
           │   └── listing_N_hash.html
           └── vendor # Directory containing list of all vendors profile page
@@ -54,7 +55,7 @@ data/
 
 ```
 # A list of internal milestones up until project milestone 2
-  - #### Nov 10th
+  - #### Nov 10th [x]
   Choose the data archives that fits the subject. Describe a restricted dataset adapted for the project topic
   - #### Nov 17th
   Create DataFrames, ParseHTML, Clean the dataset.
@@ -67,7 +68,7 @@ data/
   ***
 
   - #### Dec 2th
-  Depht analysis of the data.
+  Depth analysis of the data.
   Answer research questions.
   - #### Dec 9th
   Create meaningful vizualisation for the results.
