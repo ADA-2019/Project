@@ -8,22 +8,22 @@ Category : id="top-navigation"
 - List item
 ```
 <tr class="products-list-item">
-               <td class="column-name"><a href="/p/wXMDrzwG75">Nike Air yeezy2 West Mens Shoes AAA Replica</a><br>
-     [...]
-               </td>
-               <td>0.17212033 BTC
-                   <br>
-               </td>
-               <td style="white-space: nowrap;" class="__fx-devtools-hide-shortcut__">
+     <td class="column-name"><a href="/p/wXMDrzwG75">Nike Air yeezy2 West Mens Shoes AAA Replica</a><br>
+    [...]
+     </td>
+     <td>0.17212033 BTC
+         <br>
+     </td>
+     <td style="white-space: nowrap;" class="__fx-devtools-hide-shortcut__">
 
-               <i class="fa fa-truck"></i><img class="flag-img" src="/images/flag/w13/CHN.png"> China<br>
-                From: <i class="fa fa-home"></i> To: Worldwide
-                >
-               </td>  <td>
+     <i class="fa fa-truck"></i><img class="flag-img" src="/images/flag/w13/CHN.png"> China<br>
+      From: <i class="fa fa-home"></i> To: Worldwide
+      >
+     </td>  <td>
 
-                   <a class="gen-user-link" href="/vendor/mindcrasher#">mindcrasher</a><br><span class="gen-user-ratings"> [0 deals]</span>
-               </td>
-
+         <a class="gen-user-link" href="/vendor/mindcrasher#">mindcrasher</a><br><span class="gen-user-ratings"> [0 deals]</span>
+     </td>
+</tr>
 ```
 
 ###  Listing
@@ -76,29 +76,29 @@ OSEF POUR L'INSTANT
 	13 Replies
 	<br>
 	796 Views
-</td>	
+</td>
 ```
 ###  Stats
 ```
-			<div id="stats_left">
-				<div class="windowbg2">
-					<span class="topslice"><span></span></span>
-					<div class="content top_row">
-						<dl class="stats">
-							<dt>Total Members:</dt>
-							<dd><a href="http://lacbzxobeprssrfx.onion/index.php?action=mlist">53975</a></dd>
-							<dt>Total Posts:</dt>
-							<dd>12132780</dd>
-							<dt>Total Topics:</dt>
-							<dd>37485</dd>
-							<dt>Online Today:</dt>
-							<dd>0</dd>
-						</dl>
-						<div class="clear"></div>
-					</div>
-					<span class="botslice"><span></span></span>
-				</div>
-			</div>
-			<div id="stats_right"> # maybe check if Topic/day, View/Day and login/day value are present
-			</div>
+<div id="stats_left">
+	<div class="windowbg2">
+		<span class="topslice"><span></span></span>
+		<div class="content top_row">
+			<dl class="stats">
+				<dt>Total Members:</dt>
+				<dd><a href="http://lacbzxobeprssrfx.onion/index.php?action=mlist">53975</a></dd>
+				<dt>Total Posts:</dt>
+				<dd>12132780</dd>
+				<dt>Total Topics:</dt>
+				<dd>37485</dd>
+				<dt>Online Today:</dt>
+				<dd>0</dd>
+			</dl>
+			<div class="clear"></div>
+		</div>
+		<span class="botslice"><span></span></span>
+	</div>
+</div>
+<div id="stats_right"> # maybe check if Topic/day, View/Day and login/day value are present
+</div>
 ```
