@@ -1,3 +1,9 @@
+from bs4 import BeautifulSoup as bs
+import os
+import pandas as pd
+from collections import Counter
+
+
 # Clean the Ratings parsing before integration to DF
 def cleanRating(s):
     if ("[0 deals]" in s):
@@ -69,3 +75,14 @@ def createStatsAboutNumbOfDeals(nbDealsStats):
     sortedStats['500~1000'] = nbDealsStats['500~1000']
     
     return sortedStats
+
+
+
+def createVendorsDF(pathToVendors):
+    vendors = pd.DataFrame(columns=['name', 'rating','lastSeen', 'publicKey', '#products','#Deals'])
+    for entry in os.scandir(pathToVendors):
+        with open(entry.path) as fp:
+            soup = bs(fp, features="html.parser")
+            new_row = sellerPageToRow(soup)
+            vendors = vendors.append(new_row, ignore_index=True)
+    return vendors

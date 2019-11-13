@@ -32,7 +32,7 @@ def directoryToDF(path):
     productsDF = pd.DataFrame(columns=['name', 'price(BTC)','from', 'to', 'vendor'])
     for entry in os.scandir(path):
         with open(entry.path) as fp:
-            soup = bs(fp)
+            soup = bs(fp,features="html.parser")
             products = soup.find_all("tr",class_="products-list-item")
             for p in products:
                 name = None
