@@ -42,6 +42,47 @@ def forumSoupToRow(soup):
     new_row={'title':title, 'author':author,'nReplies':int(nReplies), 'nViews':int(nViews),'lastPost':lastPost}
     return new_row
 
+def forumStatSoupToRow(soup, date):
+    num_members = None
+    num_posts = None
+    num_topics = None
+    num_online = None
+    
+    temp = soup.find_all("dl",class_="stats")[0]
+    num_members = temp.find_all('a')[0].text
+    
+    if len(temp.find_all('dd'))>1:
+        num_posts = temp.find_all('dd')[1].text
+        
+    if len(temp.find_all('dd'))>2:
+        num_topics = temp.find_all('dd')[2].text
+        
+    if len(temp.find_all('dd'))>3:
+        num_online = temp.find_all('dd')[3].text
+   
+    
+    new_row={'members':int(num_members), 'posts':int(num_posts),
+             'topics':int(num_topics),
+             'nOnline':int(num_online), 'date' :date}
+    return new_row
+
+def createDfFromStat(directory, dates):
+    filename = "/index.php?action=stats"
+    forumDF = pd.DataFrame(columns=['members', 'posts','topics', 'nOnline', 'date'])
+    for date in dates:
+        try:
+            with open(directory+str(date)+filename) as fp:
+                soup = bs(fp, features="html.parser")
+                topicList = soup.find_all('body')[0].find_all('div', class_="windowbg2")
+                for s in topicList:
+                    new_row = forumStatSoupToRow(s, date)
+                    forumDF = forumDF.append(new_row, ignore_index=True)
+                    break
+        except:
+            print("Notfound")
+        
+    return forumDF
+
 
 def createDfFromForum(directory):
     forumDF = pd.DataFrame(columns=['title', 'author','nReplies', 'nViews','lastPost'])
@@ -51,5 +92,17 @@ def createDfFromForum(directory):
             topicList = soup.find_all('tbody')[0].find_all('tr')
             for s in topicList:
                 new_row = forumSoupToRow(s)
+                forumDF = forumDF.append(new_row, ignore_index=True)
+    return forumDF
+
+def createDfFromStat(directory, dates):
+    filename = "/index.php?action=stats"
+    forumDF = pd.DataFrame(columns=['title', 'author','nReplies'])
+    for date in dates:
+        with open(directory+str(date)+filename) as fp:
+            soup = bs(fp, features="html.parser")
+            topicList = soup.find_all('body')[0].find_all('div')
+            for s in topicList:
+                new_row = forumStatSoupToRow(s)
                 forumDF = forumDF.append(new_row, ignore_index=True)
     return forumDF
