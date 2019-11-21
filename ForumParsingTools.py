@@ -36,7 +36,8 @@ def forumSoupToRow(soup):
         stats = soup.find_all("td",class_="stats")[0].text
     if(len(stats)>0):    
         nReplies,nViews = extractFromStats(stats)
-    lastPost = soup.find_all("td",class_="lastpost")[0].text
+    if len(soup.find_all("td",class_="lastpost")) > 0:
+        lastPost = soup.find_all("td",class_="lastpost")[0].text
     lastPost = refineLastPost(lastPost)
     
     new_row={'title':title, 'author':author,'nReplies':int(nReplies), 'nViews':int(nViews),'lastPost':lastPost}
