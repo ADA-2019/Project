@@ -25,7 +25,7 @@ def forumSoupToRow(soup):
     nReplies = None
     nViews = None
     lastPost = None
-    
+    stats= ""
     temp = soup.find_all("td",class_="subject")[0]
     title = temp.find_all('a')[0].text
     
@@ -34,8 +34,8 @@ def forumSoupToRow(soup):
         
     if len(soup.find_all("td",class_="stats"))>0:
         stats = soup.find_all("td",class_="stats")[0].text
-        
-    nReplies,nViews = extractFromStats(stats)
+    if(len(stats)>0):    
+        nReplies,nViews = extractFromStats(stats)
     lastPost = soup.find_all("td",class_="lastpost")[0].text
     lastPost = refineLastPost(lastPost)
     
@@ -89,10 +89,13 @@ def createDfFromForum(directory):
     for entry in os.scandir(directory):
         with open(entry.path) as fp:
             soup = bs(fp, features="html.parser")
-            topicList = soup.find_all('tbody')[0].find_all('tr')
-            for s in topicList:
-                new_row = forumSoupToRow(s)
-                forumDF = forumDF.append(new_row, ignore_index=True)
+            if(len(soup.find_all('tbody'))>0):
+                topicList = soup.find_all('tbody')[0].find_all('tr')
+                for s in topicList:
+                    new_row = forumSoupToRow(s)
+                    forumDF = forumDF.append(new_row, ignore_index=True)
+            else:
+                print(entry.path)
     return forumDF
 
 def createDfFromStat(directory, dates):
