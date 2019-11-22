@@ -22,8 +22,8 @@ def refineLastPost(s):
 def forumSoupToRow(soup, date):
     title = None
     author = None
-    nReplies = None
-    nViews = None
+    nReplies = "-1"
+    nViews = "-1"
     lastPost = None
     stats= ""
     temp = soup.find_all("td",class_="subject")[0]
@@ -36,11 +36,20 @@ def forumSoupToRow(soup, date):
         stats = soup.find_all("td",class_="stats")[0].text
     if(len(stats)>0):    
         nReplies,nViews = extractFromStats(stats)
+        try:
+            nReplies = int(nReplies)
+        except:
+            nReplies = -1
+        try:
+            nViews = int(nViews)
+        except:
+            nViews = -1
+    
     if len(soup.find_all("td",class_="lastpost")) > 0:
         lastPost = soup.find_all("td",class_="lastpost")[0].text
         lastPost = refineLastPost(lastPost)
     
-    new_row={'title':title, 'author':author,'nReplies':int(nReplies), 'nViews':int(nViews),'lastPost':lastPost, 'date':date}
+    new_row={'title':title, 'author':author,'nReplies':nReplies, 'nViews':nViews,'lastPost':lastPost, 'date':date}
     return new_row
 
 def forumStatSoupToRow(soup, date):
