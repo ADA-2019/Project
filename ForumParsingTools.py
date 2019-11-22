@@ -19,7 +19,7 @@ def refineLastPost(s):
     return splitted[0].strip()
 
 
-def forumSoupToRow(soup):
+def forumSoupToRow(soup, date):
     title = None
     author = None
     nReplies = None
@@ -40,7 +40,7 @@ def forumSoupToRow(soup):
         lastPost = soup.find_all("td",class_="lastpost")[0].text
         lastPost = refineLastPost(lastPost)
     
-    new_row={'title':title, 'author':author,'nReplies':int(nReplies), 'nViews':int(nViews),'lastPost':lastPost}
+    new_row={'title':title, 'author':author,'nReplies':int(nReplies), 'nViews':int(nViews),'lastPost':lastPost, 'date':date}
     return new_row
 
 def forumStatSoupToRow(soup, date):
@@ -85,15 +85,15 @@ def createDfFromStat(directory, dates):
     return forumDF
 
 
-def createDfFromForum(directory):
-    forumDF = pd.DataFrame(columns=['title', 'author','nReplies', 'nViews','lastPost'])
+def createDfFromForum(directory, date):
+    forumDF = pd.DataFrame(columns=['title', 'author','nReplies', 'nViews','lastPost', 'date'])
     for entry in os.scandir(directory):
         with open(entry.path) as fp:
             soup = bs(fp, features="html.parser")
             if(len(soup.find_all('tbody'))>0):
                 topicList = soup.find_all('tbody')[0].find_all('tr')
                 for s in topicList:
-                    new_row = forumSoupToRow(s)
+                    new_row = forumSoupToRow(s, date)
                     forumDF = forumDF.append(new_row, ignore_index=True)
             else:
                 print(entry.path)
