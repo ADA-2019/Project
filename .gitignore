@@ -2,10 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+scripts/.DS_Store
 data/agora
 data/agora-forums
-
+data/grams
+.DS_Store
 # C extensions
 *.so
 
