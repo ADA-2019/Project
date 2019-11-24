@@ -63,7 +63,7 @@ def parseFile(fp, df, hash_cat, date):
 
 
 def directoryToDF():
-    productsDF = pd.DataFrame(columns=['name', 'price(BTC)','from', 'to', 'vendor', 'cat_hash', 'cat', 'date'])
+    
 
     numberOfDate = 201
     cpt = 0
@@ -72,6 +72,7 @@ def directoryToDF():
         
         date = ntpath.basename(dateDir.path)
         if os.path.isdir(dateDir.path):
+            productsDF = pd.DataFrame(columns=['name', 'price(BTC)','from', 'to', 'vendor', 'cat_hash', 'cat', 'date'])
             for entry in os.scandir(dateDir.path + "/cat/"):
                 try:
                     if os.path.isfile(entry.path):
@@ -91,6 +92,8 @@ def directoryToDF():
                         print(sys.exc_info()[0]) 
                     except:
                         print("Error not found:", entry.path)
+            print("Saving :",  date + "_catProducts.csv")
+            productsDF.to_csv("cat_csv/" + date + "_catProducts.csv")
         cpt+=1
         print("In process: ", cpt/numberOfDate*100, end="\r")   
                         
