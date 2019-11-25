@@ -19,10 +19,11 @@ def parseShipping(s):
     splitted = s.split('\n')
     fromV = None
     toV = None
-    if len(splitted)>0:
-        fromV= splitted[0]
-        if len(splitted)>1:
-            toV = splitted[1]
+
+    if len(splitted)>1:
+        fromV= splitted[1]
+        if len(splitted)>2:
+            toV = splitted[2]
             if not toV.isalpha():
                 toV = None
     return fromV,toV
@@ -57,7 +58,7 @@ def parseFile(fp, df, hash_cat, date):
             fromValue,toValue= parseShipping(shipping)
         if(len(tmp) > 4):
             vendor = tmp[4].text.replace('\n','')
-        new_row = {'name':name, 'price(BTC)':price,'from':fromValue, 'to':toValue, 'vendor': vendor, 'cat_hash': hash_cat, 'cat': cat_names, 'date': date}
+        new_row = {'name':name, 'price':price,'from':fromValue, 'to':toValue, 'vendor': vendor, 'cat_hash': hash_cat, 'cat': cat_names, 'date': date}
         df= df.append(new_row, ignore_index=True)
     return df
 
@@ -72,7 +73,7 @@ def directoryToDF():
         
         date = ntpath.basename(dateDir.path)
         if os.path.isdir(dateDir.path):
-            productsDF = pd.DataFrame(columns=['name', 'price(BTC)','from', 'to', 'vendor', 'cat_hash', 'cat', 'date'])
+            productsDF = pd.DataFrame(columns=['name', 'price','from', 'to', 'vendor', 'cat_hash', 'cat', 'date'])
             for entry in os.scandir(dateDir.path + "/cat/"):
                 try:
                     if os.path.isfile(entry.path):
@@ -97,5 +98,7 @@ def directoryToDF():
         cpt+=1
         print("In process: ", cpt/numberOfDate*100, end="\r")   
                         
-        
+    
     return productsDF
+
+
