@@ -7,7 +7,9 @@ With this new kind of distribution,  law enforcement had to adapt in order to re
 
 If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as **Operation Onymous** on the darknet us.
 
-# Research questions
+# Milestone 1
+
+## Research questions
 During this project, we will address several research questions regarding impact of **Operation Onymous** on the darknet:
 * How did the markets spread evolve ?
 * How did it affect the global sales on a short and a longer timescale ?
@@ -17,8 +19,8 @@ During this project, we will address several research questions regarding impact
 * Were there any trends in the forums during this kind of intervention ?
 * How did the prices evolve globally ?
 
-# Dataset
-###  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
+## Dataset
+####  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
 
   - ##### Description
   The archive contains mostly scrapped _html_ pages from the many marketplaces, forums and other services (e.g. _Grams_ search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of _html_ pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies.  All the directories are compressed using `tar.gz` compression. The whole archive is about `60 GiB` compressed and estimated to be about `1TiB` completely uncompressed.
@@ -27,7 +29,7 @@ During this project, we will address several research questions regarding impact
   - ##### Data Enrichment and Processing
   Using online resources like the description of the dataset or tools from provided and found papers. As mentioned in the source description, the incompleteness of the Dataset will require a thorough study of the semantic behind the data as well as the use of adapted tools and methods.
 
-### Tree structure
+#### Tree structure
 ```
 data/
 └── agora
@@ -54,7 +56,7 @@ data/
         └── index.php?action=stats # Contains num of posts, replies, and other global stats
 
 ```
-# A list of internal milestones up until project milestone 2
+## A list of internal milestones up until project milestone 2
   - #### Nov 10th [x]
   Choose the data archives that fits the subject. Describe a restricted dataset adapted for the project topic
   - #### Nov 17th
@@ -81,11 +83,19 @@ data/
   Finalize the data story for submission.
   ***
 
-# Questions for TAa
+## Questions for TAa
 
 - Is the main axis (before/after Onymous) interesting enough ? Or should we choose something else ?\
 - Is our subject focused enough or should we refocus the study ?
 - Is it possible to make the dataset available on the cluster ? (51GB compressed)
+
+
+# Milestone 2
+
+Notebook is in ./scripts/Milestone2.ipynb
+̣
+
+
 # References
 - 'Dark Net Market archives, 2013-2015'
         - Gwern Branwen and al.,
