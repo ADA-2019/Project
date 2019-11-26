@@ -92,7 +92,7 @@ data/
 
 # Milestone 2
 
-Notebook is in ./scripts/Milestone2.ipynb
+Final Notebook is in Milestone2.ipynb
 ̣
 
 
