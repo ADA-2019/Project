@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>A Deep Analysis of the law enforcement impact on the DarkMarkets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+	<script src="js/datamaps.world.hires.min.js"></script>
+</head>
+
+<body>
+	<!-- Header area -->
+	<div id="header-wrapper" class="header-slider">
+		<header class="clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div id="main-flexslider" class="flexslider">
+							<ul class="slides">
+								<li>
+									<p class="home-slide-content">
+										Welcome to the <strong>dark</strong> side !
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<!-- spacer section -->
+	<section class="spacer blue">
+		<div class="container">
+			<div class="row">
+				<div class="span6 alignright flyLeft">
+					<blockquote class="large">
+						Lets bring light on the Darnet <cite>Arthur Passuello</cite>
+					</blockquote>
+				</div>
+				<div class="span6 aligncenter flyRight">
+					<img src="img/idea.png" alt="" height="160" width="160"/>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end spacer section -->
+
+	<!-- section: Abstract -->
+	<section id="abstract" class="section">
+		<div class="container">
+			<h4>What do we call the DeepWeb?</h4>
+			<div class="row">
+				<div class="span4 offset1">
+					<div>
+						<h2></strong></h2>
+						<p>
+							Since its first appearance in 2009, the term "Deep Web" has designated the non-indexed parts of the World Wide Web, that is by standard search engine. Using the development of a FOSS anonymity network software called TOR , a whole digital world was born and has been growing ever since. Making the best out of the anonymity that is provided to them, TOR users have, over the time, developed complex infrastructure in this Deep Web to make the discussion, the advertisement and the purchase of any service or item that would be deemed illegal by local authorities, accessible to all.
+						</p>
+					</div>
+				</div>
+				<div class="span6 aligncenter">
+					<img src="img/iceberg.png" style="padding: 20px; border-radius: 50%; width:30vw" alt="" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- section: Goal and Context -->
+	<section id="context" class="section blue">
+		<div class="container">
+			<h4>Context & Goals</h4>
+			<div class="row">
+				<div class="span6 aligncenter">
+					<img src="img/onymous.jpg" style="margin-top: 50px; border-radius: 10%; width:30vw" alt="" />
+				</div>
+				<div class="span4 offset1">
+					<div>
+						<p>
+							<strong>Context: </strong>
+							With this new kind of distribution, law enforcement had to adapt in order to regulate these illicit markets. On 5 and 6 November 2014 an international law enforcement operation targeting darknet markets and other hidden services operating on the Tor network was launch, <strong>Operation Onymous</strong>, the operation involved the police forces of 17 countries, more than 400 sites were closed and 17 arrests were made.
+							<br>
+							<br> 
+							<strong>Our goals: </strong>
+							If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the TOR network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as Operation Onymous on the darknet use.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--  section: Dataset -->
+	<section id="dataset" class="section">
+		<div class="container">
+			<h4>Dataset acquisition</h4>
+			<div class="row">
+				<div class="span4 offset1">
+					<div>
+						<h2><strong>DN Archives (2013-2015)</strong></h2>
+						<p>
+							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+						</p>
+					</div>
+				</div>
+				<div class="span4 offset1">
+					<h2><strong>Agora</strong></h2>
+						<p>
+							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to 
+						</p>
+						<img src="img/agora_logo.png" style="padding: 20px;" alt="" />	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- section: Summary -->
+	<section id="services" class="section blue">
+		<div class="container">
+			<h4>Research Questions</h4>
+			<div class="row">
+				<div class="span3 animated-fast flyIn">
+					<div class="service-box">
+						<img src="img/money-bag.png" alt="" height="140" width="140" />
+						<h2>Prices evolution</h2>
+						<p>
+							Prices
+						</p>
+					</div>
+				</div>
+				<div class="span3 animated flyIn">
+					<div class="service-box">
+						<img src="img/pie-chart.png" alt="" height="140" width="140"/>
+						<h2>Market size</h2>
+						<p>
+							Number of product + maybe categories analysis
+						</p>
+					</div>
+				</div>
+				<div class="span3 animated-fast flyIn">
+					<div class="service-box">
+						<img src="img/speech-bubble.png" alt="" height="140" width="140"/>
+						<h2>Forum Analysis</h2>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+					</div>
+				</div>
+				<div class="span3 animated-slow flyIn">
+					<div class="service-box">
+						<img src="img/map.png" alt="" height="140" width="140"/>
+						<h2>Exportation Analysis</h2>
+						<p>
+							map with from to products
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="spacer bg3"></section>
+
+	<!-- section: Price -->
+	<section id="works" class="section">
+		<div class="container clearfix">
+			<h4>Price evolution</h4>
+			<div class="row">
+				<center>
+					<div class="chart-container" style=" height:40vh; width:40vw">
+						<canvas id="price_chart"></canvas>
+					</div>
+				</center>
+			</div>
+			<div class="row">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12 offset1 aligncenter">
+					<div>
+						<h2><strong>DN Archives (2013-2015)</strong></h2>
+						<p>
+							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+						</p>
+					</div>
+				</div>
+		</div>
+	</section>
+
+	<section class="spacer bg3"></section>
+
+	<!-- section: Market -->
+	<section id="market" class="section">
+		<div class="container clearfix">
+			<h4>Market Size</h4>
+			<div class="row">
+				
+			</div>
+			<div class="row">
+				<center>
+					<div class="chart-container" style=" height:40vh; width:40vw">
+						<canvas id="market_chart" width="800" height="450"></canvas>
+					</div>
+				</center>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12 offset1 aligncenter">
+					<div>
+						<h2><strong>DN Archives (2013-2015)</strong></h2>
+						<p>
+							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+						</p>
+					</div>
+				</div>
+		</div>
+	</section>
+
+	<section class="spacer bg3"></section>
+
+	<!-- section: Forum -->
+	<section id="forum" class="section">
+		<div class="container clearfix">
+			<h4>Forum Analysis</h4>
+			<div class="row">
+				<center>
+					<div class="chart-container" style=" height:40vh; width:40vw">
+						<canvas id="forum_chart"></canvas>
+					</div>
+				</center>
+			</div>
+			<div class="row">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12 offset1 aligncenter">
+					<div>
+						<h2><strong>DN Archives (2013-2015)</strong></h2>
+						<p>
+							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+						</p>
+					</div>
+				</div>
+		</div>
+	</section>
+
+	<section class="spacer bg3"></section>
+
+	<!-- section: Map -->
+	<section id="map" class="section">
+		<div class="container clearfix">
+			<h4>Exportation Analysis</h4>
+			<!-- portfolio filter -->
+			<div class="row">
+				<center>
+					<div class="chart-container" style=" height:50vh; width:50vw">
+						<div id="map_chart" style="position: relative; width: 500px; height: 400px;"></div>
+
+					</div>
+				</center>
+			</div>
+			<div class="row">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12 offset1 aligncenter">
+					<div>
+						<h2><strong>DN Archives (2013-2015)</strong></h2>
+						<p>
+							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+						</p>
+					</div>
+				</div>
+		</div>
+	</section>
+	<!-- end spacer section -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="span6 offset3">
+					<p class="copyright">
+						EPLF, ADA Project 2019.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span6 offset3">
+					<p class="copyright">
+						&copy; Florine Reau, Quentin Fisch, Arthur Passuello, François Quellec. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- ./container -->
+	</footer>
+	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/jquery.localScroll.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/inview.js"></script>
+	<script src="js/animate.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="contactform/contactform.js"></script>
+	<script src="js/charts_implementation.js"></script>
+</body>
+
+</html>
