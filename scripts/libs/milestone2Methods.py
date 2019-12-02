@@ -114,7 +114,7 @@ def plot_map(sf, x_lim = None, y_lim = None, figsize = (11,9)):
             plt.text(x0, y0, id, fontsize=10)
         id = id+1
         
-price_df = pd.read_csv('../saved_gen_df/prices_and_stuff.csv')
+price_df = pd.read_csv('saved_gen_df/prices_and_stuff.csv')
 price_df = price_df.drop(columns=['mean', 'std', 'min', '25%', '75%'])
 
 def fillCountryCount(n, DATE):
