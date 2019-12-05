@@ -7,7 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	<link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 	<link rel="shortcut icon" href="img/favicon.ico">
@@ -181,17 +182,17 @@
 			<h4>Market Analysis</h4>
 
 			<div class="row" style=";margin-top:90px">
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
 					<h2><strong>Market Size</strong></h2>
 					In order to study the impact of the operation onymous on the Agora Market, we firt was interested by the evolution of the number of products purchasable on the market. We can see here that, between the day just before <strong>onymous</strong> and the day after, there is an important gap in the number of products availables at that time. It seems that the operation had an impact on this feature but the market recover very quickly, less than a week after the operation. 
 				</div>
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
 					<center>
-						<div class="chart-container" style=" height:40vh; width:40vw">
+						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
 							<canvas id="numberOfProducts_chart"></canvas>
 						</div>
 						<br>
-						<button class="btn btn-small offset2" onclick="nbProductsScale()">Zoom In/Out</button>
+						<button class="btn btn-small" onclick="nbProductsScale()">Zoom In/Out</button>
 
 					</center>
 				</div>
@@ -200,16 +201,16 @@
 
 
 			<div class="row" style="margin-top: 90px;">
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
 					<center>
-						<div class="chart-container" style=" height:40vh; width:40vw">
+						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
 							<canvas id="numberOfActiveVendors_chart"></canvas>
 						</div>
 						<br>
-						<button class="btn btn-small offset2" onclick="activeVendorScale()">Zoom In/Out</button>
+						<button class="btn btn-small" onclick="activeVendorScale()">Zoom In/Out</button>
 					</center>
 				</div>
-				<div class="span4 offset3">
+				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
 					<h2><strong>Active vendors</strong></h2>
 					We saw that the <strong> onymous </strong> operation resulted in a drop in the number of products. To understand why this number was decreasing, we analyzed the number of active suppliers on Agora (a supplier is considered "active" when he has certain products to sell on a given day). Indeed, the sellers who sold the retired products disappeared from the market after this event. More than 27% (311) of the active vendors stopped selling definitively that day, and the market never recover until july 2015 when it permanently closed.
 				</div>
@@ -218,33 +219,33 @@
 			</div>
 
 			<div class="row" style=";margin-top:90px">
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
 					<h2><strong>New Vendors</strong></h2>
 					While the <strong> Onymous </strong> operation has had a significant negative impact on the total number of suppliers in the Agora market, it has also closed other large markets, such as Silkroad, so we can ask ourselves if the closing of these markets entails moving users to Agora. We can see here that this is not the case, the number of new suppliers who publish a product each day is relatively stable, about 5 per day. A vendor is considered new the day when he publish is first product.
 				</div>
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
 					<center>
-						<div class="chart-container" style=" height:40vh; width:40vw">
+						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
 							<canvas id="newVendors_chart"></canvas>
 						</div>
 						<br>
-						<button class="btn btn-small offset2" onclick="newVendorScale()">Zoom In/Out</button>
+						<button class="btn btn-small" onclick="newVendorScale()">Zoom In/Out</button>
 					</center>
 				</div>
 
 			</div>
 
 			<div class="row" style="margin-top: 90px;">
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
 					<center>
-						<div class="chart-container" style=" height:40vh; width:40vw">
+						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
 							<canvas id="categories_chart"></canvas>
 						</div>
 						<br>
 						<button class="btn btn-small offset2" onclick="categoriesScale()">Zoom In/Out</button>
 					</center>
 				</div>
-				<div class="span4 offset3">
+				<div class="col-xs-12 col-sm-12 col-md-4">
 					<h2><strong>Categories of products</strong></h2>
 					
 				</div>
@@ -253,17 +254,17 @@
 			</div>
 
 			<div class="row" style=";margin-top:90px">
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
 					<h2><strong>Vendors insights</strong></h2>
 					Operation <strong>Onymous</strong> had an huge impact on the number of vendors on the Agora market, but how can we explain that the number of products listed on agora recovered so quickly. First of all, we notice here that the vendors that left after Onymous are, in majority, small suppliers (~8 products to sell) compare to those who stayed with ~20 listed products.  In addition, we find that the number of products listed by these large suppliers is growing faster than the rest of the suppliers after Onymous.
 				</div>
-				<div class="span4 offset1">
+				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
 					<center>
-						<div class="chart-container" style=" height:40vh; width:40vw">
+						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
 							<canvas id="vendorsMeanListing_chart"></canvas>
 						</div>
 						<br>
-						<button class="btn btn-small offset2" onclick="meanProductsScale()">Zoom In/Out</button>
+						<button class="btn btn-small" onclick="meanProductsScale()">Zoom In/Out</button>
 					</center>
 				</div>
 

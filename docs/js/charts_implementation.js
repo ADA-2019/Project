@@ -30,6 +30,8 @@ var forumChart = new Chart(ctx, {
         }]
     },
     options: {
+
+      maintainAspectRatio: false,
         scales: {
             yAxes: [{
                 ticks: {
@@ -57,6 +59,8 @@ var marketChart = new Chart(ctx, {
       }]
     },
     options: {
+
+      maintainAspectRatio: false,
       title: {
         display: true,
         text: 'Predicted world population (millions) in 2050'
@@ -89,6 +93,7 @@ var nbProductsChart = new Chart(ctx, {
   },
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     title: {
       display: true,
       text: 'Number of products listed on Agora Market per day'
@@ -217,6 +222,8 @@ var meanProductsChart = new Chart(ctx, {
     ]
   },
   options: {
+
+    maintainAspectRatio: false,
     title: {
       display: true,
       text: 'Number of products listed on Agora Market per day'
@@ -321,6 +328,8 @@ var newVendors_chart = new Chart(ctx, {
   },
   options: {
     responsive: true,
+
+    maintainAspectRatio: false,
     title: {
       display: true,
       text: 'Number of new suppliers with at least one product listed on Agora Market per day'
@@ -424,6 +433,8 @@ var activeVendorChart = new Chart(ctx, {
     ]
   },
   options: {
+
+    maintainAspectRatio: false,
     title: {
       display: true,
       text: 'Number Of Active Vendors on Agora Market per day'
@@ -684,6 +695,8 @@ var categoriesChart = new Chart(ctx, {
     ]
   },
   options: {
+    
+    maintainAspectRatio: false,
     elements: {
         point:{
             radius: 0
