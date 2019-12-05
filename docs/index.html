@@ -12,7 +12,11 @@
 	<link href="color/default.css" rel="stylesheet">
 	<link rel="shortcut icon" href="img/favicon.ico">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.4"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
 	<script src="js/datamaps.world.hires.min.js"></script>
@@ -45,7 +49,7 @@
 			<div class="row">
 				<div class="span6 alignright flyLeft">
 					<blockquote class="large">
-						Lets bring light on the Darnet <cite>Arthur Passuello</cite>
+						Lets bring light on the Darknet <cite>Arthur Passuello</cite>
 					</blockquote>
 				</div>
 				<div class="span6 aligncenter flyRight">
@@ -171,25 +175,104 @@
 
 	<section class="spacer bg3"></section>
 
-	<!-- section: Price -->
-	<section id="works" class="section">
+	<!-- section: Market -->
+	<section id="market" class="section">
 		<div class="container clearfix">
-			<h4>Price evolution</h4>
-			<div class="row">
-				<center>
-					<div class="chart-container" style=" height:40vh; width:40vw">
-						<canvas id="price_chart"></canvas>
-					</div>
-				</center>
+			<h4>Market Analysis</h4>
+
+			<div class="row" style=";margin-top:90px">
+				<div class="span4 offset1">
+					<h2><strong>Market Size</strong></h2>
+					In order to study the impact of the operation onymous on the Agora Market, we firt was interested by the evolution of the number of products purchasable on the market. We can see here that, between the day just before <strong>onymous</strong> and the day after, there is an important gap in the number of products availables at that time. It seems that the operation had an impact on this feature but the market recover very quickly, less than a week after the operation. 
+				</div>
+				<div class="span4 offset1">
+					<center>
+						<div class="chart-container" style=" height:40vh; width:40vw">
+							<canvas id="numberOfProducts_chart"></canvas>
+						</div>
+						<br>
+						<button class="btn btn-small offset2" onclick="nbProductsScale()">Zoom In/Out</button>
+
+					</center>
+				</div>
+
 			</div>
-			<div class="row">
+
+
+			<div class="row" style="margin-top: 90px;">
+				<div class="span4 offset1">
+					<center>
+						<div class="chart-container" style=" height:40vh; width:40vw">
+							<canvas id="numberOfActiveVendors_chart"></canvas>
+						</div>
+						<br>
+						<button class="btn btn-small offset2" onclick="activeVendorScale()">Zoom In/Out</button>
+					</center>
+				</div>
+				<div class="span4 offset3">
+					<h2><strong>Active vendors</strong></h2>
+					We saw that the <strong> onymous </strong> operation resulted in a drop in the number of products. To understand why this number was decreasing, we analyzed the number of active suppliers on Agora (a supplier is considered "active" when he has certain products to sell on a given day). Indeed, the sellers who sold the retired products disappeared from the market after this event. More than 27% (311) of the active vendors stopped selling definitively that day, and the market never recover until july 2015 when it permanently closed.
+				</div>
+				
+
+			</div>
+
+			<div class="row" style=";margin-top:90px">
+				<div class="span4 offset1">
+					<h2><strong>New Vendors</strong></h2>
+					While the <strong> Onymous </strong> operation has had a significant negative impact on the total number of suppliers in the Agora market, it has also closed other large markets, such as Silkroad, so we can ask ourselves if the closing of these markets entails moving users to Agora. We can see here that this is not the case, the number of new suppliers who publish a product each day is relatively stable, about 5 per day. A vendor is considered new the day when he publish is first product.
+				</div>
+				<div class="span4 offset1">
+					<center>
+						<div class="chart-container" style=" height:40vh; width:40vw">
+							<canvas id="newVendors_chart"></canvas>
+						</div>
+						<br>
+						<button class="btn btn-small offset2" onclick="newVendorScale()">Zoom In/Out</button>
+					</center>
+				</div>
+
+			</div>
+
+			<div class="row" style="margin-top: 90px;">
+				<div class="span4 offset1">
+					<center>
+						<div class="chart-container" style=" height:40vh; width:40vw">
+							<canvas id="categories_chart"></canvas>
+						</div>
+						<br>
+						<button class="btn btn-small offset2" onclick="categoriesScale()">Zoom In/Out</button>
+					</center>
+				</div>
+				<div class="span4 offset3">
+					<h2><strong>Categories of products</strong></h2>
+					
+				</div>
+				
+
+			</div>
+
+			<div class="row" style=";margin-top:90px">
+				<div class="span4 offset1">
+					<h2><strong>Vendors insights</strong></h2>
+					Operation <strong>Onymous</strong> had an huge impact on the number of vendors on the Agora market, but how can we explain that the number of products listed on agora recovered so quickly. First of all, we notice here that the vendors that left after Onymous are, in majority, small suppliers (~8 products to sell) compare to those who stayed with ~20 listed products.  In addition, we find that the number of products listed by these large suppliers is growing faster than the rest of the suppliers after Onymous.
+				</div>
+				<div class="span4 offset1">
+					<center>
+						<div class="chart-container" style=" height:40vh; width:40vw">
+							<canvas id="vendorsMeanListing_chart"></canvas>
+						</div>
+						<br>
+						<button class="btn btn-small offset2" onclick="meanProductsScale()">Zoom In/Out</button>
+					</center>
+				</div>
 
 			</div>
 		</div>
 		<div class="row">
 			<div class="span12 offset1 aligncenter">
 					<div>
-						<h2><strong>DN Archives (2013-2015)</strong></h2>
+						<h2><strong>Putting all together</strong></h2>
 						<p>
 							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
 						</p>
@@ -200,19 +283,19 @@
 
 	<section class="spacer bg3"></section>
 
-	<!-- section: Market -->
-	<section id="market" class="section">
+	<!-- section: Price -->
+	<section id="works" class="section">
 		<div class="container clearfix">
-			<h4>Market Size</h4>
-			<div class="row">
-				
-			</div>
+			<h4>Price evolution</h4>
 			<div class="row">
 				<center>
 					<div class="chart-container" style=" height:40vh; width:40vw">
 						<canvas id="market_chart" width="800" height="450"></canvas>
 					</div>
 				</center>
+			</div>
+			<div class="row">
+
 			</div>
 		</div>
 		<div class="row">
@@ -319,7 +402,6 @@
 	<script src="js/inview.js"></script>
 	<script src="js/animate.js"></script>
 	<script src="js/custom.js"></script>
-	<script src="contactform/contactform.js"></script>
 	<script src="js/charts_implementation.js"></script>
 </body>
 
