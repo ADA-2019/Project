@@ -43,30 +43,6 @@ var forumChart = new Chart(ctx, {
 });
 
 
-/**
- *    MARKET
- */
-var ctx = document.getElementById('market_chart').getContext('2d');
-
-var marketChart = new Chart(ctx, {
-    type: 'pie',
-    data: {
-      labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
-      datasets: [{
-        label: "Population (millions)",
-        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-        data: [2478,5267,734,784,433]
-      }]
-    },
-    options: {
-
-      maintainAspectRatio: false,
-      title: {
-        display: true,
-        text: 'Predicted world population (millions) in 2050'
-      }
-    }
-});
 
 /**
  *    Products
@@ -394,6 +370,37 @@ function newVendorScale() {
 }
 
 
+/* DONUT Vendors*/
+let dados = {
+    datasets: [{
+        // cria-se um vetor data, com os valores a ser dispostos no gráfico
+        data: [10, 20, 30],
+        // cria-se uma propriedade para adicionar cores aos respectivos valores do vetor data
+        backgroundColor: ['rgb(255, 99, 132)', 'rgb(255, 199, 132)', 'rgb(55, 99, 132)']
+    }],
+    // cria-se legendas para os respectivos valores do vetor data
+    labels: ['Vermelho', 'Amarelo', 'Azul']
+};
+
+let opcoes = {
+    cutoutPercentage: 40,
+};
+
+var ctx = document.getElementById('donutAfter_chart').getContext('2d');
+
+let meuDonutAfterChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: dados,
+    options: opcoes
+});
+
+var ctx = document.getElementById('donutBefore_chart').getContext('2d');
+
+let meuDonutBeforeChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: dados,
+    options: opcoes
+});
 
 /**
  *    Vendors
@@ -768,6 +775,403 @@ function categoriesScale() {
 }
 
 categoriesScale()
+
+
+/* CHORD DIAGRAM*/
+var margin = {left:90, top:90, right:90, bottom:90},
+    width =  1000 - margin.left - margin.right, // more flexibility: Math.min(window.innerWidth, 1000)
+    height =  1000 - margin.top - margin.bottom, // same: Math.min(window.innerWidth, 1000)
+    innerRadius = Math.min(width, height) * .39,
+    outerRadius = innerRadius * 1.1;
+
+  var names = ["Africa","America","Asia","Europe","Oceania", "Others"],
+    colors = ["#301E1E", "#083E77", "#342350", "#567235", "#8B161C", "#DF7C00"],
+    opacityDefault = 0.8;
+
+  var matrix_1 = [[8.000000e+01, 8.000000e+01, 8.000000e+01, 8.000000e+01,
+        8.000000e+01, 1.600000e+01],
+       [7.322000e+03, 5.011400e+04, 7.323000e+03, 7.352000e+03,
+        7.361000e+03, 9.800000e+02],
+       [4.511500e+03, 4.647500e+03, 4.511500e+03, 4.577500e+03,
+        4.511500e+03, 4.140000e+02],
+       [1.300350e+04, 1.304350e+04, 1.300650e+04, 4.108650e+04,
+        1.300850e+04, 9.652000e+03],
+       [3.357500e+02, 3.357500e+02, 3.357500e+02, 3.357500e+02,
+        1.322775e+04, 1.585000e+03],
+       [4.096500e+03, 4.297500e+03, 4.096500e+03, 4.096500e+03,
+        4.717500e+03, 1.214000e+03]]; // Others
+
+  var matrix_2 = [[3.4025000e+02, 3.4025000e+02, 3.4025000e+02, 3.4025000e+02,
+        3.4025000e+02, 1.3200000e+02],
+       [3.9022500e+04, 2.9409050e+05, 3.9023500e+04, 3.9194500e+04,
+        3.9667500e+04, 1.0149000e+04],
+       [2.3690250e+04, 2.4025250e+04, 2.3760250e+04, 2.3890250e+04,
+        2.3690250e+04, 1.0190000e+03],
+       [7.0121750e+04, 7.0587750e+04, 7.0124750e+04, 1.9745375e+05,
+        7.0237750e+04, 4.8647000e+04],
+       [2.4342500e+03, 2.4372500e+03, 2.4342500e+03, 2.4342500e+03,
+        9.1586250e+04, 5.7720000e+03],
+       [2.6189000e+04, 2.6817000e+04, 2.6189000e+04, 2.6207000e+04,
+        3.0592000e+04, 1.1130000e+04]];
+
+  ////////////////////////////////////////////////////////////
+  /////////// Create scale and layout functions //////////////
+  ////////////////////////////////////////////////////////////
+
+  var colors = d3.scaleOrdinal()
+      .domain(d3.range(names.length))
+    .range(colors);
+
+  var chord = d3.chord()
+    .padAngle(.15)
+    .sortChords(d3.descending)
+
+  var arc = d3.arc()
+  .innerRadius(innerRadius*1.01)
+  .outerRadius(outerRadius);
+
+  var path = d3.ribbon().radius(innerRadius);
+
+  function getDefaultLayout() {
+      return d3.layout.chord()
+      .padding(0.15)
+      .sortChords(d3.descending);
+  }  
+  var last_layout; //store layout between updates
+  var currentInfoContinent = 0; // store the continent on which displays info widget
+
+  var g =d3.select("#chord-diagram").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + (width/2 + margin.left) + "," + (height/2 + margin.top) + ")")
+
+////////////////////////////////////////////////////////////
+////////////////////// Create SVG //////////////////////////
+////////////////////////////////////////////////////////////
+function updateChord(matrix){
+  layout = getDefaultLayout(); //create a new layout object
+  layout.matrix(matrix);
+
+  /* Create/update "group" elements */
+    var groupG = g.selectAll("g.group")
+        .data(layout.groups(), function (d) {
+            return d.index; 
+            //use a key function in case the 
+            //groups are sorted differently between updates
+        });
+    
+    groupG.exit()
+        .transition()
+            .duration(1500)
+            .attr("opacity", 0.5)
+            .remove(); //remove after transitions are complete
+    
+    var newGroups = groupG.enter().append("g")
+        .attr("class", "group");
+
+
+    //create the arc paths and set the constant attributes
+    //(those based on the group index, not on the value)
+    newGroups.append("path")
+        .attr("id", function (d) {
+            return "group" + d.index;
+            //using d.index and not i to maintain consistency
+            //even if groups are sorted
+        })
+        .style("fill", function (d) {
+            return colors(d.index);
+        });
+    
+    //update the paths to match the layout
+    groupG.select("path") 
+        .transition()
+            .duration(1500)
+            .attr("opacity", 0.5) //optional, just to observe the transition
+        .attrTween("d", arcTween( last_layout ))
+            .transition().duration(100).attr("opacity", 1) //reset opacity
+        ;
+    
+    //create the group labels
+    newGroups.append("svg:text")
+        .attr("xlink:href", function (d) {
+            return "#group" + d.index;
+        })
+        .attr("dy", ".35em")
+        .attr("color", "#fff")
+        .text(function (d) {
+            return names[d.index];
+        });
+
+    //position group labels to match layout
+    groupG.select("text")
+        .transition()
+            .duration(1500)
+            .attr("transform", function(d) {
+                d.angle = (d.startAngle + d.endAngle) / 2;
+                //store the midpoint angle in the data object
+                
+                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")" +
+                    " translate(" + (innerRadius + 46) + ")" + 
+                    (d.angle > Math.PI ? " rotate(180)" : " rotate(0)"); 
+                //include the rotate zero so that transforms can be interpolated
+            })
+            .attr("text-anchor", function (d) {
+                return d.angle > Math.PI ? "end" : "begin";
+            });
+    
+    
+    /* Create/update the chord paths */
+    var chordPaths = g.selectAll("path.chord")
+        .data(layout.chords(), chordKey );
+            //specify a key function to match chords
+            //between updates
+        
+    
+    //create the new chord paths
+    var newChords = chordPaths.enter()
+        .append("path")
+        .attr("class", "chord"); 
+    
+
+    //handle exiting paths:
+    chordPaths.exit().transition()
+        .duration(1500)
+        .attr("opacity", opacityDefault)
+        .remove();
+
+    //update the path shape
+    chordPaths.transition()
+        .duration(1500)
+        .attr("opacity", 0.5) //optional, just to observe the transition
+        .style("fill", function (d) {
+            return colors(d.source.index);
+        })
+        .attrTween("d", chordTween(last_layout))
+        .transition().duration(100).attr("opacity", opacityDefault) //reset opacity
+    ;
+
+    //add the mouseover/fade out behaviour to the groups
+    //this is reset on every update, so it will use the latest
+    //chordPaths selection
+    
+
+    groupG.on("mouseover", fade(.1))
+      .on("mouseout", fade(opacityDefault))
+      .on("click", mouseoverChord)
+      .on("mouseout", mouseoutChord);
+
+    /*
+    .data(function(chords) { return chords.groups; })
+    .enter().append("g")
+    .attr("class", "group")
+    .on("mouseover", fade(.1))
+    .on("mouseout", fade(opacityDefault))
+
+    // text popups
+    .on("click", mouseoverChord)
+    .on("mouseout", mouseoutChord);
+    */
+    //the "unfade" is handled with CSS :hover class on g#circle
+    //you could also do it using a mouseout event:
+    /*
+    g.on("mouseout", function() {
+        if (this == g.node() )
+            //only respond to mouseout of the entire circle
+            //not mouseout events for sub-components
+            chordPaths.classed("fade", false);
+    });
+    */
+    
+    last_layout = layout; //save for next update
+    isUpdating = false;
+//  }); //end of d3.json
+}
+
+function arcTween(oldLayout) {
+    //this function will be called once per update cycle
+    
+    //Create a key:value version of the old layout's groups array
+    //so we can easily find the matching group 
+    //even if the group index values don't match the array index
+    //(because of sorting)
+    var oldGroups = {};
+    if (oldLayout) {
+        oldLayout.groups().forEach( function(groupData) {
+            oldGroups[ groupData.index ] = groupData;
+        });
+    }
+    
+    return function (d, i) {
+        var tween;
+        var old = oldGroups[d.index];
+        if (old) { //there's a matching old group
+            tween = d3.interpolate(old, d);
+        }
+        else {
+            //create a zero-width arc object
+            var emptyArc = {startAngle:d.startAngle,
+                            endAngle:d.startAngle};
+            tween = d3.interpolate(emptyArc, d);
+        }
+        
+        return function (t) {
+            return arc( tween(t) );
+        };
+    };
+}
+
+function chordKey(data) {
+    return (data.source.index < data.target.index) ?
+        data.source.index  + "-" + data.target.index:
+        data.target.index  + "-" + data.source.index;
+    
+    //create a key that will represent the relationship
+    //between these two groups *regardless*
+    //of which group is called 'source' and which 'target'
+}
+function chordTween(oldLayout) {
+    //this function will be called once per update cycle
+    
+    //Create a key:value version of the old layout's chords array
+    //so we can easily find the matching chord 
+    //(which may not have a matching index)
+    
+    var oldChords = {};
+    
+    if (oldLayout) {
+        oldLayout.chords().forEach( function(chordData) {
+            oldChords[ chordKey(chordData) ] = chordData;
+        });
+    }
+    
+    return function (d, i) {
+        //this function will be called for each active chord
+        
+        var tween;
+        var old = oldChords[ chordKey(d) ];
+        if (old) {
+            //old is not undefined, i.e.
+            //there is a matching old chord value
+            
+            //check whether source and target have been switched:
+            if (d.source.index != old.source.index ){
+                //swap source and target to match the new data
+                old = {
+                    source: old.target,
+                    target: old.source
+                };
+            }
+            
+            tween = d3.interpolate(old, d);
+        }
+        else {
+            //create a zero-width chord object
+            var emptyChord = {
+                source: { startAngle: d.source.startAngle,
+                         endAngle: d.source.startAngle},
+                target: { startAngle: d.target.startAngle,
+                         endAngle: d.target.startAngle}
+            };
+            tween = d3.interpolate( emptyChord, d );
+        }
+
+        return function (t) {
+            //this function calculates the intermediary shapes
+            return path(tween(t));
+        };
+    };
+}
+
+////////////////////////////////////////////////////////////
+////////////////// Extra Functions /////////////////////////
+////////////////////////////////////////////////////////////
+
+//Returns an event handler for fading a given chord group.
+function fade(opacity) {
+  return function(d,i) {
+    g.selectAll("path.chord")
+        .filter(function(d) { return d.source.index != i && d.target.index != i; })
+    .transition()
+        .style("opacity", opacity);
+  };
+}//fade
+
+  //Highlight hovered over chord
+function mouseoverChord(d,i) {
+  //Show hovered over chord with full opacity
+  if(!isUpdating){
+    d3.select(this)
+      .transition()
+          .style("opacity", 1);
+
+    currentInfoContinent = i;
+    setInfos()
+  }
+}
+
+function setInfos(){
+  i = currentInfoContinent;
+  var all_products = matrix[i].reduce(function(a,b){return a+b;});
+  document.getElementById('continent').innerHTML = names[i];
+  document.getElementById("continentInfo").rows[1].cells[1].innerHTML = Math.round(matrix[i][1]);
+  document.getElementById("continentInfo").rows[2].cells[1].innerHTML = Math.round(matrix[i][2]);
+  document.getElementById("continentInfo").rows[3].cells[1].innerHTML = Math.round(matrix[i][3]);
+  document.getElementById("continentInfo").rows[4].cells[1].innerHTML = Math.round(matrix[i][0]);
+  document.getElementById("continentInfo").rows[5].cells[1].innerHTML = Math.round(matrix[i][4]);
+  document.getElementById("continentInfo").rows[6].cells[1].innerHTML = Math.round(matrix[i][5]);
+  document.getElementById("continentInfo").rows[7].cells[1].innerHTML = Math.round(all_products);
+
+
+  document.getElementById('continent').innerHTML = names[i];
+  
+  document.getElementById("continentInfo").rows[1].cells[2].innerHTML = (matrix[i][1]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[2].cells[2].innerHTML = (matrix[i][2]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[3].cells[2].innerHTML = (matrix[i][3]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[4].cells[2].innerHTML = (matrix[i][0]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[5].cells[2].innerHTML = (matrix[i][4]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[6].cells[2].innerHTML = (matrix[i][5]/all_products*100).toFixed(2)+ "%";
+
+}
+//Bring all chords back to default opacity
+function mouseoutChord(d) {
+
+  //Set opacity back to default for all
+  g.selectAll("path.chord")
+    .transition()
+    .style("opacity", opacityDefault);
+  }      //function mouseoutChord
+
+function disableButton(buttonNode) {
+    d3.selectAll(".test")
+        .attr("disabled", function(d) {
+            return this === buttonNode? "true": null;
+        });
+}
+
+
+d3.select("#before-onymous").on("click", function () {
+    matrix = matrix_1
+    //replace this with a file url as appropriate
+    updateChord(matrix_1);
+    setInfos()
+    //enable other buttons, disable this one
+    disableButton(this);
+});
+
+d3.select("#after-onymous").on("click", function () {
+    matrix = matrix_2
+    //replace this with a file url as appropriate
+    updateChord(matrix_2);
+    setInfos()
+    //enable other buttons, disable this one
+    disableButton(this);
+});
+
+matrix = matrix_1
+updateChord(matrix_2);
+updateChord(matrix_1);
+setInfos();
 
 /**
  *    Exportation

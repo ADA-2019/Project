@@ -2,6 +2,18 @@ import pandas as pd
 import numpy as np
 from collections import Counter
 
+from pyspark import *
+from pyspark.sql import *
+from pyspark.sql.functions import *
+from pyspark.sql.types import ArrayType
+from pyspark.sql.types import StringType
+
+
+import matplotlib.pyplot as plt
+from matplotlib.dates import DateFormatter
+import matplotlib.dates as mdates
+import seaborn as sns
+import re
 
 
 ## Calmap and stuff 
@@ -139,3 +151,161 @@ def splitCountries(n):
     if len(s) == 1:
         s = n.split('and')
     return s
+
+###############################################################################
+###############################################################################
+###########                 LISTINGS CLEANING METHODS             #############
+###############################################################################
+###############################################################################
+
+
+def processCountries(country):
+    # Remove html tags
+    cleanr = re.compile('<.*?>')
+    cleanText = str(re.sub(cleanr, '', str(country)))
+    
+    # Remove spaces
+    cleanText = cleanText.strip(' ')
+    
+    # Remove ""
+    cleanText = cleanText.strip('"')
+    
+    # Split for each country
+    cleanText = re.split("&|,|/", cleanText)
+    
+    # Top Names reformat
+    cleanText = [re.sub(r'^(eu|europeanunion|euonly|europeuniononly|onlytoeurope|europeancountries|westerneurope|ukandeuonly|franceandeu)$', r'europe', w) for w in cleanText]
+    cleanText = [re.sub(r'^(everywhere|world|international|anywhere|worlwide|worldwideonrequest|ww|wordwide|global|worldwideinternational|wideworld|all|worldwidepriortracking|wordlwide|worldwideprior|worldwideprior|internationalworldwide|universe|everywhereworldwideanydestination|wolrdwide|wwshipping|freeworldwide|universal|woldwide|worldwideincludingaustralia|worldwidepriorthefastest|internationally)$', r'worldwide', w) for w in cleanText]
+    cleanText = [re.sub(r'^(usaonly|unitedstates|us|unitedstatesofamerica|usonly|unitedstatesonly)$', r'usa', w) for w in cleanText]
+    cleanText = [re.sub(r'^(unitedkingdom|ukonly)$', r'uk', w) for w in cleanText]
+    return cleanText
+
+def processCatHashs(cat_hash):
+    # Remove html end of files
+    cleanr = re.compile('.\d*.html')
+    cleanText = str(re.sub(cleanr, '', str(cat_hash)))
+    return cleanText
+
+def cleanListings(df):
+    udf_func_C = udf(processCountries, ArrayType(StringType()))
+
+    udf_func_H = udf(processCatHashs, StringType())
+
+    # Remove rows without a valid date, error during parsing, file not complete
+    df = df.filter(df["date"].rlike("\d\d\d\d-\d\d-\d\d"))
+
+    # Remove rows without a price or not decimal, 642 in total, mainly due to error during parsing.
+    df = df.filter("CAST(price AS DECIMAL) is not null")
+
+    # Remove the rows where name is null, all the columns are usually null in this case, (6 rows)
+    df = df.filter("name is not null")
+
+    # Lowercase and process the countries
+    df=df.withColumn("to", lower(col("to")))
+    df=df.withColumn("to", udf_func_C(col("to")))
+
+    # Lowercase and process the countries
+    df=df.withColumn("from", lower(col("from")))
+    df=df.withColumn("from", udf_func_C(col("from")))
+
+    # Process the hashs
+    df=df.withColumn("cat_hash", udf_func_H(col("cat_hash")))
+
+    return df
+
+asie = ['china', 'asia', 'india', 'hongkong', 'philippines', 'pakistan', 'thailand', 'singapore']
+europe = ['france', 'uk', 'netherlands', 'europe', 'germany', 'belgium', 'sweden', 'ukraine', 'denmark', 
+            'poland', 'italy', 'czechrepublic', 'spain', 'norway', 'austria', 'switzerland', 'ireland', 
+            'ukandireland', 'finland', 'hungary', 'latvia' ]
+america = ['usa', 'canada', 'mexico', 'argentina', 'brazil', 'colombia']
+oceania = ['australia', 'newzealand']
+
+def countryToContinent(country):
+    if country in asie:
+        country = "asia"
+    elif country in europe:
+        country = "europe"
+    elif country in america:
+        country = "america"
+    elif country in oceania:
+        country = "oceania"
+    elif country != "None" and country != "worldwide":
+        country = "others"
+    return country
+
+###############################################################################
+###############################################################################
+###########                    PLOTING METHODS                    #############
+###############################################################################
+###############################################################################
+
+def plotUptime(df, title, win=15):
+    fig, ax1 = plt.subplots( figsize=(15,8))
+    ax1.set_xlabel('date (d)')
+    ax1.set_ylabel('Uptime Average')
+    df.rolling(window=win).mean().plot(
+          kind='line', x='a',y='b', use_index=True)
+    ax1.tick_params(axis='y')
+    plt.title(title)
+    plt.show()
+
+def plotNDate(x, y, interval, title, y_label):
+    # Prettier plotting with seaborn
+    sns.set(font_scale=1.5, style="whitegrid")
+
+    fig, ax = plt.subplots(figsize=(12, 8))
+    ax.plot(x,
+            y,
+            '-o',
+            color='purple')
+    ax.set(xlabel="Date", ylabel=y_label,
+           title=title)
+    
+    plt.axvline(linewidth=4, color='r', x="2014-11-05", label="Operation Onymous")
+
+    # Format the x axis
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=2))
+    ax.xaxis.set_major_formatter(DateFormatter("%d-%m-%y"))
+
+    # Ensure ticks fall once every other week (interval=2) 
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=interval))
+    plt.legend()
+    plt.show()
+
+def plot3Date(vendors_that_stayed, vendors_that_retired,all_vendors ):
+    # Prettier plotting with seaborn
+    sns.set(font_scale=1.5, style="whitegrid")
+
+    fig, ax = plt.subplots(figsize=(12, 8))
+
+    ax.plot(vendors_that_stayed.index,
+            vendors_that_stayed.numberOfPosts,
+            '-o',
+            color='purple',
+            label='Vendors that stayed')
+    ax.plot(vendors_that_retired.index,
+            vendors_that_retired.numberOfPosts,
+            '-o',
+            color='red',
+           label='Vendor that retired')
+
+    ax.plot(all_vendors.index,
+            all_vendors.numberOfPosts,
+            '-o',
+            color='blue',
+           label='All Vendor')
+
+    ax.set(xlabel="Date", ylabel="Mean # Products",
+           title="Comparison of the mean number of products listed by the suppliers which stopped after Onymous vs the ones which stayed")
+
+    plt.axvline(linewidth=4, color='r', x="2014-11-05", label="Operation Onymous")
+
+    # Format the x axis
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=2))
+    ax.xaxis.set_major_formatter(DateFormatter("%d-%m-%y"))
+
+    # Ensure ticks fall once every other week (interval=2) 
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=10))
+    plt.legend()
+    plt.show()
+
