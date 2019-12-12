@@ -159,10 +159,10 @@ def splitCountries(n):
 ###############################################################################
 
 
-def processCountries(country):
+def processCountries(countries):
     # Remove html tags
     cleanr = re.compile('<.*?>')
-    cleanText = str(re.sub(cleanr, '', str(country)))
+    cleanText = str(re.sub(cleanr, '', str(countries)))
     
     # Remove spaces
     cleanText = cleanText.strip(' ')
@@ -173,6 +173,7 @@ def processCountries(country):
     # Split for each country
     cleanText = re.split("&|,|/", cleanText)
     
+
     # Top Names reformat
     cleanText = [re.sub(r'^(eu|europeanunion|euonly|europeuniononly|onlytoeurope|europeancountries|westerneurope|ukandeuonly|franceandeu)$', r'europe', w) for w in cleanText]
     cleanText = [re.sub(r'^(everywhere|world|international|anywhere|worlwide|worldwideonrequest|ww|wordwide|global|worldwideinternational|wideworld|all|worldwidepriortracking|wordlwide|worldwideprior|worldwideprior|internationalworldwide|universe|everywhereworldwideanydestination|wolrdwide|wwshipping|freeworldwide|universal|woldwide|worldwideincludingaustralia|worldwidepriorthefastest|internationally)$', r'worldwide', w) for w in cleanText]
@@ -186,10 +187,20 @@ def processCatHashs(cat_hash):
     cleanText = str(re.sub(cleanr, '', str(cat_hash)))
     return cleanText
 
+def processCat(cat):
+    # Take only top category
+    cleanr = cat.split("/")
+    if cleanr[0] == "Info":
+        return "Information"
+    return cleanr[0]
+
+
 def cleanListings(df):
     udf_func_C = udf(processCountries, ArrayType(StringType()))
 
     udf_func_H = udf(processCatHashs, StringType())
+
+    udf_func_Cat = udf(processCat, StringType())
 
     # Remove rows without a valid date, error during parsing, file not complete
     df = df.filter(df["date"].rlike("\d\d\d\d-\d\d-\d\d"))
@@ -211,14 +222,18 @@ def cleanListings(df):
     # Process the hashs
     df=df.withColumn("cat_hash", udf_func_H(col("cat_hash")))
 
+    # Process the categories
+    df=df.withColumn("cat", udf_func_Cat(col("cat")))
+
     return df
 
-asie = ['china', 'asia', 'india', 'hongkong', 'philippines', 'pakistan', 'thailand', 'singapore']
+asie = ['china', 'asia', 'india', 'hongkong', 'philippines', 'pakistan', 'thailand', 'singapore', 'hong kong']
 europe = ['france', 'uk', 'netherlands', 'europe', 'germany', 'belgium', 'sweden', 'ukraine', 'denmark', 
             'poland', 'italy', 'czechrepublic', 'spain', 'norway', 'austria', 'switzerland', 'ireland', 
-            'ukandireland', 'finland', 'hungary', 'latvia' ]
-america = ['usa', 'canada', 'mexico', 'argentina', 'brazil', 'colombia']
-oceania = ['australia', 'newzealand']
+            'ukandireland', 'finland', 'hungary', 'latvia', 'eu', 'uk and ireland', 'czech republic', 'slovakia',
+             'united kingdom']
+america = ['usa', 'canada', 'mexico', 'argentina', 'brazil', 'colombia', 'peru', 'america']
+oceania = ['australia', 'newzealand', 'new zealand']
 
 def countryToContinent(country):
     if country in asie:
