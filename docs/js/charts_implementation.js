@@ -132,6 +132,93 @@ function nbProductsScale() {
 nbProductsScale()
 
 /**
+ *    Price
+ */
+var ctx = document.getElementById('priceListing_chart').getContext('2d');
+
+var priceChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: [moment("2014-01-01", "YYYY-MM-DD"),moment("2014-01-09", "YYYY-MM-DD"),moment("2014-01-16", "YYYY-MM-DD"),moment("2014-01-26", "YYYY-MM-DD"),moment("2014-02-02", "YYYY-MM-DD"),moment("2014-02-05", "YYYY-MM-DD"),moment("2014-02-23", "YYYY-MM-DD"),moment("2014-02-24", "YYYY-MM-DD"),moment("2014-02-28", "YYYY-MM-DD"),moment("2014-03-03", "YYYY-MM-DD"),moment("2014-03-06", "YYYY-MM-DD"),moment("2014-04-06", "YYYY-MM-DD"),moment("2014-08-27", "YYYY-MM-DD"),moment("2014-10-25", "YYYY-MM-DD"),moment("2014-10-29", "YYYY-MM-DD"),moment("2014-10-31", "YYYY-MM-DD"),moment("2014-11-01", "YYYY-MM-DD"),moment("2014-11-08", "YYYY-MM-DD"),moment("2014-11-10", "YYYY-MM-DD"),moment("2014-11-16", "YYYY-MM-DD"),moment("2014-11-18", "YYYY-MM-DD"),moment("2014-11-19", "YYYY-MM-DD"),moment("2014-11-22", "YYYY-MM-DD"),moment("2014-11-23", "YYYY-MM-DD"),moment("2014-11-25", "YYYY-MM-DD"),moment("2014-12-01", "YYYY-MM-DD"),moment("2014-12-03", "YYYY-MM-DD"),moment("2014-12-06", "YYYY-MM-DD"),moment("2014-12-15", "YYYY-MM-DD"),moment("2014-12-23", "YYYY-MM-DD"),moment("2014-12-24", "YYYY-MM-DD"),moment("2014-12-26", "YYYY-MM-DD"),moment("2014-12-28", "YYYY-MM-DD"),moment("2015-01-08", "YYYY-MM-DD"),moment("2015-01-16", "YYYY-MM-DD"),moment("2015-01-21", "YYYY-MM-DD"),moment("2015-01-24", "YYYY-MM-DD"),moment("2015-01-26", "YYYY-MM-DD"),moment("2015-01-29", "YYYY-MM-DD"),moment("2015-02-02", "YYYY-MM-DD"),moment("2015-02-03", "YYYY-MM-DD"),moment("2015-02-05", "YYYY-MM-DD"),moment("2015-02-11", "YYYY-MM-DD"),moment("2015-02-16", "YYYY-MM-DD"),moment("2015-02-26", "YYYY-MM-DD"),moment("2015-02-28", "YYYY-MM-DD"),moment("2015-03-05", "YYYY-MM-DD"),moment("2015-03-07", "YYYY-MM-DD"),moment("2015-03-10", "YYYY-MM-DD"),moment("2015-03-13", "YYYY-MM-DD"),moment("2015-03-15", "YYYY-MM-DD"),moment("2015-03-29", "YYYY-MM-DD"),moment("2015-03-30", "YYYY-MM-DD"),moment("2015-04-02", "YYYY-MM-DD"),moment("2015-04-10", "YYYY-MM-DD"),moment("2015-04-12", "YYYY-MM-DD"),moment("2015-04-13", "YYYY-MM-DD"),moment("2015-04-25", "YYYY-MM-DD"),moment("2015-06-04", "YYYY-MM-DD"),moment("2015-06-20", "YYYY-MM-DD"),moment("2015-06-30", "YYYY-MM-DD")],
+    datasets: [{ 
+        data: [ 1566,  1823,  2368,  2867,  3319,  3421,  6876,  6869,  7676,
+                8258,  8423,  9697, 15814, 18278, 18379, 18539, 18676, 17412,
+               17636, 18988, 19234, 18926, 18589, 18203, 18172, 18570, 18509,
+               18989, 19343, 19038, 18093, 17849, 18143, 18471, 18690, 19345,
+               19484, 19595, 18963, 19929, 20379, 20182, 20397, 20645, 20842,
+               20899, 21361, 21318, 21600, 21613, 20884, 24324, 22330, 21529,
+               25009, 25426, 26222, 24659, 25650, 26860, 26602],
+        label: "Number Of Products",
+        borderColor: "#3e95cd",
+        fill: true
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    title: {
+      display: true,
+      text: 'Number of products listed on Agora Market per day'
+    },
+    scales: {
+        xAxes: [{
+            type: 'time'
+          
+        }]
+    },
+    annotation: {
+
+      drawTime: 'afterDatasetsDraw',
+      events: ['click'],
+      annotations: [{
+        id: 'vline',
+        type: 'line',
+        mode: 'vertical',
+        scaleID: 'x-axis-0',
+        value: moment("2014-11-05", "YYYY-MM-DD"),
+        borderColor: 'red',
+        borderWidth: 3,
+        label: {
+          backgroundColor: 'red',
+          content: 'Onymous Operation',
+          enabled: true,
+          position:'top',
+          yAdjust:0
+        },
+        onClick: function(e) {
+          // The annotation is is bound to the `this` variable
+          console.log('Annotation', e.type, this);
+        }
+
+      }]
+    }
+  }
+});
+
+var priceZoom = false
+
+function priceScale() {
+  if (priceZoom) {
+    priceChart.options.scales.xAxes[0].time.min = priceChart.data.labels[0];
+    priceChart.options.scales.xAxes[0].time.max = priceChart.data.labels[-1];
+    priceChart.options.scales.yAxes[0].ticks.max = 30000;
+    priceChart.options.scales.yAxes[0].ticks.min = 0;
+    priceChart.update();
+    priceZoom = false
+  } else {
+    priceChart.options.scales.xAxes[0].time.min = moment('2014-10-01', "YYYY-MM-DD");
+    priceChart.options.scales.xAxes[0].time.max = moment('2014-12-01', "YYYY-MM-DD");
+    priceChart.options.scales.yAxes[0].ticks.max = 19500;
+    priceChart.options.scales.yAxes[0].ticks.min = 16500;
+
+    priceChart.update();
+    priceZoom = true
+  }
+}
+priceScale()
+
+/**
  *    Mean number of products per vendor
  */
 var ctx = document.getElementById('vendorsMeanListing_chart').getContext('2d');
@@ -778,41 +865,38 @@ categoriesScale()
 
 
 /* CHORD DIAGRAM*/
-var margin = {left:90, top:90, right:90, bottom:90},
-    width =  1000 - margin.left - margin.right, // more flexibility: Math.min(window.innerWidth, 1000)
-    height =  1000 - margin.top - margin.bottom, // same: Math.min(window.innerWidth, 1000)
+var margin = {left:20, top:20, right:290, bottom:300},
+    width =  Math.min(window.innerWidth, 1000) - margin.left - margin.right, // more flexibility: Math.min(window.innerWidth, 1000)
+    height =  Math.min(window.innerWidth, 1000) - margin.top - margin.bottom, // same: Math.min(window.innerWidth, 1000)
     innerRadius = Math.min(width, height) * .39,
     outerRadius = innerRadius * 1.1;
 
-  var names = ["Africa","America","Asia","Europe","Oceania", "Others"],
-    colors = ["#301E1E", "#083E77", "#342350", "#567235", "#8B161C", "#DF7C00"],
+  var names = ["America","Asia","Europe","Oceania", "Others", "Worldwide"],
+    colors = [ "#083E77", "#342350", "#567235", "#8B161C", "#DF7C00"],
     opacityDefault = 0.8;
 
-  var matrix_1 = [[8.000000e+01, 8.000000e+01, 8.000000e+01, 8.000000e+01,
-        8.000000e+01, 1.600000e+01],
-       [7.322000e+03, 5.011400e+04, 7.323000e+03, 7.352000e+03,
-        7.361000e+03, 9.800000e+02],
-       [4.511500e+03, 4.647500e+03, 4.511500e+03, 4.577500e+03,
-        4.511500e+03, 4.140000e+02],
-       [1.300350e+04, 1.304350e+04, 1.300650e+04, 4.108650e+04,
-        1.300850e+04, 9.652000e+03],
-       [3.357500e+02, 3.357500e+02, 3.357500e+02, 3.357500e+02,
-        1.322775e+04, 1.585000e+03],
-       [4.096500e+03, 4.297500e+03, 4.096500e+03, 4.096500e+03,
-        4.717500e+03, 1.214000e+03]]; // Others
+  var matrix_1 = [[1154.95652174,  450.13043478,  450.65217391,  450.69565217,
+                   464.7826087 ],
+                 [ 264.13043478,  262.43478261,  263.52173913,  262.43478261,
+                   268.86956522],
+                 [ 825.30434783,  824.69565217, 1281.7826087 ,  824.60869565,
+                   977.43478261],
+                 [  21.17391304,   21.17391304,   21.17391304,  219.73913043,
+                    43.43478261],
+                 [ 253.26086957,  249.91304348,  249.91304348,  260.30434783,
+                   267.65217391]]; // Others
 
-  var matrix_2 = [[3.4025000e+02, 3.4025000e+02, 3.4025000e+02, 3.4025000e+02,
-        3.4025000e+02, 1.3200000e+02],
-       [3.9022500e+04, 2.9409050e+05, 3.9023500e+04, 3.9194500e+04,
-        3.9667500e+04, 1.0149000e+04],
-       [2.3690250e+04, 2.4025250e+04, 2.3760250e+04, 2.3890250e+04,
-        2.3690250e+04, 1.0190000e+03],
-       [7.0121750e+04, 7.0587750e+04, 7.0124750e+04, 1.9745375e+05,
-        7.0237750e+04, 4.8647000e+04],
-       [2.4342500e+03, 2.4372500e+03, 2.4342500e+03, 2.4342500e+03,
-        9.1586250e+04, 5.7720000e+03],
-       [2.6189000e+04, 2.6817000e+04, 2.6189000e+04, 2.6207000e+04,
-        3.0592000e+04, 1.1130000e+04]];
+
+  var matrix_2 =[[3179.78688525, 1190.24590164, 1191.39344262, 1196.1147541 ,
+                  1278.55737705],
+                 [ 701.36065574,  700.40983607,  700.80327869,  699.70491803,
+                   705.67213115],
+                 [2160.24590164, 2156.13114754, 3072.16393443, 2157.31147541,
+                  2535.37704918],
+                 [  74.93442623,   74.90163934,   74.90163934,  795.26229508,
+                   108.19672131],
+                 [ 918.78688525,  914.81967213,  914.98360656,  949.55737705,
+                  1019.50819672]];
 
   ////////////////////////////////////////////////////////////
   /////////// Create scale and layout functions //////////////
@@ -1114,23 +1198,21 @@ function setInfos(){
   i = currentInfoContinent;
   var all_products = matrix[i].reduce(function(a,b){return a+b;});
   document.getElementById('continent').innerHTML = names[i];
-  document.getElementById("continentInfo").rows[1].cells[1].innerHTML = Math.round(matrix[i][1]);
-  document.getElementById("continentInfo").rows[2].cells[1].innerHTML = Math.round(matrix[i][2]);
-  document.getElementById("continentInfo").rows[3].cells[1].innerHTML = Math.round(matrix[i][3]);
-  document.getElementById("continentInfo").rows[4].cells[1].innerHTML = Math.round(matrix[i][0]);
+  document.getElementById("continentInfo").rows[1].cells[1].innerHTML = Math.round(matrix[i][0]);
+  document.getElementById("continentInfo").rows[2].cells[1].innerHTML = Math.round(matrix[i][1]);
+  document.getElementById("continentInfo").rows[3].cells[1].innerHTML = Math.round(matrix[i][2]);
+  document.getElementById("continentInfo").rows[4].cells[1].innerHTML = Math.round(matrix[i][3]);
   document.getElementById("continentInfo").rows[5].cells[1].innerHTML = Math.round(matrix[i][4]);
-  document.getElementById("continentInfo").rows[6].cells[1].innerHTML = Math.round(matrix[i][5]);
-  document.getElementById("continentInfo").rows[7].cells[1].innerHTML = Math.round(all_products);
+  document.getElementById("continentInfo").rows[6].cells[1].innerHTML = Math.round(all_products);
 
 
   document.getElementById('continent').innerHTML = names[i];
   
-  document.getElementById("continentInfo").rows[1].cells[2].innerHTML = (matrix[i][1]/all_products*100).toFixed(2)+ "%";
-  document.getElementById("continentInfo").rows[2].cells[2].innerHTML = (matrix[i][2]/all_products*100).toFixed(2)+ "%";
-  document.getElementById("continentInfo").rows[3].cells[2].innerHTML = (matrix[i][3]/all_products*100).toFixed(2)+ "%";
-  document.getElementById("continentInfo").rows[4].cells[2].innerHTML = (matrix[i][0]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[1].cells[2].innerHTML = (matrix[i][0]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[2].cells[2].innerHTML = (matrix[i][1]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[3].cells[2].innerHTML = (matrix[i][2]/all_products*100).toFixed(2)+ "%";
+  document.getElementById("continentInfo").rows[4].cells[2].innerHTML = (matrix[i][3]/all_products*100).toFixed(2)+ "%";
   document.getElementById("continentInfo").rows[5].cells[2].innerHTML = (matrix[i][4]/all_products*100).toFixed(2)+ "%";
-  document.getElementById("continentInfo").rows[6].cells[2].innerHTML = (matrix[i][5]/all_products*100).toFixed(2)+ "%";
 
 }
 //Bring all chords back to default opacity
@@ -1172,38 +1254,3 @@ matrix = matrix_1
 updateChord(matrix_2);
 updateChord(matrix_1);
 setInfos();
-
-/**
- *    Exportation
- */
-
-var basic_choropleth = new Datamap({
-  element: document.getElementById("map_chart"),
-  projection: 'mercator',
-  fills: {
-    defaultFill: "#ABDDA4",
-    authorHasTraveledTo: "#fa0fa0"
-  },
-  data: {
-    USA: { fillKey: "authorHasTraveledTo" },
-    JPN: { fillKey: "authorHasTraveledTo" },
-    ITA: { fillKey: "authorHasTraveledTo" },
-    CRI: { fillKey: "authorHasTraveledTo" },
-    KOR: { fillKey: "authorHasTraveledTo" },
-    DEU: { fillKey: "authorHasTraveledTo" },
-  }
-});
-
-var colors = d3.scale.category10();
-
-window.setInterval(function() {
-  basic_choropleth.updateChoropleth({
-    USA: colors(Math.random() * 10),
-    RUS: colors(Math.random() * 100),
-    AUS: { fillKey: 'authorHasTraveledTo' },
-    BRA: colors(Math.random() * 50),
-    CAN: colors(Math.random() * 50),
-    ZAF: colors(Math.random() * 50),
-    IND: colors(Math.random() * 50),
-  });
-}, 2000);
