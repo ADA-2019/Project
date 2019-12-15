@@ -762,12 +762,23 @@ function newVendorScale() {
 let dados = {
     datasets: [{
         // cria-se um vetor data, com os valores a ser dispostos no gráfico
-        data: [10, 20, 30],
+        data: [367, 99, 525],
         // cria-se uma propriedade para adicionar cores aos respectivos valores do vetor data
         backgroundColor: ['rgb(255, 99, 132)', 'rgb(255, 199, 132)', 'rgb(55, 99, 132)']
     }],
     // cria-se legendas para os respectivos valores do vetor data
-    labels: ['Vermelho', 'Amarelo', 'Azul']
+    labels: ['Only Shop on Agora', 'Shops on Agora and Busted Market', 'Shops on Agora and Surviving Market']
+};
+
+let dado = {
+    datasets: [{
+        // cria-se um vetor data, com os valores a ser dispostos no gráfico
+        data: [584, 104, 163],
+        // cria-se uma propriedade para adicionar cores aos respectivos valores do vetor data
+        backgroundColor: ['rgb(255, 99, 132)', 'rgb(255, 199, 132)', 'rgb(55, 99, 132)']
+    }],
+    // cria-se legendas para os respectivos valores do vetor data
+    labels: ['Only Shop on Agora', 'Shops on Agora and Busted Market', 'Shops on Agora and Surviving Market']
 };
 
 let opcoes = {
@@ -786,7 +797,7 @@ var ctx = document.getElementById('donutBefore_chart').getContext('2d');
 
 let meuDonutBeforeChart = new Chart(ctx, {
     type: 'doughnut',
-    data: dados,
+    data: dado,
     options: opcoes
 });
 
