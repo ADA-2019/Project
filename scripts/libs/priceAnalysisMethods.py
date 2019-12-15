@@ -4,8 +4,10 @@ import pandas as pd
 import numpy as np
 from collections import Counter
 import matplotlib.pyplot as plt
+
 import seaborn as sns
 import plotly.express as px
+
 import re
 from datetime import datetime
 import datetime as dt
@@ -39,7 +41,6 @@ def init_spark(app_name, master_config):
 
     return (sc, sql_ctx, spark)
 
-
 def sparkProdPricesPrep(data, drugsOnly = False):
     data = data.drop('from').drop('to')
     data = data.withColumn("price", data["price"].cast("double"))
@@ -65,26 +66,6 @@ def preprocessBTCprices(dataFrame):
     df.date = df.date.apply(convertDatesAVGPrice)
     df = df.set_index('date')
     return df
-
-def cleanPriceSparkDF(df):
-    udf_func_C = udf(processCountries, ArrayType(StringType()))
-    udf_func_H = udf(processCatHashs, StringType())
-    # Remove rows without a valid date, error during parsing, file not complete
-    df = df.filter(df["date"].rlike("\d\d\d\d-\d\d-\d\d"))
-    # Remove rows without a price or not decimal, 642 in total, mainly due to error during parsing.
-    df = df.filter("CAST(price AS DECIMAL) is not null")
-    # Remove the rows where name is null, all the columns are usually null in this case, (6 rows)
-    df = df.filter("name is not null")
-    # Lowercase and process the countries
-    df=df.withColumn("to", lower(col("to")))
-    df=df.withColumn("to", udf_func_C(col("to")))
-    # Lowercase and process the countries
-    df=df.withColumn("from", lower(col("from")))
-    df=df.withColumn("from", udf_func_C(col("from")))
-    # Process the hashs
-    df=df.withColumn("cat_hash", udf_func_H(col("cat_hash")))
-    return df
-
 
 def convertBTCprices(dataDF, BTCpriceDF):
     dataDF = dataDF.rename(columns={"date": "date", "avg(price)": "avgPrice(BTC)", "count(name)":"nbOfProducts"})
