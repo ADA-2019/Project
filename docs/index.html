@@ -1,578 +1,538 @@
-<!DOCTYPE HTML>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
 
-<head>
-	<meta charset="utf-8">
+  <head>
 
-	<title>A Deep Analysis of the law enforcement impact on the DarkMarkets</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
-	<link rel="shortcut icon" href="img/favicon.ico">
+    <title>A Deep Analysis of the law enforcement impact on the DarkMarkets</title>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
-	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.4"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-	<script src="js/datamaps.world.hires.min.js"></script>
-	<script src="https://d3js.org/d3.v4.js"></script>
-</head>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
-	<!-- Header area -->
-	<div id="header-wrapper" class="header-slider">
-		<header class="clearfix">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div id="main-flexslider" class="flexslider">
-							<ul class="slides">
-								<li>
-									<p class="home-slide-content">
-										Welcome to the <strong>dark</strong> side
-									</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<center>
-							<p id="home-subtitle">
-								An in-depth Analysis of the impact of Operation Onymous on Agora
-							</p>
-						</center>
-					</div>
-				</div>
-			</div>
-		</header>
-	</div>
-	<!-- spacer section -->
-	<section class="spacer blue">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-xs-12 col-sm-12 col-md-6 alignright flyLeft">
-					<blockquote class="large">
-						Let's bring light on the Darknet <cite>Arthur Passuello</cite>
-					</blockquote>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 aligncenter flyRight">
-					<img src="img/idea.png" alt="" height="160" width="160"/>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end spacer section -->
-
-	<!-- section: Abstract -->
-	<section id="abstract" class="section">
-		<div class="container">
-			<h4>What do we call the DeepWeb?</h4>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-4 offset1">
-					<div>
-						<h2></strong></h2>
-						<p>
-							Since its first appearance in 2009, the term "Deep Web" has designated the non-indexed parts of the World Wide Web, that is by standard search engine. Using the development of a FOSS anonymity network software called TOR , a whole digital world was born and has been growing ever since. Making the best out of the anonymity that is provided to them, TOR users have, over the time, developed complex infrastructure in this Deep Web to make the discussion, the advertisement and the purchase of any service or item that would be deemed illegal by local authorities, accessible to all.
-						</p>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-5 offset1 aligncenter">
-					<img src="img/iceberg.png" style=" border-radius: 50%; width:60vw; height: 50vh;" alt="" />
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- section: Goal and Context -->
-	<section id="context" class="section blue">
-		<div class="container">
-			<h4>Context & Goals</h4>
-			<div class="row">
-				<div class="span6 aligncenter">
-					<img src="img/onymous.jpg" style="margin-top: 50px; border-radius: 10%;width:50vw; height: 45vh;" alt="" />
-				</div>
-				<div class="span4 offset1">
-					<div>
-						<p>
-							<strong>Context: </strong>
-							With this new kind of distribution, law enforcement had to adapt in order to regulate these illicit markets. On 5 and 6 November 2014 an international law enforcement operation targeting darknet markets and other hidden services operating on the Tor network was launch, <strong>Operation Onymous</strong>, the operation involved the police forces of 17 countries, more than 400 sites were closed and 17 arrests were made.
-							<br>
-							<br> 
-							<strong>Our goals: </strong>
-							If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the TOR network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as Operation Onymous on the darknet use.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!--  section: Dataset -->
-	<section id="dataset" class="section">
-		<div class="container">
-			<h4>Dataset acquisition</h4>
-			<div class="row">
-				<div class="span4 offset1">
-					<div>
-						<h2><strong>DN Archives (2013-2015)</strong></h2>
-						<p>
-							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
-						</p>
-					</div>
-				</div>
-				<div class="span4 offset1">
-					<h2><strong>Agora</strong></h2>
-						<p>
-							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to 
-						</p>
-						<img src="img/agora_logo.png" style="padding: 20px;" alt="" />	
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- section: Summary -->
-	<section id="services" class="section blue">
-		<div class="container">
-			<h4>Research Questions</h4>
-			<div class="row">
-				
-				<div class="col-xs-12 col-sm-6 col-md-3 animated flyIn">
-					<div class="service-box">
-						<a href="#market">
-							<img src="img/pie-chart.png" alt="" height="140" width="140"/>
-							<h2>Market Analysis</h2>
-							<p>
-								Study on the impact of the Onymous Operation on the size of the market, numbers of suppliers and products available.
-							</p>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-xs-12 col-sm-6 col-md-3 animated-fast flyIn">
-					<div class="service-box">
-						<a href="#products">
-							<img src="img/money-bag.png" alt="" height="140" width="140" />
-							<h2>Products Analysis</h2>
-							<p>
-								Insights on the evolution of the products selled on the market, price and categories analysis.
-							</p>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-xs-12 col-sm-6 col-md-3 animated-fast flyIn">
-					<div class="service-box">
-						<a href="#forum">
-							<img src="img/speech-bubble.png" alt="" height="140" width="140"/>
-							<h2>Forum Analysis</h2>
-							<p>
-								Topics trend and number of active users insights. 
-							</p>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3 animated-slow flyIn">
-					<div class="service-box">
-						<a href="#export">
-							<img src="img/map.png" alt="" height="140" width="140"/>
-							<h2>Exportation Analysis</h2>
-							<p>
-								Exported versus local products on the market
-							</p>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="spacer bg3"></section>
-
-	<!-- section: Market -->
-	<section id="market" class="section">
-		<div class="container clearfix">
-			<h4>Market Analysis</h4>
-
-			<div class="row" style=";margin-top:90px">
-				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
-					<h2><strong>Market Size</strong></h2>
-					In order to study the impact of the operation onymous on the Agora Market, we firt was interested by the evolution of the number of products purchasable on the market. We can see here that, between the day just before <strong>onymous</strong> and the day after, there is an important gap in the number of products availables at that time. It seems that the operation had an impact on this feature but the market recover very quickly, less than a week after the operation. 
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
-					<center>
-						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-							<canvas id="numberOfProducts_chart"></canvas>
-						</div>
-						<br>
-						<button class="btn btn-small" onclick="nbProductsScale()">Zoom In/Out</button>
-
-					</center>
-				</div>
-
-			</div>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/3.1.8/dc.css" />
 
 
-			<div class="row" style="margin-top: 90px;">
-				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
-					<center>
-						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-							<canvas id="numberOfActiveVendors_chart"></canvas>
-						</div>
-						<br>
-						<button class="btn btn-small" onclick="activeVendorScale()">Zoom In/Out</button>
-					</center>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
-					<h2><strong>Active vendors</strong></h2>
-					We saw that the <strong> onymous </strong> operation resulted in a drop in the number of products. To understand why this number was decreasing, we analyzed the number of active suppliers on Agora (a supplier is considered "active" when he has certain products to sell on a given day). Indeed, the sellers who sold the retired products disappeared from the market after this event. More than 27% (311) of the active vendors stopped selling definitively that day, and the market never recover until july 2015 when it permanently closed.
-				</div>
-				
-
-			</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.14.2/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.5.0/crossfilter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/3.1.8/dc.js"></script>
 
 
-			<div class="row" style=";margin-top:90px">
-				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
-					<h2><strong>Vendors insights</strong></h2>
-					Operation <strong>Onymous</strong> had an huge impact on the number of vendors on the Agora market, but how can we explain that the number of products listed on agora recovered so quickly. First of all, we notice here that the vendors that left after Onymous are, in majority, small suppliers (~8 products to sell) compare to those who stayed with ~20 listed products.  In addition, we find that the number of products listed by these large suppliers is growing faster than the rest of the suppliers after Onymous.
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
-					<center>
-						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-							<canvas id="vendorsMeanListing_chart"></canvas>
-						</div>
-						<br>
-						<button class="btn btn-small" onclick="meanProductsScale()">Zoom In/Out</button>
-					</center>
-				</div>
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-			</div>
+  </head>
 
+  <body id="page-top">
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Onymous Impact</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Abstract</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#market">Vendors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#interactive">Putting all together</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Welcome to the <strong>Dark</strong> Side</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">A Deep Analysis of the law enforcement impact on the DarkMarkets</h2>
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        </div>
+      </div>
+    </header>
 
-			<div class="row" style=";margin-top:90px">
-				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
-					<center>
-						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-							<canvas id="newVendors_chart"></canvas>
-						</div>
-						<br>
-						<button class="btn btn-small" onclick="newVendorScale()">Zoom In/Out</button>
-					</center>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
-					<h2><strong>New Vendors</strong></h2>
-					While the <strong> Onymous </strong> operation has had a significant negative impact on the total number of suppliers in the Agora market, it has also closed other large markets, such as Silkroad, so we can ask ourselves if the closing of these markets entails moving users to Agora. We can see here that this is not the case, the number of new suppliers who publish a product each day is relatively stable, about 5 per day. A vendor is considered new the day when he publish is first product.
-				</div>
-
-			</div>
-
-			
-
-			
-		</div>
-		<div class="row" style=";margin-top:90px">
-			<div class="col-xs-10 col-sm-10 col-md-10 offset-1 aligncenter">
-					<div>
-						<h2><strong>Putting all together</strong></h2>
-						<p>
-							We saw that the <strong>Onymous</strong> operation had a significant impact on the suppliers of Agora Market, a lot of small vendors retired after this operation. In another hand, the operation didn't seem to impact the big suppliers of Agora. We assume that these conclusion are true for other market such as Silkroad, the small suppliers left after it was close and the big suppliers continue their deals on other platforms. But if this is the case, how can we explain that we don't see any upward trend in the number of new suppliers after the operation on Agora ? 
-							We made the assumption that it was because most of the big suppliers had already an account on several market. We compared the username of the suppliers present on Agora and Silkroad before Onymous and found out that 15% of them had an account on both market. In order to compare usernames, since some times sellers use slightly different name (Uppercase letters, number instead of letters, etc..) we also compared them with an hamming distance equal or inferior to 1 and lowercased all usernames. With hamming distance we have more than x% usernames matches.
-						</p>
-					</div>
-				</div>
-		</div>
-		<div class="row" style=";margin-top:90px">
-			<div class="col-xs-12 col-sm-12 col-md-5 offset-1">
-				<center>
-					<h5><strong>Before Onymous</strong></h5>
-					<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-						<canvas id="donutBefore_chart"></canvas>
-					</div>
-				</center>
-			</div>
-
-			<div class="col-xs-12 col-sm-12 col-md-5">
-
-				<center>
-					<h5><strong>After Onymous</strong></h5>
-					<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-						<canvas id="donutAfter_chart"></canvas>
-					</div>
-				</center>
-			</div>
-		</div>
-
-		<div class="row" style=";margin-top:90px">
-			<div class="col-xs-10 col-sm-10 col-md-10 offset-1 aligncenter">
-					<div>
-						<h2><strong>What we can conclude</strong></h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero imperdiet erat dictum dictum eu eu justo. Etiam fermentum lorem urna, eget condimentum neque maximus in. Donec sit amet sem molestie, varius purus nec, condimentum ante. Mauris nulla ex, vestibulum at nisl vel, vestibulum faucibus metus. Fusce varius urna purus, eget cursus mauris varius a. Duis eleifend lobortis quam, id eleifend metus varius sed. Etiam vel est eros. Duis in arcu lacus. Maecenas finibus eros nec mi mattis, quis mattis sem gravida. Etiam lacinia tincidunt lacus, sit amet venenatis metus consequat viverra. Aenean facilisis tincidunt dui, a sollicitudin arcu tincidunt non.
-						</p>
-					</div>
-				</div>
-		</div>
-		
-	</section>
-
-	<section class="spacer bg3"></section>
-
-	<!-- section: Products -->
-	<section id="products" class="section">
-		<div class="container clearfix">
-			<h4>Products analysis</h4>
+    <!-- About Section -->
+    <section id="about" class="about-section text-center" style="padding-bottom: 20vh;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">Abstract</h2>
+            
+                <p class="text-white-50">
+                  Since its first appearance in 2009, the term "Deep Web" has designated the non-indexed parts of the World Wide Web, that is by standard search engine. Using the development of a FOSS anonymity network software called TOR , a whole digital world was born and has been growing ever since. Making the best out of the anonymity that is provided to them, TOR users have, over the time, developed complex infrastructure in this Deep Web to make the discussion, the advertisement and the purchase of any service or item that would be deemed illegal by local authorities, accessible to all.
+                  <br><br>
+                  With this new kind of distribution, law enforcement had to adapt in order to regulate these illicit markets. On 5 and 6 November 2014 an international law enforcement operation targeting darknet markets and other hidden services operating on the Tor network was launch, <strong class="text-white">Operation Onymous</strong>, the operation involved the police forces of 17 countries, more than 400 sites were closed and 17 arrests were made.
+                  <br><br>
+                  If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the TOR network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as Operation Onymous on the darknet use and specifically on one marketplace that survived the operation, <strong class="text-white">Agora</strong>.
+                </p>              
+          </div>
+        </div>
+       
+      </div>
+    </section>
 
 
-			<div class="row" style="margin-top: 90px;">
-				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
-					<center>
-						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-							<canvas id="categories_chart"></canvas>
-						</div>
-						<br>
-						<button class="btn btn-small" onclick="categoriesScale()">Zoom In/Out</button>
-					</center>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4">
-					<h2><strong>Categories of products</strong></h2>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero imperdiet erat dictum dictum eu eu justo. Etiam fermentum lorem urna, eget condimentum neque maximus in. Donec sit amet sem molestie, varius purus nec, condimentum ante. Mauris nulla ex, vestibulum at nisl vel, vestibulum faucibus metus. Fusce varius urna purus, eget cursus mauris varius a. Duis eleifend lobortis quam, id eleifend metus varius sed. Etiam vel est eros. Duis in arcu lacus. Maecenas finibus eros nec mi mattis, quis mattis sem gravida. Etiam lacinia tincidunt lacus, sit amet venenatis metus consequat viverra. Aenean facilisis tincidunt dui, a sollicitudin arcu tincidunt non.
-				</div>
-				
+    <!-- section: Products -->
+    <section id="products" class="projects-section">
 
-			</div>
+      <div class="container clearfix">
+      <h1 align="center"><strong>Products analysis</strong></h1>
 
-			<div class="row" style=";margin-top:90px">
-				<div class="col-xs-12 col-sm-12 col-md-4 offset-1">
-					<h2><strong>Price Evolution</strong></h2>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero imperdiet erat dictum dictum eu eu justo. Etiam fermentum lorem urna, eget condimentum neque maximus in. Donec sit amet sem molestie, varius purus nec, condimentum ante. Mauris nulla ex, vestibulum at nisl vel, vestibulum faucibus metus. Fusce varius urna purus, eget cursus mauris varius a. Duis eleifend lobortis quam, id eleifend metus varius sed. Etiam vel est eros. Duis in arcu lacus. Maecenas finibus eros nec mi mattis, quis mattis sem gravida. Etiam lacinia tincidunt lacus, sit amet venenatis metus consequat viverra. Aenean facilisis tincidunt dui, a sollicitudin arcu tincidunt non.
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 offset-1">
-					<center>
-						<div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-							<canvas id="priceListing_chart"></canvas>
-						</div>
-						<br>
-						<button class="btn btn-small" onclick="meanProductsScale()">Zoom In/Out</button>
-					</center>
-				</div>
+        <div class="row" style=";margin-top:90px">
+          <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+            <h2><strong>Market Size</strong></h2>
+            <p align="justify"> 
+              In order to study the impact of the operation onymous on the Agora Market, we firt was interested by the evolution of the number of products purchasable on the market. We can see here that, between the day just before <strong>onymous</strong> and the day after, there is an important gap in the number of products availables at that time. It seems that the operation had an impact on this feature but the market recover very quickly, less than a week after the operation. 
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="numberOfProducts_chart"></canvas>
+              </div>
+              <br>
+              <button id="nbProductsScale" class="btn btn-small" onclick="nbProductsScale()">Zoom Out</button>
 
-			</div>
+            </center>
+          </div>
 
-		</div>
+        </div>
+        <div class="row" style="margin-top: 90px;">
+          <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="categories_chart"></canvas>
+              </div>
+              <br>
+              <button id="categoriesScale" class="btn btn-small" onclick="categoriesScale()">Zoom Out</button>
+            </center>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+            <h2><strong>Categories of products</strong></h2>
+            <p align="justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero imperdiet erat dictum dictum eu eu justo. Etiam fermentum lorem urna, eget condimentum neque maximus in. Donec sit amet sem molestie, varius purus nec, condimentum ante. Mauris nulla ex, vestibulum at nisl vel, vestibulum faucibus metus. Fusce varius urna purus, eget cursus mauris varius a. Duis eleifend lobortis quam, id eleifend metus varius sed. Etiam vel est eros. 
+            </p>
+          </div>
+          
+
+        </div>
+
+        <div class="row" style=";margin-top:90px">
+          <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+            <h2><strong>Price Evolution</strong></h2>
+            <p align="justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero imperdiet erat dictum dictum eu eu justo. Etiam fermentum lorem urna, eget condimentum neque maximus in. Donec sit amet sem molestie, varius purus nec, condimentum ante. Mauris nulla ex, vestibulum at nisl vel, vestibulum faucibus metus. Fusce varius urna purus, eget cursus mauris varius a. Duis eleifend lobortis quam, id eleifend metus varius sed. Etiam vel est eros. 
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="priceListing_chart"></canvas>
+              </div>
+              <br>
+              <button id="priceScale" class="btn btn-small" onclick="priceScale()">Zoom In</button>
+            </center>
+          </div>
+
+        </div>
+
+        <div class="row" style=";margin-top:90px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
+            <div>
+              <h2 align="center" style="margin-bottom: 20px"><strong>Importation/Exportation</strong></h2>
+              <p align="justify">
+                The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+              </p>
+            </div>
+          </div>
+      </div>
+      
+        <!-- portfolio filter -->
+        <div class="row" style="margin-top: 90px; ">
+          <div class="col-8">
+            <div id="chord-diagram"></div>
+          </div>
+        <div class="col-4" >
+          <h4><strong align="left"> <div id ="continent" align="left">Africa</div></strong></h4>
+          
+          <table id="continentInfo">
+            <tr>
+              <th>Sent to</th>
+              <th>Number of products</th>
+              <th>Proportion</th>
+      
+            </tr>
+            
+            <tr>
+              <td>America</td>
+              <td>10000</td>
+              <td>100000</td>
+              
+            </tr>
+            <tr>
+              <td>Asia</td>
+              <td>10000</td>
+              <td>100000</td>
+          
+            </tr>
+            <tr>
+              <td>Europe</td>
+              <td>10000</td>
+              <td>100000</td>
+          
+            </tr>
+            <tr>
+              <td>Oceania</td>
+              <td>10000</td>
+              <td>100000</td>
+          
+            </tr>
+            <tr>
+              <td>Others</td>
+              <td>10000</td>
+              <td>100000</td>
+          
+            </tr>
+
+            <tr>
+              <td><strong>Total</strong></td>
+              <td>100000</td>
+              <td></td>
+              
+            </tr>
+          </table>
+          
+          <div style="margin-top: 10vh" align="center">
+            <button class="btn btn-small test" id="before-onymous" disabled="true">01/01/14 to 05/11/14</button> 
+            <p>
+
+            &darr;<br> <strong>Operation Onymous</strong> <br>&darr;<br>
+            </p>
+            <button class="btn btn-small test" id="after-onymous">08/11/14 to 01/07/15</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
+            <div>
+              <h1 align="center" style="margin-bottom: 20px; margin-top: -30vh"><strong>Worldwide exportation</strong></h1>
+
+              <p align="justify">
+                The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-5 offset-1 aligncenter">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="from_product_chart"></canvas>
+              </div>
+            </center>
+        </div>
+        <div class="col-5 offset-1 aligncenter">
+            <center>
+            <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+              <canvas id="to_product_chart"></canvas>
+            </div>
+          </center>
+        </div>
+          
+      </div>
+    
+        <div class="row" style=";margin-top:90px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
+            <div>
+              <h2 align="center" style="margin-bottom: 20px"><strong>What we can conclude</strong></h2>
+              <p align="justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero imperdiet erat dictum dictum eu eu justo. Etiam fermentum lorem urna, eget condimentum neque maximus in. Donec sit amet sem molestie, varius purus nec, condimentum ante. Mauris nulla ex, vestibulum at nisl vel, vestibulum faucibus metus. Fusce varius urna purus, eget cursus mauris varius a. Duis eleifend lobortis quam, id eleifend metus varius sed. Etiam vel est eros. Duis in arcu lacus. Maecenas finibus eros nec mi mattis, quis mattis sem gravida. Etiam lacinia tincidunt lacus, sit amet venenatis metus consequat viverra. Aenean facilisis tincidunt dui, a sollicitudin arcu tincidunt non.
+              </p>
+            </div>
+          </div>
+      </div>
+
+    </section>
 
 
-		<div class="row">
-			<div class="span12 offset1 aligncenter">
-					<div>
-						<h2><strong>DN Archives (2013-2015)</strong></h2>
-						<p>
-							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
-						</p>
-					</div>
-				</div>
-		</div>
-	</section>
 
-	<section class="spacer bg3"></section>
+  <hr>
 
-	<!-- section: Forum -->
-	<section id="forum" class="section">
-		<div class="container clearfix">
-			<h4>Forum Analysis</h4>
-			<div class="row">
-				<center>
-					<div class="chart-container" style=" height:40vh; width:40vw">
-						<canvas id="forum_chart"></canvas>
-					</div>
-				</center>
-			</div>
-			<div class="row">
+    <!-- section: Market -->
+    <section id="market" class="projects-section" style="margin-top: 90px">
+      <div class="container clearfix">
+        <h1 align="center"><strong>Vendor Analysis</strong></h1>
 
-			</div>
-		</div>
-		<div class="row">
-			<div class="span12 offset1 aligncenter">
-					<div>
-						<h2><strong>DN Archives (2013-2015)</strong></h2>
-						<p>
-							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
-						</p>
-					</div>
-				</div>
-		</div>
-	</section>
-
-	<section class="spacer bg3"></section>
-
-	<!-- section: Map -->
-	<section id="export" class="section">
-		<div class="container clearfix">
-			<h4>Exportation Analysis</h4>
-			<!-- portfolio filter -->
-			<div class="row">
-				<center>
-					<div class="chart-container" style=" height:50vh; width:50vw">
-						<div id="map_chart" style="position: relative; width: 500px; height: 400px;"></div>
-
-					</div>
-				</center>
-			</div>
-			<div class="row">
-
-			</div>
-		</div>
-		<div class="row">
-			<div class="span12 offset1 aligncenter">
-					<div>
-						<h2><strong>DN Archives (2013-2015)</strong></h2>
-						<p>
-							The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
-						</p>
-					</div>
-				</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<center>
-					<div id="chord-diagram"></div>
-				</center>
-			</div>
-			<div class="col-md-3" style="margin-top: 90px; ">
-				<h4><strong align="left">From <div id ="continent" align="left">Africa</div></strong></h4>
-				
-				<table id="continentInfo">
-				  <tr>
-				    <th>Sent to</th>
-				    <th>Number of products</th>
-				    <th>Proportion</th>
-		
-				  </tr>
-				  
-				  <tr>
-				    <td>America</td>
-				    <td>10000</td>
-				    <td>100000</td>
-				    
-				  </tr>
-				  <tr>
-				    <td>Asia</td>
-				    <td>10000</td>
-				    <td>100000</td>
-				
-				  </tr>
-				  <tr>
-				    <td>Europe</td>
-				    <td>10000</td>
-				    <td>100000</td>
-				
-				  </tr>
-
-				  <tr>
-				    <td>Africa</td>
-				    <td>10000</td>
-				    <td>100000</td>
-				
-				  </tr>
-				  <tr>
-				    <td>Oceania</td>
-				    <td>10000</td>
-				    <td>100000</td>
-				
-				  </tr>
-				  <tr>
-				    <td>Others</td>
-				    <td>10000</td>
-				    <td>100000</td>
-				
-				  </tr>
-
-				  <tr>
-				    <td><strong>Total</strong></td>
-				    <td>100000</td>
-				    <td></td>
-				    
-				  </tr>
-				</table>
-				
-				<div style="margin-top: 10vh" align="center">
-					<button class="btn btn-small test" id="before-onymous" disabled="true">01/01/14 to 05/11/14</button> 
-					<p>
-
-					&darr;<br> <strong>Operation Onymous</strong> <br>&darr;<br>
-					</p>
-					<button class="btn btn-small test" id="after-onymous">01/01/14 to 01/07/15</button>
-				</div>
-			</div>
+        
 
 
-		</div>
+        <div class="row" style="margin-top: 90px;">
+          <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="numberOfActiveVendors_chart"></canvas>
+              </div>
+              <br>
+              <button id="activeVendorScale" class="btn btn-small" onclick="activeVendorScale()">Zoom Out</button>
+            </center>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+            <h2><strong>Active vendors</strong></h2>
+            <p align="justify">
+              We saw that the <strong> onymous </strong> operation resulted in a drop in the number of products. To understand why this number was decreasing, we analyzed the number of active suppliers on Agora (a supplier is considered "active" when he has certain products to sell on a given day). Indeed, the sellers who sold the retired products disappeared from the market after this event. More than 27% (311) of the active vendors stopped selling definitively that day, and the market never recover until july 2015 when it permanently closed.
+            </p>
+          </div>
+          
 
-	</section>
-	<!-- end spacer section -->
+        </div>
 
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="span6 offset3">
-					<p class="copyright">
-						EPLF, ADA Project 2019.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="span6 offset3">
-					<p class="copyright">
-						&copy; Florine Reau, Quentin Fisch, Arthur Passuello, François Quellec. All rights reserved.
-					</p>
-				</div>
-			</div>
-		</div>
-		<!-- ./container -->
-	</footer>
-	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.scrollTo.js"></script>
-	<script src="js/jquery.nav.js"></script>
-	<script src="js/jquery.localScroll.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/jquery.prettyPhoto.js"></script>
-	<script src="js/isotope.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/inview.js"></script>
-	<script src="js/animate.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="js/charts_implementation.js"></script>
-	<script type="text/javascript">
-		// SMOOTH SCROLLING SECTIONS
-		$('a[href*=#]:not([href=#])').click(function() {
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-		        || location.hostname == this.hostname) {
 
-		        var target = $(this.hash);
-		        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		           if (target.length) {
-		             $('html,body').animate({
-		                 scrollTop: target.offset().top
-		            }, 1000);
-		            return false;
-		        }
-		    }
-		});
-	</script>
+        <div class="row" style=";margin-top:90px">
+          <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+            <h2><strong>Vendors insights</strong></h2>
+            <p align="justify">
+              Operation <strong>Onymous</strong> had an huge impact on the number of vendors on the Agora market, but how can we explain that the number of products listed on agora recovered so quickly. First of all, we notice here that the vendors that left after Onymous are, in majority, small suppliers (~8 products to sell) compare to those who stayed with ~20 listed products.  In addition, we find that the number of products listed by these large suppliers is growing faster than the rest of the suppliers after Onymous.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="vendorsMeanListing_chart"></canvas>
+              </div>
+              <br>
+              <button id="meanProductsScale" class="btn btn-small" onclick="meanProductsScale()">Zoom In</button>
+            </center>
+          </div>
 
-</body>
+        </div>
 
-</html>
+
+
+
+        <div class="row" style=";margin-top:90px">
+          <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="newVendors_chart"></canvas>
+              </div>
+              <br>
+              <button id="newVendorScale" class="btn btn-small" onclick="newVendorScale()">Zoom In</button>
+            </center>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+            <h2><strong>New Vendors</strong></h2>
+            <p align="justify">
+              While the <strong> Onymous </strong> operation has had a significant negative impact on the total number of suppliers in the Agora market, it has also closed other large markets, such as Silkroad, so we can ask ourselves if the closing of these markets entails moving users to Agora. We can see here that this is not the case, the number of new suppliers who publish a product each day is relatively stable, about 5 per day. A vendor is considered new the day when he publish is first product.
+            </p>
+          </div>
+
+        </div>
+
+        
+
+        
+      
+      <div class="row" style=";margin-top:90px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
+            <div>
+              <h2 align="center"><strong>Displacement of  the vendors</strong></h2>
+              <p align="justify" style="margin-top: 20px">
+                We saw that the <strong>Onymous</strong> operation had a significant impact on the suppliers of Agora Market, a lot of small vendors retired after this operation. In another hand, the operation didn't seem to impact the big suppliers of Agora. We assume that these conclusion are true for other market such as Silkroad, the small suppliers left after it was close and the big suppliers continue their deals on other platforms. But if this is the case, how can we explain that we don't see any upward trend in the number of new suppliers after the operation on Agora ? 
+                We made the assumption that it was because most of the big suppliers had already an account on several market. We compared the username of the suppliers present on Agora and Silkroad before Onymous and found out that 15% of them had an account on both market. In order to compare usernames, since some times sellers use slightly different name (Uppercase letters, number instead of letters, etc..) we also compared them with an hamming distance equal or inferior to 1 and lowercased all usernames. With hamming distance we have more than x% usernames matches.
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="row" style=";margin-top:90px">
+        <div class="col-xs-12 col-sm-12 col-md-5 offset-1">
+          <center>
+            <h5><strong>Exact Match</strong></h5>
+            <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+              <canvas id="donutBefore_chart"></canvas>
+            </div>
+          </center>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-5">
+
+          <center>
+            <h5><strong>Hamming distance of 1</strong></h5>
+            <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+              <canvas id="donutAfter_chart"></canvas>
+            </div>
+          </center>
+        </div>
+      </div>
+
+      <div class="row" style=";margin-top:90px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
+            <div>
+              <h2 align="center" style="margin-bottom: 20px"><strong>What we can conclude</strong></h2>
+              <p align="justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero imperdiet erat dictum dictum eu eu justo. Etiam fermentum lorem urna, eget condimentum neque maximus in. Donec sit amet sem molestie, varius purus nec, condimentum ante. Mauris nulla ex, vestibulum at nisl vel, vestibulum faucibus metus. Fusce varius urna purus, eget cursus mauris varius a. Duis eleifend lobortis quam, id eleifend metus varius sed. Etiam vel est eros. Duis in arcu lacus. Maecenas finibus eros nec mi mattis, quis mattis sem gravida. Etiam lacinia tincidunt lacus, sit amet venenatis metus consequat viverra. Aenean facilisis tincidunt dui, a sollicitudin arcu tincidunt non.
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+
+    <hr>
+
+    <section id="interactive" class="projects-section">
+      <div class="container clearfix">
+        <h1 align="center" style="margin-bottom: 30px"><strong>Putting Everything Together</strong></h1>
+      <div class="row" style="margin-bottom: 90px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
+          <div>
+            
+            <p align="justify">
+              The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center"> 
+
+          <div id="yearly-bubble-chart" class="dc-chart">
+            <strong>Vendors Insights</strong>
+            <a class="reset" href="javascript:yearlyBubbleChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+          <!--<p class="muted">select a type of vendor to filter</p>-->
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1">
+
+          <div id="gain-loss-chart" class="dc-chart">
+            <strong>Number of markets</strong>
+            <a class="reset" href="javascript:gainOrLossChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+          <div id="quarter-chart" class="dc-chart">
+            <strong>Origin country</strong>
+            <a class="reset" href="javascript:quarterChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+          <div id="day-of-week-chart" class="dc-chart" style="fill: black;">
+            <strong>Category of products</strong>
+            <a class="reset" href="javascript:dayOfWeekChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+
+          </div>
+          <div id="fluctuation-chart" class="dc-chart">
+            <strong>Mean price</strong>
+            <a class="reset" href="javascript:fluctuationChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+
+          </div>
+          
+        </div>
+
+        
+      </div>
+      <div class="row" >
+        <div class="col-xs-11 col-sm-11 col-md-11 col-11 offset-1 aligncenter" align="left">
+          <!--<p class="muted" >select a category of vendor or product to filter</p>-->
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+          <div id="monthly-move-chart" class="dc-chart">
+            <strong>Total number of products</strong>
+            <span class="reset" style="display: none;">range: <span class="filter" style="display: none;"></span></span>
+            <a class="reset" href="javascript:moveChart.filterAll();volumeChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+          <div id="monthly-volume-chart" class="dc-chart"></div>
+          <!--<p class="muted" style="margin-right: 25px;">select a time range to zoom in</p>-->
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
+          <div>
+            <h2 align="center" style="margin-top: 90px;"><strong>Some Conclusions</strong></h2>
+            <p align="justify">
+              The archive contains mostly scrapped html pages from the many marketplaces, forums and other services (e.g. Grams search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of html pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies. All the directories are compressed using tar.gz compression. The whole archive is about 60 GiB compressed and estimated to be about 1TiB completely uncompressed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Florine Reau, Quentin Fisch, Arthur Passuello, François Quellec. All rights reserved 2019
+      </div>
+    </footer>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.localScroll.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/inview.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="js/charts_implementation.js"></script>
+    <script src="js/dc_interactive_part.js"></script>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.js"></script>
+
+  </body>
+
+  </html>
