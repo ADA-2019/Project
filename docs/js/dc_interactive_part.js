@@ -17,7 +17,7 @@ var volumeChart = dc.lineChart('#monthly-volume-chart');
 var yearlyBubbleChart = dc.bubbleChart('#yearly-bubble-chart');
 
 // Load the date
-d3.csv('test1.csv').then(function (data) {
+d3.csv('test3.csv').then(function (data) {
     // Since its a csv file we need to format the data a bit.
     var dateFormatSpecifier = '%Y-%m-%d';
     var dateFormat = d3.timeFormat(dateFormatSpecifier);
