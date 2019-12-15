@@ -1,48 +1,289 @@
 /**
- *    FORUM
+ *    from products
  */
+var ctx = document.getElementById('from_product_chart').getContext('2d');
 
-var ctx = document.getElementById('forum_chart').getContext('2d');
-var forumChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
+var from_product_chart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: [  moment('2014-04-06', "YYYY-MM-DD"), moment('2014-04-26', "YYYY-MM-DD"),
+               moment('2014-05-16', "YYYY-MM-DD"), moment('2014-05-24', "YYYY-MM-DD"), moment('2014-06-01', "YYYY-MM-DD"), moment('2014-08-03', "YYYY-MM-DD"),
+               moment('2014-08-14', "YYYY-MM-DD"), moment('2014-08-27', "YYYY-MM-DD"), moment('2014-09-05', "YYYY-MM-DD"), moment('2014-09-22', "YYYY-MM-DD"),
+               moment('2014-10-25', "YYYY-MM-DD"), moment('2014-10-29', "YYYY-MM-DD"), moment('2014-10-31', "YYYY-MM-DD"), moment('2014-11-06', "YYYY-MM-DD"),
+               moment('2014-11-07', "YYYY-MM-DD"), moment('2014-11-15', "YYYY-MM-DD"), moment('2014-12-01', "YYYY-MM-DD"), moment('2014-12-03', "YYYY-MM-DD"),
+               moment('2014-12-06', "YYYY-MM-DD"), moment('2014-12-10', "YYYY-MM-DD"), moment('2014-12-15', "YYYY-MM-DD"), moment('2014-12-20', "YYYY-MM-DD"),
+               moment('2014-12-23', "YYYY-MM-DD"), moment('2014-12-24', "YYYY-MM-DD"), moment('2014-12-28', "YYYY-MM-DD"), moment('2014-12-30', "YYYY-MM-DD"),
+               moment('2015-01-01', "YYYY-MM-DD"), moment('2015-01-08', "YYYY-MM-DD"), moment('2015-01-09', "YYYY-MM-DD"), moment('2015-01-15', "YYYY-MM-DD"),
+               moment('2015-01-16', "YYYY-MM-DD"), moment('2015-01-21', "YYYY-MM-DD"), moment('2015-01-24', "YYYY-MM-DD"), moment('2015-01-26', "YYYY-MM-DD"),
+               moment('2015-01-28', "YYYY-MM-DD"), moment('2015-02-01', "YYYY-MM-DD"), moment('2015-02-02', "YYYY-MM-DD"), moment('2015-02-09', "YYYY-MM-DD"),
+               moment('2015-02-11', "YYYY-MM-DD"), moment('2015-02-13', "YYYY-MM-DD"), moment('2015-02-16', "YYYY-MM-DD"), moment('2015-02-17', "YYYY-MM-DD"),
+               moment('2015-02-24', "YYYY-MM-DD"), moment('2015-02-26', "YYYY-MM-DD"), moment('2015-02-28', "YYYY-MM-DD"), moment('2015-03-03', "YYYY-MM-DD"),
+               moment('2015-03-05', "YYYY-MM-DD"), moment('2015-03-07', "YYYY-MM-DD"), moment('2015-03-10', "YYYY-MM-DD"), moment('2015-03-13', "YYYY-MM-DD"),
+               moment('2015-03-15', "YYYY-MM-DD"), moment('2015-03-19', "YYYY-MM-DD"), moment('2015-03-22', "YYYY-MM-DD"), moment('2015-03-29', "YYYY-MM-DD"),
+               moment('2015-03-30', "YYYY-MM-DD"), moment('2015-04-02', "YYYY-MM-DD"), moment('2015-04-03', "YYYY-MM-DD"), moment('2015-04-07', "YYYY-MM-DD"),
+               moment('2015-04-10', "YYYY-MM-DD"), moment('2015-04-12', "YYYY-MM-DD"), moment('2015-04-25', "YYYY-MM-DD"), moment('2015-04-27', "YYYY-MM-DD"),
+               moment('2015-05-04', "YYYY-MM-DD"), moment('2015-05-06', "YYYY-MM-DD"), moment('2015-05-10', "YYYY-MM-DD"), moment('2015-05-13', "YYYY-MM-DD"),
+               moment('2015-06-04', "YYYY-MM-DD"), moment('2015-06-11', "YYYY-MM-DD"), moment('2015-06-15', "YYYY-MM-DD"), moment('2015-06-20', "YYYY-MM-DD"),
+               moment('2015-06-26', "YYYY-MM-DD"), moment('2015-06-30', "YYYY-MM-DD"), moment('2015-07-04', "YYYY-MM-DD"), moment('2015-07-07', "YYYY-MM-DD")],
+    datasets: [{ 
+        data: [1022., 1134., 1104., 1097., 1185., 1112., 1270., 1221., 1172.,
+               1334., 1454., 1503., 1504., 1351., 1363., 1424., 1550., 1512.,
+               1630., 1573., 1613., 1566., 1641., 1612., 1599., 1578., 1465.,
+               1816., 1712., 1688., 1817., 1855., 1850., 1895., 1781., 1944.,
+               2054., 2012., 2141., 1794., 2086., 2078., 1992., 2007., 1961.,
+               1697., 2073., 1994., 1970., 1948., 1900., 1911., 2247., 2245.,
+               2172., 2134., 2117., 2130., 2272., 2328., 2454., 2603., 2195.,
+               2112., 2478., 2403., 2464., 2393., 2122., 2431., 2257., 2366.,
+               2527., 2341.],
+        label: "America",
+        borderColor: "#3e95cd",
+        fill: false
+      },
+      { 
+        data: [0., 0., 1., 1., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+               0., 1., 1., 1., 0., 1., 1., 1., 1., 1., 0., 0., 0., 0., 0., 0., 0.,
+               0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1.,
+               1., 1., 1., 0., 0., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1., 1., 1.,
+               1., 1., 1., 1., 1., 1.],
+        label: "Asia",
+        borderColor: "#f1c40f",
+        fill: false
+      },
+      { 
+        data: [ 613.,  783.,  640.,  827.,  767.,  792.,  836.,  841.,  656.,
+                939.,  944.,  971.,  960.,  785.,  884., 1066., 1005., 1009.,
+                946.,  952.,  927.,  786.,  831.,  712.,  722.,  685.,  623.,
+                743.,  763.,  862.,  844.,  906.,  995.,  985.,  981.,  900.,
+                869.,  839.,  920.,  797.,  884.,  848.,  886.,  928.,  894.,
+                822.,  921.,  916.,  937.,  876.,  825.,  831.,  898., 1019.,
+                935.,  929.,  888.,  940., 1012., 1062., 1052., 1073., 1006.,
+                987., 1120., 1055., 1084., 1162.,  808.,  960.,  989.,  944.,
+               1041., 1036.],
+        label: "Europe",
+        borderColor: "#27ae60",
+        fill: false
+      },
+      { 
+        data: [124., 142., 204., 208., 271., 306., 360., 381., 328., 388., 607.,
+               619., 659., 607., 512., 656., 691., 674., 633., 627., 644., 619.,
+               627., 631., 556., 551., 495., 564., 563., 569., 588., 644., 596.,
+               588., 642., 687., 705., 667., 729., 616., 744., 760., 725., 753.,
+               808., 798., 809., 788., 785., 796., 823., 783., 907., 884., 769.,
+               757., 841., 843., 880., 927., 874., 821., 891., 822., 914., 885.,
+               805., 817., 685., 860., 850., 898., 880., 922.],
+        label: "Oceania",
+        borderColor: "#9b59b6",
+        fill: false
+      },
+      { 
+        data: [217., 210., 273., 289., 326., 307., 382., 363., 384., 402., 515.,
+               506., 509., 456., 420., 514., 507., 487., 528., 537., 535., 513.,
+               439., 381., 367., 365., 333., 445., 400., 454., 490., 440., 513.,
+               511., 510., 471., 485., 521., 494., 463., 486., 516., 484., 475.,
+               553., 481., 438., 449., 441., 456., 456., 516., 568., 604., 635.,
+               640., 663., 725., 623., 674., 585., 565., 547., 473., 534., 569.,
+               524., 553., 425., 530., 630., 645., 648., 616.],
+        label: "Others",
+        borderColor: "#95a5a6",
+        fill: false
+      },
+      { 
+        data: [1971., 2117., 2541., 2602., 2562., 3313., 3551., 3888., 3730.,
+               4000., 4447., 4408., 4450., 4053., 4083., 3854., 3520., 3474.,
+               3514., 3716., 3852., 3644., 3774., 3645., 3486., 3226., 3351.,
+               4014., 3999., 3738., 4146., 4256., 4240., 4281., 4119., 4069.,
+               4083., 4112., 4070., 3551., 4318., 4275., 3895., 4430., 4300.,
+               4020., 4429., 4569., 4491., 4540., 4494., 3841., 4555., 5010.,
+               4663., 4702., 5019., 5077., 5266., 5345., 4857., 4887., 4816.,
+               4159., 4972., 5022., 5013., 5189., 4543., 5301., 4944., 5322.,
+               5188., 5367.],
+        label: "Worldwide",
+        borderColor: "#c0392b",
+        fill: false
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    title: {
+      display: true,
+      text: 'Number of products sent to each continent per days'
+    },
+    scales: {
+        xAxes: [{
+            type: 'time'
+          
         }]
     },
-    options: {
+    annotation: {
 
-      maintainAspectRatio: false,
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
+      drawTime: 'afterDatasetsDraw',
+      events: ['click'],
+      annotations: [{
+        id: 'vline',
+        type: 'line',
+        mode: 'vertical',
+        scaleID: 'x-axis-0',
+        value: moment("2014-11-05", "YYYY-MM-DD"),
+        borderColor: 'red',
+        borderWidth: 3,
+        label: {
+          backgroundColor: 'red',
+          content: 'Onymous Operation',
+          enabled: true,
+          position:'top',
+          yAdjust:0
+        },
+        onClick: function(e) {
+          // The annotation is is bound to the `this` variable
+          console.log('Annotation', e.type, this);
         }
+
+      }]
     }
+  }
 });
+/**
+ *    to products
+ */
+var ctx = document.getElementById('to_product_chart').getContext('2d');
 
+var from_product_chart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: [  moment('2014-04-06', "YYYY-MM-DD"), moment('2014-04-26', "YYYY-MM-DD"),
+               moment('2014-05-16', "YYYY-MM-DD"), moment('2014-05-24', "YYYY-MM-DD"), moment('2014-06-01', "YYYY-MM-DD"), moment('2014-08-03', "YYYY-MM-DD"),
+               moment('2014-08-14', "YYYY-MM-DD"), moment('2014-08-27', "YYYY-MM-DD"), moment('2014-09-05', "YYYY-MM-DD"), moment('2014-09-22', "YYYY-MM-DD"),
+               moment('2014-10-25', "YYYY-MM-DD"), moment('2014-10-29', "YYYY-MM-DD"), moment('2014-10-31', "YYYY-MM-DD"), moment('2014-11-06', "YYYY-MM-DD"),
+               moment('2014-11-07', "YYYY-MM-DD"), moment('2014-11-15', "YYYY-MM-DD"), moment('2014-12-01', "YYYY-MM-DD"), moment('2014-12-03', "YYYY-MM-DD"),
+               moment('2014-12-06', "YYYY-MM-DD"), moment('2014-12-10', "YYYY-MM-DD"), moment('2014-12-15', "YYYY-MM-DD"), moment('2014-12-20', "YYYY-MM-DD"),
+               moment('2014-12-23', "YYYY-MM-DD"), moment('2014-12-24', "YYYY-MM-DD"), moment('2014-12-28', "YYYY-MM-DD"), moment('2014-12-30', "YYYY-MM-DD"),
+               moment('2015-01-01', "YYYY-MM-DD"), moment('2015-01-08', "YYYY-MM-DD"), moment('2015-01-09', "YYYY-MM-DD"), moment('2015-01-15', "YYYY-MM-DD"),
+               moment('2015-01-16', "YYYY-MM-DD"), moment('2015-01-21', "YYYY-MM-DD"), moment('2015-01-24', "YYYY-MM-DD"), moment('2015-01-26', "YYYY-MM-DD"),
+               moment('2015-01-28', "YYYY-MM-DD"), moment('2015-02-01', "YYYY-MM-DD"), moment('2015-02-02', "YYYY-MM-DD"), moment('2015-02-09', "YYYY-MM-DD"),
+               moment('2015-02-11', "YYYY-MM-DD"), moment('2015-02-13', "YYYY-MM-DD"), moment('2015-02-16', "YYYY-MM-DD"), moment('2015-02-17', "YYYY-MM-DD"),
+               moment('2015-02-24', "YYYY-MM-DD"), moment('2015-02-26', "YYYY-MM-DD"), moment('2015-02-28', "YYYY-MM-DD"), moment('2015-03-03', "YYYY-MM-DD"),
+               moment('2015-03-05', "YYYY-MM-DD"), moment('2015-03-07', "YYYY-MM-DD"), moment('2015-03-10', "YYYY-MM-DD"), moment('2015-03-13', "YYYY-MM-DD"),
+               moment('2015-03-15', "YYYY-MM-DD"), moment('2015-03-19', "YYYY-MM-DD"), moment('2015-03-22', "YYYY-MM-DD"), moment('2015-03-29', "YYYY-MM-DD"),
+               moment('2015-03-30', "YYYY-MM-DD"), moment('2015-04-02', "YYYY-MM-DD"), moment('2015-04-03', "YYYY-MM-DD"), moment('2015-04-07', "YYYY-MM-DD"),
+               moment('2015-04-10', "YYYY-MM-DD"), moment('2015-04-12', "YYYY-MM-DD"), moment('2015-04-25', "YYYY-MM-DD"), moment('2015-04-27', "YYYY-MM-DD"),
+               moment('2015-05-04', "YYYY-MM-DD"), moment('2015-05-06', "YYYY-MM-DD"), moment('2015-05-10', "YYYY-MM-DD"), moment('2015-05-13', "YYYY-MM-DD"),
+               moment('2015-06-04', "YYYY-MM-DD"), moment('2015-06-11', "YYYY-MM-DD"), moment('2015-06-15', "YYYY-MM-DD"), moment('2015-06-20', "YYYY-MM-DD"),
+               moment('2015-06-26', "YYYY-MM-DD"), moment('2015-06-30', "YYYY-MM-DD"), moment('2015-07-04', "YYYY-MM-DD"), moment('2015-07-07', "YYYY-MM-DD")],
+    datasets: [{ 
+        data: [1555, 1645, 1642, 1657, 1817, 1854, 2136, 2100, 2099, 2316, 2484,
+               2526, 2563, 2476, 2372, 2535, 2749, 2716, 2848, 2750, 2766, 2729,
+               2792, 2700, 2522, 2507, 2403, 3044, 2934, 2873, 2932, 3048, 3118,
+               3139, 2997, 3142, 3251, 3138, 3263, 2801, 3297, 3303, 3025, 3317,
+               3269, 2822, 3484, 3366, 3310, 3248, 3163, 3147, 3542, 3640, 3518,
+               3584, 3653, 3645, 3673, 3748, 3764, 3892, 3531, 3357, 3844, 3769,
+               3804, 3737, 3223, 3745, 3411, 3762, 3904, 3712],
+        label: "America",
+        borderColor: "#3e95cd",
+        fill: false
+      },
+      { 
+        data: [ 402,  449,  474,  332,  181,  499,  420,  527,  534,  586,  639,
+                625,  580,  508,  549,  556,  532,  527,  572,  562,  612,  570,
+                622,  619,  542,  316,  439,  588,  622,  415,  637,  632,  625,
+                622,  631,  627,  584,  605,  617,  433,  616,  554,  530,  569,
+                563,  605,  607,  732,  754,  733,  810,  337,  788,  821,  720,
+                826,  844,  871,  900,  921,  832,  839,  895,  676,  891,  895,
+               1054, 1088, 1127, 1146, 1158, 1142, 1120, 1123],
+        label: "Asia",
+        borderColor: "#f1c40f",
+        fill: false
+      },
+      { 
+        data: [1573, 1803, 1764, 2052, 2321, 2479, 2791, 2751, 2372, 2938, 3325,
+               3351, 3356, 2973, 2999, 3330, 2887, 2873, 2820, 3099, 3174, 2841,
+               2926, 2694, 2812, 2778, 2643, 3049, 3006, 3172, 3393, 3425, 3495,
+               3542, 3440, 3312, 3354, 3487, 3521, 3155, 3605, 3619, 3459, 3655,
+               3590, 3332, 3499, 3546, 3486, 3533, 3393, 3351, 3601, 4009, 3780,
+               3625, 3735, 3888, 4126, 4263, 3881, 3918, 3652, 3251, 3853, 3917,
+               3803, 3970, 3117, 3843, 3794, 3910, 3944, 4065],
+        label: "Europe",
+        borderColor: "#27ae60",
+        fill: false
+      },
+      { 
+        data: [ 146,  187,  271,  283,  335,  373,  446,  476,  426,  492,  606,
+                626,  644,  592,  539,  736,  760,  746,  698,  698,  729,  693,
+                647,  648,  594,  614,  550,  634,  624,  636,  656,  717,  669,
+                661,  715,  759,  770,  690,  756,  642,  773,  787,  754,  823,
+                827,  808,  826,  798,  793,  805,  836,  807,  955,  958,  833,
+                831,  915,  909,  950, 1001,  954,  913,  969,  893,  995,  955,
+                885,  900,  776,  949,  918,  953,  935,  985],
+        label: "Oceania",
+        borderColor: "#9b59b6",
+        fill: false
+      },
+      { 
+        data: [215, 175, 221, 229,  83, 139, 158, 204, 198, 214, 274, 294, 318,
+               292, 255, 242, 241, 238, 263, 246, 240, 245, 255, 250, 200, 136,
+               179, 189, 179, 135, 183, 190, 189, 198, 160, 135, 134, 131,  90,
+               108, 125, 118, 114, 118, 169, 160, 157, 170, 176, 188, 183, 160,
+               186, 234, 229, 223, 224, 230, 234, 231, 221, 203, 222, 211, 227,
+               202, 206, 233, 201, 239, 223, 255, 233, 258],
+        label: "Others",
+        borderColor: "#95a5a6",
+        fill: false
+      },
+      { 
+        data: [ 56, 127, 391, 471, 375, 486, 448, 636, 641, 517, 639, 585, 621,
+               411, 548, 115, 104,  56,  51,  51,  51,  50,  71,  71,  61,  55,
+                54,  78,  72,  80,  84,  89,  98,  98,  90,  97, 104, 101, 108,
+                83, 103,  97, 101, 112,  99,  91,  98, 105, 106, 110, 114,  81,
+               104, 101,  94,  73, 158, 173, 171, 172, 171, 185, 187, 166, 209,
+               197, 139, 187, 140, 161, 167, 154, 149, 140],
+        label: "Worldwide",
+        borderColor: "#c0392b",
+        fill: false
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    title: {
+      display: true,
+      text: 'Number of products sent from each continent per days'
+    },
+    scales: {
+        xAxes: [{
+            type: 'time'
+          
+        }]
+    },
+    annotation: {
 
+      drawTime: 'afterDatasetsDraw',
+      events: ['click'],
+      annotations: [{
+        id: 'vline',
+        type: 'line',
+        mode: 'vertical',
+        scaleID: 'x-axis-0',
+        value: moment("2014-11-05", "YYYY-MM-DD"),
+        borderColor: 'red',
+        borderWidth: 3,
+        label: {
+          backgroundColor: 'red',
+          content: 'Onymous Operation',
+          enabled: true,
+          position:'top',
+          yAdjust:0
+        },
+        onClick: function(e) {
+          // The annotation is is bound to the `this` variable
+          console.log('Annotation', e.type, this);
+        }
+
+      }]
+    }
+  }
+});
 
 /**
  *    Products
@@ -109,9 +350,16 @@ var nbProductsChart = new Chart(ctx, {
   }
 });
 
-var nbProductsZoom = false
 
+
+function toggleText(button_id, zoom)  {
+   var text = document.getElementById(button_id).firstChild;
+   text.data = zoom ? "Zoom In" : "Zoom Out";
+}
+
+var nbProductsZoom = false
 function nbProductsScale() {
+  toggleText("nbProductsScale", nbProductsZoom);
   if (nbProductsZoom) {
     nbProductsChart.options.scales.xAxes[0].time.min = nbProductsChart.data.labels[0];
     nbProductsChart.options.scales.xAxes[0].time.max = nbProductsChart.data.labels[-1];
@@ -139,18 +387,68 @@ var ctx = document.getElementById('priceListing_chart').getContext('2d');
 var priceChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: [moment("2014-01-01", "YYYY-MM-DD"),moment("2014-01-09", "YYYY-MM-DD"),moment("2014-01-16", "YYYY-MM-DD"),moment("2014-01-26", "YYYY-MM-DD"),moment("2014-02-02", "YYYY-MM-DD"),moment("2014-02-05", "YYYY-MM-DD"),moment("2014-02-23", "YYYY-MM-DD"),moment("2014-02-24", "YYYY-MM-DD"),moment("2014-02-28", "YYYY-MM-DD"),moment("2014-03-03", "YYYY-MM-DD"),moment("2014-03-06", "YYYY-MM-DD"),moment("2014-04-06", "YYYY-MM-DD"),moment("2014-08-27", "YYYY-MM-DD"),moment("2014-10-25", "YYYY-MM-DD"),moment("2014-10-29", "YYYY-MM-DD"),moment("2014-10-31", "YYYY-MM-DD"),moment("2014-11-01", "YYYY-MM-DD"),moment("2014-11-08", "YYYY-MM-DD"),moment("2014-11-10", "YYYY-MM-DD"),moment("2014-11-16", "YYYY-MM-DD"),moment("2014-11-18", "YYYY-MM-DD"),moment("2014-11-19", "YYYY-MM-DD"),moment("2014-11-22", "YYYY-MM-DD"),moment("2014-11-23", "YYYY-MM-DD"),moment("2014-11-25", "YYYY-MM-DD"),moment("2014-12-01", "YYYY-MM-DD"),moment("2014-12-03", "YYYY-MM-DD"),moment("2014-12-06", "YYYY-MM-DD"),moment("2014-12-15", "YYYY-MM-DD"),moment("2014-12-23", "YYYY-MM-DD"),moment("2014-12-24", "YYYY-MM-DD"),moment("2014-12-26", "YYYY-MM-DD"),moment("2014-12-28", "YYYY-MM-DD"),moment("2015-01-08", "YYYY-MM-DD"),moment("2015-01-16", "YYYY-MM-DD"),moment("2015-01-21", "YYYY-MM-DD"),moment("2015-01-24", "YYYY-MM-DD"),moment("2015-01-26", "YYYY-MM-DD"),moment("2015-01-29", "YYYY-MM-DD"),moment("2015-02-02", "YYYY-MM-DD"),moment("2015-02-03", "YYYY-MM-DD"),moment("2015-02-05", "YYYY-MM-DD"),moment("2015-02-11", "YYYY-MM-DD"),moment("2015-02-16", "YYYY-MM-DD"),moment("2015-02-26", "YYYY-MM-DD"),moment("2015-02-28", "YYYY-MM-DD"),moment("2015-03-05", "YYYY-MM-DD"),moment("2015-03-07", "YYYY-MM-DD"),moment("2015-03-10", "YYYY-MM-DD"),moment("2015-03-13", "YYYY-MM-DD"),moment("2015-03-15", "YYYY-MM-DD"),moment("2015-03-29", "YYYY-MM-DD"),moment("2015-03-30", "YYYY-MM-DD"),moment("2015-04-02", "YYYY-MM-DD"),moment("2015-04-10", "YYYY-MM-DD"),moment("2015-04-12", "YYYY-MM-DD"),moment("2015-04-13", "YYYY-MM-DD"),moment("2015-04-25", "YYYY-MM-DD"),moment("2015-06-04", "YYYY-MM-DD"),moment("2015-06-20", "YYYY-MM-DD"),moment("2015-06-30", "YYYY-MM-DD")],
+    labels: [  moment('2014-01-09', "YYYY-MM-DD"), moment('2014-01-16', "YYYY-MM-DD"), moment('2014-01-26', "YYYY-MM-DD"), moment('2014-02-02', "YYYY-MM-DD"),
+               moment('2014-02-05', "YYYY-MM-DD"), moment('2014-02-23', "YYYY-MM-DD"), moment('2014-02-24', "YYYY-MM-DD"), moment('2014-02-28', "YYYY-MM-DD"),
+               moment('2014-03-03', "YYYY-MM-DD"), moment('2014-03-06', "YYYY-MM-DD"), moment('2014-04-06', "YYYY-MM-DD"), moment('2014-04-26', "YYYY-MM-DD"),
+               moment('2014-05-16', "YYYY-MM-DD"), moment('2014-05-24', "YYYY-MM-DD"), moment('2014-06-01', "YYYY-MM-DD"), moment('2014-08-03', "YYYY-MM-DD"),
+               moment('2014-08-14', "YYYY-MM-DD"), moment('2014-08-27', "YYYY-MM-DD"), moment('2014-09-05', "YYYY-MM-DD"), moment('2014-09-22', "YYYY-MM-DD"),
+               moment('2014-10-25', "YYYY-MM-DD"), moment('2014-10-29', "YYYY-MM-DD"), moment('2014-10-31', "YYYY-MM-DD"), moment('2014-11-06', "YYYY-MM-DD"),
+               moment('2014-11-07', "YYYY-MM-DD"), moment('2014-11-15', "YYYY-MM-DD"), moment('2014-12-01', "YYYY-MM-DD"), moment('2014-12-03', "YYYY-MM-DD"),
+               moment('2014-12-06', "YYYY-MM-DD"), moment('2014-12-10', "YYYY-MM-DD"), moment('2014-12-15', "YYYY-MM-DD"), moment('2014-12-20', "YYYY-MM-DD"),
+               moment('2014-12-23', "YYYY-MM-DD"), moment('2014-12-24', "YYYY-MM-DD"), moment('2014-12-28', "YYYY-MM-DD"), moment('2014-12-30', "YYYY-MM-DD"),
+               moment('2015-01-01', "YYYY-MM-DD"), moment('2015-01-08', "YYYY-MM-DD"), moment('2015-01-09', "YYYY-MM-DD"), moment('2015-01-15', "YYYY-MM-DD"),
+               moment('2015-01-16', "YYYY-MM-DD"), moment('2015-01-21', "YYYY-MM-DD"), moment('2015-01-24', "YYYY-MM-DD"), moment('2015-01-26', "YYYY-MM-DD"),
+               moment('2015-01-28', "YYYY-MM-DD"), moment('2015-02-01', "YYYY-MM-DD"), moment('2015-02-02', "YYYY-MM-DD"), moment('2015-02-09', "YYYY-MM-DD"),
+               moment('2015-02-11', "YYYY-MM-DD"), moment('2015-02-13', "YYYY-MM-DD"), moment('2015-02-16', "YYYY-MM-DD"), moment('2015-02-17', "YYYY-MM-DD"),
+               moment('2015-02-24', "YYYY-MM-DD"), moment('2015-02-26', "YYYY-MM-DD"), moment('2015-02-28', "YYYY-MM-DD"), moment('2015-03-03', "YYYY-MM-DD"),
+               moment('2015-03-05', "YYYY-MM-DD"), moment('2015-03-07', "YYYY-MM-DD"), moment('2015-03-10', "YYYY-MM-DD"), moment('2015-03-13', "YYYY-MM-DD"),
+               moment('2015-03-15', "YYYY-MM-DD"), moment('2015-03-19', "YYYY-MM-DD"), moment('2015-03-22', "YYYY-MM-DD"), moment('2015-03-29', "YYYY-MM-DD"),
+               moment('2015-03-30', "YYYY-MM-DD"), moment('2015-04-02', "YYYY-MM-DD"), moment('2015-04-03', "YYYY-MM-DD"), moment('2015-04-07', "YYYY-MM-DD"),
+               moment('2015-04-10', "YYYY-MM-DD"), moment('2015-04-12', "YYYY-MM-DD"), moment('2015-04-25', "YYYY-MM-DD"), moment('2015-04-27', "YYYY-MM-DD"),
+               moment('2015-05-04', "YYYY-MM-DD"), moment('2015-05-06', "YYYY-MM-DD"), moment('2015-05-10', "YYYY-MM-DD"), moment('2015-05-13', "YYYY-MM-DD"),
+               moment('2015-06-04', "YYYY-MM-DD"), moment('2015-06-11', "YYYY-MM-DD"), moment('2015-06-15', "YYYY-MM-DD"), moment('2015-06-20', "YYYY-MM-DD"),
+               moment('2015-06-26', "YYYY-MM-DD"), moment('2015-06-30', "YYYY-MM-DD"), moment('2015-07-04', "YYYY-MM-DD"), moment('2015-07-07', "YYYY-MM-DD")],
     datasets: [{ 
-        data: [ 1566,  1823,  2368,  2867,  3319,  3421,  6876,  6869,  7676,
-                8258,  8423,  9697, 15814, 18278, 18379, 18539, 18676, 17412,
-               17636, 18988, 19234, 18926, 18589, 18203, 18172, 18570, 18509,
-               18989, 19343, 19038, 18093, 17849, 18143, 18471, 18690, 19345,
-               19484, 19595, 18963, 19929, 20379, 20182, 20397, 20645, 20842,
-               20899, 21361, 21318, 21600, 21613, 20884, 24324, 22330, 21529,
-               25009, 25426, 26222, 24659, 25650, 26860, 26602],
-        label: "Number Of Products",
+        data: [562.95224133, 575.84069082, 589.85097827,562.95224133, 
+               575.84069082, 589.85097827,562.95224133, 575.84069082, 
+               589.85097827, 583.01048821, 544.99797489, 551.08077355,
+               562.95224133, 575.84069082, 589.85097827, 614.28113635,
+               616.20594419, 635.21654313, 668.35342235, 699.10701777,
+               715.17654487, 701.88410821, 692.5748183 , 688.24228493,
+               683.77955969, 670.82576548, 668.0957036 , 655.40993344,
+               633.33014444, 614.62518327, 609.02424752, 604.79960215,
+               602.71098044, 597.5492873 , 596.75897752, 593.30833244,
+               594.46551728, 593.6155897 , 593.5304755 , 593.27323491,
+               594.71101477, 591.44116238, 589.00037686, 587.09147474,
+               580.42078236, 577.33515759, 573.35614053, 571.03588786,
+               569.3427755 , 564.16372219, 559.4205787 , 558.24710285,
+               554.75175313, 553.75881088, 553.03698076, 551.41877086,
+               551.52659137, 550.07091343, 547.62774905, 545.66777501,
+               543.82166686, 542.65712707, 541.28819466, 539.15792399,
+               537.68771107, 537.96945176, 536.13333011, 535.14314823,
+               535.72023045, 536.07832032, 535.24566154, 536.06086178,
+               535.46391004, 537.47067605, 538.16585679, 536.01084754,
+               532.18179053, 528.11499942, 513.2632031 , 506.50381766,
+               505.80236663, 499.88612868, 492.1201984 , 484.31627365],
+        label: "Price(USD)",
         borderColor: "#3e95cd",
-        fill: true
+        fill: false
+      },
+      { 
+        data: [841.47, 860.29, 853.68, 832.9 , 829.96, 606.47, 606.04, 579.7 ,
+               562.56, 664.52, 463.4 , 461.7 , 447.39, 521.05, 623.69, 588.89,
+               546.18, 512.19, 489.67, 399.1 , 358.61, 357.09, 345.01, 339.46,
+               349.82, 399.65, 378.25, 381.72, 376.76, 352.2 , 351.36, 317.62,
+               332.02, 334.39, 316.16, 312.72, 320.43, 294.14, 282.38, 176.9 ,
+               209.07, 211.38, 232.7 , 254.08, 263.35, 216.87, 226.49, 223.39,
+               219.73, 221.97, 234.82, 233.42, 239.  , 237.34, 253.52, 275.05,
+               272.74, 272.29, 289.86, 294.12, 281.42, 255.88, 259.92, 252.74,
+               242.88, 247.09, 253.07, 255.27, 243.69, 236.54, 231.24, 219.43,
+               240.36, 236.25, 241.73, 241.4 , 225.77, 228.85, 233.42, 244.53,
+               242.6 , 257.04, 256.49, 269.96],
+        label: "Price(BTC)",
+        borderColor: "#f1c40f",
+        fill: false
       }
     ]
   },
@@ -159,7 +457,7 @@ var priceChart = new Chart(ctx, {
     maintainAspectRatio: false,
     title: {
       display: true,
-      text: 'Number of products listed on Agora Market per day'
+      text: 'Average price of products listed on Agora Market'
     },
     scales: {
         xAxes: [{
@@ -183,7 +481,7 @@ var priceChart = new Chart(ctx, {
           backgroundColor: 'red',
           content: 'Onymous Operation',
           enabled: true,
-          position:'top',
+          position:'bottom',
           yAdjust:0
         },
         onClick: function(e) {
@@ -199,24 +497,25 @@ var priceChart = new Chart(ctx, {
 var priceZoom = false
 
 function priceScale() {
+  toggleText("priceScale", priceZoom);
   if (priceZoom) {
     priceChart.options.scales.xAxes[0].time.min = priceChart.data.labels[0];
     priceChart.options.scales.xAxes[0].time.max = priceChart.data.labels[-1];
-    priceChart.options.scales.yAxes[0].ticks.max = 30000;
-    priceChart.options.scales.yAxes[0].ticks.min = 0;
+    priceChart.options.scales.yAxes[0].ticks.max = 900;
+    priceChart.options.scales.yAxes[0].ticks.min = 100;
     priceChart.update();
     priceZoom = false
   } else {
     priceChart.options.scales.xAxes[0].time.min = moment('2014-10-01', "YYYY-MM-DD");
     priceChart.options.scales.xAxes[0].time.max = moment('2014-12-01', "YYYY-MM-DD");
-    priceChart.options.scales.yAxes[0].ticks.max = 19500;
-    priceChart.options.scales.yAxes[0].ticks.min = 16500;
+    priceChart.options.scales.yAxes[0].ticks.max = 750;
+    priceChart.options.scales.yAxes[0].ticks.min = 200;
 
     priceChart.update();
     priceZoom = true
   }
 }
-priceScale()
+//priceScale()
 
 /**
  *    Mean number of products per vendor
@@ -327,6 +626,7 @@ var meanProductsChart = new Chart(ctx, {
 
 var meanProductsZoom = false
 function meanProductsScale() {
+  toggleText("meanProductsScale", meanProductsZoom);
   if (meanProductsZoom) {
     meanProductsChart.options.scales.xAxes[0].time.min = meanProductsChart.data.labels[0];
     meanProductsChart.options.scales.xAxes[0].time.max = meanProductsChart.data.labels[-1];
@@ -440,6 +740,7 @@ var newVendors_chart = new Chart(ctx, {
 });
 var newVendorZoom = false
 function newVendorScale() {
+  toggleText("newVendorScale", newVendorZoom);
   if (newVendorZoom) {
     newVendors_chart.options.scales.xAxes[0].time.min = newVendors_chart.data.labels[0];
     newVendors_chart.options.scales.xAxes[0].time.max = newVendors_chart.data.labels[-1];
@@ -569,6 +870,7 @@ var activeVendorChart = new Chart(ctx, {
 
 var activeVendorZoom = false
 function activeVendorScale() {
+  toggleText("activeVendorScale", activeVendorZoom);
   if (activeVendorZoom) {
     activeVendorChart.options.scales.xAxes[0].time.min = activeVendorChart.data.labels[0];
     activeVendorChart.options.scales.xAxes[0].time.max = activeVendorChart.data.labels[-1];
@@ -842,6 +1144,7 @@ var categoriesChart = new Chart(ctx, {
 
 var categoriesZoom = false
 function categoriesScale() {
+  toggleText("categoriesScale", categoriesZoom);
   if (categoriesZoom) {
     categoriesChart.options.scales.xAxes[0].time.min = categoriesChart.data.labels[0];
     categoriesChart.options.scales.xAxes[0].time.max = categoriesChart.data.labels[-1];
@@ -1197,16 +1500,13 @@ function mouseoverChord(d,i) {
 function setInfos(){
   i = currentInfoContinent;
   var all_products = matrix[i].reduce(function(a,b){return a+b;});
-  document.getElementById('continent').innerHTML = names[i];
+  document.getElementById('continent').innerHTML = "From " + names[i];
   document.getElementById("continentInfo").rows[1].cells[1].innerHTML = Math.round(matrix[i][0]);
   document.getElementById("continentInfo").rows[2].cells[1].innerHTML = Math.round(matrix[i][1]);
   document.getElementById("continentInfo").rows[3].cells[1].innerHTML = Math.round(matrix[i][2]);
   document.getElementById("continentInfo").rows[4].cells[1].innerHTML = Math.round(matrix[i][3]);
   document.getElementById("continentInfo").rows[5].cells[1].innerHTML = Math.round(matrix[i][4]);
   document.getElementById("continentInfo").rows[6].cells[1].innerHTML = Math.round(all_products);
-
-
-  document.getElementById('continent').innerHTML = names[i];
   
   document.getElementById("continentInfo").rows[1].cells[2].innerHTML = (matrix[i][0]/all_products*100).toFixed(2)+ "%";
   document.getElementById("continentInfo").rows[2].cells[2].innerHTML = (matrix[i][1]/all_products*100).toFixed(2)+ "%";

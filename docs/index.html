@@ -118,7 +118,7 @@
                 <canvas id="numberOfProducts_chart"></canvas>
               </div>
               <br>
-              <button class="btn btn-small" onclick="nbProductsScale()">Zoom In/Out</button>
+              <button id="nbProductsScale" class="btn btn-small" onclick="nbProductsScale()">Zoom Out</button>
 
             </center>
           </div>
@@ -131,7 +131,7 @@
                 <canvas id="categories_chart"></canvas>
               </div>
               <br>
-              <button class="btn btn-small" onclick="categoriesScale()">Zoom In/Out</button>
+              <button id="categoriesScale" class="btn btn-small" onclick="categoriesScale()">Zoom Out</button>
             </center>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
@@ -157,7 +157,7 @@
                 <canvas id="priceListing_chart"></canvas>
               </div>
               <br>
-              <button class="btn btn-small" onclick="meanProductsScale()">Zoom In/Out</button>
+              <button id="priceScale" class="btn btn-small" onclick="priceScale()">Zoom In</button>
             </center>
           </div>
 
@@ -252,13 +252,21 @@
           </div>
       </div>
       <div class="row">
-        <div class="col-11 offset-1 aligncenter">
-          <center>
+        <div class="col-5 offset-1 aligncenter">
+            <center>
+              <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                <canvas id="from_product_chart"></canvas>
+              </div>
+            </center>
+        </div>
+        <div class="col-5 offset-1 aligncenter">
+            <center>
             <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
-              <canvas id="forum_chart"></canvas>
+              <canvas id="to_product_chart"></canvas>
             </div>
           </center>
         </div>
+          
       </div>
     
         <div class="row" style=";margin-top:90px">
@@ -293,7 +301,7 @@
                 <canvas id="numberOfActiveVendors_chart"></canvas>
               </div>
               <br>
-              <button class="btn btn-small" onclick="activeVendorScale()">Zoom In/Out</button>
+              <button id="activeVendorScale" class="btn btn-small" onclick="activeVendorScale()">Zoom Out</button>
             </center>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
@@ -320,7 +328,7 @@
                 <canvas id="vendorsMeanListing_chart"></canvas>
               </div>
               <br>
-              <button class="btn btn-small" onclick="meanProductsScale()">Zoom In/Out</button>
+              <button id="meanProductsScale" class="btn btn-small" onclick="meanProductsScale()">Zoom In</button>
             </center>
           </div>
 
@@ -336,7 +344,7 @@
                 <canvas id="newVendors_chart"></canvas>
               </div>
               <br>
-              <button class="btn btn-small" onclick="newVendorScale()">Zoom In/Out</button>
+              <button id="newVendorScale" class="btn btn-small" onclick="newVendorScale()">Zoom In</button>
             </center>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
@@ -424,7 +432,7 @@
           <!--<p class="muted">select a type of vendor to filter</p>-->
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="margin-top: 30px">
         <div class="col-xs-11 col-sm-11 col-md-11 offset-1">
 
           <div id="gain-loss-chart" class="dc-chart">
@@ -454,12 +462,12 @@
 
         
       </div>
-      <div class="row">
+      <div class="row" >
         <div class="col-xs-11 col-sm-11 col-md-11 col-11 offset-1 aligncenter" align="left">
           <!--<p class="muted" >select a category of vendor or product to filter</p>-->
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="margin-top: 30px">
         <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
           <div id="monthly-move-chart" class="dc-chart">
             <strong>Total number of products</strong>
@@ -469,7 +477,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="margin-top: 30px">
         <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
           <div id="monthly-volume-chart" class="dc-chart"></div>
           <!--<p class="muted" style="margin-right: 25px;">select a time range to zoom in</p>-->
@@ -496,6 +504,7 @@
         Copyright &copy; Florine Reau, Quentin Fisch, Arthur Passuello, François Quellec. All rights reserved 2019
       </div>
     </footer>
+
 
 
     <script src="js/jquery.js"></script>

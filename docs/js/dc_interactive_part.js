@@ -17,7 +17,7 @@ var volumeChart = dc.lineChart('#monthly-volume-chart');
 var yearlyBubbleChart = dc.bubbleChart('#yearly-bubble-chart');
 
 // Load the date
-d3.csv('test.csv').then(function (data) {
+d3.csv('test1.csv').then(function (data) {
     // Since its a csv file we need to format the data a bit.
     var dateFormatSpecifier = '%Y-%m-%d';
     var dateFormat = d3.timeFormat(dateFormatSpecifier);
@@ -30,6 +30,8 @@ d3.csv('test.csv').then(function (data) {
 
         d.price = +d.price; // coerce to number
         d.count = +d.count;
+        d.mean_price_usd = +d.mean_price_usd;
+        d.mean_price_btc = +d.mean_price_btc;
     });
 
     //### Create Crossfilter Dimensions and Groups
@@ -48,19 +50,19 @@ d3.csv('test.csv').then(function (data) {
         /* callback for when data is added to the current filter results */
         function (p, v) {
             ++p.count;
-            p.agg_price += v.price;
+            p.agg_price += v.mean_price_usd * v.count;
             p.numberOfProducts += v.count;
             p.numberOfVendors += 1;
-            p.meanPrice = p.agg_price/p.count;
+            p.meanPrice = p.agg_price/(p.numberOfProducts);
             return p;
         },
         /* callback for when data is removed from the current filter results */
         function (p, v) {
             --p.count;
-            p.agg_price -= v.price;
+            p.agg_price -= v.mean_price_usd * v.count;
             p.numberOfProducts -= v.count;
             p.numberOfVendors -= 1;
-            p.meanPrice = p.agg_price/p.count;
+            p.meanPrice = p.agg_price/p.numberOfProducts;
             return p;
         },
         /* initialize p */
@@ -94,19 +96,19 @@ d3.csv('test.csv').then(function (data) {
     });
     var indexAvgByMonthGroup = dateDimension.group().reduce(
         function (p, v) {
-            ++p.days;
-            p.total += (v.open + v.close) / 2;
-            p.avg = Math.round(p.total / p.days);
+            ++p.count;
+            p.total += v.mean_price_usd;
+            p.avg = Math.round(p.total /p.count);
             return p;
         },
         function (p, v) {
-            --p.days;
-            p.total -= (v.open + v.close) / 2;
-            p.avg = p.days ? Math.round(p.total / p.days) : 0;
+            --p.count;
+            p.total -= v.mean_price_usd;
+            p.avg = p.count ? Math.round(p.total / p.count) : 0;
             return p;
         },
         function () {
-            return {days: 0, total: 0, avg: 0};
+            return {count: 0, total: 0, avg: 0};
         }
     );
 
@@ -117,9 +119,36 @@ d3.csv('test.csv').then(function (data) {
     // Produce counts records in the dimension
     var gainOrLossGroup = gainOrLoss.group();
 
-    var fluctuationGroup = dateDimension.group().reduceSum(function (d) {
-        return d.price;
-    });
+    var fluctuationGroup = dateDimension.group().reduce(
+        /* callback for when data is added to the current filter results */
+        function (p, v) {
+            ++p.count;
+            p.agg_price += v.mean_price_usd * v.count;
+            p.numberOfProducts += v.count;
+            p.numberOfVendors += 1;
+            p.avg = p.agg_price/(p.numberOfProducts);
+            return p;
+        },
+        /* callback for when data is removed from the current filter results */
+        function (p, v) {
+            --p.count;
+            p.agg_price -= v.mean_price_usd * v.count;
+            p.numberOfProducts -= v.count;
+            p.numberOfVendors -= 1;
+            p.avg = p.agg_price/p.numberOfProducts;
+            return p;
+        },
+        /* initialize p */
+        function () {
+            return {
+                count: 0,
+                numberOfProducts: 0,
+                numberOfVendors: 0,
+                meanPrice: 0,
+                agg_price: 0
+            };
+        }
+    );
     // Summarize volume by quarter
     var quarter = ndx.dimension(function (d) {
         return d.country
@@ -294,7 +323,7 @@ d3.csv('test.csv').then(function (data) {
     dayOfWeekChart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
         .width(250)
         .height(180)
-        .margins({top: 20, left: 90, right: 20, bottom: 20})
+        .margins({top: 20, left: 100, right: 20, bottom: 20})
         .group(dayOfWeekGroup)
         .dimension(dayOfWeek)
         // Assign colors to each value in the x scale domain
@@ -336,9 +365,12 @@ d3.csv('test.csv').then(function (data) {
     fluctuationChart /* dc.barChart('#volume-month-chart', 'chartGroup') */
         .width(350)
         .height(180)
-        .margins({top: 20, right: 20, bottom: 20, left: 20})
+        .margins({top: 20, right: 20, bottom: 20, left: 40})
         .dimension(dateDimension)
         .group(fluctuationGroup)
+        .valueAccessor(function (p) {
+            return p.value.avg;
+        })
         .elasticY(true)
         // (_optional_) whether bar should be center to its x value. Not needed for ordinal chart, `default=false`
         //.centerBar(true)
@@ -407,7 +439,7 @@ d3.csv('test.csv').then(function (data) {
     // will always match the zoom of the area chart.
     volumeChart.width(990) /* dc.barChart('#monthly-volume-chart', 'chartGroup'); */
         .height(80)
-        .margins({top: 0, right: 50, bottom: 20, left: 40})
+        .margins({top: 20, right: 50, bottom: 20, left: 40})
         .dimension(dateDimension)
         .group(monthlyMoveGroup, 'Number of vendors')
         .legend(dc.legend().x(40).y(0).itemHeight(13).gap(5))
@@ -415,6 +447,7 @@ d3.csv('test.csv').then(function (data) {
         .round(d3.timeMonth.round)
         .xUnits(d3.timeMonths)
         .elasticY(true)
+        .elasticX(true)
         .brushOn(false)
         .title(function (d) {
             var value = d.value.avg ? d.value.avg : d.value;

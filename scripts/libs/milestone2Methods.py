@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from collections import Counter
 
+import pyspark
 from pyspark import *
 from pyspark.sql import *
 from pyspark.sql.functions import *
@@ -323,4 +324,42 @@ def plot3Date(vendors_that_stayed, vendors_that_retired,all_vendors ):
     ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=10))
     plt.legend()
     plt.show()
+
+
+def generateSquaredFluxMatrix(df, date):
+    udf_func_C = udf(countryToContinent, StringType())
+    udf_func_Cat = udf(processCat, StringType())
+
+    # Remove datas products, there isn't a real delivery for those, only via internet
+    from_to_continents = df.withColumn("cat", udf_func_Cat(col("cat"))).filter(~col('cat').isin("Information", "Data", "Other", "Services"))
+    from_to_continents = from_to_continents.select('date', pyspark.sql.functions.explode(col("to")).alias("to"), "from")
+    from_to_continents = from_to_continents.select('date', pyspark.sql.functions.explode(col("from")).alias("from"), "to")
+    from_to_continents = from_to_continents.filter(col('date').isin(date.tolist()))
+    from_to_continents = from_to_continents.withColumn("from", udf_func_C(col("from")))
+    from_to_continents = from_to_continents.withColumn("to", udf_func_C(col("to")))
+    from_to_continents = from_to_continents.filter(~col('from').isin("None")).filter(~col('to').isin("None"))
+    from_to_continents_count = from_to_continents.groupby("from", "to").count()
+    from_to_continents_count = from_to_continents_count.toPandas()
+
+    # Pivote the table
+    confusion_matrix = pd.pivot_table(from_to_continents_count, values='count', index='from',
+                         columns=['to'], dropna=False, fill_value=0)
+
+    # All worldwide products are shared equally between continents
+    confusion_matrix = confusion_matrix[['america', 'asia', 'europe', 'oceania', 'others', 'worldwide']]
+    confusion_matrix['america'] += confusion_matrix['worldwide']
+    confusion_matrix['asia'] += confusion_matrix['worldwide']
+    confusion_matrix['europe'] += confusion_matrix['worldwide']
+    confusion_matrix['oceania'] += confusion_matrix['worldwide']
+    confusion_matrix['others'] += confusion_matrix['worldwide']
+
+    confusion_matrix = confusion_matrix.drop('worldwide', axis=1)
+    confusion_matrix = confusion_matrix.drop('worldwide')
+
+    # Get ratio 
+    #confusion_matrix = confusion_matrix.div(confusion_matrix.sum(axis=1), axis=0)
+
+    # Get mean flux by day
+    confusion_matrix = confusion_matrix.div(date.shape[0])
+    return confusion_matrix
 
