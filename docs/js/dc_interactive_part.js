@@ -114,7 +114,7 @@ d3.csv('test3.csv').then(function (data) {
 
     // Create categorical dimension
     var gainOrLoss = ndx.dimension(function (d) {
-        return d.open > d.close ? 'Loss' : 'Gain';
+        return d.numMarkets;
     });
     // Produce counts records in the dimension
     var gainOrLossGroup = gainOrLoss.group();
@@ -392,7 +392,7 @@ d3.csv('test3.csv').then(function (data) {
         });
 
     // Customize axes
-  
+
     fluctuationChart.yAxis().ticks(5);
 
     //#### Stacked Area Chart
@@ -457,7 +457,7 @@ d3.csv('test3.csv').then(function (data) {
             return dateFormat(d.key) + '\n' + numberFormat(value);
         });
 
-   
+
     //#### Rendering
 
     //simply call `.renderAll()` to render all charts on the page
