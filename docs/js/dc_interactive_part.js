@@ -8,13 +8,13 @@
 // Create chart objects associated with the container elements identified by the css selector.
 // Note: It is often a good idea to have these objects accessible at the global scope so that they can be modified or
 // filtered by other page controls.
-var gainOrLossChart = dc.pieChart('#gain-loss-chart');
-var fluctuationChart = dc.lineChart('#fluctuation-chart');
-var quarterChart = dc.pieChart('#quarter-chart');
-var dayOfWeekChart = dc.rowChart('#day-of-week-chart');
-var moveChart = dc.lineChart('#monthly-move-chart');
-var volumeChart = dc.lineChart('#monthly-volume-chart');
-var yearlyBubbleChart = dc.bubbleChart('#yearly-bubble-chart');
+var nbOfMarketsChart = dc.pieChart('#nbMarket-chart');
+var meanPriceChart = dc.lineChart('#price-chart');
+var originCountryChart = dc.pieChart('#country-chart');
+var productsCategoryChart = dc.rowChart('#cat-products-chart');
+var nbOfProductsChart = dc.lineChart('#nbProducts-chart');
+var nbOfVendorsChart = dc.lineChart('#nbVendors-chart');
+var VendorsDealsProductsChart = dc.bubbleChart('#vendors-bubble-chart');
 
 // Load the date
 d3.csv('test3.csv').then(function (data) {
@@ -41,19 +41,19 @@ d3.csv('test3.csv').then(function (data) {
     var all = ndx.groupAll();
 
     // Dimension by year
-    var yearlyDimension = ndx.dimension(function (d) {
+    var nbDealsDimension = ndx.dimension(function (d) {
         //return d3.timeYear(d.dd).getFullYear();
         return d.nbDeals
     });
     // Maintain running tallies by year as filters are applied or removed
-    var yearlyPerformanceGroup = yearlyDimension.group().reduce(
+    var VendorsDealsProductsGroup = nbDealsDimension.group().reduce(
         /* callback for when data is added to the current filter results */
         function (p, v) {
             ++p.count;
             p.agg_price += v.mean_price_usd * v.count;
             p.numberOfProducts += v.count;
             p.numberOfVendors += 1;
-            p.meanPrice = p.agg_price/(p.numberOfProducts);
+            p.meanPrice = p.agg_price/p.numberOfProducts;
             return p;
         },
         /* callback for when data is removed from the current filter results */
@@ -62,7 +62,7 @@ d3.csv('test3.csv').then(function (data) {
             p.agg_price -= v.mean_price_usd * v.count;
             p.numberOfProducts -= v.count;
             p.numberOfVendors -= 1;
-            p.meanPrice = p.agg_price/p.numberOfProducts;
+            p.meanPrice = p.count? p.agg_price/p.numberOfProducts : 0;
             return p;
         },
         /* initialize p */
@@ -82,87 +82,66 @@ d3.csv('test3.csv').then(function (data) {
         return d.dd;
     });
 
-    // Dimension by month
-    var moveMonths = ndx.dimension(function (d) {
-        return d.dd;
-    });
     // Group by total movement within month
-    var monthlyMoveGroup = dateDimension.group().reduceSum(function (d) {
+    var nbVendorsGroup = dateDimension.group().reduceSum(function (d) {
         return 1;
     });
     // Group by total volume within move, and scale down result
-    var volumeByMonthGroup = dateDimension.group().reduceSum(function (d) {
+    var nbProductsGroup = dateDimension.group().reduceSum(function (d) {
         return d.count;
     });
-    var indexAvgByMonthGroup = dateDimension.group().reduce(
-        function (p, v) {
-            ++p.count;
-            p.total += v.mean_price_usd;
-            p.avg = Math.round(p.total /p.count);
-            return p;
-        },
-        function (p, v) {
-            --p.count;
-            p.total -= v.mean_price_usd;
-            p.avg = p.count ? Math.round(p.total / p.count) : 0;
-            return p;
-        },
-        function () {
-            return {count: 0, total: 0, avg: 0};
-        }
-    );
 
     // Create categorical dimension
-    var gainOrLoss = ndx.dimension(function (d) {
+    var numberOfMarkets = ndx.dimension(function (d) {
         return d.numMarkets;
     });
     // Produce counts records in the dimension
-    var gainOrLossGroup = gainOrLoss.group();
+    var numberOfMarketsGroup = numberOfMarkets.group();
 
-    var fluctuationGroup = dateDimension.group().reduce(
+    var meanPriceGroup = dateDimension.group().reduce(
         /* callback for when data is added to the current filter results */
         function (p, v) {
-            ++p.count;
+            ++p.date;
             p.agg_price += v.mean_price_usd * v.count;
             p.numberOfProducts += v.count;
-            p.numberOfVendors += 1;
-            p.avg = p.agg_price/(p.numberOfProducts);
+            p.avg = Math.round(p.agg_price /p.numberOfProducts);
             return p;
         },
         /* callback for when data is removed from the current filter results */
         function (p, v) {
-            --p.count;
+            --p.date;
             p.agg_price -= v.mean_price_usd * v.count;
             p.numberOfProducts -= v.count;
-            p.numberOfVendors -= 1;
-            p.avg = p.agg_price/p.numberOfProducts;
+            p.avg = p.date ?  Math.round(p.agg_price /p.numberOfProducts):0;
             return p;
         },
         /* initialize p */
         function () {
             return {
-                count: 0,
+                date: 0,
                 numberOfProducts: 0,
                 numberOfVendors: 0,
-                meanPrice: 0,
+                avg: 0,
                 agg_price: 0
             };
         }
     );
-    // Summarize volume by quarter
-    var quarter = ndx.dimension(function (d) {
+    
+
+    // Summarize volume by country
+    var country = ndx.dimension(function (d) {
         return d.country
     });
-    var quarterGroup = quarter.group().reduceSum(function (d) {
+    var countryGroup = country.group().reduceSum(function (d) {
         return 1;
     });
 
     // Counts per weekday
-    var dayOfWeek = ndx.dimension(function (d) {
+    var productsCategories = ndx.dimension(function (d) {
 
         return d.cat + '.' + d.cat;
     });
-    var dayOfWeekGroup = dayOfWeek.group();
+    var productsCategoriesGroup = productsCategories.group();
 
     //### Define Chart Attributes
     // Define chart attributes using fluent methods. See the
@@ -177,18 +156,18 @@ d3.csv('test3.csv').then(function (data) {
     //on charts within the same chart group.
     // <br>API: [Bubble Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bubble-chart)
 
-    yearlyBubbleChart /* dc.bubbleChart('#yearly-bubble-chart', 'chartGroup') */
+    VendorsDealsProductsChart /* dc.bubbleChart('#yearly-bubble-chart', 'chartGroup') */
         // (_optional_) define chart width, `default = 200`
         .width(990)
         // (_optional_) define chart height, `default = 200`
         .height(250)
         // (_optional_) define chart transition duration, `default = 750`
-        .transitionDuration(1500)
+        .transitionDuration(750)
         .margins({top: 10, right: 50, bottom: 30, left: 40})
-        .dimension(yearlyDimension)
+        .dimension(nbDealsDimension)
         //The bubble chart expects the groups are reduced to multiple values which are used
         //to generate x, y, and radius for each key (bubble) in the group
-        .group(yearlyPerformanceGroup)
+        .group(VendorsDealsProductsGroup)
         // (_optional_) define color function or array for bubbles: [ColorBrewer](http://colorbrewer2.org/)
         .colors(d3.schemeRdYlGn[9])
         //(optional) define color domain to match your data domain if you want to bind data or color
@@ -215,18 +194,18 @@ d3.csv('test3.csv').then(function (data) {
             return p.value.numberOfProducts;
         })
         .maxBubbleRelativeSize(0.3)
-        .x(d3.scaleLinear().domain([0, 400000]))
-        .y(d3.scaleLinear().domain([-50, 100]))
-        .r(d3.scaleLinear().domain([0, 1000000]))
+        .x(d3.scaleLinear().domain([0, 40000]))
+        .y(d3.scaleLinear().domain([0, 2500]))
+        .r(d3.scaleLinear().domain([0, 5000000]))
         //##### Elastic Scaling
 
         //`.elasticY` and `.elasticX` determine whether the chart should rescale each axis to fit the data.
-        //.elasticY(true)
-        .elasticX(true)
         .elasticY(true)
+        .elasticX(true)
+        //.elasticY(true)
         //`.yAxisPadding` and `.xAxisPadding` add padding to data above and below their max values in the same unit
         //domains as the Accessors.
-        //.yAxisPadding(500)
+        .yAxisPadding(500)
         .xAxisPadding(500)
         // (_optional_) render horizontal grid lines, `default=false`
         .renderHorizontalGridLines(true)
@@ -260,6 +239,19 @@ d3.csv('test3.csv').then(function (data) {
         // so any additional method chaining applies to the axis, not the chart.
         ;
 
+    // Fix bug when bubble chart has to rescale, all bubble end at the top
+    /*
+        dc.override(VendorsDealsProductsChart, "_prepareYAxis", function(g) {
+        this.__prepareYAxis(g);
+        var max = d3.max(VendorsDealsProductsChart.data(), function (layer) {
+                      return d3.max(layer.values, function (p) {
+                          return p.y + p.y;
+                      });
+                  });
+        this.y(d3.scaleLinear().domain([0, max]))
+    });
+
+    */
     // #### Pie/Donut Charts
 
     // Create a pie chart and use the given css selector as anchor. You can also specify
@@ -268,7 +260,7 @@ d3.csv('test3.csv').then(function (data) {
     // on other charts within the same chart group.
     // <br>API: [Pie Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#pie-chart)
 
-    gainOrLossChart /* dc.pieChart('#gain-loss-chart', 'chartGroup') */
+    nbOfMarketsChart /* dc.pieChart('#gain-loss-chart', 'chartGroup') */
     // (_optional_) define chart width, `default = 200`
         .width(180)
     // (optional) define chart height, `default = 200`
@@ -276,12 +268,12 @@ d3.csv('test3.csv').then(function (data) {
     // Define pie radius
         .radius(80)
     // Set dimension
-        .dimension(gainOrLoss)
+        .dimension(numberOfMarkets)
     // Set group
-        .group(gainOrLossGroup)
+        .group(numberOfMarketsGroup)
     // (_optional_) by default pie chart will use `group.key` as its label but you can overwrite it with a closure.
         .label(function (d) {
-            if (gainOrLossChart.hasFilter() && !gainOrLossChart.hasFilter(d.key)) {
+            if (nbOfMarketsChart.hasFilter() && !nbOfMarketsChart.hasFilter(d.key)) {
                 return d.key + '(0%)';
             }
             var label = d.key;
@@ -305,13 +297,13 @@ d3.csv('test3.csv').then(function (data) {
         .colorAccessor(function(d, i){return d.value;})
         */;
 
-    quarterChart /* dc.pieChart('#quarter-chart', 'chartGroup') */
+    originCountryChart /* dc.pieChart('#country-chart', 'chartGroup') */
         .width(180)
         .height(180)
         .radius(80)
         .innerRadius(30)
-        .dimension(quarter)
-        .group(quarterGroup);
+        .dimension(country)
+        .group(countryGroup);
 
     //#### Row Chart
 
@@ -320,12 +312,12 @@ d3.csv('test3.csv').then(function (data) {
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Row Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#row-chart)
-    dayOfWeekChart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
+    productsCategoryChart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
         .width(250)
         .height(180)
         .margins({top: 20, left: 100, right: 20, bottom: 20})
-        .group(dayOfWeekGroup)
-        .dimension(dayOfWeek)
+        .group(productsCategoriesGroup)
+        .dimension(productsCategories)
         // Assign colors to each value in the x scale domain
         .ordinalColors(['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#dadaeb'])
         .label(function (d) {
@@ -339,7 +331,7 @@ d3.csv('test3.csv').then(function (data) {
         .elasticX(true)
         .xAxis().ticks(4);
 
-        dayOfWeekChart.on('renderlet', function (chart) {
+        productsCategoryChart.on('renderlet', function (chart) {
             chart.selectAll("g.row  text")
                 .style("text-anchor", "end")
                 .call(function (t) {
@@ -362,27 +354,24 @@ d3.csv('test3.csv').then(function (data) {
     // to a specific group then any interaction with such chart will only trigger redraw
     // on other charts within the same chart group.
     // <br>API: [Bar Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bar-chart)
-    fluctuationChart /* dc.barChart('#volume-month-chart', 'chartGroup') */
+    meanPriceChart /* dc.barChart('#volume-month-chart', 'chartGroup') */
         .width(350)
         .height(180)
         .margins({top: 20, right: 20, bottom: 20, left: 40})
+        .transitionDuration(1000)
         .dimension(dateDimension)
-        .group(fluctuationGroup)
-        .valueAccessor(function (p) {
-            return p.value.avg;
-        })
-        .elasticY(true)
-        // (_optional_) whether bar should be center to its x value. Not needed for ordinal chart, `default=false`
-        //.centerBar(true)
-        // (_optional_) set gap between bars manually in px, `default=2`
-        //.gap(1)
-        // (_optional_) set filter brush rounding
-        .rangeChart(volumeChart)
+        .rangeChart(nbOfProductsChart)
         .x(d3.scaleTime().domain([new Date(2014, 1, 1), new Date(2015, 7, 1)]))
         .round(d3.timeMonth.round)
         .xUnits(d3.timeMonths)
         .elasticY(true)
         .renderHorizontalGridLines(true)
+        .brushOn(false)
+
+        .group(meanPriceGroup)
+        .valueAccessor(function (p) {
+            return p.value.avg;
+        })
         .title(function (d) {
             var value = d.value.avg ? d.value.avg : d.value;
             if (isNaN(value)) {
@@ -393,23 +382,23 @@ d3.csv('test3.csv').then(function (data) {
 
     // Customize axes
 
-    fluctuationChart.yAxis().ticks(5);
+    meanPriceChart.yAxis().ticks(5);
 
     //#### Stacked Area Chart
 
     //Specify an area chart by using a line chart with `.renderArea(true)`.
     // <br>API: [Stack Mixin](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#stack-mixin),
     // [Line Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#line-chart)
-    moveChart /* dc.lineChart('#monthly-move-chart', 'chartGroup') */
+    nbOfProductsChart /* dc.lineChart('#monthly-move-chart', 'chartGroup') */
         .renderArea(true)
         .width(990)
         .height(200)
         .transitionDuration(1000)
         .margins({top: 40, right: 50, bottom: 25, left: 40})
         .dimension(dateDimension)
-        .mouseZoomable(true)
+        .mouseZoomable(false)
     // Specify a "range chart" to link its brush extent with the zoom of the current "focus chart".
-        .rangeChart(volumeChart)
+        .rangeChart(nbOfVendorsChart)
         .x(d3.scaleTime().domain([new Date(2014, 1, 1), new Date(2015, 6, 1)]))
         .round(d3.timeMonth.round)
         .xUnits(d3.timeMonths)
@@ -423,7 +412,7 @@ d3.csv('test3.csv').then(function (data) {
         // Add the base layer of the stack with group. The second parameter specifies a series name for use in the
         // legend.
         // The `.valueAccessor` will be used for the base layer
-        .group(volumeByMonthGroup, 'Number of products available')
+        .group(nbProductsGroup, 'Number of products available')
         // Title can be called by any stack layer.
         .title(function (d) {
             var value = d.value.avg ? d.value.avg : d.value;
@@ -437,25 +426,17 @@ d3.csv('test3.csv').then(function (data) {
 
     // Since this bar chart is specified as "range chart" for the area chart, its brush extent
     // will always match the zoom of the area chart.
-    volumeChart.width(990) /* dc.barChart('#monthly-volume-chart', 'chartGroup'); */
+    nbOfVendorsChart.width(990) /* dc.barChart('#monthly-volume-chart', 'chartGroup'); */
         .height(80)
         .margins({top: 20, right: 50, bottom: 20, left: 40})
         .dimension(dateDimension)
-        .group(monthlyMoveGroup, 'Number of vendors')
+        .group(nbVendorsGroup, 'Number of vendors')
         .legend(dc.legend().x(40).y(0).itemHeight(13).gap(5))
         .x(d3.scaleTime().domain([new Date(2014, 1, 1), new Date(2015, 6, 1)]))
         .round(d3.timeMonth.round)
         .xUnits(d3.timeMonths)
         .elasticY(true)
-        .elasticX(true)
-        .brushOn(false)
-        .title(function (d) {
-            var value = d.value.avg ? d.value.avg : d.value;
-            if (isNaN(value)) {
-                value = 0;
-            }
-            return dateFormat(d.key) + '\n' + numberFormat(value);
-        });
+        ;
 
 
     //#### Rendering
