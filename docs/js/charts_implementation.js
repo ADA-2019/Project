@@ -1,6 +1,7 @@
 /**
  *    from products
  */
+
 var ctx = document.getElementById('from_product_chart').getContext('2d');
 
 var from_product_chart = new Chart(ctx, {
@@ -108,7 +109,8 @@ var from_product_chart = new Chart(ctx, {
     maintainAspectRatio: false,
     title: {
       display: true,
-      text: 'Number of products sent to each continent per days'
+      text: 'Number of products sent to each continent per days',
+      fontSize: 18
     },
     scales: {
         xAxes: [{
@@ -248,7 +250,8 @@ var from_product_chart = new Chart(ctx, {
     maintainAspectRatio: false,
     title: {
       display: true,
-      text: 'Number of products sent from each continent per days'
+      text: 'Number of products sent from each continent per days',
+      fontSize: 18
     },
     scales: {
         xAxes: [{
@@ -313,7 +316,8 @@ var nbProductsChart = new Chart(ctx, {
     maintainAspectRatio: false,
     title: {
       display: true,
-      text: 'Number of products listed on Agora Market per day'
+      text: 'Number of products per day listed on Agora Market',
+      fontSize: 18
     },
     scales: {
         xAxes: [{
@@ -430,7 +434,7 @@ var priceChart = new Chart(ctx, {
                535.46391004, 537.47067605, 538.16585679, 536.01084754,
                532.18179053, 528.11499942, 513.2632031 , 506.50381766,
                505.80236663, 499.88612868, 492.1201984 , 484.31627365],
-        label: "Price(USD)",
+        label: "Median price of products (USD)",
         borderColor: "#3e95cd",
         fill: false
       },
@@ -446,7 +450,7 @@ var priceChart = new Chart(ctx, {
                242.88, 247.09, 253.07, 255.27, 243.69, 236.54, 231.24, 219.43,
                240.36, 236.25, 241.73, 241.4 , 225.77, 228.85, 233.42, 244.53,
                242.6 , 257.04, 256.49, 269.96],
-        label: "Price(BTC)",
+        label: "Exchange rate (BTC)",
         borderColor: "#f1c40f",
         fill: false
       }
@@ -457,7 +461,8 @@ var priceChart = new Chart(ctx, {
     maintainAspectRatio: false,
     title: {
       display: true,
-      text: 'Average price of products listed on Agora Market'
+      text: 'Median price of products listed on Agora Market per day',
+      fontSize: 18
     },
     scales: {
         xAxes: [{
@@ -541,7 +546,7 @@ var meanProductsChart = new Chart(ctx, {
                23.28217822, 23.82380216, 23.67005076, 22.96119929, 24.91162029,
                25.19124797, 25.39302694, 24.97094017, 26.33870968, 26.8994614 ,
                26.68959108],
-        label: "Sellers who stayed",
+        label: "Suppliers who stayed",
         borderColor: "#e55039",
         fill: false
       },
@@ -559,7 +564,7 @@ var meanProductsChart = new Chart(ctx, {
                 0         , 0          , 0          , 0          , 0          ,
                 0         , 0          , 0          , 0          , 0          ,
                 0],
-        label: "sellers who have retired",
+        label: "Suppliers who have retired",
         borderColor: "#38ada9",
         fill: false
       },
@@ -577,7 +582,7 @@ var meanProductsChart = new Chart(ctx, {
                20.62350381, 20.48832866, 20.31344793, 19.83991684, 21.03849765,
                21.08449396, 21.20144535, 21.40349176, 22.14327485, 21.81529851,
                21.08127854],
-        label: "All sellers",
+        label: "All suppliers on the market",
         borderColor: "#3e95cd",
         fill: false
       }
@@ -588,7 +593,8 @@ var meanProductsChart = new Chart(ctx, {
     maintainAspectRatio: false,
     title: {
       display: true,
-      text: 'Number of products listed on Agora Market per day'
+      text: 'Average number of products listed by suppliers who left or stayed after Onymous',
+      fontSize: 18
     },
     scales: {
         xAxes: [{
@@ -683,7 +689,7 @@ var newVendors_chart = new Chart(ctx, {
         2.625     ,  5.06666667,  4.31666667,  1.        ,  4.75      ,
         6.16666667,  5.91666667,  4.48076923,  2.1575985 ,  4.13271162,
         6.70588235],
-        label: "Number Of Suppliers",
+        label: "Number of new suppliers",
         borderColor: "#3e95cd",
         fill: true
       }
@@ -695,7 +701,8 @@ var newVendors_chart = new Chart(ctx, {
     maintainAspectRatio: false,
     title: {
       display: true,
-      text: 'Number of new suppliers with at least one product listed on Agora Market per day'
+      text: 'Number of new suppliers with at least one product listed on Agora Market per day',
+      fontSize: 18
     },
     scales: {
         xAxes: [{
@@ -766,6 +773,7 @@ let dados = {
         // cria-se uma propriedade para adicionar cores aos respectivos valores do vetor data
         backgroundColor: ['rgb(255, 99, 132)', 'rgb(255, 199, 132)', 'rgb(55, 99, 132)']
     }],
+   
     // cria-se legendas para os respectivos valores do vetor data
     labels: ['Only Shop on Agora', 'Shops on Agora and Busted Market', 'Shops on Agora and Surviving Market']
 };
@@ -781,8 +789,22 @@ let dado = {
     labels: ['Only Shop on Agora', 'Shops on Agora and Busted Market', 'Shops on Agora and Surviving Market']
 };
 
-let opcoes = {
-    cutoutPercentage: 40,
+let opcoes_1 = {
+   title: {
+      display: true,
+      text: 'Number of markets used by suppliers who retired after Onymous',
+      fontSize: 18
+    },
+    cutoutPercentage: 40
+};
+
+let opcoes_2 = {
+   title: {
+      display: true,
+      text: 'Number of markets used by suppliers who stayed after Onymous',
+      fontSize: 18
+    },
+    cutoutPercentage: 40
 };
 
 var ctx = document.getElementById('donutAfter_chart').getContext('2d');
@@ -790,7 +812,7 @@ var ctx = document.getElementById('donutAfter_chart').getContext('2d');
 let meuDonutAfterChart = new Chart(ctx, {
     type: 'doughnut',
     data: dados,
-    options: opcoes
+    options: opcoes_2
 });
 
 var ctx = document.getElementById('donutBefore_chart').getContext('2d');
@@ -798,7 +820,7 @@ var ctx = document.getElementById('donutBefore_chart').getContext('2d');
 let meuDonutBeforeChart = new Chart(ctx, {
     type: 'doughnut',
     data: dado,
-    options: opcoes
+    options: opcoes_1
 });
 
 /**
@@ -1111,7 +1133,8 @@ var categoriesChart = new Chart(ctx, {
     },
     title: {
       display: true,
-      text: 'Number Of Active Vendors on Agora Market per day'
+      text: 'Proportion of products per day and category available on Agora Market',
+      fontSize: 18
     },
     scales: {
         xAxes: [{
