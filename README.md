@@ -7,22 +7,17 @@ With this new kind of distribution,  law enforcement had to adapt in order to re
 
 If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as **Operation Onymous** on the darknet us.
 
-## Data story
-Data story site can be found [here](https://ada-2019.github.io/Project/).
-The Notebook we relied on to make it is Milestone2.ipynb
-
-### Research questions
-During this project, we will address several research questions regarding impact of **Operation Onymous** on the darknet:
-* How did the markets spread evolve ?
-* How did it affect the global sales on a short and a longer timescale ?
-* How was the user traffic affected ?
-* How did the vendors habits and operations security evolve ?
-* How was the "online traffic" popularity affected ?
-* Were there any trends in the forums during this kind of intervention ?
+## Research questions
+During this project, we will address several research questions regarding impact of **Operation Onymous** on the darknet market **Agora**:
+* How did the markets was impacted  in term of volumes, categories of products?
 * How did the prices evolve globally ?
+* How the import/export flows were impacted ? 
+* How did it affect the global sales on a short and a longer timescale ?
+* How did the vendors habits and operations security evolve ?
 
-### Dataset
-#####  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
+
+## Dataset
+####  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
 
   - ###### Description
   The archive contains mostly scrapped _html_ pages from the many marketplaces, forums and other services (e.g. _Grams_ search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of _html_ pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies.  All the directories are compressed using `tar.gz` compression. The whole archive is about `60 GiB` compressed and estimated to be about `1TiB` completely uncompressed.
@@ -31,7 +26,7 @@ During this project, we will address several research questions regarding impact
   - ##### Data Enrichment and Processing
   Using online resources like the description of the dataset or tools from provided and found papers. As mentioned in the source description, the incompleteness of the Dataset will require a thorough study of the semantic behind the data as well as the use of adapted tools and methods.
 
-##### Tree structure
+#### Tree structure
 ```
 data/
 └── agora
@@ -59,14 +54,17 @@ data/
 
 ```
 
+## Data story and Analysis
+ - A Data story website relating our findings can be found [here](https://ada-2019.github.io/Project/).
+ - The Jupyter Notebook we relied on to make it is Milestone2.ipynb
+
 ## Conclusion
-We have seen that Operation Onymous did not have a huge impact on the market as it went back to normal shortly after Operation Onymous. However it leads to interesting changes on the vendors behalf : the small suppliers tend to quit the market while the bigger ones seem to grow. One could then ask if the operation was a success since it reduce the number of vendors but it advantages the bigger ones who are supposedly the hardest to arrest. Either way, during this project we manage to extract information from a huge amount of data and make a nice Data Story out of it.
+We have seen that Operation Onymous did not have a huge impact on the market as it went back to normal shortly after Operation Onymous. However it leads to interesting changes on the vendors behalf : the small suppliers tend to quit the market while the bigger ones seem to grow. One could then ask if the operation was a success since it reduce the number of vendors but it didn't disturb the bigger ones who are supposedly the hardest to arrest. Either way, during this project we manage to extract information from a huge amount of data and make a nice Data Story out of it.
 
 ## Further Researches
 The darknet is a really interesting source of data and one could imagine continue this project with other research questions to highlight the impacts of Operation Onymous or similar operations typically by analysing the impact they had on other market or by taking in account external parameters that could influence the market.
 Doing other data analysis project on drug consumption and weapon trafic and merge the result with darknet exchanges could also bring an interesting point of view on the subject.
-
-
+ss
 ## References
 - 'Dark Net Market archives, 2013-2015'
         - Gwern Branwen and al.,

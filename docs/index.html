@@ -463,66 +463,73 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+      <div class="row">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
 
-                    <div id="vendors-bubble-chart" class="dc-chart">
-                        <strong>Vendors Insights</strong>
-                        <a class="reset" href="javascript:VendorsDealsProductsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                        <div class="clearfix"></div>
-                    </div>
-                    <!--<p class="muted">select a type of vendor to filter</p>-->
-                </div>
-            </div>
-            <div class="row" style="margin-top: 30px">
-                <div class="col-xs-11 col-sm-11 col-md-11 offset-1">
+          <div id="vendors-bubble-chart" class="dc-chart">
+            <strong>Classification of the suppliers by products sold, number of vendors and mean price</strong>
+            <a class="reset" href="javascript:VendorsDealsProductsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+          <!--<p class="muted">select a type of vendor to filter</p>-->
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
 
-                    <div id="nbMarket-chart" class="dc-chart">
-                        <strong>Number of markets</strong>
-                        <a class="reset" href="javascript:nbOfMarketsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div id="country-chart" class="dc-chart">
-                        <strong>Origin country</strong>
-                        <a class="reset" href="javascript:originCountryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div id="cat-products-chart" class="dc-chart" style="fill: black;">
-                        <strong>Category of products</strong>
-                        <a class="reset" href="javascript:productsCategoryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                        <div class="clearfix"></div>
+           <div id="price-chart" class="dc-chart">
+            <center><strong>Mean price of the available products</strong></center>
+            <a class="reset" href="javascript:meanPriceChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
 
-                    </div>
-                    <div id="price-chart" class="dc-chart">
-                        <strong>Mean price</strong>
-                        <a class="reset" href="javascript:meanPriceChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                        <div class="clearfix"></div>
+          </div>
+          
+          <div id="cat-products-chart" class="dc-chart" style="fill: black;">
+            <center><strong>Top 5 categories of products</strong></center>
+            <a class="reset" href="javascript:productsCategoryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
 
-                    </div>
+          </div>
+         
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-11 col-sm-11 col-md-11 col-11 offset-1 aligncenter" align="left">
-                    <!--<p class="muted" >select a category of vendor or product to filter</p>-->
-                </div>
-            </div>
-            <div class="row" style="margin-top: 30px">
-                <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
-                    <div id="nbProducts-chart" class="dc-chart">
-                        <strong>Total number of products</strong>
-                        <span class="reset" style="display: none;">range: <span class="filter" style="display: none;"></span></span>
-                        <a class="reset" href="javascript:nbOfProductsChart.filterAll();nbOfVendorsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 30px">
-                <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
-                    <div id="nbVendors-chart" class="dc-chart"></div>
-                    <!--<p class="muted" style="margin-right: 25px;">select a time range to zoom in</p>-->
+        </div>
 
-                </div>
-            </div>
+
+      </div>
+      <div class="row" >
+        <div class="col-xs-11 col-sm-11 col-md-11 col-11 offset-1 aligncenter" align="left">
+          <!--<p class="muted" >select a category of vendor or product to filter</p>-->
+        </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+          <div id="nbProducts-chart" class="dc-chart">
+            <strong>Total number of products</strong>
+            <span class="reset" style="display: none;">range: <span class="filter" style="display: none;"></span></span>
+            <a class="reset" href="javascript:nbOfProductsChart.filterAll();nbOfVendorsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+        
+          <div id="nbMarket-chart" class="dc-chart">
+            <p><strong>Number of markets</strong></p>
+            <a class="reset" href="javascript:nbOfMarketsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+          </div>
+      </div>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+          <div id="nbVendors-chart" class="dc-chart"><strong>Total number of vendors</strong><div class="clearfix"></div></div>
+          <div id="country-chart" class="dc-chart">
+            <strong>Vendors' Origin country</strong>
+            <a class="reset" href="javascript:originCountryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--<p class="muted" style="margin-right: 25px;">select a time range to zoom in</p>-->
+
+        </div>
+      </div>
 
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">

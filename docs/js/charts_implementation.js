@@ -960,7 +960,7 @@ var ctx = document.getElementById('categories_chart').getContext('2d');
 var categoriesChart = new Chart(ctx, {
   type: 'line',
   data: {
-    responsive:true,
+    responsive:false,
     labels: [moment('2014-01-01', "YYYY-MM-DD"), moment('2014-01-09', "YYYY-MM-DD"), moment('2014-01-16', "YYYY-MM-DD"), moment('2014-01-26', "YYYY-MM-DD"), moment('2014-02-02', "YYYY-MM-DD"),
                moment('2014-02-05', "YYYY-MM-DD"), moment('2014-02-23', "YYYY-MM-DD"), moment('2014-02-24', "YYYY-MM-DD"), moment('2014-02-28', "YYYY-MM-DD"),
                moment('2014-03-03', "YYYY-MM-DD"), moment('2014-03-06', "YYYY-MM-DD"), moment('2014-04-06', "YYYY-MM-DD"), moment('2014-08-27', "YYYY-MM-DD"),
@@ -1172,6 +1172,9 @@ var categoriesChart = new Chart(ctx, {
             
         }],
         yAxes: [{
+          afterFit: function(scale) {
+             scale.width = 80 //<-- set value as you wish 
+          },
           stacked: true,
         }]
     },
