@@ -30,6 +30,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.14.2/d3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.5.0/crossfilter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/3.1.8/dc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 
 
     <!-- Custom styles for this template -->
@@ -396,19 +397,19 @@
           </div>
       </div>
       <div class="row" style=";margin-top:90px">
-        <div class="col-xs-12 col-sm-12 col-md-5 offset-1">
+        <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
           <center>
-            <div class="chart-container" style=" height:160vh; width:160%; min-width: 60vh">
-              <canvas id="donutBefore_chart"></canvas>
+            <div class="chart-container" style="width:100%; min-width: 60vh">
+              <canvas id="donutBefore_chart" width="100%" height="100%"></canvas>
             </div>
           </center>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-5">
+        <div class="col-xs-12 col-sm-12 col-md-4 offset-2">
 
           <center>
-            <div class="chart-container" style=" height:160vh; width:160%; min-width: 60vh">
-              <canvas id="donutAfter_chart"></canvas>
+            <div class="chart-container" style=" width:100%; min-width: 60vh">
+              <canvas id="donutAfter_chart" width="100%" height="100%"></canvas>
             </div>
           </center>
         </div>
@@ -501,7 +502,7 @@
       </div>
       <div class="row" style="margin-top: 30px">
         <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
-          <div id="nbVendors-chart" class="dc-chart"></div>
+          <div id="nbVendors-chart" class="dc-chart"><strong>Total number of vendors</strong></div>
           <!--<p class="muted" style="margin-right: 25px;">select a time range to zoom in</p>-->
 
         </div>

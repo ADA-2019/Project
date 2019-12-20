@@ -1,7 +1,7 @@
 /**
  *    from products
  */
-
+Chart.plugins.unregister(ChartDataLabels);
 var ctx = document.getElementById('from_product_chart').getContext('2d');
 
 var from_product_chart = new Chart(ctx, {
@@ -795,7 +795,21 @@ let opcoes_1 = {
       text: 'Number of markets used by suppliers who retired after Onymous',
       fontSize: 18
     },
-    cutoutPercentage: 40
+    cutoutPercentage: 40,
+    plugins: { 
+        datalabels: {
+            formatter: (value, ctx) => {
+                let sum = 0;
+                let dataArr = ctx.chart.data.datasets[0].data;
+                dataArr.map(data => {
+                    sum += data;
+                });
+                let percentage = (value*100 / sum).toFixed(2)+"%";
+                return percentage;
+            },
+            color: '#fff',
+        }
+    }
 };
 
 let opcoes_2 = {
@@ -804,7 +818,21 @@ let opcoes_2 = {
       text: 'Number of markets used by suppliers who stayed after Onymous',
       fontSize: 18
     },
-    cutoutPercentage: 40
+    cutoutPercentage: 40,
+    plugins: {
+        datalabels: {
+            formatter: (value, ctx) => {
+                let sum = 0;
+                let dataArr = ctx.chart.data.datasets[0].data;
+                dataArr.map(data => {
+                    sum += data;
+                });
+                let percentage = (value*100 / sum).toFixed(2)+"%";
+                return percentage;
+            },
+            color: '#fff',
+        }
+    }
 };
 
 var ctx = document.getElementById('donutAfter_chart').getContext('2d');
@@ -812,6 +840,7 @@ var ctx = document.getElementById('donutAfter_chart').getContext('2d');
 let meuDonutAfterChart = new Chart(ctx, {
     type: 'doughnut',
     data: dados,
+    plugins: [ChartDataLabels],
     options: opcoes_2
 });
 
@@ -820,6 +849,7 @@ var ctx = document.getElementById('donutBefore_chart').getContext('2d');
 let meuDonutBeforeChart = new Chart(ctx, {
     type: 'doughnut',
     data: dado,
+    plugins: [ChartDataLabels],
     options: opcoes_1
 });
 
