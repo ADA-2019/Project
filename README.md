@@ -22,7 +22,6 @@ During this project, we will address several research questions regarding impact
 * How was the user traffic affected ?
 * How did the vendors habits and operations security evolve ?
 * How was the "online traffic" popularity affected ?
-* Were there any trends in the forums during this kind of intervention ?
 * How did the prices evolve globally ?
 
 ### Dataset
@@ -62,6 +61,9 @@ data/
         └── index.php?action=stats # Contains num of posts, replies, and other global stats
 
 ```
+##### Data Inconsistency
+
+Due to a process of automatic parsing, prone to failure, the data is inconsistent and part of it is unusable. Usually it is because the web scraping failed so the files are incomplete at best if not inexistent at all. We were force to get rid of many scrapped dates because of that, to avoid plots leading to wrong conclusions.
 
 ## Conclusion
 We have seen that Operation Onymous did not have a huge impact on the market as it went back to normal shortly after Operation Onymous. However it leads to interesting changes on the vendors behalf : the small suppliers tend to quit the market while the bigger ones seem to grow. One could then ask if the operation was a success since it reduce the number of vendors but it advantages the bigger ones who are supposedly the hardest to arrest. Either way, during this project we manage to extract information from a huge amount of data and make a nice Data Story out of it.
@@ -69,6 +71,12 @@ We have seen that Operation Onymous did not have a huge impact on the market as 
 ## Further Researches
 The darknet is a really interesting source of data and one could imagine continue this project with other research questions to highlight the impacts of Operation Onymous or similar operations typically by analysing the impact they had on other market or by taking in account external parameters that could influence the market.
 Doing other data analysis project on drug consumption and weapon trafic and merge the result with darknet exchanges could also bring an interesting point of view on the subject.
+
+## Contributions
+* Arthur: Forum analysis, Grams pages parsing, vendors analysis
+* François: Data story page, products analysis
+* Florine: Data story texts, poster, presentation ?
+* Quentin: Agora web pages parsing, product price analysis
 
 
 ## References
