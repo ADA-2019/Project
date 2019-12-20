@@ -163,7 +163,7 @@ d3.csv('test3.csv').then(function (data) {
         .height(250)
         // (_optional_) define chart transition duration, `default = 750`
         .transitionDuration(750)
-        .margins({top: 10, right: 50, bottom: 30, left: 40})
+        .margins({top: 30, right: 60, bottom: 50, left: 60})
         .dimension(nbDealsDimension)
         //The bubble chart expects the groups are reduced to multiple values which are used
         //to generate x, y, and radius for each key (bubble) in the group
@@ -394,7 +394,7 @@ d3.csv('test3.csv').then(function (data) {
         .width(990)
         .height(200)
         .transitionDuration(1000)
-        .margins({top: 40, right: 50, bottom: 25, left: 40})
+        .margins({top: 30, right: 60, bottom: 30, left: 60})
         .dimension(dateDimension)
         .mouseZoomable(false)
     // Specify a "range chart" to link its brush extent with the zoom of the current "focus chart".
@@ -427,8 +427,8 @@ d3.csv('test3.csv').then(function (data) {
     // Since this bar chart is specified as "range chart" for the area chart, its brush extent
     // will always match the zoom of the area chart.
     nbOfVendorsChart.width(990) /* dc.barChart('#monthly-volume-chart', 'chartGroup'); */
-        .height(80)
-        .margins({top: 20, right: 50, bottom: 20, left: 40})
+        .height(200)
+        .margins({top: 30, right: 60, bottom: 30, left: 60})
         .dimension(dateDimension)
         .group(nbVendorsGroup, 'Number of vendors')
         .legend(dc.legend().x(40).y(0).itemHeight(13).gap(5))

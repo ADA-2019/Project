@@ -30,6 +30,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.14.2/d3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.5.0/crossfilter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/3.1.8/dc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 
 
     <!-- Custom styles for this template -->
@@ -424,35 +425,21 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style=";margin-top:90px">
-                <div class="col-xs-12 col-sm-12 col-md-5 offset-1">
-                    <center>
-                        <div class="chart-container" style=" height:160vh; width:160%; min-width: 60vh">
-                            <canvas id="donutBefore_chart"></canvas>
-                        </div>
-                    </center>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-5">
-
-                    <center>
-                        <div class="chart-container" style=" height:160vh; width:160%; min-width: 60vh">
-                            <canvas id="donutAfter_chart"></canvas>
-                        </div>
-                    </center>
-                </div>
+          </div>
+      <div class="row" style=";margin-top:90px">
+        <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+          <center>
+            <div class="chart-container" style="width:100%; min-width: 60vh">
+              <canvas id="donutBefore_chart" width="100%" height="100%"></canvas>
             </div>
+          </center>
+        </div>
 
-            <div class="row" style=";margin-top:90px">
-                <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
-                    <div>
-                        <h2 align="center" style="margin-bottom: 20px"><strong>What we can conclude</strong></h2>
-                        <p align="justify">
-                            The vendor analysis tells us an interesting story : the Operation Onymous clearly had an impact on the vendors and espetially on the small ones. In the other hand, the big suppliers of Agora market have gotten even bigger.
-                            This is explain by the fact that they used several platforms, and since Operation Onymous closed some of the markets, they regroup their listing on surviving markets.
-                        </p>
-                    </div>
-                </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 offset-2">
+
+          <center>
+            <div class="chart-container" style=" width:100%; min-width: 60vh">
+              <canvas id="donutAfter_chart" width="100%" height="100%"></canvas>
             </div>
         </div>
     </section>
@@ -469,8 +456,6 @@
 
                         <p align="justify">
                             Here we let you play with our dataset, to dig yourself inside the Agora market data. [TODO 'tuto' plots ?]
-
-
                         </p>
                     </div>
                 </div>
@@ -513,8 +498,6 @@
                     </div>
 
                 </div>
-
-
             </div>
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-11 col-11 offset-1 aligncenter" align="left">
