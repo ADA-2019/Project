@@ -260,7 +260,7 @@ d3.csv('test3.csv').then(function (data) {
     // on other charts within the same chart group.
     // <br>API: [Pie Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#pie-chart)
 
-    nbOfMarketsChart /* dc.pieChart('#gain-loss-chart', 'chartGroup') */
+nbOfMarketsChart /* dc.pieChart('#gain-loss-chart', 'chartGroup') */
     // (_optional_) define chart width, `default = 200`
         .width(180)
     // (optional) define chart height, `default = 200`
@@ -313,9 +313,9 @@ d3.csv('test3.csv').then(function (data) {
     // on other charts within the same chart group.
     // <br>API: [Row Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#row-chart)
     productsCategoryChart /* dc.rowChart('#day-of-week-chart', 'chartGroup') */
-        .width(480)
+        .width(250)
         .height(180)
-        .margins({top: 20, left: 120, right: 20, bottom: 20})
+        .margins({top: 20, left: 100, right: 20, bottom: 20})
         .group(productsCategoriesGroup)
         .dimension(productsCategories)
         // Assign colors to each value in the x scale domain
@@ -355,7 +355,7 @@ d3.csv('test3.csv').then(function (data) {
     // on other charts within the same chart group.
     // <br>API: [Bar Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#bar-chart)
     meanPriceChart /* dc.barChart('#volume-month-chart', 'chartGroup') */
-        .width(470)
+        .width(350)
         .height(180)
         .margins({top: 20, right: 20, bottom: 20, left: 40})
         .transitionDuration(1000)
@@ -365,7 +365,6 @@ d3.csv('test3.csv').then(function (data) {
         .round(d3.timeMonth.round)
         .xUnits(d3.timeMonths)
         .elasticY(true)
-        .elasticX(true)
         .renderHorizontalGridLines(true)
         .brushOn(false)
 
@@ -385,6 +384,7 @@ d3.csv('test3.csv').then(function (data) {
 
     meanPriceChart.yAxis().ticks(5);
 
+
     //#### Stacked Area Chart
 
     //Specify an area chart by using a line chart with `.renderArea(true)`.
@@ -392,7 +392,7 @@ d3.csv('test3.csv').then(function (data) {
     // [Line Chart](https://github.com/dc-js/dc.js/blob/master/web/docs/api-latest.md#line-chart)
     nbOfProductsChart /* dc.lineChart('#monthly-move-chart', 'chartGroup') */
         .renderArea(true)
-        .width(750)
+        .width(990)
         .height(200)
         .transitionDuration(1000)
         .margins({top: 30, right: 20, bottom: 20, left: 50})
@@ -427,13 +427,13 @@ d3.csv('test3.csv').then(function (data) {
 
     // Since this bar chart is specified as "range chart" for the area chart, its brush extent
     // will always match the zoom of the area chart.
-    nbOfVendorsChart.width(750) /* dc.barChart('#monthly-volume-chart', 'chartGroup'); */
+    nbOfVendorsChart.width(990) /* dc.barChart('#monthly-volume-chart', 'chartGroup'); */
         .height(200)
         .margins({top: 30, right: 30, bottom: 40, left: 50})
         .dimension(dateDimension)
         .rangeChart(nbOfProductsChart)
         .group(nbVendorsGroup, 'Number of vendors')
-        .legend(dc.legend().x(40).y(0).itemHeight(13).gap(5))
+        .legend(dc.legend().x(800).y(10).itemHeight(13).gap(5))
         .x(d3.scaleTime().domain([new Date(2014, 1, 1), new Date(2015, 6, 1)]))
         .round(d3.timeMonth.round)
         .xUnits(d3.timeMonths)

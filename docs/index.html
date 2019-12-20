@@ -141,7 +141,7 @@
             <div class="row" style="margin-top: 90px;">
                 <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
                     <center>
-                        <div class="chart-container" style=" height:40vh; width:100%; min-width: 60vh">
+                        <div class="chart-container" style=" height:50vh; width:100%; min-width: 60vh">
                             <canvas id="categories_chart"></canvas>
                         </div>
                         <br>
@@ -275,7 +275,7 @@
             <div class="row" style=";margin-top:90px">
                 <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
                     <div>
-                        <h1 align="center"><strong>Worldwide exportation</strong></h1>
+                        <h1 align="center" style="margin-bottom: 20px"><strong>Worldwide exportation</strong></h1>
 
                         <p align="justify">
                             If we take a closer look at the import/export traffic, we can see one clear trend after the Onymous strike in the exportation plot. Indeed, clear fall in worldwide exportations seems to happen right after the event. As the breakup is clear, one could assume it's the result of
@@ -422,7 +422,7 @@
             </div>
           </div>
       <div class="row" style=";margin-top:90px">
-        <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
+        <div class="col-xs-12 col-sm-12 col-md-4 offset-2">
           <center>
             <div class="chart-container" style="width:100%; min-width: 60vh">
               <canvas id="donutBefore_chart" width="100%" height="100%"></canvas>
@@ -430,7 +430,7 @@
           </center>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-4 offset-2">
+        <div class="col-xs-12 col-sm-12 col-md-4 offset-1">
 
           <center>
             <div class="chart-container" style=" width:100%; min-width: 60vh">
@@ -450,84 +450,80 @@
                     <div>
 
                         <p align="justify">
-                            Here we let you play with our dataset, to dig yourself inside the Agora market data.
+                            Here we let you play with our dataset, to dig yourself inside the Agora market data. Every chart is parametrable, you can try different filters, if you click for example on Counterfeits in the top five category, you will see all the data updated accordingly, see that a lot of this products are sent from Asia. You can also select a range of dates by click and drag with the bottom charts.
                         </p>
                     </div>
                 </div>
             </div>
+                       <div class="row">
+                <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+
+                    <div id="vendors-bubble-chart" class="dc-chart">
+                        <strong>Vendors Insights</strong>
+                        <a class="reset" href="javascript:VendorsDealsProductsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--<p class="muted">select a type of vendor to filter</p>-->
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px">
+                <div class="col-xs-11 col-sm-11 col-md-11 offset-1">
+
+                    <div id="nbMarket-chart" class="dc-chart">
+                        <center><strong>Number of markets</strong></center>
+                        <a class="reset" href="javascript:nbOfMarketsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="country-chart" class="dc-chart">
+                        <center><strong>Origin country</strong></center>
+                        <a class="reset" href="javascript:originCountryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="cat-products-chart" class="dc-chart" style="fill: black;">
+                        <center><strong>Category of products</strong></center>
+                        <a class="reset" href="javascript:productsCategoryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+
+                    </div>
+                    <div id="price-chart" class="dc-chart">
+                        <center><strong>Mean price</strong></center>
+                        <a class="reset" href="javascript:meanPriceChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+
+                    </div>
+
+                </div>
+            </div>
             <div class="row">
-      <div class="row">
-        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+                <div class="col-xs-11 col-sm-11 col-md-11 col-11 offset-1 aligncenter" align="left">
+                    <!--<p class="muted" >select a category of vendor or product to filter</p>-->
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px">
+                <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+                    <div id="nbProducts-chart" class="dc-chart">
+                        <strong>Total number of products</strong>
+                        <span class="reset" style="display: none;">range: <span class="filter" style="display: none;"></span></span>
+                        <a class="reset" href="javascript:nbOfProductsChart.filterAll();nbOfVendorsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px">
+                <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
+                    <div id="nbVendors-chart" class="dc-chart"></div>
+                    <!--<p class="muted" style="margin-right: 25px;">select a time range to zoom in</p>-->
 
-          <div id="vendors-bubble-chart" class="dc-chart">
-            <strong>Classification of the suppliers by products sold, number of vendors and mean price</strong>
-            <a class="reset" href="javascript:VendorsDealsProductsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-          </div>
-          <!--<p class="muted">select a type of vendor to filter</p>-->
-        </div>
-      </div>
-      <div class="row" style="margin-top: 30px">
-        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
-
-           <div id="price-chart" class="dc-chart">
-            <center><strong>Mean price of the available products</strong></center>
-            <a class="reset" href="javascript:meanPriceChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-
-          </div>
-          
-          <div id="cat-products-chart" class="dc-chart" style="fill: black;">
-            <center><strong>Top 5 categories of products</strong></center>
-            <a class="reset" href="javascript:productsCategoryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-
-          </div>
-         
-
-        </div>
+                </div>
+            </div>
 
 
-      </div>
-      <div class="row" >
-        <div class="col-xs-11 col-sm-11 col-md-11 col-11 offset-1 aligncenter" align="left">
-          <!--<p class="muted" >select a category of vendor or product to filter</p>-->
-        </div>
-      </div>
-      <div class="row" style="margin-top: 30px">
-        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
-          <div id="nbProducts-chart" class="dc-chart">
-            <strong>Total number of products</strong>
-            <span class="reset" style="display: none;">range: <span class="filter" style="display: none;"></span></span>
-            <a class="reset" href="javascript:nbOfProductsChart.filterAll();nbOfVendorsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-          </div>
-        
-          <div id="nbMarket-chart" class="dc-chart">
-            <p><strong>Number of markets</strong></p>
-            <a class="reset" href="javascript:nbOfMarketsChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-          </div>
-          </div>
-      </div>
-      <div class="row" style="margin-top: 30px">
-        <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter" align="center">
-          <div id="nbVendors-chart" class="dc-chart"><strong>Total number of vendors</strong><div class="clearfix"></div></div>
-          <div id="country-chart" class="dc-chart">
-            <strong>Vendors' Origin country</strong>
-            <a class="reset" href="javascript:originCountryChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
-            <div class="clearfix"></div>
-          </div>
-          
-          <!--<p class="muted" style="margin-right: 25px;">select a time range to zoom in</p>-->
 
-        </div>
-      </div>
 
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-11 offset-1 aligncenter">
                     <div>
-                        <h2 align="center" style="margin-top: 90px;"><strong>Some Conclusions</strong></h2>
+                        <h2 align="center" style="margin-top: 90px;margin-bottom: 20px"><strong>Some Conclusions</strong></h2>
                         <p align="justify">
                           In conclusion, we can say that this analysis portrayed an operation inducing very small damages to its target, considering the market itself grew back to its initial size in about a month.
                           The same could be said for the seized goods, not large enough to affect their price globally. However it seems to have induced interesting changes into the vendors behavior : the small suppliers seemed to quit the market while the bigger ones grew in importance.
