@@ -8,8 +8,8 @@ With this new kind of distribution,  law enforcement had to adapt in order to re
 If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as **Operation Onymous** on the darknet us.
 
 ## Data story
-Data story site can be found [here](https://ada-2019.github.io/Project/).
-The Notebook we relied on to make it is Milestone2.ipynb
+Data story site can be found [here](https://ada-2019.github.io/Project/).  
+The Notebook we relied on to make it is Final_Notebook.ipynb
 
 ### Research questions
 During this project, we will address several research questions regarding impact of **Operation Onymous** on the darknet:
