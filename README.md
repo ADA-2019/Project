@@ -22,7 +22,6 @@ During this project, we will address several research questions regarding impact
 * How was the user traffic affected ?
 * How did the vendors habits and operations security evolve ?
 * How was the "online traffic" popularity affected ?
-* Were there any trends in the forums during this kind of intervention ?
 * How did the prices evolve globally ?
 
 ### Dataset
@@ -69,6 +68,12 @@ We have seen that Operation Onymous did not have a huge impact on the market as 
 ## Further Researches
 The darknet is a really interesting source of data and one could imagine continue this project with other research questions to highlight the impacts of Operation Onymous or similar operations typically by analysing the impact they had on other market or by taking in account external parameters that could influence the market.
 Doing other data analysis project on drug consumption and weapon trafic and merge the result with darknet exchanges could also bring an interesting point of view on the subject.
+
+## Contributions
+* Arthur: Forum analysis, Grams pages parsing, vendors analysis
+* François: Data story page, products analysis
+* Florine: Data story texts, poster, presentation ?
+* Quentin: Agora web pages parsing, product price analysis
 
 
 ## References
