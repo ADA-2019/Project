@@ -7,6 +7,10 @@ With this new kind of distribution,  law enforcement had to adapt in order to re
 
 If the anonymity factor remains intact, tools have been developed to scrape and archive most services available on the _TOR_ network. From forums to marketplaces, including search engines, messaging services, etc. This Project will try to get an overview of the impact of huge raids such as **Operation Onymous** on the darknet us.
 
+### Repository Description
+
+
+
 ## Data story
 Data story site can be found [here](https://ada-2019.github.io/Project/).  
 The Notebook we relied on to make it is Final_Notebook.ipynb
@@ -25,13 +29,13 @@ During this project, we will address several research questions regarding impact
 #####  [_DN Archives (2013-2015)_](https://www.gwern.net/DNM-archives)
 
   - ###### Description
-  The archive contains mostly scrapped _html_ pages from the many marketplaces, forums and other services (e.g. _Grams_ search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of _html_ pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies.  All the directories are compressed using `tar.gz` compression. The whole archive is about `60 GiB` compressed and estimated to be about `1TiB` completely uncompressed.
+    The archive contains mostly scrapped _html_ pages from the many marketplaces, forums and other services (e.g. _Grams_ search engine) that were active during the period mentioned in the title. This raw data is organized first by service, then by date (meaning that for every service, one can go to a specific date and see a list of _html_ pages). Every archive is unambiguous on the format of the platform it represents, standard formatting can then be expected (e.g. item, profile, forum thread, list of items, etc.). However it is expected to be highly incomplete and most likely present inconsistencies.  All the directories are compressed using `tar.gz` compression. The whole archive is about `60 GiB` compressed and estimated to be about `1TiB` completely uncompressed.
   - ###### Data Management and Parsing
-  Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data. Extracted data will most likely be placed into several `Pandas DataFrame` before being processed and prepared for statistical work.
+    Unshaken by the enormous size of this archive, a large amount of processing work is expected in order to filter out all the _html_ formatting data. Extracted data will most likely be placed into several `Pandas DataFrame` before being processed and prepared for statistical work.
   - ##### Data Enrichment and Processing
-  Using online resources like the description of the dataset or tools from provided and found papers. As mentioned in the source description, the incompleteness of the Dataset will require a thorough study of the semantic behind the data as well as the use of adapted tools and methods.
+    Using online resources like the description of the dataset or tools from provided and found papers. As mentioned in the source description, the incompleteness of the Dataset will require a thorough study of the semantic behind the data as well as the use of adapted tools and methods.
 
-##### Tree structure
+##### Data structure tree
 ```
 data/
 └── agora
@@ -85,5 +89,5 @@ Doing other data analysis project on drug consumption and weapon trafic and merg
 
 - 'Do police crackdowns disrupt drug cryptomarkets? A longitudinal analysis of the effects of Operation Onymous'
                 - Décary-Hétu and Giommoni
-                - 2016
-                - http://damonmccoy.com/papers/cyberforum-analysis-www17.pdf
+                    - 2016
+                    - http://damonmccoy.com/papers/cyberforum-analysis-www17.pdfe 
